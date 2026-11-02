@@ -17,6 +17,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Übungsbereich, Phase 2:** Themenauswahl und Filter (Kapitel, Unterkapitel, Schwierigkeit, Quelle, Kompetenz, AFB) sind umgesetzt.
 - **Übungsbereich, Phase 3 – Aufgabenbearbeitung:** Aufgaben lassen sich im Übungsbereich öffnen und bearbeiten. 37 Zahlen- und 6 Zuordnungsaufgaben werden automatisch geprüft; bei allen übrigen gibt es Musterlösung und Selbsteinschätzung. Ergebnisse werden nur lokal im Browser gespeichert und sind zurücksetzbar.
 - **Bearbeitungsmodi und Handschrift:** Alle 425 Aufgaben sind nach Bildschirm/Handschrift eingestuft, der Filter ist aktiv. Eine Schreibfläche für Stift, Maus und optional Finger steht bei freien Aufgaben und als Rechenweg-Fläche bei Zahlenaufgaben zur Verfügung; Handschrift wird derzeit nicht gespeichert.
+- **Bearbeitung auf den Lernseiten:** Übungen und Selbsttests der Lernseiten sind direkt bearbeitbar, mit derselben Komponente und demselben lokalen Ergebnisspeicher wie der Übungsbereich.
 - **Qualitätskontrolle durch den Nutzer:** Am 02.11.2026 ohne Beanstandungen abgeschlossen.
 - **Dokumentierte Zusammenarbeit/Notizen:** Anforderungen an Aufgabenkommentare sowie private und geteilte Handschriftnotizen sind konzeptionell in `research/zusammenarbeit-und-notizen.md` beschrieben, nicht implementiert.
 
@@ -31,7 +32,6 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 
 Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschritte. Umfang und Reihenfolge sind offen.
 
-- Aufgabenbearbeitung auch auf den Lernseiten mit derselben Komponente wie im Übungsbereich.
 - Speicherung der Handschrift im Benutzerkonto.
 - Lernfortschritt und Wiederholungsbedarf. Nach Entscheidung des Nutzers vom 02.11.2026 erst nach Einführung der Benutzerkonten, weil der Fortschritt an die Zugangsdaten gebunden werden soll.
 - Zusammenhängende Prüfungssimulationen und Abiturtraining.

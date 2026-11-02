@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import { ExercisePractice, resultLabels } from '../components/ExercisePractice'
 import { getAllExercises, learningCatalog } from '../content'
 import type { Competency, Difficulty, Exercise, ExerciseMode } from '../content/types'
-import { clearPracticeRecords, loadPracticeRecords, savePracticeRecords, type PracticeRecord, type PracticeRecords } from '../practice/storage'
+import { usePracticeRecords } from '../practice/usePracticeRecords'
 import './ExercisesPage.css'
 
 const competencyLabels: Record<Competency, string> = {
@@ -85,20 +85,11 @@ export function ExercisesPage() {
   const [loadError, setLoadError] = useState(false)
   const [filters, setFilters] = useState<Filters>(initialFilters)
   const [expandedId, setExpandedId] = useState<string | null>(null)
-  const [records, setRecords] = useState<PracticeRecords>(loadPracticeRecords)
-
-  const saveRecord = (id: string, record: PracticeRecord) => {
-    setRecords((current) => {
-      const next = { ...current, [id]: record }
-      savePracticeRecords(next)
-      return next
-    })
-  }
+  const { records, saveRecord, resetRecords: clearRecords } = usePracticeRecords()
 
   const resetRecords = () => {
     if (!window.confirm('Alle auf diesem Gerät gespeicherten Bearbeitungsergebnisse löschen?')) return
-    clearPracticeRecords()
-    setRecords({})
+    clearRecords()
   }
 
   useEffect(() => {

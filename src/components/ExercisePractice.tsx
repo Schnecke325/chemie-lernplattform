@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Exercise, ExerciseAnswer, ExerciseMode } from '../content/types'
 import { HandwritingPad } from './HandwritingPad'
+import './ExercisePractice.css'
 import { combineResults, isWithinTolerance, parseNumber } from '../practice/checkAnswer'
 import type { PracticeRecord, PracticeResult } from '../practice/storage'
 

@@ -1,0 +1,80 @@
+/* Bearbeitung, Schreibfläche und Ergebnis-Etiketten; genutzt im Übungsbereich und auf den Lernseiten. */
+.exercise-practice,.exercise-result-tag{--practice-accent:#8cdec0}
+.exercise-result-tag{display:inline-flex;align-items:center;min-height:21px;padding:3px 7px;border-radius:4px;font:9px var(--mono);letter-spacing:.2px;border:1px solid}
+.exercise-result-tag.result-correct{border-color:#2f5a4a;background:#15281f;color:#9fe0c4}
+.exercise-result-tag.result-partial{border-color:#5a4c2f;background:#262014;color:#e0c48d}
+.exercise-result-tag.result-incorrect{border-color:#5a3434;background:#261616;color:#e8a9a9}
+.practice-actions button{min-height:36px;padding:0 12px;border:1px solid #34443f;border-radius:6px;background:#14201d;color:#b7d9cc;font-size:11px;font-weight:600;cursor:pointer}
+.practice-actions button:hover:not(:disabled){background:#1b2c26;border-color:#547c6d}
+.practice-actions button:disabled{opacity:.48;cursor:not-allowed}
+.exercise-practice{display:grid;gap:14px;padding-top:14px}
+.practice-prompt{margin:0;color:#d7e0de;font-size:14px;line-height:1.7}
+.practice-numeric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.practice-numeric-field{display:grid;gap:6px}
+.practice-numeric-field label,.practice-matching-row label,.practice-own-answer span{color:#a8b5b3;font-size:12px;font-weight:600;line-height:1.4}
+.practice-numeric-input{display:flex;align-items:stretch;border:1px solid #303c44;border-radius:6px;background:#0e1419;overflow:hidden}
+.practice-numeric-input input{flex:1;min-width:0;min-height:42px;padding:0 11px;border:0;background:transparent;color:#e0e8e6;font:14px var(--mono);outline:none}
+.practice-numeric-input span{display:flex;align-items:center;padding:0 11px;border-left:1px solid #303c44;background:#131b21;color:#93a3a1;font:11px var(--mono);white-space:nowrap}
+.practice-numeric-input:focus-within{border-color:#72b99e;box-shadow:0 0 0 2px #72b99e2b}
+.practice-numeric-field small,.practice-matching-row small{font-size:11px;line-height:1.4}
+.practice-numeric-field.is-correct .practice-numeric-input,.practice-matching-row.is-correct select{border-color:#3f7a62}
+.practice-numeric-field.is-incorrect .practice-numeric-input,.practice-matching-row.is-incorrect select{border-color:#7a4545}
+.practice-numeric-field.is-invalid .practice-numeric-input{border-color:#7a6a45}
+.practice-numeric-field.is-correct small,.practice-matching-row.is-correct small{color:#9fe0c4}
+.practice-numeric-field.is-incorrect small,.practice-matching-row.is-incorrect small{color:#e8a9a9}
+.practice-numeric-field.is-invalid small{color:#e0c48d}
+.practice-matching-list{display:grid;gap:9px}
+.practice-matching-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(170px,.6fr);align-items:center;gap:6px 14px}
+.practice-matching-row small{grid-column:2}
+.practice-matching-row select{width:100%;min-height:42px;padding:0 11px;border:1px solid #303c44;border-radius:6px;background:#0e1419;color:#d2dcdb;font:12px var(--display);outline:none}
+.practice-matching-row select:focus-visible{border-color:#72b99e;box-shadow:0 0 0 2px #72b99e2b}
+.practice-check{display:grid;gap:12px;justify-items:start}
+.practice-check>.practice-numeric-grid,.practice-check>.practice-matching-list{width:100%}
+.practice-primary{min-height:40px;padding:0 15px;border:0;border-radius:6px;background:var(--mint);color:#0c1917;font-size:12px;font-weight:700;cursor:pointer}
+.practice-primary:hover:not(:disabled){background:#9ce5ce}
+.practice-primary:disabled{opacity:.5;cursor:not-allowed}
+.practice-own-answer{display:grid;gap:7px}
+.practice-own-answer textarea{width:100%;min-height:96px;padding:10px 11px;border:1px solid #303c44;border-radius:6px;background:#0e1419;color:#e0e8e6;font:13px/1.6 var(--display);resize:vertical;outline:none}
+.practice-own-answer textarea:focus-visible{border-color:#72b99e;box-shadow:0 0 0 2px #72b99e2b}
+.practice-result{margin:0;padding:10px 12px;border:1px solid;border-radius:6px;font-size:12px;line-height:1.5}
+.practice-result.result-correct{border-color:#2f5a4a;background:#15281f;color:#bfeedb}
+.practice-result.result-partial{border-color:#5a4c2f;background:#262014;color:#ecd6aa}
+.practice-result.result-incorrect{border-color:#5a3434;background:#261616;color:#f0c3c3}
+.practice-actions{display:flex;flex-wrap:wrap;gap:8px}
+.practice-hints{display:grid;gap:6px;margin:0;padding:10px 12px 10px 30px;border:1px solid #29363a;border-radius:6px;background:#121a1f;color:#b9c6c3;font-size:12px;line-height:1.6}
+.practice-solution{padding:12px 14px;border:1px solid #2a4139;border-radius:6px;background:#13201c}
+.practice-solution strong{color:var(--practice-accent);font:600 11px var(--mono);letter-spacing:.6px}
+.practice-solution p{margin:6px 0 0;color:#d4dfdc;font-size:13px;line-height:1.7}
+.practice-self{display:grid;gap:9px;color:#a8b5b3;font-size:12px;line-height:1.5}
+.practice-self-buttons{display:flex;flex-wrap:wrap;gap:8px}
+.practice-self-button{min-height:38px;padding:0 13px;border:1px solid #33414a;border-radius:6px;background:#141b21;color:#c3cfcc;font-size:12px;font-weight:600;cursor:pointer}
+.practice-self-button.result-correct.is-active{border-color:#3f7a62;background:#15281f;color:#9fe0c4}
+.practice-self-button.result-partial.is-active{border-color:#7a6a45;background:#262014;color:#e0c48d}
+.practice-self-button.result-incorrect.is-active{border-color:#7a4545;background:#261616;color:#e8a9a9}
+.practice-self-button:hover:not(.is-active){border-color:#4d5d66}
+.exercise-practice [hidden]{display:none!important}
+.practice-answer-area{display:grid;gap:10px}
+.practice-mode-switch{display:inline-flex;justify-self:start;padding:3px;border:1px solid #2c3940;border-radius:8px;background:#0f151a}
+.practice-mode-switch button{min-height:34px;padding:0 13px;border:0;border-radius:6px;background:transparent;color:#9fb0ac;font-size:12px;font-weight:600;cursor:pointer}
+.practice-mode-switch button[aria-pressed="true"]{background:#1c2f29;color:var(--practice-accent)}
+.practice-mode-hint{margin:0;color:#8fa19c;font-size:11px;line-height:1.5}
+.practice-scratch-toggle{justify-self:start;min-height:36px;padding:0 12px;border:1px dashed #3b4d47;border-radius:6px;background:transparent;color:#a9cfc1;font-size:11px;font-weight:600;cursor:pointer}
+.practice-scratch-toggle:hover{border-style:solid;background:#14201d}
+.handwriting-pad{display:grid;gap:8px}
+.handwriting-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.handwriting-group{display:inline-flex;gap:4px;padding:3px;border:1px solid #2c3940;border-radius:7px;background:#0f151a}
+.handwriting-group button{min-height:32px;padding:0 10px;border:0;border-radius:5px;background:transparent;color:#a9b8b5;font-size:11px;font-weight:600;cursor:pointer}
+.handwriting-group button[aria-pressed="true"]{background:#1c2f29;color:var(--practice-accent)}
+.handwriting-group button:disabled{opacity:.42;cursor:not-allowed}
+.handwriting-group .handwriting-swatch{width:32px;padding:0;display:grid;place-items:center}
+.handwriting-group .handwriting-swatch::after{content:"";width:14px;height:14px;border-radius:50%;background:var(--swatch);box-shadow:0 0 0 1px #0008}
+.handwriting-group .handwriting-swatch[aria-pressed="true"]{background:#24333a}
+.handwriting-finger{display:inline-flex;align-items:center;gap:7px;color:#9fb0ac;font-size:11px;cursor:pointer}
+.handwriting-finger input{width:16px;height:16px;accent-color:#80d8bc}
+.handwriting-canvas{display:block;width:100%;height:340px;border:1px solid #2f3e45;border-radius:8px;background:#0d1317;touch-action:none;cursor:crosshair}
+.handwriting-canvas.tool-eraser{cursor:none}
+.handwriting-canvas.tool-select{cursor:default}
+.handwriting-canvas.tool-pan{cursor:grab}
+.handwriting-canvas.tool-pan:active{cursor:grabbing}
+.handwriting-note{margin:0;color:#7d8c8f;font-size:10px;line-height:1.5}
+@media(max-width:650px){.practice-matching-row{grid-template-columns:1fr}.practice-matching-row small{grid-column:auto}.practice-actions button,.practice-self-button,.practice-primary{min-height:44px}.handwriting-canvas{height:280px}.handwriting-group button,.practice-mode-switch button{min-height:40px}}

@@ -1,5 +1,8 @@
+import { ExercisePractice, resultLabels } from '../components/ExercisePractice'
 import { getLessonById, hasLearningLesson, learningCatalog, learningLessonIds } from '../content'
 import type { Competency, Exercise, LessonContent } from '../content/types'
+import type { PracticeRecord } from '../practice/storage'
+import { usePracticeRecords } from '../practice/usePracticeRecords'
 import type { ReactNode } from 'react'
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import './LearningPage.css'
@@ -21,7 +24,7 @@ const sectionLinks = [
   ['beispiele', 'Gerechnete Beispiele'],
   ['abiturbezug', 'Abiturbezüge'],
   ['uebungen', 'Übungen'],
-  ['loesungen', 'Hinweise & Lösungen'],
+  ['loesungen', 'Typische Fehler'],
   ['selbsttest', 'Selbsttest'],
 ] as const
 
@@ -49,25 +52,26 @@ function CompetencyTags({ items }: { items: Competency[] }) {
   </div>
 }
 
-function ExerciseCard({ exercise, index }: { exercise: Exercise; index: number }) {
+function ExerciseCard({ exercise, index, record, onRecord, showDifficulty = true }: {
+  exercise: Exercise
+  index: number
+  record?: PracticeRecord
+  onRecord: (record: PracticeRecord) => void
+  showDifficulty?: boolean
+}) {
   return <article className="exercise-card" id={exercise.id}>
     <div className="exercise-card-top">
       <span className="exercise-number">{String(index + 1).padStart(2, '0')}</span>
-      <span className={`difficulty-pill difficulty-${exercise.difficulty}`}>
-        {exercise.difficulty === 'basic' ? 'Grundlegend' : exercise.difficulty === 'standard' ? 'Standard' : 'Transfer'}
-      </span>
+      <div className="exercise-card-tags">
+        {record && <span className={`exercise-result-tag result-${record.result}`}>{resultLabels[record.result]}</span>}
+        {showDifficulty && <span className={`difficulty-pill difficulty-${exercise.difficulty}`}>
+          {exercise.difficulty === 'basic' ? 'Grundlegend' : exercise.difficulty === 'standard' ? 'Standard' : 'Transfer'}
+        </span>}
+      </div>
     </div>
     <h4>{exercise.title}</h4>
-    <p className="exercise-prompt">{exercise.prompt}</p>
     <CompetencyTags items={exercise.competencies}/>
-    <details className="answer-disclosure">
-      <summary>Schrittweise Hinweise</summary>
-      <ol>{exercise.hints.map((hint) => <li key={hint}>{hint}</li>)}</ol>
-    </details>
-    <details className="answer-disclosure solution-disclosure">
-      <summary>Musterlösung anzeigen</summary>
-      <p>{exercise.solution}</p>
-    </details>
+    <ExercisePractice exercise={exercise} record={record} onRecord={onRecord}/>
   </article>
 }
 
@@ -157,6 +161,7 @@ function LearningCatalog({
 
 function LessonView({ lesson }: { lesson: LessonContent }) {
   const [activeSection, setActiveSection] = useState<string>(sectionLinks[0][0])
+  const { records, saveRecord } = usePracticeRecords()
   const lessonStartRef = useRef<HTMLDivElement>(null)
   const parent = learningCatalog.chapters.find((chapter) => chapter.children.some((child) => child.lessonId === lesson.id))
   const catalogEntries = learningCatalog.chapters.flatMap((chapter) => [
@@ -267,12 +272,13 @@ function LessonView({ lesson }: { lesson: LessonContent }) {
         </LessonSection>
 
         <LessonSection id="uebungen" number="09" title="Übungen in drei Schwierigkeitsstufen">
-          <p className="section-intro">Versuche jede Aufgabe zuerst selbst. Hinweise und Musterlösungen lassen sich danach einzeln öffnen.</p>
+          <p className="section-intro">Bearbeite jede Aufgabe direkt hier, getippt oder handschriftlich. Zahlen- und Zuordnungsaufgaben werden automatisch geprüft; sonst vergleichst du deine Antwort mit der Musterlösung. Ergebnisse werden nur auf diesem Gerät gespeichert.</p>
           <div className="exercise-groups">{practiceGroups.map((group) => {
             const exercises = lesson.exercises.filter((exercise) => exercise.difficulty === group.key)
             return <section className="exercise-group" key={group.key}>
               <div className="exercise-group-heading"><div><h3>{group.title}</h3><p>{group.help}</p></div><span>{exercises.length} Aufgaben</span></div>
-              <div className="exercise-grid">{exercises.map((exercise, index) => <ExerciseCard exercise={exercise} index={index} key={exercise.id}/>)}</div>
+              <div className="exercise-grid">{exercises.map((exercise, index) => <ExerciseCard exercise={exercise} index={index} key={exercise.id}
+                record={records[exercise.id]} onRecord={(record) => saveRecord(exercise.id, record)}/>)}</div>
             </section>
           })}</div>
         </LessonSection>
@@ -286,10 +292,8 @@ function LessonView({ lesson }: { lesson: LessonContent }) {
 
         <LessonSection id="selbsttest" number="11" title="Kurzer Selbsttest">
           <p className="section-intro">Beantworte die Fragen ohne nach oben zu scrollen und prüfe dich anschließend selbst.</p>
-          <div className="selftest-list">{lesson.selfTest.map((item, index) => <article className="selftest-item" key={item.id}>
-            <div className="selftest-question"><span>{String(index + 1).padStart(2, '0')}</span><p>{item.prompt}</p></div>
-            <details className="answer-disclosure"><summary>Antwort prüfen</summary><p>{item.solution}</p></details>
-          </article>)}</div>
+          <div className="exercise-grid">{lesson.selfTest.map((item, index) => <ExerciseCard exercise={item} index={index} key={item.id}
+            showDifficulty={false} record={records[item.id]} onRecord={(record) => saveRecord(item.id, record)}/>)}</div>
         </LessonSection>
 
         <div className="lesson-endnote"><span className="lesson-endnote-dot"/> Musterseite im redaktionellen Review · Curriculum- und Häufigkeitsangaben sind im Quellenmodell getrennt geführt.</div>
