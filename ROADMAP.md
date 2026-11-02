@@ -16,6 +16,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Aufgabenklassifizierung:** Alle 425 Aufgaben haben AFB und Aufgabentyp nach dokumentierten Regeln auf Grundlage des Operatorenblatts LA 2027 (`research/aufgabenklassifikation.md`, `research/operatoren-afb.md`). Der Validator verlangt beide Felder.
 - **Übungsbereich, Phase 2:** Themenauswahl und Filter (Kapitel, Unterkapitel, Schwierigkeit, Quelle, Kompetenz, AFB) sind umgesetzt.
 - **Übungsbereich, Phase 3 – Aufgabenbearbeitung:** Aufgaben lassen sich im Übungsbereich öffnen und bearbeiten. 37 Zahlen- und 6 Zuordnungsaufgaben werden automatisch geprüft; bei allen übrigen gibt es Musterlösung und Selbsteinschätzung. Ergebnisse werden nur lokal im Browser gespeichert und sind zurücksetzbar.
+- **Bearbeitungsmodi und Handschrift:** Alle 425 Aufgaben sind nach Bildschirm/Handschrift eingestuft, der Filter ist aktiv. Eine Schreibfläche für Stift, Maus und optional Finger steht bei freien Aufgaben und als Rechenweg-Fläche bei Zahlenaufgaben zur Verfügung; Handschrift wird derzeit nicht gespeichert.
 - **Qualitätskontrolle durch den Nutzer:** Am 02.11.2026 ohne Beanstandungen abgeschlossen.
 - **Dokumentierte Zusammenarbeit/Notizen:** Anforderungen an Aufgabenkommentare sowie private und geteilte Handschriftnotizen sind konzeptionell in `research/zusammenarbeit-und-notizen.md` beschrieben, nicht implementiert.
 
@@ -24,15 +25,15 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Feingranulare Prüfungsanalyse:** Die vorhandenen 131 PDFs sind laut Research inventarisiert und breit nach Jahr, Termin, Vorschlag und KCGO-Feld zugeordnet. Teilfragen-/Punkte-Codierung und belastbare Häufigkeitsklassen sind offen. Es gibt keinen Grund, hierfür Häufigkeiten zu schätzen.
 - **Freigabestatus der Lernseiten:** Alle 47 Lesson-Dateien stehen auf `publicationStatus: "review"`. Kriterien für den Wechsel zu `published` sind noch nicht festgelegt.
 - **Lernseitentexte mit Schablonenresten:** Bei 16 Lernseiten (u. a. Q2.2, Q2.4, Q4.1, Q4.2, Kinetik, Tenside, Anwendungen bewerten, vier Q2.1-Seiten) enthalten Lernziele, Fachbegriffe und typische Fehler noch gleichlautende oder themenfremde Formulierungen; siehe `PROJECT_CONTEXT.md`.
-- **Klassifizierung weiterer Metadaten:** `supportedModes` und aufgabenbezogene `sourceExamRefs` sind bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 vorerst bewusst leer.
+- **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.
 
 ## Geplant
 
 Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschritte. Umfang und Reihenfolge sind offen.
 
 - Aufgabenbearbeitung auch auf den Lernseiten mit derselben Komponente wie im Übungsbereich.
-- Handschriftliche Eingabe mit Touch/Stift sowie spätere lokale oder serverseitige Speicherung.
-- Lernfortschritt und Wiederholungsbedarf.
+- Speicherung der Handschrift im Benutzerkonto.
+- Lernfortschritt und Wiederholungsbedarf. Nach Entscheidung des Nutzers vom 02.11.2026 erst nach Einführung der Benutzerkonten, weil der Fortschritt an die Zugangsdaten gebunden werden soll.
 - Zusammenhängende Prüfungssimulationen und Abiturtraining.
 - Abbildungen und weitere quellenbasierte Versuchsdarstellungen für die experimentellen Lernseiten.
 - Nutzerkonten und geschützter Zugang zum Abiturarchiv. Vor einer Implementierung sind Berechtigungsmodell, Datenschutz, Sessions, Geräteverwaltung, IP-Aufbewahrung und Schutz von Originalprüfungen zu konkretisieren.

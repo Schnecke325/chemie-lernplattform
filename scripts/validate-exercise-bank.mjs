@@ -38,6 +38,7 @@ for (const task of bank.exercises ?? []) {
   if (task.afb !== undefined && ![1, 2, 3].includes(task.afb)) errors.push(`${task.id} has invalid AFB.`)
   if ((task.afb === undefined) !== (task.taskType === undefined)) errors.push(`${task.id} must set AFB and taskType together.`)
   if (task.afb !== undefined) stats.classified += 1
+  if (!Array.isArray(task.supportedModes)) errors.push(`${task.id} must define supportedModes.`)
   const checkable = task.taskType === 'numeric' || task.taskType === 'matching'
   if (checkable && task.answer?.kind !== task.taskType) errors.push(`${task.id} needs a ${task.taskType} answer.`)
   if (!checkable && task.answer !== undefined) errors.push(`${task.id} must not define an answer for taskType ${task.taskType}.`)

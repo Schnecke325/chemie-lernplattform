@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import type { Exercise, ExerciseAnswer } from '../content/types'
+import type { Exercise, ExerciseAnswer, ExerciseMode } from '../content/types'
+import { HandwritingPad } from './HandwritingPad'
 import { combineResults, isWithinTolerance, parseNumber } from '../practice/checkAnswer'
 import type { PracticeRecord, PracticeResult } from '../practice/storage'
 
@@ -111,6 +112,12 @@ export function ExercisePractice({ exercise, record, onRecord }: {
   const [solutionVisible, setSolutionVisible] = useState(false)
   const [autoResult, setAutoResult] = useState<PracticeResult | null>(null)
   const answer = exercise.answer
+  const handwritingOnly = exercise.supportedModes?.length === 1 && exercise.supportedModes[0] === 'handwriting'
+  const [inputMode, setInputMode] = useState<ExerciseMode>(handwritingOnly ? 'handwriting' : 'screen')
+  const [scratchVisible, setScratchVisible] = useState(false)
+  const recommendation = exercise.supportedModes?.includes('handwriting')
+    ? handwritingOnly ? 'Diese Aufgabe bearbeitest du am besten handschriftlich.' : 'Diese Aufgabe eignet sich auch gut zur handschriftlichen Bearbeitung.'
+    : null
 
   const saveAuto = (result: PracticeResult) => {
     setAutoResult(result)
@@ -121,13 +128,28 @@ export function ExercisePractice({ exercise, record, onRecord }: {
   return <div className="exercise-practice">
     <p className="practice-prompt">{exercise.prompt}</p>
 
-    {answer?.kind === 'numeric' && <NumericCheck exercise={exercise} answer={answer} onResult={saveAuto}/>}
+    {answer?.kind === 'numeric' && <>
+      <button type="button" className="practice-scratch-toggle" aria-expanded={scratchVisible}
+        onClick={() => setScratchVisible((visible) => !visible)}>
+        {scratchVisible ? 'Schreibfläche für den Rechenweg ausblenden' : 'Rechenweg handschriftlich notieren'}
+      </button>
+      {scratchVisible && <HandwritingPad label={`Schreibfläche für den Rechenweg: ${exercise.title}`}/>}
+      <NumericCheck exercise={exercise} answer={answer} onResult={saveAuto}/>
+    </>}
     {answer?.kind === 'matching' && <MatchingCheck exercise={exercise} answer={answer} onResult={saveAuto}/>}
-    {!answer && <label className="practice-own-answer">
-      <span>Deine Antwort (optional, wird nicht gespeichert)</span>
-      <textarea rows={4} value={ownAnswer} onChange={(event) => setOwnAnswer(event.target.value)}
-        placeholder="Formuliere deine Antwort, bevor du die Musterlösung öffnest."/>
-    </label>}
+    {!answer && <div className="practice-answer-area">
+      <div className="practice-mode-switch" role="group" aria-label="Bearbeitungsmodus">
+        <button type="button" aria-pressed={inputMode === 'screen'} onClick={() => setInputMode('screen')}>Antwort tippen</button>
+        <button type="button" aria-pressed={inputMode === 'handwriting'} onClick={() => setInputMode('handwriting')}>Handschriftlich</button>
+      </div>
+      {recommendation && <p className="practice-mode-hint">{recommendation}</p>}
+      <label className="practice-own-answer" hidden={inputMode !== 'screen'}>
+        <span>Deine Antwort (optional, wird nicht gespeichert)</span>
+        <textarea rows={4} value={ownAnswer} onChange={(event) => setOwnAnswer(event.target.value)}
+          placeholder="Formuliere deine Antwort, bevor du die Musterlösung öffnest."/>
+      </label>
+      <div hidden={inputMode !== 'handwriting'}><HandwritingPad label={`Schreibfläche für die Antwort: ${exercise.title}`}/></div>
+    </div>}
 
     {autoResult && <p className={`practice-result result-${autoResult}`} role="status">
       {autoResult === 'correct' ? 'Alles richtig.' : autoResult === 'partial' ? 'Teilweise richtig.' : 'Noch nicht richtig.'}

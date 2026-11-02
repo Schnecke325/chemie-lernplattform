@@ -28,7 +28,7 @@ Die Klassifizierung beschreibt die Aufgaben. Sie ist keine Bewertung ihrer Quali
 | `free-response` | Alle übrigen Aufgaben mit frei formulierter Antwort. |
 | `single-choice`, `multiple-choice` | Werden nicht vergeben, solange das Datenmodell keine Antwortoptionen enthält. |
 
-`supportedModes` und `sourceExamRefs` bleiben nach Entscheidung vom 02.11.2026 vorerst leer.
+`sourceExamRefs` bleibt nach Entscheidung vom 02.11.2026 leer. `supportedModes` ist seit 02.11.2026 gesetzt; Regeln im Abschnitt „Bearbeitungsmodi“.
 
 ## Pilot: Experimentelle Chemie (45 Aufgaben)
 
@@ -685,3 +685,115 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | `selftest.2` | Produkt der Brennstoffzelle | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.3` | Fairer Vergleich | begründen | begründen (Fragesatz „Warum …“) | **II** | frei | Schwerpunkt von begründen. |
 
+
+## Bearbeitungsmodi (`supportedModes`)
+
+Eingestuft am 02.11.2026. Der Modus gibt an, wie eine Aufgabe sinnvoll bearbeitet wird; in der Oberfläche lässt sich bei freien Aufgaben trotzdem jederzeit zwischen Tippen und Handschrift wechseln.
+
+| Modus | Kriterium |
+|---|---|
+| nur `handwriting` | Die Aufgabe verlangt ausdrücklich eine Zeichnung („Zeichne …“). |
+| `screen` und `handwriting` | Reaktionsgleichungen, Formeln, Wiederholungseinheiten, Markierungen in Formeln oder Skizzen sind zu erstellen, oder es ist ein Rechenweg nötig (alle Zahlenaufgaben). |
+| nur `screen` | Textantworten, Zuordnungen per Auswahl sowie Wissensfragen, die Gleichungen oder Formeln nur erwähnen. |
+
+Ergebnis: nur Handschrift 2, beides 95, nur Bildschirm 328.
+
+**Nur handschriftlich:** `chem.q1.1.bonding.exercise.basic-lewis` (Lewis-Formel von HCl), `chem.q2.1.amino-acids-peptides.exercise.basic-draw` (Ladungsbild von Alanin)
+
+**Bildschirm und Handschrift:**
+
+- `chem.applications.evaluation.exercise.2`: Relative Änderung berechnen
+- `chem.applications.evaluation.exercise.4`: Gleiche Bezugsgröße
+- `chem.basics.data.exercise.standard-rate`: Mittlere Abnahmegeschwindigkeit
+- `chem.basics.quantities.exercise.basic-mole`: Stoffmenge berechnen
+- `chem.basics.quantities.exercise.basic-concentration`: Stoffmengenkonzentration berechnen
+- `chem.basics.quantities.exercise.standard-dilution`: Verdünnung berechnen
+- `chem.basics.quantities.exercise.transfer-gas`: Gasvolumen im Kontext
+- `chem.basics.quantities.exercise.transfer-dose`: Konzentration und Dosis
+- `chem.basics.representation.exercise.basic-balance`: Knallgasreaktion ausgleichen
+- `chem.basics.representation.exercise.standard-zinc`: Beobachtung und Modell verknüpfen
+- `chem.basics.representation.exercise.transfer-charge`: Aluminiumchlorid-Gleichung entwickeln
+- `chem.q1.1.bonding.exercise.standard-electronegativity`: Bindungspolarität erklären
+- `chem.q1.1.hydrocarbons.exercise.standard-addition`: HBr-Addition an But-1-en
+- `chem.q1.1.hydrocarbons.exercise.transfer-combustion`: Verbrennung stöchiometrisch formulieren
+- `chem.q1.1.hydrocarbons.exercise.transfer-reaction`: Bromwasser-Entfärbung deuten
+- `chem.q1.1.mechanisms.exercise.standard-sn2`: Nukleophile Substitution formulieren
+- `chem.q1.1.mechanisms.exercise.standard-elimination`: Eliminierung aus Bromethan
+- `chem.q1.1.mechanisms.exercise.transfer-mechanism`: Mechanismus aus einem Schema
+- `chem.q1.2.alcohols.exercise.standard-secondary`: Oxidation von Propan-2-ol
+- `chem.q1.3.carboxylic-acids.exercise.basic-group`: Carboxygruppe erkennen
+- `chem.q1.3.carboxylic-acids.exercise.basic-protolysis`: Protolyse der Ethansäure
+- `chem.q1.3.esters.exercise.basic-name`: Estergruppe benennen
+- `chem.q1.3.esters.exercise.standard-hydrolysis`: Verseifung von Ethylethanoat
+- `chem.q1.4.q4.3.surfactants.exercise.2`: Kalkseife formulieren
+- `chem.q1.4.q4.3.surfactants.exercise.4`: Seife in saurer Lösung
+- `chem.q1.5.preservatives.exercise.standard-titration`: Konzentration einer Säure bestimmen
+- `chem.q1.5.preservatives.exercise.transfer-method`: Analytische Methode planen
+- `chem.q2.1.amino-acids-peptides.exercise.standard-pi`: Isoelektrischen Punkt bestimmen
+- `chem.q2.1.amino-acids-peptides.exercise.standard-limiting`: Dipeptid aus Glycin und Alanin
+- `chem.q2.1.amino-acids-peptides.selftest.bonds`: Bindungszahl
+- `chem.q2.1.amino-acids-peptides.selftest.limiting`: Limitierendes Edukt
+- `chem.q2.1.fats-oils.exercise.3`: Verseifung formulieren
+- `chem.q2.1.fats-oils.exercise.4`: Iodzahl berechnen
+- `chem.q2.1.fats-oils.selftest.1`: Fettsäurereste zählen
+- `chem.q2.2.polycondensation-polyaddition.exercise.3`: Polyester formulieren
+- `chem.q2.2.polycondensation-polyaddition.exercise.4`: Polyamid 6,6
+- `chem.q2.2.polycondensation-polyaddition.selftest.3`: Mindestzahl funktioneller Gruppen
+- `chem.q2.2.polymerization.exercise.1`: Wiederholungseinheit ableiten
+- `chem.q2.2.polymerization.exercise.3`: Radikalische Polymerisation formulieren
+- `chem.q2.2.polymerization.exercise.4`: Molare Masse einer Kette
+- `chem.q2.2.sustainability.exercise.2`: Rezyklatanteil berechnen
+- `chem.q2.2.sustainability.exercise.5`: Zwei Getränkeverpackungen vergleichen
+- `chem.q2.3.aromatics.exercise.standard-nitration`: Nitrierung formulieren
+- `chem.q2.4.organic-materials.exercise.3`: PLA-Bildung formulieren
+- `chem.q3.1.applications.exercise.basic-haber`: Ammoniaksynthese formulieren
+- `chem.q3.1.mwg.exercise.basic-expression`: MWG-Ausdruck aufstellen
+- `chem.q3.1.mwg.exercise.standard-kc`: Gleichgewichtskonstante berechnen
+- `chem.q3.1.mwg.exercise.standard-ice`: Gleichgewichtskonzentration berechnen
+- `chem.q3.2.ph.exercise.basic-ph`: pH einer starken Säure
+- `chem.q3.2.ph.exercise.basic-poh`: pOH und pH einer Base
+- `chem.q3.2.ph.exercise.standard-weak`: Schwache Säure berechnen
+- `chem.q3.2.protolysis.exercise.basic-role`: Säure und Base markieren
+- `chem.q3.2.protolysis.exercise.standard-ampholyte`: Ampholyt erklären
+- `chem.q3.2.protolysis.exercise.transfer-polyprotic`: Mehrstufige Protolyse darstellen
+- `chem.q3.2.protolysis.exercise.transfer-net`: Erste Protolyse der Schwefelsäure
+- `chem.q3.2.titration.exercise.standard-calc`: Säurekonzentration berechnen
+- `chem.q3.3.advanced.ex.basic-charge`: Ladungsmenge bestimmen
+- `chem.q3.3.advanced.ex.basic-electrons`: Elektronenstoffmenge aus Ladung
+- `chem.q3.3.advanced.ex.standard-product`: Produktstoffmenge
+- `chem.q3.3.advanced.ex.standard-nernst`: Potenzialänderung berechnen
+- `chem.q3.3.advanced.ex.transfer-efficiency`: Stromausbeute berücksichtigen
+- `chem.q3.3.advanced.ex.transfer-scope`: Kupfer-Konzentrationszelle
+- `chem.q3.3.electrolysis-corrosion.exercise.standard-lead`: Bleiakkumulator beim Entladen
+- `chem.q3.3.galvanic-cells.exercise.standard-voltage`: Zellspannung berechnen
+- `chem.q3.3.galvanic-cells.exercise.standard-notation`: Zellschreibweise
+- `chem.q3.3.redox.exercise.standard-half`: Teilgleichungen kombinieren
+- `chem.q3.3.redox.exercise.standard-acidic`: Dichromat-Gleichung ausgleichen
+- `chem.q3.4.buffers.exercise.standard-hh`: Puffer-pH berechnen
+- `chem.q3.5.kinetics.exercise.1`: Mittlere Bildungsgeschwindigkeit
+- `chem.q3.5.kinetics.exercise.3`: Stöchiometrisch normieren
+- `chem.q3.5.kinetics.exercise.6`: Messreihe auswerten
+- `chem.q4.1.enthalpy.exercise.2`: Wärmemenge berechnen
+- `chem.q4.1.enthalpy.exercise.3`: Neutralisationsenthalpie bestimmen
+- `chem.q4.1.enthalpy.exercise.6`: Lösungsenthalpie von Ammoniumchlorid
+- `chem.q4.1.entropy-gibbs.exercise.2`: ΔG der Ammoniaksynthese
+- `chem.q4.1.entropy-gibbs.exercise.3`: Kalkbrennen
+- `chem.q4.1.hess.exercise.1`: Gleichung umkehren und verdoppeln
+- `chem.q4.1.hess.exercise.2`: Teilreaktionen addieren
+- `chem.q4.1.hess.exercise.3`: Verbrennungsenthalpie aus Bildungsenthalpien
+- `chem.q4.1.hess.exercise.4`: Bildungsenthalpie von Kohlenstoffmonooxid
+- `chem.q4.1.hess.exercise.5`: Hydrierung von Ethen
+- `chem.q4.2.energy-sustainability.exercise.1`: Wirkungsgrad einer Brennstoffzelle
+- `chem.q4.2.energy-sustainability.exercise.2`: Teilreaktionen der Brennstoffzelle
+- `chem.q4.2.energy-sustainability.exercise.3`: Wirkungsgrad einer Energiekette
+- `chem.q4.2.energy-sustainability.exercise.6`: Biodiesel herstellen
+- `chem.experimental.qualitative.exercise.basic-limewater`: Kalkwasser deuten
+- `chem.experimental.qualitative.exercise.standard-carbonate`: Carbonat in Eierschalen
+- `chem.experimental.qualitative.exercise.standard-ammonium`: Ammonium-Ionen im Dünger
+- `chem.experimental.organic-tests.exercise.transfer-unknown`: Zwei Isomere mit der Formel C₃H₆O
+- `chem.experimental.organic-tests.exercise.transfer-formic-acid`: Silberspiegel mit Methansäure
+- `chem.experimental.separation.exercise.basic-rf`: Rf-Wert berechnen
+- `chem.experimental.quantitative.exercise.basic-naoh`: Natronlauge titrieren
+- `chem.experimental.quantitative.exercise.standard-sulfur-dioxide`: Schwefeldioxid im Wein
+- `chem.experimental.quantitative.exercise.standard-permanganate`: Eisen(II)-Ionen mit Permanganat
+- `chem.experimental.quantitative.exercise.transfer-iodine-value`: Zwei Öle vergleichen

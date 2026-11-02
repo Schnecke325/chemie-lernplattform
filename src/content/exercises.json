@@ -8,6 +8,9 @@
       "prompt": "Ordne die Aussagen den Begriffen Sachaussage und Wertentscheidung zu: (a) Verfahren A benötigt 20 % weniger Energie als Verfahren B. (b) Energieeinsparung ist wichtiger als niedrige Kosten. (c) Für Verfahren A wird ein seltenes Metall als Katalysator benötigt.",
       "taskType": "matching",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Eine Sachaussage lässt sich mit Daten prüfen."
       ],
@@ -52,6 +55,10 @@
       "prompt": "Der Energiebedarf eines Verfahrens sinkt durch einen neuen Katalysator von 250 kJ auf 200 kJ pro Kilogramm Produkt. Berechne die relative Änderung.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "relative Änderung = (Endwert − Anfangswert) / Anfangswert · 100 %"
       ],
@@ -86,6 +93,9 @@
       "prompt": "Zwei Enteisungsmittel für Gehwege sollen verglichen werden: Natriumchlorid und Calciummagnesiumacetat. Nenne vier Bewertungskriterien und gib zu jedem eine messbare Größe an.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an Wirkung, Umwelt, Material und Kosten."
       ],
@@ -107,6 +117,10 @@
       "prompt": "Waschmittel A enthält 2,0 % Phosphonat und wird mit 75 g pro Waschgang dosiert, Waschmittel B enthält 2,5 % und wird mit 50 g dosiert. Berechne die Phosphonatmasse pro Waschgang und begründe, welche Bezugsgröße für den Vergleich sinnvoll ist.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Vergleiche, was tatsächlich pro Anwendung ins Abwasser gelangt."
       ],
@@ -129,6 +143,9 @@
       "prompt": "Für einen Prozess stehen ein Platinkatalysator mit hoher Aktivität und ein weniger aktiver Eisenkatalysator zur Wahl. Bewerte die Wahl, indem du einen Zielkonflikt benennst und beschreibst, welche Daten für eine Entscheidung nötig sind.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Platin ist selten und teuer.",
         "Höhere Aktivität kann Energie und Zeit sparen."
@@ -150,6 +167,9 @@
       "prompt": "Für einen Schadstoff im Trinkwasser gilt ein Grenzwert von 0,50 mg·L⁻¹. Eine Messung ergibt 0,48 mg·L⁻¹ mit einer Messunsicherheit von ±0,05 mg·L⁻¹. Beurteile die Aussage „Der Grenzwert wird sicher eingehalten.“",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bestimme den Bereich, in dem der wahre Wert liegen kann."
       ],
@@ -171,6 +191,9 @@
       "prompt": "Worin unterscheidet sich ein Sachurteil von einer Wertentscheidung?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nur eines lässt sich mit Daten überprüfen."
       ],
@@ -191,6 +214,9 @@
       "prompt": "Warum müssen Daten zweier Verfahren auf dieselbe Bezugsgröße umgerechnet werden?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an verschiedene Produktmengen."
       ],
@@ -211,6 +237,9 @@
       "prompt": "Was ist ein Zielkonflikt bei einer Bewertung?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Zwei Kriterien zeigen in unterschiedliche Richtungen."
       ],
@@ -231,6 +260,9 @@
       "prompt": "Ein Diagramm zeigt die Temperatur einer Reaktionsmischung in °C gegen die Zeit in Sekunden. Was muss in einer vollständigen Achsenbeschriftung stehen und warum ist die Einheit wichtig?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nenne die dargestellte Größe und Einheit auf beiden Achsen.",
         "Einheiten machen Messwerte eindeutig und vergleichbar."
@@ -254,6 +286,9 @@
       "prompt": "Die Konzentration eines Edukts sinkt in einer Messreihe stetig. Formuliere eine Beschreibung des Trends, ohne bereits eine Ursache zu behaupten.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Beschreibe Richtung und Verlauf.",
         "Vermeide eine Erklärung, die nicht aus den Messdaten folgt."
@@ -275,6 +310,10 @@
       "prompt": "Die Konzentration von H₂O₂ sinkt von 0,80 mol·L⁻¹ auf 0,50 mol·L⁻¹ innerhalb von 60 s. Berechne die mittlere Abnahmegeschwindigkeit der H₂O₂-Konzentration.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Berechne Δc = c₂ − c₁.",
         "Für eine positive Abnahmegeschwindigkeit nutzt du −Δc/Δt."
@@ -309,6 +348,9 @@
       "prompt": "Eine Produktkonzentration steigt von 0,10 auf 0,30 mol·L⁻¹ in 20 s und danach auf 0,50 mol·L⁻¹ in 40 s. Vergleiche die mittleren Bildungsgeschwindigkeiten.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Berechne Δc/Δt getrennt für beide Intervalle.",
         "Beachte, dass die Intervalle unterschiedlich lang sind."
@@ -334,6 +376,9 @@
       "prompt": "Zwei Versuchsreihen untersuchen dieselbe Reaktion bei unterschiedlicher Temperatur. Bei höherer Temperatur steigt die Produktkonzentration in den ersten 30 s schneller. Beurteile: „Die höhere Temperatur erhöht die Gleichgewichtsausbeute.“",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide Reaktionsgeschwindigkeit und spätere Gleichgewichtskonzentration.",
         "Prüfe, ob die Daten überhaupt einen Gleichgewichtszustand zeigen."
@@ -357,6 +402,9 @@
       "prompt": "Zwei Messwerte betragen 0,51 mol·L⁻¹ und 0,52 mol·L⁻¹. Für beide gilt eine Messunsicherheit von ±0,03 mol·L⁻¹. Kannst du sicher folgern, dass der zweite Wert größer ist? Begründe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die Unsicherheitsbereiche.",
         "Trenne eine kleine Zahlenabweichung von einem belastbaren Unterschied."
@@ -380,6 +428,9 @@
       "prompt": "Wie berechnest du die mittlere Änderungsrate zwischen zwei Messpunkten?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bilde die Differenz der Messgröße und teile durch die Zeitdifferenz."
       ],
@@ -400,6 +451,9 @@
       "prompt": "Beweist ein Konzentrationsplateau allein ein chemisches Gleichgewicht?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob weitere Erklärungen möglich sind."
       ],
@@ -420,6 +474,9 @@
       "prompt": "Was solltest du prüfen, bevor du kleine Unterschiede zwischen Messwerten deutest?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Berücksichtige die angegebene Genauigkeit."
       ],
@@ -440,6 +497,10 @@
       "prompt": "Eine Probe enthält 9,00 g Wasser. Berechne die Stoffmenge. Verwende M(H₂O) = 18,0 g·mol⁻¹.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Nutze n = m/M.",
         "Setze Masse und molare Masse mit Einheiten ein."
@@ -472,6 +533,10 @@
       "prompt": "0,0200 mol Natriumchlorid werden zu 0,500 L Lösung verarbeitet. Berechne die Stoffmengenkonzentration.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Verwende c = n/V.",
         "Setze das Volumen in Litern ein."
@@ -505,6 +570,9 @@
       "prompt": "Für N₂ + 3 H₂ → 2 NH₃ stehen 0,40 mol N₂ und 0,90 mol H₂ bereit. Welcher Stoff ist limitierend und welche Stoffmenge NH₃ kann höchstens entstehen?",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Berechne, wie viel H₂ für 0,40 mol N₂ benötigt würde.",
         "Vergleiche den Bedarf mit der vorhandenen H₂-Menge."
@@ -528,6 +596,10 @@
       "prompt": "25,0 mL einer 0,200 mol·L⁻¹ Lösung werden auf 100,0 mL aufgefüllt. Berechne die Endkonzentration.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Beim Verdünnen bleibt die Stoffmenge des gelösten Stoffes gleich.",
         "Nutze c₁V₁ = c₂V₂."
@@ -560,6 +632,10 @@
       "prompt": "Bei Raumtemperatur werden 0,0150 mol eines idealen Gases erzeugt. Berechne das Volumen bei T = 298 K und p = 100 kPa. Verwende R = 8,314 kPa·L·mol⁻¹·K⁻¹.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Nutze pV = nRT und stelle nach V um.",
         "Achte darauf, dass die Einheit von R zum Druck passt."
@@ -594,6 +670,10 @@
       "prompt": "Eine Lösung enthält 0,030 mol Wirkstoff in 150 mL. Berechne die Stoffmengenkonzentration. Erkläre, warum dieser Wert allein keine sichere Dosis angibt.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Wandle 150 mL in Liter um.",
         "Konzentration beschreibt Stoffmenge pro Volumen, nicht aufgenommene Gesamtmenge oder Wirkung."
@@ -617,6 +697,9 @@
       "prompt": "Wie berechnest du die Stoffmenge n aus Masse m und molarer Masse M?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Gesucht ist die Stoffmenge."
       ],
@@ -637,6 +720,9 @@
       "prompt": "Was beschreibt die Stoffmengenkonzentration?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie setzt Stoffmenge und Lösungsvolumen ins Verhältnis."
       ],
@@ -657,6 +743,9 @@
       "prompt": "Welcher Stoff begrenzt die theoretische Produktmenge?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe das Stoffmengenverhältnis aus der ausgeglichenen Reaktionsgleichung."
       ],
@@ -677,6 +766,9 @@
       "prompt": "Ordne zu und benenne jeweils die Ebene: (a) Eine Kupfersulfatlösung ist blau. (b) In der Lösung liegen hydratisierte Cu²⁺- und SO₄²⁻-Ionen vor. (c) CuSO₄(s) → Cu²⁺(aq) + SO₄²⁻(aq).",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Frage dich, ob eine direkt beobachtbare Eigenschaft, ein Teilchenbild oder eine Symbolschreibweise beschrieben wird."
       ],
@@ -699,6 +791,10 @@
       "prompt": "Gleiche H₂ + O₂ → H₂O aus. Prüfe danach die Zahl der H- und O-Atome auf beiden Seiten.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Ändere nur Koeffizienten vor den Formeln, nicht tiefgestellte Zahlen.",
         "Gleiche zuerst Sauerstoff, dann Wasserstoff aus."
@@ -722,6 +818,10 @@
       "prompt": "Zink reagiert mit Salzsäure. Es entstehen Gasbläschen und die Zinkoberfläche wird kleiner. Beschreibe die Beobachtung, formuliere eine Reaktionsgleichung und erkläre ihre Aussage.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Trenne die beobachtbare Veränderung von der Teilchenerklärung.",
         "Chlorid-Ionen sind Zuschauerionen, wenn du die Nettogleichung formulierst."
@@ -746,6 +846,9 @@
       "prompt": "Eine Aufgabe fragt nach der räumlichen Anordnung der Atome im Wassermolekül. Welche Darstellung ist geeigneter: Summenformel H₂O oder Lewis-Modell? Begründe und nenne eine Grenze der gewählten Darstellung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege, welche Information die Summenformel liefert und welche das Lewis-Modell zusätzlich zeigt."
       ],
@@ -768,6 +871,9 @@
       "prompt": "Ein Teilchenbild zeigt alle gelösten Teilchen gleich groß und unbewegt. Beurteile, welche Aussagen sich daraus ableiten lassen und welche nicht.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide qualitative Aussagen über Teilchenarten von Aussagen über Größe oder Bewegung.",
         "Beziehe die Modellannahmen in dein Urteil ein."
@@ -792,6 +898,10 @@
       "prompt": "Aluminium reagiert mit Chlor zu Aluminiumchlorid. Entwickle eine ausgeglichene Reaktionsgleichung und erkläre, wie du Atome und Ladung überprüfst.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Stelle zuerst Formeln der Elemente und des Ionenstoffs auf.",
         "Gleiche dann die Atome mit Koeffizienten aus."
@@ -815,6 +925,9 @@
       "prompt": "Welche drei Beschreibungsebenen nutzt die Chemie?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Eine Ebene beschreibt Beobachtungen, eine Teilchen und eine Symbole."
       ],
@@ -835,6 +948,9 @@
       "prompt": "Was darfst du beim Ausgleichen einer Reaktionsgleichung verändern?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Verändere die Zahl vor der Formel, nicht deren Index."
       ],
@@ -855,6 +971,9 @@
       "prompt": "Warum ist eine Reaktionsgleichung kein vollständiger Mechanismus?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie zeigt die Gesamtbilanz."
       ],
@@ -875,6 +994,9 @@
       "prompt": "Ordne den Stoffen NaCl(s), Cl₂(g) und Cu(s) das jeweils passende Bindungsmodell im Feststoff bzw. Molekül zu.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Frage, ob Ionen, Nichtmetallatome oder Metallatome die Bausteine bilden."
       ],
@@ -896,6 +1018,9 @@
       "prompt": "Zeichne die Lewis-Formel des Chlorwasserstoffmoleküls HCl.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "handwriting"
+      ],
       "hints": [
         "H benötigt eine gemeinsame Elektronenpaarbindung, um die Duettregel zu erfüllen.",
         "Cl besitzt sieben Valenzelektronen."
@@ -918,6 +1043,10 @@
       "prompt": "Die Elektronegativität beträgt für H etwa 2,2 und für Cl etwa 3,2. Ordne die H–Cl-Bindung ein und markiere die Partialladungen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Das elektronegativere Atom zieht das Bindungselektronenpaar stärker an.",
         "Unterscheide Partialladung von einer Ionenladung."
@@ -941,6 +1070,9 @@
       "prompt": "Natriumchlorid und Kupfer leiten als Feststoffe unterschiedlich gut Strom. Erkläre den Unterschied mit den jeweiligen Bindungsmodellen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Welche geladenen Teilchen sind im Feststoff beweglich?",
         "Vergleiche Metallbindung mit einem Ionengitter."
@@ -964,6 +1096,9 @@
       "prompt": "Leite aus den Ionen Na⁺ und O²⁻ die elektrisch neutrale Verhältnisformel ab. Erkläre deine Ladungsbilanz.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Gesamtladung der Formeleinheit muss null ergeben.",
         "Finde das kleinste ganzzahlige Verhältnis, das + und − ausgleicht."
@@ -987,6 +1122,9 @@
       "prompt": "Ein Modell zeigt in einem Metallgitter positive Atomrümpfe und dazwischen bewegliche Elektronen. Erkläre, welche Eigenschaft es plausibel macht und was es vereinfacht.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Verbinde die Beweglichkeit der Elektronen mit elektrischer Leitfähigkeit.",
         "Ein Modell ist keine maßstabsgetreue Abbildung."
@@ -1010,6 +1148,9 @@
       "prompt": "Welche Bausteine bilden ein Ionengitter?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an positive und negative Teilchen."
       ],
@@ -1030,6 +1171,9 @@
       "prompt": "Welche Teilchen erklären die elektrische Leitfähigkeit eines Metalls?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie sind im Metallmodell delokalisiert."
       ],
@@ -1050,6 +1194,9 @@
       "prompt": "Was bedeuten δ⁺ und δ⁻ in einer Bindung?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es sind keine vollen Ionenladungen."
       ],
@@ -1070,6 +1217,9 @@
       "prompt": "Ordne Propan, Propen und Propin den Stoffklassen Alkan, Alken oder Alkin zu. Nenne jeweils das Strukturmerkmal.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Suche nach Einfach-, Doppel- oder Dreifachbindung zwischen C-Atomen."
       ],
@@ -1091,6 +1241,9 @@
       "prompt": "Sind Butan und 2-Methylpropan Konstitutionsisomere? Begründe mit Summenformel und Verknüpfung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die Summenformel und danach die Verknüpfung der C-Atome."
       ],
@@ -1112,6 +1265,9 @@
       "prompt": "Benenne die Struktur CH₃–CH(CH₃)–CH₂–CH₃ nach IUPAC-Grundregeln.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Wähle die längste durchgehende C-Kette.",
         "Nummeriere so, dass der Seitenrest die kleinste mögliche Positionszahl erhält."
@@ -1133,6 +1289,10 @@
       "prompt": "Formuliere die Addition von HBr an But-1-en unter üblichen ionischen Bedingungen. Gib das Hauptprodukt nach der Markownikow-Regel an.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Doppelbindung wird geöffnet und H sowie Br addieren sich an die beiden C-Atome.",
         "Bei der üblichen Markownikow-Orientierung bindet H an das stärker mit H substituierte C-Atom."
@@ -1156,6 +1316,10 @@
       "prompt": "Stelle die vollständige Verbrennung von Propan auf und gleiche die Gleichung aus. Erkläre, warum bei Sauerstoffmangel andere Produkte entstehen können.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Bei vollständiger Verbrennung entstehen CO₂ und H₂O.",
         "Gleiche zuerst C und H, dann O aus."
@@ -1179,6 +1343,10 @@
       "prompt": "Ein Material zeigt, dass ein Alken Bromwasser entfärbt. Deute die Beobachtung auf Teilchenebene und formuliere eine passende Reaktionsgleichung für Ethen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die π-Bindung ist elektronenreich und kann an einer Additionsreaktion teilnehmen.",
         "Atome aus Br₂ werden an die beiden C-Atome der Doppelbindung gebunden."
@@ -1203,6 +1371,9 @@
       "prompt": "Welche Bindung kennzeichnet ein Alken?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie verbindet zwei C-Atome mehrfach."
       ],
@@ -1223,6 +1394,9 @@
       "prompt": "Was unterscheidet Konstitutionsisomere?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Atome sind unterschiedlich verknüpft."
       ],
@@ -1243,6 +1417,9 @@
       "prompt": "Was geschieht bei einer Addition an eine C=C-Doppelbindung?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die π-Bindung wird in neue Bindungen überführt."
       ],
@@ -1263,6 +1440,9 @@
       "prompt": "Ordne festes NaCl, festes Cu, molekulares CO₂ und festes Silicium jeweils einem Strukturmodell zu.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Achte auf die Art der Bausteine und ob abgegrenzte Moleküle vorliegen."
       ],
@@ -1283,6 +1463,9 @@
       "prompt": "Siliciumdioxid wird als Netzwerkstoff beschrieben. Was bedeutet das für die Bausteine im Feststoff?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide ein Atomnetzwerk von einem Kristall aus einzelnen Molekülen."
       ],
@@ -1305,6 +1488,9 @@
       "prompt": "Kupfer leitet als Feststoff gut Strom, Silicium deutlich schlechter. Erkläre den qualitativen Unterschied mit geeigneten Strukturmodellen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die beweglichen Ladungsträger.",
         "Ordne Silicium als Halbleiter ein; setze es nicht mit einem Isolator gleich."
@@ -1328,6 +1514,9 @@
       "prompt": "Quarz und Kohlendioxid bestehen aus Siliciumdioxid beziehungsweise Kohlendioxid. Erkläre, warum SiO₂ als Netzwerkstoff und CO₂ als Molekülstoff beschrieben wird.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte die Bindungssituation und typische Teilchenstruktur der Feststoffe.",
         "Die gleiche Elementsorte O führt nicht automatisch zur gleichen Stoffstruktur."
@@ -1351,6 +1540,9 @@
       "prompt": "Ein Werkstoff soll bei hoher Temperatur formstabil bleiben und elektrisch nicht metallisch leitend sein. Ein Material nennt Quarz als Kandidaten. Beurteile die Eignung qualitativ anhand der Struktur und nenne eine Information, die du für eine konkrete Auswahl noch benötigst.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Verknüpfe das kovalente Netzwerk mit thermischer Stabilität.",
         "Unterscheide qualitative Eignung von einem vollständigen Materialvergleich."
@@ -1374,6 +1566,9 @@
       "prompt": "Ein vereinfachtes Bild zeigt Siliciumdioxid als regelmäßig angeordnete Kugeln. Welche Aussagen über den Stoff kann das Bild unterstützen und welche Eigenschaften erklärt es nicht automatisch?",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das Modell kann Nachbarschaften und Vernetzung veranschaulichen.",
         "Makroskopische Eigenschaften benötigen zusätzliche Zusammenhänge."
@@ -1397,6 +1592,9 @@
       "prompt": "Was gibt die Formel SiO₂ bei Quarz an?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an das Zahlenverhältnis in einer Netzwerkstruktur."
       ],
@@ -1417,6 +1615,9 @@
       "prompt": "Welche Atome sind im Quarz über welche Art von Bindung zu einem Netzwerk verknüpft?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Quarz ist eine Form von Siliciumdioxid."
       ],
@@ -1437,6 +1638,9 @@
       "prompt": "Ist Silicium ein Metall?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ordne seine elektrische Leitfähigkeit ein."
       ],
@@ -1457,6 +1661,9 @@
       "prompt": "Leite mit dem EPA-Modell die Molekülform von CO₂ und H₂O ab.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Zähle am Zentralatom Bindungsbereiche und freie Elektronenpaare.",
         "Mehrfachbindungen zählen im EPA-Modell als ein Elektronenbereich."
@@ -1479,6 +1686,9 @@
       "prompt": "Welche zwischenmolekulare Wechselwirkung kann zwischen Wassermolekülen auftreten? Begründe anhand der Struktur.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob H direkt an ein stark elektronegatives Atom gebunden ist.",
         "Betrachte auch freie Elektronenpaare am Nachbarmolekül."
@@ -1501,6 +1711,9 @@
       "prompt": "Erkläre, warum CO₂ trotz polarer C=O-Bindungen kein permanenter Dipol ist, H₂O aber schon.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Berücksichtige neben den Bindungen auch die räumliche Geometrie.",
         "Prüfe, ob sich die Bindungsdipole gegenseitig aufheben."
@@ -1524,6 +1737,9 @@
       "prompt": "Ethan siedet höher als Methan. Beide Stoffe sind unpolar. Begründe den Unterschied.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Beide Stoffe besitzen Dispersionskräfte.",
         "Vergleiche Elektronenzahl und Polarisierbarkeit der Moleküle."
@@ -1546,6 +1762,9 @@
       "prompt": "Eine polare Substanz löst sich gut in Wasser, ein unpolares Öl dagegen kaum. Erkläre den Unterschied und nenne eine Grenze der Faustregel „Ähnliches löst sich in Ähnlichem“.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die Wechselwirkungen zwischen Wasser und den jeweiligen Stoffteilchen.",
         "Löslichkeit hängt auch von Struktur und Energieänderungen ab."
@@ -1570,6 +1789,9 @@
       "prompt": "Ein Material beschreibt eine wasserreiche Hyaluronsäure-Schicht. Formuliere eine plausible Erklärung für die Wasserbindung, ohne allein aus dem Namen auf die genaue Löslichkeit einer Probe zu schließen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Achte auf polare Gruppen und mögliche Wasserstoffbrücken.",
         "Nenne weitere Informationen, die für eine quantitative Aussage fehlen."
@@ -1594,6 +1816,9 @@
       "prompt": "Was zählt im EPA-Modell als Elektronenbereich am Zentralatom?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bindungen zählen unabhängig von ihrer Mehrfachheit; freie Paare zählen ebenfalls."
       ],
@@ -1614,6 +1839,9 @@
       "prompt": "Wann ist ein Molekül ein permanenter Dipol?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte die Summe der Bindungsdipole."
       ],
@@ -1634,6 +1862,9 @@
       "prompt": "Welche Wechselwirkung tritt zwischen allen Teilchen auf?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie entsteht durch momentane und induzierte Dipole."
       ],
@@ -1654,6 +1885,9 @@
       "prompt": "Ordne zu: (a) CH₄ + Cl₂ unter UV-Licht; (b) Ethen + HBr; (c) Bromoethan + OH⁻ in wässriger Lösung.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Austausch H gegen Cl ist Substitution.",
         "Addition an eine Doppelbindung unterscheidet sich vom Austausch einer Abgangsgruppe."
@@ -1676,6 +1910,9 @@
       "prompt": "Nenne die drei Phasen der radikalischen Chlorierung von Methan und ordne die Bildung von Cl· aus Cl₂ einer Phase zu.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein Initiierungsschritt erzeugt Radikale; danach wird die Kette fortgesetzt und schließlich abgebrochen."
       ],
@@ -1697,6 +1934,10 @@
       "prompt": "Formuliere die Reaktion von Bromoethan mit Hydroxid-Ionen zu Ethanol als Ionengleichung und benenne angreifendes Teilchen und Abgangsgruppe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "OH⁻ stellt ein Elektronenpaar für die neue C–O-Bindung bereit.",
         "Bromid verlässt das Molekül."
@@ -1719,6 +1960,10 @@
       "prompt": "Bromoethan reagiert unter geeigneten Bedingungen mit Hydroxid-Ionen zu Ethen. Stelle eine ausgeglichene Ionengleichung auf und erkläre die Bindungsänderung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Entferne H von einem benachbarten C-Atom und Br als Abgangsgruppe.",
         "Aus einer C–C-Einfachbindung wird eine Doppelbindung."
@@ -1742,6 +1987,9 @@
       "prompt": "Bromoethan wird einmal mit wässriger Hydroxid-Lösung und einmal mit alkoholischer Hydroxid-Lösung unter Erwärmen umgesetzt. Welche Reaktionstypen werden typischerweise begünstigt? Begründe vorsichtig anhand der Bedingungen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Wässrige Lösung begünstigt in einfachen Schulmodellen Substitution; alkoholische Lösung und Erwärmen oft Eliminierung.",
         "Formuliere die Vorhersage als Tendenz, nicht als Garantie unabhängig von Bedingungen."
@@ -1765,6 +2013,10 @@
       "prompt": "Ein Reaktionsschema zeigt, dass eine Doppelbindung ein H⁺ aufnimmt und anschließend ein Halogenid-Ion bindet. Ordne den Mechanismus ein und erkläre, welche Bindungen sich ändern.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Ein elektronenreiches π-System greift ein Elektrophil an.",
         "Prüfe, ob die Doppelbindung erhalten bleibt."
@@ -1789,6 +2041,9 @@
       "prompt": "Wie heißt der Schritt, in dem Licht aus Cl₂ zwei Cl-Radikale erzeugt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Dabei startet die Radikalkette."
       ],
@@ -1809,6 +2064,9 @@
       "prompt": "Was macht ein Nukleophil bei einer Substitution?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es stellt ein Elektronenpaar bereit."
       ],
@@ -1829,6 +2087,9 @@
       "prompt": "Welche Strukturänderung ist für eine typische Eliminierung charakteristisch?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Zwei Gruppen werden abgespalten."
       ],
@@ -1849,6 +2110,9 @@
       "prompt": "Ordne Butan-1-ol, Butan-2-ol und 2-Methylpropan-2-ol als primäres, sekundäres oder tertiäres Alkanol ein.",
       "taskType": "matching",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte das C-Atom, an das die OH-Gruppe gebunden ist.",
         "Zähle, mit wie vielen weiteren C-Atomen dieses C verbunden ist."
@@ -1895,6 +2159,9 @@
       "prompt": "Welche Wechselwirkung kann zwischen zwei Ethanolmolekülen auftreten, die zwischen zwei Ethan-Molekülen nicht möglich ist? Begründe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Untersuche, ob ein H-Atom direkt an O gebunden ist.",
         "Prüfe, ob ein freies Elektronenpaar als Wechselwirkungspartner dienen kann."
@@ -1917,6 +2184,9 @@
       "prompt": "Gib das organische Oxidationsprodukt von Butan-1-ol bei kontrollierter Oxidation an. Nenne auch ein mögliches Folgeprodukt bei weiterer Oxidation.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Butan-1-ol ist ein primäres Alkanol.",
         "Bei weiterer Oxidation kann das zunächst gebildete Aldehyd zur Carbonsäure reagieren."
@@ -1940,6 +2210,10 @@
       "prompt": "Formuliere die Oxidation von Propan-2-ol zu Propanon als vereinfachte Reaktionsgleichung mit [O].",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Ein sekundäres Alkanol bildet bei Oxidation ein Keton.",
         "Bilanziere H und O in der vereinfachten Schreibweise."
@@ -1962,6 +2236,9 @@
       "prompt": "Ethanol und Ethan besitzen ähnliche molare Massen. Ethanol siedet deutlich höher. Begründe den Unterschied über Struktur und Wechselwirkungen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Beide Stoffe besitzen Dispersionskräfte.",
         "Nur Ethanol kann zwischen seinen Molekülen Wasserstoffbrücken bilden."
@@ -1985,6 +2262,9 @@
       "prompt": "Eine Schülerin behauptet: „Jedes tertiäre Alkanol lässt sich unter milden Bedingungen genauso einfach zu einem Carbonylstoff oxidieren wie ein sekundäres Alkanol.“ Beurteile die Aussage.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob das C-Atom mit OH ein H-Atom trägt.",
         "Für eine einfache Carbonylbildung muss am betreffenden C ein H entfernt werden."
@@ -2008,6 +2288,9 @@
       "prompt": "Woran erkennst du ein sekundäres Alkanol?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Zähle die C-Nachbarn des C-Atoms mit OH."
       ],
@@ -2028,6 +2311,9 @@
       "prompt": "Welches Produkt entsteht bei der ersten Oxidationsstufe eines primären Alkanols?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es ist ein Carbonylstoff."
       ],
@@ -2048,6 +2334,9 @@
       "prompt": "Warum wird ein tertiäres Alkanol nicht einfach zum Keton oxidiert?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Am C-Atom mit OH fehlt ein bestimmtes H-Atom."
       ],
@@ -2068,6 +2357,9 @@
       "prompt": "Ordne Propanal und Propanon ein. Beschreibe jeweils die Position der Carbonylgruppe.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob das Carbonyl-C am Ende der Kette oder zwischen zwei C-Atomen liegt."
       ],
@@ -2089,6 +2381,9 @@
       "prompt": "Welche Partialladungen entstehen an der C=O-Bindung? Begründe mit der Elektronegativität.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sauerstoff zieht Bindungselektronen stärker an als Kohlenstoff."
       ],
@@ -2110,6 +2405,9 @@
       "prompt": "Gib das Produkt der Reduktion von Butanon mit [H] an. Welche Stoffklasse entsteht?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bei der Reduktion einer Carbonylgruppe entsteht eine C–OH-Gruppe.",
         "Das Carbonyl-C des Ketons wird zu einem sekundären Alkohol-C."
@@ -2133,6 +2431,9 @@
       "prompt": "Eine Probe liefert mit Fehling-Lösung beim Erwärmen einen ziegelroten Niederschlag. Was kannst du daraus für eine typische Aldehydprobe schließen? Nenne eine Einschränkung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Fehling-Probe weist reduzierende Eigenschaften nach.",
         "Ein positiver Test ist ein Hinweis, aber keine vollständige Strukturaufklärung."
@@ -2156,6 +2457,9 @@
       "prompt": "Ein Nucleophil greift ein Carbonyl-C an. Beschreibe die Verschiebung des Elektronenpaars und die anschließende Protonierung in einer wässrigen Umgebung.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das Carbonyl-C trägt δ⁺.",
         "Die π-Elektronen der C=O-Bindung verschieben sich zum O-Atom."
@@ -2179,6 +2483,9 @@
       "prompt": "Eine unbekannte Carbonylverbindung wird durch ein geeignetes Oxidationsmittel weiter oxidiert. Das Ergebnis passt zur Bildung einer Carbonsäure. Welche Stoffklasse liegt wahrscheinlich vor und warum?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die Oxidierbarkeit von Aldehyden und Ketonen im üblichen LK-Kontext.",
         "Nenne die Aussage als begründete Zuordnung, nicht als vollständigen Strukturbeweis."
@@ -2202,6 +2509,9 @@
       "prompt": "Wo liegt die Carbonylgruppe eines Aldehyds?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das Carbonyl-C trägt ein H-Atom."
       ],
@@ -2222,6 +2532,9 @@
       "prompt": "Welches Atom der Carbonylgruppe ist für ein Nucleophil besonders angreifbar?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Bindung ist polar."
       ],
@@ -2242,6 +2555,9 @@
       "prompt": "Welche Alkoholklasse entsteht bei der Reduktion eines Ketons?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das Carbonyl-C bleibt mit zwei C-Resten verbunden."
       ],
@@ -2262,6 +2578,10 @@
       "prompt": "Markiere die Carboxygruppe in CH₃–CH₂–COOH und benenne die Verbindung.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Eine Carboxygruppe enthält C=O und O–H am selben C-Atom.",
         "Zähle die C-Atome der Hauptkette."
@@ -2284,6 +2604,10 @@
       "prompt": "Formuliere die Protolyse von Ethansäure in Wasser.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Säure überträgt ein Proton auf Wasser.",
         "Das Säurerest-Ion ist Acetat."
@@ -2306,6 +2630,9 @@
       "prompt": "Chlorethansäure ist stärker sauer als Ethansäure. Erkläre den Unterschied mit dem induktiven Effekt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Chlor ist elektronegativer als Kohlenstoff.",
         "Vergleiche die Stabilität der jeweiligen Carboxylat-Ionen."
@@ -2329,6 +2656,9 @@
       "prompt": "Ethansäure hat pKa = 4,76, Chlorethansäure pKa = 2,86. Welche ist stärker? Begründe mit dem Zusammenhang zwischen pKa und Säurestärke.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein kleiner pKa-Wert bedeutet eine stärkere Säure.",
         "Verknüpfe die Daten mit der Stabilität der konjugierten Base."
@@ -2352,6 +2682,9 @@
       "prompt": "Oxalsäure besitzt zwei Carboxygruppen. Erkläre, warum man ihre Protolyse nicht mit nur einer einzigen Gleichung vollständig beschreibt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Jede Carboxygruppe kann ein Proton abgeben.",
         "Die Protonenabgaben laufen stufenweise ab und besitzen unterschiedliche Gleichgewichtskonstanten."
@@ -2375,6 +2708,9 @@
       "prompt": "Eine Carbonsäure besitzt am α-C-Atom vier verschiedene Substituenten. Welche stereochemische Eigenschaft kann daraus folgen? Nenne, was zusätzlich zu prüfen ist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein tetraedrisches C-Atom mit vier verschiedenen Gruppen kann chiral sein.",
         "Die Struktur muss tatsächlich ein stereogenes Zentrum enthalten."
@@ -2398,6 +2734,9 @@
       "prompt": "Welche beiden Gruppen bilden zusammen die Carboxygruppe?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie enthalten eine Carbonyl- und eine Hydroxygruppe."
       ],
@@ -2418,6 +2757,9 @@
       "prompt": "Welche Säure ist bei sonst vergleichbaren Bedingungen stärker: pKa 2 oder pKa 5?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein kleinerer pKa bedeutet stärkere Säure."
       ],
@@ -2438,6 +2780,9 @@
       "prompt": "Wie beeinflusst eine elektronenanziehende Gruppe häufig die Carbonsäurestärke?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie kann die konjugierte Base stabilisieren."
       ],
@@ -2458,6 +2803,10 @@
       "prompt": "Markiere die Estergruppe in CH₃–COO–CH₂–CH₃ und benenne den Ester.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Trenne gedanklich Säurerest und Alkoholrest am O-Atom.",
         "Der Säurerest stammt von Ethansäure, der Alkoholrest von Ethanol."
@@ -2480,6 +2829,9 @@
       "prompt": "Welche Stoffklassen reagieren bei der üblichen säurekatalysierten Veresterung miteinander? Welche zwei Produkte entstehen?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte Carboxygruppe und alkoholische Hydroxygruppe."
       ],
@@ -2500,6 +2852,9 @@
       "prompt": "Eine Veresterung läuft im Gleichgewicht. Nenne zwei Möglichkeiten, die Esterbildung nach dem Prinzip von Le Châtelier zu begünstigen.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Entferne ein Produkt oder erhöhe die Menge eines Edukts.",
         "Die Antwort muss mit dem Gleichgewicht der Reaktion verknüpft sein."
@@ -2523,6 +2878,10 @@
       "prompt": "Formuliere die alkalische Hydrolyse von Ethylethanoat mit Natronlauge als Ionengleichung. Nenne die organischen Produkte.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "OH⁻ greift das Carbonyl-C an.",
         "Bei basischer Hydrolyse liegt der Säurerest als Carboxylat vor."
@@ -2546,6 +2905,9 @@
       "prompt": "Erkläre die Grundidee der säurekatalysierten Veresterung von Ethansäure mit Ethanol. Warum wirkt Säure als Katalysator?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Protonierung macht das Carbonyl-C stärker elektrophil.",
         "Nach Bindungsbildung und Wasserabgabe wird das Proton zurückgebildet."
@@ -2569,6 +2931,9 @@
       "prompt": "Ein Ansatz enthält Carbonsäure und Alkanol im Verhältnis 1:1. Die Ausbeute bleibt niedrig. Nenne zwei chemisch begründete Maßnahmen zur Erhöhung der Estermenge und eine praktische Einschränkung.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nutze das Prinzip von Le Châtelier.",
         "Eine technische Maßnahme muss zu Flüchtigkeit, Löslichkeit oder Sicherheit der Stoffe passen."
@@ -2592,6 +2957,9 @@
       "prompt": "Welche funktionelle Gruppe kennzeichnet Ester?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie enthält ein Carbonyl-C und ein einfach gebundenes O."
       ],
@@ -2612,6 +2980,9 @@
       "prompt": "Verschiebt ein Katalysator die Gleichgewichtslage?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Er beschleunigt beide Reaktionsrichtungen."
       ],
@@ -2632,6 +3003,9 @@
       "prompt": "Welche organische Teilchenart entsteht bei alkalischer Esterhydrolyse aus dem Säurerest?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Reaktion läuft unter basischen Bedingungen."
       ],
@@ -2652,6 +3026,9 @@
       "prompt": "Natriumstearat (C₁₇H₃₅COO⁻ Na⁺) ist eine Seife. Beschreibe den Bau des Stearat-Ions und ordne seinen Molekülteilen die Begriffe hydrophil und hydrophob zu.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide den geladenen Kopf und die lange Kohlenwasserstoffkette."
       ],
@@ -2673,6 +3050,10 @@
       "prompt": "Formuliere die Reaktionsgleichung für die Bildung von Kalkseife aus Stearat-Ionen und Calcium-Ionen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Ein Calcium-Ion ist zweifach positiv geladen."
       ],
@@ -2693,6 +3074,9 @@
       "prompt": "Erkläre auf Teilchenebene, wie Tenside einen Fettfleck von einem Textil ablösen und in der Waschlauge halten.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die hydrophoben Reste lagern sich am Fett an.",
         "Denke an die Bildung von Mizellen."
@@ -2714,6 +3098,10 @@
       "prompt": "Gibt man Salzsäure zu einer Seifenlösung, bildet sich ein weißer Niederschlag, und die Lösung schäumt kaum noch. Erkläre die Beobachtung mit einer Reaktionsgleichung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Carboxylat-Ionen sind Basen."
       ],
@@ -2735,6 +3123,9 @@
       "prompt": "Moderne Waschmittel enthalten statt Seife synthetische Tenside wie Alkylbenzolsulfonate und zusätzlich Enthärter wie Zeolith A. Erläutere, wie beide Maßnahmen die Waschleistung in hartem Wasser verbessern.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die Löslichkeit der Calciumsalze.",
         "Zeolith A ist ein Ionenaustauscher."
@@ -2756,6 +3147,9 @@
       "prompt": "Eine vorsichtig aufgelegte Büroklammer schwimmt auf Wasser. Gibt man einen Tropfen Spülmittel an den Rand, sinkt sie. Erkläre beide Beobachtungen.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "An der Wasseroberfläche wirken Wasserstoffbrücken nur zur Seite und nach unten.",
         "Tenside lagern sich an der Oberfläche an."
@@ -2778,6 +3172,9 @@
       "prompt": "Welcher Teil eines Tensid-Moleküls ist hydrophob?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Er ist unpolar."
       ],
@@ -2798,6 +3195,9 @@
       "prompt": "Welche Ionen verursachen die Wasserhärte?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es sind zweifach positiv geladene Ionen."
       ],
@@ -2818,6 +3218,9 @@
       "prompt": "Was befindet sich im Inneren einer Mizelle in Wasser?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die hydrophilen Köpfe zeigen zum Wasser."
       ],
@@ -2838,6 +3241,9 @@
       "prompt": "Sorbinsäure besitzt eine Carboxygruppe und mehrere C=C-Doppelbindungen. Welche Stoffklasse liegt vor und welche funktionelle Gruppe kann ein Proton abgeben?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Carboxygruppe kennzeichnet eine Carbonsäure."
       ],
@@ -2859,6 +3265,9 @@
       "prompt": "Ascorbinsäure wird als Antioxidans eingesetzt. Erkläre qualitativ, was ein Antioxidans in einer Oxidationsreaktion leisten kann.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein Antioxidans kann selbst oxidiert werden und so andere Stoffe schützen.",
         "Beziehe dich auf die Elektronenübertragung."
@@ -2881,6 +3290,10 @@
       "prompt": "25,00 mL einer einprotonigen Konservierungssäure werden mit 0,0500 mol·L⁻¹ NaOH titriert. Am Äquivalenzpunkt sind 12,40 mL Maßlösung verbraucht. Berechne die Säurekonzentration.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Nutze das Verhältnis 1:1 der einprotonigen Säure und OH⁻.",
         "Rechne beide Volumina in Liter um."
@@ -2914,6 +3327,9 @@
       "prompt": "Eine schwache Konservierungssäure HA steht mit A⁻ im Gleichgewicht. Erkläre, wie eine pH-Erhöhung die Verteilung der beiden Formen qualitativ verändert.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bei steigendem pH werden Protonen abgefangen.",
         "Nutze das Gleichgewicht HA ⇌ H⁺ + A⁻."
@@ -2936,6 +3352,10 @@
       "prompt": "Du sollst den Gehalt einer einprotonigen Konservierungssäure in einer Probe bestimmen. Skizziere eine geeignete Titrationsmethode und nenne zwei Grenzen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Wähle eine Maßlösung bekannter Konzentration und einen passenden Endpunkt.",
         "Beachte mögliche weitere Säuren oder gefärbte Bestandteile der Probe."
@@ -2959,6 +3379,9 @@
       "prompt": "Ein Material nennt eine zulässige Einsatzmenge eines Konservierungsstoffs und einen analytisch bestimmten Gehalt. Welche chemischen und datenbezogenen Aspekte brauchst du für ein sachliches Urteil?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche Gehalt mit dem konkret geltenden Grenzwert und berücksichtige Einheiten.",
         "Ein chemischer Messwert allein ist keine vollständige Gesundheitsbewertung."
@@ -2982,6 +3405,9 @@
       "prompt": "Welche funktionelle Gruppe besitzt Sorbinsäure, die ein Proton abgeben kann?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie kennzeichnet eine Carbonsäure."
       ],
@@ -3002,6 +3428,9 @@
       "prompt": "Wie kann Ascorbinsäure andere Stoffe vor Oxidation schützen?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie selbst kann Elektronen abgeben."
       ],
@@ -3022,6 +3451,9 @@
       "prompt": "Was musst du vor einem Vergleich eines Analysenwerts mit einem Grenzwert prüfen?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Achte auf Datenqualität und gleiche Bezugsgrößen."
       ],
@@ -3042,6 +3474,9 @@
       "prompt": "Alanin hat eine nicht ionisierbare Methyl-Seitenkette. Zeichne die bei pH 6,0 vorherrschende Struktur als Valenzstrichformel und markiere die formalen Ladungen.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "handwriting"
+      ],
       "hints": [
         "Vergleiche pH 6 zuerst mit den pKa-Werten der Carboxy- und Ammoniumgruppe.",
         "Liegt der pH zwischen diesen pKa-Werten, ist die Carboxygruppe überwiegend deprotoniert und die Aminogruppe überwiegend protoniert."
@@ -3065,6 +3500,9 @@
       "prompt": "Ein unverzweigtes Tetrapeptid besteht aus vier Aminosäureresten. Wie viele Peptidbindungen enthält es? Begründe deine Antwort.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Eine Peptidbindung verbindet zwei benachbarte Reste.",
         "Bei einer linearen Kette aus n Resten gibt es n − 1 Verknüpfungen."
@@ -3088,6 +3526,10 @@
       "prompt": "Für Alanin gelten pKa₁ = 2,35 und pKa₂ = 9,87. Berechne den isoelektrischen Punkt. Entscheide anschließend, ob Alanin bei pH 8,0 im Mittel positiv oder negativ geladen ist.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Im vereinfachten Modell hat Alanin keine zusätzlich ionisierbare Seitenkette.",
         "Vergleiche den gegebenen pH mit dem berechneten pI."
@@ -3111,6 +3553,10 @@
       "prompt": "Für die formale Bildung eines Dipeptids setzt du 0,080 mol Glycin und 0,060 mol Alanin ein. Berechne die maximal mögliche Stoffmenge des Dipeptids und die Stoffmenge des dabei im gleichen Verhältnis entstehenden Wassers.",
       "taskType": "numeric",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Lies das Stoffmengenverhältnis aus der Reaktionsgleichung ab.",
         "Vergleiche die Eduktmengen passend zu diesem Verhältnis."
@@ -3151,6 +3597,9 @@
       "prompt": "Du untersuchst Glycin in zwei Elektrophoreseversuchen: einmal bei pH 3,0 und einmal bei pH 8,0. Verwende pI(Glycin) = 5,97. Sage für beide Versuche die Nettoladungstendenz und die Wanderungsrichtung im elektrischen Feld voraus. Begründe auch, warum der pI allein keine genaue Verteilung der Konzentrationen angibt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterhalb des pI überwiegt eine positive, oberhalb eine negative Nettoladung.",
         "Kationen wandern zur negativen Elektrode (Kathode), Anionen zur positiven Elektrode (Anode).",
@@ -3177,6 +3626,9 @@
       "prompt": "Eine Person behauptet: „L-Alanin dreht polarisiertes Licht immer nach links.“ Beurteile die Aussage und erkläre, welche Information die Bezeichnung L tatsächlich liefert.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide die relative Konfiguration von der optischen Aktivität und Drehrichtung.",
         "Ordne D/L der Fischer-Projektion zu, nicht einem Plus- oder Minuszeichen."
@@ -3201,6 +3653,9 @@
       "prompt": "Welche Ladung trägt die Aminogruppe und welche die Carboxygruppe im Zwitterion einer α-Aminosäure?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bei der inneren Protonenübertragung gibt die Carboxygruppe ein Proton an die Aminogruppe ab."
       ],
@@ -3221,6 +3676,9 @@
       "prompt": "Welche beiden pKa-Werte mittelst du für den pI einer Aminosäure, deren Seitenkette nicht ionisierbar ist?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Suche die beiden Protolyse-Schritte, zwischen denen das Zwitterion liegt."
       ],
@@ -3242,6 +3700,10 @@
       "prompt": "Ein lineares Hexapeptid besteht aus sechs Aminosäureresten. Wie viele Peptidbindungen enthält es?",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Verbinde die sechs Reste zu einer Kette und zähle die Verknüpfungen."
       ],
@@ -3275,6 +3737,9 @@
       "prompt": "Kannst du aus der Bezeichnung D ableiten, dass eine Aminosäure polarisiertes Licht nach rechts dreht?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide Konfiguration und gemessene Drehrichtung."
       ],
@@ -3296,6 +3761,10 @@
       "prompt": "Formal reagieren 0,12 mol Glycin mit 0,10 mol Alanin im Verhältnis 1:1. Wie viel Dipeptid kann höchstens entstehen?",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Bei einem Verhältnis von 1:1 begrenzt das knappere Edukt die Produktmenge."
       ],
@@ -3328,6 +3797,9 @@
       "prompt": "Ordne Proteinen, Cellulose und Chitin jeweils ihren Grundbaustein und die Bindung zu, über die die Bausteine verknüpft sind.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Proteine und Polysaccharide unterscheiden sich in Baustein und Bindungstyp.",
         "Chitin ähnelt im Aufbau der Cellulose."
@@ -3349,6 +3821,9 @@
       "prompt": "50 Glucose-Einheiten werden formal zu einer unverzweigten Polysaccharidkette verknüpft. Gib an, wie viele Wassermoleküle dabei abgespalten werden, und begründe.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Jede glycosidische Bindung entsteht unter Abspaltung eines Wassermoleküls.",
         "Zähle die Verknüpfungsstellen einer Kette."
@@ -3371,6 +3846,9 @@
       "prompt": "Cellulosefasern sind reißfest und in Wasser unlöslich. Erkläre beide Eigenschaften mit dem Bau der Cellulose.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Cellulose bildet lange, unverzweigte Ketten.",
         "Überlege, welche Wechselwirkungen zwischen benachbarten Ketten möglich sind."
@@ -3392,6 +3870,9 @@
       "prompt": "Ein Polysaccharid nimmt viel Wasser auf und quillt, löst sich aber nicht vollständig. Erkläre diesen Befund.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide Wechselwirkungen mit Wasser und Wechselwirkungen zwischen den Ketten."
       ],
@@ -3412,6 +3893,9 @@
       "prompt": "Seide besteht überwiegend aus dem Protein Fibroin, Baumwolle aus Cellulose. Vergleiche die beiden Fasern hinsichtlich Baustein, Verknüpfung und Wechselwirkungen zwischen den Ketten. Nenne einen Nachweis, mit dem du eine Seidenfaser von einer Baumwollfaser unterscheiden kannst.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Fibroin enthält auch Aminosäuren mit aromatischen Seitenketten wie Tyrosin.",
         "Ein Proteinnachweis fällt bei Cellulose negativ aus."
@@ -3435,6 +3919,9 @@
       "prompt": "Ein Lebensmitteletikett nennt Guarkernmehl, das überwiegend aus einem Galactomannan besteht, als Verdickungsmittel. Erkläre, wie es Wasser „verdicken“ kann, und beurteile, welche Angaben fehlen, um die Wirkung zweier Produkte zu vergleichen.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Galactomannane sind lange Polysaccharidketten mit Seitengruppen.",
         "Die Wirkung hängt nicht nur von der Stoffklasse ab."
@@ -3458,6 +3945,9 @@
       "prompt": "Zu welcher Stoffklasse gehört Chitin, und aus welchem Baustein ist es aufgebaut?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Chitin ist ein stickstoffhaltiger Naturstoff aus Zuckerbausteinen."
       ],
@@ -3478,6 +3968,9 @@
       "prompt": "Formuliere für die Reißfestigkeit von Cellulose die Erklärungskette aus Strukturmerkmal, Wechselwirkung und Eigenschaft.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Strukturmerkmal → Wechselwirkung → Eigenschaft."
       ],
@@ -3499,6 +3992,9 @@
       "prompt": "Welches Molekül wird bei der Bildung einer Peptidbindung und einer glycosidischen Bindung jeweils abgespalten?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Beide Verknüpfungen sind Kondensationsreaktionen."
       ],
@@ -3519,6 +4015,9 @@
       "prompt": "Worin unterscheiden sich α- und β-D-Glucopyranose? Gib das betroffene C-Atom an.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Beim Ringschluss entsteht ein neues Stereozentrum."
       ],
@@ -3539,6 +4038,9 @@
       "prompt": "Glucose und Fructose haben beide die Summenformel C₆H₁₂O₆. Beschreibe den Strukturunterschied ihrer offenkettigen Formen und gib an, in welchem Isomerieverhältnis sie zueinander stehen.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die funktionelle Gruppe und ihre Position in der Kette."
       ],
@@ -3560,6 +4062,9 @@
       "prompt": "Begründe, warum Glucose in der Fehling-Probe reduzierend wirkt, obwohl sie in Wasser überwiegend als Ring vorliegt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ring- und Kettenform stehen im Gleichgewicht.",
         "Nur eine bestimmte Form besitzt eine Aldehydgruppe."
@@ -3581,6 +4086,9 @@
       "prompt": "Probe A färbt sich mit Iod-Kaliumiodid-Lösung blauschwarz, die Fehling-Probe bleibt blau. Probe B zeigt mit Iod-Kaliumiodid keine Färbung, die Fehling-Probe ergibt einen ziegelroten Niederschlag. Deute beide Ergebnisse.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die beiden Nachweise prüfen unterschiedliche Eigenschaften."
       ],
@@ -3602,6 +4110,9 @@
       "prompt": "Lactose besteht aus Galactose und Glucose. Die Bausteine sind über C1 der Galactose und C4 der Glucose β-glycosidisch verknüpft. Sage das Verhalten von Lactose in der Fehling-Probe voraus und begründe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, welche anomeren C-Atome an der Bindung beteiligt sind."
       ],
@@ -3623,6 +4134,9 @@
       "prompt": "Eine Saccharose-Lösung ergibt in der Fehling-Probe keinen Niederschlag. Wird sie zuvor mit verdünnter Salzsäure erhitzt und anschließend neutralisiert, fällt die Fehling-Probe positiv aus. Erkläre beide Befunde und begründe, warum vor der Fehling-Probe neutralisiert werden muss.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Säure katalysiert die Spaltung glycosidischer Bindungen.",
         "Die Fehling-Lösung ist stark alkalisch."
@@ -3646,6 +4160,9 @@
       "prompt": "Welches C-Atom ist in D-Glucopyranose das anomere C-Atom?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es ist das C-Atom der früheren Aldehydgruppe."
       ],
@@ -3666,6 +4183,9 @@
       "prompt": "Welche Beobachtung zeigt eine positive Fehling-Probe an?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Achte auf Farbe und Niederschlag."
       ],
@@ -3686,6 +4206,9 @@
       "prompt": "Eine Probe färbt sich mit Iod-Kaliumiodid-Lösung blauschwarz. Was weist der Befund nach?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Der Nachweis beruht auf einer Helixstruktur."
       ],
@@ -3706,6 +4229,9 @@
       "prompt": "Nenne die Bausteine eines Triacylglycerids und gib an, wie viele Esterbindungen es enthält.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Glycerin besitzt drei Hydroxygruppen."
       ],
@@ -3727,6 +4253,9 @@
       "prompt": "Ordne Stearinsäure (C₁₇H₃₅COOH), Ölsäure (C₁₇H₃₃COOH) und Linolsäure (C₁₇H₃₁COOH) den Gruppen gesättigt, einfach ungesättigt und zweifach ungesättigt zu. Begründe mit der Summenformel des Alkylrests.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein gesättigter Alkylrest hat die Formel CₙH₂ₙ₊₁.",
         "Jede C=C-Doppelbindung verringert die Zahl der H-Atome um zwei."
@@ -3749,6 +4278,10 @@
       "prompt": "Formuliere die Verseifung von Glycerintristearat mit Natronlauge als vereinfachte Ionengleichung und benenne die Produkte.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Glycerintristearat ist der Triester aus Glycerin und drei Stearinsäure-Molekülen.",
         "Bei der Verseifung werden alle drei Esterbindungen gespalten."
@@ -3771,6 +4304,10 @@
       "prompt": "5,00 g eines Fettes addieren 0,00100 mol Iod (I₂). Berechne die Iodzahl. M(I₂) = 253,8 g·mol⁻¹.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Iodzahl gibt die Masse an Iod in Gramm pro 100 g Fett an."
       ],
@@ -3801,6 +4338,9 @@
       "prompt": "Bei der partiellen Hydrierung eines Pflanzenöls steigt der Schmelzbereich, das Produkt wird streichfest. Erkläre diese Änderung und erläutere, warum dabei auch trans-Fettsäurereste entstehen können.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Wasserstoff wird an C=C-Doppelbindungen addiert.",
         "Am Katalysator können sich Doppelbindungen umlagern."
@@ -3823,6 +4363,9 @@
       "prompt": "Öl A hat die Iodzahl 85, Öl B die Iodzahl 180. Vergleiche die beiden Öle hinsichtlich ihres Gehalts an C=C-Doppelbindungen und beurteile, welche Aussagen die Iodzahl über die Fettsäurezusammensetzung nicht liefert.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Je mehr Doppelbindungen, desto mehr Iod wird addiert.",
         "Überlege, was eine einzige Kennzahl nicht unterscheiden kann."
@@ -3846,6 +4389,10 @@
       "prompt": "Wie viele Fettsäurereste enthält ein Triacylglycerid?",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Zähle die Hydroxygruppen des Glycerins."
       ],
@@ -3879,6 +4426,9 @@
       "prompt": "Was gibt die Iodzahl eines Fettes an?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie bezieht sich auf 100 g Fett."
       ],
@@ -3899,6 +4449,9 @@
       "prompt": "Warum sind Fette mit vielen cis-ungesättigten Fettsäureresten bei Raumtemperatur meist flüssig?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Cis-Doppelbindungen erzeugen Knicke in der Kette."
       ],
@@ -3919,6 +4472,9 @@
       "prompt": "Ordne die Aminosäuresequenz, eine α-Helix und die räumliche Faltung einer einzelnen Polypeptidkette den Strukturebenen eines Proteins zu.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Quartärstruktur beschreibt mehrere Untereinheiten."
       ],
@@ -3939,6 +4495,9 @@
       "prompt": "Erkläre, warum eine Denaturierung nicht automatisch eine Hydrolyse des Proteins bedeutet.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide Faltungsänderung und Bindungsspaltung."
       ],
@@ -3959,6 +4518,9 @@
       "prompt": "Ein Protein verliert an Stabilität, wenn seine S–S-Brücken reduziert werden. Erkläre den Befund.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nenne Bindungstyp und Strukturfolge."
       ],
@@ -3979,6 +4541,9 @@
       "prompt": "Eine Proteinprobe färbt sich bei der Biuret-Reaktion violett. Formuliere eine zulässige und eine nicht zulässige Schlussfolgerung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Trenne Nachweisbeobachtung von Identifikation."
       ],
@@ -4000,6 +4565,9 @@
       "prompt": "Ein Enzym verliert in stark saurer Lösung seine Aktivität. Erkläre einen möglichen molekularen Grund.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte geladene Seitenketten und ihre Wechselwirkungen."
       ],
@@ -4020,6 +4588,9 @@
       "prompt": "Ein Materialtext führt die hohe Festigkeit einer Keratinfaser auf ihre Proteinstruktur zurück. Beurteile, welche Strukturangaben du für eine fundierte Erklärung benötigst.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Verknüpfe Struktur und makroskopische Eigenschaft mit Belegen."
       ],
@@ -4041,6 +4612,9 @@
       "prompt": "Aus welchen Bausteinen bestehen Proteine, und über welche Bindung sind sie verknüpft?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an die Primärstruktur."
       ],
@@ -4061,6 +4635,9 @@
       "prompt": "Nenne vier Wechselwirkungen oder Bindungen, die die Tertiärstruktur eines Proteins stabilisieren.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Kovalente und nicht kovalente Wechselwirkungen kommen vor."
       ],
@@ -4081,6 +4658,9 @@
       "prompt": "Werden bei der Denaturierung eines Proteins durch Hitze in der Regel Peptidbindungen gespalten?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide Faltung und Primärstruktur."
       ],
@@ -4101,6 +4681,9 @@
       "prompt": "Ordne den Reaktionen die Begriffe Polymerisation, Polykondensation und Polyaddition zu: (a) Ethen reagiert zu Polyethen. (b) Ethan-1,2-diol und Terephthalsäure reagieren zu einem Polyester und Wasser. (c) Ein Diol und ein Diisocyanat reagieren ohne Nebenprodukt zu einem Polyurethan.",
       "taskType": "matching",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob eine Doppelbindung geöffnet wird und ob ein kleines Molekül entsteht."
       ],
@@ -4146,6 +4729,9 @@
       "prompt": "Gib an, welche funktionellen Gruppen die Monomere tragen müssen, damit ein linearer Polyester beziehungsweise ein lineares Polyamid entsteht.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Jedes Monomer braucht zwei reaktionsfähige Gruppen."
       ],
@@ -4166,6 +4752,10 @@
       "prompt": "Ethan-1,2-diol (HO–CH₂–CH₂–OH) reagiert mit Butandisäure (HOOC–CH₂–CH₂–COOH) zu einem Polyester. Formuliere die Wiederholungseinheit und gib an, wie viele Wassermoleküle pro neu gebildeter Esterbindung entstehen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Eine Esterbindung entsteht aus einer Hydroxy- und einer Carboxygruppe.",
         "Achte darauf, dass die Wiederholungseinheit je einen Baustein beider Monomere enthält."
@@ -4189,6 +4779,10 @@
       "prompt": "Polyamid 6,6 entsteht aus Hexandisäure und Hexan-1,6-diamin. Formuliere die Wiederholungseinheit und erkläre, warum Polyamidfasern besonders reißfest sind.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Amidgruppe enthält N–H- und C=O-Gruppen."
       ],
@@ -4211,6 +4805,9 @@
       "prompt": "Bei einer Polyestersynthese wird ein Teil des Ethan-1,2-diols durch Glycerin (Propan-1,2,3-triol) ersetzt. Leite ab, wie sich Struktur und Eigenschaften des Produkts verändern.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Zähle die Hydroxygruppen von Glycerin.",
         "Überlege, was eine dritte reaktionsfähige Gruppe für das Kettenwachstum bedeutet."
@@ -4232,6 +4829,9 @@
       "prompt": "Polyurethane entstehen aus Diisocyanaten (O=C=N–R–N=C=O) und Diolen. Erkläre, warum diese Reaktion eine Polyaddition ist. Bei der Herstellung kompakter Polyurethan-Teile muss Feuchtigkeit ausgeschlossen werden; Isocyanatgruppen reagieren mit Wasser zu einer Aminogruppe und Kohlenstoffdioxid. Erläutere die Folge für das Material.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob bei der Bildung der Urethangruppe ein Molekül abgespalten wird.",
         "Ein Gas entsteht im Inneren des Materials."
@@ -4254,6 +4854,9 @@
       "prompt": "Welches kleine Molekül entsteht bei der Bildung eines Polyesters aus einem Diol und einer Dicarbonsäure?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es entsteht bei jeder Esterbildung."
       ],
@@ -4274,6 +4877,9 @@
       "prompt": "Worin unterscheiden sich Polykondensation und Polyaddition in ihrer Stoffbilanz?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Achte auf Nebenprodukte."
       ],
@@ -4294,6 +4900,10 @@
       "prompt": "Wie viele reaktionsfähige funktionelle Gruppen muss ein Monomer mindestens besitzen, damit eine lineare Kette wachsen kann?",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Kette muss an beiden Enden weiterwachsen können."
       ],
@@ -4327,6 +4937,10 @@
       "prompt": "Gib die Wiederholungseinheiten der Polymere an, die durch Polymerisation von Propen (CH₂=CH–CH₃) und von Chlorethen (CH₂=CHCl) entstehen.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Öffne die C=C-Doppelbindung; die Seitenreste bleiben erhalten."
       ],
@@ -4348,6 +4962,9 @@
       "prompt": "Gib für die Polymere [–CF₂–CF₂–]ₙ und [–CH₂–CH(CN)–]ₙ jeweils das Monomer an.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Setze zwischen die beiden C-Atome der Hauptkette wieder eine Doppelbindung."
       ],
@@ -4369,6 +4986,10 @@
       "prompt": "Ethen wird mit einem Peroxid R–O–O–R als Initiator polymerisiert. Formuliere je eine Gleichung für Start, Kettenwachstum und Kettenabbruch.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die O–O-Bindung des Peroxids spaltet sich homolytisch.",
         "Beim Abbruch reagieren zwei Radikale miteinander."
@@ -4391,6 +5012,10 @@
       "prompt": "Eine Polyethen-Kette besteht aus 2000 Ethen-Einheiten. Berechne ihre molare Masse näherungsweise (M(C₂H₄) = 28,05 g·mol⁻¹) und begründe, warum du die Masse der Monomere einfach addieren darfst.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Endgruppen kannst du bei so langen Ketten vernachlässigen."
       ],
@@ -4412,6 +5037,9 @@
       "prompt": "Polystyrol ist bei Raumtemperatur hart und spröde, Polyethen niedriger Dichte weich und biegsam. Erkläre den Unterschied mit dem Bau der Ketten.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die Seitenreste der beiden Polymere."
       ],
@@ -4432,6 +5060,9 @@
       "prompt": "Bei einer radikalischen Polymerisation wird die Initiatormenge verdoppelt, alle übrigen Bedingungen bleiben gleich. Leite ab, wie sich die mittlere Kettenlänge verändert.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Jedes Startradikal beginnt eine eigene Kette.",
         "Mehr Radikale treffen auch häufiger aufeinander."
@@ -4454,6 +5085,9 @@
       "prompt": "Wird bei der Polymerisation von Ethen ein kleines Molekül abgespalten?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche mit der Polykondensation."
       ],
@@ -4474,6 +5108,9 @@
       "prompt": "Welches Strukturmerkmal muss ein Monomer für eine Polymerisation besitzen?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Diese Bindung wird beim Kettenwachstum geöffnet."
       ],
@@ -4494,6 +5131,9 @@
       "prompt": "Welche Aufgabe hat der Initiator bei der radikalischen Polymerisation?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ohne ihn beginnt kein Kettenwachstum."
       ],
@@ -4514,6 +5154,9 @@
       "prompt": "Ordne die Gegenstände den Klassen Thermoplast, Elastomer und Duroplast zu: (a) Gummiband, (b) Steckdosengehäuse aus Phenolharz, (c) Getränkeflasche aus Polyethen.",
       "taskType": "matching",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an Verformbarkeit beim Erwärmen und Rückstellung nach Dehnung."
       ],
@@ -4559,6 +5202,9 @@
       "prompt": "Beschreibe, wie sich ein Thermoplast, ein Elastomer und ein Duroplast beim starken Erwärmen verhalten.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide Erweichen, Schmelzen und Zersetzen."
       ],
@@ -4579,6 +5225,9 @@
       "prompt": "Erkläre auf Teilchenebene, warum sich Thermoplaste durch Erwärmen umformen und verschweißen lassen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Ketten sind nicht kovalent miteinander verbunden."
       ],
@@ -4599,6 +5248,9 @@
       "prompt": "Polyethen hoher Dichte (PE-HD) besitzt kaum verzweigte Ketten, Polyethen niedriger Dichte (PE-LD) viele Seitenverzweigungen. Erkläre, warum PE-HD dichter und fester ist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege, wie gut sich gerade und verzweigte Ketten aneinanderlegen können."
       ],
@@ -4619,6 +5271,9 @@
       "prompt": "Material A besteht aus Ketten, in denen Ethen- und Vinylacetat-Einheiten abwechselnd oder zufällig verteilt kovalent verknüpft sind. Material B ist eine Mischung aus reinen Polyethen- und reinen Polypropen-Ketten. Ordne beide Materialien den Begriffen Copolymer und Blend zu und begründe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob die verschiedenen Monomere in derselben Kette verbaut sind."
       ],
@@ -4640,6 +5295,9 @@
       "prompt": "Für den Griff einer Bratpfanne stehen ein Thermoplast und ein Duroplast zur Auswahl. Beurteile die Eignung beider Werkstoffe und nenne einen Nachteil des geeigneteren Werkstoffs.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Der Griff kann beim Kochen deutlich erwärmt werden."
       ],
@@ -4661,6 +5319,9 @@
       "prompt": "Welche Kunststoffklasse lässt sich wiederholt schmelzen und umformen?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ihre Ketten sind nicht vernetzt."
       ],
@@ -4681,6 +5342,9 @@
       "prompt": "Welche Eigenschaft verleiht eine weitmaschige Vernetzung einem Kunststoff?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an ein Gummiband."
       ],
@@ -4701,6 +5365,9 @@
       "prompt": "Warum schmilzt ein Duroplast beim Erhitzen nicht?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Ketten sind kovalent verknüpft."
       ],
@@ -4721,6 +5388,9 @@
       "prompt": "Ordne die Verfahren den Begriffen werkstoffliches, rohstoffliches und energetisches Recycling beziehungsweise Verwertung zu: (a) Gesammelte PET-Flaschen werden gemahlen, gereinigt und zu Fasern versponnen. (b) Kunststoffabfälle werden durch Pyrolyse in ein Öl aus kleineren Molekülen zerlegt. (c) Kunststoffabfälle werden in einer Anlage verbrannt, die Wärme wird genutzt.",
       "taskType": "matching",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob das Polymer, die Ausgangsstoffe oder nur die Energie genutzt werden."
       ],
@@ -4766,6 +5436,10 @@
       "prompt": "Ein Hersteller verarbeitet 8,0 t Kunststoff, davon 2,4 t Rezyklat. Berechne den Massenanteil des Rezyklats.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "w = m(Anteil) / m(Gesamt) · 100 %"
       ],
@@ -4800,6 +5474,9 @@
       "prompt": "Erläutere zwei Gründe, warum Rezyklat aus werkstofflichem Recycling oft schlechtere Eigenschaften hat als Neuware.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an die Ketten selbst und an fremde Stoffe im Material."
       ],
@@ -4820,6 +5497,9 @@
       "prompt": "„Bio-Polyethen“ wird aus Ethanol hergestellt, das aus Zuckerrohr gewonnen wird. Begründe, ob dieses Material biologisch abbaubar ist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die Molekülstruktur mit Polyethen aus Erdöl."
       ],
@@ -4841,6 +5521,10 @@
       "prompt": "Fiktive Daten: Eine Mehrweg-Glasflasche (0,70 L) verursacht in der Herstellung 400 g CO₂-Äquivalente und wird 20-mal befüllt; pro Umlauf kommen 40 g für Transport und Reinigung hinzu. Eine Einweg-PET-Flasche (1,5 L) verursacht insgesamt 60 g. Berechne die Emissionen je Liter Füllvolumen und beurteile, ob damit ein fairer Vergleich vorliegt.",
       "taskType": "structured",
       "afb": 3,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Verteile die Herstellungsemissionen der Glasflasche auf alle Umläufe.",
         "Ein fairer Vergleich braucht dieselbe Funktion und Systemgrenze."
@@ -4864,6 +5548,9 @@
       "prompt": "PET kann durch Hydrolyse der Esterbindungen wieder in Terephthalsäure und Ethan-1,2-diol zerlegt werden. Bewerte dieses rohstoffliche Recycling im Vergleich zum werkstofflichen Recycling anhand von zwei Kriterien.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Mögliche Kriterien sind Produktqualität und Energiebedarf."
       ],
@@ -4885,6 +5572,9 @@
       "prompt": "Was geht bei der energetischen Verwertung von Kunststoffen verloren?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche mit dem werkstofflichen Recycling."
       ],
@@ -4905,6 +5595,9 @@
       "prompt": "Was legt die Systemgrenze bei einer ökologischen Bewertung fest?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an den Lebensweg eines Produkts."
       ],
@@ -4925,6 +5618,9 @@
       "prompt": "Ist ein biobasierter Kunststoff automatisch biologisch abbaubar?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide Herkunft und Struktur."
       ],
@@ -4945,6 +5641,9 @@
       "prompt": "Ein sechsgliedriger Ring besitzt drei alternierende Doppelbindungen. Welche zusätzliche Modellvorstellung brauchst du, um Benzol angemessen zu beschreiben?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Berücksichtige, dass die π-Elektronen nicht jeweils nur einer festen Doppelbindung zugeordnet sind."
       ],
@@ -4966,6 +5665,9 @@
       "prompt": "Benzol reagiert mit Brom unter geeigneten katalytischen Bedingungen zu Brombenzol. Ordne den Reaktionstyp ein und begründe, warum der Ring erhalten bleibt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Achte darauf, ob ein H-Atom ersetzt oder an eine Doppelbindung addiert wird.",
         "Die Aromatizität kann nach einem Zwischenschritt wiederhergestellt werden."
@@ -4988,6 +5690,10 @@
       "prompt": "Formuliere das Reaktionsschema der Nitrierung von Benzol zu Nitrobenzol und nenne das Elektrophil.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Schwefelsäure unterstützt die Bildung des Nitronium-Ions.",
         "Die Nettogleichung enthält Salpetersäure und Benzol als Ausgangsstoffe."
@@ -5011,6 +5717,9 @@
       "prompt": "Ordne die drei Grundschritte der elektrophilen aromatischen Substitution: Elektrophilbildung, Angriff des Rings, Protonenabgabe.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nach dem Angriff entsteht ein nicht-aromatisches Zwischenprodukt.",
         "Der letzte Schritt stellt das delokalisierte π-System wieder her."
@@ -5034,6 +5743,9 @@
       "prompt": "Ein Material vergleicht die Zweitsubstitution von Benzol und einem bereits substituierten Aromaten. Welche Informationen brauchst du, bevor du eine bevorzugte Position begründest?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, welcher Substituent bereits vorhanden ist und welche Reaktion untersucht wird.",
         "Nutze dirigierende Regeln nur, wenn sie für den Jahrgang verlangt oder im Material gegeben sind."
@@ -5057,6 +5769,9 @@
       "prompt": "Eine Behauptung lautet: „Benzol entfärbt Bromwasser wie ein Alken, weil es drei Doppelbindungen besitzt.“ Beurteile sie.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide lokale Doppelbindungen in einer Grenzformel vom delokalisierten aromatischen System.",
         "Berücksichtige den Energiegewinn durch Erhalt der Aromatizität."
@@ -5080,6 +5795,9 @@
       "prompt": "Wie sind die sechs π-Elektronen im Benzol verteilt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie gehören zum gesamten Ringsystem."
       ],
@@ -5100,6 +5818,9 @@
       "prompt": "Welcher Reaktionstyp ist typisch für Benzol?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein H am Ring wird ersetzt."
       ],
@@ -5120,6 +5841,9 @@
       "prompt": "Was geschieht nach Bildung des σ-Komplexes?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein Proton wird abgegeben."
       ],
@@ -5140,6 +5864,9 @@
       "prompt": "Gib das Monomer von Polymilchsäure (PLA) an und nenne die Bindung, über die die Bausteine verknüpft sind.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Milchsäure enthält eine Hydroxy- und eine Carboxygruppe."
       ],
@@ -5161,6 +5888,9 @@
       "prompt": "Nenne die Verknüpfungen, die bei der Vulkanisation von Kautschuk entstehen, und beschreibe ihre Wirkung auf die Eigenschaften.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bei der Vulkanisation wird Schwefel eingesetzt."
       ],
@@ -5182,6 +5912,10 @@
       "prompt": "Formuliere die Bildung von PLA aus Milchsäure (HO–CH(CH₃)–COOH) als Polykondensation mit Wiederholungseinheit und erkläre, warum hier ein einziges Monomer genügt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Ein Milchsäure-Molekül trägt beide für eine Esterbindung nötigen Gruppen."
       ],
@@ -5204,6 +5938,9 @@
       "prompt": "Mit wenig Schwefel vulkanisierter Kautschuk ist weich und elastisch, mit viel Schwefel entsteht harter, kaum dehnbarer Hartgummi. Erkläre diesen Unterschied.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche den Abstand der Vernetzungsstellen."
       ],
@@ -5224,6 +5961,9 @@
       "prompt": "Viskose und Baumwolle bestehen beide aus Cellulose. Viskosefasern verlieren im nassen Zustand aber deutlich mehr an Festigkeit. Erkläre diesen Unterschied mit der Herstellung der Viskose.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bei der Viskoseherstellung wird Cellulose gelöst und regeneriert.",
         "Denke an Kettenlänge und Ordnung der Ketten."
@@ -5245,6 +5985,9 @@
       "prompt": "Ein Trinkbecher aus PLA trägt den Hinweis „kompostierbar“. Beurteile, ob der Becher im Gartenkompost oder in der Natur rasch abgebaut wird, und nenne die Angaben, die eine solche Aussage stützen müssten.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Esterbindungen werden zuerst hydrolysiert, bevor Mikroorganismen die Bruchstücke abbauen.",
         "Die Geschwindigkeit hängt stark von Temperatur und Feuchtigkeit ab."
@@ -5268,6 +6011,9 @@
       "prompt": "Zu welcher Polymerklasse gehört PLA?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte die Bindung zwischen den Bausteinen."
       ],
@@ -5288,6 +6034,9 @@
       "prompt": "Welche Brücken verbinden die Ketten in vulkanisiertem Kautschuk?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie entstehen durch Schwefel."
       ],
@@ -5308,6 +6057,9 @@
       "prompt": "Aus welchem Naturstoff wird Viskose hergestellt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Viskose ist eine regenerierte Faser."
       ],
@@ -5328,6 +6080,10 @@
       "prompt": "Formuliere die ausgeglichene Reaktionsgleichung der Ammoniaksynthese aus Stickstoff und Wasserstoff.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Beachte, dass Stickstoff und Wasserstoff als zweiatomige Moleküle vorliegen.",
         "Gleiche N und H aus."
@@ -5349,6 +6105,9 @@
       "prompt": "Die Hinreaktion der Ammoniaksynthese ist exotherm. Auf welcher Seite steht Wärme in einer schematischen Gleichung für die Hinreaktion?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Exotherme Reaktionen geben Wärme ab."
       ],
@@ -5369,6 +6128,9 @@
       "prompt": "Erkläre, warum die Ammoniaksynthese bei technischen Bedingungen nicht einfach bei möglichst niedriger Temperatur durchgeführt wird, obwohl die Hinreaktion exotherm ist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Niedrige Temperatur begünstigt das Gleichgewicht, kann aber die Reaktionsgeschwindigkeit senken.",
         "Technische Verfahren müssen Umsatz und Zeitaufwand abwägen."
@@ -5392,6 +6154,9 @@
       "prompt": "Die Veresterung einer Carbonsäure mit einem Alkanol ist umkehrbar. Nenne eine Maßnahme, mit der sich die Estermenge im Gleichgewicht erhöhen lässt, und begründe die Richtung der Verschiebung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nutze ein Edukt im Überschuss oder entferne ein Produkt.",
         "Erkläre die Richtung der Gleichgewichtsverschiebung."
@@ -5414,6 +6179,9 @@
       "prompt": "Ein Material vergleicht zwei Verfahren: Verfahren A arbeitet bei niedriger Temperatur und erreicht hohen Gleichgewichtsumsatz, Verfahren B reagiert bei höherer Temperatur schneller, erreicht aber einen geringeren Gleichgewichtsumsatz. Welche weiteren Kriterien brauchst du für eine Prozessbewertung?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein Verfahren wird nicht allein über die Gleichgewichtsausbeute bewertet.",
         "Berücksichtige Energiebedarf, Sicherheit und Stoffkreisläufe."
@@ -5437,6 +6205,9 @@
       "prompt": "Bei N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) wird NH₃ kontinuierlich aus dem Reaktionsgemisch entfernt. Erkläre die erwartete Richtung der anfänglichen Nettoreaktion mithilfe von Qc und Kc.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Entfernung senkt die Produktkonzentration und damit zunächst Qc.",
         "Vergleiche Qc mit Kc bei gleicher Temperatur."
@@ -5460,6 +6231,9 @@
       "prompt": "Welche Seite der Ammoniaksynthese wird bei Druckerhöhung begünstigt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die Zahl gasförmiger Teilchen."
       ],
@@ -5480,6 +6254,9 @@
       "prompt": "Ändert ein Katalysator die Gleichgewichtsausbeute?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Er wirkt auf die Geschwindigkeit."
       ],
@@ -5500,6 +6277,9 @@
       "prompt": "Nenne eine Möglichkeit, die Estermenge im Gleichgewicht zu erhöhen.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Le Chatelier anwenden."
       ],
@@ -5520,6 +6300,9 @@
       "prompt": "In einem geschlossenen Gefäß bleiben die Konzentrationen von Edukten und Produkten konstant. Bedeutet das, dass die Reaktionen aufgehört haben? Begründe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide konstante Konzentrationen von stillstehenden Teilchen."
       ],
@@ -5540,6 +6323,10 @@
       "prompt": "Stelle für N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) den schulischen Konzentrationsausdruck Kc auf.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die stöchiometrischen Koeffizienten werden zu Exponenten.",
         "Produkte stehen im Zähler, Edukte im Nenner."
@@ -5561,6 +6348,10 @@
       "prompt": "Für 2 NO₂(g) ⇌ N₂O₄(g) gelten im Gleichgewicht c(NO₂)=0,20 mol·L⁻¹ und c(N₂O₄)=0,50 mol·L⁻¹. Berechne Kc nach dem üblichen Konzentrationsausdruck.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Schreibe Kc = c(N₂O₄)/c(NO₂)².",
         "Setze beide Gleichgewichtskonzentrationen ein."
@@ -5594,6 +6385,10 @@
       "prompt": "In einem geschlossenen Gefäß liegt anfangs nur N₂O₄ vor: c₀(N₂O₄)=0,50 mol·L⁻¹ und c₀(NO₂)=0. Im Gleichgewicht sind 0,20 mol·L⁻¹ NO₂ vorhanden. Berechne cₑq(N₂O₄) für N₂O₄(g) ⇌ 2 NO₂(g).",
       "taskType": "numeric",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Aus 1 mol N₂O₄ entstehen 2 mol NO₂.",
         "Berechne zuerst die umgesetzte N₂O₄-Konzentration."
@@ -5627,6 +6422,9 @@
       "prompt": "Eine Konzentration steigt zunächst und erreicht dann ein Plateau. Erkläre, was die Kurve über das System aussagt und was sie allein nicht beweist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein Plateau zeigt eine makroskopisch konstante Konzentration.",
         "Ein Gleichgewicht setzt gleich schnelle Hin- und Rückreaktion voraus."
@@ -5650,6 +6448,9 @@
       "prompt": "Für eine Reaktion gilt bei festgelegter Temperatur Kc=4. Der aktuelle Reaktionsquotient beträgt Qc=1. In welche Richtung läuft die Nettoreaktion zunächst? Begründe mit dem Vergleich von Qc und Kc.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche Qc mit Kc.",
         "Bei Qc < Kc ist der Produktanteil im Vergleich zum Gleichgewicht zu klein."
@@ -5673,6 +6474,9 @@
       "prompt": "Wann ist ein dynamisches Gleichgewicht erreicht?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche Hin- und Rückreaktionsgeschwindigkeit."
       ],
@@ -5693,6 +6497,9 @@
       "prompt": "Wo stehen Produkte im üblichen MWG-Ausdruck?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nutze die allgemeine Reaktionsgleichung."
       ],
@@ -5713,6 +6520,9 @@
       "prompt": "Was bedeutet Qc < Kc bei gleicher Temperatur?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das System enthält relativ zu wenig Produkt."
       ],
@@ -5733,6 +6543,9 @@
       "prompt": "Für N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g): Beschreibe die anfängliche Verschiebungsrichtung, wenn H₂ zugegeben wird. Wie ändert sie sich, wenn stattdessen NH₃ zugegeben wird?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Zugabe erhöht die Konzentration eines Edukts.",
         "Das System reagiert so, dass ein Teil der Störung abgebaut wird."
@@ -5754,6 +6567,9 @@
       "prompt": "Was verändert ein Katalysator in einem Gleichgewichtssystem? Nenne auch, welche Gleichgewichtsgrößen er nicht verändert.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Er beeinflusst die Geschwindigkeit beider Reaktionsrichtungen."
       ],
@@ -5774,6 +6590,9 @@
       "prompt": "Bei N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) wird das Volumen verkleinert. Bestimme die Richtung der Verschiebung und begründe mit der Teilchenzahl gasförmiger Stoffe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Links stehen vier Mol Gasteilchen pro Reaktionsumsatz, rechts zwei.",
         "Eine Druckerhöhung begünstigt die Seite mit weniger Gasteilchen."
@@ -5797,6 +6616,9 @@
       "prompt": "Die Hinreaktion eines Gleichgewichts ist exotherm. Begründe, in welche Richtung sich das Gleichgewicht bei einer Temperaturerhöhung verschiebt und ob sich Kc ändert.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Behandle Wärme bei einer exothermen Hinreaktion wie ein Produkt.",
         "Erhöhe ein Produkt und prüfe die Gegenreaktion."
@@ -5820,6 +6642,9 @@
       "prompt": "Zu einem Gleichgewichtsgemisch wird bei konstanter Temperatur ein Edukt zugegeben. Ändert sich dadurch sofort Kc? Begründe mit Kc und Qc.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Kc hängt bei einer bestimmten Reaktion von der Temperatur ab.",
         "Die Stoffzugabe verändert zunächst die aktuellen Konzentrationen und damit Qc."
@@ -5842,6 +6667,9 @@
       "prompt": "In einem heterogenen Gleichgewicht wird die Menge eines reinen Feststoffs erhöht; der Feststoff bleibt weiterhin vorhanden. Ändert sich dadurch die Gleichgewichtslage im üblichen MWG-Modell? Begründe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Aktivität eines reinen Feststoffs bleibt im MWG-Ausdruck konstant.",
         "Unterscheide Stoffmenge des Feststoffs von seiner Aktivität."
@@ -5865,6 +6693,9 @@
       "prompt": "Welche Seite wird bei Druckerhöhung bevorzugt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Zähle gasförmige Teilchen."
       ],
@@ -5885,6 +6716,9 @@
       "prompt": "Welche Reaktionsrichtung wird bei Temperaturerhöhung bevorzugt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Richtung, die Wärme verbraucht."
       ],
@@ -5905,6 +6739,9 @@
       "prompt": "Verändert ein Katalysator Kc?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bei gleicher Temperatur bleibt Kc gleich."
       ],
@@ -5925,6 +6762,10 @@
       "prompt": "Eine starke einprotonige Säure hat die Konzentration 1,0·10⁻³ mol·L⁻¹. Berechne näherungsweise den pH-Wert.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Bei vollständiger Protolyse gilt c(H₃O⁺) ≈ c₀.",
         "Setze den Wert in pH = −lg c(H₃O⁺) ein."
@@ -5959,6 +6800,10 @@
       "prompt": "Bei 25 °C gilt für eine starke Base c(OH⁻) = 1,0·10⁻⁴ mol·L⁻¹. Berechne pOH und pH.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Berechne zuerst pOH = −lg c(OH⁻).",
         "Nutze bei 25 °C pH + pOH = 14,00."
@@ -6001,6 +6846,10 @@
       "prompt": "Berechne näherungsweise den pH einer 0,10 mol·L⁻¹ Ethansäurelösung. Verwende Ks = 1,8·10⁻⁵ mol·L⁻¹ und prüfe die Näherung.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Für eine schwache einprotonige Säure gilt bei x ≪ c₀ näherungsweise [H₃O⁺] ≈ √(Ks·c₀).",
         "Vergleiche x mit c₀."
@@ -6024,6 +6873,9 @@
       "prompt": "Säure A hat pKs = 3,1, Säure B pKs = 5,0. Welche Säure ist stärker und um welchen Faktor unterscheidet sich Ks?",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ks = 10⁻pKs.",
         "Vergleiche die Differenz der pKs-Werte."
@@ -6047,6 +6899,9 @@
       "prompt": "Phosphorsäure besitzt drei Protolysekonstanten. Begründe, warum die erste Protolyse meist stärker ist als die zweite und warum du die Stufen nicht zu einem einzigen pKs zusammenfassen darfst.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nach der ersten Protonenabgabe ist das Teilchen negativ geladen.",
         "Die weitere Abgabe eines Protons aus einem Anion ist elektrostatisch ungünstiger."
@@ -6069,6 +6924,9 @@
       "prompt": "Bei der Berechnung einer schwachen Säure wird [H₃O⁺] ≈ √(Ks·c₀) verwendet. Nenne die Voraussetzung und erkläre, was du tust, wenn sie nicht erfüllt ist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Näherung setzt eine kleine Protolyse gegenüber c₀ voraus.",
         "Ohne die Näherung muss die Gleichgewichtsbeziehung exakt gelöst werden."
@@ -6092,6 +6950,9 @@
       "prompt": "Welcher pKs-Wert kennzeichnet die stärkere Säure?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Kleinerer pKs entspricht größerem Ks."
       ],
@@ -6112,6 +6973,9 @@
       "prompt": "Welchen Zusammenhang nutzen pH und pOH bei 25 °C?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nutze das Ionenprodukt des Wassers."
       ],
@@ -6132,6 +6996,9 @@
       "prompt": "Wann ist c(H₃O⁺) ≈ √(Ks·c₀) für eine schwache Säure plausibel?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Protolyse muss klein im Vergleich zur Anfangskonzentration sein."
       ],
@@ -6152,6 +7019,10 @@
       "prompt": "Betrachte NH₃ + H₂O ⇌ NH₄⁺ + OH⁻. Markiere Brønsted-Säure und Brønsted-Base auf der Eduktseite.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Säure gibt ein Proton ab.",
         "Die Base nimmt es auf."
@@ -6173,6 +7044,9 @@
       "prompt": "Bestimme die korrespondierenden Säure-Base-Paare in HCl + H₂O → H₃O⁺ + Cl⁻.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein Paar unterscheidet sich um genau ein Proton.",
         "Ordne Edukt und konjugiertes Produkt zu."
@@ -6194,6 +7068,10 @@
       "prompt": "Zeige mit je einer Reaktionsgleichung, dass HCO₃⁻ als Säure und als Base reagieren kann.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Als Säure gibt HCO₃⁻ ein Proton ab.",
         "Als Base nimmt es ein Proton auf."
@@ -6217,6 +7095,9 @@
       "prompt": "Eine 0,10 mol·L⁻¹ Salzsäure und eine 1,0 mol·L⁻¹ Ethansäure werden verglichen. Erkläre, warum die Konzentrationsangabe allein keine Rangfolge der Säurestärke festlegt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Stärke beschreibt den Protolysegrad beziehungsweise das Gleichgewicht.",
         "Konzentration gibt die Stoffmenge pro Volumen an."
@@ -6240,6 +7121,10 @@
       "prompt": "Phosphorsäure kann drei Protonen stufenweise abgeben. Formuliere die erste und zweite Protolyse in Wasser.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Bei jeder Stufe entsteht ein neues korrespondierendes Säurerest-Ion.",
         "Gib die Nettoladung nach jeder Abgabe an."
@@ -6263,6 +7148,10 @@
       "prompt": "Prüfe die Gleichung H₂SO₄ + H₂O → HSO₄⁻ + H₃O⁺ auf Atom- und Ladungsbilanz. Begründe, ob sie die erste Protolyse darstellt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Zähle H, S und O auf beiden Seiten.",
         "Vergleiche die Gesamtladung."
@@ -6286,6 +7175,9 @@
       "prompt": "Was macht eine Brønsted-Säure?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie überträgt ein Proton."
       ],
@@ -6306,6 +7198,9 @@
       "prompt": "Worin unterscheiden sich korrespondierende Säure-Base-Paare?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte die Teilchenformeln."
       ],
@@ -6326,6 +7221,9 @@
       "prompt": "Was ist ein Ampholyt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das Teilchen kann in beide Richtungen reagieren."
       ],
@@ -6346,6 +7244,9 @@
       "prompt": "Eine unbekannte Säure wird mit Natronlauge bekannter Konzentration titriert. Welche Lösung ist die Maßlösung, welche die Probelösung?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Konzentration der Maßlösung ist bekannt.",
         "Die unbekannte Konzentration soll bestimmt werden."
@@ -6367,6 +7268,9 @@
       "prompt": "Was bedeutet der Äquivalenzpunkt bei der Titration einer einprotonigen Säure mit einer einwertigen Base?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die umgesetzten Stoffmengen gemäß Reaktionsgleichung."
       ],
@@ -6387,6 +7291,10 @@
       "prompt": "20,00 mL einer einprotonigen Säure werden mit 0,1000 mol·L⁻¹ NaOH titriert. Der Äquivalenzpunkt liegt bei 18,60 mL. Berechne die Säurekonzentration.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Neutralisation ist im Verhältnis Säure:OH⁻ = 1:1.",
         "Nutze cₐVₐ = cᵦVᵦ am Äquivalenzpunkt."
@@ -6420,6 +7328,9 @@
       "prompt": "Eine starke Säure wird mit einer starken Base titriert. Welches Kriterium nutzt du für die Indikatorwahl?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Der Indikator soll im steilen Abschnitt der Titrationskurve umschlagen.",
         "Der Äquivalenzpunkt liegt bei 25 °C näherungsweise bei pH 7."
@@ -6442,6 +7353,9 @@
       "prompt": "Eine Kurve zeigt bei Zugabe von Maßlösung zunächst geringe pH-Änderungen und nahe einem bestimmten Volumen einen steilen Sprung. Erkläre, was du aus diesem Verlauf ableitest und was du für eine Konzentrationsberechnung zusätzlich brauchst.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Der steile Bereich liegt in der Nähe des Äquivalenzpunkts.",
         "Für die Rechnung brauchst du Volumen, Maßlösungskonzentration und Stöchiometrie."
@@ -6465,6 +7379,9 @@
       "prompt": "Bei einer schwach gefärbten Probe ist der Farbumschlag des Indikators schwer erkennbar. Nenne eine mögliche Fehlerquelle und eine geeignete Alternative.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Der Endpunkt wird visuell bestimmt.",
         "Ein pH-Meter kann den Verlauf kontinuierlich messen."
@@ -6488,6 +7405,9 @@
       "prompt": "Was kennzeichnet den Äquivalenzpunkt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Berücksichtige das Stoffmengenverhältnis der Reaktionsgleichung."
       ],
@@ -6508,6 +7428,9 @@
       "prompt": "Wo soll der Umschlagsbereich eines Indikators liegen?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Suche den starken pH-Sprung der Kurve."
       ],
@@ -6528,6 +7451,9 @@
       "prompt": "Welche Angaben brauchst du mindestens für die Konzentration aus einer 1:1-Titration?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nutze n=cV."
       ],
@@ -6548,6 +7474,10 @@
       "prompt": "Durch eine Elektrolyse fließen 0,50 A für 10 min. Berechne die Ladungsmenge.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Zeit zuerst in Sekunden umrechnen.",
         "Nutze Q_el=I·t."
@@ -6580,6 +7510,10 @@
       "prompt": "Wie viele Mol Elektronen entsprechen 1930 C? Verwende F=96485 C mol⁻¹.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Teile die Ladung durch F.",
         "Prüfe die Einheit."
@@ -6612,6 +7546,10 @@
       "prompt": "Bei der Reduktion Ag⁺+e⁻→Ag fließen 9650 C. Bestimme die theoretische Stoffmenge Silber.",
       "taskType": "numeric",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Ermittle zuerst n(e⁻).",
         "Das Stoffmengenverhältnis ist 1:1."
@@ -6646,6 +7584,10 @@
       "prompt": "Für Cu²⁺/Cu sinkt die Cu²⁺-Konzentration bei 25 °C um den Faktor 100. Wie ändert sich E näherungsweise? z=2.",
       "taskType": "numeric",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Nutze E=E°+(0,0592/z)·log(c/c°).",
         "Ein Faktor 100 entspricht zwei Zehnerpotenzen."
@@ -6680,6 +7622,10 @@
       "prompt": "Die theoretische Kupfermasse beträgt 1,19 g; gemessen werden 1,07 g. Berechne die Stromausbeute und nenne eine mögliche Ursache.",
       "taskType": "structured",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Quotient aus realer und theoretischer Masse mal 100 %.",
         "Nenne einen konkurrierenden Prozess oder Messverlust."
@@ -6703,6 +7649,10 @@
       "prompt": "Zwei Cu²⁺/Cu-Halbzellen enthalten Kupfer(II)-sulfat-Lösungen mit c₁(Cu²⁺) = 1,0 mol·L⁻¹ und c₂(Cu²⁺) = 0,010 mol·L⁻¹. Berechne die Zellspannung bei 25 °C und gib an, welche Halbzelle den Pluspol bildet.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "E = E° + (0,0592 V / z) · lg c(Cu²⁺) mit z = 2.",
         "Der Standardwert E° hebt sich bei der Differenz heraus."
@@ -6725,6 +7675,9 @@
       "prompt": "Welche Größe erhältst du aus Stromstärke mal Zeit?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Einheit beachten."
       ],
@@ -6745,6 +7698,9 @@
       "prompt": "Was brauchst du, um aus n(e⁻) eine Produktstoffmenge zu bestimmen?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte die Teilgleichung."
       ],
@@ -6765,6 +7721,9 @@
       "prompt": "Wie verändert sich das Potenzial einer Cu²⁺/Cu-Halbzelle, wenn die Cu²⁺-Konzentration steigt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte das Vorzeichen des Konzentrationsterms in der Nernst-Gleichung."
       ],
@@ -6785,6 +7744,9 @@
       "prompt": "Warum benötigt eine Elektrolyse eine äußere Spannungsquelle?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Reaktion läuft nicht in der spontanen galvanischen Richtung."
       ],
@@ -6805,6 +7767,9 @@
       "prompt": "Nenne zwei Bedingungen, die die Rostbildung von Eisen begünstigen.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Rostbildung ist eine elektrochemische Reaktion in Gegenwart von Wasser und Oxidationsmittel."
       ],
@@ -6825,6 +7790,10 @@
       "prompt": "Formuliere die Gesamtreaktion des Bleiakkumulators beim Entladen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Beide Elektroden bilden Bleisulfat.",
         "Schwefelsäure und Wasser sind beteiligt."
@@ -6847,6 +7816,9 @@
       "prompt": "Vergleiche eine Lackschicht mit kathodischem Schutz durch ein unedleres Opfermetall.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Lack schirmt die Oberfläche ab.",
         "Ein Opfermetall wird bevorzugt oxidiert."
@@ -6869,6 +7841,9 @@
       "prompt": "Bei der Elektrolyse einer wässrigen Kupfer(II)-sulfatlösung scheidet sich am geeigneten Kathodenmaterial Kupfer ab. Formuliere die Kathodenreaktion und ordne sie ein.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "An der Kathode findet Reduktion statt.",
         "Kupfer(II)-Ionen nehmen Elektronen auf."
@@ -6892,6 +7867,9 @@
       "prompt": "Ein Bleiakkumulator wird wiederholt geladen und entladen. Erkläre, warum Laden nicht einfach eine zweite spontane Entladung ist, und nenne eine Materialeigenschaft, die bei der Bewertung wichtig ist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Beim Laden wird elektrische Energie zugeführt und die Zellreaktion umgekehrt.",
         "Bewerte neben der Reversibilität auch Stoffe und Betriebsbedingungen."
@@ -6915,6 +7893,9 @@
       "prompt": "Was treibt eine Elektrolyse an?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Reaktion ist nicht spontan in der ablaufenden Richtung."
       ],
@@ -6935,6 +7916,9 @@
       "prompt": "Was geschieht mit einem Akkumulator beim Laden?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Entladereaktion wird umgekehrt."
       ],
@@ -6955,6 +7939,9 @@
       "prompt": "Warum schützt eine Opferanode ein anderes Metall?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das unedlere Metall wird zuerst oxidiert."
       ],
@@ -6975,6 +7962,9 @@
       "prompt": "In einer galvanischen Zelle wird Zink zu Zn²⁺ oxidiert und Cu²⁺ zu Kupfer reduziert. Ordne Anode und Kathode zu.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Oxidation findet an der Anode statt, Reduktion an der Kathode."
       ],
@@ -6995,6 +7985,9 @@
       "prompt": "In welche Richtung fließen die Elektronen im Daniell-Element durch den äußeren Leiter?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Elektronen fließen vom Elektronendonator zur Elektronenaufnahme."
       ],
@@ -7015,6 +8008,10 @@
       "prompt": "Für das Daniell-Element gelten E°(Cu²⁺/Cu)=+0,34 V und E°(Zn²⁺/Zn)=−0,76 V. Berechne E°Zelle.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Nutze E°Zelle = E°Kathode − E°Anode.",
         "Beide Werte sind Reduktionspotenziale."
@@ -7047,6 +8044,10 @@
       "prompt": "Formuliere die Zellschreibweise des Daniell-Elements.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Schreibe die Anode links und die Kathode rechts.",
         "Ein einfacher Strich trennt Phasen, ein Doppelstrich die Salzbrücke."
@@ -7069,6 +8070,9 @@
       "prompt": "Eine berechnete Standardzellspannung beträgt −0,25 V für die Reaktion in der angegebenen Richtung. Was folgt daraus und wie kannst du eine positive Spannung erhalten?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein negatives E°Zelle bedeutet, dass die angegebene Richtung unter Standardbedingungen nicht spontan ist.",
         "Kehre die Reaktion um."
@@ -7092,6 +8096,9 @@
       "prompt": "Erkläre, warum eine galvanische Zelle ohne Salzbrücke oder andere ionische Verbindung nach kurzer Zeit keinen dauerhaften Strom liefern kann.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte die Ladung in beiden Halbzellen.",
         "Elektronenfluss allein würde Ladungstrennung erzeugen."
@@ -7115,6 +8122,9 @@
       "prompt": "An welcher Elektrode findet Oxidation statt?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Elektrodenbezeichnung bleibt für alle Zellentypen gleich."
       ],
@@ -7135,6 +8145,9 @@
       "prompt": "Welche Elektrode bildet im Daniell-Element den Minuspol, und welcher Vorgang läuft dort ab?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Am Minuspol werden Elektronen an den äußeren Leiter abgegeben."
       ],
@@ -7155,6 +8168,9 @@
       "prompt": "Wie berechnest du E°Zelle aus Reduktionspotenzialen?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Kathodenpotenzial minus Anodenpotenzial."
       ],
@@ -7175,6 +8191,9 @@
       "prompt": "Bestimme die Oxidationszahlen von S in H₂S und S in SO₂.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Wasserstoff hat in diesen Verbindungen meist +I, Sauerstoff meist −II.",
         "Die Summe in einem neutralen Molekül ist null."
@@ -7196,6 +8215,9 @@
       "prompt": "In der Reaktion Zn + Cu²⁺ → Zn²⁺ + Cu: Welcher Stoff wird oxidiert und welcher reduziert?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Oxidation bedeutet Elektronenabgabe, Reduktion Elektronenaufnahme."
       ],
@@ -7217,6 +8239,10 @@
       "prompt": "Stelle die Gesamtgleichung aus Fe²⁺ → Fe³⁺ und Ce⁴⁺ → Ce³⁺ auf.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Gleiche zuerst die Elektronenzahl an.",
         "Addiere anschließend die Teilgleichungen und kürze Elektronen."
@@ -7240,6 +8266,10 @@
       "prompt": "Gleiche Cr₂O₇²⁻ + Fe²⁺ → Cr³⁺ + Fe³⁺ im sauren Milieu aus.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Gleiche zuerst die Elektronen mit Teilgleichungen aus.",
         "Nutze H₂O für O und H⁺ für H."
@@ -7263,6 +8293,9 @@
       "prompt": "Eine saure Redoxgleichung wird in eine alkalische Lösung übertragen. Welche zusätzlichen Schritte brauchst du nach dem Ausgleich mit H⁺/H₂O?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "In alkalischer Lösung darf am Ende kein H⁺ verbleiben.",
         "Neutralisiere H⁺ mit OH⁻ und kürze Wasser."
@@ -7286,6 +8319,9 @@
       "prompt": "Eine Probe entfärbt eine Permanganatlösung im Sauren. Erkläre, welche zusätzlichen Angaben du für eine vollständige Redoxdeutung brauchst.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Entfärbung ist zunächst nur die Beobachtung.",
         "Du brauchst Reaktionspartner und Produkte, um Oxidationszahlen zu vergleichen."
@@ -7309,6 +8345,9 @@
       "prompt": "Was geschieht bei einer Oxidation?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Achte auf Elektronen."
       ],
@@ -7329,6 +8368,9 @@
       "prompt": "Was ist ein Oxidationsmittel?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es nimmt Elektronen auf."
       ],
@@ -7349,6 +8391,9 @@
       "prompt": "Was muss eine ausgeglichene Redoxgleichung erhalten?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe beide Bilanzen."
       ],
@@ -7369,6 +8414,9 @@
       "prompt": "Welche Stoffe bilden gemeinsam einen Puffer: CH₃COOH/CH₃COO⁻ oder HCl/Cl⁻? Begründe knapp.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein Puffer enthält eine schwache Säure und ihre korrespondierende Base in merklicher Menge."
       ],
@@ -7390,6 +8438,9 @@
       "prompt": "Formuliere, wie die Base CH₃COO⁻ auf eine kleine Zugabe von H₃O⁺ reagiert.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Base nimmt ein Proton auf.",
         "Dabei entsteht ihre korrespondierende Säure."
@@ -7412,6 +8463,10 @@
       "prompt": "Ein Acetatpuffer enthält c(CH₃COO⁻) = 0,20 mol·L⁻¹ und c(CH₃COOH) = 0,10 mol·L⁻¹. Berechne näherungsweise den pH mit pKs = 4,76.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Nutze pH = pKs + lg(c(Base)/c(Säure)).",
         "Der Basen-Säure-Quotient ist 2."
@@ -7446,6 +8501,9 @@
       "prompt": "Zwei Acetatpuffer besitzen dasselbe Verhältnis c(CH₃COO⁻)/c(CH₃COOH), aber Puffer B enthält beide Komponenten in zehnfach höherer Konzentration. Welcher Puffer kann bei vergleichbarem Volumen mehr zugegebene Säure abfangen?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das Verhältnis bestimmt näherungsweise den pH.",
         "Die absoluten Stoffmengen bestimmen, wie viel Zugabe abgefangen werden kann."
@@ -7469,6 +8527,9 @@
       "prompt": "Ein Material beschreibt das Gleichgewicht CO₂/HCO₃⁻ im Blut. Erkläre qualitativ, wie HCO₃⁻ auf eine kleine Säurezugabe reagieren kann. Nenne eine Grenze eines einfachen geschlossenen Puffermodells.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "HCO₃⁻ kann als Base Protonen aufnehmen.",
         "Im Körper können Stoffe transportiert und CO₂ abgeatmet werden."
@@ -7493,6 +8554,9 @@
       "prompt": "Ein Aufgabenblatt verlangt nur eine qualitative Erklärung der Pufferwirkung, nennt aber keine pKs-Werte. Ist eine quantitative Henderson-Hasselbalch-Rechnung zwingend? Begründe anhand der Angaben.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe den Operator und die verfügbaren Daten.",
         "Eine Formel darf nicht ohne nötige Werte oder curriculare Grundlage erzwungen werden."
@@ -7516,6 +8580,9 @@
       "prompt": "Welche Teilchen bilden einen Säurepuffer?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein korrespondierendes Paar aus schwacher Säure und Base."
       ],
@@ -7536,6 +8603,9 @@
       "prompt": "Was geschieht bei einer kleinen Säurezugabe zu einem Acetatpuffer?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ethanoat ist die Base des Puffers."
       ],
@@ -7556,6 +8626,9 @@
       "prompt": "Wovon hängt die Pufferkapazität unter anderem ab?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte absolute Stoffmengen, nicht nur das Verhältnis."
       ],
@@ -7576,6 +8649,10 @@
       "prompt": "Die Konzentration eines Produkts steigt in 40 s von 0 auf 0,24 mol·L⁻¹. Berechne die mittlere Bildungsgeschwindigkeit.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "v = Δc / Δt"
       ],
@@ -7607,6 +8684,9 @@
       "prompt": "Nenne vier Faktoren, die die Reaktionsgeschwindigkeit beeinflussen, und gib jeweils an, in welche Richtung sie wirken.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an die Stoßtheorie."
       ],
@@ -7628,6 +8708,10 @@
       "prompt": "Für 2 N₂O₅ → 4 NO₂ + O₂ nimmt c(N₂O₅) in einem Zeitraum mit 0,010 mol·L⁻¹·s⁻¹ ab. Berechne, wie schnell c(NO₂) und c(O₂) zunehmen, und gib die stöchiometrisch normierte Reaktionsgeschwindigkeit an.",
       "taskType": "numeric",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Teile jede Konzentrationsänderung durch den Koeffizienten des Stoffes."
       ],
@@ -7671,6 +8755,9 @@
       "prompt": "Eine Temperaturerhöhung um 10 K erhöht die Zahl der Zusammenstöße zwischen Teilchen nur um wenige Prozent. Trotzdem verdoppelt sich die Reaktionsgeschwindigkeit oft ungefähr. Erkläre diesen Befund.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nicht jeder Zusammenstoß führt zur Reaktion.",
         "Betrachte die Energieverteilung der Teilchen."
@@ -7692,6 +8779,9 @@
       "prompt": "Eine Aussage lautet: „Der Katalysator bei der Ammoniaksynthese erhöht die Ausbeute an Ammoniak.“ Beurteile die Aussage.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein Katalysator beeinflusst Hin- und Rückreaktion gleichermaßen."
       ],
@@ -7713,6 +8803,10 @@
       "prompt": "Die Konzentration eines Edukts wird gemessen: t = 0 s: 0,80 mol·L⁻¹; 20 s: 0,56 mol·L⁻¹; 40 s: 0,40 mol·L⁻¹; 60 s: 0,28 mol·L⁻¹. Berechne die mittlere Verbrauchsgeschwindigkeit für jedes Intervall und deute den Verlauf.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "v = −Δc / Δt für jedes 20-s-Intervall"
       ],
@@ -7735,6 +8829,9 @@
       "prompt": "Welche Größe senkt ein Katalysator?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Er bietet einen anderen Reaktionsweg."
       ],
@@ -7755,6 +8852,9 @@
       "prompt": "Wie bestimmst du die momentane Reaktionsgeschwindigkeit aus einem Konzentrations-Zeit-Diagramm?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es geht um einen einzelnen Zeitpunkt."
       ],
@@ -7776,6 +8876,9 @@
       "prompt": "Verändert ein Katalysator die Lage eines chemischen Gleichgewichts?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Er beschleunigt beide Richtungen."
       ],
@@ -7796,6 +8899,9 @@
       "prompt": "Ordne zu und gib jeweils das Vorzeichen von ΔH des Reaktionssystems an: (a) Beim Lösen von Ammoniumnitrat in Wasser kühlt sich die Lösung ab. (b) Eine Kerze brennt und erwärmt die Umgebung.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte, ob das System Energie an die Umgebung abgibt oder von ihr aufnimmt."
       ],
@@ -7817,6 +8923,10 @@
       "prompt": "200 g Wasser erwärmen sich in einem Kalorimeter um 3,5 K. Berechne die vom Wasser aufgenommene Wärme. c(Wasser) = 4,18 J·g⁻¹·K⁻¹.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "q = m · c · ΔT"
       ],
@@ -7848,6 +8958,10 @@
       "prompt": "50,0 mL Salzsäure (c = 1,00 mol·L⁻¹) und 50,0 mL Natronlauge (c = 1,00 mol·L⁻¹) werden im Kalorimeter gemischt. Die Temperatur steigt um 6,8 K. Berechne die molare Neutralisationsenthalpie. Nimm an, dass die Lösung eine Masse von 100 g und c = 4,18 J·g⁻¹·K⁻¹ hat und keine Wärme verloren geht.",
       "taskType": "numeric",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Berechne zuerst die von der Lösung aufgenommene Wärme.",
         "Teile durch die Stoffmenge der umgesetzten Oxonium-Ionen und achte auf das Vorzeichen."
@@ -7881,6 +8995,9 @@
       "prompt": "Bei einer Neutralisation steigt die Temperatur im Kalorimeter. Ein Schüler schreibt: „ΔH = +56,8 kJ·mol⁻¹, weil das Wasser Wärme aufgenommen hat.“ Erkläre den Fehler.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide zwischen Reaktionssystem und Umgebung."
       ],
@@ -7902,6 +9019,9 @@
       "prompt": "Eine Messung ergibt für die Neutralisationsenthalpie −52 kJ·mol⁻¹, der Literaturwert liegt bei etwa −57 kJ·mol⁻¹. Erkläre, welche Fehlerquelle den Betrag zu klein macht, und schlage zwei Verbesserungen vor.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege, wohin Wärme außer in die Lösung gelangen kann."
       ],
@@ -7924,6 +9044,10 @@
       "prompt": "5,35 g Ammoniumchlorid (M = 53,49 g·mol⁻¹) werden in 100 g Wasser gelöst; die Temperatur sinkt um 3,5 K. Berechne die molare Lösungsenthalpie, wenn du die Masse des Salzes bei der Wärmeberechnung vernachlässigst, und deute das Vorzeichen.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Temperaturänderung ist negativ.",
         "q = m · c · ΔT mit c = 4,18 J·g⁻¹·K⁻¹"
@@ -7947,6 +9071,9 @@
       "prompt": "Welches Vorzeichen hat ΔH bei einer exothermen Reaktion?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Das System gibt Energie ab."
       ],
@@ -7967,6 +9094,9 @@
       "prompt": "Wofür stehen die Größen in q = m · c · ΔT?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Eine Größe ist stoffspezifisch."
       ],
@@ -7987,6 +9117,9 @@
       "prompt": "Warum teilt man die gemessene Wärme durch die Stoffmenge, um die molare Reaktionsenthalpie anzugeben?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an den Vergleich verschiedener Ansätze."
       ],
@@ -8007,6 +9140,9 @@
       "prompt": "Gib für die Vorgänge das Vorzeichen der Entropieänderung des Systems an und begründe kurz: (a) H₂O(l) → H₂O(g), (b) N₂(g) + 3 H₂(g) → 2 NH₃(g), (c) CaCO₃(s) → CaO(s) + CO₂(g).",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Gasförmige Teilchen haben besonders viele Verteilungsmöglichkeiten.",
         "Vergleiche die Stoffmengen an Gas vor und nach der Reaktion."
@@ -8029,6 +9165,10 @@
       "prompt": "Für N₂ + 3 H₂ → 2 NH₃ gilt ΔH = −92 kJ·mol⁻¹ und ΔS = −199 J·mol⁻¹·K⁻¹. Berechne ΔG bei 298 K.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Rechne ΔS in kJ·mol⁻¹·K⁻¹ um.",
         "ΔG = ΔH − T·ΔS"
@@ -8061,6 +9201,10 @@
       "prompt": "Für CaCO₃(s) → CaO(s) + CO₂(g) gilt ΔH = +178 kJ·mol⁻¹ und ΔS = +161 J·mol⁻¹·K⁻¹. Berechne die Temperatur, ab der die Zersetzung thermodynamisch begünstigt ist, und begründe das Vorgehen.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "An der Grenze gilt ΔG = 0.",
         "Nimm ΔH und ΔS als temperaturunabhängig an."
@@ -8083,6 +9227,9 @@
       "prompt": "Ammoniumnitrat löst sich bei Raumtemperatur freiwillig in Wasser, obwohl der Vorgang endotherm ist. Erkläre diesen Befund mit der Gibbs-Helmholtz-Gleichung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege, wie sich die Ordnung beim Auflösen eines Ionengitters ändert."
       ],
@@ -8103,6 +9250,9 @@
       "prompt": "Für die Ammoniaksynthese gilt ΔH < 0 und ΔS < 0. Leite ab, ob niedrige oder hohe Temperaturen thermodynamisch günstiger sind. Erläutere, warum die technische Synthese trotzdem bei etwa 450 °C durchgeführt wird.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Betrachte, wie T·ΔS das Vorzeichen von ΔG beeinflusst.",
         "Unterscheide Thermodynamik und Kinetik."
@@ -8126,6 +9276,9 @@
       "prompt": "Für die Umwandlung von Diamant in Graphit gilt bei 298 K ΔG ≈ −2,9 kJ·mol⁻¹. Diamanten bleiben trotzdem praktisch unbegrenzt erhalten. Beurteile den scheinbaren Widerspruch.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "ΔG sagt nichts über die Geschwindigkeit aus."
       ],
@@ -8147,6 +9300,9 @@
       "prompt": "In welcher Einheit setzt du die Temperatur in ΔG = ΔH − T·ΔS ein?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Es ist die absolute Temperatur."
       ],
@@ -8167,6 +9323,9 @@
       "prompt": "Was sagt ΔG < 0 über eine Reaktion aus?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Konstanter Druck und konstante Temperatur."
       ],
@@ -8187,6 +9346,9 @@
       "prompt": "Läuft eine Reaktion mit ΔG < 0 automatisch schnell ab?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an die Aktivierungsenergie."
       ],
@@ -8207,6 +9369,10 @@
       "prompt": "Für H₂(g) + ½ O₂(g) → H₂O(l) gilt ΔH = −286 kJ·mol⁻¹. Gib ΔH für die Reaktion 2 H₂O(l) → 2 H₂(g) + O₂(g) an.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Umkehren ändert das Vorzeichen.",
         "Verdoppeln verdoppelt den Betrag."
@@ -8239,6 +9405,10 @@
       "prompt": "Für die Teilreaktionen X → Y gilt ΔH = +30 kJ, für Y → Z gilt ΔH = −75 kJ. Berechne ΔH für X → Z.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Addiere die Gleichungen; Y kürzt sich heraus."
       ],
@@ -8270,6 +9440,10 @@
       "prompt": "Berechne die Standardreaktionsenthalpie für CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(l). Standardbildungsenthalpien: CH₄(g) −74,8 kJ·mol⁻¹, CO₂(g) −393,5 kJ·mol⁻¹, H₂O(l) −285,8 kJ·mol⁻¹.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "ΔH°_R = Σ ν ΔH°_f(Produkte) − Σ ν ΔH°_f(Edukte)",
         "Die Standardbildungsenthalpie von O₂ ist null."
@@ -8302,6 +9476,10 @@
       "prompt": "Bestimme ΔH für C(s) + ½ O₂(g) → CO(g) aus: (1) C(s) + O₂(g) → CO₂(g), ΔH₁ = −393,5 kJ·mol⁻¹; (2) CO(g) + ½ O₂(g) → CO₂(g), ΔH₂ = −283,0 kJ·mol⁻¹.",
       "taskType": "numeric",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Kehre eine der beiden Gleichungen um, damit CO₂ sich kürzt."
       ],
@@ -8333,6 +9511,10 @@
       "prompt": "Berechne ΔH für C₂H₄(g) + H₂(g) → C₂H₆(g) aus den Verbrennungsenthalpien: C₂H₄ −1411 kJ·mol⁻¹, H₂ −286 kJ·mol⁻¹, C₂H₆ −1560 kJ·mol⁻¹. Begründe deinen Rechenweg.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Formuliere einen Kreisprozess: Edukte verbrennen, Produkt verbrennen.",
         "Bei Verbrennungsenthalpien stehen die Edukte zuerst."
@@ -8355,6 +9537,9 @@
       "prompt": "Die Bildungsenthalpie von Kohlenstoffmonooxid lässt sich kalorimetrisch kaum direkt messen. Erläutere den Grund und warum der Satz von Hess hier weiterhilft.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege, welche Produkte bei der Verbrennung von Kohlenstoff entstehen."
       ],
@@ -8376,6 +9561,9 @@
       "prompt": "Was passiert mit ΔH, wenn du eine thermochemische Gleichung umkehrst?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Hin- und Rückweg verbinden dieselben Zustände."
       ],
@@ -8396,6 +9584,9 @@
       "prompt": "Was passiert mit ΔH, wenn du alle Koeffizienten einer Gleichung mit 3 multiplizierst?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "ΔH bezieht sich auf den Formelumsatz."
       ],
@@ -8416,6 +9607,9 @@
       "prompt": "Was bedeutet es, dass die Enthalpie eine Zustandsgröße ist?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an verschiedene Reaktionswege."
       ],
@@ -8436,6 +9630,10 @@
       "prompt": "Eine Brennstoffzelle setzt Wasserstoff mit einem Energieinhalt von 4,0 MJ um und liefert 2,4 MJ elektrische Energie. Berechne den Wirkungsgrad.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "η = E_nutz / E_zugeführt · 100 %"
       ],
@@ -8470,6 +9668,10 @@
       "prompt": "Formuliere für eine Wasserstoff-Sauerstoff-Brennstoffzelle mit saurem Elektrolyten die Reaktionen an Anode und Kathode sowie die Gesamtreaktion.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "An der Anode wird oxidiert, an der Kathode reduziert."
       ],
@@ -8490,6 +9692,10 @@
       "prompt": "Strom wird über Elektrolyse in Wasserstoff umgewandelt (angenommener Wirkungsgrad 70 %), der Wasserstoff verdichtet und gespeichert (90 %) und in einer Brennstoffzelle wieder verstromt (55 %). Berechne den Gesamtwirkungsgrad und erläutere das Ergebnis.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Die Wirkungsgrade einer Kette werden multipliziert."
       ],
@@ -8512,6 +9718,9 @@
       "prompt": "Bioethanol wird häufig als „CO₂-neutral“ bezeichnet. Erläutere, was an dieser Aussage zutrifft und was sie vernachlässigt.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche die CO₂-Bilanz von Pflanze und Verbrennung.",
         "Denke an den gesamten Herstellungsweg."
@@ -8534,6 +9743,9 @@
       "prompt": "Annahmen: Vom Strom aus dem Netz bis zum Antrieb erreicht ein Batteriefahrzeug einen Gesamtwirkungsgrad von 75 %, ein Wasserstoff-Brennstoffzellenfahrzeug mit elektrolytisch erzeugtem Wasserstoff 30 %. Bewerte die beiden Antriebe anhand des Wirkungsgrads und mindestens zwei weiterer Kriterien.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein einzelnes Kriterium reicht nicht für ein Gesamturteil.",
         "Mögliche Kriterien: Rohstoffe, Tankdauer und Reichweite, Infrastruktur."
@@ -8555,6 +9767,10 @@
       "prompt": "Biodiesel entsteht durch Umesterung von Rapsöl mit Methanol. Formuliere die Reaktion in allgemeiner Form für ein Triacylglycerid und beurteile einen ökologischen Nachteil von Biodiesel aus Raps.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Jede der drei Esterbindungen wird auf Methanol übertragen.",
         "Denke an den Flächenbedarf."
@@ -8578,6 +9794,9 @@
       "prompt": "Was gibt der Wirkungsgrad eines Energiewandlers an?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Er ist ein Verhältnis zweier Energien."
       ],
@@ -8598,6 +9817,9 @@
       "prompt": "Welcher Stoff entsteht in einer Wasserstoff-Sauerstoff-Brennstoffzelle?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an die Gesamtreaktion."
       ],
@@ -8618,6 +9840,9 @@
       "prompt": "Warum müssen zwei Energiespeicher mit derselben Systemgrenze verglichen werden?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege, was passiert, wenn bei einem Speicher die Herstellung fehlt."
       ],
@@ -8638,6 +9863,9 @@
       "prompt": "Ordne jede Aussage als Beobachtung oder Deutung ein: (a) Die Lösung färbt sich von blau nach farblos. (b) Es entsteht Wasserstoff. (c) Am Boden des Reagenzglases setzt sich ein weißer Feststoff ab. (d) Die Temperatur steigt von 21 °C auf 34 °C. (e) Die Reaktion ist exotherm.",
       "taskType": "matching",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Eine Beobachtung kannst du sehen, riechen, hören oder messen.",
         "Sobald ein Stoffname eines Produkts oder ein Fachbegriff zur Erklärung vorkommt, ist es meist eine Deutung."
@@ -8695,6 +9923,9 @@
       "prompt": "Du untersuchst, wie die Temperatur die Geschwindigkeit der Reaktion von Magnesiumband mit Salzsäure beeinflusst. Nenne die unabhängige Variable, die abhängige Variable und drei Größen, die konstant bleiben müssen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die unabhängige Variable veränderst du gezielt.",
         "Überlege, was außer der Temperatur die Reaktionsgeschwindigkeit noch beeinflusst."
@@ -8717,6 +9948,9 @@
       "prompt": "Eine Schülergruppe führt die Fehling-Probe mit einer Probelösung durch und erhält einen rotbraunen Niederschlag. Eine Blindprobe mit Wasser wurde nicht angesetzt. Erläutere, welche Fehldeutung dadurch möglich ist, und beschreibe die fehlende Blindprobe.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege, was passiert, wenn die Fehling-Lösung oder das Reagenzglas bereits verunreinigt ist.",
         "Die Blindprobe enthält alles außer der Probe."
@@ -8740,6 +9974,9 @@
       "prompt": "Bei einer Titration liest eine Person den Flüssigkeitsstand der Bürette jedes Mal von schräg oben ab. Eine zweite Person erhält bei fünf Wiederholungen die Volumina 12,3 mL, 12,6 mL, 12,2 mL, 12,5 mL und 12,4 mL. Ordne beide Fälle einem Fehlertyp zu und nenne jeweils eine Gegenmaßnahme.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob der Fehler die Werte immer in dieselbe Richtung verschiebt.",
         "Bilde für die zweite Person den Mittelwert."
@@ -8762,6 +9999,9 @@
       "prompt": "Ein Schüler beobachtet bei der Fehling-Probe mit Fructose einen rotbraunen Niederschlag. Er folgert: „Fructose besitzt eine Aldehydgruppe.“ Beurteile diese Schlussfolgerung.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Fructose ist eine Ketohexose.",
         "Bedenke die Bedingungen der Fehling-Probe: heiß und alkalisch."
@@ -8785,6 +10025,9 @@
       "prompt": "Plane ein Experiment, mit dem man prüfen kann, ob bei der Verbrennung von Kerzenwachs Kohlenstoffdioxid entsteht. Formuliere eine Hypothese, beschreibe Durchführung, Kontrolle und erwartete Beobachtung und nenne eine Sicherheitsmaßnahme.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Verbrennungsgase müssen aufgefangen und in ein Nachweisreagenz geleitet werden.",
         "Überlege, womit du vergleichst, damit Kohlenstoffdioxid aus der Raumluft nicht stört."
@@ -8808,6 +10051,9 @@
       "prompt": "Welche Information liefert eine Positivkontrolle bei einem Nachweis?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Sie enthält einen Stoff, der sicher positiv reagiert."
       ],
@@ -8828,6 +10074,9 @@
       "prompt": "Nenne zwei Gründe, warum ein negativer Nachweis einen Stoff nicht sicher ausschließt.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an Menge und Bedingungen."
       ],
@@ -8849,6 +10098,9 @@
       "prompt": "Formuliere eine prüfbare Hypothese zur Frage, ob eine Lösung Chlorid-Ionen enthält.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Nutze die Form „Wenn …, dann …“ und nenne eine erwartete Beobachtung."
       ],
@@ -8870,6 +10122,10 @@
       "prompt": "Bei der Verbrennung von Ethanol entsteht ein Gas, das Kalkwasser trübt. Nenne das Gas und formuliere die Reaktionsgleichung für die Trübung.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Ethanol ist eine organische Verbindung mit Kohlenstoff-Atomen.",
         "Die Trübung entsteht durch einen schwer löslichen Feststoff."
@@ -8893,6 +10149,9 @@
       "prompt": "Beschreibe, wie du nachweisen kannst, dass sich an einem kalten Becherglas über einer Kerzenflamme Wasser niederschlägt. Gib Beobachtung und Deutung an.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Ein weißes Salz ändert bei Kontakt mit Wasser seine Farbe."
       ],
@@ -8915,6 +10174,10 @@
       "prompt": "Eierschalen bestehen überwiegend aus Calciumcarbonat. Plane einen Nachweis für Carbonat in Eierschalen und formuliere für beide Schritte die Reaktionsgleichungen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Der Nachweis besteht aus zwei aufeinanderfolgenden Reaktionen.",
         "Das freigesetzte Gas muss selbst nachgewiesen werden."
@@ -8938,6 +10201,10 @@
       "prompt": "Ein Dünger soll auf Ammonium-Ionen untersucht werden. Man versetzt eine Probe mit Natronlauge, erwärmt leicht und hält angefeuchtetes Universalindikatorpapier darüber. Das Papier färbt sich blau. Erkläre die Beobachtung mit Reaktionsgleichungen.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Hydroxid-Ionen sind Protonenakzeptoren.",
         "Das entweichende Gas reagiert im Wasser auf dem Papier."
@@ -8961,6 +10228,9 @@
       "prompt": "Drei unbeschriftete Lösungen enthalten Natriumchlorid, Natriumbromid und Natriumiodid. Entwickle ein Vorgehen, mit dem du die Lösungen zuordnen kannst, und begründe, warum die Niederschlagsfarbe allein unsicher ist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Silberhalogenide unterscheiden sich in Farbe und Löslichkeit in Ammoniak-Lösung.",
         "Überlege, wie gut sich weiß und gelblich weiß unterscheiden lassen."
@@ -8984,6 +10254,9 @@
       "prompt": "Gibt man Silbernitrat-Lösung zu einer Lösung von Chlorethan in Ethanol, entsteht zunächst kein Niederschlag. Nach längerem Erwärmen mit Wasser bildet sich langsam ein weißer Niederschlag. Erkläre beide Beobachtungen.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Unterscheide zwischen kovalent gebundenem Chlor und Chlorid-Ionen.",
         "Beim Erwärmen mit Wasser kann eine Substitution ablaufen."
@@ -9007,6 +10280,9 @@
       "prompt": "Warum säuert man vor dem Chlorid-Nachweis mit Salpetersäure und nicht mit Salzsäure an?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, welche Ionen die Salzsäure mitbringt."
       ],
@@ -9027,6 +10303,9 @@
       "prompt": "Warum muss Universalindikatorpapier für den Nachweis eines Gases angefeuchtet werden?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Saure oder basische Wirkung zeigt sich erst in einer Reaktion mit Wasser."
       ],
@@ -9048,6 +10327,9 @@
       "prompt": "Wasserfreies Kupfer(II)-sulfat färbt sich mit einer Flüssigkeit blau. Ist die Flüssigkeit damit als reines Wasser identifiziert?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Der Test spricht auf das Vorhandensein von Wasser an."
       ],
@@ -9070,6 +10352,9 @@
       "prompt": "Ordne jedem Stoff einen geeigneten Nachweis zu und gib die Beobachtung bei positivem Verlauf an: (a) Propanal, (b) Stärke, (c) Hühnereiweiß, (d) Propen.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Bestimme zuerst das jeweilige Strukturmerkmal.",
         "Für (c) eignet sich ein Nachweis für Peptidbindungen."
@@ -9093,6 +10378,9 @@
       "prompt": "Beschreibe die Durchführung der Fehling-Probe und die Beobachtung bei positivem Verlauf.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Fehling-Lösung wird aus zwei Teillösungen frisch gemischt.",
         "Die Probe muss erwärmt werden."
@@ -9115,6 +10403,9 @@
       "prompt": "Maltose reagiert bei der Fehling-Probe positiv, Saccharose negativ. Erkläre den Unterschied mit dem Bau der beiden Disaccharide.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Untersuche, welche anomeren C-Atome an der glycosidischen Bindung beteiligt sind.",
         "Nur eine freie Halbacetalgruppe kann sich zur offenkettigen Form öffnen."
@@ -9136,6 +10427,9 @@
       "prompt": "Eine Probe ergibt bei der Biuret-Reaktion eine violette Färbung, bei der Xanthoprotein-Reaktion aber keine Gelbfärbung. Deute die beiden Ergebnisse.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die beiden Proben sprechen auf unterschiedliche Strukturmerkmale an."
       ],
@@ -9157,6 +10451,10 @@
       "prompt": "Zwei Flüssigkeiten besitzen die Summenformel C₃H₆O. Es handelt sich um Propanal und Propanon. Entwickle einen Nachweis zur Zuordnung, formuliere die Reaktionsgleichung für den positiven Fall und begründe das unterschiedliche Verhalten.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Aldehyde und Ketone unterscheiden sich in ihrer Oxidierbarkeit.",
         "Nutze die vereinfachte Gleichung der Fehling-Probe."
@@ -9181,6 +10479,10 @@
       "prompt": "Methansäure ist eine Carbonsäure, reagiert aber bei der Silberspiegel-Probe positiv. Erkläre diese Beobachtung mit der Molekülstruktur und formuliere die Reaktionsgleichung für die alkalische Lösung mit dem Methanoat-Ion.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Zeichne die Strukturformel von Methansäure und vergleiche sie mit einem Aldehyd.",
         "In alkalischer Lösung entsteht aus Kohlenstoffdioxid Carbonat."
@@ -9203,6 +10505,9 @@
       "prompt": "Wie fällt die Fehling-Probe mit Saccharose aus, und warum?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Prüfe, ob eine freie Halbacetalgruppe vorliegt."
       ],
@@ -9224,6 +10529,9 @@
       "prompt": "Was beobachtest du, wenn du eine blau gefärbte Iod-Stärke-Lösung erwärmst und wieder abkühlst? Deute kurz.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die Färbung hängt von der Helixstruktur der Amylose ab."
       ],
@@ -9246,6 +10554,9 @@
       "prompt": "Ein Dipeptid ergibt keinen positiven Biuret-Test. Ist der Versuch fehlgeschlagen?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Zähle die Peptidbindungen."
       ],
@@ -9268,6 +10579,9 @@
       "prompt": "Nenne die Aufgabe von (a) Siedesteinchen, (b) der Thermometerkugel auf Höhe des seitlichen Abgangs und (c) dem Kühlwasser, das unten in den Kühler eintritt.",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege jeweils, welches Problem ohne das Bauteil auftreten würde."
       ],
@@ -9288,6 +10602,10 @@
       "prompt": "Die Laufmittelfront liegt 6,5 cm über der Startlinie, ein Fleck 4,2 cm. Berechne den Rf-Wert.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Rf = s(Stoff) / s(Front)."
       ],
@@ -9321,6 +10639,9 @@
       "prompt": "Butan (M ≈ 58 g/mol) siedet bei etwa −1 °C, Propanon (M ≈ 58 g/mol) bei 56 °C und Propan-1-ol (M ≈ 60 g/mol) bei 97 °C. Erkläre die Reihenfolge mit den zwischenmolekularen Kräften.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Die molaren Massen sind ähnlich, die Van-der-Waals-Kräfte also vergleichbar.",
         "Prüfe für jeden Stoff, ob Dipole oder Wasserstoffbrücken möglich sind."
@@ -9342,6 +10663,9 @@
       "prompt": "Für den reinen Stoff X gibt die Literatur eine Schmelztemperatur von 122 °C an. Ein im Labor hergestelltes Produkt schmilzt zwischen 114 °C und 119 °C. Beurteile die Reinheit des Produkts und schlage eine Maßnahme vor.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Vergleiche Lage und Breite des Schmelzbereichs mit dem Literaturwert."
       ],
@@ -9363,6 +10687,9 @@
       "prompt": "Ethansäure (Siedetemperatur 118 °C) und Ethanol (78 °C) reagieren im Gleichgewicht zu Ethylethanoat (77 °C) und Wasser (100 °C). Jemand schlägt vor, die Ausbeute zu erhöhen, indem man den Ester während der Reaktion abdestilliert. Prüfe diesen Vorschlag.",
       "taskType": "free-response",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Wende das Prinzip von Le Chatelier an.",
         "Vergleiche die Siedetemperatur des Esters mit denen der anderen Stoffe."
@@ -9386,6 +10713,9 @@
       "prompt": "Ein Gemisch aus Aminosäuren soll per Dünnschichtchromatografie untersucht werden. Begründe drei Arbeitsschritte: Startlinie mit Bleistift, Startlinie oberhalb des Laufmittelspiegels, Referenzsubstanzen auf derselben Platte. Erläutere außerdem, wie die farblosen Aminosäuren sichtbar werden.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Tinte enthält selbst Farbstoffe.",
         "Rf-Werte hängen von den Bedingungen ab."
@@ -9408,6 +10738,9 @@
       "prompt": "Warum taucht das Thermometer bei einer Destillation nicht in die siedende Flüssigkeit ein?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Gesucht ist die Temperatur dessen, was destilliert."
       ],
@@ -9428,6 +10761,9 @@
       "prompt": "Ist eine Erdölfraktion wie Benzin ein Reinstoff?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Fraktionen werden nach Siedebereichen aufgefangen."
       ],
@@ -9448,6 +10784,9 @@
       "prompt": "Eine Auswertung ergibt Rf = 1,2. Was ist falsch gelaufen?",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Kein Stoff kann weiter wandern als das Laufmittel."
       ],
@@ -9468,6 +10807,10 @@
       "prompt": "20,00 mL Natronlauge werden mit Salzsäure der Konzentration 0,200 mol·L⁻¹ titriert. Bis zum Äquivalenzpunkt werden 15,00 mL verbraucht. Berechne die Konzentration der Natronlauge.",
       "taskType": "numeric",
       "afb": 1,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "Oxonium- und Hydroxid-Ionen reagieren im Verhältnis 1 : 1.",
         "Rechne die Volumina in Liter um."
@@ -9500,6 +10843,9 @@
       "prompt": "Ethansäure-Lösung soll mit Natronlauge titriert werden. Zur Auswahl stehen Methylorange (Umschlagsbereich pH 3,1 bis 4,4) und Phenolphthalein (pH 8,2 bis 10). Begründe, welcher Indikator geeignet ist.",
       "taskType": "free-response",
       "afb": 2,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege, in welchem pH-Bereich der Äquivalenzpunkt bei einer schwachen Säure liegt."
       ],
@@ -9521,6 +10867,10 @@
       "prompt": "50,0 mL Weißwein werden nach Zusatz von Stärke-Lösung mit Iod-Lösung (c = 0,0100 mol·L⁻¹) bis zur bleibenden Blaufärbung titriert. Verbrauch: 7,50 mL. Berechne die Massenkonzentration an Schwefeldioxid in mg·L⁻¹ (M(SO₂) = 64,07 g·mol⁻¹) und erläutere die Rolle der Stärke.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "SO₂ + I₂ + 2 H₂O → SO₄²⁻ + 2 I⁻ + 4 H⁺",
         "Rechne zuerst die Masse in 50,0 mL aus und dann auf einen Liter um."
@@ -9544,6 +10894,10 @@
       "prompt": "25,00 mL einer Eisen(II)-sulfat-Lösung werden angesäuert und mit Kaliumpermanganat-Lösung (c = 0,0200 mol·L⁻¹) titriert. Verbrauch: 18,00 mL. Berechne c(Fe²⁺) und beschreibe, woran man den Endpunkt erkennt.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "MnO₄⁻ + 5 Fe²⁺ + 8 H⁺ → Mn²⁺ + 5 Fe³⁺ + 4 H₂O",
         "Kaliumpermanganat-Lösung ist intensiv violett."
@@ -9567,6 +10921,10 @@
       "prompt": "Bei der Iodzahl-Bestimmung von Öl A (m = 0,200 g) werden 17,10 mL Thiosulfat-Lösung (c = 0,100 mol·L⁻¹) verbraucht, beim Blindwert 25,00 mL. Öl B hat die Iodzahl 120. Berechne die Iodzahl von Öl A und vergleiche die beiden Öle hinsichtlich ihrer Fettsäure-Reste.",
       "taskType": "structured",
       "afb": 2,
+      "supportedModes": [
+        "screen",
+        "handwriting"
+      ],
       "hints": [
         "IZ = (V_Blind − V_Probe) · c(S₂O₃²⁻) · ½ · M(I₂) · 100 / m(Fett) mit M(I₂) = 253,8 g·mol⁻¹.",
         "Die Iodzahl ist ein Maß für C=C-Doppelbindungen."
@@ -9590,6 +10948,9 @@
       "prompt": "Bei einer Säure-Base-Titration passieren folgende Fehler: (a) Die Bürette wurde nur mit Wasser gespült und dann mit Maßlösung gefüllt. (b) Der Farbumschlag wird um mehrere Tropfen überschritten. (c) Eine Luftblase in der Bürettenspitze entweicht während der Titration. Beurteile jeweils, ob die berechnete Konzentration der Probe zu hoch oder zu niedrig ausfällt.",
       "taskType": "structured",
       "afb": 3,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Überlege jeweils, ob das abgelesene Volumen größer oder kleiner ist als das Volumen, das tatsächlich reagiert hat.",
         "Ein größeres Volumen der Maßlösung führt bei der Berechnung zu einer größeren Stoffmenge."
@@ -9612,6 +10973,9 @@
       "prompt": "Worin unterscheiden sich Äquivalenzpunkt und Endpunkt einer Titration?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Einer ist durch die Stöchiometrie festgelegt, der andere durch eine Anzeige."
       ],
@@ -9632,6 +10996,9 @@
       "prompt": "Wozu setzt man bei Titrationen mit Iod Stärke-Lösung zu?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Denke an die Iod-Stärke-Reaktion."
       ],
@@ -9652,6 +11019,9 @@
       "prompt": "Welche Information liefert der Blindwert bei einer Rücktitration?",
       "taskType": "free-response",
       "afb": 1,
+      "supportedModes": [
+        "screen"
+      ],
       "hints": [
         "Der Ansatz enthält alles außer der Probe."
       ],
