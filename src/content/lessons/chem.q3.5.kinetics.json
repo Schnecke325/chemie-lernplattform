@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.5.kinetics",
+  "title": "Reaktionskinetik und Katalyse",
+  "summary": "Thermodynamik sagt, ob ein Prozess begünstigt ist. Kinetik beschreibt, wie schnell er abläuft.",
+  "order": 40,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "curriculum-only",
+    "note": "Keine eigene Vorschlagszahl; curricular ergänzend."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.5",
+      "subsection": "Reaktionskinetik und Katalyse",
+      "status": "year-specific"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.basics.data",
+    "chem.q3.1.mwg"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.5.kinetics.goal.fundamentals",
+      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.q3.5.kinetics.goal.calculate",
+      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q3.5.kinetics.goal.material",
+      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q3.5.kinetics.goal.evaluate",
+      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "competencies": [
+        "B",
+        "K"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Thermodynamik sagt, ob ein Prozess begünstigt ist. Kinetik beschreibt, wie schnell er abläuft.",
+  "explanation": "Die Reaktionsgeschwindigkeit beschreibt die Konzentrationsänderung pro Zeit. Für Edukte ist v=−Δc/Δt, für Produkte v=+Δc/Δt; bei stöchiometrischen Koeffizienten wird normiert. Ein Konzentrations-Zeit-Diagramm liefert mittlere Steigungen über ein Intervall und momentane Geschwindigkeiten über die Tangente.\n\nHöhere Temperatur erhöht meist den Anteil energiereicher Teilchen. Größere Konzentration oder Oberfläche kann wirksame Zusammenstöße wahrscheinlicher machen. Ein Katalysator bietet einen alternativen Reaktionsweg mit niedrigerer Aktivierungsenergie. Er beschleunigt Hin- und Rückreaktion und verändert weder ΔG noch die Gleichgewichtslage.",
+  "fundamentals": [
+    {
+      "term": "Reaktionskinetik und Katalyse",
+      "explanation": "Thermodynamik sagt, ob ein Prozess begünstigt ist. Kinetik beschreibt, wie schnell er abläuft."
+    },
+    {
+      "term": "Modellgrenze",
+      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+    },
+    {
+      "term": "AFB III",
+      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.5.kinetics.eq.1",
+      "notation": "v = −Δc(Edukt)/Δt = +Δc(Produkt)/Δt (stöchiometrisch normiert)",
+      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+    }
+  ],
+  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.5.kinetics.example.1",
+      "title": "Mittlere Geschwindigkeit",
+      "prompt": "Die Konzentration eines Edukts sinkt in 20 s von 0,80 auf 0,50 mol L⁻¹. Berechne die mittlere Verbrauchsgeschwindigkeit.",
+      "steps": [
+        "v=−(0,50−0,80)/20=0,015 mol L⁻¹ s⁻¹",
+        "Das Minuszeichen macht die Verbrauchsgeschwindigkeit positiv."
+      ],
+      "result": "v=−(0,50−0,80)/20=0,015 mol L⁻¹ s⁻¹. Das Minuszeichen macht die Verbrauchsgeschwindigkeit positiv."
+    },
+    {
+      "id": "chem.q3.5.kinetics.example.2",
+      "title": "Katalysatorwirkung",
+      "prompt": "Ein Katalysator senkt die Aktivierungsenergie. Was ändert sich, was nicht?",
+      "steps": [
+        "Die Reaktion erreicht schneller das Gleichgewicht",
+        "Die Gleichgewichtskonstante und Gleichgewichtslage ändern sich bei gleicher Temperatur nicht."
+      ],
+      "result": "Die Reaktion erreicht schneller das Gleichgewicht. Die Gleichgewichtskonstante und Gleichgewichtslage ändern sich bei gleicher Temperatur nicht."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2023,
+      "term": "NT",
+      "proposal": "D",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
+    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
+    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
+      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+    },
+    {
+      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
+      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+    },
+    {
+      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
+      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.5.kinetics.exercise.1",
+    "chem.q3.5.kinetics.exercise.2",
+    "chem.q3.5.kinetics.exercise.3",
+    "chem.q3.5.kinetics.exercise.4",
+    "chem.q3.5.kinetics.exercise.5",
+    "chem.q3.5.kinetics.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q3.5.kinetics.selftest.1",
+    "chem.q3.5.kinetics.selftest.2",
+    "chem.q3.5.kinetics.selftest.3"
+  ]
+}

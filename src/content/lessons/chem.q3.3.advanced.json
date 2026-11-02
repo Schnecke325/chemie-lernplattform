@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.3.advanced",
+  "title": "LK-Vertiefungen der Elektrochemie",
+  "summary": "Vertiefe Zellspannung, Konzentrationseinflüsse und quantitative Elektrolyse mit klarer Trennung zwischen Curriculum und weiterführenden Modellen.",
+  "order": 13,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 17,
+    "note": "17 ist die Vorschlagszahl für Q3.3 insgesamt. Sie belegt keine eigene Häufigkeit der Vertiefungsinhalte."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.3",
+      "subsection": "LK-Vertiefungen nach jeweils geltender Konkretisierung",
+      "status": "year-specific"
+    }
+  ],
+  "prerequisites": [
+    "chem.q3.3.redox",
+    "chem.q3.3.galvanic-cells",
+    "chem.q3.3.electrolysis-corrosion",
+    "chem.basics.quantities"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.3.advanced.goal.cell",
+      "statement": "Ich kann erklären, warum Konzentrationen die Zellspannung beeinflussen, und die Nernst-Gleichung im vorgegebenen Umfang anwenden.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.q3.3.advanced.goal.faraday",
+      "statement": "Ich kann aus Stromstärke und Zeit die umgesetzte Ladung und eine abgeschiedene Stoffmenge berechnen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q3.3.advanced.goal.limitations",
+      "statement": "Ich kann Standardbedingungen, reale Betriebsbedingungen und Modellgrenzen unterscheiden.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "erläutern",
+        "bewerten"
+      ]
+    },
+    {
+      "id": "chem.q3.3.advanced.goal.scope",
+      "statement": "Ich kann eine Vertiefung nur dann als verbindlich einordnen, wenn sie für den Prüfungsjahrgang curricular ausgewiesen ist.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "prüfen",
+        "einordnen"
+      ]
+    }
+  ],
+  "introduction": "Eine Zellspannung hängt nicht nur von den beteiligten Redoxpaaren ab. Auch Konzentrationen, Temperatur und reale Elektrodenbedingungen können eine Rolle spielen. Die folgenden Modelle sind Vertiefungen: Prüfe vor einer Prüfung immer, welche davon der aktuelle Abiturerlass tatsächlich verlangt.",
+  "explanation": "### 1. Standardspannung und reale Zellspannung\n\nDie Standardzellspannung wird aus Standardpotentialen berechnet: E°Zelle = E°Kathode − E°Anode. Sie gilt unter Standardbedingungen. Ändern sich Konzentrationen, verschiebt sich das Redoxgleichgewicht und damit das Elektrodenpotential.\n\n### 2. Nernst-Gleichung\n\nFür eine Reduktion Ox + z e⁻ ⇌ Red gilt bei 25 °C näherungsweise E = E° − (0,0592 V/z) · log(Q), wenn Q passend zur Reduktionsgleichung aufgestellt ist. Reine Feststoffe und reine Flüssigkeiten erscheinen nicht in Q. Der genaue Ausdruck hängt von der Reaktionsstöchiometrie ab. Verwechsle nicht Q mit einer beliebigen Konzentration: Es ist der Reaktionsquotient.\n\n### 3. Elektrolyse quantitativ\n\nDie elektrische Ladung ist Q_el = I · t. Mit der Faraday-Konstante F ≈ 96485 C mol⁻¹ folgt n(e⁻)=Q_el/F. Aus der Teilgleichung erhältst du die Stoffmenge des Produkts. Bei Mⁿ⁺ + n e⁻ → M gilt n(M)=n(e⁻)/n. Stromausbeute, Nebenreaktionen und Verluste können die reale Masse verkleinern.\n\n### 4. Überspannung und Zersetzungsspannung\n\nDie thermodynamische Mindestspannung allein sagt nicht immer voraus, ab welcher angelegten Spannung eine Elektrolyse praktisch messbar abläuft. Überspannungen und ohmsche Widerstände erhöhen die nötige Spannung. Diese kinetischen und technischen Effekte sind von der Gleichgewichtsspannung zu unterscheiden.",
+  "fundamentals": [
+    {
+      "term": "Standardpotential E°",
+      "explanation": "Elektrodenpotential eines Redoxpaares unter festgelegten Standardbedingungen, gemessen relativ zur Standard-Wasserstoffelektrode."
+    },
+    {
+      "term": "Reaktionsquotient Q",
+      "explanation": "Aus Aktivitäten beziehungsweise näherungsweise Konzentrationen gebildeter Quotient der Produkte und Edukte mit stöchiometrischen Exponenten."
+    },
+    {
+      "term": "Faraday-Konstante F",
+      "explanation": "Ladung pro Mol Elektronen; etwa 96485 C mol⁻¹."
+    },
+    {
+      "term": "Überspannung",
+      "explanation": "Zusätzlicher Spannungsbedarf gegenüber dem thermodynamischen Wert, unter anderem wegen langsamer Elektrodenreaktionen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.3.advanced.eq.nernst",
+      "notation": "E = E° − (0,0592 V / z) · log(Q) (bei 25 °C)",
+      "explanation": "Näherungsform der Nernst-Gleichung für eine Reduktionsgleichung mit z Elektronen."
+    },
+    {
+      "id": "chem.q3.3.advanced.eq.charge",
+      "notation": "Q_el = I · t; n(e⁻) = Q_el / F",
+      "explanation": "Verknüpft Strom, Zeit, Ladung und Stoffmenge der Elektronen."
+    },
+    {
+      "id": "chem.q3.3.advanced.eq.mass",
+      "notation": "m = M · n(Produkt)",
+      "explanation": "Nach der Elektronenbilanz wird die Produktstoffmenge in eine Masse umgerechnet."
+    }
+  ],
+  "equationNote": "Einheiten konsequent einsetzen: 1 A = 1 C s⁻¹. Nernst-Rechnungen nur durchführen, wenn Temperatur, Reaktionsgleichung und erforderlicher Curriculumumfang feststehen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.3.advanced.example.nernst",
+      "title": "Konzentrationseinfluss auf ein Metallpotential",
+      "prompt": "Für Cu²⁺ + 2 e⁻ → Cu(s) seien E° = 0,34 V und c(Cu²⁺)=0,010 mol L⁻¹ bei 25 °C. Berechne E; Aktivitätskorrekturen werden vernachlässigt.",
+      "steps": [
+        "Für den Feststoff Cu gilt Aktivität 1; der Reaktionsquotient der Reduktion ist Q=1/c(Cu²⁺).",
+        "Alternativ lautet die bekannte Form E=E°+(0,0592/2)·log(c(Cu²⁺)/c°), wobei c°=1 mol L⁻¹.",
+        "Einsetzen: E=0,34 V+0,0296 V·log(0,010).",
+        "log(0,010)=−2; daher E=0,34−0,0592=0,281 V."
+      ],
+      "result": "Das Potential beträgt näherungsweise 0,28 V. Die Annahme idealer Lösungen ist eine Modellvereinfachung."
+    },
+    {
+      "id": "chem.q3.3.advanced.example.copper",
+      "title": "Kupferabscheidung bei konstantem Strom",
+      "prompt": "Bei I=2,00 A läuft eine Elektrolyse 30,0 min. Berechne die theoretische Kupfermasse aus Cu²⁺ + 2 e⁻ → Cu. M(Cu)=63,55 g mol⁻¹.",
+      "steps": [
+        "Zeit umrechnen: t=1800 s.",
+        "Ladung: Q_el=I·t=2,00·1800=3600 C.",
+        "Elektronen: n(e⁻)=3600/96485=0,0373 mol.",
+        "Wegen 2 mol e⁻ pro mol Cu gilt n(Cu)=0,0187 mol.",
+        "Masse: m=0,0187·63,55=1,19 g."
+      ],
+      "result": "Theoretisch werden etwa 1,19 g Kupfer abgeschieden; Nebenreaktionen oder eine Stromausbeute unter 100 % senken den Messwert."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2019,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Elektrodenreaktionen, Ladung und Stoffmengen aus Angaben entnehmen.",
+    "AFB II: Zellspannung oder abgeschiedene Stoffmenge mit vorgegebenen Modellen berechnen.",
+    "AFB III: Modellannahmen, Abweichungen vom Idealwert und die curriculare Reichweite einer Vertiefung beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Schreibe zuerst die ausgeglichene Elektrodenreaktion mit Elektronenzahl auf.",
+      "commonError": "Bei Faraday-Rechnungen wird die Elektronenzahl pro Produkt vergessen."
+    },
+    {
+      "tip": "Nenne bei Potentialen alle Annahmen zu Temperatur und Konzentrationen.",
+      "commonError": "Standardpotential und reales Potential werden gleichgesetzt."
+    },
+    {
+      "tip": "Prüfe bei Vertiefungen stets die Jahrgangsvorgaben.",
+      "commonError": "Ein historischer Prüfungsbeleg wird als aktueller Erlassinhalt ausgegeben."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.3.advanced.ex.basic-charge",
+    "chem.q3.3.advanced.ex.basic-electrons",
+    "chem.q3.3.advanced.ex.standard-product",
+    "chem.q3.3.advanced.ex.standard-nernst",
+    "chem.q3.3.advanced.ex.transfer-efficiency",
+    "chem.q3.3.advanced.ex.transfer-scope"
+  ],
+  "selfTestIds": [
+    "chem.q3.3.advanced.st.1",
+    "chem.q3.3.advanced.st.2",
+    "chem.q3.3.advanced.st.3"
+  ]
+}

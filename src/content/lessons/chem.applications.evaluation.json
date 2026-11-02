@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.applications.evaluation",
+  "title": "Chemische Anwendungen bewerten",
+  "summary": "Chemische Bewertungen werden belastbar, wenn Kriterien klar sind, Daten vergleichbar sind und Unsicherheiten offen benannt werden.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "curriculum-only",
+    "note": "Keine eigene Vorschlagszahl; curricular ergänzend."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.4",
+      "subsection": "Chemische Anwendungen bewerten",
+      "status": "year-specific"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.basics.data",
+    "chem.q3.1.mwg"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.applications.evaluation.goal.fundamentals",
+      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.applications.evaluation.goal.calculate",
+      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.applications.evaluation.goal.material",
+      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.applications.evaluation.goal.evaluate",
+      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "competencies": [
+        "B",
+        "K"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Chemische Bewertungen werden belastbar, wenn Kriterien klar sind, Daten vergleichbar sind und Unsicherheiten offen benannt werden.",
+  "explanation": "Eine begründete Bewertung trennt Sachurteil und Wertentscheidung. Lege zuerst Ziel und Kriterien fest, etwa Sicherheit, Ressourcenverbrauch, Wirksamkeit, Kosten oder Umweltwirkung. Werte Daten auf gleicher Bezugsbasis aus. Beschreibe Zielkonflikte und berücksichtige Unsicherheiten.\n\nIm AFB III reicht eine Meinung nicht: Du führst Kriterien an, belegst Aussagen mit Material und erklärst, wie stark der Beleg deine Schlussfolgerung trägt. Historische Prüfungsthemen illustrieren Aufgabenpraxis; verbindliche Inhalte bestimmt der aktuelle Jahrgangserlass.",
+  "fundamentals": [
+    {
+      "term": "Chemische Anwendungen bewerten",
+      "explanation": "Chemische Bewertungen werden belastbar, wenn Kriterien klar sind, Daten vergleichbar sind und Unsicherheiten offen benannt werden."
+    },
+    {
+      "term": "Modellgrenze",
+      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+    },
+    {
+      "term": "AFB III",
+      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.applications.evaluation.eq.1",
+      "notation": "relative Änderung = (Endwert − Anfangswert) / Anfangswert · 100 %",
+      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+    }
+  ],
+  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.applications.evaluation.example.1",
+      "title": "Kriterien anwenden",
+      "prompt": "Ein neues Verfahren spart 20 % Energie, benötigt aber einen seltenen Rohstoff. Formuliere einen ausgewogenen Bewertungsschritt.",
+      "steps": [
+        "Zunächst Kriterien festlegen: Energiebedarf und Rohstoffverfügbarkeit.",
+        "Die Energieeinsparung ist ein Vorteil; der seltene Rohstoff ist ein möglicher Nachteil.",
+        "Für das Gesamturteil brauchst du Daten zur Rohstoffgewinnung und eine begründete Gewichtung."
+      ],
+      "result": "Energieeinsparung ist ein Vorteil; Rohstoffverfügbarkeit und Umweltfolgen des Abbaus sind mögliche Nachteile. Für ein Gesamturteil braucht es vergleichbare Daten und eine Gewichtung der Kriterien."
+    },
+    {
+      "id": "chem.applications.evaluation.example.2",
+      "title": "Aussage belegen",
+      "prompt": "Was muss eine Aussage wie „Verfahren A ist nachhaltiger“ enthalten?",
+      "steps": [
+        "Vergleichsszenario und gleiche Bezugsgröße nennen.",
+        "Aussagen durch Materialdaten belegen.",
+        "Zielkonflikte, Unsicherheiten und Systemgrenzen abwägen."
+      ],
+      "result": "Ein klares Vergleichsszenario, Kriterien und Bezugsgrößen, Materialbelege sowie eine Abwägung der Zielkonflikte und Grenzen."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2019,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
+    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
+    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
+      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+    },
+    {
+      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
+      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+    },
+    {
+      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
+      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.applications.evaluation.exercise.1",
+    "chem.applications.evaluation.exercise.2",
+    "chem.applications.evaluation.exercise.3",
+    "chem.applications.evaluation.exercise.4",
+    "chem.applications.evaluation.exercise.5",
+    "chem.applications.evaluation.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.applications.evaluation.selftest.1",
+    "chem.applications.evaluation.selftest.2",
+    "chem.applications.evaluation.selftest.3"
+  ]
+}

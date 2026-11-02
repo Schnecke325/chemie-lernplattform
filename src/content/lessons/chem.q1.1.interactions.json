@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.1.interactions",
+  "title": "Molekülgeometrie und Wechselwirkungen",
+  "summary": "Leite Molekülform und Polarität ab und erkläre, wie Wechselwirkungen Eigenschaften beeinflussen.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 19,
+    "note": "Q1.1 wurde in 19 vorhandenen Vorschlägen codiert. Das ist kein Unterthemenwert für Molekülgeometrie oder Wechselwirkungen."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.1",
+      "subsection": "Molekülgeometrie, Polarität und Wechselwirkungen",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.1.interactions.goal.geometry",
+      "statement": "Ich kann einfache Molekülgeometrien mit dem EPA-Modell ableiten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "darstellen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.interactions.goal.polarity",
+      "statement": "Ich kann Bindungspolarität und Molekülpolarität unterscheiden.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "erklären",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.interactions.goal.forces",
+      "statement": "Ich kann zwischenmolekulare Wechselwirkungen in Stoffen erkennen und vergleichen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "zuordnen",
+        "vergleichen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.interactions.goal.properties",
+      "statement": "Ich kann Löslichkeit und Siedeverhalten mit Struktur und Wechselwirkungen begründen.",
+      "competencies": [
+        "S",
+        "E",
+        "K"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    }
+  ],
+  "introduction": "Die Bindungen eines Moleküls erklären noch nicht alle seine Eigenschaften. Auch die räumliche Anordnung der Atome zählt. Sie entscheidet zum Beispiel, ob sich Bindungsdipole aufheben und welche Kräfte zwischen Molekülen wirken. Daraus kannst du Eigenschaften wie Siedeverhalten und Löslichkeit begründen.",
+  "explanation": "### 1. Molekülgeometrie mit dem EPA-Modell\n\nDas Elektronenpaar-Abstoßungsmodell (EPA) hilft dir, die Form eines Moleküls abzuschätzen. Elektronenbereiche am Zentralatom stoßen sich ab und ordnen sich mit möglichst großem Abstand an. Eine Einfach-, Doppel- oder Dreifachbindung zählt jeweils als ein Bereich. Freie Elektronenpaare zählen ebenfalls; sie beanspruchen oft mehr Raum als bindende Bereiche.\n\nBei zwei Bereichen entsteht eine lineare Anordnung. Drei Bereiche ordnen sich trigonal-planar an, vier tetraedrisch. Freie Elektronenpaare verändern die Molekülform: Ammoniak ist trigonal-pyramidal, Wasser gewinkelt. Das EPA-Modell liefert eine qualitative Geometrie, keine exakten Bindungswinkel für jedes Molekül.\n\n### 2. Von Bindungspolarität zu Molekülpolarität\n\nEine polare Bindung besitzt eine ungleiche Elektronenverteilung. Das elektronegativere Atom trägt δ⁻, das andere δ⁺. Ein Molekül ist aber nur dann ein permanenter Dipol, wenn sich seine Bindungsdipole räumlich nicht vollständig aufheben.\n\nCO₂ besitzt polare C=O-Bindungen, ist aber linear und symmetrisch. Die Dipole heben sich auf. Wasser ist gewinkelt; seine O–H-Dipole heben sich nicht auf. H₂O ist deshalb ein permanenter Dipol. Prüfe zuerst die polaren Bindungen und dann die Molekülgeometrie.\n\n### 3. Zwischenmolekulare Wechselwirkungen\n\nZwischen Molekülen wirken Anziehungskräfte. Sie sind meist schwächer als Bindungen innerhalb eines Moleküls, beeinflussen aber Eigenschaften wie Siedepunkt und Löslichkeit.\n\n- **Dispersionskräfte** entstehen durch momentane und induzierte Dipole. Sie wirken zwischen allen Teilchen und werden bei größeren, stärker polarisierbaren Elektronenhüllen meist stärker.\n- **Dipol-Dipol-Wechselwirkungen** treten zwischen permanenten Dipolen auf. Die δ⁺-Seite eines Moleküls zieht die δ⁻-Seite eines anderen an.\n- **Wasserstoffbrücken** sind besonders starke Dipol-Wechselwirkungen. Sie können entstehen, wenn H an N, O oder F gebunden ist und mit einem freien Elektronenpaar an N, O oder F eines Nachbarteilchens wechselwirkt.\n- **Ion-Dipol-Wechselwirkungen** treten zum Beispiel auf, wenn Ionen von polaren Wassermolekülen umgeben werden. Diese Hydratisierung kann das Lösen eines Salzes unterstützen.\n\n### 4. Wechselwirkungen und Stoffeigenschaften\n\nBeim Sieden müssen Teilchen voneinander getrennt werden. Je stärker die Anziehung zwischen ihnen, desto mehr Energie ist im Allgemeinen nötig und desto höher liegt der Siedepunkt. Vergleiche Stoffe unter ähnlichen Bedingungen.\n\nFür die Löslichkeit zählt, ob Lösungsmittel und gelöster Stoff neue Wechselwirkungen eingehen können. Polare Stoffe lösen sich oft gut in polaren Lösungsmitteln, unpolare eher in unpolaren. „Ähnliches löst sich in Ähnlichem“ ist eine erste Faustregel. Für eine genauere Erklärung beachtest du auch Molekülgröße, Struktur, Temperatur sowie Energie- und Entropiebeiträge.",
+  "fundamentals": [
+    {
+      "term": "Elektronenpaar-Abstoßungsmodell (EPA)",
+      "explanation": "Modell zur Abschätzung der räumlichen Anordnung von Elektronenbereichen und damit der Molekülform."
+    },
+    {
+      "term": "Bindungsdipol",
+      "explanation": "Ladungsverschiebung in einer polaren Bindung. Die Enden tragen Partialladungen δ⁺ und δ⁻."
+    },
+    {
+      "term": "Permanenter Dipol",
+      "explanation": "Molekül mit dauerhaft getrennten Ladungsschwerpunkten. Die Bindungsdipole heben sich insgesamt nicht auf."
+    },
+    {
+      "term": "Dispersionskraft",
+      "explanation": "Anziehung durch momentane und induzierte Dipole. Sie wirkt auch zwischen unpolaren Teilchen."
+    },
+    {
+      "term": "Wasserstoffbrücke",
+      "explanation": "Zwischenmolekulare Wechselwirkung zwischen H, das an N, O oder F gebunden ist, und einem freien Elektronenpaar an N, O oder F."
+    },
+    {
+      "term": "Hydratisierung",
+      "explanation": "Umgebung gelöster Teilchen durch Wassermoleküle, die mit Ionen oder polaren Gruppen wechselwirken."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.1.interactions.eq.dipole",
+      "notation": "μ⃗ₘₒₗ = Σ μ⃗ᵢ",
+      "explanation": "Die Molekülpolarität ergibt sich qualitativ aus der vektoriellen Summe der Bindungsdipole."
+    },
+    {
+      "id": "chem.q1.1.interactions.eq.hbond",
+      "notation": "O—H···O",
+      "explanation": "Schematische Wasserstoffbrücke. Die gepunktete Linie ist keine kovalente O—H-Bindung."
+    }
+  ],
+  "equationNote": "Molekülpolarität hängt von Bindungspolarität und Geometrie ab. Wechselwirkungen zwischen Teilchen sind von Bindungen innerhalb eines Moleküls zu unterscheiden.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q1.1.interactions.example-co2-water",
+      "title": "CO₂ und Wasser: Dipole prüfen",
+      "prompt": "Sind CO₂ und H₂O permanente Dipole? Begründe mithilfe ihrer Geometrie.",
+      "steps": [
+        "In beiden Molekülen sind die Bindungen zu O polar.",
+        "CO₂ ist linear, H₂O gewinkelt.",
+        "Prüfe, ob sich die Bindungsdipole vektoriell aufheben."
+      ],
+      "result": "CO₂ ist linear und symmetrisch; seine Bindungsdipole heben sich auf. H₂O ist gewinkelt, daher bleibt ein resultierender Dipol."
+    },
+    {
+      "id": "chem.q1.1.interactions.example-boiling",
+      "title": "Siedepunkte vergleichen",
+      "prompt": "Warum siedet Ethan höher als Methan, obwohl beide Moleküle unpolar sind?",
+      "steps": [
+        "Beide Stoffe besitzen Dispersionskräfte; permanente Dipolkräfte fehlen.",
+        "Ethan hat mehr Elektronen und eine stärker polarisierbare Elektronenhülle.",
+        "Dadurch sind die Dispersionskräfte zwischen Ethan-Molekülen stärker."
+      ],
+      "result": "Zum Trennen der Ethan-Moleküle wird mehr Energie benötigt. Ethan hat deshalb den höheren Siedepunkt."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2017,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2024,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Molekülgeometrie, Bindungsdipole oder Wechselwirkungsarten benennen.",
+    "AFB II: Polarität aus Struktur und Geometrie ableiten und Siedeverhalten oder Löslichkeit vergleichen.",
+    "AFB III: Eine Struktur-Eigenschaft-Erklärung anhand von Material und Modellgrenzen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Bestimme erst die räumliche Form und addiere dann gedanklich die Bindungsdipole.",
+      "commonError": "Eine polare Bindung wird automatisch als Beleg für ein polares Molekül angesehen."
+    },
+    {
+      "tip": "Unterscheide Wechselwirkungen innerhalb eines Moleküls von Kräften zwischen Molekülen.",
+      "commonError": "Wasserstoffbrücken werden als kovalente O—H-Bindungen eingezeichnet."
+    },
+    {
+      "tip": "Begründe Löslichkeit mit entstehenden Wechselwirkungen und nenne Grenzen einer Faustregel.",
+      "commonError": "„Ähnliches löst sich in Ähnlichem“ wird ohne Bezug auf die Molekülstruktur als vollständige Erklärung verwendet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.1.interactions.exercise.basic-shape",
+    "chem.q1.1.interactions.exercise.basic-force",
+    "chem.q1.1.interactions.exercise.standard-dipole",
+    "chem.q1.1.interactions.exercise.standard-boiling",
+    "chem.q1.1.interactions.exercise.transfer-solubility",
+    "chem.q1.1.interactions.exercise.transfer-hyaluronan"
+  ],
+  "selfTestIds": [
+    "chem.q1.1.interactions.selftest.geometry",
+    "chem.q1.1.interactions.selftest.dipole",
+    "chem.q1.1.interactions.selftest.forces"
+  ]
+}

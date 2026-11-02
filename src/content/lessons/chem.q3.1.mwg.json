@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.1.mwg",
+  "title": "Dynamisches Gleichgewicht und MWG",
+  "summary": "Erkläre dynamisches Gleichgewicht und nutze das Massenwirkungsgesetz, um Gleichgewichtszusammensetzungen zu beschreiben.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 19,
+    "note": "Die Zahl 19 bezieht sich auf Q3.1 insgesamt. Sie ist kein Unterthemenwert für MWG-Aufgaben."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.1",
+      "subsection": "Dynamisches Gleichgewicht und Massenwirkungsgesetz",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.basics.data",
+    "chem.q3.2.protolysis"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.1.mwg.goal.dynamic",
+      "statement": "Ich kann ein dynamisches Gleichgewicht als gleich schnelle Hin- und Rückreaktion erklären.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q3.1.mwg.goal.law",
+      "statement": "Ich kann für eine Reaktion den Massenwirkungsausdruck aufstellen und Kc deuten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "interpretieren"
+      ]
+    },
+    {
+      "id": "chem.q3.1.mwg.goal.composition",
+      "statement": "Ich kann Gleichgewichtskonzentrationen aus Messwerten in einen Gleichgewichtsausdruck einsetzen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.q3.1.mwg.goal.data",
+      "statement": "Ich kann zeitliche Messdaten nutzen, um Gleichgewicht und Reaktionsverlauf zu unterscheiden.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "begründen"
+      ]
+    }
+  ],
+  "introduction": "Manche Reaktionen laufen in einem geschlossenen System in beide Richtungen. Nach einiger Zeit bleiben die Konzentrationen konstant, obwohl die Reaktion auf Teilchenebene weiterläuft. Mit dem Massenwirkungsgesetz beschreibst du die Zusammensetzung dieses Gleichgewichts quantitativ.",
+  "explanation": "### 1. Umkehrbare Reaktion und dynamisches Gleichgewicht\n\nDer Doppelpfeil ⇌ kennzeichnet eine umkehrbare Reaktion: Hin- und Rückreaktion können unter denselben Bedingungen ablaufen. In einem geschlossenen System können sich Edukte und Produkte ansammeln, ohne dauerhaft entweichen oder von außen nachgeliefert werden.\n\nSchauen wir auf N₂O₄(g) ⇌ 2 NO₂(g). Wenn zu Beginn nur N₂O₄ vorhanden ist, läuft zunächst die Hinreaktion ab; die Rückreaktion ist anfangs noch sehr langsam, weil kaum NO₂ vorliegt. Mit der Bildung von NO₂ kann die Rückreaktion zunehmend schneller werden. Schließlich sind die Geschwindigkeiten von Hin- und Rückreaktion gleich groß. Für jede beteiligte Stoffart gleichen sich Bildungs- und Verbrauchsrate aus. Die Konzentrationen bleiben makroskopisch konstant, obwohl beide Reaktionen auf Teilchenebene weiterlaufen. Die Konzentrationen müssen dabei nicht gleich groß sein.\n\nEin statisches Gleichgewicht ist höchstens eine allgemeine Analogie: Ein Buch liegt ruhig auf einem Tisch, weil sich die wirkenden Kräfte ausgleichen. Es findet dabei keine fortlaufende chemische Umsetzung statt. Das ist ein statisches mechanisches Gleichgewicht und keine zweite Art des chemischen Reaktionsgleichgewichts. Ein chemisches Gleichgewicht einer umkehrbaren Reaktion ist dynamisch.\n\n### 2. Massenwirkungsgesetz\n\nFür aA + bB ⇌ cC + dD lautet der übliche schulische Konzentrationsausdruck Kc = c(C)^c·c(D)^d / (c(A)^a·c(B)^b). Die stöchiometrischen Koeffizienten werden zu Exponenten. Produkte stehen im Zähler, Edukte im Nenner. Reine Feststoffe und reine Flüssigkeiten mit konstanter Aktivität erscheinen nicht im Ausdruck.\n\nKc gehört zu einer bestimmten Reaktion in einer bestimmten Schreibweise und gilt bei festgelegter Temperatur. Ein großes Kc bedeutet, dass das Gleichgewicht unter diesen Bedingungen eher auf der Produktseite liegt; ein kleines Kc spricht eher für die Eduktseite. Der Wert ist keine direkte Prozentangabe der Produktmenge. Die genaue Zusammensetzung hängt auch von der Reaktionsgleichung, ihrer Stöchiometrie und den Ausgangsbedingungen ab. Kc sagt außerdem nicht, wie schnell das Gleichgewicht erreicht wird.\n\n### 3. Gleichgewichtszusammensetzungen berechnen\n\nSetze Gleichgewichtskonzentrationen in den Ausdruck ein. Wenn eine Konzentration fehlt, nutzt du die Reaktionsstöchiometrie. Eine Tabelle mit Anfangswert, Änderung und Gleichgewichtswert (ICE-Schema) hilft, die Änderungen geordnet festzuhalten. Prüfe, dass die Konzentrationsänderungen dem stöchiometrischen Verhältnis entsprechen.\n\n### 4. Reaktionsquotient Qc\n\nDer Reaktionsquotient Qc hat dieselbe Form wie Kc, wird aber mit den aktuellen Konzentrationen berechnet. Bei Qc = Kc liegt Gleichgewicht vor. Ist Qc kleiner als Kc, läuft die Nettoreaktion zunächst in Richtung Produkte; ist Qc größer, in Richtung Edukte. Der Vergleich gilt bei gleicher Temperatur und für die gewählte Reaktionsrichtung.",
+  "fundamentals": [
+    {
+      "term": "Dynamisches Gleichgewicht",
+      "explanation": "Zustand, in dem Hin- und Rückreaktion gleich schnell ablaufen und Konzentrationen makroskopisch konstant bleiben."
+    },
+    {
+      "term": "Massenwirkungsgesetz",
+      "explanation": "Beziehung zwischen Gleichgewichtskonzentrationen und Gleichgewichtskonstante für eine Reaktion."
+    },
+    {
+      "term": "Gleichgewichtskonstante Kc",
+      "explanation": "Wert des Massenwirkungsausdrucks im Gleichgewicht bei festgelegter Temperatur."
+    },
+    {
+      "term": "Reaktionsquotient Qc",
+      "explanation": "Massenwirkungsausdruck mit aktuellen Konzentrationen; der Vergleich mit Kc zeigt die Richtung der Nettoreaktion."
+    },
+    {
+      "term": "ICE-Schema",
+      "explanation": "Tabelle für Anfangs-, Änderungs- und Gleichgewichtskonzentrationen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.1.mwg.eq.general",
+      "notation": "aA + bB ⇌ cC + dD",
+      "explanation": "Allgemeine umkehrbare Reaktion."
+    },
+    {
+      "id": "chem.q3.1.mwg.eq.kc",
+      "notation": "Kc,Schule = c(C)^c·c(D)^d / (c(A)^a·c(B)^b)",
+      "explanation": "Üblicher Konzentrationsausdruck; reine Feststoffe und Flüssigkeiten werden weggelassen."
+    },
+    {
+      "id": "chem.q3.1.mwg.eq.qc",
+      "notation": "Qc = gleicher Ausdruck mit aktuellen Konzentrationen",
+      "explanation": "Vergleich Qc mit Kc zeigt, ob die Nettoreaktion zu Produkten oder Edukten läuft."
+    },
+    {
+      "id": "chem.q3.1.mwg.eq.no2",
+      "notation": "2 NO₂(g) ⇌ N₂O₄(g);  Kc = c(N₂O₄)/c(NO₂)²",
+      "explanation": "MWG-Ausdruck für das Dimerisierungsgleichgewicht."
+    }
+  ],
+  "equationNote": "In der schulischen Konzentrationsform werden c-Werte meist in mol·L⁻¹ eingesetzt; die formalen Einheiten des Quotienten hängen von Δν ab. Thermodynamische Gleichgewichtskonstanten sind dimensionslos und werden mit Aktivitäten formuliert (bei idealen Gasen näherungsweise p/p°, bei verdünnten Lösungen c/c°). Reine Feststoffe und reine Flüssigkeiten mit konstanter Aktivität entfallen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.1.mwg.example-kc",
+      "title": "Kc aus Gleichgewichtsdaten berechnen",
+      "prompt": "Für 2 NO₂(g) ⇌ N₂O₄(g) sind c(NO₂)=0,20 mol·L⁻¹ und c(N₂O₄)=0,50 mol·L⁻¹ im Gleichgewicht. Berechne Kc.",
+      "steps": [
+        "Für 2 NO₂(g) ⇌ N₂O₄(g) lautet der schulische Ausdruck Kc,Schule = c(N₂O₄)/c(NO₂)².",
+        "Konzentrationen mit Einheiten einsetzen: 0,50 mol·L⁻¹ / (0,20 mol·L⁻¹)².",
+        "Nenner berechnen: (0,20 mol·L⁻¹)² = 0,040 mol²·L⁻².",
+        "Quotient bilden und die Einheit aus dem Ausdruck übernehmen."
+      ],
+      "result": "Kc,Schule = 12,5 L·mol⁻¹. Die thermodynamische Konstante ist dimensionslos; sie wird mit Aktivitäten statt mit unnormierten Konzentrationen gebildet."
+    },
+    {
+      "id": "chem.q3.1.mwg.example-ice",
+      "title": "Gleichgewichtszusammensetzung ermitteln",
+      "prompt": "In einem geschlossenen Gefäß liegt anfangs nur N₂O₄ vor: c₀(N₂O₄)=0,50 mol·L⁻¹ und c₀(NO₂)=0. Im Gleichgewicht beträgt c(NO₂)=0,20 mol·L⁻¹. Berechne c(N₂O₄) im Gleichgewicht und Kc,Schule für N₂O₄(g) ⇌ 2 NO₂(g).",
+      "steps": [
+        "Für N₂O₄(g) ⇌ 2 NO₂(g) entstehen aus 1 mol N₂O₄ jeweils 2 mol NO₂.",
+        "Bei 0,20 mol·L⁻¹ gebildetem NO₂ wurden daher 0,10 mol·L⁻¹ N₂O₄ umgesetzt.",
+        "cₑq(N₂O₄)=0,50−0,10=0,40 mol·L⁻¹.",
+        "Kc,Schule = c(NO₂)²/c(N₂O₄) = (0,20 mol·L⁻¹)²/(0,40 mol·L⁻¹).",
+        "Einsetzen und die formale Einheit des Konzentrationsquotienten bestimmen."
+      ],
+      "result": "cₑq(N₂O₄)=0,40 mol·L⁻¹. Kc,Schule=0,10 mol·L⁻¹. Für die thermodynamische, dimensionslose Konstante werden Aktivitäten verwendet."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2007,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "NT",
+      "proposal": "D",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Gleichgewicht, Hin-/Rückreaktion und Konzentrationsgrößen benennen.",
+    "AFB II: Kc-Ausdrücke aufstellen, Gleichgewichtsdaten einsetzen und Konzentrationen berechnen.",
+    "AFB III: Diagrammverläufe und Gleichgewichtsaussagen anhand von Daten und Modellgrenzen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Erhebe die stöchiometrischen Koeffizienten zu Exponenten im MWG.",
+      "commonError": "Koeffizienten werden als Faktoren statt als Exponenten verwendet."
+    },
+    {
+      "tip": "Unterscheide Kc vom Reaktionsquotienten Qc und beachte die Temperatur.",
+      "commonError": "Kc wird als Maß für die Reaktionsgeschwindigkeit interpretiert."
+    },
+    {
+      "tip": "Nutze Stöchiometrie, wenn du Konzentrationsänderungen aus Messdaten ableitest.",
+      "commonError": "Die Konzentrationsänderungen der Reaktionsteilnehmer werden unabhängig voneinander angesetzt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.1.mwg.exercise.basic-dynamic",
+    "chem.q3.1.mwg.exercise.basic-expression",
+    "chem.q3.1.mwg.exercise.standard-kc",
+    "chem.q3.1.mwg.exercise.standard-ice",
+    "chem.q3.1.mwg.exercise.transfer-data",
+    "chem.q3.1.mwg.exercise.transfer-equilibrium"
+  ],
+  "selfTestIds": [
+    "chem.q3.1.mwg.selftest.dynamic",
+    "chem.q3.1.mwg.selftest.kc",
+    "chem.q3.1.mwg.selftest.qc"
+  ]
+}

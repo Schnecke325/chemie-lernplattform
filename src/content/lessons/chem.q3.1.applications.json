@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.1.applications",
+  "title": "Technische und organische Gleichgewichte",
+  "summary": "Wende Gleichgewichtsmodelle auf Ammoniaksynthese und Esterbildung an und bewerte Prozessbedingungen mit Blick auf Zielkonflikte.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 19,
+    "note": "Die Zahl 19 gilt für Q3.1 insgesamt. Sie ist kein eigener Unterthemenwert für technische oder organische Gleichgewichte."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.1",
+      "subsection": "Technische und organische Gleichgewichte",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.q3.1.mwg",
+    "chem.q3.1.shifts",
+    "chem.q1.3.esters",
+    "chem.q4.1.enthalpy"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.1.applications.goal.haber",
+      "statement": "Ich kann das Ammoniakgleichgewicht formulieren und den Einfluss ausgewählter Prozessbedingungen erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q3.1.applications.goal.ester",
+      "statement": "Ich kann ein Estergleichgewicht mit dem Massenwirkungsgesetz und geeigneten Maßnahmen zur Ausbeute beschreiben.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "anwenden",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q3.1.applications.goal.tradeoffs",
+      "statement": "Ich kann Zielkonflikte zwischen Gleichgewichtsausbeute, Reaktionsgeschwindigkeit und technischen Bedingungen erklären.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "vergleichen",
+        "beurteilen"
+      ]
+    },
+    {
+      "id": "chem.q3.1.applications.goal.material",
+      "statement": "Ich kann Angaben aus einem technischen oder organischen Kontext in eine Gleichgewichtsanalyse übertragen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "ableiten"
+      ]
+    }
+  ],
+  "introduction": "Gleichgewichte sind nicht nur ein Modell im Unterricht. Sie helfen, technische Synthesen und organische Reaktionen zu verstehen. In der Industrie zählt dabei nicht nur die theoretisch mögliche Ausbeute. Auch Reaktionsgeschwindigkeit, Energiebedarf, Druck, Sicherheit und Produkttrennung spielen eine Rolle.",
+  "explanation": "### 1. Ammoniaksynthese\n\nDie Ammoniaksynthese lautet N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g). Die Hinreaktion ist exotherm. Eine Druckerhöhung begünstigt die Produktseite, weil dort weniger Gasteilchen vorliegen. Eine niedrige Temperatur begünstigt das Gleichgewicht ebenfalls, verlangsamt aber die Reaktion.\n\nTechnische Bedingungen sind deshalb ein Kompromiss. Katalysatoren beschleunigen die Einstellung des Gleichgewichts, verändern aber seine Lage nicht. Wird Ammoniak abgetrennt, verschiebt sich das System zur Produktseite. Nicht umgesetzte Edukte können in einem technischen Prozess zurückgeführt werden.\n\n### 2. Estergleichgewicht\n\nDie Veresterung einer Carbonsäure mit einem Alkanol ist umkehrbar: Säure + Alkanol ⇌ Ester + Wasser. Ein Überschuss eines Edukts oder die Entfernung eines Produkts kann die Estermenge erhöhen. Welche Maßnahme geeignet ist, hängt unter anderem von Siedepunkten, Löslichkeit und Sicherheit ab.\n\n### 3. Ausbeute, Geschwindigkeit und Betrieb\n\nDas Gleichgewicht beschreibt die Zusammensetzung im Gleichgewicht, nicht wie schnell es erreicht wird. Höhere Temperatur kann eine Reaktion schneller machen; ob sie zugleich den Gleichgewichtsumsatz erhöht, hängt von der Reaktionsenthalpie ab. Druck beeinflusst vor allem Gasgleichgewichte. Ein Katalysator verändert die Reaktionsgeschwindigkeit, nicht die Gleichgewichtslage.\n\n### 4. Technische Bewertung\n\nVergleiche Prozessbedingungen mit mehreren Kriterien: Gleichgewichtsausbeute, Reaktionszeit, Durchsatz, Energiebedarf, Druck, Trennaufwand, Sicherheit und Rohstoffnutzung. Daten aus Aufgabenmaterial können zeigen, dass die Bedingung mit der höchsten Gleichgewichtsausbeute nicht automatisch das wirtschaftlich oder ökologisch beste Verfahren ergibt. Begründe dein Urteil mit den vorgegebenen Kriterien und nenne Unsicherheiten.",
+  "fundamentals": [
+    {
+      "term": "Gleichgewichtsausbeute",
+      "explanation": "Produktmenge oder -anteil im Gleichgewicht unter festgelegten Bedingungen. Sie ist nicht gleichbedeutend mit Reaktionsgeschwindigkeit."
+    },
+    {
+      "term": "Katalysator",
+      "explanation": "Stoff, der einen Reaktionsweg mit geringerer Aktivierungsenergie ermöglicht und Hin- sowie Rückreaktion beschleunigt."
+    },
+    {
+      "term": "Prozesskompromiss",
+      "explanation": "Abwägung zwischen Gleichgewichtslage, Reaktionsgeschwindigkeit, Energiebedarf, Sicherheit und weiteren technischen Kriterien."
+    },
+    {
+      "term": "Rückführung",
+      "explanation": "Nicht umgesetzte Edukte werden in einen Prozess zurückgeleitet, um ihre Nutzung zu erhöhen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.1.applications.eq.haber",
+      "notation": "N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) + Wärme",
+      "explanation": "Exotherme Ammoniaksynthese; weniger Gasteilchen auf der Produktseite."
+    },
+    {
+      "id": "chem.q3.1.applications.eq.ester",
+      "notation": "R–COOH + R′–OH ⇌ R–COO–R′ + H₂O",
+      "explanation": "Reversible Veresterung; Säurekatalyse ist möglich."
+    },
+    {
+      "id": "chem.q3.1.applications.eq.ammonia-kc",
+      "notation": "Kc = c(NH₃)² / (c(N₂)·c(H₂)³)",
+      "explanation": "Konzentrationsausdruck der Ammoniaksynthese im üblichen Schulmodell."
+    }
+  ],
+  "equationNote": "Technische Prozessbewertung benötigt Materialdaten. Nutze keine pauschalen Optimalwerte, wenn Temperatur, Druck oder Zielgrößen nicht angegeben sind.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.1.applications.example-haber",
+      "title": "Bedingungen der Ammoniaksynthese abwägen",
+      "prompt": "Erkläre qualitativ den Einfluss von Druck, Temperatur und Katalysator auf die Ammoniaksynthese.",
+      "steps": [
+        "Druckerhöhung begünstigt die Seite mit weniger Gasmolekülen: NH₃.",
+        "Temperaturerhöhung begünstigt bei exothermer Hinreaktion die endotherme Rückreaktion.",
+        "Ein Katalysator beschleunigt Hin- und Rückreaktion, ändert aber die Gleichgewichtslage nicht.",
+        "Eine technische Bewertung berücksichtigt zusätzlich Geschwindigkeit und Aufwand."
+      ],
+      "result": "Hoher Druck begünstigt NH₃. Niedrigere Temperatur begünstigt den Gleichgewichtsumsatz, kann die Reaktion aber verlangsamen. Ein Katalysator beschleunigt die Einstellung."
+    },
+    {
+      "id": "chem.q3.1.applications.example-ester",
+      "title": "Esterausbeute erhöhen",
+      "prompt": "Wie kannst du bei einer reversiblen Veresterung die Produktmenge erhöhen?",
+      "steps": [
+        "Schreibe Säure + Alkanol ⇌ Ester + Wasser.",
+        "Nutze Le Chatelier: Erhöhe eine Eduktmenge oder entferne ein Produkt.",
+        "Prüfe, ob die technische Trennung praktisch möglich ist."
+      ],
+      "result": "Ein Eduktüberschuss oder das Entfernen von Wasser beziehungsweise Ester verschiebt das Gleichgewicht zur Produktseite."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2007,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "NT",
+      "proposal": "D",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Reaktionsgleichung, Wärmeeffekt und Prozessgrößen benennen.",
+    "AFB II: Gleichgewichtsdaten und technische Bedingungen mit dem MWG auswerten.",
+    "AFB III: Prozessoptionen hinsichtlich Umsatz, Geschwindigkeit, Ressourcen und Sicherheit kriteriengeleitet beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Trenne Gleichgewichtsausbeute und Reaktionsgeschwindigkeit in deiner Argumentation.",
+      "commonError": "Eine schnellere Reaktion wird automatisch mit höherem Gleichgewichtsumsatz gleichgesetzt."
+    },
+    {
+      "tip": "Nutze für Druckeffekte die Zahl gasförmiger Teilchen und für Temperatur die Reaktionsenthalpie.",
+      "commonError": "Die Richtung wird ohne Bezug zu Reaktionsgleichung oder Wärmeeffekt behauptet."
+    },
+    {
+      "tip": "Bewerte einen Prozess mit mehreren Kriterien und den konkreten Daten des Materials.",
+      "commonError": "Ein einzelner Parameter wie Ausbeute wird als vollständiges Prozessurteil behandelt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.1.applications.exercise.basic-haber",
+    "chem.q3.1.applications.exercise.basic-exothermic",
+    "chem.q3.1.applications.exercise.standard-conditions",
+    "chem.q3.1.applications.exercise.standard-ester",
+    "chem.q3.1.applications.exercise.transfer-evaluate",
+    "chem.q3.1.applications.exercise.transfer-mw"
+  ],
+  "selfTestIds": [
+    "chem.q3.1.applications.selftest.haber",
+    "chem.q3.1.applications.selftest.catalyst",
+    "chem.q3.1.applications.selftest.ester"
+  ]
+}

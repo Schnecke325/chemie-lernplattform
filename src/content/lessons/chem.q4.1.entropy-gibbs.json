@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q4.1.entropy-gibbs",
+  "title": "Entropie und freie Enthalpie",
+  "summary": "Ob eine Reaktion freiwillig abläuft, hängt nicht allein davon ab, ob sie Wärme abgibt. Auch die Verteilungsmöglichkeiten der Teilchen spielen eine Rolle.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 13,
+    "note": "13 Vorschläge im Feld Q4.1; keine Unterthemenzählung."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q4.1",
+      "subsection": "Entropie und freie Enthalpie",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.basics.data",
+    "chem.q3.1.mwg"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q4.1.entropy-gibbs.goal.fundamentals",
+      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.q4.1.entropy-gibbs.goal.calculate",
+      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q4.1.entropy-gibbs.goal.material",
+      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q4.1.entropy-gibbs.goal.evaluate",
+      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "competencies": [
+        "B",
+        "K"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Ob eine Reaktion freiwillig abläuft, hängt nicht allein davon ab, ob sie Wärme abgibt. Auch die Verteilungsmöglichkeiten der Teilchen spielen eine Rolle.",
+  "explanation": "Die Entropie S beschreibt die Zahl zugänglicher Mikrozustände eines Systems. Häufig steigt sie, wenn Teilchenzahl oder Unordnung zunimmt, aber der konkrete Prozess ist entscheidend. Für Prozesse gilt ΔS_gesamt=ΔS_System+ΔS_Umgebung. Bei konstantem Druck und konstanter Temperatur beschreibt ΔG=ΔH−TΔS die Triebkraft; ΔG<0 kennzeichnet eine thermodynamisch begünstigte Richtung.\n\nEine endotherme Reaktion kann bei ausreichend großem positiven ΔS und hoher Temperatur begünstigt sein. Spontaneität sagt nichts über die Reaktionsgeschwindigkeit aus. Temperatur in Gibbs-Rechnungen in Kelvin einsetzen und Einheiten von ΔH und TΔS angleichen.",
+  "fundamentals": [
+    {
+      "term": "Entropie und freie Enthalpie",
+      "explanation": "Ob eine Reaktion freiwillig abläuft, hängt nicht allein davon ab, ob sie Wärme abgibt. Auch die Verteilungsmöglichkeiten der Teilchen spielen eine Rolle."
+    },
+    {
+      "term": "Modellgrenze",
+      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+    },
+    {
+      "term": "AFB III",
+      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q4.1.entropy-gibbs.eq.1",
+      "notation": "ΔG = ΔH − TΔS; spontan begünstigte Richtung bei ΔG < 0",
+      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+    }
+  ],
+  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q4.1.entropy-gibbs.example.1",
+      "title": "Gibbs-Wert berechnen",
+      "prompt": "ΔH=20 kJ mol⁻¹, ΔS=100 J mol⁻¹ K⁻¹, T=300 K. Berechne ΔG.",
+      "steps": [
+        "ΔS=0,100 kJ mol⁻¹ K⁻¹",
+        "TΔS=30 kJ mol⁻¹",
+        "ΔG=20−30=−10 kJ mol⁻¹; die Reaktion ist unter diesen Bedingungen thermodynamisch begünstigt."
+      ],
+      "result": "ΔS=0,100 kJ mol⁻¹ K⁻¹. TΔS=30 kJ mol⁻¹. ΔG=20−30=−10 kJ mol⁻¹; die Reaktion ist unter diesen Bedingungen thermodynamisch begünstigt."
+    },
+    {
+      "id": "chem.q4.1.entropy-gibbs.example.2",
+      "title": "Kinetik abgrenzen",
+      "prompt": "Eine Reaktion hat ΔG<0, läuft aber sehr langsam. Ist das widersprüchlich?",
+      "steps": [
+        "Nein",
+        "ΔG beschreibt die thermodynamische Triebkraft, nicht die Aktivierungsbarriere",
+        "Eine große Aktivierungsenergie kann den Ablauf verlangsamen."
+      ],
+      "result": "Nein. ΔG beschreibt die thermodynamische Triebkraft, nicht die Aktivierungsbarriere. Eine große Aktivierungsenergie kann den Ablauf verlangsamen."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2022,
+      "term": "HT",
+      "proposal": "D",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
+    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
+    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
+      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+    },
+    {
+      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
+      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+    },
+    {
+      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
+      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q4.1.entropy-gibbs.exercise.1",
+    "chem.q4.1.entropy-gibbs.exercise.2",
+    "chem.q4.1.entropy-gibbs.exercise.3",
+    "chem.q4.1.entropy-gibbs.exercise.4",
+    "chem.q4.1.entropy-gibbs.exercise.5",
+    "chem.q4.1.entropy-gibbs.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q4.1.entropy-gibbs.selftest.1",
+    "chem.q4.1.entropy-gibbs.selftest.2",
+    "chem.q4.1.entropy-gibbs.selftest.3"
+  ]
+}

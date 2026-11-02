@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.3.carboxylic-acids",
+  "title": "Carbonsäuren und Säurestärke",
+  "summary": "Erkenne Carbonsäuren, formuliere ihre Protolyse und erkläre, wie die Struktur ihre Säurestärke beeinflusst.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 27,
+    "note": "Die Zahl 27 gilt für Q1.3 insgesamt, nicht für Carbonsäuren als Unterthema."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.3",
+      "subsection": "Carbonsäuren und Säurestärke",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.interactions",
+    "chem.q3.2.protolysis"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.3.carboxylic-acids.goal.structure",
+      "statement": "Ich kann Carbonsäuren und ausgewählte mehrfunktionelle Carbonsäuren an ihren Gruppen erkennen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "zuordnen",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.goal.protolysis",
+      "statement": "Ich kann die Protolyse einer Carbonsäure formulieren und Säurestärken aus Struktur und Daten vergleichen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.goal.structure-effect",
+      "statement": "Ich kann den Einfluss ausgewählter Substituenten auf die Stabilität der konjugierten Base erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "vergleichen"
+      ]
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.goal.isomerism",
+      "statement": "Ich kann bei passenden Beispielen Isomerie und Stereochemie in einer Carbonsäurestruktur erkennen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "beschreiben",
+        "zuordnen"
+      ]
+    }
+  ],
+  "introduction": "Die Carboxygruppe macht Carbonsäuren zu Protonendonatoren. Wie leicht sie ein Proton abgeben, hängt nicht nur von der Gruppe selbst ab. Auch weitere Atome und Gruppen im Molekül beeinflussen die Stabilität des Säurerest-Ions. So kannst du Säurestärken mit Struktur und Messdaten erklären.",
+  "explanation": "### 1. Carboxygruppe und Nomenklatur\n\nDie Carboxygruppe –COOH besteht aus einer Carbonylgruppe C=O und einer Hydroxygruppe O–H am selben C-Atom. Carbonsäuren heißen nach ihrer Hauptkette mit der Endung „-säure“, zum Beispiel Ethansäure CH₃COOH. Bei mehreren Carboxygruppen verwendest du passende Endungen wie „-disäure“.\n\n### 2. Protolyse in Wasser\n\nEine Carbonsäure HA kann ein Proton an Wasser übertragen: HA + H₂O ⇌ A⁻ + H₃O⁺. Es entsteht ein Carboxylat-Ion. Seine negative Ladung ist durch Mesomerie über beide O-Atome delokalisiert. Diese Stabilisierung trägt dazu bei, dass Carbonsäuren saurer sind als vergleichbare Alkohole.\n\n### 3. Säurestärke und pKa\n\nJe stabiler die konjugierte Base A⁻ im Vergleich zur Säure HA ist, desto leichter gibt HA ein Proton ab. Der pKa-Wert beschreibt das Gleichgewicht: Ein kleinerer pKa bedeutet eine stärkere Säure. Vergleiche Werte nur unter vergleichbaren Bedingungen und nutze die Daten der Aufgabe.\n\n### 4. Substituenteneffekte\n\nElektronenanziehende Gruppen können über σ-Bindungen Elektronendichte abziehen (−I-Effekt). Sie stabilisieren häufig die negative Ladung des Carboxylat-Ions und erhöhen so die Säurestärke. Elektronenschiebende Gruppen können diese Stabilisierung abschwächen. Stärke und Reichweite des Effekts hängen von Art und Abstand der Gruppe ab.\n\n### 5. Mehrfunktionelle Säuren und Stereochemie\n\nHydroxy-, Amino-, Di- und Tricarbonsäuren enthalten neben der Carboxygruppe weitere Gruppen. Diese können Säure-Base-Verhalten, Löslichkeit oder Reaktivität beeinflussen. Mehrprotonige Säuren geben ihre Protonen stufenweise ab; für jede Stufe gibt es ein eigenes Gleichgewicht und einen eigenen pKa-Wert.\n\nBei Strukturaufgaben prüfst du auch Isomerie. Ein C-Atom ist chiral, wenn es vier verschiedene Substituenten trägt. Die bloße Anwesenheit einer Carboxygruppe oder die Position als α-C-Atom reicht dafür nicht aus.",
+  "fundamentals": [
+    {
+      "term": "Carboxygruppe",
+      "explanation": "Funktionelle Gruppe –COOH, die eine Carbonyl- und eine Hydroxygruppe am selben C-Atom vereint."
+    },
+    {
+      "term": "Carboxylat-Ion",
+      "explanation": "Konjugierte Base einer Carbonsäure nach Abgabe eines Protons. Die negative Ladung ist über beide O-Atome delokalisiert."
+    },
+    {
+      "term": "pKa-Wert",
+      "explanation": "Maß für die Säurestärke. Ein kleinerer pKa-Wert entspricht einer stärkeren Säure."
+    },
+    {
+      "term": "Induktiver Effekt",
+      "explanation": "Einfluss eines Substituenten auf die Elektronendichte über σ-Bindungen. Elektronenanziehende Gruppen zeigen einen −I-Effekt."
+    },
+    {
+      "term": "Mehrprotonige Säure",
+      "explanation": "Säure, die mehrere Protonen stufenweise abgeben kann; jeder Schritt besitzt ein eigenes Gleichgewicht."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.3.carboxylic-acids.eq.protolysis",
+      "notation": "R–COOH + H₂O ⇌ R–COO⁻ + H₃O⁺",
+      "explanation": "Protolyse einer Carbonsäure in Wasser."
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.eq.chloroacetic",
+      "notation": "ClCH₂COOH + H₂O ⇌ ClCH₂COO⁻ + H₃O⁺",
+      "explanation": "Chlorethansäure bildet ein durch den −I-Effekt stabilisiertes Carboxylat-Ion."
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.eq.oxalic-first",
+      "notation": "HOOC–COOH + H₂O ⇌ HOOC–COO⁻ + H₃O⁺",
+      "explanation": "Erste Protolyse von Oxalsäure; die zweite Protonenabgabe wird separat beschrieben."
+    }
+  ],
+  "equationNote": "Säurestärke und pH-Wert sind nicht dasselbe: pKa ist eine Stoffeigenschaft im Gleichgewichtsmodell, während der pH von Konzentration und Zusammensetzung der Lösung abhängt.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q1.3.carboxylic-acids.example-protolysis",
+      "title": "Protolyse von Ethansäure",
+      "prompt": "Formuliere die Reaktion von Ethansäure mit Wasser und markiere korrespondierende Säure-Base-Paare.",
+      "steps": [
+        "Ethansäure wirkt als Protonendonator.",
+        "Wasser nimmt das Proton auf und wird zu H₃O⁺.",
+        "Nach Protonenabgabe entsteht CH₃COO⁻."
+      ],
+      "result": "CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺. Säure-Base-Paare: CH₃COOH/CH₃COO⁻ und H₃O⁺/H₂O."
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.example-acidity",
+      "title": "Säurestärke aus Struktur und pKa vergleichen",
+      "prompt": "Vergleiche Ethansäure (pKa 4,76) und Chlorethansäure (pKa 2,86).",
+      "steps": [
+        "Vergleiche die pKa-Werte: kleiner bedeutet stärkere Säure.",
+        "Ordne Chlorethansäure den kleineren Wert zu.",
+        "Erkläre den Unterschied über den −I-Effekt von Chlor."
+      ],
+      "result": "Chlorethansäure ist stärker. Chlor zieht Elektronendichte ab und stabilisiert das Chlorethanoat-Ion."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2015,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 5,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Carboxygruppe, Säurerest und funktionelle Gruppen identifizieren.",
+    "AFB II: Protolysegleichungen formulieren und Säurestärken aus pKa-Daten und Struktur vergleichen.",
+    "AFB III: Struktur- oder Säurestärkeaussagen auf Grundlage von Messwerten und Modellgrenzen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Begründe Säurestärke über die Stabilität der konjugierten Base und verwende pKa-Daten.",
+      "commonError": "Ein kleiner pKa wird als schwächere Säure fehlgedeutet."
+    },
+    {
+      "tip": "Formuliere die Protolyse mit Wasser als Base und H₃O⁺ als Produkt.",
+      "commonError": "Das Proton wird ohne Reaktionspartner als freies H⁺ in Wasser notiert."
+    },
+    {
+      "tip": "Prüfe Chiralität anhand von vier unterschiedlichen Substituenten am selben tetraedrischen C-Atom.",
+      "commonError": "Jedes α-C-Atom wird automatisch als chiral bezeichnet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.3.carboxylic-acids.exercise.basic-group",
+    "chem.q1.3.carboxylic-acids.exercise.basic-protolysis",
+    "chem.q1.3.carboxylic-acids.exercise.standard-acidity",
+    "chem.q1.3.carboxylic-acids.exercise.standard-pka",
+    "chem.q1.3.carboxylic-acids.exercise.transfer-polyacid",
+    "chem.q1.3.carboxylic-acids.exercise.transfer-isomerism"
+  ],
+  "selfTestIds": [
+    "chem.q1.3.carboxylic-acids.selftest.group",
+    "chem.q1.3.carboxylic-acids.selftest.pka",
+    "chem.q1.3.carboxylic-acids.selftest.inductive"
+  ]
+}

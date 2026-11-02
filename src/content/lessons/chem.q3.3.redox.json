@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.3.redox",
+  "title": "Oxidation, Reduktion und Redoxgleichungen",
+  "summary": "Erkenne Elektronenübertragungen, bestimme Redoxpartner und gleiche Reaktionsgleichungen systematisch aus.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 17,
+    "note": "Die Zahl 17 bezieht sich auf Q3.3 insgesamt, nicht auf Redoxgleichungen als Unterthema."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.3",
+      "subsection": "Oxidation, Reduktion und Redoxgleichungen",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.basics.quantities",
+    "chem.q1.1.bonding"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.3.redox.goal.oxidation-number",
+      "statement": "Ich kann Oxidationszahlen bestimmen und Änderungen zur Erkennung von Redoxreaktionen nutzen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "bestimmen",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q3.3.redox.goal.donor-acceptor",
+      "statement": "Ich kann Elektronendonator, Elektronenakzeptor, Oxidationsmittel und Reduktionsmittel unterscheiden.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q3.3.redox.goal.half-equations",
+      "statement": "Ich kann Teilgleichungen aufstellen und Redoxgleichungen im vorgegebenen Medium ausgleichen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "formulieren",
+        "ausgleichen"
+      ]
+    },
+    {
+      "id": "chem.q3.3.redox.goal.balance",
+      "statement": "Ich kann Atom-, Ladungs- und Elektronenbilanz einer Gesamtgleichung prüfen.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "überprüfen"
+      ]
+    }
+  ],
+  "introduction": "Redoxreaktionen beruhen auf Elektronenübertragungen. Oxidation und Reduktion laufen immer gemeinsam ab: Ein Teilchen gibt Elektronen ab, ein anderes nimmt sie auf. Mit Oxidationszahlen erkennst du diese Änderungen und kannst die Reaktionsgleichung über Teilgleichungen ausgleichen.",
+  "explanation": "### 1. Oxidation und Reduktion\n\nOxidation bedeutet Elektronenabgabe, Reduktion Elektronenaufnahme. Beides findet gleichzeitig statt. Das Teilchen, das Elektronen abgibt, ist der Elektronendonator und wird oxidiert. Es wirkt als Reduktionsmittel. Der Elektronenakzeptor nimmt Elektronen auf, wird reduziert und wirkt als Oxidationsmittel.\n\n### 2. Oxidationszahlen\n\nOxidationszahlen sind formale Ladungszahlen, die du Atomen nach festgelegten Regeln zuordnest. In einem neutralen Molekül ist ihre Summe null; in einem Ion entspricht die Summe der Ionenladung. Elemente in ihrer Reinform haben Oxidationszahl 0.\n\nSteigt die Oxidationszahl eines Atoms, wurde es oxidiert. Sinkt sie, wurde es reduziert. Eine Oxidationszahl ist ein Bilanzmodell und nicht immer eine reale ganzzahlige Atomladung.\n\n### 3. Teilgleichungsmethode\n\nSchreibe Oxidation und Reduktion zunächst getrennt auf. Gleiche Atome aus, gleiche dann die Ladung über Elektronen aus. Multipliziere die Teilgleichungen so, dass gleich viele Elektronen abgegeben wie aufgenommen werden. Addiere beide Seiten und kürze Elektronen sowie gleiche Teilchen.\n\nIm sauren Milieu verwendest du H₂O zum Ausgleich von Sauerstoff und H⁺ zum Ausgleich von Wasserstoff. Im alkalischen Milieu kannst du zunächst wie im Sauren ausgleichen, danach H⁺ mit OH⁻ neutralisieren und überschüssiges Wasser kürzen. Am Ende müssen Atome und Ladung stimmen.\n\n### 4. Gesamtgleichung prüfen\n\nPrüfe nach dem Addieren jedes Element und die Gesamtladung. Elektronen dürfen in der fertigen Gesamtgleichung nicht übrig bleiben. Kontrolliere außerdem, ob Koeffizienten im kleinsten ganzzahligen Verhältnis stehen. Ordne Oxidationsmittel und Reduktionsmittel anhand der Elektronenaufnahme beziehungsweise -abgabe zu.",
+  "fundamentals": [
+    {
+      "term": "Oxidation",
+      "explanation": "Abgabe von Elektronen; die Oxidationszahl steigt."
+    },
+    {
+      "term": "Reduktion",
+      "explanation": "Aufnahme von Elektronen; die Oxidationszahl sinkt."
+    },
+    {
+      "term": "Oxidationsmittel",
+      "explanation": "Elektronenakzeptor, der einen anderen Stoff oxidiert und selbst reduziert wird."
+    },
+    {
+      "term": "Reduktionsmittel",
+      "explanation": "Elektronendonator, der einen anderen Stoff reduziert und selbst oxidiert wird."
+    },
+    {
+      "term": "Oxidationszahl",
+      "explanation": "Formale Ladungszahl zur Bilanzierung von Elektronenverschiebungen in Verbindungen."
+    },
+    {
+      "term": "Teilgleichung",
+      "explanation": "Separater Ausdruck der Oxidation oder Reduktion, in dem Elektronenbilanz explizit sichtbar ist."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.3.redox.eq.zinc",
+      "notation": "Zn → Zn²⁺ + 2 e⁻",
+      "explanation": "Oxidation von Zink; Elektronen werden abgegeben."
+    },
+    {
+      "id": "chem.q3.3.redox.eq.copper",
+      "notation": "Cu²⁺ + 2 e⁻ → Cu",
+      "explanation": "Reduktion von Kupfer(II)-Ionen; Elektronen werden aufgenommen."
+    },
+    {
+      "id": "chem.q3.3.redox.eq.dichromate",
+      "notation": "Cr₂O₇²⁻ + 14 H⁺ + 6 Fe²⁺ → 2 Cr³⁺ + 7 H₂O + 6 Fe³⁺",
+      "explanation": "Gesamtgleichung im sauren Milieu nach Teilgleichungsmethode."
+    }
+  ],
+  "equationNote": "Passe den Ausgleich an das angegebene Medium an. In der fertigen Gesamtgleichung müssen Atome, Ladung und Elektronenbilanz stimmen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.3.redox.example.zinc",
+      "title": "Elektronenbilanz einer Metallreaktion",
+      "prompt": "Analysiere Zn + Cu²⁺ → Zn²⁺ + Cu.",
+      "steps": [
+        "Zn: Oxidationszahl 0 → +II, also Elektronenabgabe.",
+        "Cu: Oxidationszahl +II → 0, also Elektronenaufnahme.",
+        "Beide Teilchen übertragen je zwei Elektronen.",
+        "Ordne Mittel zu: Donator ist Reduktionsmittel, Akzeptor Oxidationsmittel."
+      ],
+      "result": "Zn wird oxidiert und ist Reduktionsmittel. Cu²⁺ wird reduziert und ist Oxidationsmittel."
+    },
+    {
+      "id": "chem.q3.3.redox.example.dichromate",
+      "title": "Redoxgleichung in saurer Lösung ausgleichen",
+      "prompt": "Gleiche Cr₂O₇²⁻ + Fe²⁺ → Cr³⁺ + Fe³⁺ im Sauren aus.",
+      "steps": [
+        "Reduktion: Cr₂O₇²⁻ → 2 Cr³⁺; gleiche O mit 7 H₂O und H mit 14 H⁺ aus.",
+        "Gleiche Ladung mit 6 e⁻ aus: Cr₂O₇²⁻ + 14 H⁺ + 6 e⁻ → 2 Cr³⁺ + 7 H₂O.",
+        "Oxidation: Fe²⁺ → Fe³⁺ + e⁻; multipliziere mit 6.",
+        "Addiere und kürze Elektronen. Prüfe Atome und Ladung."
+      ],
+      "result": "Cr₂O₇²⁻ + 14 H⁺ + 6 Fe²⁺ → 2 Cr³⁺ + 7 H₂O + 6 Fe³⁺."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2019,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Oxidationszahlen und Redoxpartner bestimmen.",
+    "AFB II: Teilgleichungen und Gesamtgleichung im angegebenen Milieu aufstellen und ausgleichen.",
+    "AFB III: Redoxdeutungen oder Versuchsaussagen anhand von Reaktionsdaten prüfen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Bestimme zuerst Oxidationszahländerungen und trenne Oxidation von Reduktion.",
+      "commonError": "Oxidationsmittel und Reduktionsmittel werden vertauscht."
+    },
+    {
+      "tip": "Gleiche Elektronen über Teilgleichungen aus und addiere erst danach.",
+      "commonError": "Atome werden ausgeglichen, aber die Gesamtladung bleibt falsch."
+    },
+    {
+      "tip": "Berücksichtige das Reaktionsmedium und prüfe nach dem Kürzen erneut die Bilanz.",
+      "commonError": "H⁺ wird in alkalischer Lösung stehen gelassen."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.3.redox.exercise.basic-numbers",
+    "chem.q3.3.redox.exercise.basic-agent",
+    "chem.q3.3.redox.exercise.standard-half",
+    "chem.q3.3.redox.exercise.standard-acidic",
+    "chem.q3.3.redox.exercise.transfer-basic",
+    "chem.q3.3.redox.exercise.transfer-evidence"
+  ],
+  "selfTestIds": [
+    "chem.q3.3.redox.selftest.oxidation",
+    "chem.q3.3.redox.selftest.agent",
+    "chem.q3.3.redox.selftest.balance"
+  ]
+}

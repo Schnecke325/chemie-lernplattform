@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.basics.data",
+  "title": "Daten, Diagramme und experimentelle Evidenz",
+  "summary": "Lies Messdaten korrekt, leite Trends ab und prüfe, wie weit die Daten eine chemische Aussage tatsächlich stützen.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "cross-cutting",
+    "note": "Querschnittsgrundlage der Erkenntnisgewinnung; die Prüfungsbezüge belegen Daten- und Kurvenauswertung, aber keine eigene Themenhäufigkeit."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.2",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.3",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.basics.quantities"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.basics.data.goal.read",
+      "statement": "Ich kann Tabellen und Diagramme mit Achsen, Einheiten und Messbedingungen korrekt lesen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.basics.data.goal.trend",
+      "statement": "Ich kann Trends, Änderungsraten und charakteristische Bereiche aus Daten ableiten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "bestimmen",
+        "interpretieren"
+      ]
+    },
+    {
+      "id": "chem.basics.data.goal.evidence",
+      "statement": "Ich kann Messdaten nutzen, um eine chemische Aussage oder Hypothese zu prüfen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "überprüfen",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.basics.data.goal.limits",
+      "statement": "Ich kann Messunsicherheit, Modellannahme und Aussagegrenze benennen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen",
+        "erläutern"
+      ]
+    }
+  ],
+  "introduction": "Abituraufgaben enthalten oft Tabellen, Diagramme oder Versuchsbeschreibungen. Deine Aufgabe ist dann nicht nur, Werte abzulesen. Du sollst daraus eine chemische Aussage entwickeln und prüfen, wie weit die Daten diese Aussage tragen.",
+  "explanation": "### 1. Messwert und Schlussfolgerung trennen\n\nBeginne mit einer genauen Beschreibung: Welche Größe wurde gemessen, unter welchen Bedingungen und in welchem Zeitraum? Lies Achsen, Skalen und Einheiten vollständig. Beschreibe danach den Trend, zum Beispiel: „Die Konzentration nimmt zunächst stark und später langsamer ab.“\n\nErst danach folgt die Erklärung. Verknüpfe den Trend mit einem chemischen Modell oder einer Reaktionsgleichung. Behaupte nur, was die Daten und das Modell tatsächlich stützen.\n\n### 2. Änderungsraten aus Daten berechnen\n\nDie mittlere Änderungsrate zwischen zwei Messpunkten ist Δy/Δt. Bei einer abnehmenden Eduktkonzentration ist Δc negativ. Wenn nach der positiven Abnahmegeschwindigkeit gefragt wird, verwendest du −Δc/Δt.\n\nDie Steigung einer Kurve beschreibt, wie schnell sich eine Größe ändert. Eine steile Kurve bedeutet eine große Änderungsrate. Wird die Kurve flacher, ändert sich die Größe langsamer. Die mittlere Änderungsrate über ein Intervall ist nicht zwingend gleich der momentanen Änderungsrate an einem Zeitpunkt.\n\n### 3. Diagramme und Gleichgewicht\n\nEin Plateau kann darauf hindeuten, dass sich eine Konzentration kaum noch ändert. Das ist mit einem dynamischen Gleichgewicht vereinbar: Hin- und Rückreaktion laufen weiter, aber gleich schnell. Ein Plateau allein beweist das Gleichgewicht nicht. Prüfe auch Versuchsbedingungen und zusätzliche Daten.\n\nAchte darauf, welche Größe das Diagramm zeigt. Eine schnellere Produktbildung zu Beginn bedeutet nicht automatisch eine größere Gleichgewichtsausbeute. Die Reaktionsgeschwindigkeit beschreibt, wie schnell sich Konzentrationen ändern. Die Gleichgewichtslage beschreibt die Konzentrationsverhältnisse im Gleichgewicht.\n\n### 4. Messunsicherheit und Aussagekraft\n\nMesswerte sind nicht beliebig genau. Berücksichtige angegebene Unsicherheiten und runde sinnvoll. Wenn zwei Unsicherheitsbereiche stark überlappen, belegen die Messwerte häufig keinen eindeutigen Unterschied.\n\nPrüfe, ob die Messreihe genug Informationen für deine Schlussfolgerung enthält. Ein kurzer Zeitverlauf kann eine anfängliche Reaktionsgeschwindigkeit zeigen, aber keine Gleichgewichtsausbeute. Benenne solche Grenzen ausdrücklich. So wird aus einer Datenauswertung eine belastbare chemische Begründung.",
+  "fundamentals": [
+    {
+      "term": "Messgröße",
+      "explanation": "Größe, die du im Versuch erfasst, zum Beispiel Temperatur, Konzentration oder Zeit. Nenne auch ihre Einheit."
+    },
+    {
+      "term": "Änderungsrate",
+      "explanation": "Änderung einer Messgröße pro Zeitintervall. Die mittlere Änderungsrate berechnest du mit Δy/Δt."
+    },
+    {
+      "term": "Messunsicherheit",
+      "explanation": "Angabe, in welchem Bereich der tatsächliche Wert aufgrund der Messmethode liegen kann."
+    },
+    {
+      "term": "Evidenz",
+      "explanation": "Daten oder Beobachtungen, die eine Aussage stützen oder ihr widersprechen können."
+    },
+    {
+      "term": "Dynamisches Gleichgewicht",
+      "explanation": "Zustand, in dem Hin- und Rückreaktion gleich schnell ablaufen. Die Konzentrationen bleiben makroskopisch konstant."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.basics.data.eq.mean-rate",
+      "notation": "v̄ = Δc/Δt",
+      "explanation": "Mittlere Konzentrationsänderung zwischen zwei Messpunkten."
+    },
+    {
+      "id": "chem.basics.data.eq.disappearance",
+      "notation": "vₐᵦₙ = −Δc(Edukt)/Δt",
+      "explanation": "Positive Abnahmegeschwindigkeit eines Edukts. Sie ist nicht automatisch identisch mit der stöchiometrisch normierten Reaktionsgeschwindigkeit."
+    },
+    {
+      "id": "chem.basics.data.eq.product",
+      "notation": "v̄ = Δc(Produkt)/Δt",
+      "explanation": "Mittlere Bildungsgeschwindigkeit eines Produkts im betrachteten Zeitintervall."
+    }
+  ],
+  "equationNote": "Beachte das Vorzeichen: Δc = c₂ − c₁. Gib außerdem an, ob du eine mittlere oder momentane Änderungsrate meinst.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.basics.data.example.rate",
+      "title": "Abnahmegeschwindigkeit aus Messpunkten",
+      "prompt": "Bei der Zersetzung von Wasserstoffperoxid sinkt c(H₂O₂) von 0,80 mol·L⁻¹ auf 0,50 mol·L⁻¹ in 60 s. Berechne die mittlere Abnahmegeschwindigkeit.",
+      "steps": [
+        "Berechne die Konzentrationsänderung: Δc = c₂ − c₁ = 0,50 − 0,80 = −0,30 mol·L⁻¹.",
+        "Setze Δc und Δt in vₐᵦₙ = −Δc/Δt ein.",
+        "Prüfe das Vorzeichen und die Einheit."
+      ],
+      "result": "vₐᵦₙ = −(−0,30 mol·L⁻¹)/60 s = 0,0050 mol·L⁻¹·s⁻¹."
+    },
+    {
+      "id": "chem.basics.data.example.compare",
+      "title": "Zwei Zeitintervalle vergleichen",
+      "prompt": "Eine Produktkonzentration steigt von 0,10 auf 0,30 mol·L⁻¹ in 20 s und danach auf 0,50 mol·L⁻¹ in 40 s. Vergleiche die mittleren Bildungsgeschwindigkeiten.",
+      "steps": [
+        "Berechne für das erste Intervall Δc/Δt = (0,30−0,10)/20.",
+        "Berechne dasselbe für das zweite Intervall mit seiner Dauer von 40 s.",
+        "Vergleiche beide Werte und beschreibe den Verlauf."
+      ],
+      "result": "Erstes Intervall: 0,010 mol·L⁻¹·s⁻¹. Zweites Intervall: 0,0050 mol·L⁻¹·s⁻¹. Die Konzentration steigt im zweiten Intervall halb so schnell."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2015,
+      "term": "HT",
+      "proposal": "D",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "NT",
+      "proposal": "D",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Achsen, Einheiten, Messwerte und direkt erkennbare Trends angeben oder beschreiben.",
+    "AFB II: Änderungsraten berechnen und Daten mit einem chemischen Modell oder Gleichgewicht verknüpfen.",
+    "AFB III: Hypothesen und Schlussfolgerungen anhand von Daten, Unsicherheiten und Aussagegrenzen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Lies Achsen, Einheiten und Bedingungen, bevor du einen Kurvenverlauf interpretierst.",
+      "commonError": "Ein Trend wird beschrieben, ohne die dargestellte Größe oder ihre Einheit zu nennen."
+    },
+    {
+      "tip": "Berechne Änderungsraten für jedes Zeitintervall getrennt und verwende die jeweilige Intervalllänge.",
+      "commonError": "Eine Konzentrationsdifferenz wird ohne Division durch die Zeit als Geschwindigkeit ausgegeben."
+    },
+    {
+      "tip": "Prüfe, ob die Daten die behauptete Aussage wirklich abdecken.",
+      "commonError": "Eine schnellere Reaktion wird als Beleg für eine höhere Gleichgewichtsausbeute gewertet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.basics.data.exercise.basic-axes",
+    "chem.basics.data.exercise.basic-trend",
+    "chem.basics.data.exercise.standard-rate",
+    "chem.basics.data.exercise.standard-intervals",
+    "chem.basics.data.exercise.transfer-equilibrium",
+    "chem.basics.data.exercise.transfer-uncertainty"
+  ],
+  "selfTestIds": [
+    "chem.basics.data.selftest.rate",
+    "chem.basics.data.selftest.equilibrium",
+    "chem.basics.data.selftest.uncertainty"
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.2.sustainability",
+  "title": "Recycling und ökologische Werkstoffbewertung",
+  "summary": "Struktur, Reaktionen und Eigenschaften von Recycling und ökologische Werkstoffbewertung erschließen.",
+  "order": 40,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "high",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 32,
+    "note": "32 Vorschläge im Feld Q2.2, nicht für dieses einzelne Unterkapitel."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.2",
+      "subsection": "Recycling und ökologische Werkstoffbewertung",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.mechanisms"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.2.sustainability.goal.structure",
+      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.sustainability.goal.reactions",
+      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "unterscheiden"
+      ]
+    },
+    {
+      "id": "chem.q2.2.sustainability.goal.properties",
+      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.sustainability.goal.evaluate",
+      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Eine faire Werkstoffbewertung vergleicht gleiche Funktionen und macht die Systemgrenze sichtbar.",
+  "explanation": "Werkstoffliches Recycling bereitet Polymermaterial erneut auf; Sortenreinheit, Additive, Verschmutzung und Alterung begrenzen die Qualität. Rohstoffliches Recycling zerlegt Polymere in Ausgangsstoffe und benötigt Prozessenergie. Wiederverwendung verlängert die Produktnutzung; energetische Verwertung erhält den Werkstoff nicht. Vergleiche Herstellung, Nutzung, Transport und End-of-Life anhand von Daten. Biobasierte Rohstoffherkunft bedeutet nicht automatisch biologischen Abbau. Dafür müssen Bedingungen und Prüfverfahren betrachtet werden.",
+  "fundamentals": [
+    {
+      "term": "Monomer",
+      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+    },
+    {
+      "term": "Vernetzung",
+      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+    },
+    {
+      "term": "Systemgrenze",
+      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.2.sustainability.eq.1",
+      "notation": "Massenanteil w = m(Anteil)/m(Gesamt) · 100 %",
+      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+    }
+  ],
+  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.2.sustainability.example.1",
+      "title": "Recyclingweg",
+      "prompt": "Ein sortenreines Thermoplast wird sortiert, zerkleinert und erneut verarbeitet. Benenne das Verfahren und eine Grenze.",
+      "steps": [
+        "Das Verfahren erhält das Polymermaterial; es ist werkstoffliches Recycling.",
+        "Sortierung und erneute Verarbeitung sind zentrale Prozessschritte.",
+        "Alterung, Verschmutzung und Vermischung können die Qualität senken."
+      ],
+      "result": "Werkstoffliches Recycling. Alterung, Verschmutzung und Vermischung können die Werkstoffeigenschaften verschlechtern."
+    },
+    {
+      "id": "chem.q2.2.sustainability.example.2",
+      "title": "Vergleichskriterien",
+      "prompt": "Was braucht ein fairer Vergleich zweier Verpackungen?",
+      "steps": [
+        "Gleiche Funktion und Systemgrenze sowie vergleichbare Daten zu Herstellung, Nutzung und Entsorgung",
+        "Nutzungsszenario und Transport sind einzubeziehen."
+      ],
+      "result": "Gleiche Funktion und Systemgrenze sowie vergleichbare Daten zu Herstellung, Nutzung und Entsorgung; Nutzungsszenario und Transport sind einzubeziehen."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2025,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
+    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
+    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
+      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+    },
+    {
+      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
+      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+    },
+    {
+      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
+      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.2.sustainability.exercise.1",
+    "chem.q2.2.sustainability.exercise.2",
+    "chem.q2.2.sustainability.exercise.3",
+    "chem.q2.2.sustainability.exercise.4",
+    "chem.q2.2.sustainability.exercise.5",
+    "chem.q2.2.sustainability.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q2.2.sustainability.selftest.1",
+    "chem.q2.2.sustainability.selftest.2",
+    "chem.q2.2.sustainability.selftest.3"
+  ]
+}

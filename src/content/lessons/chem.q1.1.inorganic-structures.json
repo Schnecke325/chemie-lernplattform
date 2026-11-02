@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.1.inorganic-structures",
+  "title": "Anorganische Strukturen",
+  "summary": "Unterscheide ausgewählte anorganische Strukturtypen und leite daraus vorsichtig Stoffeigenschaften ab.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 19,
+    "note": "Q1.1 wurde in 19 vorhandenen Vorschlägen codiert. Die Zahl ist kein eigener Häufigkeitswert für anorganische Strukturen."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.1",
+      "subsection": "Ausgewählte anorganische Strukturen und Struktur-Eigenschafts-Bezüge",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.interactions"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.1.inorganic-structures.goal.structure",
+      "statement": "Ich kann ausgewählte anorganische Stoffe als Molekül-, Ionen-, Metall- oder Netzwerkstruktur modellieren.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "darstellen",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.inorganic-structures.goal.silicon",
+      "statement": "Ich kann am Beispiel von Silicium und Siliciumdioxid zwischen Elementstruktur und Verbindung unterscheiden.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "beschreiben",
+        "erklären"
+      ]
+    },
+    {
+      "id": "chem.q1.1.inorganic-structures.goal.properties",
+      "statement": "Ich kann geeignete Strukturmodelle mit Eigenschaften und Anwendungen verknüpfen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.inorganic-structures.goal.limits",
+      "statement": "Ich kann Modellgrenzen und die Bedeutung jahrgangsspezifischer Stoffauswahl benennen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen",
+        "einordnen"
+      ]
+    }
+  ],
+  "introduction": "Anorganische Stoffe können sehr unterschiedliche innere Strukturen besitzen. Manche bestehen aus Ionen, manche aus einzelnen Molekülen. Andere bilden ein ausgedehntes Netzwerk oder ein Metallgitter. Wenn du die Bausteine erkennst, kannst du Eigenschaften wie Leitfähigkeit und Festigkeit besser erklären.",
+  "explanation": "### 1. Stoffstruktur statt Stoffname\n\nBeginne mit dem Teilchenmodell: Welche Bausteine bilden den Stoff? Liegen abgegrenzte Moleküle vor, ein Ionengitter, ein Metallgitter oder ein kovalentes Netzwerk? Die Formel allein beantwortet diese Frage nicht immer. Sie kann bei einem Netzwerkstoff ein Zahlenverhältnis angeben, ohne einzelne Moleküle zu beschreiben.\n\n### 2. Molekül-, Ionen- und Metallstrukturen\n\nMolekülstoffe bestehen aus abgegrenzten Molekülen. Im Feststoff halten zwischenmolekulare Kräfte die Moleküle zusammen. Ein Ionenkristall wie Natriumchlorid besteht aus einem regelmäßigen Gitter von Kationen und Anionen. Die Ionen sind im festen Kristall ortsgebunden; in der Schmelze können sie wandern.\n\nMetalle besitzen ein Gitter aus Atomrümpfen und delokalisierten Elektronen. Diese Elektronen ermöglichen die elektrische Leitfähigkeit. Bei einem Strukturvergleich ist deshalb wichtig, welche Ladungsträger beweglich sind.\n\n### 3. Kovalente Netzwerkstoffe: Silicium und Siliciumdioxid\n\nElementares Silicium bildet eine ausgedehnte kovalente Struktur. Es ist kein Metall, sondern ein Halbleiter. Siliciumdioxid (SiO₂), zum Beispiel in Quarz, ist ebenfalls ein Netzwerkstoff: Si- und O-Atome sind durch kovalente Bindungen zu einem zusammenhängenden Festkörper verknüpft. Die Formel SiO₂ beschreibt das Verhältnis der Atome, nicht einzelne SiO₂-Moleküle.\n\nVergleiche das mit CO₂: Kohlendioxid besteht aus abgegrenzten linearen Molekülen. Festes CO₂ ist ein Molekülkristall. Obwohl beide Stoffe die Elementsorte O enthalten, unterscheiden sich ihre Teilchenstrukturen deutlich.\n\n### 4. Struktur-Eigenschafts-Bezüge\n\nStarke kovalente Bindungen in einem Netzwerk können hohe Festigkeit oder hohe Schmelztemperaturen begünstigen. Bewegliche Elektronen erklären die Leitfähigkeit eines Metalls; bewegliche Ionen erklären die Leitfähigkeit einer Salzschmelze. Ein Halbleiter wie Silicium besitzt eine andere Ladungsträgerstruktur als ein Metall.\n\nLeite Eigenschaften aber nicht allein aus einem Strukturwort ab. Temperatur, Reinheit, Defekte, Zusammensetzung und konkrete Materialform können ebenfalls eine Rolle spielen. Für eine Werkstoffentscheidung brauchst du neben dem Strukturmodell passende Mess- und Anwendungsdaten. Die konkrete Stoffauswahl in Prüfungen richtet sich nach dem jeweils geltenden Erlass.",
+  "fundamentals": [
+    {
+      "term": "Molekülkristall",
+      "explanation": "Feststoff aus abgegrenzten Molekülen, die durch zwischenmolekulare Wechselwirkungen zusammengehalten werden."
+    },
+    {
+      "term": "Ionengitter",
+      "explanation": "Regelmäßige Anordnung von Kationen und Anionen in einem festen Salz."
+    },
+    {
+      "term": "Kovalentes Netzwerk",
+      "explanation": "Zusammenhängende Struktur, in der Atome über kovalente Bindungen über viele Bausteine hinweg verknüpft sind."
+    },
+    {
+      "term": "Verhältnisformel",
+      "explanation": "Kleinstes Zahlenverhältnis der Atome oder Ionen. Bei SiO₂ beschreibt sie das Verhältnis im Netzwerk, nicht ein einzelnes Molekül."
+    },
+    {
+      "term": "Halbleiter",
+      "explanation": "Stoff, dessen elektrische Leitfähigkeit zwischen der eines Leiters und Isolators liegt und von Bedingungen wie Temperatur oder Dotierung abhängen kann."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.1.inorganic-structures.eq.silica",
+      "notation": "SiO₂(s) · Netzwerkstruktur",
+      "explanation": "Die Formel gibt das Zahlenverhältnis Si:O = 1:2 an. Der Feststoff besteht aus einem kovalenten Netzwerk, nicht aus diskreten SiO₂-Molekülen."
+    },
+    {
+      "id": "chem.q1.1.inorganic-structures.eq.carbon-dioxide",
+      "notation": "CO₂(g): O=C=O",
+      "explanation": "Ein lineares, diskretes Molekül; die Darstellung zeigt die Atombindungen innerhalb des Moleküls."
+    }
+  ],
+  "equationNote": "Strukturformeln und Verhältnisformeln liefern unterschiedliche Informationen. Bei Netzwerkstoffen darf die Verhältnisformel nicht als Molekülformel interpretiert werden.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q1.1.inorganic-structures.example.silicon",
+      "title": "Silicium und Kupfer vergleichen",
+      "prompt": "Vergleiche elementares Silicium mit Kupfer hinsichtlich Struktur und elektrischer Leitfähigkeit.",
+      "steps": [
+        "Ordne Kupfer dem Metallgitter mit delokalisierten Elektronen zu.",
+        "Ordne Silicium einem kovalenten Netzwerk zu.",
+        "Vergleiche, wie leicht Ladungsträger beweglich sind."
+      ],
+      "result": "Kupfer leitet als Metall gut, weil delokalisierte Elektronen beweglich sind. Silicium ist ein Halbleiter; seine Leitfähigkeit ist deutlich geringer und hängt stärker von den Bedingungen ab."
+    },
+    {
+      "id": "chem.q1.1.inorganic-structures.example.silica-co2",
+      "title": "Gleiche Verhältnisformel, anderer Strukturtyp",
+      "prompt": "Erkläre den Unterschied zwischen der Struktur von festem SiO₂ und festem CO₂.",
+      "steps": [
+        "Prüfe, ob einzelne Moleküle oder ein ausgedehnter Verband vorliegen.",
+        "Beachte, dass SiO₂ eine Verhältnisformel eines Netzwerks ist.",
+        "Ordne CO₂-Moleküle den zwischenmolekularen Kräften im Feststoff zu."
+      ],
+      "result": "SiO₂ bildet ein kovalentes Netzwerk; CO₂ liegt als abgegrenzte Moleküle vor, die im Molekülkristall durch zwischenmolekulare Kräfte zusammengehalten werden."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Strukturtyp, Bausteine und charakteristische Eigenschaften benennen.",
+    "AFB II: Strukturmodelle auf Leitfähigkeit, Festigkeit oder Verwendung beziehen.",
+    "AFB III: Eignung eines Werkstoffs anhand gegebener Daten und der Grenzen des Strukturmodells beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Prüfe, ob eine Formel einzelne Moleküle oder nur ein Stoffmengenverhältnis beschreibt.",
+      "commonError": "SiO₂ wird als Ansammlung diskreter SiO₂-Moleküle im Quarz dargestellt."
+    },
+    {
+      "tip": "Erkläre Leitfähigkeit über bewegliche Ladungsträger und deren Art.",
+      "commonError": "Alle Feststoffe mit geladenen Teilchen werden als elektrische Leiter bezeichnet."
+    },
+    {
+      "tip": "Nutze Strukturmodelle als Begründung und ergänze sie durch konkrete Materialdaten.",
+      "commonError": "Eine einzelne Strukturangabe wird als ausreichender Beleg für alle Werkstoffeigenschaften behandelt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.1.inorganic-structures.exercise.basic-types",
+    "chem.q1.1.inorganic-structures.exercise.basic-silica",
+    "chem.q1.1.inorganic-structures.exercise.standard-properties",
+    "chem.q1.1.inorganic-structures.exercise.standard-structure",
+    "chem.q1.1.inorganic-structures.exercise.transfer-context",
+    "chem.q1.1.inorganic-structures.exercise.transfer-model"
+  ],
+  "selfTestIds": [
+    "chem.q1.1.inorganic-structures.selftest.network",
+    "chem.q1.1.inorganic-structures.selftest.conductivity",
+    "chem.q1.1.inorganic-structures.selftest.silicon"
+  ]
+}

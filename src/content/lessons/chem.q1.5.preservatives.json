@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.5.preservatives",
+  "title": "Konservierungsstoffe und Analytik",
+  "summary": "Verknüpfe Säure-Base-Chemie, Redoxverhalten und quantitative Analytik mit Konservierungsstoff-Kontexten.",
+  "order": 50,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 1,
+    "note": "Q1.5 wurde in einem vorhandenen Vorschlag codiert. Die Zahl beschreibt ein Feldvorkommen, nicht die Häufigkeit einzelner Konservierungsstoffe."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.5",
+      "subsection": "Konservierungsstoffe und analytische Anwendungen",
+      "status": "year-specific"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.q1.3.carboxylic-acids",
+    "chem.q3.2.protolysis",
+    "chem.q3.2.ph",
+    "chem.q3.2.titration",
+    "chem.q3.3.redox"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.5.preservatives.goal.context",
+      "statement": "Ich kann den Zusammenhang zwischen Struktur, Säure-Base-Verhalten und Funktion ausgewählter Konservierungsstoffe erläutern.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q1.5.preservatives.goal.analysis",
+      "statement": "Ich kann eine quantitative Bestimmung aus Reaktionsgleichung, Messdaten und Stoffmengenverhältnis entwickeln.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.q1.5.preservatives.goal.antioxidant",
+      "statement": "Ich kann die antioxidative Funktion von Ascorbinsäure qualitativ mit ihrer Redoxreaktivität verknüpfen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q1.5.preservatives.goal.evaluation",
+      "statement": "Ich kann Aussagegrenzen und Nutzen-Risiko-Aussagen anhand chemischer Daten sachlich beurteilen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen",
+        "bewerten"
+      ]
+    }
+  ],
+  "introduction": "Konservierungsstoffe lassen sich mit mehreren chemischen Ideen untersuchen: Säure-Base-Gleichgewichte erklären ihre Protonierungsform, Redoxreaktionen die Wirkung von Antioxidantien und Titrationen ermöglichen quantitative Bestimmungen. Die konkreten Stoffe und Verfahren hängen vom Aufgabenmaterial ab.",
+  "explanation": "### 1. Konservierungsstoffe als chemische Stoffe\n\nSorbinsäure ist eine ungesättigte Carbonsäure. Ihre Carboxygruppe kann ein Proton abgeben; zwischen protonierter Säure HA und Sorbat A⁻ stellt sich ein pH-abhängiges Gleichgewicht ein. Bei höherem pH nimmt der Anteil der deprotonierten Form zu. Welche Form für eine konkrete Wirkung entscheidend ist, musst du im jeweiligen Material prüfen.\n\n### 2. Antioxidantien\n\nAscorbinsäure (Vitamin C) kann als Reduktionsmittel reagieren. Sie gibt Elektronen ab und kann dadurch andere Stoffe vor Oxidation schützen. Dabei wird sie selbst oxidiert. Eine genaue Redoxgleichung hängt von Reaktionspartner, pH und den im Material genannten Bedingungen ab.\n\n### 3. Quantitative Bestimmung\n\nEine Säure kann – sofern die Probe und Methode es zulassen – mit einer Maßlösung bekannter Konzentration titriert werden. Stelle die Reaktionsgleichung auf und nutze am Äquivalenzpunkt das stöchiometrische Verhältnis. Bei einer einprotonigen Säure HA und OH⁻ gilt n(HA) = n(OH⁻). Bei mehrprotonigen Stoffen muss die konkrete Stufe berücksichtigt werden.\n\nDie Maßlösung muss bekannt beziehungsweise standardisiert sein. Eigenfarbe, Trübung und weitere titrierbare Bestandteile können den Endpunkt oder das Ergebnis beeinflussen. Bei geeigneten Proben kann eine pH-metrische Messung die Indikatorablesung ergänzen.\n\n### 4. Daten und Bewertung\n\nBei einer materialgestützten Bewertung vergleichst du Messwerte mit den im Material genannten Anforderungen. Prüfe Einheiten, Messunsicherheit und Probenbezug. Ein einzelner chemischer Messwert reicht nicht für ein vollständiges Gesundheitsurteil. Dafür wären unter anderem Exposition und toxikologische Informationen nötig.\n\n### 5. Historische Belege und curriculare Gültigkeit\n\nDie Recherche nennt 2014 NT C (Ascorbinsäure) und 2014 HT B (Konservierungsstoffe) als Belege. Q1.5 wurde in der vorhandenen Analyse nur einmal als Feld codiert. Daraus folgt keine Unterthemenhäufigkeit und keine automatische Prüfungsverbindlichkeit für spätere Jahrgänge. Prüfe dafür den jeweiligen Erlass und das geltende KCGO.",
+  "fundamentals": [
+    {
+      "term": "Konservierungsstoff",
+      "explanation": "Stoff, der in einem Produkt eingesetzt wird, um dessen Haltbarkeit zu beeinflussen. Chemische Wirkung und Einsatzbedingungen müssen dem Material entnommen werden."
+    },
+    {
+      "term": "Sorbinsäure",
+      "explanation": "Ungesättigte Carbonsäure mit der Struktur CH₃–CH=CH–CH=CH–COOH; sie kann als Säure protolysieren."
+    },
+    {
+      "term": "Ascorbinsäure",
+      "explanation": "Vitamin C, das als Reduktionsmittel reagieren und andere Stoffe vor Oxidation schützen kann."
+    },
+    {
+      "term": "Standardisierte Maßlösung",
+      "explanation": "Lösung, deren Konzentration genau bekannt ist und die für eine quantitative Titration eingesetzt wird."
+    },
+    {
+      "term": "Messunsicherheit",
+      "explanation": "Bereich, der die Unsicherheit eines analytischen Messwerts beschreibt und bei Vergleichen berücksichtigt werden muss."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.5.preservatives.eq.sorbic",
+      "notation": "HA + H₂O ⇌ A⁻ + H₃O⁺",
+      "explanation": "Allgemeines Protolysegleichgewicht einer schwachen Konservierungssäure."
+    },
+    {
+      "id": "chem.q1.5.preservatives.eq.titration",
+      "notation": "HA + OH⁻ → A⁻ + H₂O",
+      "explanation": "Neutralisation einer einprotonigen Säure im 1:1-Verhältnis."
+    },
+    {
+      "id": "chem.q1.5.preservatives.eq.redox",
+      "notation": "Reduktionsmittel → oxidierte Form + e⁻",
+      "explanation": "Schematische Darstellung einer Elektronenabgabe; für Ascorbinsäure ist die genaue Teilgleichung vom Reaktionspartner und Milieu abhängig."
+    }
+  ],
+  "equationNote": "Verwende für konkrete Analysen die im Material angegebene Reaktionsgleichung und Stöchiometrie. Die allgemeine Redoxschreibweise ersetzt keine ausgeglichene Teilgleichung.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q1.5.preservatives.example-titration",
+      "title": "Säuregehalt durch Titration bestimmen",
+      "prompt": "25,00 mL einer einprotonigen Säureprobe werden mit 0,0500 mol·L⁻¹ NaOH titriert. Am Äquivalenzpunkt sind 12,40 mL verbraucht. Berechne die Konzentration.",
+      "steps": [
+        "Stelle das Stoffmengenverhältnis fest: HA + OH⁻ → A⁻ + H₂O ist 1:1.",
+        "Berechne n(OH⁻) = 0,0500 mol·L⁻¹ · 0,01240 L = 6,20·10⁻⁴ mol.",
+        "Setze n(HA) gleich n(OH⁻).",
+        "Berechne c(HA) = 6,20·10⁻⁴ mol / 0,02500 L."
+      ],
+      "result": "c(HA) = 0,0248 mol·L⁻¹."
+    },
+    {
+      "id": "chem.q1.5.preservatives.example-evaluation",
+      "title": "Analytischen Befund einordnen",
+      "prompt": "Eine Probe enthält laut Analyse 0,80 g·L⁻¹ eines Konservierungsstoffs. Wie gehst du vor, bevor du daraus eine Bewertung ableitest?",
+      "steps": [
+        "Prüfe Messmethode, Einheit und Messunsicherheit.",
+        "Vergleiche den Wert mit dem im Aufgabenmaterial genannten Grenz- oder Referenzwert.",
+        "Nenne Grenzen des chemischen Befunds für Aussagen zu Exposition und Gesundheit."
+      ],
+      "result": "Erst nach diesen Prüfungen lässt sich ein begrenztes, datenbasiertes Urteil formulieren. Der Messwert allein erlaubt keine vollständige Gesundheitsbewertung."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2014,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2014,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: funktionelle Gruppen, Säure-Base-Teilchen und Redoxrollen benennen.",
+    "AFB II: Titrationsdaten auswerten, Konzentrationen berechnen und Reaktionsgleichungen nutzen.",
+    "AFB III: Messmethode, Aussagegrenzen und Nutzen-Risiko-Aussagen anhand des Materials beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Ordne die Funktion des Stoffes aus seiner Struktur und den gegebenen Reaktionsdaten ab.",
+      "commonError": "Die Bezeichnung „Konservierungsstoff“ wird als ausreichende Erklärung des Wirkmechanismus behandelt."
+    },
+    {
+      "tip": "Nutze bei einer Titration Reaktionsgleichung, Stoffmengenverhältnis und Einheiten.",
+      "commonError": "Bei einer mehrprotonigen Säure wird ohne Prüfung ein 1:1-Verhältnis angenommen."
+    },
+    {
+      "tip": "Begrenze dein Urteil auf die Daten und Kriterien im Material.",
+      "commonError": "Ein analytischer Einzelwert wird unmittelbar als umfassende Aussage zu Gesundheit oder Sicherheit interpretiert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.5.preservatives.exercise.basic-groups",
+    "chem.q1.5.preservatives.exercise.basic-vitamin",
+    "chem.q1.5.preservatives.exercise.standard-titration",
+    "chem.q1.5.preservatives.exercise.standard-speciation",
+    "chem.q1.5.preservatives.exercise.transfer-method",
+    "chem.q1.5.preservatives.exercise.transfer-health"
+  ],
+  "selfTestIds": [
+    "chem.q1.5.preservatives.selftest.sorbic",
+    "chem.q1.5.preservatives.selftest.ascorbic",
+    "chem.q1.5.preservatives.selftest.evidence"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.3.aromatics",
+  "title": "Aromatische Verbindungen",
+  "summary": "Erkläre die Stabilität des Benzolrings und leite daraus typische Substitutionsreaktionen ab.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 20,
+    "note": "Die Zahl 20 bezieht sich auf Q2.3 insgesamt. Sie ist keine eigene Häufigkeit für einzelne Aromaten oder Reaktionen."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.3",
+      "subsection": "Aromatische Verbindungen und Reaktionen",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.interactions",
+    "chem.q1.1.hydrocarbons",
+    "chem.q1.1.mechanisms"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.3.aromatics.goal.aromaticity",
+      "statement": "Ich kann die Besonderheit des Benzolrings mithilfe des delokalisierten π-Systems erklären.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q2.3.aromatics.goal.substitution",
+      "statement": "Ich kann elektrophile aromatische Substitution von Addition unterscheiden und typische Reaktionsschemata formulieren.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "unterscheiden",
+        "formulieren"
+      ]
+    },
+    {
+      "id": "chem.q2.3.aromatics.goal.mechanism",
+      "statement": "Ich kann die Bildung des Elektrophils, den σ-Komplex und die Wiederherstellung der Aromatizität im Mechanismus beschreiben.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "darstellen",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q2.3.aromatics.goal.substituents",
+      "statement": "Ich kann Substituenteneffekte nur im Rahmen der vorgegebenen curricularen Anforderungen auswerten.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "auswerten",
+        "begründen"
+      ]
+    }
+  ],
+  "introduction": "Benzol wird oft mit drei Doppelbindungen gezeichnet. Trotzdem reagiert es nicht einfach wie ein gewöhnliches Alken. Seine sechs π-Elektronen sind über den Ring delokalisiert. Diese besondere Stabilisierung erklärt, warum Benzol typischerweise Wasserstoffatome am Ring ersetzt, statt einfach an den Ring zu addieren.",
+  "explanation": "### 1. Benzol und das delokalisierte π-System\n\nBenzol ist ein ringförmiges, planares Molekül mit sechs C-Atomen. Jedes C-Atom beteiligt sich an einem π-System, das über den gesamten Ring delokalisiert ist. Die beiden Kekulé-Formeln zeigen mesomere Grenzstrukturen. Keine einzelne Grenzstruktur beschreibt das reale Molekül vollständig.\n\nDie Delokalisierung stabilisiert den Ring. Deshalb kannst du die drei gezeichneten Doppelbindungen nicht wie drei unabhängige Alkene behandeln. Eine einfache Additionsreaktion würde die aromatische Stabilisierung aufheben.\n\n### 2. Elektrophile aromatische Substitution\n\nBei einer elektrophilen aromatischen Substitution (EAS) ersetzt ein Elektrophil ein H-Atom des Aromaten. Der Ring kann dadurch seine Aromatizität nach dem Reaktionsschritt zurückgewinnen. Typische Beispiele sind Halogenierung und Nitrierung unter geeigneten Bedingungen.\n\nDer Mechanismus läuft vereinfacht in drei Schritten ab: Zuerst entsteht das Elektrophil. Dann greift das π-System des Rings an. Dabei entsteht ein σ-Komplex; die Aromatizität ist vorübergehend aufgehoben. Schließlich wird ein Proton abgegeben. Das delokalisierte π-System wird wiederhergestellt.\n\n### 3. Beispiel Nitrierung\n\nBei der Nitrierung entsteht aus Salpetersäure in stark saurem Milieu das Nitronium-Ion NO₂⁺. Dieses Elektrophil greift den Benzolring an. Nach Bildung des σ-Komplexes führt die Abgabe eines Protons zurück zum aromatischen System. Das Produkt ist Nitrobenzol.\n\n### 4. Substituenten und Zweitsubstitution\n\nEin bereits vorhandener Substituent kann die Reaktivität des Rings und die Position einer weiteren Substitution beeinflussen. Welche Regeln dafür gelten, hängt vom curricular geforderten Umfang ab. Wende dirigierende Effekte nur an, wenn sie der geltende Erlass verlangt oder das Aufgabenmaterial die nötigen Informationen liefert. Übertrage einen Substituenteneffekt nicht pauschal auf andere Reaktionstypen.\n\n### 5. Stoffbeispiele im Prüfungszusammenhang\n\nToluol und Kresole verbinden einen Aromaten mit einer Seitenkette beziehungsweise Hydroxygruppe. Bei solchen Stoffen können neben Aromatenreaktionen auch Säure-Base- oder Stoffeigenschaftsfragen auftreten. Trenne deshalb den Ringmechanismus von Eigenschaften der Substituenten und stütze deine Antwort auf das konkrete Material.",
+  "fundamentals": [
+    {
+      "term": "Aromatizität",
+      "explanation": "Besondere Stabilisierung eines planaren, konjugierten Ringsystems mit delokalisierten π-Elektronen. Für den Umfang dieser Lerneinheit steht Benzol als Grundbeispiel."
+    },
+    {
+      "term": "Delokalisierung",
+      "explanation": "Elektronen sind über mehrere Atome verteilt und nicht einer einzelnen Bindung oder einem Atom zugeordnet."
+    },
+    {
+      "term": "Mesomere Grenzstruktur",
+      "explanation": "Eine mögliche Elektronenstrichformel eines delokalisierten Systems. Erst die Gesamtheit der Grenzstrukturen beschreibt das reale Molekül angemessen."
+    },
+    {
+      "term": "Elektrophile aromatische Substitution",
+      "explanation": "Reaktion, bei der ein Elektrophil ein H-Atom am Aromaten ersetzt und die Aromatizität wiederhergestellt wird."
+    },
+    {
+      "term": "σ-Komplex",
+      "explanation": "Zwischenstufe nach dem Angriff des Elektrophils. Der Ring ist kurzzeitig nicht aromatisch; die anschließende Protonenabgabe stellt das π-System wieder her."
+    },
+    {
+      "term": "Nitronium-Ion",
+      "explanation": "Elektrophil NO₂⁺, das bei der Nitrierung aromatischer Verbindungen reagiert."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.3.aromatics.eq.nitration",
+      "notation": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O",
+      "explanation": "Gesamtgleichung der Benzolnitrierung; konzentrierte Schwefelsäure fördert die Bildung des Nitronium-Ions."
+    },
+    {
+      "id": "chem.q2.3.aromatics.eq.electrophile",
+      "notation": "HNO₃ + H₂SO₄ ⇌ NO₂⁺ + HSO₄⁻ + H₂O",
+      "explanation": "Vereinfachte Darstellung der Elektrophilbildung im Nitriergemisch."
+    },
+    {
+      "id": "chem.q2.3.aromatics.eq.bromination",
+      "notation": "C₆H₆ + Br₂ → C₆H₅Br + HBr",
+      "explanation": "Bromierung als elektrophile aromatische Substitution; ein Lewis-Säure-Katalysator wie FeBr₃ wird typischerweise eingesetzt."
+    }
+  ],
+  "equationNote": "Katalysatoren und stark saure Bedingungen sind Teil der Reaktionsangabe. Das Reaktionsschema ersetzt nicht die Erklärung der vorübergehenden Aufhebung und anschließenden Wiederherstellung der Aromatizität.",
+  "mechanisms": [
+    {
+      "id": "chem.q2.3.aromatics.mechanism.eas",
+      "title": "Grundmechanismus der elektrophilen aromatischen Substitution",
+      "steps": [
+        "Ein Elektrophil wird aus den Reagenzien gebildet oder durch einen Katalysator aktiviert.",
+        "Das π-System greift das Elektrophil an. Es entsteht ein σ-Komplex; die Aromatizität ist vorübergehend aufgehoben.",
+        "Eine Base nimmt ein Proton ab. Die Elektronen bilden das delokalisierte π-System zurück; das substituierte Aromat entsteht."
+      ]
+    }
+  ],
+  "workedExamples": [
+    {
+      "id": "chem.q2.3.aromatics.example-nitration",
+      "title": "Nitrierung von Benzol",
+      "prompt": "Formuliere die Nitrierung von Benzol und beschreibe den Weg vom Elektrophil zum Produkt.",
+      "steps": [
+        "Im Säuregemisch bildet sich das Nitronium-Ion NO₂⁺.",
+        "Der Benzolring greift NO₂⁺ an; ein σ-Komplex entsteht.",
+        "Nach Abgabe von H⁺ wird die Aromatizität wiederhergestellt.",
+        "Prüfe die Atombilanz in der Gesamtgleichung."
+      ],
+      "result": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O; das Elektrophil ist NO₂⁺."
+    },
+    {
+      "id": "chem.q2.3.aromatics.example-bromination",
+      "title": "Substitution statt Addition",
+      "prompt": "Benzol reagiert mit Brom in Gegenwart eines geeigneten Katalysators. Erkläre die Produktbildung.",
+      "steps": [
+        "Der Katalysator aktiviert Brom und unterstützt die Bildung eines Elektrophils.",
+        "Der Ring greift das Elektrophil an und bildet einen σ-Komplex.",
+        "Nach Protonenabgabe wird das aromatische π-System wiederhergestellt."
+      ],
+      "result": "Ein H-Atom wird durch Br ersetzt: C₆H₆ + Br₂ → C₆H₅Br + HBr."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2007,
+      "term": "HT",
+      "proposal": "D",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2015,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Aromat, Substituenten und typische Reagenzien benennen.",
+    "AFB II: Elektrophil und Reaktionsschritte der aromatischen Substitution darstellen.",
+    "AFB III: Reaktionsweg oder Substituenteneffekt anhand der curricularen Vorgaben und des Materials beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Begründe Reaktionen des Benzolrings mit der Delokalisierung und der Wiederherstellung der Aromatizität.",
+      "commonError": "Benzol wird wie ein gewöhnliches Alken mit lokalisierten Doppelbindungen behandelt."
+    },
+    {
+      "tip": "Unterscheide Elektrophilbildung, Angriff und Protonenabgabe im Mechanismus.",
+      "commonError": "Die Protonenabgabe und Wiederherstellung des π-Systems werden ausgelassen."
+    },
+    {
+      "tip": "Wende Regeln zur Zweitsubstitution nur im verlangten Umfang an.",
+      "commonError": "Dirigierende Effekte werden ohne Material oder curriculare Grundlage pauschal behauptet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.3.aromatics.exercise.basic-ring",
+    "chem.q2.3.aromatics.exercise.basic-reaction",
+    "chem.q2.3.aromatics.exercise.standard-nitration",
+    "chem.q2.3.aromatics.exercise.standard-mechanism",
+    "chem.q2.3.aromatics.exercise.transfer-substituent",
+    "chem.q2.3.aromatics.exercise.transfer-addition"
+  ],
+  "selfTestIds": [
+    "chem.q2.3.aromatics.selftest.pi",
+    "chem.q2.3.aromatics.selftest.reaction",
+    "chem.q2.3.aromatics.selftest.sigma"
+  ]
+}

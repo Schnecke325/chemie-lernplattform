@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.basics.quantities",
+  "title": "Stoffmenge, Konzentration und Stöchiometrie",
+  "summary": "Mit Stoffmenge, Konzentration und Reaktionsverhältnissen rechnest du chemische Mengen systematisch um.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "cross-cutting",
+    "note": "Querschnittsgrundlage für Rechnungen in allen Themenfeldern; historische Bezüge belegen Anwendungen, keine eigenständige KCGO-Themenhäufigkeit."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.2",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.3",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.basics.quantities.goal.moles",
+      "statement": "Ich kann Stoffmenge, Masse, molare Masse und Teilchenzahl mit passenden Gleichungen verknüpfen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.basics.quantities.goal.concentration",
+      "statement": "Ich kann Stoffmengenkonzentrationen aus Stoffmenge und Volumen berechnen und Einheiten korrekt umrechnen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "berechnen",
+        "angeben"
+      ]
+    },
+    {
+      "id": "chem.basics.quantities.goal.stoichiometry",
+      "statement": "Ich kann Reaktionsgleichungen für Stoffmengenrechnungen nutzen und limitierende Edukte identifizieren.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "ermitteln",
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.basics.quantities.goal.evaluation",
+      "statement": "Ich kann Rechenergebnisse mit Einheiten, sinnvoller Genauigkeit und einer Plausibilitätsprüfung darstellen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "überprüfen",
+        "begründen"
+      ]
+    }
+  ],
+  "introduction": "Chemische Aufgaben geben Stoffmengen oft nicht direkt an. Vielleicht kennst du stattdessen eine Masse, ein Lösungsvolumen oder ein Gasvolumen. Mit wenigen Beziehungen wandelst du diese Angaben in Stoffmengen um und rechnest dann mit der Reaktionsgleichung weiter.",
+  "explanation": "### 1. Stoffmenge und molare Masse\n\nDie Stoffmenge n gibt an, wie viele Teilchen vorliegen. Ein Mol enthält die Avogadro-Zahl Nₐ = 6,022·10²³ Teilchen. Die molare Masse M sagt, welche Masse ein Mol eines Stoffes hat. Deshalb gilt n = m/M. Achte auf die Einheiten: m in g und M in g·mol⁻¹ ergeben n in mol.\n\nDie Teilchenzahl berechnest du mit N = n·Nₐ. Die molare Masse eines Moleküls erhältst du aus den Atommassen seiner Elemente. Für H₂O ist M näherungsweise 2·1,01 + 16,00 = 18,02 g·mol⁻¹.\n\n### 2. Stoffmengenkonzentration\n\nDie Stoffmengenkonzentration c gibt an, wie viel Stoffmenge in einem bestimmten Lösungsvolumen enthalten ist: c = n/V. Eine gebräuchliche Einheit ist mol·L⁻¹. Setze das Volumen in Litern ein. 250 mL entsprechen 0,250 L.\n\nBeim Verdünnen bleibt die Stoffmenge des gelösten Stoffes gleich. Deshalb gilt c₁V₁ = c₂V₂. Die Beziehung passt, wenn du dieselbe Stoffmenge vor und nach dem Auffüllen vergleichst und zueinander passende Volumeneinheiten verwendest.\n\n### 3. Reaktionsgleichung als Mengenverhältnis\n\nDie Koeffizienten einer ausgeglichenen Reaktionsgleichung geben das Stoffmengenverhältnis an. Bei N₂ + 3 H₂ → 2 NH₃ reagieren zum Beispiel 1 mol N₂ mit 3 mol H₂; es entstehen 2 mol NH₃.\n\nVergleiche die vorhandenen Stoffmengen mit diesem Verhältnis. Das Edukt, das entsprechend der Gleichung zuerst aufgebraucht wäre, heißt **limitierendes Edukt**. Es begrenzt die theoretisch mögliche Produktmenge. Bestimme es, bevor du die Produktmenge berechnest.\n\n### 4. Gase und Einheiten\n\nWenn Druck und Temperatur bekannt sind und das ideale Gasmodell gilt, kannst du pV = nRT verwenden. Die Gaskonstante R muss zu den Einheiten passen. Mit R = 8,314 kPa·L·mol⁻¹·K⁻¹ setzt du p in kPa, V in L und T in K ein. Temperaturwerte in °C rechnest du mit T(K) = ϑ(°C) + 273,15 in Kelvin um.\n\n### 5. Rechenweg kontrollieren\n\nSchreibe zuerst auf, welche Größe gesucht ist. Wähle die passende Gleichung, stelle sie um und setze Werte samt Einheiten ein. Runde erst am Ende. Prüfe dann Einheit und Größenordnung. Wenn du etwa eine Konzentration in mol·L⁻¹ berechnest, muss das Volumen in Litern eingesetzt werden.",
+  "fundamentals": [
+    {
+      "term": "Stoffmenge n",
+      "explanation": "Maß dafür, wie viele Teilchen vorliegen. Einheit: mol. Ein Mol enthält die Avogadro-Zahl an Teilchen."
+    },
+    {
+      "term": "Molare Masse M",
+      "explanation": "Masse pro Stoffmenge. Du berechnest sie aus den Atommassen der enthaltenen Elemente; Einheit meist g·mol⁻¹."
+    },
+    {
+      "term": "Stoffmengenkonzentration c",
+      "explanation": "Stoffmenge pro Lösungsvolumen: c = n/V. Häufige Einheit: mol·L⁻¹."
+    },
+    {
+      "term": "Limitierendes Edukt",
+      "explanation": "Ausgangsstoff, der im Verhältnis der Reaktionsgleichung zuerst verbraucht wird und die theoretische Produktmenge begrenzt."
+    },
+    {
+      "term": "Ideales Gas",
+      "explanation": "Ein vereinfachtes Teilchenmodell, für das pV = nRT gilt. Reale Gase weichen besonders bei hohem Druck oder nahe der Verflüssigung davon ab."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.basics.quantities.eq.amount",
+      "notation": "n = m/M",
+      "explanation": "Masse geteilt durch molare Masse ergibt die Stoffmenge."
+    },
+    {
+      "id": "chem.basics.quantities.eq.concentration",
+      "notation": "c = n/V",
+      "explanation": "Setze das Volumen der Lösung in Litern ein."
+    },
+    {
+      "id": "chem.basics.quantities.eq.dilution",
+      "notation": "c₁V₁ = c₂V₂",
+      "explanation": "Bei einer Verdünnung bleibt die Stoffmenge des gelösten Stoffes konstant."
+    },
+    {
+      "id": "chem.basics.quantities.eq.particles",
+      "notation": "N = n·Nₐ;  Nₐ = 6,022·10²³ mol⁻¹",
+      "explanation": "Verknüpft Stoffmenge und Teilchenzahl."
+    },
+    {
+      "id": "chem.basics.quantities.eq.gas",
+      "notation": "pV = nRT",
+      "explanation": "Ideale Gasgleichung; nur mit passenden Einheiten und unter der Modellannahme ideales Gas nutzen."
+    }
+  ],
+  "equationNote": "Einheiten sind Teil der Rechnung. Schreibe sie in jedem Schritt mit und kürze sie mit. Runde Messwerte erst am Ende.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.basics.quantities.example.salt",
+      "title": "Stoffmenge und Konzentration aus einer Masse",
+      "prompt": "5,85 g NaCl werden zu 250,0 mL Lösung aufgefüllt. Berechne Stoffmenge und Stoffmengenkonzentration. M(NaCl) = 58,44 g·mol⁻¹.",
+      "steps": [
+        "Berechne n = m/M: 5,85 g / 58,44 g·mol⁻¹ = 0,1001 mol.",
+        "Wandle das Volumen um: 250,0 mL = 0,2500 L.",
+        "Setze Stoffmenge und Volumen in c = n/V ein: 0,1001 mol / 0,2500 L = 0,4004 mol·L⁻¹.",
+        "Runde passend zu den drei signifikanten Stellen der Masse."
+      ],
+      "result": "n(NaCl) = 0,100 mol; c = 0,400 mol·L⁻¹."
+    },
+    {
+      "id": "chem.basics.quantities.example.limiting",
+      "title": "Limitierendes Edukt bestimmen",
+      "prompt": "0,0300 mol Calciumcarbonat reagieren mit 0,0750 mol Salzsäure: CaCO₃ + 2 HCl → CaCl₂ + CO₂ + H₂O. Bestimme das limitierende Edukt und die maximal mögliche Stoffmenge CO₂.",
+      "steps": [
+        "Lies das Verhältnis ab: 1 mol CaCO₃ benötigt 2 mol HCl.",
+        "Berechne den Bedarf für 0,0300 mol CaCO₃: 0,0600 mol HCl.",
+        "Vergleiche Bedarf und vorhandene Menge: 0,0750 mol HCl sind vorhanden, also ist HCl im Überschuss.",
+        "CaCO₃ ist limitierend. Das Verhältnis CaCO₃ : CO₂ ist 1 : 1."
+      ],
+      "result": "CaCO₃ ist limitierend. Es können maximal 0,0300 mol CO₂ entstehen."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2018,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2024,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Größen, Einheiten und Stoffmengenverhältnisse angeben oder in eine vorgegebene Beziehung einsetzen.",
+    "AFB II: Konzentrations- und Stöchiometrieaufgaben mit mehreren Rechenschritten lösen.",
+    "AFB III: Annahmen, Datenqualität und Aussagegrenzen eines berechneten Ergebnisses beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Gleiche zuerst die Reaktionsgleichung aus und nutze dann die Koeffizienten als Stoffmengenverhältnis.",
+      "commonError": "Massenverhältnisse werden direkt aus Reaktionskoeffizienten abgelesen."
+    },
+    {
+      "tip": "Wandle Volumina in die Einheit um, die zur verwendeten Formel passt.",
+      "commonError": "Milliliter werden eingesetzt, obwohl das Volumen für mol·L⁻¹ in Liter angegeben werden muss."
+    },
+    {
+      "tip": "Bestimme das limitierende Edukt, bevor du die theoretische Produktmenge berechnest.",
+      "commonError": "Die Produktmenge wird aus dem Edukt im Überschuss berechnet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.basics.quantities.exercise.basic-mole",
+    "chem.basics.quantities.exercise.basic-concentration",
+    "chem.basics.quantities.exercise.standard-limiting",
+    "chem.basics.quantities.exercise.standard-dilution",
+    "chem.basics.quantities.exercise.transfer-gas",
+    "chem.basics.quantities.exercise.transfer-dose"
+  ],
+  "selfTestIds": [
+    "chem.basics.quantities.selftest.molar",
+    "chem.basics.quantities.selftest.concentration",
+    "chem.basics.quantities.selftest.limiting"
+  ]
+}

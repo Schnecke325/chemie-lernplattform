@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.4.q4.3.surfactants",
+  "title": "Seifen, Tenside und Waschen",
+  "summary": "Tenside verbinden wasserliebende und fettliebende Bereiche. Dadurch können sie Grenzflächen verändern und Schmutz in Wasser dispergieren.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 4,
+    "note": "4 Vorschläge im Feld Q1.4; keine Unterthemenzählung."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.4",
+      "subsection": "Seifen, Tenside und Waschen",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.basics.data",
+    "chem.q3.1.mwg"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.4.q4.3.surfactants.goal.fundamentals",
+      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.goal.calculate",
+      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.goal.material",
+      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.goal.evaluate",
+      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "competencies": [
+        "B",
+        "K"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Tenside verbinden wasserliebende und fettliebende Bereiche. Dadurch können sie Grenzflächen verändern und Schmutz in Wasser dispergieren.",
+  "explanation": "Ein Tensidmolekül besitzt einen hydrophilen Kopf und einen hydrophoben Rest. Oberhalb einer konzentrationsabhängigen kritischen Mizellbildungskonzentration lagern sich Moleküle zu Mizellen zusammen: unpolare Reste richten sich nach innen, Köpfe nach außen zum Wasser. Fett kann im Inneren aufgenommen und mit Wasser entfernt werden.\n\nSeifen sind Salze langkettiger Fettsäuren. Ca²⁺- und Mg²⁺-Ionen bilden schwer lösliche Kalkseifen und vermindern die Waschleistung. Enthärter binden solche Ionen. Moderne Waschmittel können zusätzlich Bleichmittel, Enzyme und weitere Hilfsstoffe enthalten; ihre Funktion ist jeweils getrennt zu erklären.",
+  "fundamentals": [
+    {
+      "term": "Seifen, Tenside und Waschen",
+      "explanation": "Tenside verbinden wasserliebende und fettliebende Bereiche. Dadurch können sie Grenzflächen verändern und Schmutz in Wasser dispergieren."
+    },
+    {
+      "term": "Modellgrenze",
+      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+    },
+    {
+      "term": "AFB III",
+      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.4.q4.3.surfactants.eq.1",
+      "notation": "2 RCOO⁻ + Ca²⁺ → (RCOO)₂Ca↓",
+      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+    }
+  ],
+  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q1.4.q4.3.surfactants.example.1",
+      "title": "Mizelle beschreiben",
+      "prompt": "Welche Orientierung haben Tenside in einer Mizelle in Wasser?",
+      "steps": [
+        "Hydrophile Köpfe richten sich zum Wasser aus.",
+        "Hydrophobe Reste meiden das Wasser und liegen im Inneren der Mizelle.",
+        "Unpolare Schmutzstoffe können dort aufgenommen und dispergiert werden."
+      ],
+      "result": "Hydrophile Köpfe zeigen zum Wasser, hydrophobe Reste liegen im Inneren und können unpolare Stoffe aufnehmen."
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.example.2",
+      "title": "Kalkseife erklären",
+      "prompt": "Warum sinkt die Waschleistung von Seife in hartem Wasser?",
+      "steps": [
+        "Ca²⁺/Mg²⁺ bilden schwer lösliche Salze mit Fettsäure-Anionen",
+        "Tensid wird dadurch aus der Lösung entfernt und bildet Ablagerungen."
+      ],
+      "result": "Ca²⁺/Mg²⁺ bilden schwer lösliche Salze mit Fettsäure-Anionen. Tensid wird dadurch aus der Lösung entfernt und bildet Ablagerungen."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2014,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
+    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
+    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
+      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+    },
+    {
+      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
+      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+    },
+    {
+      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
+      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.4.q4.3.surfactants.exercise.1",
+    "chem.q1.4.q4.3.surfactants.exercise.2",
+    "chem.q1.4.q4.3.surfactants.exercise.3",
+    "chem.q1.4.q4.3.surfactants.exercise.4",
+    "chem.q1.4.q4.3.surfactants.exercise.5",
+    "chem.q1.4.q4.3.surfactants.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q1.4.q4.3.surfactants.selftest.1",
+    "chem.q1.4.q4.3.surfactants.selftest.2",
+    "chem.q1.4.q4.3.surfactants.selftest.3"
+  ]
+}

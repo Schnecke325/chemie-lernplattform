@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.basics.representation",
+  "title": "Fachsprache und Stoff-Teilchen-Modell",
+  "summary": "In der Chemie beschreibst du dieselbe Situation auf mehreren Ebenen: als Beobachtung, mit einem Teilchenmodell und in chemischer Symbolsprache.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "cross-cutting",
+    "note": "Querschnittsgrundlage für alle Themenfelder; die Prüfungsanalyse weist dafür keine eigenständige Themenhäufigkeit aus."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.1",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.2",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.3",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [],
+  "learningGoals": [
+    {
+      "id": "chem.basics.representation.goal.levels",
+      "statement": "Ich kann Beobachtungen, Teilchenmodell und chemische Symbolsprache unterscheiden und zwischen ihnen wechseln.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen",
+        "überführen"
+      ]
+    },
+    {
+      "id": "chem.basics.representation.goal.formula",
+      "statement": "Ich kann Summen-, Valenzstrich-, Lewis- und Skelettformeln passend zur Fragestellung lesen und zeichnen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "zeichnen",
+        "beschriften"
+      ]
+    },
+    {
+      "id": "chem.basics.representation.goal.equations",
+      "statement": "Ich kann Reaktionsgleichungen ausgleichen und Atomerhaltung sowie Ladungserhaltung überprüfen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "überprüfen"
+      ]
+    },
+    {
+      "id": "chem.basics.representation.goal.models",
+      "statement": "Ich kann erklären, welche Beobachtung ein Modell erklärt und wo seine Aussage endet.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "erläutern",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "In der Chemie beschreibst du dieselbe Situation auf mehreren Ebenen. Du kannst zum Beispiel eine Farbänderung beobachten, sie mit Teilchen erklären und den Vorgang als Reaktionsgleichung darstellen. Diese Ebenen ergänzen sich, beantworten aber unterschiedliche Fragen. Wenn du sie sauber trennst, werden Erklärungen und Abiturantworten klarer.",
+  "explanation": "### 1. Beobachtung, Erklärung und Modell\n\nAuf der **Stoffebene** beschreibst du, was du mit deinen Sinnen oder Messgeräten feststellst: Eine Lösung färbt sich, ein Niederschlag entsteht oder ein Gasvolumen nimmt zu. Formuliere zunächst nur die Beobachtung. Eine Deutung kommt danach.\n\nAuf der **Teilchenebene** erklärst du den Vorgang mit Atomen, Molekülen oder Ionen. Teilchen sind nicht direkt sichtbar. Das Teilchenbild ist ein Modell, das Beobachtungen verständlich macht.\n\nAuf der **Symbolebene** nutzt du Formeln, Reaktionsgleichungen und Fachzeichen. Eine Gleichung fasst Stoffumwandlungen knapp zusammen. Sie zeigt aber nicht automatisch den Reaktionsmechanismus oder alle Bedingungen.\n\n### 2. Formeln lesen und zeichnen\n\nEine Summenformel gibt an, welche Atome und wie viele davon in einem Molekül oder einer Formeleinheit enthalten sind. H₂O enthält zum Beispiel zwei H-Atome und ein O-Atom. Die Summenformel sagt noch nicht, wie diese Atome angeordnet oder miteinander gebunden sind.\n\nIn einer Valenzstrich- oder Lewis-Formel zeichnest du Bindungen und – bei Lewis-Formeln – freie Elektronenpaare. Eine Skelettformel verkürzt organische Strukturen: Ecken und Linienenden stehen für C-Atome; an C gebundene H-Atome werden meist nicht ausgeschrieben. Heteroatome wie O oder N schreibst du aus.\n\nWähle die Darstellung passend zur Frage. Für die Zusammensetzung reicht oft die Summenformel. Für Bindungen, Ladungen oder Reaktionsstellen brauchst du eine Strukturformel.\n\n### 3. Reaktionsgleichungen aufstellen\n\nSchreibe zuerst die Formeln der Ausgangsstoffe und Produkte auf. Gleiche dann die Anzahl jedes Elements mit **Koeffizienten** vor den Formeln aus. Tiefgestellte Zahlen veränderst du nicht: Sie gehören zur Identität des Stoffes.\n\nBei einer vollständigen Stoffgleichung müssen Atome erhalten bleiben. In einer Ionengleichung müssen zusätzlich die Gesamtladungen auf beiden Seiten übereinstimmen. Markiere bei Bedarf Zustände wie (s), (l), (g) und (aq). Bedingungen wie Temperatur oder Katalysator kannst du am Reaktionspfeil notieren.\n\nBeispiel: 2 H₂(g) + O₂(g) → 2 H₂O(l). Auf beiden Seiten stehen vier H-Atome und zwei O-Atome. Die Gleichung ist atomar ausgeglichen.\n\n### 4. Vom Modell zurück zur Beobachtung\n\nEine gute Erklärung verbindet die Ebenen: Was beobachtest du? Welche Teilchenänderung erklärt das? Wie lässt sie sich mit Formeln darstellen? Vermische Beobachtung und Deutung nicht. „Es entsteht Wasserstoff“ ist eine Deutung, wenn du nur Bläschen gesehen hast. Die Bläschen selbst sind die Beobachtung.\n\nJedes Modell vereinfacht. Eine Lewis-Formel zeigt keine Elektronenwolken in voller räumlicher Ausdehnung. Eine Reaktionsgleichung zeigt weder Teilchenbewegungen noch den vollständigen Mechanismus. Nenne diese Grenzen, wenn eine Aufgabe nach der Aussagekraft eines Modells fragt.",
+  "fundamentals": [
+    {
+      "term": "Stoffebene",
+      "explanation": "Ebene der direkt beobachtbaren Stoffeigenschaften und Versuchsergebnisse, zum Beispiel Farbe, Gasentwicklung oder Temperaturänderung."
+    },
+    {
+      "term": "Teilchenebene",
+      "explanation": "Modellbeschreibung mit Atomen, Molekülen oder Ionen. Sie erklärt, was sich bei einer Reaktion verändert."
+    },
+    {
+      "term": "Symbolebene",
+      "explanation": "Darstellung chemischer Inhalte mit Formeln, Reaktionsgleichungen und Fachzeichen."
+    },
+    {
+      "term": "Summenformel",
+      "explanation": "Sie gibt Art und Anzahl der Atome in einem Molekül oder einer Formeleinheit an, aber nicht deren Anordnung."
+    },
+    {
+      "term": "Koeffizient",
+      "explanation": "Zahl vor einer chemischen Formel. Sie gibt an, wie viele Teilchen oder Stoffmengenanteile reagieren; die Formel selbst bleibt unverändert."
+    },
+    {
+      "term": "Modellgrenze",
+      "explanation": "Sie beschreibt, welche Aspekte ein Modell vereinfacht oder nicht darstellen kann."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.basics.representation.eq.water",
+      "notation": "2 H₂(g) + O₂(g) → 2 H₂O(l)",
+      "explanation": "Auf beiden Seiten stehen vier H-Atome und zwei O-Atome."
+    },
+    {
+      "id": "chem.basics.representation.eq.zinc",
+      "notation": "Zn(s) + 2 H⁺(aq) → Zn²⁺(aq) + H₂(g)",
+      "explanation": "Nettogleichung der Zinkreaktion mit Säure. Zink gibt Elektronen ab, H⁺ nimmt sie auf."
+    }
+  ],
+  "equationNote": "Formeln beschreiben Stoffe, Reaktionsgleichungen beschreiben Stoffumwandlungen. Ein Koeffizient ändert die Stoffmenge, nicht die chemische Identität einer Formel.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.basics.representation.example.water",
+      "title": "Vom Versuch zur Gleichung",
+      "prompt": "Beim Reagieren von Wasserstoff und Sauerstoff entsteht Wasser. Formuliere eine ausgeglichene Reaktionsgleichung und prüfe die Atombilanz.",
+      "steps": [
+        "Schreibe zuerst die Formeln H₂, O₂ und H₂O auf.",
+        "Gleiche die O-Atome aus, indem du vor H₂O den Koeffizienten 2 setzt.",
+        "Passe danach H₂ an. Links und rechts müssen gleich viele H- und O-Atome stehen."
+      ],
+      "result": "2 H₂ + O₂ → 2 H₂O. Auf beiden Seiten befinden sich vier H-Atome und zwei O-Atome."
+    },
+    {
+      "id": "chem.basics.representation.example.levels",
+      "title": "Drei Ebenen einer Reaktion",
+      "prompt": "Bei der Reaktion von Zink mit Säure bilden sich Bläschen und Zink wird verbraucht. Beschreibe den Vorgang auf Stoff-, Teilchen- und Symbolebene.",
+      "steps": [
+        "Formuliere zuerst nur die sichtbare Beobachtung.",
+        "Benenne die reagierenden Teilchen.",
+        "Notiere zum Schluss eine passende Nettogleichung."
+      ],
+      "result": "Stoffebene: Zink wird verbraucht und Gasbläschen entstehen. Teilchenebene: Zn-Atome werden zu Zn²⁺-Ionen; H⁺-Ionen bilden H₂-Moleküle. Symbolebene: Zn + 2 H⁺ → Zn²⁺ + H₂."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2017,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Stoff-, Teilchen- und Symbolebene benennen oder Strukturmerkmale angeben.",
+    "AFB II: Beobachtung, Teilchenmodell und Reaktionsgleichung miteinander verknüpfen.",
+    "AFB III: Aussagekraft eines Modells oder einer Darstellung mit fachlichen Kriterien beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Trenne Beobachtung und Deutung. Beschreibe erst, was du siehst, und erkläre danach die Teilchenänderung.",
+      "commonError": "Eine vermutete Erklärung wird als direkte Beobachtung formuliert."
+    },
+    {
+      "tip": "Gleiche Reaktionsgleichungen mit Koeffizienten aus und prüfe jedes Element einzeln.",
+      "commonError": "Tiefgestellte Zahlen werden verändert; dadurch entsteht eine andere Stoffformel."
+    },
+    {
+      "tip": "Wähle die Darstellung nach der Fragestellung und nenne bei Modellaufgaben auch ihre Grenzen.",
+      "commonError": "Aus einer Summenformel werden Bindungsanordnung oder räumliche Struktur abgeleitet, die sie nicht zeigt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.basics.representation.exercise.basic-levels",
+    "chem.basics.representation.exercise.basic-balance",
+    "chem.basics.representation.exercise.standard-zinc",
+    "chem.basics.representation.exercise.standard-structure",
+    "chem.basics.representation.exercise.transfer-model",
+    "chem.basics.representation.exercise.transfer-charge"
+  ],
+  "selfTestIds": [
+    "chem.basics.representation.selftest.levels",
+    "chem.basics.representation.selftest.coefficient",
+    "chem.basics.representation.selftest.model"
+  ]
+}

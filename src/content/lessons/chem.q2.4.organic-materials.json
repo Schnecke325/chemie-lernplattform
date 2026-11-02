@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.4.organic-materials",
+  "title": "Organische Werkstoffe",
+  "summary": "Struktur, Reaktionen und Eigenschaften von Organische Werkstoffe erschließen.",
+  "order": 50,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "curriculum-only",
+    "note": "Kein eigener Vorschlagscount; curricular ergänzend."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.4",
+      "subsection": "Organische Werkstoffe",
+      "status": "year-specific"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.mechanisms"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.4.organic-materials.goal.structure",
+      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q2.4.organic-materials.goal.reactions",
+      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "unterscheiden"
+      ]
+    },
+    {
+      "id": "chem.q2.4.organic-materials.goal.properties",
+      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.4.organic-materials.goal.evaluate",
+      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Organische Werkstoffe verbinden molekulare Struktur mit einer praktischen Materialfunktion.",
+  "explanation": "PLA ist ein Polyester, der aus Milchsäure oder über Lactid hergestellt werden kann. Bei der Vulkanisation entstehen Schwefelbrücken zwischen Kautschukketten; dadurch verbessern sich Formrückstellung und Stabilität. Viskose entsteht durch chemische Verarbeitung und anschließendes Regenerieren von Cellulose. Vergleiche Bausteine, Bindungstyp, Vernetzung, Funktion und Entsorgungsweg. Biobasiert, biologisch abbaubar und recycelbar sind unterschiedliche Eigenschaften. Q2.4 besitzt in der vorhandenen Häufigkeitsauswertung keinen eigenen Vorschlagscount; Verbindlichkeit richtet sich nach dem Jahrgangserlass.",
+  "fundamentals": [
+    {
+      "term": "Monomer",
+      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+    },
+    {
+      "term": "Vernetzung",
+      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+    },
+    {
+      "term": "Systemgrenze",
+      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.4.organic-materials.eq.1",
+      "notation": "Milchsäure → PLA + H₂O; Kautschukketten + S₈ → vernetzter Kautschuk",
+      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+    }
+  ],
+  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.4.organic-materials.example.1",
+      "title": "Vulkanisation",
+      "prompt": "Wie verändern Schwefelbrücken die mechanischen Eigenschaften von Kautschuk?",
+      "steps": [
+        "Schwefel bildet Querverbindungen zwischen Kautschukketten.",
+        "Die Ketten können sich dadurch weniger dauerhaft gegeneinander verschieben.",
+        "Weitmaschige Vernetzung lässt elastische Rückstellung zu."
+      ],
+      "result": "Sie verbinden Ketten. Weitmaschige Vernetzung begrenzt dauerhaftes Gleiten und ermöglicht elastische Rückstellung."
+    },
+    {
+      "id": "chem.q2.4.organic-materials.example.2",
+      "title": "Biobasiert bewerten",
+      "prompt": "Ein Material ist biobasiert. Welche Angaben brauchst du für eine Abbauaussage?",
+      "steps": [
+        "Angaben zu Bedingungen und Prüfverfahren, etwa Temperatur, Feuchte und Mikroorganismen",
+        "Herkunft allein belegt keinen Abbau."
+      ],
+      "result": "Angaben zu Bedingungen und Prüfverfahren, etwa Temperatur, Feuchte und Mikroorganismen; Herkunft allein belegt keinen Abbau."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2024,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
+    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
+    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
+      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+    },
+    {
+      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
+      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+    },
+    {
+      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
+      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.4.organic-materials.exercise.1",
+    "chem.q2.4.organic-materials.exercise.2",
+    "chem.q2.4.organic-materials.exercise.3",
+    "chem.q2.4.organic-materials.exercise.4",
+    "chem.q2.4.organic-materials.exercise.5",
+    "chem.q2.4.organic-materials.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q2.4.organic-materials.selftest.1",
+    "chem.q2.4.organic-materials.selftest.2",
+    "chem.q2.4.organic-materials.selftest.3"
+  ]
+}

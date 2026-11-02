@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.2.alcohols",
+  "title": "Alkanole und ihre Oxidation",
+  "summary": "Erkenne Alkanole, verknüpfe ihre OH-Gruppe mit Eigenschaften und sage typische Oxidationsprodukte voraus.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 11,
+    "note": "Die Zahl 11 bezieht sich auf das KCGO-Feld Q1.2 insgesamt, nicht auf Alkanole allein."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.2",
+      "subsection": "Alkanole und Oxidation",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.interactions",
+    "chem.q1.1.mechanisms"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.2.alcohols.goal.classify",
+      "statement": "Ich kann primäre, sekundäre und tertiäre Alkanole anhand des C-Atoms mit der OH-Gruppe unterscheiden.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "zuordnen",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.q1.2.alcohols.goal.properties",
+      "statement": "Ich kann die Polarität der OH-Gruppe und ihren Einfluss auf ausgewählte Stoffeigenschaften erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "vergleichen"
+      ]
+    },
+    {
+      "id": "chem.q1.2.alcohols.goal.oxidation",
+      "statement": "Ich kann typische Oxidationsprodukte primärer und sekundärer Alkanole vorhersagen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "ableiten"
+      ]
+    },
+    {
+      "id": "chem.q1.2.alcohols.goal.reactions",
+      "statement": "Ich kann Reaktionsgleichungen und Materialinformationen nutzen, um Reaktionsfolgen zu begründen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "formulieren",
+        "begründen"
+      ]
+    }
+  ],
+  "introduction": "Die Hydroxygruppe macht Alkanole polarer als vergleichbare Kohlenwasserstoffe. Außerdem lässt sich ein Alkanol je nach seiner Struktur unterschiedlich oxidieren. Wenn du zuerst das C-Atom mit der OH-Gruppe untersuchst, kannst du die passende Reaktionsfolge ableiten.",
+  "explanation": "### 1. Aufbau und Einteilung\n\nAlkanole enthalten eine Hydroxygruppe –OH, die an ein gesättigtes C-Atom gebunden ist. Für die Einteilung zählst du, mit wie vielen weiteren C-Atomen das C-Atom mit der OH-Gruppe verbunden ist: bei einem C primär, bei zwei C sekundär und bei drei C tertiär. Die Zahl bezieht sich auf dieses C-Atom, nicht auf die gesamte Molekülgröße.\n\n### 2. OH-Gruppe und Stoffeigenschaften\n\nDie O–H- und C–O-Bindungen sind polar. Kleine Alkanole können über ihre OH-Gruppe Wasserstoffbrücken mit Wasser bilden und sich deshalb gut lösen. Mit zunehmender Länge des unpolaren Kohlenwasserstoffrests nimmt der relative Einfluss der OH-Gruppe ab; die Wasserlöslichkeit sinkt meist.\n\nZwischen Alkanolmolekülen entstehen Wasserstoffbrücken. Vergleichbare Alkane besitzen diese Möglichkeit nicht. Deshalb sieden Alkanole ähnlicher molarer Masse oft höher als Alkane. Bei einem Vergleich musst du zusätzlich Molekülgröße und weitere Wechselwirkungen berücksichtigen.\n\n### 3. Oxidation primärer Alkanole\n\nEin primäres Alkanol kann zunächst zu einem Aldehyd oxidiert werden. Bei weiterer Oxidation entsteht eine Carbonsäure. Ob das Aldehyd isoliert werden kann oder weiterreagiert, hängt von Oxidationsmittel und Bedingungen ab.\n\n### 4. Oxidation sekundärer und tertiärer Alkanole\n\nEin sekundäres Alkanol wird typischerweise zum Keton oxidiert. Dabei werden am C-Atom mit der OH-Gruppe ein H-Atom und an der OH-Gruppe ein weiteres H-Atom entfernt; es entsteht die C=O-Gruppe.\n\nEin tertiäres Alkanol hat am C-Atom mit OH kein H-Atom. Eine einfache Oxidation zum Carbonylstoff ist deshalb nicht möglich. Unter stärkeren Bedingungen können C–C-Bindungen gespalten werden.\n\n### 5. Reaktionsfolgen aus Material ableiten\n\nOrdne zuerst die Alkanolklasse ein. Zeichne dann das C-Atom mit der OH-Gruppe und verfolge, welche H-Atome bei einer Oxidation entfernt werden. Formuliere das Produkt und prüfe die Stoffbilanz. Wenn Aufgabenbedingungen ein Oxidationsmittel oder eine kontrollierte Reaktion nennen, nutze diese Angaben für die Produktvorhersage.",
+  "fundamentals": [
+    {
+      "term": "Hydroxygruppe",
+      "explanation": "Funktionelle Gruppe –OH. In Alkanolen ist sie an ein gesättigtes Kohlenstoffatom gebunden."
+    },
+    {
+      "term": "Primäres Alkanol",
+      "explanation": "Alkanol, bei dem das C-Atom mit der OH-Gruppe an ein weiteres C-Atom gebunden ist."
+    },
+    {
+      "term": "Sekundäres Alkanol",
+      "explanation": "Alkanol, dessen C-Atom mit OH an zwei weitere C-Atome gebunden ist."
+    },
+    {
+      "term": "Tertiäres Alkanol",
+      "explanation": "Alkanol, dessen C-Atom mit OH an drei weitere C-Atome gebunden ist; dort sitzt kein H-Atom."
+    },
+    {
+      "term": "Oxidation eines Alkanols",
+      "explanation": "Reaktion, bei der ein Alkanol typischerweise in einen Carbonylstoff oder – bei weiterer Oxidation eines primären Alkanols – in eine Carbonsäure übergeht."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.2.alcohols.eq.primary",
+      "notation": "R–CH₂OH + [O] → R–CHO + H₂O",
+      "explanation": "Vereinfachte Oxidation eines primären Alkanols zum Aldehyd."
+    },
+    {
+      "id": "chem.q1.2.alcohols.eq.secondary",
+      "notation": "R–CHOH–R′ + [O] → R–CO–R′ + H₂O",
+      "explanation": "Vereinfachte Oxidation eines sekundären Alkanols zum Keton."
+    },
+    {
+      "id": "chem.q1.2.alcohols.eq.further",
+      "notation": "R–CHO + [O] → R–COOH",
+      "explanation": "Ein Aldehyd kann bei weiterer Oxidation zur Carbonsäure reagieren."
+    }
+  ],
+  "equationNote": "[O] ist eine Kurzschreibweise für ein Oxidationsmittel, keine elementare Sauerstoffspezies. Reale Reaktionsgleichungen müssen an das angegebene Oxidationsmittel angepasst werden.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q1.2.alcohols.example.classification",
+      "title": "Alkanolklasse und Oxidationsprodukt",
+      "prompt": "Ordne Butan-2-ol ein und sage das typische Oxidationsprodukt voraus.",
+      "steps": [
+        "Finde das C-Atom, an das OH gebunden ist.",
+        "Dieses C-Atom ist mit zwei weiteren C-Atomen verbunden.",
+        "Ein sekundäres Alkanol wird typischerweise zum Keton oxidiert."
+      ],
+      "result": "Butan-2-ol ist sekundär; das typische Oxidationsprodukt ist Butanon."
+    },
+    {
+      "id": "chem.q1.2.alcohols.example.sequence",
+      "title": "Oxidationsfolge eines primären Alkanols",
+      "prompt": "Gib die mögliche Oxidationsfolge von Ethanol an.",
+      "steps": [
+        "Ethanol besitzt eine endständige OH-Gruppe und ist primär.",
+        "Bei kontrollierter Oxidation entsteht zunächst Ethanal.",
+        "Bei weiterer Oxidation kann Ethansäure entstehen."
+      ],
+      "result": "Ethanol → Ethanal → Ethansäure. Ob die Reaktion bei Ethanal stoppt, hängt von den Bedingungen ab."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2007,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2021,
+      "term": "NT",
+      "proposal": "D",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Alkanolklasse und funktionelle Gruppen benennen.",
+    "AFB II: Oxidationsprodukte, Stoffeigenschaften oder Reaktionsgleichungen aus der Struktur ableiten.",
+    "AFB III: Reaktionsbedingungen und Grenzen einer Produktvorhersage materialgestützt beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Klassifiziere ein Alkanol anhand des C-Atoms, das die OH-Gruppe trägt.",
+      "commonError": "Die Anzahl aller C-Atome im Molekül entscheidet über primär, sekundär oder tertiär."
+    },
+    {
+      "tip": "Bei Oxidation prüfst du, ob das C-Atom mit OH ein H-Atom besitzt.",
+      "commonError": "Ein tertiäres Alkanol wird ohne C–C-Spaltung wie ein sekundäres Alkanol zum Keton oxidiert."
+    },
+    {
+      "tip": "Nutze [O] nur als vereinfachte Schreibweise und beachte die Bedingungen.",
+      "commonError": "[O] wird als vollständige Reagenzangabe oder konkrete Reaktionsbedingung behandelt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.2.alcohols.exercise.basic-classify",
+    "chem.q1.2.alcohols.exercise.basic-bond",
+    "chem.q1.2.alcohols.exercise.standard-oxidation",
+    "chem.q1.2.alcohols.exercise.standard-secondary",
+    "chem.q1.2.alcohols.exercise.transfer-properties",
+    "chem.q1.2.alcohols.exercise.transfer-tertiary"
+  ],
+  "selfTestIds": [
+    "chem.q1.2.alcohols.selftest.class",
+    "chem.q1.2.alcohols.selftest.primary",
+    "chem.q1.2.alcohols.selftest.tertiary"
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.1.hydrocarbons",
+  "title": "Alkane, Alkene und Alkine",
+  "summary": "Erkenne Kohlenwasserstoffklassen, entwickle Strukturen und erkläre typische Reaktionen von Mehrfachbindungen.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 19,
+    "note": "Die Zahl 19 bezieht sich auf Q1.1 insgesamt. Sie ist keine eigene Häufigkeitszählung für Kohlenwasserstoffe."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.1",
+      "subsection": "Alkane, Alkene und Alkine",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.1.hydrocarbons.goal.structure",
+      "statement": "Ich kann Alkane, Alkene und Alkine anhand ihrer Bindungen und Strukturformeln unterscheiden.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.hydrocarbons.goal.naming",
+      "statement": "Ich kann einfache verzweigte Kohlenwasserstoffe benennen und aus Namen Strukturformeln entwickeln.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "benennen",
+        "zeichnen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.hydrocarbons.goal.isomers",
+      "statement": "Ich kann Konstitutionsisomere erkennen und ihre unterschiedliche Verknüpfung beschreiben.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "vergleichen",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.hydrocarbons.goal.reactions",
+      "statement": "Ich kann Verbrennung und elektrophile Addition formulieren sowie die Produktbildung bei HX-Addition begründen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "begründen"
+      ]
+    }
+  ],
+  "introduction": "Kohlenwasserstoffe bestehen nur aus Kohlenstoff und Wasserstoff. Schon eine zusätzliche Doppel- oder Dreifachbindung verändert ihre Struktur und Reaktivität. Du lernst, die Stoffklassen zu unterscheiden, einfache Namen und Formeln zu verknüpfen und typische Reaktionen zu beschreiben.",
+  "explanation": "### 1. Stoffklassen und homologe Reihen\n\nAlkane besitzen nur C–C-Einfachbindungen. Alkene enthalten mindestens eine C=C-Doppelbindung, Alkine mindestens eine C≡C-Dreifachbindung. Für unverzweigte, offenkettige Verbindungen mit genau einer dieser Bindungstypen gelten die allgemeinen Formeln CₙH₂ₙ₊₂ (Alkane), CₙH₂ₙ (Alkene) und CₙH₂ₙ₋₂ (Alkine). Ringe oder mehrere Mehrfachbindungen verändern diese Formeln.\n\nEine homologe Reihe besteht aus Stoffen, deren aufeinanderfolgende Vertreter sich jeweils um eine CH₂-Gruppe unterscheiden. Mit der Kettenlänge verändern sich physikalische Eigenschaften schrittweise.\n\n### 2. Namen und Strukturformeln\n\nWähle die längste Kohlenstoffkette, die die Hauptfunktion oder Mehrfachbindung enthält. Nummeriere so, dass die Mehrfachbindung beziehungsweise Seitenreste möglichst kleine Positionszahlen erhalten. Seitenreste erhalten Endungen wie „-yl“; bei einer Doppelbindung nutzt du „-en“, bei einer Dreifachbindung „-in“.\n\nButan und 2-Methylpropan besitzen beide C₄H₁₀, unterscheiden sich aber in der Verknüpfung der C-Atome. Solche Verbindungen heißen Konstitutionsisomere. Gleiche Summenformel bedeutet also nicht gleiche Struktur oder gleiche Eigenschaften.\n\n### 3. Verbrennung\n\nBei vollständiger Verbrennung eines Kohlenwasserstoffs entstehen Kohlenstoffdioxid und Wasser. Stelle zuerst die Formeln der Produkte auf und gleiche dann C, H und O aus. Bei Sauerstoffmangel kann die Verbrennung unvollständig sein; dann können Kohlenstoffmonoxid oder Ruß entstehen.\n\n### 4. Mehrfachbindungen und elektrophile Addition\n\nDie Doppelbindung enthält neben einer σ-Bindung eine π-Bindung. Ihre Elektronendichte ist zugänglich und kann mit Elektrophilen reagieren. Bei der elektrophilen Addition wird die π-Bindung aufgelöst; zwei neue σ-Bindungen entstehen. Atome oder Gruppen lagern sich an die beiden C-Atome der ehemaligen Doppelbindung an.\n\nBei der Addition von HX an ein unsymmetrisches Alken kann nach der Markownikow-Regel unter üblichen ionischen Bedingungen das H-Atom an das C-Atom addieren, das bereits mehr H-Atome trägt. So entsteht bevorzugt das stabilere Zwischenprodukt. Die Regel ist an die Bedingungen gebunden und nicht pauschal für jede Addition gültig.\n\n### 5. Struktur und Reaktivität begründen\n\nAlkane reagieren unter vielen Bedingungen weniger leicht an ihrem C–C-Gerüst als Alkene oder Alkine. Mehrfachbindungen können Additionsreaktionen eingehen, weil ihre π-Bindung in neue Bindungen umgewandelt wird. Verknüpfe bei einer Begründung immer Strukturmerkmal, Änderung der Bindungen und beobachtetes Produkt.",
+  "fundamentals": [
+    {
+      "term": "Kohlenwasserstoff",
+      "explanation": "Organische Verbindung, die ausschließlich aus Kohlenstoff und Wasserstoff besteht."
+    },
+    {
+      "term": "Homologe Reihe",
+      "explanation": "Reihe ähnlicher Verbindungen, deren aufeinanderfolgende Vertreter sich um eine CH₂-Gruppe unterscheiden."
+    },
+    {
+      "term": "Konstitutionsisomerie",
+      "explanation": "Gleiche Summenformel, aber unterschiedliche Verknüpfung der Atome."
+    },
+    {
+      "term": "π-Bindung",
+      "explanation": "Bindungsanteil einer Mehrfachbindung mit Elektronendichte außerhalb der Kernverbindungsachse; sie reagiert bei Additionen häufig mit."
+    },
+    {
+      "term": "Elektrophile Addition",
+      "explanation": "Reaktion, bei der ein Elektrophil und ein weiteres Teilchen an die Atome einer Mehrfachbindung addieren."
+    },
+    {
+      "term": "Markownikow-Regel",
+      "explanation": "Orientierungsregel für bestimmte ionische HX-Additionen an unsymmetrische Alkene; sie gilt nicht unabhängig von den Reaktionsbedingungen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.1.hydrocarbons.eq.series",
+      "notation": "Alkane: CₙH₂ₙ₊₂  |  Alkene: CₙH₂ₙ  |  Alkine: CₙH₂ₙ₋₂",
+      "explanation": "Gilt für offenkettige Kohlenwasserstoffe mit genau einer Mehrfachbindung bei Alkenen/Alkinen."
+    },
+    {
+      "id": "chem.q1.1.hydrocarbons.eq.bromine",
+      "notation": "CH₂=CH₂ + Br₂ → BrCH₂–CH₂Br",
+      "explanation": "Brom addiert an die Doppelbindung von Ethen; es entsteht 1,2-Dibromethan."
+    },
+    {
+      "id": "chem.q1.1.hydrocarbons.eq.hbr",
+      "notation": "CH₂=CH–CH₂–CH₃ + HBr → CH₃–CHBr–CH₂–CH₃",
+      "explanation": "HBr-Addition an But-1-en unter üblichen ionischen Bedingungen; Hauptprodukt nach Markownikow ist 2-Brombutan."
+    },
+    {
+      "id": "chem.q1.1.hydrocarbons.eq.combustion",
+      "notation": "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O",
+      "explanation": "Vollständige Verbrennung von Propan."
+    }
+  ],
+  "equationNote": "Die allgemeinen Summenformeln gelten nur für die genannte Stoffklasse und Strukturvoraussetzungen. Gib bei Additionen relevante Bedingungen an, wenn sie das Produkt beeinflussen.",
+  "mechanisms": [
+    {
+      "id": "chem.q1.1.hydrocarbons.mechanism.electrophilic-addition",
+      "title": "Grundidee der elektrophilen Addition von HX",
+      "steps": [
+        "Die elektronenreiche π-Bindung polarisiert HX und greift das elektrophile H an.",
+        "Die H–X-Bindung wird gespalten; es entsteht ein Zwischenprodukt und X⁻.",
+        "X⁻ bindet an das positivierte C-Atom. Die Doppelbindung ist in zwei neue Einfachbindungen überführt."
+      ]
+    }
+  ],
+  "workedExamples": [
+    {
+      "id": "chem.q1.1.hydrocarbons.example.naming",
+      "title": "Name aus einer Struktur entwickeln",
+      "prompt": "Benenne CH₃–CH(CH₃)–CH₂–CH₃.",
+      "steps": [
+        "Wähle die längste durchgehende C-Kette: vier C-Atome.",
+        "Nummeriere vom näheren Ende des Seitenrests aus.",
+        "Benenne die Hauptkette als Butan und den Seitenrest mit Position."
+      ],
+      "result": "Der systematische Name lautet 2-Methylbutan."
+    },
+    {
+      "id": "chem.q1.1.hydrocarbons.example.addition",
+      "title": "Produkt einer HX-Addition bestimmen",
+      "prompt": "Bestimme das Hauptprodukt der Addition von HBr an But-1-en unter üblichen ionischen Bedingungen.",
+      "steps": [
+        "Markiere die C=C-Doppelbindung als Reaktionsstelle.",
+        "Wende die Markownikow-Orientierung auf H an: Es addiert an das stärker mit H substituierte C-Atom.",
+        "Das Bromatom bindet an das andere C-Atom; prüfe anschließend die Produktstruktur."
+      ],
+      "result": "Hauptprodukt: 2-Brombutan, CH₃–CHBr–CH₂–CH₃."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2010,
+      "term": "HT",
+      "proposal": "D",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2015,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2022,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Stoffklasse, funktionelle Mehrfachbindung oder Isomer benennen.",
+    "AFB II: Namen in Strukturformeln überführen, Verbrennungs- und Additionsgleichungen aufstellen.",
+    "AFB III: Produktbildung oder Reaktivität aus Struktur, Mechanismus und gegebenen Reaktionsbedingungen begründet beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Prüfe bei allgemeinen Summenformeln, ob die Verbindung offenkettig ist und genau eine Mehrfachbindung besitzt.",
+      "commonError": "Die Formel einer unverzweigten Reihe wird ungeprüft auf Ringe oder mehrfach ungesättigte Stoffe übertragen."
+    },
+    {
+      "tip": "Nummeriere die längste passende Kette so, dass Mehrfachbindungen und Seitenreste möglichst niedrige Positionszahlen erhalten.",
+      "commonError": "Die Kette wird von der falschen Seite nummeriert."
+    },
+    {
+      "tip": "Wende die Markownikow-Regel nur auf die passenden Bedingungen an.",
+      "commonError": "Die Regel wird als allgemeine Vorhersage für jede Addition an jedes Alken verwendet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.1.hydrocarbons.exercise.basic-series",
+    "chem.q1.1.hydrocarbons.exercise.basic-isomer",
+    "chem.q1.1.hydrocarbons.exercise.standard-naming",
+    "chem.q1.1.hydrocarbons.exercise.standard-addition",
+    "chem.q1.1.hydrocarbons.exercise.transfer-combustion",
+    "chem.q1.1.hydrocarbons.exercise.transfer-reaction"
+  ],
+  "selfTestIds": [
+    "chem.q1.1.hydrocarbons.selftest.classes",
+    "chem.q1.1.hydrocarbons.selftest.isomers",
+    "chem.q1.1.hydrocarbons.selftest.addition"
+  ]
+}

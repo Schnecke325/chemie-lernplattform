@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.2.titration",
+  "title": "Titrationen und quantitative Analyse",
+  "summary": "Nutze Titrationskurven und Stoffmengenverhältnisse, um Konzentrationen zu bestimmen und Indikatoren begründet auszuwählen.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 23,
+    "note": "Die Zahl 23 bezieht sich auf Q3.2 insgesamt, nicht allein auf Titrationsaufgaben."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.2",
+      "subsection": "Titrationen und quantitative Analyse",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.q3.2.protolysis",
+    "chem.q3.2.ph"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.2.titration.goal.setup",
+      "statement": "Ich kann Maßlösung, Probelösung, Indikator und Äquivalenzpunkt in einer Titration unterscheiden.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q3.2.titration.goal.stoichiometry",
+      "statement": "Ich kann unbekannte Konzentrationen mit Reaktionsgleichung und Stoffmengenverhältnis berechnen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.q3.2.titration.goal.curves",
+      "statement": "Ich kann Titrationskurven lesen und Äquivalenz- sowie Umschlagspunkt voneinander abgrenzen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q3.2.titration.goal.indicator",
+      "statement": "Ich kann eine Indikatorwahl mit dem pH-Bereich des steilen Kurvenabschnitts begründen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "begründen"
+      ]
+    }
+  ],
+  "introduction": "Bei einer Titration reagiert eine Probe mit einer Maßlösung bekannter Konzentration. Am Äquivalenzpunkt sind die Stoffmengen stöchiometrisch aufeinander abgestimmt. Aus dem verbrauchten Volumen kannst du die unbekannte Konzentration berechnen. Eine Titrationskurve hilft dir, diesen Punkt zu erkennen.",
+  "explanation": "### 1. Aufbau und Begriffe\n\nDu gibst eine Maßlösung mit bekannter Konzentration schrittweise zu einer Probelösung. Ein Indikator zeigt durch einen Farbumschlag einen pH-Bereich an; ein pH-Meter misst den pH direkt. Das zugegebene Volumen hältst du fest.\n\nDer **Äquivalenzpunkt** ist erreicht, wenn Säure und Base entsprechend der ausgeglichenen Reaktionsgleichung umgesetzt sind. Der **Endpunkt** ist der beobachtete Umschlag des Indikators oder ein festgelegter Messpunkt. Beide liegen idealerweise nahe beieinander, sind aber nicht grundsätzlich identisch.\n\n### 2. Konzentration berechnen\n\nSchreibe zuerst die Neutralisationsgleichung auf. Lies daraus das Stoffmengenverhältnis am Äquivalenzpunkt ab. Bei einer einprotonigen Säure HA und OH⁻ gilt n(HA) = n(OH⁻). Dann setzt du n = c·V ein und stellst nach der unbekannten Konzentration um. Volumina müssen in passenden Einheiten eingesetzt werden.\n\nBei mehrprotonigen Säuren oder anderen Reaktionsverhältnissen gilt nicht automatisch ein Verhältnis von 1:1. Nutze immer die konkrete Reaktionsgleichung.\n\n### 3. Titrationskurven lesen\n\nEine Titrationskurve zeigt pH gegen zugegebenes Volumen der Maßlösung. Vor dem Äquivalenzpunkt bestimmt meist der Überschuss der Probelösung den pH. In der Nähe des Äquivalenzpunkts ändert sich der pH oft stark. Nach dem Punkt liegt die Maßlösung im Überschuss vor.\n\nDer pH am Äquivalenzpunkt hängt von der Stärke von Säure und Base ab. Bei starker Säure und starker Base liegt er bei 25 °C näherungsweise bei 7. Bei schwacher Säure und starker Base liegt er typischerweise über 7; bei schwacher Base und starker Säure unter 7.\n\n### 4. Indikatorwahl und Messgrenzen\n\nDer Umschlagsbereich des Indikators soll in den steilen pH-Sprung um den Äquivalenzpunkt fallen. Bei einer starken Säure und starken Base ist Bromthymolblau ein geeignetes typisches Beispiel. Für andere Kurvenformen wählst du den Indikator passend zum jeweiligen Äquivalenzbereich.\n\nEin Indikator liefert einen sichtbaren Endpunkt. Beleuchtung, Eigenfarbe und subjektive Wahrnehmung können die Ablesung beeinflussen. Eine pH-metrische Titration liefert eine Messkurve, benötigt aber ein kalibriertes Messgerät. Nenne bei einer Auswertung die Grenzen der verwendeten Methode.",
+  "fundamentals": [
+    {
+      "term": "Maßlösung",
+      "explanation": "Lösung bekannter Konzentration, die bei der Titration schrittweise zur Probe gegeben wird."
+    },
+    {
+      "term": "Probelösung",
+      "explanation": "Lösung mit der unbekannten Konzentration, die untersucht wird."
+    },
+    {
+      "term": "Äquivalenzpunkt",
+      "explanation": "Punkt, an dem die Stoffmengen von Säure und Base im Verhältnis der Reaktionsgleichung umgesetzt sind."
+    },
+    {
+      "term": "Endpunkt",
+      "explanation": "Beobachteter Umschlag eines Indikators oder festgelegter Messpunkt; er soll möglichst nahe am Äquivalenzpunkt liegen."
+    },
+    {
+      "term": "Titrationskurve",
+      "explanation": "Diagramm des pH-Werts gegen das zugegebene Volumen der Maßlösung."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.2.titration.eq.neutralization",
+      "notation": "HA + OH⁻ → A⁻ + H₂O",
+      "explanation": "Neutralisation einer einprotonigen Säure mit OH⁻; Stoffmengenverhältnis 1:1."
+    },
+    {
+      "id": "chem.q3.2.titration.eq.amount",
+      "notation": "n = c·V",
+      "explanation": "Stoffmenge aus Stoffmengenkonzentration und Lösungsvolumen."
+    },
+    {
+      "id": "chem.q3.2.titration.eq.endpoint",
+      "notation": "cₐVₐ = cᵦVᵦ  (nur bei 1:1-Stöchiometrie)",
+      "explanation": "Spezialfall am Äquivalenzpunkt. Bei anderen Koeffizienten muss die Stöchiometrie berücksichtigt werden."
+    }
+  ],
+  "equationNote": "Setze Volumina in Liter ein, wenn die Konzentration in mol·L⁻¹ angegeben ist. Endpunkt und Äquivalenzpunkt nicht gleichsetzen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.2.titration.example-calc",
+      "title": "Konzentration aus einer Titration",
+      "prompt": "20,00 mL einer einprotonigen Säure werden mit 0,1000 mol·L⁻¹ NaOH bis zum Äquivalenzpunkt titriert. Verbrauch: 18,60 mL. Berechne c der Säure.",
+      "steps": [
+        "Neutralisation: HA + OH⁻ → A⁻ + H₂O; Verhältnis 1:1.",
+        "n(OH⁻) = 0,1000 mol·L⁻¹ · 0,01860 L = 0,001860 mol.",
+        "Am Äquivalenzpunkt ist n(HA) = 0,001860 mol.",
+        "c(HA) = 0,001860 mol / 0,02000 L = 0,09300 mol·L⁻¹."
+      ],
+      "result": "c(HA) = 0,09300 mol·L⁻¹."
+    },
+    {
+      "id": "chem.q3.2.titration.example-indicator",
+      "title": "Indikator zur Kurve wählen",
+      "prompt": "Du titrierst eine starke Säure mit einer starken Base bei 25 °C. Welcher Punkt der Kurve leitet die Indikatorwahl?",
+      "steps": [
+        "Bestimme den Äquivalenzpunkt aus dem steilen Kurvenbereich.",
+        "Nutze den annähernden pH-Wert am Äquivalenzpunkt.",
+        "Wähle einen Indikator, dessen Umschlagsbereich in den pH-Sprung fällt."
+      ],
+      "result": "Der Äquivalenzpunkt liegt näherungsweise bei pH 7. Ein Indikator mit Umschlagsbereich um neutral, zum Beispiel Bromthymolblau, ist geeignet."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2018,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2024,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Maßlösung, Probe, Äquivalenzpunkt und Kurvenabschnitte benennen.",
+    "AFB II: Konzentrationen mit Reaktionsgleichung und verbrauchtem Volumen berechnen.",
+    "AFB III: Indikatorwahl, Messmethode und Unsicherheiten anhand einer Kurve beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Schreibe vor jeder Rechnung die ausgeglichene Neutralisationsgleichung auf.",
+      "commonError": "Ein 1:1-Verhältnis wird auch bei mehrprotonigen Säuren ohne Prüfung angenommen."
+    },
+    {
+      "tip": "Unterscheide Äquivalenzpunkt und beobachteten Endpunkt.",
+      "commonError": "Der Farbumschlag wird ohne Berücksichtigung des Indikatorbereichs als exakter Äquivalenzpunkt behandelt."
+    },
+    {
+      "tip": "Wähle den Indikator anhand des steilen Kurvenabschnitts.",
+      "commonError": "Der Indikator wird nur nach seiner Farbe oder seinem Namen ausgewählt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.2.titration.exercise.basic-terms",
+    "chem.q3.2.titration.exercise.basic-equivalence",
+    "chem.q3.2.titration.exercise.standard-calc",
+    "chem.q3.2.titration.exercise.standard-indicator",
+    "chem.q3.2.titration.exercise.transfer-curve",
+    "chem.q3.2.titration.exercise.transfer-uncertainty"
+  ],
+  "selfTestIds": [
+    "chem.q3.2.titration.selftest.equivalence",
+    "chem.q3.2.titration.selftest.indicator",
+    "chem.q3.2.titration.selftest.calculation"
+  ]
+}

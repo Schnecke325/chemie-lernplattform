@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.3.esters",
+  "title": "Esterbildung und Esterhydrolyse",
+  "summary": "Formuliere Veresterungen und Hydrolysen und erkläre ihre Reaktionsbedingungen mit Struktur und Gleichgewicht.",
+  "order": 40,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 27,
+    "note": "Die Zahl 27 bezieht sich auf Q1.3 insgesamt. Sie ist kein eigener Häufigkeitswert für Esterreaktionen."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.3",
+      "subsection": "Esterbildung, Hydrolyse und Verseifung",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.basics.quantities",
+    "chem.q1.3.carboxylic-acids",
+    "chem.q1.2.alcohols",
+    "chem.q3.1.mwg",
+    "chem.q1.1.mechanisms"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.3.esters.goal.structure",
+      "statement": "Ich kann Ester anhand der Gruppe –COO– erkennen und aus Edukten ihren Namen ableiten.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "zuordnen",
+        "benennen"
+      ]
+    },
+    {
+      "id": "chem.q1.3.esters.goal.formation",
+      "statement": "Ich kann Veresterung als reversible Gleichgewichtsreaktion formulieren und Bedingungen erläutern.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q1.3.esters.goal.hydrolysis",
+      "statement": "Ich kann saure Esterhydrolyse und alkalische Hydrolyse unterscheiden und Gleichungen aufstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "vergleichen",
+        "formulieren"
+      ]
+    },
+    {
+      "id": "chem.q1.3.esters.goal.mechanism",
+      "statement": "Ich kann die Grundschritte der säurekatalysierten Veresterung als nukleophile Acylsubstitution beschreiben.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "darstellen",
+        "erläutern"
+      ]
+    }
+  ],
+  "introduction": "Ester findest du in Duft- und Aromastoffen, Fetten und vielen Werkstoffen. Du kannst sie aus einer Carbonsäure und einem Alkanol bilden. Die Reaktion ist umkehrbar: Wasser kann den Ester wieder spalten. Wenn du die Reaktionsbedingungen und das Gleichgewicht beachtest, kannst du Synthese und Hydrolyse sicher unterscheiden.",
+  "explanation": "### 1. Ester erkennen und benennen\n\nDie Estergruppe lautet –COO–. Ein Ester enthält den Säurerest einer Carbonsäure und einen organischen Rest am einfach gebundenen O-Atom. Bei Ethylethanoat stammt der Teil Ethanoat von Ethansäure, der Ethylrest vom Ethanol.\n\n### 2. Säurekatalysierte Veresterung\n\nEine Carbonsäure reagiert mit einem Alkanol zu Ester und Wasser. Die Reaktion heißt Veresterung und ist reversibel. Säure katalysiert sie: Durch Protonierung wird das Carbonyl-C für einen nucleophilen Angriff besser zugänglich. Nach Bindungsbildung, Protonenübertragungen und Wasserabgabe entsteht der Ester; das Proton wird regeneriert.\n\nIm Mechanismus greift das Alkanol am Carbonyl-C an. Es entsteht ein tetraedrisches Zwischenprodukt. Danach wird Wasser abgespalten und die Carbonylgruppe zurückgebildet. Der Mechanismus ist eine säurekatalysierte nukleophile Acylsubstitution.\n\n### 3. Gleichgewicht und Ausbeute\n\nDa Hin- und Rückreaktion gleichzeitig möglich sind, wird nicht automatisch das gesamte Edukt in Ester umgewandelt. Nach Le Châtelier lässt sich die Produktmenge erhöhen, wenn du einen Eduktstoff im Überschuss einsetzt oder ein Produkt entfernst. Welche Maßnahme praktisch sinnvoll ist, hängt von den Stoffeigenschaften und dem Versuchsaufbau ab.\n\n### 4. Saure Esterhydrolyse\n\nBei saurer Hydrolyse reagiert der Ester mit Wasser zurück zu Carbonsäure und Alkanol. Die Reaktion läuft im selben Gleichgewicht wie die Veresterung, nur in umgekehrter Richtung. Säure katalysiert auch diese Reaktion.\n\n### 5. Alkalische Hydrolyse und Verseifung\n\nBei alkalischer Hydrolyse greift OH⁻ die Carbonylgruppe an. Nach Bindungsumlagerungen entstehen ein Alkanol und ein Carboxylat-Ion. Diese Reaktion wird bei Fetten als Verseifung bezeichnet. Das Carboxylat-Ion reagiert unter den Bedingungen nicht einfach zurück zum Ester; dadurch unterscheidet sich die alkalische Hydrolyse von der reversiblen sauren Hydrolyse.\n\n### 6. Gleichungen und Mechanismen prüfen\n\nKontrolliere bei einer Reaktionsgleichung zuerst die Estergruppe, Säurerest und Alkoholrest. Prüfe anschließend Atome und Ladungen. Bei Gleichgewichtsaufgaben unterscheidest du Katalysator und Gleichgewichtsverschiebung: Ein Katalysator beschleunigt Hin- und Rückreaktion, verschiebt die Gleichgewichtslage aber nicht.",
+  "fundamentals": [
+    {
+      "term": "Estergruppe",
+      "explanation": "Funktionelle Gruppe –COO–, die einen Säurerest und einen organischen Rest über ein O-Atom verbindet."
+    },
+    {
+      "term": "Veresterung",
+      "explanation": "Reaktion einer Carbonsäure mit einem Alkanol zu Ester und Wasser; säurekatalysiert und reversibel."
+    },
+    {
+      "term": "Hydrolyse",
+      "explanation": "Spaltung einer Verbindung durch Reaktion mit Wasser. Ester können sauer oder alkalisch hydrolysiert werden."
+    },
+    {
+      "term": "Verseifung",
+      "explanation": "Alkalische Hydrolyse eines Esters, besonders eines Fettes; es entstehen Alkanol und Carboxylat-Salze."
+    },
+    {
+      "term": "Nukleophile Acylsubstitution",
+      "explanation": "Reaktion am Acyl-C-Atom: Ein Nucleophil greift an, und nach Bindungsumlagerungen wird eine Gruppe ersetzt."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.3.esters.eq.esterification",
+      "notation": "R–COOH + R′–OH ⇌ R–COO–R′ + H₂O  (H⁺)",
+      "explanation": "Säurekatalysierte Veresterung; das Gleichgewicht ist umkehrbar."
+    },
+    {
+      "id": "chem.q1.3.esters.eq.acid-hydrolysis",
+      "notation": "R–COO–R′ + H₂O ⇌ R–COOH + R′–OH  (H⁺)",
+      "explanation": "Saure Hydrolyse ist die Rückreaktion der Veresterung."
+    },
+    {
+      "id": "chem.q1.3.esters.eq.base-hydrolysis",
+      "notation": "R–COO–R′ + OH⁻ → R–COO⁻ + R′–OH",
+      "explanation": "Alkalische Hydrolyse liefert Carboxylat und Alkanol."
+    }
+  ],
+  "equationNote": "H⁺ über dem Reaktionspfeil kennzeichnet einen Katalysator. Ein Katalysator verändert die Geschwindigkeit, aber nicht die Gleichgewichtslage.",
+  "mechanisms": [
+    {
+      "id": "chem.q1.3.esters.mechanism.esterification",
+      "title": "Grundschritte der säurekatalysierten Veresterung",
+      "steps": [
+        "Das Carbonyl-O wird protoniert; dadurch wird das Carbonyl-C stärker elektrophil.",
+        "Das Alkanol greift nucleophil am Carbonyl-C an. Ein tetraedrisches Zwischenprodukt entsteht.",
+        "Protonenübertragungen bereiten eine gute Abgangsgruppe vor; Wasser wird abgespalten.",
+        "Deprotonierung bildet die Estergruppe und regeneriert den Säurekatalysator."
+      ]
+    }
+  ],
+  "workedExamples": [
+    {
+      "id": "chem.q1.3.esters.example.formation",
+      "title": "Ethylethanoat formulieren",
+      "prompt": "Formuliere die säurekatalysierte Reaktion von Ethansäure mit Ethanol und benenne den Ester.",
+      "steps": [
+        "Schreibe die Strukturformeln von Ethansäure und Ethanol auf.",
+        "Verbinde Säurerest CH₃COO– und Ethylrest –CH₂CH₃.",
+        "Bilanziere das entstehende Wasser und markiere H⁺ als Katalysator."
+      ],
+      "result": "CH₃COOH + CH₃CH₂OH ⇌ CH₃COOCH₂CH₃ + H₂O. Das Produkt heißt Ethylethanoat (Ethansäureethylester)."
+    },
+    {
+      "id": "chem.q1.3.esters.example.hydrolysis",
+      "title": "Alkalische Hydrolyse zuordnen",
+      "prompt": "Welche Produkte entstehen bei der alkalischen Hydrolyse von Ethylethanoat?",
+      "steps": [
+        "OH⁻ greift das Carbonyl-C an.",
+        "Ordne die Bindungsspaltung so zu, dass der Säurerest als Carboxylat vorliegt.",
+        "Prüfe Atome und Ladung."
+      ],
+      "result": "CH₃COOCH₂CH₃ + OH⁻ → CH₃COO⁻ + CH₃CH₂OH. Es entstehen Ethanoat-Ion und Ethanol."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2017,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2022,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Estergruppe, Edukte und Produkte identifizieren.",
+    "AFB II: Ester- und Hydrolysegleichungen sowie Mechanismusschritte formulieren.",
+    "AFB III: Gleichgewichtsmaßnahmen und Syntheseverfahren anhand von Material und Bedingungen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Trenne saure Gleichgewichtshydrolyse von alkalischer Hydrolyse zum Carboxylat.",
+      "commonError": "Für beide Wege wird dasselbe Produktpaar ohne Berücksichtigung des pH notiert."
+    },
+    {
+      "tip": "Beziehe Katalysatoren auf die Reaktionsgeschwindigkeit, nicht auf die Gleichgewichtslage.",
+      "commonError": "Säure wird als Stoff dargestellt, der die Gleichgewichtsausbeute direkt erhöht."
+    },
+    {
+      "tip": "Prüfe bei Estern, welcher Rest aus der Säure und welcher aus dem Alkanol stammt.",
+      "commonError": "Säure- und Alkoholrest werden beim Benennen oder Zeichnen vertauscht."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.3.esters.exercise.basic-name",
+    "chem.q1.3.esters.exercise.basic-reaction",
+    "chem.q1.3.esters.exercise.standard-equilibrium",
+    "chem.q1.3.esters.exercise.standard-hydrolysis",
+    "chem.q1.3.esters.exercise.transfer-mechanism",
+    "chem.q1.3.esters.exercise.transfer-process"
+  ],
+  "selfTestIds": [
+    "chem.q1.3.esters.selftest.group",
+    "chem.q1.3.esters.selftest.catalyst",
+    "chem.q1.3.esters.selftest.saponification"
+  ]
+}

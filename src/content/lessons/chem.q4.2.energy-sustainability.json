@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q4.2.energy-sustainability",
+  "title": "Energieumwandlung und nachhaltige Chemie",
+  "summary": "Energieumwandlung bewertet man nicht nur nach der gespeicherten Energiemenge, sondern auch nach Effizienz, Stoffkreislauf und Umweltwirkungen.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 3,
+    "note": "3 Vorschläge im Feld Q4.2; keine Unterthemenzählung."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q4.2",
+      "subsection": "Energieumwandlung und nachhaltige Chemie",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.basics.data",
+    "chem.q3.1.mwg"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q4.2.energy-sustainability.goal.fundamentals",
+      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.goal.calculate",
+      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.goal.material",
+      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.goal.evaluate",
+      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "competencies": [
+        "B",
+        "K"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Energieumwandlung bewertet man nicht nur nach der gespeicherten Energiemenge, sondern auch nach Effizienz, Stoffkreislauf und Umweltwirkungen.",
+  "explanation": "Chemische Energieträger wandeln Reaktionsenthalpie in nutzbare Energie um. Bei Brennstoffzellen wird chemische Energie elektrochemisch direkt in elektrische Arbeit überführt; reale Systeme haben Verluste und benötigen Infrastruktur. Nachhaltigkeitsbewertungen betrachten Rohstoffbedarf, Herstellung, Betrieb, Lebensdauer, Emissionen und Entsorgung.\n\nEin Wirkungsgrad ist η=E_nutz/E_zugeführt·100 %. Vergleiche nur gleiche Systemgrenzen und funktionale Einheiten. Daten zu Wirkungsgrad, Speicherbarkeit oder Emissionen müssen im jeweiligen Kontext interpretiert werden. Ein einzelner Vorteil begründet keine pauschale Gesamtbewertung.",
+  "fundamentals": [
+    {
+      "term": "Energieumwandlung und nachhaltige Chemie",
+      "explanation": "Energieumwandlung bewertet man nicht nur nach der gespeicherten Energiemenge, sondern auch nach Effizienz, Stoffkreislauf und Umweltwirkungen."
+    },
+    {
+      "term": "Modellgrenze",
+      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+    },
+    {
+      "term": "AFB III",
+      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q4.2.energy-sustainability.eq.1",
+      "notation": "η = E_nutz / E_zugeführt · 100 %",
+      "explanation": "Wirkungsgrad als Anteil der nutzbaren Energie."
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.eq.2",
+      "notation": "2 H₂ + O₂ → 2 H₂O",
+      "explanation": "Gesamtreaktion einer Wasserstoff-Sauerstoff-Brennstoffzelle; die praktische Zellspannung ist kleiner als die thermodynamische Idealspannung."
+    }
+  ],
+  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q4.2.energy-sustainability.example.1",
+      "title": "Wirkungsgrad berechnen",
+      "prompt": "Ein System nimmt 500 kJ auf und liefert 180 kJ Nutzenergie. Berechne η.",
+      "steps": [
+        "Wirkungsgrad als Nutzenergie durch zugeführte Energie definieren.",
+        "η=180 kJ/500 kJ·100 %.",
+        "Die Einheiten kürzen sich; η=36 %."
+      ],
+      "result": "η=180/500·100 %=36 %."
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.example.2",
+      "title": "Systemgrenzen festlegen",
+      "prompt": "Warum ist ein Vergleich zweier Energiespeicher ohne Lebenszyklusdaten unvollständig?",
+      "steps": [
+        "Ohne Lebenszyklusdaten ist der Vergleich auf einzelne Phasen begrenzt.",
+        "Rohstoffgewinnung und Herstellung können erhebliche Energie- und Umweltlasten verursachen.",
+        "Auch Lebensdauer, Verluste während der Nutzung und Entsorgung einbeziehen."
+      ],
+      "result": "Er betrachtet eventuell nur den Betrieb, nicht Rohstoffgewinnung, Herstellung, Lebensdauer, Wirkungsgradverluste und Entsorgung."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2008,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2013,
+      "term": "NT",
+      "proposal": "D",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
+    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
+    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
+      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+    },
+    {
+      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
+      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+    },
+    {
+      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
+      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q4.2.energy-sustainability.exercise.1",
+    "chem.q4.2.energy-sustainability.exercise.2",
+    "chem.q4.2.energy-sustainability.exercise.3",
+    "chem.q4.2.energy-sustainability.exercise.4",
+    "chem.q4.2.energy-sustainability.exercise.5",
+    "chem.q4.2.energy-sustainability.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q4.2.energy-sustainability.selftest.1",
+    "chem.q4.2.energy-sustainability.selftest.2",
+    "chem.q4.2.energy-sustainability.selftest.3"
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.1.mechanisms",
+  "title": "Aliphatische Reaktionsmechanismen",
+  "summary": "Ordne wichtige Reaktionstypen ein und verfolge Bindungsänderungen sowie Zwischenstufen Schritt für Schritt.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 19,
+    "note": "Die Zahl 19 gilt für Q1.1 insgesamt, nicht für dieses Unterkapitel. Mechanismen sind zusätzlich in Prüfungen zu Q2.3 vertreten."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.1",
+      "subsection": "Aliphatische Reaktionsmechanismen",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.hydrocarbons"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.1.mechanisms.goal.types",
+      "statement": "Ich kann radikalische Substitution, elektrophile Addition sowie nukleophile Substitution und Eliminierung als unterschiedliche Reaktionstypen einordnen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "unterscheiden",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.mechanisms.goal.steps",
+      "statement": "Ich kann bei einem vorgegebenen Mechanismus Teilchen, Bindungsänderungen und Zwischenstufen schrittweise deuten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "entwickeln",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q1.1.mechanisms.goal.conditions",
+      "statement": "Ich kann den Einfluss ausgewählter Reaktionsbedingungen auf konkurrierende Reaktionswege begründen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "vergleichen",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.mechanisms.goal.represent",
+      "statement": "Ich kann Reaktionsschritte in Strukturformeln darstellen und die Elektronenbewegung fachlich beschreiben.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "formulieren",
+        "darstellen"
+      ]
+    }
+  ],
+  "introduction": "Ein Reaktionsmechanismus beschreibt, wie Bindungen Schritt für Schritt gelöst und geknüpft werden. An den Reaktionstypen erkennst du, welche Teilchen angreifen und welche Bedingungen wichtig sind. So begründest du nicht nur das Produkt, sondern auch seinen Bildungsweg.",
+  "explanation": "### 1. Was ein Mechanismus zeigt\n\nEine Reaktionsgleichung fasst Ausgangsstoffe und Produkte zusammen. Der Mechanismus ergänzt die Zwischenschritte: Welche Bindung wird zuerst verändert? Welches Teilchen reagiert? Entsteht eine Zwischenstufe? Bei Elektronenpfeilen zeigt ein voller gebogener Pfeil die Bewegung eines Elektronenpaars; ein halber Pfeil steht für die Bewegung eines einzelnen Elektrons.\n\n### 2. Radikalische Substitution\n\nBei der radikalischen Substitution wird in einem Alkan ein H-Atom durch ein Halogenatom ersetzt. Licht kann eine Halogen-Halogen-Bindung homolytisch spalten. Jedes Atom erhält dabei ein Bindungselektron; es entstehen Radikale.\n\nDie Kettenreaktion umfasst drei Phasen: **Initiierung** erzeugt Radikale, **Kettenfortpflanzung** verbraucht ein Radikal und erzeugt ein neues, **Kettenabbruch** entfernt Radikale durch ihre Verbindung. Bei Methan und Chlor entsteht unter geeigneten Bedingungen Chlormethan und Chlorwasserstoff. Mehrfachsubstitution kann weitere Produkte liefern.\n\n### 3. Elektrophile Addition\n\nDie elektronenreiche π-Bindung eines Alkens reagiert mit einem Elektrophil. Bei HX-Addition wird H–X polarisiert. Die π-Bindung bindet H; dabei entsteht ein Zwischenprodukt mit positiver Ladung. Danach bindet X⁻. Die Mehrfachbindung wird zur Einfachbindung und H sowie X addieren sich an die beiden C-Atome. Bei unsymmetrischen Alkenen können Bedingungen und Stabilität der Zwischenstufe die Orientierung beeinflussen.\n\n### 4. Nukleophile Substitution\n\nEin Nukleophil ist ein Teilchen, das ein Elektronenpaar zur Bindung bereitstellt. Bei einer nukleophilen Substitution ersetzt es eine Abgangsgruppe, zum Beispiel OH⁻ das Bromid in Bromoethan. Das genaue Geschwindigkeitsgesetz und der detaillierte Mechanismus hängen von Substrat und Bedingungen ab. Im einfachen einstufigen SN2-Modell greift das Nukleophil an, während die Abgangsgruppe gleichzeitig austritt.\n\n### 5. Eliminierung und Konkurrenz\n\nBei einer Eliminierung werden zwei Atome oder Gruppen abgespalten. Oft entsteht dadurch eine C=C-Doppelbindung. Bromoethan kann unter geeigneten Bedingungen H und Br verlieren und Ethen bilden.\n\nSubstitution und Eliminierung können miteinander konkurrieren. Wässrige Hydroxid-Lösung begünstigt in typischen Schulbeispielen eher Substitution; alkoholische Lösung und Erwärmen können Eliminierung fördern. Das sind Tendenzen, keine universellen Garantien. Beziehe immer Substrat, Lösungsmittel, Temperatur und weitere Angaben aus dem Material ein.",
+  "fundamentals": [
+    {
+      "term": "Radikal",
+      "explanation": "Teilchen mit mindestens einem ungepaarten Elektron. Es kann in Kettenreaktionen sehr reaktiv sein."
+    },
+    {
+      "term": "Homolytische Spaltung",
+      "explanation": "Bindungsspaltung, bei der jedes Bindungspartner-Atom ein Elektron des Bindungspaars erhält."
+    },
+    {
+      "term": "Elektrophil",
+      "explanation": "Elektronenarmes Teilchen oder Zentrum, das ein Elektronenpaar aufnehmen kann."
+    },
+    {
+      "term": "Nukleophil",
+      "explanation": "Teilchen, das ein Elektronenpaar zur Bildung einer neuen Bindung bereitstellt."
+    },
+    {
+      "term": "Abgangsgruppe",
+      "explanation": "Atom oder Atomgruppe, die bei einer Substitution mit dem Bindungselektronenpaar aus dem Molekül austritt."
+    },
+    {
+      "term": "Zwischenstufe",
+      "explanation": "Kurzlebige Struktur, die zwischen Edukt und Produkt im Reaktionsmechanismus auftritt."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.1.mechanisms.eq.chlorination",
+      "notation": "CH₄ + Cl₂ —hν→ CH₃Cl + HCl",
+      "explanation": "Gesamtgleichung der ersten Substitution; weitere Chlorierungen sind möglich."
+    },
+    {
+      "id": "chem.q1.1.mechanisms.eq.addition",
+      "notation": "CH₂=CH₂ + HBr → CH₃–CH₂Br",
+      "explanation": "Gesamtgleichung der elektrophilen Addition von HBr an Ethen."
+    },
+    {
+      "id": "chem.q1.1.mechanisms.eq.substitution",
+      "notation": "CH₃CH₂Br + OH⁻ → CH₃CH₂OH + Br⁻",
+      "explanation": "Nukleophile Substitution; OH⁻ ersetzt Bromid."
+    },
+    {
+      "id": "chem.q1.1.mechanisms.eq.elimination",
+      "notation": "CH₃CH₂Br + OH⁻ → CH₂=CH₂ + H₂O + Br⁻",
+      "explanation": "Schematische Eliminierung unter geeigneten Bedingungen; Produktverteilung hängt von den Bedingungen ab."
+    }
+  ],
+  "equationNote": "Vollständige gebogene Pfeile zeigen Elektronenpaare; halbe Pfeile zeigen einzelne Elektronen in Radikalmechanismen. Die Gesamtgleichung ersetzt nicht die Darstellung von Zwischenschritten.",
+  "mechanisms": [
+    {
+      "id": "chem.q1.1.mechanisms.mechanism.radical",
+      "title": "Radikalische Chlorierung von Methan",
+      "steps": [
+        "Initiierung: Cl₂ —hν→ 2 Cl·. Die Bindung wird homolytisch gespalten.",
+        "Kettenfortpflanzung: Cl· + CH₄ → HCl + CH₃·.",
+        "Kettenfortpflanzung: CH₃· + Cl₂ → CH₃Cl + Cl·. Das neue Cl· setzt die Kette fort.",
+        "Kettenabbruch: Zwei Radikale verbinden sich, zum Beispiel Cl· + Cl· → Cl₂."
+      ]
+    },
+    {
+      "id": "chem.q1.1.mechanisms.mechanism.electrophilic",
+      "title": "Elektrophile Addition von HX",
+      "steps": [
+        "Die π-Bindung polarisiert HX und bindet H⁺-Charakter.",
+        "Die H–X-Bindung wird gespalten; eine positiv geladene Zwischenstufe und X⁻ entstehen.",
+        "X⁻ bindet an das positivierte C-Atom; die Addition ist abgeschlossen."
+      ]
+    },
+    {
+      "id": "chem.q1.1.mechanisms.mechanism.sn2",
+      "title": "Einstufige nukleophile Substitution (SN2)",
+      "steps": [
+        "Das Nukleophil greift das C-Atom mit der Abgangsgruppe von der Rückseite an.",
+        "Während die neue Bindung entsteht, wird die Bindung zur Abgangsgruppe gelöst.",
+        "Produkt und Abgangsgruppen-Ion entstehen in einem gemeinsamen Reaktionsschritt."
+      ]
+    }
+  ],
+  "workedExamples": [
+    {
+      "id": "chem.q1.1.mechanisms.example.radical",
+      "title": "Kettenmechanismus erkennen",
+      "prompt": "Ordne die Schritte der Chlorierung von Methan ein: Cl₂ —hν→ 2 Cl·; Cl· + CH₄ → HCl + CH₃·; CH₃· + Cl₂ → CH₃Cl + Cl·.",
+      "steps": [
+        "Der erste Schritt erzeugt Radikale aus einem stabilen Molekül.",
+        "Der zweite Schritt bildet ein neues Radikal aus einem vorhandenen Radikal.",
+        "Der dritte Schritt bildet Produkt und regeneriert ein Radikal."
+      ],
+      "result": "Erster Schritt: Initiierung. Zweiter und dritter Schritt: Kettenfortpflanzung."
+    },
+    {
+      "id": "chem.q1.1.mechanisms.example-competition",
+      "title": "Substitution oder Eliminierung?",
+      "prompt": "Bromoethan reagiert entweder mit wässriger Hydroxid-Lösung oder unter Erwärmen mit alkoholischer Hydroxid-Lösung. Welche Produkte erwartest du bevorzugt?",
+      "steps": [
+        "Erkenne, dass OH⁻ sowohl als Nukleophil als auch als Base reagieren kann.",
+        "Ordne die wässrige Lösung der typischen Substitution zu.",
+        "Ordne alkoholische Lösung und Erwärmen der begünstigten Eliminierung zu."
+      ],
+      "result": "In Wasser wird typischerweise Ethanol durch Substitution bevorzugt; mit alkoholischer Hydroxid-Lösung und Erwärmen wird häufig Ethen durch Eliminierung begünstigt. Die konkrete Verteilung hängt von den Bedingungen ab."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2017,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Reaktionstyp, angreifendes Teilchen und Abgangsgruppe benennen.",
+    "AFB II: Mechanismusschritte und Elektronenverschiebungen in Strukturformeln darstellen.",
+    "AFB III: Konkurrierende Reaktionswege anhand von Bedingungen und Material begründet beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Unterscheide Gesamtgleichung und Mechanismus. Beschreibe bei jedem Schritt, welche Bindung entsteht oder bricht.",
+      "commonError": "Eine ausgeglichene Gesamtgleichung wird als vollständiger Mechanismus ausgegeben."
+    },
+    {
+      "tip": "Kennzeichne Radikale mit ungepaartem Elektron und unterscheide homolytische von heterolytischer Spaltung.",
+      "commonError": "Radikalische Elektronenbewegung wird mit einem Elektronenpaarpfeil dargestellt."
+    },
+    {
+      "tip": "Leite die Produktverteilung aus den gegebenen Bedingungen ab und formuliere sie als Tendenz, wenn kein eindeutiger Mechanismus belegt ist.",
+      "commonError": "Lösungsmittel und Temperatur werden ignoriert oder als absolute Produktgarantie interpretiert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.1.mechanisms.exercise.basic-classify",
+    "chem.q1.1.mechanisms.exercise.basic-radical",
+    "chem.q1.1.mechanisms.exercise.standard-sn2",
+    "chem.q1.1.mechanisms.exercise.standard-elimination",
+    "chem.q1.1.mechanisms.exercise.transfer-conditions",
+    "chem.q1.1.mechanisms.exercise.transfer-mechanism"
+  ],
+  "selfTestIds": [
+    "chem.q1.1.mechanisms.selftest.radical",
+    "chem.q1.1.mechanisms.selftest.nucleophile",
+    "chem.q1.1.mechanisms.selftest.elimination"
+  ]
+}

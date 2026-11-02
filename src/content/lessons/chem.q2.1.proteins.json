@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.1.proteins",
+  "title": "Proteine",
+  "summary": "Erkläre Struktur, Eigenschaften und typische Reaktionen von Proteine im Chemie-LK.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "high",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 47,
+    "note": "47 ist die Vorschlagszahl für das KCGO-Feld, keine Unterthemenzählung."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.1",
+      "subsection": "Proteine",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.interactions"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.1.proteins.goal.structure",
+      "statement": "Ich kann zentrale Strukturmerkmale von Proteine darstellen und fachsprachlich beschreiben.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.proteins.goal.properties",
+      "statement": "Ich kann Strukturmerkmale mit beobachtbaren Eigenschaften über passende Wechselwirkungen verknüpfen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.proteins.goal.reaction",
+      "statement": "Ich kann typische Reaktionen oder Nachweise ausgleichen und ihre Beobachtungen deuten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q2.1.proteins.goal.material",
+      "statement": "Ich kann Aussagen aus einem Material belegen und ihre Reichweite kritisch begrenzen.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "auswerten",
+        "bewerten"
+      ]
+    }
+  ],
+  "introduction": "Proteine sind keine bloßen Ketten aus Aminosäuren. Ihre räumliche Faltung bestimmt, welche Teilchen sie binden und welche Reaktionen sie ermöglichen.",
+  "explanation": "### Von der Sequenz zur Funktion\nDie Primärstruktur ist die Aminosäuresequenz, verbunden durch Peptidbindungen. Wasserstoffbrücken stabilisieren typische Abschnitte der Sekundärstruktur, etwa α-Helix und β-Faltblatt. Die Tertiärstruktur beschreibt die gesamte Faltung einer Polypeptidkette. Bei mehreren Untereinheiten spricht man von Quartärstruktur.\n\nStabilisierende Wechselwirkungen sind Wasserstoffbrücken, Ionenbindungen zwischen geladenen Seitenketten, hydrophobe Effekte und Disulfidbrücken zwischen Cysteinresten. Welche davon wichtig sind, hängt von Sequenz und Umgebung ab.\n\n### Denaturierung und Nachweise\nHitze, extreme pH-Werte oder bestimmte Lösungsmittel können die räumliche Struktur verändern. Dabei werden meist nicht die Peptidbindungen hydrolysiert; die Funktion geht durch Verlust der Faltung verloren. Die Biuret-Reaktion weist Peptidbindungen über einen violetten Komplex mit Cu²⁺ im alkalischen Milieu nach. Ein Nachweis belegt eine Stoffeigenschaft, nicht automatisch eine biologische Funktion.",
+  "fundamentals": [
+    {
+      "term": "Primärstruktur",
+      "explanation": "Aminosäuresequenz eines Proteins."
+    },
+    {
+      "term": "Denaturierung",
+      "explanation": "Verlust der nativen räumlichen Struktur und oft der Funktion, meist ohne Spaltung des Peptidrückgrats."
+    },
+    {
+      "term": "Disulfidbrücke",
+      "explanation": "Kovalente S–S-Verknüpfung zweier Cysteinreste."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.1.proteins.eq.1",
+      "notation": "Protein + Cu²⁺ (alkalisch) → violetter Komplex",
+      "explanation": "Komplexbildung an Peptidbindungen; keine vollständige Strukturformel des Komplexes erforderlich."
+    }
+  ],
+  "equationNote": "Schematische Gleichungen zeigen den Reaktionstyp. Ergänze Zustände, Bedingungen und Strukturformeln, wenn die Aufgabe dies verlangt.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.1.proteins.example.1",
+      "title": "Strukturstörung erklären",
+      "prompt": "Eine Erhöhung der Temperatur verändert die Aktivität eines Enzyms.",
+      "steps": [
+        "Wärme erhöht die Bewegungsenergie der Teilchen.",
+        "Schwache Wechselwirkungen, die die Faltung stabilisieren, können gestört werden.",
+        "Das aktive Zentrum verändert seine Form; das Substrat passt schlechter.",
+        "Die Peptidkette muss dabei nicht hydrolysiert werden."
+      ],
+      "result": "Die Aktivität sinkt durch Denaturierung beziehungsweise Strukturänderung."
+    },
+    {
+      "id": "chem.q2.1.proteins.example.2",
+      "title": "Nachweis auswerten",
+      "prompt": "Eine Probe wird mit alkalischer Cu²⁺-Lösung violett.",
+      "steps": [
+        "Die violette Färbung ist die Beobachtung.",
+        "Sie entspricht einer positiven Biuret-Reaktion.",
+        "Daraus folgt: Peptidbindungen sind vorhanden.",
+        "Allein daraus folgen weder genaue Proteinidentität noch Funktion."
+      ],
+      "result": "Die Probe enthält Peptidbindungen; weitergehende Aussagen brauchen zusätzliche Daten."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2024,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Stoffklasse, funktionelle Gruppen und Strukturmerkmale identifizieren.",
+    "AFB II: Reaktionen, Nachweise oder Struktur-Eigenschaft-Beziehungen mit Fachmodellen erklären.",
+    "AFB III: Materialaussagen anhand von Daten bewerten und Grenzen der Deutung kennzeichnen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Baue eine Struktur-Eigenschaft-Erklärung als nachvollziehbare Kette auf.",
+      "commonError": "Eine Eigenschaft wird allein aus dem Stoffnamen abgeleitet."
+    },
+    {
+      "tip": "Trenne Beobachtung, Deutung und Schlussfolgerung.",
+      "commonError": "Ein einzelner Nachweis wird als vollständige Stoffidentifikation behandelt."
+    },
+    {
+      "tip": "Historische Belege zeigen Aufgabenpraxis, nicht automatisch aktuelle Verbindlichkeit.",
+      "commonError": "Feldhäufigkeit wird als Häufigkeit jedes Unterthemas ausgegeben."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.1.proteins.exercise.1",
+    "chem.q2.1.proteins.exercise.2",
+    "chem.q2.1.proteins.exercise.3",
+    "chem.q2.1.proteins.exercise.4",
+    "chem.q2.1.proteins.exercise.5",
+    "chem.q2.1.proteins.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q2.1.proteins.selftest.1",
+    "chem.q2.1.proteins.selftest.2",
+    "chem.q2.1.proteins.selftest.3"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.2.polycondensation-polyaddition",
+  "title": "Polykondensation und Polyaddition",
+  "summary": "Struktur, Reaktionen und Eigenschaften von Polykondensation und Polyaddition erschließen.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "high",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 32,
+    "note": "32 Vorschläge im Feld Q2.2, nicht für dieses einzelne Unterkapitel."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.2",
+      "subsection": "Polykondensation und Polyaddition",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.mechanisms"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.goal.structure",
+      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.goal.reactions",
+      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "unterscheiden"
+      ]
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.goal.properties",
+      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.goal.evaluate",
+      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Beide Reaktionstypen bauen Polymere aus mehrfunktionellen Monomeren auf. Die Stoffbilanz unterscheidet sie.",
+  "explanation": "Bei der Polykondensation reagieren funktionelle Gruppen unter Abspaltung eines kleinen Moleküls, häufig Wasser. Polyester entstehen etwa aus Diolen und Dicarbonsäuren. Bei der Polyaddition werden Gruppen ohne Abspaltung verknüpft; Polyurethane können aus Diolen und Diisocyanaten entstehen. Zwei funktionelle Gruppen ermöglichen meist lineare Ketten; höhere Funktionalität kann Netzwerke erzeugen. Prüfe beim Zeichnen die Atombilanz und trage ein Kondensationsprodukt ausdrücklich ein.",
+  "fundamentals": [
+    {
+      "term": "Monomer",
+      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+    },
+    {
+      "term": "Vernetzung",
+      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+    },
+    {
+      "term": "Systemgrenze",
+      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.eq.1",
+      "notation": "Diol + Dicarbonsäure → Polyester + H₂O; Diisocyanat + Diol → Polyurethan",
+      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+    }
+  ],
+  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.example.1",
+      "title": "Polyesterbildung",
+      "prompt": "HO–R–OH reagiert mit HOOC–R′–COOH. Welcher Reaktionstyp liegt vor?",
+      "steps": [
+        "Esterbindungen entstehen unter Abspaltung von Wasser",
+        "das ist Polykondensation."
+      ],
+      "result": "Esterbindungen entstehen unter Abspaltung von Wasser; das ist Polykondensation."
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.example.2",
+      "title": "Polyurethanbildung",
+      "prompt": "Diol und Diisocyanat reagieren ohne Nebenprodukt. Ordne ein.",
+      "steps": [
+        "Die Urethanbindung entsteht durch Addition der Gruppen",
+        "es ist Polyaddition."
+      ],
+      "result": "Die Urethanbindung entsteht durch Addition der Gruppen; es ist Polyaddition."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2024,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
+    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
+    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
+      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+    },
+    {
+      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
+      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+    },
+    {
+      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
+      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.2.polycondensation-polyaddition.exercise.1",
+    "chem.q2.2.polycondensation-polyaddition.exercise.2",
+    "chem.q2.2.polycondensation-polyaddition.exercise.3",
+    "chem.q2.2.polycondensation-polyaddition.exercise.4",
+    "chem.q2.2.polycondensation-polyaddition.exercise.5",
+    "chem.q2.2.polycondensation-polyaddition.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q2.2.polycondensation-polyaddition.selftest.1",
+    "chem.q2.2.polycondensation-polyaddition.selftest.2",
+    "chem.q2.2.polycondensation-polyaddition.selftest.3"
+  ]
+}

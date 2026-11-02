@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.2.polymerization",
+  "title": "Polymerisationsreaktionen",
+  "summary": "Struktur, Reaktionen und Eigenschaften von Polymerisationsreaktionen erschließen.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "high",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 32,
+    "note": "32 Vorschläge im Feld Q2.2, nicht für dieses einzelne Unterkapitel."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.2",
+      "subsection": "Polymerisationsreaktionen",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.mechanisms"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.2.polymerization.goal.structure",
+      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.polymerization.goal.reactions",
+      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "unterscheiden"
+      ]
+    },
+    {
+      "id": "chem.q2.2.polymerization.goal.properties",
+      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.polymerization.goal.evaluate",
+      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Ungesättigte Monomere verbinden sich zu langen Ketten, wenn ihre Mehrfachbindungen geöffnet werden.",
+  "explanation": "Bei der radikalischen Polymerisation bildet ein Initiator Radikale. Diese greifen die C=C-Bindung eines Monomers an. Das neue Kettenradikal addiert weitere Monomere; beim Abbruch endet das Kettenwachstum. Für die Wiederholungseinheit öffnest du die Doppelbindung, zeichnest die neue Hauptkette und übernimmst Seitenreste. Styrol ergibt beispielsweise –CH₂–CH(C₆H₅)–. Es wird kein kleines Molekül abgespalten.",
+  "fundamentals": [
+    {
+      "term": "Monomer",
+      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+    },
+    {
+      "term": "Vernetzung",
+      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+    },
+    {
+      "term": "Systemgrenze",
+      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.2.polymerization.eq.1",
+      "notation": "n CH₂=CH₂ → [–CH₂–CH₂–]ₙ",
+      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+    }
+  ],
+  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.2.polymerization.example.1",
+      "title": "Styrol wiederholen",
+      "prompt": "Leite aus CH₂=CH–C₆H₅ die Wiederholungseinheit ab.",
+      "steps": [
+        "Die C=C-Doppelbindung des Styrols wird geöffnet.",
+        "Die beiden C-Atome bilden Bindungen zu den Nachbarmonomeren.",
+        "Der Phenylrest bleibt am zweiten C-Atom erhalten: [–CH₂–CH(C₆H₅)–]ₙ."
+      ],
+      "result": "Öffne die C=C-Bindung. Das Phenyl bleibt Seitenrest: [–CH₂–CH(C₆H₅)–]ₙ."
+    },
+    {
+      "id": "chem.q2.2.polymerization.example.2",
+      "title": "Polymerisation erkennen",
+      "prompt": "Ein Alken bildet ohne Nebenprodukt ein langkettiges Produkt. Ordne die Reaktion ein.",
+      "steps": [
+        "Die C=C-Bindung wird geöffnet und Monomere werden addiert",
+        "es ist eine Additionspolymerisation."
+      ],
+      "result": "Die C=C-Bindung wird geöffnet und Monomere werden addiert; es ist eine Additionspolymerisation."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2021,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
+    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
+    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
+      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+    },
+    {
+      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
+      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+    },
+    {
+      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
+      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.2.polymerization.exercise.1",
+    "chem.q2.2.polymerization.exercise.2",
+    "chem.q2.2.polymerization.exercise.3",
+    "chem.q2.2.polymerization.exercise.4",
+    "chem.q2.2.polymerization.exercise.5",
+    "chem.q2.2.polymerization.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q2.2.polymerization.selftest.1",
+    "chem.q2.2.polymerization.selftest.2",
+    "chem.q2.2.polymerization.selftest.3"
+  ]
+}

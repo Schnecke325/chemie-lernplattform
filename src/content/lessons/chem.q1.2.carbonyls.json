@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.2.carbonyls",
+  "title": "Aldehyde und Ketone",
+  "summary": "Unterscheide Aldehyde und Ketone und erkläre Carbonylreaktionen mit der polaren C=O-Bindung.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 11,
+    "note": "Die Zahl 11 bezieht sich auf das Themenfeld Q1.2, nicht auf Carbonylverbindungen allein."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.2",
+      "subsection": "Aldehyde und Ketone",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.interactions",
+    "chem.q1.1.mechanisms",
+    "chem.q1.2.alcohols"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.2.carbonyls.goal.identify",
+      "statement": "Ich kann Aldehyde und Ketone anhand der Position der Carbonylgruppe unterscheiden.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "zuordnen",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.q1.2.carbonyls.goal.polarity",
+      "statement": "Ich kann die Polarität der C=O-Bindung und ihre Bedeutung für die Reaktivität erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q1.2.carbonyls.goal.reactions",
+      "statement": "Ich kann typische Oxidations- und Reduktionsprodukte sowie Nachweise auswerten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "auswerten"
+      ]
+    },
+    {
+      "id": "chem.q1.2.carbonyls.goal.addition",
+      "statement": "Ich kann die Grundidee einer nucleophilen Addition an die Carbonylgruppe darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "darstellen",
+        "erläutern"
+      ]
+    }
+  ],
+  "introduction": "Aldehyde und Ketone enthalten beide eine Carbonylgruppe C=O. Sie unterscheidet sich in ihrer Position im Molekül. Die polare C=O-Bindung erklärt außerdem, warum Carbonylverbindungen für nucleophile Teilchen angreifbar sind und welche Nachweise sich nutzen lassen.",
+  "explanation": "### 1. Carbonylgruppe und Stoffklassen\n\nDie Carbonylgruppe besteht aus einer C=O-Doppelbindung. Bei einem Aldehyd sitzt das Carbonyl-C am Ende einer Kette und ist an mindestens ein H-Atom gebunden. Bei einem Keton liegt es zwischen zwei C-Atomen. Diese Struktur unterscheidet die Stoffklassen.\n\n### 2. Polarität und Reaktivität\n\nSauerstoff ist elektronegativer als Kohlenstoff. Deshalb ist die C=O-Bindung polar: O trägt δ⁻, das Carbonyl-C δ⁺. Das Carbonyl-C ist damit elektrophil und kann von einem Nucleophil angegriffen werden. Bei einer nucleophilen Addition wird die π-Bindung der C=O-Gruppe auf das O-Atom verschoben. Das O kann anschließend protoniert werden.\n\n### 3. Oxidation und Reduktion\n\nAldehyde lassen sich im üblichen Schulmodell zu Carbonsäuren oxidieren. Ketone sind unter milden Bedingungen deutlich schwerer weiter zu oxidieren. Bei der Reduktion entsteht aus der Carbonylgruppe eine Hydroxygruppe: Aldehyde ergeben primäre, Ketone sekundäre Alkanole.\n\n### 4. Nachweise\n\nFehling- oder Tollens-Reagenz können zum Nachweis reduzierender Aldehyde dienen. Ein positiver Fehling-Test zeigt bei vielen Aldehyden eine Reduktion von Cu²⁺ zu rotem Cu₂O. Ein positiver Tollens-Test kann metallisches Silber erzeugen. Solche Nachweise sind Hinweise. Sie ersetzen keine vollständige Strukturaufklärung und müssen mit den Versuchsbedingungen interpretiert werden.\n\n### 5. Struktur, Reaktion und Beleg zusammenführen\n\nWenn du ein Material auswertest, ordne zuerst die Carbonylgruppe ein. Prüfe danach, welcher Reaktionstyp möglich ist und welche Beobachtung dazu passt. Trenne die Beobachtung – etwa einen Niederschlag – von ihrer Deutung als Hinweis auf eine Aldehydgruppe.",
+  "fundamentals": [
+    {
+      "term": "Carbonylgruppe",
+      "explanation": "Funktionelle Gruppe mit einer C=O-Doppelbindung. Sie ist wegen der unterschiedlichen Elektronegativität polar."
+    },
+    {
+      "term": "Aldehyd",
+      "explanation": "Carbonylverbindung, deren Carbonyl-C am Kettenende liegt und an mindestens ein H-Atom gebunden ist."
+    },
+    {
+      "term": "Keton",
+      "explanation": "Carbonylverbindung, deren Carbonyl-C zwischen zwei C-Atomen liegt."
+    },
+    {
+      "term": "Nucleophile Addition",
+      "explanation": "Reaktion, bei der ein Nucleophil an das elektrophile Carbonyl-C bindet und die C=O-π-Bindung zum O verschoben wird."
+    },
+    {
+      "term": "Fehling-Probe",
+      "explanation": "Nachweisreaktion, bei der reduzierende Stoffe Cu²⁺-Ionen unter geeigneten Bedingungen zu rotem Cu₂O umsetzen können."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.2.carbonyls.eq.oxidation",
+      "notation": "R–CHO + [O] → R–COOH",
+      "explanation": "Vereinfachte Oxidation eines Aldehyds zur Carbonsäure."
+    },
+    {
+      "id": "chem.q1.2.carbonyls.eq.aldehyde-reduction",
+      "notation": "R–CHO + 2[H] → R–CH₂OH",
+      "explanation": "Reduktion eines Aldehyds zum primären Alkanol."
+    },
+    {
+      "id": "chem.q1.2.carbonyls.eq.ketone-reduction",
+      "notation": "R–CO–R′ + 2[H] → R–CHOH–R′",
+      "explanation": "Reduktion eines Ketons zum sekundären Alkanol."
+    },
+    {
+      "id": "chem.q1.2.carbonyls.eq.fehlings",
+      "notation": "R–CHO + 2 Cu²⁺ + 5 OH⁻ → R–COO⁻ + Cu₂O↓ + 3 H₂O",
+      "explanation": "Schematische alkalische Ionengleichung der Fehling-Reaktion; Details hängen von Reagenz und Bedingungen ab."
+    }
+  ],
+  "equationNote": "[O] und [H] sind vereinfachte Schreibweisen für Oxidations- bzw. Reduktionsmittel. Für quantitative Bilanzen nutze die in der Aufgabe angegebenen Reagenzien und Bedingungen.",
+  "mechanisms": [
+    {
+      "id": "chem.q1.2.carbonyls.mechanism.nucleophilic-addition",
+      "title": "Grundidee der nucleophilen Addition",
+      "steps": [
+        "Das Nucleophil greift das δ⁺-Carbonyl-C an.",
+        "Die Elektronen der C=O-π-Bindung verschieben sich zum O-Atom; ein O⁻-Zwischenprodukt entsteht.",
+        "Das O⁻ wird protoniert. Die C=O-Doppelbindung ist in eine C–O-Einfachbindung überführt."
+      ]
+    }
+  ],
+  "workedExamples": [
+    {
+      "id": "chem.q1.2.carbonyls.example.classify",
+      "title": "Aldehyd oder Keton?",
+      "prompt": "Ordne CH₃CH₂CHO und CH₃COCH₃ ein.",
+      "steps": [
+        "Suche jeweils die C=O-Gruppe.",
+        "Prüfe, ob das Carbonyl-C am Kettenende oder zwischen zwei C-Atomen sitzt."
+      ],
+      "result": "CH₃CH₂CHO ist Propanal, ein Aldehyd. CH₃COCH₃ ist Propanon, ein Keton."
+    },
+    {
+      "id": "chem.q1.2.carbonyls.example.reduction",
+      "title": "Ketonreduktion vorhersagen",
+      "prompt": "Welches Produkt entsteht bei der Reduktion von Butanon?",
+      "steps": [
+        "Ersetze die C=O-Doppelbindung durch C–OH.",
+        "Ergänze H am Carbonyl-C, sodass die Valenz erfüllt ist.",
+        "Prüfe, ob das C mit OH primär, sekundär oder tertiär ist."
+      ],
+      "result": "Butanon wird zu Butan-2-ol reduziert, einem sekundären Alkanol."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2009,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2020,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Aldehyd, Keton und Carbonylgruppe in einer Struktur benennen.",
+    "AFB II: Oxidations-/Reduktionsgleichungen formulieren oder Nachweisbeobachtungen mit der Stoffklasse verknüpfen.",
+    "AFB III: Aussagekraft eines Nachweises und alternative Erklärungen anhand des Materials beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Ordne die Carbonylverbindung anhand des Carbonyl-C-Atoms ein.",
+      "commonError": "Aldehyd und Keton werden allein nach der Kettenlänge unterschieden."
+    },
+    {
+      "tip": "Nutze die Polarität der C=O-Bindung, um den Angriffspunkt eines Nucleophils zu begründen.",
+      "commonError": "Das Nucleophil wird ohne Erklärung am O-Atom statt am elektrophilen C eingezeichnet."
+    },
+    {
+      "tip": "Behandle Nachweisreaktionen als Indiz und beachte Versuchsbedingungen.",
+      "commonError": "Ein positiver Farbumschlag wird als eindeutiger Beweis für eine einzelne Verbindung ausgegeben."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.2.carbonyls.exercise.basic-identify",
+    "chem.q1.2.carbonyls.exercise.basic-polar",
+    "chem.q1.2.carbonyls.exercise.standard-reduction",
+    "chem.q1.2.carbonyls.exercise.standard-test",
+    "chem.q1.2.carbonyls.exercise.transfer-addition",
+    "chem.q1.2.carbonyls.exercise.transfer-oxidation"
+  ],
+  "selfTestIds": [
+    "chem.q1.2.carbonyls.selftest.aldehyde",
+    "chem.q1.2.carbonyls.selftest.nucleophile",
+    "chem.q1.2.carbonyls.selftest.reduction"
+  ]
+}

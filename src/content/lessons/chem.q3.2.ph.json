@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.2.ph",
+  "title": "pH, pKS/pKB und mehrprotonige Säuren",
+  "summary": "Berechne pH-Werte, ordne Säurestärken ein und wähle für Protolysegleichgewichte passende Näherungen.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 23,
+    "note": "Die Zahl 23 gilt für Q3.2 insgesamt, nicht für pH-Rechnungen oder einzelne Säuretypen."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.2",
+      "subsection": "pH, Säure-/Basenkonstanten und mehrprotonige Säuren",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.q3.2.protolysis"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.2.ph.goal.pH",
+      "statement": "Ich kann pH- und pOH-Werte aus Konzentrationen starker Säuren und Basen bestimmen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.q3.2.ph.goal.constants",
+      "statement": "Ich kann pKs/pKb mit Säure- und Basenstärke verknüpfen und geeignete Rechenmodelle auswählen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "begründen",
+        "anwenden"
+      ]
+    },
+    {
+      "id": "chem.q3.2.ph.goal.weak",
+      "statement": "Ich kann den pH einer schwachen Säure mit einer begründeten Näherung berechnen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "überprüfen"
+      ]
+    },
+    {
+      "id": "chem.q3.2.ph.goal.polyprotic",
+      "statement": "Ich kann mehrstufige Protolysegleichgewichte unterscheiden und Modellannahmen benennen.",
+      "competencies": [
+        "S",
+        "B"
+      ],
+      "operators": [
+        "darstellen",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Der pH-Wert macht die Konzentration von Oxonium-Ionen auf einer logarithmischen Skala übersichtlich. Für Rechnungen musst du zuerst entscheiden, ob die Säure oder Base stark oder schwach ist. Davon hängt ab, ob du eine vollständige Protolyse annimmst oder ein Gleichgewicht berechnest.",
+  "explanation": "### 1. pH und pOH\n\nDer pH-Wert ist definiert als pH = −lg(c(H₃O⁺)/c°); in Schulaufgaben wird meist die Kurzform pH = −lg c(H₃O⁺) mit c in mol·L⁻¹ verwendet. Entsprechend gilt pOH = −lg c(OH⁻). Bei 25 °C gilt pH + pOH = 14,00. Beachte: Der pH ist logarithmisch. Eine Änderung um eine Einheit entspricht einer zehnfachen Änderung der Oxonium-Ionen-Konzentration.\n\n### 2. Starke Säuren und Basen\n\nEine starke einprotonige Säure protolysiert in verdünnter wässriger Lösung weitgehend. Näherungsweise gilt c(H₃O⁺) ≈ c₀. Für eine starke Base gilt entsprechend oft c(OH⁻) ≈ c₀; die Stöchiometrie muss berücksichtigt werden, wenn eine Base mehrere OH⁻-Äquivalente liefert. Diese Näherungen sind nicht für beliebig konzentrierte Lösungen geeignet.\n\n### 3. Schwache Säuren und Säurekonstante\n\nFür HA + H₂O ⇌ A⁻ + H₃O⁺ beschreibt Ks = c(A⁻)·c(H₃O⁺)/c(HA) die Lage des Gleichgewichts im verdünnten Lösungsmodell. pKs = −lg Ks. Je kleiner pKs, desto stärker die Säure. Für eine schwache einprotonige Säure mit Anfangskonzentration c₀ gilt näherungsweise [H₃O⁺] ≈ √(Ks·c₀), wenn die Protolyse klein gegenüber c₀ ist. Prüfe nach der Rechnung, ob x/c₀ tatsächlich klein ist.\n\nAnalog beschreibt Kb die Protonenaufnahme einer Base; pKb = −lg Kb. Für ein korrespondierendes Paar gilt bei 25 °C näherungsweise pKs + pKb = 14,00.\n\n### 4. Mehrprotonige Säuren\n\nMehrprotonige Säuren geben Protonen nacheinander ab. Jede Stufe besitzt eine eigene Säurekonstante. Meist wird die folgende Abgabe schwieriger, weil das Teilchen nach vorangegangener Abgabe negativ geladen ist. Berechne pH-Beiträge stufenweise nur dann zusammengefasst, wenn die Werte und Aufgabenbedingungen eine solche Vereinfachung rechtfertigen.\n\n### 5. Modellgrenzen und Plausibilität\n\nDas Konzentrationsmodell setzt verdünnte Lösungen voraus; bei hohen Konzentrationen können Aktivitäten statt Konzentrationen relevant sein. Für typische Schulaufgaben nutzt du die vorgegebenen Vereinfachungen. Achte auf Einheiten, logarithmische Größen und sinnvolle Stellen. Bei schwachen Protolyten prüfst du jede Näherung.",
+  "fundamentals": [
+    {
+      "term": "pH-Wert",
+      "explanation": "Negativer dekadischer Logarithmus der Oxonium-Ionen-Aktivität; in verdünnten Schulmodellen wird meist die Konzentration eingesetzt."
+    },
+    {
+      "term": "pOH-Wert",
+      "explanation": "Negativer dekadischer Logarithmus der Hydroxid-Ionen-Konzentration im vereinfachten Modell."
+    },
+    {
+      "term": "Säurekonstante Ks",
+      "explanation": "Gleichgewichtskonstante für die Protonenabgabe einer Säure in Wasser."
+    },
+    {
+      "term": "pKs-Wert",
+      "explanation": "Negativer dekadischer Logarithmus von Ks. Ein kleinerer pKs-Wert bedeutet stärkere Säure."
+    },
+    {
+      "term": "Mehrprotonige Säure",
+      "explanation": "Säure, die Protonen stufenweise abgeben kann. Jede Stufe hat eine eigene Säurekonstante."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.2.ph.eq.ph",
+      "notation": "pH = −lg(c(H₃O⁺)/c°) ≈ −lg(c(H₃O⁺) / mol·L⁻¹)",
+      "explanation": "Logarithmische Definition; die Schulkurzform setzt den Zahlenwert der Konzentration in mol·L⁻¹ ein."
+    },
+    {
+      "id": "chem.q3.2.ph.eq.poh",
+      "notation": "pOH = −lg(c(OH⁻)/c°);  pH + pOH = 14,00 (bei 25 °C)",
+      "explanation": "Zusammenhang für verdünnte wässrige Lösungen bei 25 °C."
+    },
+    {
+      "id": "chem.q3.2.ph.eq.ka",
+      "notation": "Ks = c(A⁻)·c(H₃O⁺)/c(HA);  pKs = −lg Ks",
+      "explanation": "Säuregleichgewicht für HA + H₂O ⇌ A⁻ + H₃O⁺ im Konzentrationsmodell."
+    },
+    {
+      "id": "chem.q3.2.ph.eq.weak-acid",
+      "notation": "c(H₃O⁺) ≈ √(Ks·c₀)",
+      "explanation": "Näherung für eine schwache einprotonige Säure, wenn die Protolyse klein gegenüber c₀ ist."
+    }
+  ],
+  "equationNote": "Die verwendeten Konzentrationsformeln sind Näherungen für verdünnte Lösungen. Prüfe bei schwachen Säuren die Voraussetzung x ≪ c₀ und nutze Temperaturangaben für pH+pOH.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.2.ph.example.strong",
+      "title": "pH einer starken Säure",
+      "prompt": "Berechne den pH einer 1,0·10⁻³ mol·L⁻¹ Salzsäure bei 25 °C.",
+      "steps": [
+        "Salzsäure ist eine starke einprotonige Säure; setze c(H₃O⁺) ≈ c₀.",
+        "Berechne pH = −lg(1,0·10⁻³).",
+        "Prüfe die Größenordnung: eine 10⁻³-molare starke Säure liegt ungefähr bei pH 3."
+      ],
+      "result": "pH = 3,00."
+    },
+    {
+      "id": "chem.q3.2.ph.example.weak",
+      "title": "pH einer schwachen Säure",
+      "prompt": "Berechne näherungsweise den pH einer 0,10 mol·L⁻¹ Ethansäurelösung mit Ks = 1,8·10⁻⁵ mol·L⁻¹.",
+      "steps": [
+        "Nutze für die schwache Säure x ≈ √(Ks·c₀).",
+        "Berechne x = √(1,8·10⁻⁵·0,10) = 1,34·10⁻³ mol·L⁻¹.",
+        "Berechne pH = −lg(1,34·10⁻³) ≈ 2,87.",
+        "Prüfe x/c₀ = 0,0134, also etwa 1,34 %. Die Näherung ist plausibel."
+      ],
+      "result": "pH ≈ 2,87; die angenommene geringe Protolyse ist mit rund 1,34 % plausibel."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2015,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 5,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: pH, pKs/pKb und Gleichgewichtsgrößen definieren oder aus Daten ablesen.",
+    "AFB II: pH-Werte starker und schwacher Säuren/Basen berechnen und Näherungen prüfen.",
+    "AFB III: Mehrstufige Gleichgewichte und Modellannahmen anhand von Daten beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Entscheide vor dem Rechnen, ob du vollständige Protolyse annehmen darfst.",
+      "commonError": "Für jede Säure wird c(H₃O⁺) gleich der Anfangskonzentration gesetzt."
+    },
+    {
+      "tip": "Prüfe bei der schwachen Säure die Näherung x ≪ c₀ nach dem Einsetzen.",
+      "commonError": "Die Quadratwurzel-Näherung wird ohne Kontrolle verwendet."
+    },
+    {
+      "tip": "Beachte, dass pH logarithmisch ist und pH+pOH nur bei angegebener Temperatur den genutzten Wert hat.",
+      "commonError": "Eine lineare Änderung oder temperaturunabhängige Beziehung wird angenommen."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.2.ph.exercise.basic-ph",
+    "chem.q3.2.ph.exercise.basic-poh",
+    "chem.q3.2.ph.exercise.standard-weak",
+    "chem.q3.2.ph.exercise.standard-pka",
+    "chem.q3.2.ph.exercise.transfer-polyacid",
+    "chem.q3.2.ph.exercise.transfer-model"
+  ],
+  "selfTestIds": [
+    "chem.q3.2.ph.selftest.strong",
+    "chem.q3.2.ph.selftest.poh",
+    "chem.q3.2.ph.selftest.approx"
+  ]
+}

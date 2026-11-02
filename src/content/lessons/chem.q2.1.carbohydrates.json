@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.1.carbohydrates",
+  "title": "Kohlenhydrate",
+  "summary": "Strukturen, Eigenschaften und Reaktionen zu Kohlenhydrate verständlich und prüfungsbezogen erschließen.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "high",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 47,
+    "note": "47 zählt Vorschläge im Themenfeld Q2.1, keine Häufigkeit dieses Unterkapitels."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.1",
+      "subsection": "Kohlenhydrate",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.interactions"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.1.carbohydrates.goal.structure",
+      "statement": "Ich kann zentrale Strukturmerkmale von Kohlenhydrate beschreiben und darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.carbohydrates.goal.properties",
+      "statement": "Ich kann Strukturmerkmale über Wechselwirkungen mit Stoffeigenschaften verknüpfen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.carbohydrates.goal.reaction",
+      "statement": "Ich kann passende Reaktionen oder Nachweise formulieren und deuten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q2.1.carbohydrates.goal.evidence",
+      "statement": "Ich kann Materialaussagen mit Belegen begrenzen und bewerten.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "auswerten",
+        "bewerten"
+      ]
+    }
+  ],
+  "introduction": "Kohlenhydrate verbinden eine große Vielfalt an Funktionen in wenigen wiederkehrenden Bausteinen.",
+  "explanation": "Monosaccharide wie Glucose und Fructose besitzen die Formel C₆H₁₂O₆, aber unterschiedliche Struktur. In Wasser stehen offenkettige und cyclische Formen im Gleichgewicht. Beim Ringschluss entsteht das anomere C-Atom; α- und β-Anomer unterscheiden sich nur dort. Fischer-Projektionen zeigen die offene Kette, Haworth-Projektionen die Ringform.\n\nBei der glycosidischen Bindung reagieren Hydroxygruppen unter Wasserabspaltung. Bleibt ein anomeres Zentrum als Halbacetal frei, kann es in die offenkettige Form übergehen; der Zucker ist dann reduzierend. Die Fehling-Probe weist reduzierendes Verhalten über ziegelrotes Cu₂O nach. Iod-Kaliumiodid weist Stärke über eine dunkle Färbung der Amylose-Helix nach. Diese Nachweise prüfen unterschiedliche Eigenschaften.",
+  "fundamentals": [
+    {
+      "term": "Anomer",
+      "explanation": "Stereoisomer, das sich nur am anomeren C-Atom unterscheidet."
+    },
+    {
+      "term": "Glycosidische Bindung",
+      "explanation": "Kovalente Bindung zwischen Zuckerbausteinen über ein anomeres Zentrum."
+    },
+    {
+      "term": "Reduzierender Zucker",
+      "explanation": "Zucker mit zugänglicher reduzierender Form, der etwa Cu²⁺ reduzieren kann."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.1.carbohydrates.eq.1",
+      "notation": "C₆H₁₂O₆ (Glucose/Fructose)",
+      "explanation": "Gleiche Summenformel bedeutet nicht gleiche Struktur oder Reaktivität."
+    },
+    {
+      "id": "chem.q2.1.carbohydrates.eq.2",
+      "notation": "R–CHO + 2 Cu²⁺ + 5 OH⁻ → R–COO⁻ + Cu₂O↓ + 3 H₂O",
+      "explanation": "Vereinfachte Fehling-Bilanz für ein Aldehyd."
+    }
+  ],
+  "equationNote": "Schematische Reaktionsgleichungen. Ergänze Strukturformeln, Reaktionsbedingungen und Aggregatzustände, wenn die Aufgabenstellung sie verlangt.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.1.carbohydrates.example.1",
+      "title": "Reduzierendes Ende prüfen",
+      "prompt": "Ein Disaccharid ist über beide anomeren C-Atome verknüpft. Ist es reduzierend?",
+      "steps": [
+        "Beide anomeren Zentren sind an der glycosidischen Bindung beteiligt.",
+        "Es bleibt kein freies Halbacetalzentrum, das zur Carbonylform öffnen kann.",
+        "Damit fehlt die typische reduzierende Form."
+      ],
+      "result": "Das Disaccharid ist nicht reduzierend."
+    },
+    {
+      "id": "chem.q2.1.carbohydrates.example.2",
+      "title": "Nachweis auswählen",
+      "prompt": "Eine Probe färbt sich mit Iod-Kaliumiodid dunkelblau. Deute die Beobachtung.",
+      "steps": [
+        "Die Färbung ist die Beobachtung.",
+        "Iod lagert sich in die Helixstruktur von Amylose ein.",
+        "Der Befund spricht für Stärke; Fehling würde reduzierende Eigenschaften prüfen."
+      ],
+      "result": "Der Befund ist ein Stärkenachweis, kein allgemeiner Zuckernachweis."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2014,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Stoffklasse, funktionelle Gruppen oder Strukturmerkmale aus Darstellungen bestimmen.",
+    "AFB II: Reaktionen, Nachweise und Struktur-Eigenschaft-Beziehungen fachlich erklären.",
+    "AFB III: Materialaussagen anhand von Daten beurteilen und Reichweite von Schlussfolgerungen abwägen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Erkläre Eigenschaften über einen konkreten Struktur- und Wechselwirkungsschritt.",
+      "commonError": "Von einem Stoffnamen direkt auf eine Eigenschaft schließen."
+    },
+    {
+      "tip": "Beobachtung, Deutung und Schlussfolgerung sauber trennen.",
+      "commonError": "Ein einzelner Nachweis wird als vollständige Identifikation ausgegeben."
+    },
+    {
+      "tip": "Historische Aufgabenbelege zeigen frühere Aufgabenpraxis.",
+      "commonError": "Feldhäufigkeit wird mit einer Unterthemenhäufigkeit verwechselt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.1.carbohydrates.exercise.1",
+    "chem.q2.1.carbohydrates.exercise.2",
+    "chem.q2.1.carbohydrates.exercise.3",
+    "chem.q2.1.carbohydrates.exercise.4",
+    "chem.q2.1.carbohydrates.exercise.5",
+    "chem.q2.1.carbohydrates.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q2.1.carbohydrates.selftest.1",
+    "chem.q2.1.carbohydrates.selftest.2",
+    "chem.q2.1.carbohydrates.selftest.3"
+  ]
+}

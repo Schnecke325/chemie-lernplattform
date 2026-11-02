@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q4.1.hess",
+  "title": "Satz von Hess und Reaktionsenthalpie",
+  "summary": "Der Satz von Hess erlaubt, eine Reaktionsenthalpie aus bekannten Teilreaktionen zu bestimmen.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 13,
+    "note": "13 Vorschläge im Feld Q4.1; keine Unterthemenzählung."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q4.1",
+      "subsection": "Satz von Hess und Reaktionsenthalpie",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.basics.data",
+    "chem.q3.1.mwg"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q4.1.hess.goal.fundamentals",
+      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.q4.1.hess.goal.calculate",
+      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q4.1.hess.goal.material",
+      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q4.1.hess.goal.evaluate",
+      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "competencies": [
+        "B",
+        "K"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Der Satz von Hess erlaubt, eine Reaktionsenthalpie aus bekannten Teilreaktionen zu bestimmen.",
+  "explanation": "Die Reaktionsenthalpie ist eine Zustandsgröße. Ihr Wert hängt nur von Anfangs- und Endzustand ab, nicht vom Reaktionsweg. Beim Addieren thermochemischer Gleichungen addierst du auch ihre Enthalpien. Drehst du eine Gleichung um, ändert ΔH das Vorzeichen. Multiplizierst du die Gleichung, wird ΔH mit demselben Faktor multipliziert.\n\nOrdne die Teilgleichungen so, dass Zwischenstoffe gekürzt werden und die Zielgleichung übrig bleibt. Prüfe Atombilanz, Koeffizienten und Einheiten. Standardbildungsenthalpien werden über ΔH°_R=ΣνΔH°_f(Produkte)−ΣνΔH°_f(Edukte) kombiniert.",
+  "fundamentals": [
+    {
+      "term": "Satz von Hess und Reaktionsenthalpie",
+      "explanation": "Der Satz von Hess erlaubt, eine Reaktionsenthalpie aus bekannten Teilreaktionen zu bestimmen."
+    },
+    {
+      "term": "Modellgrenze",
+      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+    },
+    {
+      "term": "AFB III",
+      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q4.1.hess.eq.1",
+      "notation": "ΔH°_R = Σ ν ΔH°_f(Produkte) − Σ ν ΔH°_f(Edukte)",
+      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+    }
+  ],
+  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q4.1.hess.example.1",
+      "title": "Gleichung umkehren",
+      "prompt": "Gegeben ist A → B mit ΔH=−40 kJ mol⁻¹. Bestimme ΔH für B → A.",
+      "steps": [
+        "Beim Umkehren ändert sich das Vorzeichen",
+        "Für B → A gilt ΔH=+40 kJ mol⁻¹."
+      ],
+      "result": "Beim Umkehren ändert sich das Vorzeichen. Für B → A gilt ΔH=+40 kJ mol⁻¹."
+    },
+    {
+      "id": "chem.q4.1.hess.example.2",
+      "title": "Teilreaktionen addieren",
+      "prompt": "A → B: ΔH=−40 kJ; B → C: ΔH=+15 kJ. Bestimme ΔH für A → C.",
+      "steps": [
+        "Die Gleichungen addieren sich zu A → C; B kürzt sich",
+        "ΔH=−40+15=−25 kJ."
+      ],
+      "result": "Die Gleichungen addieren sich zu A → C; B kürzt sich. ΔH=−40+15=−25 kJ."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2022,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
+    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
+    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
+      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+    },
+    {
+      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
+      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+    },
+    {
+      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
+      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q4.1.hess.exercise.1",
+    "chem.q4.1.hess.exercise.2",
+    "chem.q4.1.hess.exercise.3",
+    "chem.q4.1.hess.exercise.4",
+    "chem.q4.1.hess.exercise.5",
+    "chem.q4.1.hess.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q4.1.hess.selftest.1",
+    "chem.q4.1.hess.selftest.2",
+    "chem.q4.1.hess.selftest.3"
+  ]
+}

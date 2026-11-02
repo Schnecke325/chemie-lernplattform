@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.3.electrolysis-corrosion",
+  "title": "Elektrolyse, Akkumulatoren und Korrosion",
+  "summary": "Erkläre erzwungene Redoxreaktionen, wiederaufladbare Zellen und elektrochemische Korrosion samt Schutzmaßnahmen.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 17,
+    "note": "Die Zahl 17 gilt für Q3.3 insgesamt. Sie ist kein Einzelwert für Akkumulatoren oder Korrosion."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.3",
+      "subsection": "Elektrolyse, Akkumulatoren und Korrosion",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.q3.3.redox",
+    "chem.q3.3.galvanic-cells",
+    "chem.q1.1.bonding"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.goal.electrolysis",
+      "statement": "Ich kann Elektrolyse als erzwungene Redoxreaktion beschreiben und Elektrodenreaktionen formulieren.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "formulieren"
+      ]
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.goal.battery",
+      "statement": "Ich kann die Entladereaktion eines Bleiakkumulators und die Umkehr bei der Ladung erklären.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "darstellen",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.goal.corrosion",
+      "statement": "Ich kann Korrosion mit lokalen Redoxreaktionen erklären und Schutzmaßnahmen vergleichen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "vergleichen"
+      ]
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.goal.energy",
+      "statement": "Ich kann Energieumwandlungen und Grenzen von Speicher- oder Schutzverfahren im Materialkontext beurteilen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Eine galvanische Zelle liefert elektrische Energie aus einer spontanen Redoxreaktion. Bei der Elektrolyse läuft die Reaktion durch zugeführte elektrische Energie in die Gegenrichtung. Akkumulatoren können zwischen beiden Betriebsarten wechseln. Auch Korrosion beruht auf räumlich gekoppelten Oxidations- und Reduktionsreaktionen.",
+  "explanation": "### 1. Elektrolyse\n\nBei einer Elektrolyse erzwingt eine äußere Spannungsquelle eine nicht spontane Redoxreaktion. Oxidation findet an der Anode, Reduktion an der Kathode statt. Im Unterschied zur galvanischen Zelle ist die Anode beim Elektrolyseur mit dem Pluspol der Spannungsquelle verbunden und die Kathode mit dem Minuspol. Die Reaktionsprodukte hängen von Elektrolyt, Elektrodenmaterial und Bedingungen ab.\n\n### 2. Akkumulatoren\n\nEin Akkumulator ist eine wiederaufladbare elektrochemische Zelle. Beim Entladen arbeitet er als galvanische Zelle. Beim Laden erzwingt eine Spannungsquelle die Umkehrreaktion. Beim Bleiakkumulator bilden sich beim Entladen an beiden Elektroden Bleisulfat; Schwefelsäure wird verbraucht und Wasser gebildet. Beim Laden werden die Ausgangsstoffe regeneriert.\n\n### 3. Korrosion als Lokalelement\n\nKorrosion ist die unerwünschte Oxidation eines Werkstoffs. Auf einer feuchten Eisenoberfläche können lokale Anoden- und Kathodenbereiche entstehen. Eisen wird an anodischen Stellen oxidiert; an kathodischen Stellen wird häufig gelöster Sauerstoff reduziert. Wasser ermöglicht den Ionentransport. Die entstehenden Eisenverbindungen können weiter zu Rost reagieren.\n\n### 4. Korrosionsschutz\n\nEine Beschichtung wie Lack trennt Metall von Wasser und Sauerstoff. Wird die Schicht beschädigt, kann das freiliegende Metall lokal korrodieren. Beim kathodischen Schutz wird das zu schützende Metall mit einem unedleren Opfermetall elektrisch verbunden. Dieses oxidiert bevorzugt und muss bei Verbrauch ersetzt werden. Welche Methode geeignet ist, hängt von Umgebung, Belastung, Wartung und Material ab.\n\n### 5. Energie- und Stoffbilanz\n\nUnterscheide Energieumwandlung und Stoffumwandlung. Beim Entladen eines Akkumulators wird chemische Energie in elektrische Energie umgewandelt; beim Laden wird elektrische Energie zugeführt. Eine vollständige Bewertung berücksichtigt neben Reaktionsgleichungen auch Lebensdauer, Wirkungsgrad, Rohstoffe und Recycling.",
+  "fundamentals": [
+    {
+      "term": "Elektrolyse",
+      "explanation": "Durch elektrische Energie erzwungene, nicht spontane Redoxreaktion."
+    },
+    {
+      "term": "Akkumulator",
+      "explanation": "Wiederaufladbare elektrochemische Zelle, deren Reaktion beim Laden durch äußere Spannung umgekehrt wird."
+    },
+    {
+      "term": "Korrosion",
+      "explanation": "Unerwünschte Oxidation eines Werkstoffs, oft durch lokale elektrochemische Teilreaktionen."
+    },
+    {
+      "term": "Lokalelement",
+      "explanation": "Kleinräumige galvanische Zelle auf einer Metalloberfläche, in der anodische und kathodische Bereiche entstehen."
+    },
+    {
+      "term": "Opferanode",
+      "explanation": "Unedleres Metall, das bevorzugt oxidiert und dadurch ein anderes Metall kathodisch schützt."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.eq.copper",
+      "notation": "Cu²⁺(aq) + 2 e⁻ → Cu(s)",
+      "explanation": "Beispiel einer Kathodenreaktion bei der Elektrolyse einer Cu²⁺-haltigen Lösung."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.eq.lead-discharge",
+      "notation": "Pb(s) + PbO₂(s) + 2 H₂SO₄(aq) → 2 PbSO₄(s) + 2 H₂O(l)",
+      "explanation": "Gesamtreaktion des Bleiakkumulators beim Entladen; beim Laden wird sie durch zugeführte elektrische Energie umgekehrt."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.eq.iron",
+      "notation": "Fe(s) → Fe²⁺(aq) + 2 e⁻",
+      "explanation": "Anodische Teilreaktion der Eisenkorrosion."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.eq.oxygen",
+      "notation": "O₂(g) + 2 H₂O(l) + 4 e⁻ → 4 OH⁻(aq)",
+      "explanation": "Mögliche kathodische Sauerstoffreduktion in neutraler oder alkalischer wässriger Umgebung."
+    }
+  ],
+  "equationNote": "Elektrodenprodukte bei Elektrolysen hängen von Elektrolyt, Elektrodenmaterial und Bedingungen ab. Gib die Bedingungen aus dem Aufgabenmaterial an.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.example-lead",
+      "title": "Bleiakkumulator entladen",
+      "prompt": "Beschreibe Gesamtreaktion und Energieumwandlung beim Entladen eines Bleiakkumulators.",
+      "steps": [
+        "Schreibe die Gesamtgleichung mit Pb, PbO₂, H₂SO₄ und PbSO₄ auf.",
+        "Prüfe die Atom- und Stoffbilanz.",
+        "Ordne die Energieumwandlung zu."
+      ],
+      "result": "Pb + PbO₂ + 2 H₂SO₄ → 2 PbSO₄ + 2 H₂O. Chemische Energie wird in elektrische Energie umgewandelt."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.example-protection",
+      "title": "Opferanode als Korrosionsschutz",
+      "prompt": "Ein Stahltank wird elektrisch mit Zink verbunden. Erkläre, wie Zink den Stahl schützt.",
+      "steps": [
+        "Vergleiche die Bereitschaft der Metalle zur Oxidation.",
+        "Ordne Zink als unedleres Metall der Anodenreaktion zu.",
+        "Erkläre die Folge für den Stahl."
+      ],
+      "result": "Zink oxidiert bevorzugt und liefert Elektronen. Der Stahl wird kathodisch polarisiert und seine Oxidation gehemmt. Das Zink wird dabei verbraucht."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2019,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2020,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Anoden-/Kathodenreaktionen und Energieumwandlungen benennen.",
+    "AFB II: Akkumulatorreaktionen oder Elektrodenprozesse formulieren und bilanzieren.",
+    "AFB III: Korrosionsschutz oder Speicherverfahren anhand chemischer Modelle und Materialdaten vergleichen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Merke: Anode ist immer der Ort der Oxidation, Kathode der Ort der Reduktion; die Polzeichen hängen vom Zelltyp ab.",
+      "commonError": "Beim Elektrolyseur werden die Polzeichen einer galvanischen Zelle übernommen."
+    },
+    {
+      "tip": "Beachte bei einer Elektrolyse Elektrolyt und Elektrodenmaterial.",
+      "commonError": "Produkte werden nur aus den gelösten Ionen vorhergesagt, ohne mögliche Elektrodenreaktionen zu prüfen."
+    },
+    {
+      "tip": "Erkläre Korrosionsschutz über Barriere oder bevorzugte Opferoxidation.",
+      "commonError": "Eine Beschichtung wird als dauerhafter Schutz angenommen, obwohl sie beschädigt ist."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.3.electrolysis-corrosion.exercise.basic-electrolysis",
+    "chem.q3.3.electrolysis-corrosion.exercise.basic-corrosion",
+    "chem.q3.3.electrolysis-corrosion.exercise.standard-lead",
+    "chem.q3.3.electrolysis-corrosion.exercise.standard-protection",
+    "chem.q3.3.electrolysis-corrosion.exercise.transfer-electrolysis",
+    "chem.q3.3.electrolysis-corrosion.exercise.transfer-battery"
+  ],
+  "selfTestIds": [
+    "chem.q3.3.electrolysis-corrosion.selftest.electrolysis",
+    "chem.q3.3.electrolysis-corrosion.selftest.battery",
+    "chem.q3.3.electrolysis-corrosion.selftest.sacrificial"
+  ]
+}

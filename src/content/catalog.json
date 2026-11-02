@@ -1,0 +1,631 @@
+{
+  "schemaVersion": 1,
+  "title": "Chemie Leistungskurs – Hessen",
+  "chapters": [
+    {
+      "id": "chem.basics",
+      "title": "Chemische Werkzeuge und quantitative Grundlagen",
+      "order": 10,
+      "curriculumRefs": [
+        "E.1",
+        "E.2",
+        "E.3"
+      ],
+      "relevance": "cross-cutting",
+      "children": [
+        {
+          "id": "chem.basics.representation",
+          "title": "Fachsprache und Stoff-Teilchen-Modell",
+          "order": 10,
+          "lessonId": "chem.basics.representation",
+          "relevance": "cross-cutting",
+          "relevanceNote": "Querschnittsvoraussetzung; kein eigenes KCGO-Feldvorkommen gezählt."
+        },
+        {
+          "id": "chem.basics.quantities",
+          "title": "Stoffmenge, Konzentration und Stöchiometrie",
+          "order": 20,
+          "lessonId": "chem.basics.quantities",
+          "relevance": "cross-cutting",
+          "relevanceNote": "Querschnittsvoraussetzung; kein eigenes KCGO-Feldvorkommen gezählt."
+        },
+        {
+          "id": "chem.basics.data",
+          "title": "Daten, Diagramme und experimentelle Evidenz",
+          "order": 30,
+          "lessonId": "chem.basics.data",
+          "relevance": "cross-cutting",
+          "relevanceNote": "Querschnittsvoraussetzung; kein eigenes KCGO-Feldvorkommen gezählt."
+        }
+      ]
+    },
+    {
+      "id": "chem.q1.1",
+      "title": "Bindung, Struktur und Stoffeigenschaften",
+      "order": 20,
+      "curriculumRefs": [
+        "Q1.1"
+      ],
+      "relevance": "medium",
+      "proposalCount": 19,
+      "children": [
+        {
+          "id": "chem.q1.1.bonding",
+          "title": "Bindungsarten und Teilchenstrukturen",
+          "order": 10,
+          "lessonId": "chem.q1.1.bonding",
+          "relevance": "medium",
+          "evidenceField": "Q1.1",
+          "proposalCount": 19,
+          "relevanceNote": "Übernommene Feldpriorität Q1.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q1.1.interactions",
+          "title": "Molekülgeometrie und Wechselwirkungen",
+          "order": 20,
+          "lessonId": "chem.q1.1.interactions",
+          "relevance": "medium",
+          "evidenceField": "Q1.1",
+          "proposalCount": 19,
+          "relevanceNote": "Übernommene Feldpriorität Q1.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q1.1.inorganic-structures",
+          "title": "Anorganische Strukturen",
+          "order": 30,
+          "lessonId": "chem.q1.1.inorganic-structures",
+          "relevance": "medium",
+          "evidenceField": "Q1.1",
+          "proposalCount": 19,
+          "relevanceNote": "Übernommene Feldpriorität Q1.1; kein eigener Unterthemen-Count."
+        }
+      ]
+    },
+    {
+      "id": "chem.q1.1.q2.3",
+      "title": "Kohlenwasserstoffe, Aromaten und Reaktionsmechanismen",
+      "order": 30,
+      "curriculumRefs": [
+        "Q1.1",
+        "Q2.3"
+      ],
+      "relevance": "medium",
+      "children": [
+        {
+          "id": "chem.q1.1.hydrocarbons",
+          "title": "Alkane, Alkene und Alkine",
+          "order": 10,
+          "lessonId": "chem.q1.1.hydrocarbons",
+          "relevance": "medium",
+          "evidenceField": "Q1.1",
+          "proposalCount": 19,
+          "relevanceNote": "Übernommene Feldpriorität Q1.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q1.1.mechanisms",
+          "title": "Aliphatische Reaktionsmechanismen",
+          "order": 20,
+          "lessonId": "chem.q1.1.mechanisms",
+          "relevance": "medium",
+          "evidenceField": "Q1.1",
+          "proposalCount": 19,
+          "relevanceNote": "Übernommene Feldpriorität Q1.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.3.aromatics",
+          "title": "Aromatische Verbindungen",
+          "order": 30,
+          "lessonId": "chem.q2.3.aromatics",
+          "relevance": "medium",
+          "evidenceField": "Q2.3",
+          "proposalCount": 20,
+          "relevanceNote": "Feldcount Q2.3; kein eigener Aromaten-Unterthemen-Count."
+        }
+      ],
+      "proposalCounts": {
+        "Q1.1": 19,
+        "Q2.3": 20
+      }
+    },
+    {
+      "id": "chem.q1.organic-functional-groups",
+      "title": "Sauerstoff- und stickstoffhaltige organische Stoffklassen",
+      "order": 40,
+      "curriculumRefs": [
+        "Q1.2",
+        "Q1.3"
+      ],
+      "relevance": "medium",
+      "children": [
+        {
+          "id": "chem.q1.2.alcohols",
+          "title": "Alkanole und ihre Oxidation",
+          "order": 10,
+          "lessonId": "chem.q1.2.alcohols",
+          "relevance": "medium",
+          "evidenceField": "Q1.2",
+          "proposalCount": 11,
+          "relevanceNote": "Übernommene Feldpriorität Q1.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q1.2.carbonyls",
+          "title": "Aldehyde und Ketone",
+          "order": 20,
+          "lessonId": "chem.q1.2.carbonyls",
+          "relevance": "medium",
+          "evidenceField": "Q1.2",
+          "proposalCount": 11,
+          "relevanceNote": "Übernommene Feldpriorität Q1.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q1.3.carboxylic-acids",
+          "title": "Carbonsäuren und Säurestärke",
+          "order": 30,
+          "lessonId": "chem.q1.3.carboxylic-acids",
+          "relevance": "medium",
+          "evidenceField": "Q1.3",
+          "proposalCount": 27,
+          "relevanceNote": "Übernommene Feldpriorität Q1.3; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q1.3.esters",
+          "title": "Esterbildung und Esterhydrolyse",
+          "order": 40,
+          "lessonId": "chem.q1.3.esters",
+          "relevance": "medium",
+          "evidenceField": "Q1.3",
+          "proposalCount": 27,
+          "relevanceNote": "Übernommene Feldpriorität Q1.3; kein eigener Unterthemen-Count."
+        }
+      ],
+      "proposalCounts": {
+        "Q1.2": 11,
+        "Q1.3": 27
+      }
+    },
+    {
+      "id": "chem.q3.2",
+      "title": "Säure-Base-Chemie und Protolyse",
+      "order": 50,
+      "curriculumRefs": [
+        "E.2",
+        "Q1.3",
+        "Q3.2",
+        "Q3.4",
+        "Q1.5"
+      ],
+      "relevance": "medium",
+      "children": [
+        {
+          "id": "chem.q3.2.protolysis",
+          "title": "Brønsted-Säuren/Basen und Protolyse",
+          "order": 10,
+          "lessonId": "chem.q3.2.protolysis",
+          "relevance": "medium",
+          "evidenceField": "Q3.2",
+          "proposalCount": 23,
+          "relevanceNote": "Übernommene Feldpriorität Q3.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.2.ph",
+          "title": "pH, pKS/pKB und mehrprotonige Säuren",
+          "order": 20,
+          "lessonId": "chem.q3.2.ph",
+          "relevance": "medium",
+          "evidenceField": "Q3.2",
+          "proposalCount": 23,
+          "relevanceNote": "Übernommene Feldpriorität Q3.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.2.titration",
+          "title": "Titrationen und quantitative Analyse",
+          "order": 30,
+          "lessonId": "chem.q3.2.titration",
+          "relevance": "medium",
+          "evidenceField": "Q3.2",
+          "proposalCount": 23,
+          "relevanceNote": "Übernommene Feldpriorität Q3.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.4.buffers",
+          "title": "Puffersysteme",
+          "order": 40,
+          "lessonId": "chem.q3.4.buffers",
+          "relevance": "supplementary",
+          "relevanceNote": "Curricular ergänzend; in der Vorschlagszählung nicht als eigenes Feld codiert."
+        },
+        {
+          "id": "chem.q1.5.preservatives",
+          "title": "Konservierungsstoffe und Analytik",
+          "order": 50,
+          "lessonId": "chem.q1.5.preservatives",
+          "relevance": "supplementary",
+          "evidenceField": "Q1.5",
+          "proposalCount": 1,
+          "relevanceNote": "Curricular ergänzend; ein Feldvorkommen, keine Unterthemenzählung."
+        }
+      ],
+      "proposalCounts": {
+        "Q3.2": 23,
+        "Q1.5": 1,
+        "Q3.4": null
+      }
+    },
+    {
+      "id": "chem.q3.1",
+      "title": "Chemisches Gleichgewicht",
+      "order": 60,
+      "curriculumRefs": [
+        "Q3.1"
+      ],
+      "relevance": "medium",
+      "proposalCount": 19,
+      "children": [
+        {
+          "id": "chem.q3.1.mwg",
+          "title": "Dynamisches Gleichgewicht und MWG",
+          "order": 10,
+          "lessonId": "chem.q3.1.mwg",
+          "relevance": "medium",
+          "evidenceField": "Q3.1",
+          "proposalCount": 19,
+          "relevanceNote": "Übernommene Feldpriorität Q3.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.1.shifts",
+          "title": "Gleichgewichtsverschiebung",
+          "order": 20,
+          "lessonId": "chem.q3.1.shifts",
+          "relevance": "medium",
+          "evidenceField": "Q3.1",
+          "proposalCount": 19,
+          "relevanceNote": "Übernommene Feldpriorität Q3.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.1.applications",
+          "title": "Technische und organische Gleichgewichte",
+          "order": 30,
+          "lessonId": "chem.q3.1.applications",
+          "relevance": "medium",
+          "evidenceField": "Q3.1",
+          "proposalCount": 19,
+          "relevanceNote": "Übernommene Feldpriorität Q3.1; kein eigener Unterthemen-Count."
+        }
+      ]
+    },
+    {
+      "id": "chem.q3.3",
+      "title": "Redoxchemie und Elektrochemie",
+      "order": 70,
+      "curriculumRefs": [
+        "E.1",
+        "Q3.3"
+      ],
+      "relevance": "medium",
+      "proposalCount": 17,
+      "children": [
+        {
+          "id": "chem.q3.3.redox",
+          "title": "Oxidation, Reduktion und Redoxgleichungen",
+          "order": 10,
+          "lessonId": "chem.q3.3.redox",
+          "relevance": "medium",
+          "evidenceField": "Q3.3",
+          "proposalCount": 17,
+          "relevanceNote": "Übernommene Feldpriorität Q3.3; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.3.galvanic-cells",
+          "title": "Galvanische Zellen und Zellspannung",
+          "order": 20,
+          "lessonId": "chem.q3.3.galvanic-cells",
+          "relevance": "medium",
+          "evidenceField": "Q3.3",
+          "proposalCount": 17,
+          "relevanceNote": "Übernommene Feldpriorität Q3.3; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.3.electrolysis-corrosion",
+          "title": "Elektrolyse, Akkumulatoren und Korrosion",
+          "order": 30,
+          "lessonId": "chem.q3.3.electrolysis-corrosion",
+          "relevance": "medium",
+          "evidenceField": "Q3.3",
+          "proposalCount": 17,
+          "relevanceNote": "Übernommene Feldpriorität Q3.3; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.3.advanced",
+          "title": "LK-Vertiefungen der Elektrochemie",
+          "order": 40,
+          "lessonId": "chem.q3.3.advanced",
+          "relevance": "medium",
+          "evidenceField": "Q3.3",
+          "proposalCount": 17,
+          "relevanceNote": "Übernommene Feldpriorität Q3.3; kein eigener Unterthemen-Count."
+        }
+      ]
+    },
+    {
+      "id": "chem.q2.1",
+      "title": "Naturstoffe",
+      "order": 80,
+      "curriculumRefs": [
+        "Q2.1"
+      ],
+      "relevance": "high",
+      "proposalCount": 47,
+      "children": [
+        {
+          "id": "chem.q2.1.amino-acids-peptides",
+          "title": "Aminosäuren und Peptide",
+          "order": 10,
+          "lessonId": "chem.q2.1.amino-acids-peptides",
+          "relevance": "high",
+          "evidenceField": "Q2.1",
+          "proposalCount": 47,
+          "relevanceNote": "Übernommene Feldpriorität Q2.1; kein eigener Naturstoff-Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.1.proteins",
+          "title": "Proteine",
+          "order": 20,
+          "lessonId": "chem.q2.1.proteins",
+          "relevance": "high",
+          "evidenceField": "Q2.1",
+          "proposalCount": 47,
+          "relevanceNote": "Übernommene Feldpriorität Q2.1; kein eigener Naturstoff-Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.1.carbohydrates",
+          "title": "Kohlenhydrate",
+          "order": 30,
+          "lessonId": "chem.q2.1.carbohydrates",
+          "relevance": "high",
+          "evidenceField": "Q2.1",
+          "proposalCount": 47,
+          "relevanceNote": "Übernommene Feldpriorität Q2.1; kein eigener Naturstoff-Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.1.fats-oils",
+          "title": "Fette, Öle und Fettsäuren",
+          "order": 40,
+          "lessonId": "chem.q2.1.fats-oils",
+          "relevance": "high",
+          "evidenceField": "Q2.1",
+          "proposalCount": 47,
+          "relevanceNote": "Übernommene Feldpriorität Q2.1; kein eigener Naturstoff-Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.1.biopolymers",
+          "title": "Biogene Makromoleküle im Kontext",
+          "order": 50,
+          "lessonId": "chem.q2.1.biopolymers",
+          "relevance": "high",
+          "evidenceField": "Q2.1",
+          "proposalCount": 47,
+          "relevanceNote": "Übernommene Feldpriorität Q2.1; kein eigener Naturstoff-Unterthemen-Count."
+        }
+      ]
+    },
+    {
+      "id": "chem.q2.2",
+      "title": "Kunststoffe und organische Werkstoffe",
+      "order": 90,
+      "curriculumRefs": [
+        "Q2.2",
+        "Q2.4"
+      ],
+      "relevance": "high",
+      "children": [
+        {
+          "id": "chem.q2.2.polymerization",
+          "title": "Polymerisationsreaktionen",
+          "order": 10,
+          "lessonId": "chem.q2.2.polymerization",
+          "relevance": "high",
+          "evidenceField": "Q2.2",
+          "proposalCount": 32,
+          "relevanceNote": "Übernommene Feldpriorität Q2.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.2.polycondensation-polyaddition",
+          "title": "Polykondensation und Polyaddition",
+          "order": 20,
+          "lessonId": "chem.q2.2.polycondensation-polyaddition",
+          "relevance": "high",
+          "evidenceField": "Q2.2",
+          "proposalCount": 32,
+          "relevanceNote": "Übernommene Feldpriorität Q2.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.2.properties",
+          "title": "Struktur, Eigenschaften und Anwendung",
+          "order": 30,
+          "lessonId": "chem.q2.2.properties",
+          "relevance": "high",
+          "evidenceField": "Q2.2",
+          "proposalCount": 32,
+          "relevanceNote": "Übernommene Feldpriorität Q2.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.2.sustainability",
+          "title": "Recycling und ökologische Werkstoffbewertung",
+          "order": 40,
+          "lessonId": "chem.q2.2.sustainability",
+          "relevance": "high",
+          "evidenceField": "Q2.2",
+          "proposalCount": 32,
+          "relevanceNote": "Übernommene Feldpriorität Q2.2; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q2.4.organic-materials",
+          "title": "Organische Werkstoffe",
+          "order": 50,
+          "lessonId": "chem.q2.4.organic-materials",
+          "relevance": "supplementary",
+          "relevanceNote": "Curricular ergänzend; für Q2.4 liegt kein eigener Vorschlagscount vor."
+        }
+      ],
+      "proposalCounts": {
+        "Q2.2": 32,
+        "Q2.4": null
+      }
+    },
+    {
+      "id": "chem.q4.1",
+      "title": "Energie, Reaktionsgeschwindigkeit und Katalyse",
+      "order": 100,
+      "curriculumRefs": [
+        "Q4.1",
+        "Q3.5"
+      ],
+      "relevance": "medium",
+      "children": [
+        {
+          "id": "chem.q4.1.enthalpy",
+          "title": "Energieumsatz, Enthalpie und Kalorimetrie",
+          "order": 10,
+          "lessonId": "chem.q4.1.enthalpy",
+          "relevance": "medium",
+          "evidenceField": "Q4.1",
+          "proposalCount": 13,
+          "relevanceNote": "Übernommene Feldpriorität Q4.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q4.1.hess",
+          "title": "Satz von Hess und Reaktionsenthalpie",
+          "order": 20,
+          "lessonId": "chem.q4.1.hess",
+          "relevance": "medium",
+          "evidenceField": "Q4.1",
+          "proposalCount": 13,
+          "relevanceNote": "Übernommene Feldpriorität Q4.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q4.1.entropy-gibbs",
+          "title": "Entropie und freie Enthalpie",
+          "order": 30,
+          "lessonId": "chem.q4.1.entropy-gibbs",
+          "relevance": "medium",
+          "evidenceField": "Q4.1",
+          "proposalCount": 13,
+          "relevanceNote": "Übernommene Feldpriorität Q4.1; kein eigener Unterthemen-Count."
+        },
+        {
+          "id": "chem.q3.5.kinetics",
+          "title": "Reaktionskinetik und Katalyse",
+          "order": 40,
+          "lessonId": "chem.q3.5.kinetics",
+          "relevance": "supplementary",
+          "relevanceNote": "Curricular ergänzend; Q3.5 wurde nicht separat gezählt."
+        }
+      ],
+      "proposalCounts": {
+        "Q4.1": 13,
+        "Q3.5": null
+      }
+    },
+    {
+      "id": "chem.applications",
+      "title": "Anwendungen, Nachhaltigkeit und ergänzende Themenfelder",
+      "order": 110,
+      "curriculumRefs": [
+        "E.4",
+        "E.5",
+        "Q1.4",
+        "Q1.5",
+        "Q4.2",
+        "Q4.3"
+      ],
+      "relevance": "supplementary",
+      "children": [
+        {
+          "id": "chem.q1.4.q4.3.surfactants",
+          "title": "Seifen, Tenside und Waschen",
+          "order": 10,
+          "lessonId": "chem.q1.4.q4.3.surfactants",
+          "relevance": "supplementary",
+          "evidenceField": "Q1.4",
+          "proposalCount": 4,
+          "relevanceNote": "Curricular ergänzend; vier Feldvorkommen, kein Unterthemen-Count."
+        },
+        {
+          "id": "chem.q4.2.energy-sustainability",
+          "title": "Energieumwandlung und nachhaltige Chemie",
+          "order": 20,
+          "lessonId": "chem.q4.2.energy-sustainability",
+          "relevance": "supplementary",
+          "evidenceField": "Q4.2",
+          "proposalCount": 3,
+          "relevanceNote": "Curricular ergänzend; drei Feldvorkommen, kein Unterthemen-Count."
+        },
+        {
+          "id": "chem.applications.evaluation",
+          "title": "Chemische Anwendungen bewerten",
+          "order": 30,
+          "lessonId": "chem.applications.evaluation",
+          "relevance": "supplementary",
+          "relevanceNote": "Querschnittliches Lernziel; keine eigene KCGO-Feldhäufigkeit."
+        }
+      ],
+      "proposalCounts": {
+        "Q1.4": 4,
+        "Q1.5": 1,
+        "Q4.2": 3,
+        "Q4.3": null,
+        "E.4": null,
+        "E.5": null
+      }
+    },
+    {
+      "id": "chem.experimental",
+      "title": "Experimentelle Chemie & Nachweisreaktionen",
+      "order": 120,
+      "curriculumRefs": [],
+      "relevance": "cross-cutting",
+      "children": [
+        {
+          "id": "chem.experimental.observation",
+          "title": "Experimentieren, Beobachten und Auswerten",
+          "order": 10,
+          "status": "planned",
+          "relevance": "cross-cutting",
+          "relevanceNote": "Geplant: Beobachtung, Deutung, Fehlerquellen und sicherer Umgang mit Experimenten."
+        },
+        {
+          "id": "chem.experimental.qualitative",
+          "title": "Stoffe und Ionen qualitativ nachweisen",
+          "order": 20,
+          "status": "planned",
+          "relevance": "cross-cutting",
+          "relevanceNote": "Geplant: qualitative Nachweise; konkrete Inhalte werden curricular belegt und später ausgearbeitet."
+        },
+        {
+          "id": "chem.experimental.organic-tests",
+          "title": "Organische Stoffe und Biomoleküle nachweisen",
+          "order": 30,
+          "status": "planned",
+          "relevance": "cross-cutting",
+          "relevanceNote": "Geplant: Querverweise auf Fachkapitel, ohne Fehling-, Biuret- oder Iod-Stärke-Erklärungen zu duplizieren."
+        },
+        {
+          "id": "chem.experimental.separation",
+          "title": "Trennverfahren und Identifizierung",
+          "order": 40,
+          "status": "planned",
+          "relevance": "cross-cutting",
+          "relevanceNote": "Geplant: eigenständige Lernseite zur Dünnschichtchromatografie mit Ninhydrin und Rf-Auswertung."
+        },
+        {
+          "id": "chem.experimental.quantitative",
+          "title": "Quantitative Analyse und Titration",
+          "order": 50,
+          "status": "planned",
+          "relevance": "cross-cutting",
+          "relevanceNote": "Geplant: Methodenübersicht mit Verweis auf die ausführliche Titrationslehre in chem.q3.2.titration."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.1.fats-oils",
+  "title": "Fette, Öle und Fettsäuren",
+  "summary": "Strukturen, Eigenschaften und Reaktionen zu Fette, Öle und Fettsäuren verständlich und prüfungsbezogen erschließen.",
+  "order": 40,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "high",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 47,
+    "note": "47 zählt Vorschläge im Themenfeld Q2.1, keine Häufigkeit dieses Unterkapitels."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.1",
+      "subsection": "Fette, Öle und Fettsäuren",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.interactions"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.1.fats-oils.goal.structure",
+      "statement": "Ich kann zentrale Strukturmerkmale von Fette, Öle und Fettsäuren beschreiben und darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.fats-oils.goal.properties",
+      "statement": "Ich kann Strukturmerkmale über Wechselwirkungen mit Stoffeigenschaften verknüpfen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.fats-oils.goal.reaction",
+      "statement": "Ich kann passende Reaktionen oder Nachweise formulieren und deuten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q2.1.fats-oils.goal.evidence",
+      "statement": "Ich kann Materialaussagen mit Belegen begrenzen und bewerten.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "auswerten",
+        "bewerten"
+      ]
+    }
+  ],
+  "introduction": "Fette und Öle sind Energiespeicher und zugleich chemisch klar definierte Ester. Ihr Aufbau erklärt typische Unterschiede zwischen festen Fetten und flüssigen Ölen.",
+  "explanation": "Ein Triacylglycerid entsteht, wenn alle drei Hydroxygruppen des Glycerins mit Fettsäuren verestert sind. Gesättigte Reste besitzen keine C=C-Bindung. Cis-ungesättigte Reste enthalten Knicke, die dichtes Packen erschweren; deshalb sinkt häufig der Schmelzbereich.\n\nBei der Hydrolyse werden Esterbindungen gespalten. Im alkalischen Milieu entstehen Glycerin und Fettsäuresalze; dieser Vorgang heißt Verseifung. Bei der Fetthärtung wird Wasserstoff an C=C-Bindungen addiert. Die Iodzahl gibt die Masse I₂ an, die 100 g Fett unter definierten Bedingungen aufnehmen. Sie dient als Maß für den Ungesättigungsgrad, nicht als vollständige Identifizierung der Fettsäuren.",
+  "fundamentals": [
+    {
+      "term": "Triacylglycerid",
+      "explanation": "Triester aus Glycerin und drei Fettsäureresten."
+    },
+    {
+      "term": "Verseifung",
+      "explanation": "Basische Esterhydrolyse mit Bildung von Glycerin und Fettsäuresalzen."
+    },
+    {
+      "term": "Iodzahl",
+      "explanation": "Gramm I₂, die 100 g Fett unter festgelegten Bedingungen addieren."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.1.fats-oils.eq.1",
+      "notation": "Triacylglycerid + 3 OH⁻ → Glycerin + 3 RCOO⁻",
+      "explanation": "Bilanz der alkalischen Verseifung."
+    },
+    {
+      "id": "chem.q2.1.fats-oils.eq.2",
+      "notation": "R–CH=CH–R′ + H₂ → R–CH₂–CH₂–R′",
+      "explanation": "Hydrierung einer C=C-Bindung; Katalysator und Bedingungen beachten."
+    }
+  ],
+  "equationNote": "Schematische Reaktionsgleichungen. Ergänze Strukturformeln, Reaktionsbedingungen und Aggregatzustände, wenn die Aufgabenstellung sie verlangt.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.1.fats-oils.example.1",
+      "title": "Iodzahl aus Stoffmenge",
+      "prompt": "Eine 2,00-g-Fettprobe addiert 0,00200 mol I₂. Berechne die Iodzahl mit M(I₂)=253,8 g mol⁻¹.",
+      "steps": [
+        "m(I₂)=n·M=0,00200 mol·253,8 g mol⁻¹=0,508 g.",
+        "Auf 100 g Fett skalieren: 0,508 g/2,00 g·100 g=25,4 g."
+      ],
+      "result": "Die Iodzahl beträgt 25,4 g I₂ je 100 g Fett."
+    },
+    {
+      "id": "chem.q2.1.fats-oils.example.2",
+      "title": "Schmelzverhalten erklären",
+      "prompt": "Ein Öl enthält mehr cis-ungesättigte Fettsäurereste als ein festes Fett. Begründe den typischen Unterschied im Schmelzbereich.",
+      "steps": [
+        "Cis-Doppelbindungen erzeugen Knicke in den Ketten.",
+        "Die Ketten packen meist weniger dicht.",
+        "Die zwischenmolekularen Anziehungen im Feststoff sind dadurch häufig geringer."
+      ],
+      "result": "Das Öl hat typischerweise einen niedrigeren Schmelzbereich; die genaue Zusammensetzung bleibt entscheidend."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2021,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Stoffklasse, funktionelle Gruppen oder Strukturmerkmale aus Darstellungen bestimmen.",
+    "AFB II: Reaktionen, Nachweise und Struktur-Eigenschaft-Beziehungen fachlich erklären.",
+    "AFB III: Materialaussagen anhand von Daten beurteilen und Reichweite von Schlussfolgerungen abwägen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Erkläre Eigenschaften über einen konkreten Struktur- und Wechselwirkungsschritt.",
+      "commonError": "Von einem Stoffnamen direkt auf eine Eigenschaft schließen."
+    },
+    {
+      "tip": "Beobachtung, Deutung und Schlussfolgerung sauber trennen.",
+      "commonError": "Ein einzelner Nachweis wird als vollständige Identifikation ausgegeben."
+    },
+    {
+      "tip": "Historische Aufgabenbelege zeigen frühere Aufgabenpraxis.",
+      "commonError": "Feldhäufigkeit wird mit einer Unterthemenhäufigkeit verwechselt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.1.fats-oils.exercise.1",
+    "chem.q2.1.fats-oils.exercise.2",
+    "chem.q2.1.fats-oils.exercise.3",
+    "chem.q2.1.fats-oils.exercise.4",
+    "chem.q2.1.fats-oils.exercise.5",
+    "chem.q2.1.fats-oils.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q2.1.fats-oils.selftest.1",
+    "chem.q2.1.fats-oils.selftest.2",
+    "chem.q2.1.fats-oils.selftest.3"
+  ]
+}

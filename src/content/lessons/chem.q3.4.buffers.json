@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.4.buffers",
+  "title": "Puffersysteme",
+  "summary": "Erkläre die Wirkung von Puffern mit korrespondierenden Säure-Base-Paaren und beachte Kapazität sowie Geltungsbereich.",
+  "order": 40,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "curriculum-only",
+    "note": "Q3.4 wurde in der vorhandenen Vorschlagszählung nicht als eigenes Feld codiert. Ergänzend bedeutet hier keine Aussage, dass es für jeden Prüfungsjahrgang optional ist."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.4",
+      "subsection": "Puffersysteme",
+      "status": "year-specific"
+    }
+  ],
+  "prerequisites": [
+    "chem.q3.2.protolysis",
+    "chem.q3.2.ph",
+    "chem.q3.2.titration"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.4.buffers.goal.principle",
+      "statement": "Ich kann die Zusammensetzung eines Puffers aus einem korrespondierenden Säure-Base-Paar erklären.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "beschreiben",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q3.4.buffers.goal.reaction",
+      "statement": "Ich kann die Reaktion eines Puffers mit kleinen Säure- oder Basenzugaben mithilfe beider Komponenten begründen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q3.4.buffers.goal.calculation",
+      "statement": "Ich kann Henderson-Hasselbalch anwenden, sofern die Vorgabe und die Modellannahmen dies zulassen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "überprüfen"
+      ]
+    },
+    {
+      "id": "chem.q3.4.buffers.goal.limits",
+      "statement": "Ich kann Wirkungsgrenzen und curriculare Versionshinweise für Puffermodelle benennen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Ein Puffer hält den pH-Wert bei kleinen Säure- oder Basenzugaben vergleichsweise stabil. Das gelingt, weil zwei zusammengehörige Teilchen vorhanden sind: eines kann Protonen aufnehmen, das andere sie abgeben. Wie weit du die Wirkung berechnest, hängt von den verfügbaren Daten und der geltenden Vorgabe ab.",
+  "explanation": "### 1. Zusammensetzung eines Puffers\n\nEin Säurepuffer enthält eine schwache Säure HA und ihre korrespondierende Base A⁻ in merklicher Menge. Ein Basenpuffer besteht entsprechend aus einer schwachen Base und ihrer korrespondierenden Säure. Häufig liegen beide Komponenten in ähnlichen Konzentrationen vor.\n\n### 2. Säure- und Basenzugabe abfangen\n\nGibst du eine kleine Menge Säure zu, reagiert die Pufferbase mit H₃O⁺: A⁻ + H₃O⁺ → HA + H₂O. Bei einer kleinen Basenzugabe reagiert die Puffersäure mit OH⁻: HA + OH⁻ → A⁻ + H₂O. Die Zugabe wird dadurch teilweise umgesetzt und die pH-Änderung fällt geringer aus als in reinem Wasser.\n\n### 3. pH näherungsweise berechnen\n\nWenn es curricular verlangt wird und passende Daten vorliegen, kannst du die Henderson-Hasselbalch-Gleichung nutzen: pH = pKs + lg(c(A⁻)/c(HA)). Der pH hängt dabei vom Verhältnis der Komponenten ab. Werden beide Konzentrationen im gleichen Verhältnis erhöht, ändert sich der berechnete pH näherungsweise wenig.\n\nDie Gleichung setzt ein geeignetes Gleichgewichtsmodell und verdünnte Lösungen voraus. Sie ist keine allgemeine Ersatzformel für jede Säure-Base-Aufgabe. Nutze sie nur, wenn Rechenweg, Werte und Vorgabe dazu passen.\n\n### 4. Pufferkapazität und Grenzen\n\nDie Pufferkapazität beschreibt, wie viel Säure oder Base ein Puffer aufnehmen kann, bevor sich der pH deutlich ändert. Sie hängt unter anderem von den absoluten Stoffmengen der Komponenten ab. Ein passendes Verhältnis allein garantiert also keine große Kapazität.\n\nReale Puffersysteme können Stoffe aufnehmen, abgeben oder transportieren. Das Hydrogencarbonat-/Kohlenstoffdioxid-System ist zum Beispiel mit dem Gastransport im Körper verknüpft. Ein einfaches geschlossenes Reaktionsgefäß bildet solche offenen Systeme nicht vollständig ab.\n\n### 5. Curriculare Einordnung\n\nQ3.4 ist in der vorliegenden Prüfungshäufigkeitsanalyse nicht als eigenes KCGO-Feld gezählt. Der Prüfungsbeleg 2025 HT A bezieht sich auf einen Carbonat-/Hydrogencarbonat-Kontext und ist keine Häufigkeitszählung für Pufferaufgaben. Für einen konkreten Jahrgang prüfst du die geltende Curriculums- und Erlassfassung; aus einem Altbeleg folgt keine automatische Prüfungsverbindlichkeit.",
+  "fundamentals": [
+    {
+      "term": "Puffer",
+      "explanation": "Lösung aus einem korrespondierenden Säure-Base-Paar, die kleine Säure- oder Basenzugaben teilweise abfängt."
+    },
+    {
+      "term": "Pufferkapazität",
+      "explanation": "Maß dafür, wie viel Säure oder Base ein Puffer aufnehmen kann, bevor sich sein pH deutlich ändert."
+    },
+    {
+      "term": "Henderson-Hasselbalch-Gleichung",
+      "explanation": "Näherungsbeziehung zwischen pH, pKs und dem Konzentrationsverhältnis einer schwachen Säure zu ihrer korrespondierenden Base."
+    },
+    {
+      "term": "Hydrogencarbonatpuffer",
+      "explanation": "Puffersystem mit H₂CO₃/CO₂ und HCO₃⁻; in biologischen Kontexten ist es mit Stofftransport und CO₂-Abgabe verbunden."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.4.buffers.eq.acid-added",
+      "notation": "A⁻ + H₃O⁺ → HA + H₂O",
+      "explanation": "Die Pufferbase nimmt zugegebenes Proton auf."
+    },
+    {
+      "id": "chem.q3.4.buffers.eq.base-added",
+      "notation": "HA + OH⁻ → A⁻ + H₂O",
+      "explanation": "Die Puffersäure neutralisiert zugegebene Hydroxid-Ionen."
+    },
+    {
+      "id": "chem.q3.4.buffers.eq.hh",
+      "notation": "pH = pKs + lg(c(A⁻)/c(HA))",
+      "explanation": "Näherung für ein geeignetes Puffergleichgewicht; nur mit passenden Daten und curricularer Vorgabe anwenden."
+    }
+  ],
+  "equationNote": "Die Henderson-Hasselbalch-Gleichung ist eine Näherungsbeziehung. Bei größeren Konzentrationen oder außerhalb der Modellannahmen können Aktivitäten und weitere Gleichgewichte relevant werden.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.4.buffers.example.hh",
+      "title": "pH eines Acetatpuffers",
+      "prompt": "Ein Acetatpuffer enthält c(CH₃COO⁻) = 0,20 mol·L⁻¹ und c(CH₃COOH) = 0,10 mol·L⁻¹. Berechne den pH mit pKs = 4,76.",
+      "steps": [
+        "Setze pH = pKs + lg(c(Base)/c(Säure)) ein.",
+        "Berechne das Verhältnis: 0,20/0,10 = 2.",
+        "Berechne lg 2 ≈ 0,30.",
+        "Addiere: 4,76 + 0,30 = 5,06."
+      ],
+      "result": "pH ≈ 5,06."
+    },
+    {
+      "id": "chem.q3.4.buffers.example.addition",
+      "title": "Kleine Säurezugabe abfangen",
+      "prompt": "Beschreibe die Reaktion, wenn zu einem Acetatpuffer eine kleine Menge Säure gegeben wird.",
+      "steps": [
+        "Die zugegebene Säure erhöht zunächst die Oxonium-Ionen-Menge.",
+        "Ethanoat-Ionen wirken als Pufferbase und nehmen Protonen auf.",
+        "Prüfe, welche korrespondierende Säure entsteht."
+      ],
+      "result": "CH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O. Die Säurezugabe wird teilweise gebunden."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Pufferkomponenten und korrespondierende Paare identifizieren.",
+    "AFB II: Pufferreaktionen formulieren und – sofern verlangt – pH-Werte näherungsweise berechnen.",
+    "AFB III: Pufferkapazität und Modellgrenzen in einem Materialkontext beurteilen; Prüfungsverbindlichkeit anhand aktueller Vorgaben prüfen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Benenne beide Komponenten des korrespondierenden Säure-Base-Paars.",
+      "commonError": "Eine einzelne Säure wird ohne ihre korrespondierende Base als vollständiger Puffer behandelt."
+    },
+    {
+      "tip": "Unterscheide pH-Verhältnis und Pufferkapazität.",
+      "commonError": "Gleicher pH wird mit gleicher Fähigkeit gleichgesetzt, beliebig große Säure- oder Basenmengen abzufangen."
+    },
+    {
+      "tip": "Wende Henderson-Hasselbalch nur bei passender Aufgabe und passenden Konzentrationen an.",
+      "commonError": "Die Gleichung wird ohne Daten oder unabhängig von ihren Modellannahmen verwendet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.4.buffers.exercise.basic-pair",
+    "chem.q3.4.buffers.exercise.basic-addition",
+    "chem.q3.4.buffers.exercise.standard-hh",
+    "chem.q3.4.buffers.exercise.standard-capacity",
+    "chem.q3.4.buffers.exercise.transfer-carbonate",
+    "chem.q3.4.buffers.exercise.transfer-scope"
+  ],
+  "selfTestIds": [
+    "chem.q3.4.buffers.selftest.components",
+    "chem.q3.4.buffers.selftest.acid",
+    "chem.q3.4.buffers.selftest.capacity"
+  ]
+}

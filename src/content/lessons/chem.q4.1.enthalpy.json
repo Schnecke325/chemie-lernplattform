@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q4.1.enthalpy",
+  "title": "Energieumsatz, Enthalpie und Kalorimetrie",
+  "summary": "Bei einer Reaktion wird Energie zwischen System und Umgebung übertragen. Kalorimetrie macht diese Änderung über Temperaturmessungen zugänglich.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 13,
+    "note": "13 Vorschläge im Feld Q4.1; keine Unterthemenzählung."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q4.1",
+      "subsection": "Energieumsatz, Enthalpie und Kalorimetrie",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.basics.data",
+    "chem.q3.1.mwg"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q4.1.enthalpy.goal.fundamentals",
+      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.q4.1.enthalpy.goal.calculate",
+      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q4.1.enthalpy.goal.material",
+      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "auswerten",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q4.1.enthalpy.goal.evaluate",
+      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "competencies": [
+        "B",
+        "K"
+      ],
+      "operators": [
+        "bewerten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Bei einer Reaktion wird Energie zwischen System und Umgebung übertragen. Kalorimetrie macht diese Änderung über Temperaturmessungen zugänglich.",
+  "explanation": "Exotherme Reaktionen geben Energie an die Umgebung ab; für das betrachtete System ist ΔH < 0. Endotherme Reaktionen nehmen Energie auf; ΔH > 0. Bei konstantem Druck entspricht die Reaktionsenthalpie der ausgetauschten Wärme. Im Kalorimeter gilt näherungsweise q= m·c·ΔT. Achte auf die Definition, ob q für Lösung, Reaktionssystem oder Kalorimeter angegeben wird: deren Vorzeichen unterscheiden sich.\n\nDie molare Reaktionsenthalpie erhältst du aus q und der umgesetzten Stoffmenge. Wärmeverluste, Wärmekapazität des Gefäßes und unvollständige Reaktion sind mögliche systematische Fehler.",
+  "fundamentals": [
+    {
+      "term": "Energieumsatz, Enthalpie und Kalorimetrie",
+      "explanation": "Bei einer Reaktion wird Energie zwischen System und Umgebung übertragen. Kalorimetrie macht diese Änderung über Temperaturmessungen zugänglich."
+    },
+    {
+      "term": "Modellgrenze",
+      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+    },
+    {
+      "term": "AFB III",
+      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q4.1.enthalpy.eq.1",
+      "notation": "q = m · c · ΔT; ΔH_m = −q_Umgebung / n",
+      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+    }
+  ],
+  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q4.1.enthalpy.example.1",
+      "title": "Lösung erwärmen",
+      "prompt": "100 g Wasser erwärmen sich um 4,0 K. c=4,18 J g⁻¹ K⁻¹. Berechne q für das Wasser.",
+      "steps": [
+        "q=100·4,18·4,0=1672 J≈1,7 kJ",
+        "Das Wasser nimmt Wärme auf; das Reaktionssystem gibt sie bei idealer Wärmeübertragung ab."
+      ],
+      "result": "q=100·4,18·4,0=1672 J≈1,7 kJ. Das Wasser nimmt Wärme auf; das Reaktionssystem gibt sie bei idealer Wärmeübertragung ab."
+    },
+    {
+      "id": "chem.q4.1.enthalpy.example.2",
+      "title": "Enthalpiezeichen",
+      "prompt": "Eine Reaktion erwärmt die Umgebung. Welches Vorzeichen hat ΔH des Systems?",
+      "steps": [
+        "Die Umgebung nimmt Wärme auf; das System gibt sie ab",
+        "Daher ist ΔH des Systems negativ: exotherme Reaktion."
+      ],
+      "result": "Die Umgebung nimmt Wärme auf; das System gibt sie ab. Daher ist ΔH des Systems negativ: exotherme Reaktion."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2017,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
+    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
+    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
+      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+    },
+    {
+      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
+      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+    },
+    {
+      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
+      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q4.1.enthalpy.exercise.1",
+    "chem.q4.1.enthalpy.exercise.2",
+    "chem.q4.1.enthalpy.exercise.3",
+    "chem.q4.1.enthalpy.exercise.4",
+    "chem.q4.1.enthalpy.exercise.5",
+    "chem.q4.1.enthalpy.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q4.1.enthalpy.selftest.1",
+    "chem.q4.1.enthalpy.selftest.2",
+    "chem.q4.1.enthalpy.selftest.3"
+  ]
+}

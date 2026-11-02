@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.1.biopolymers",
+  "title": "Biogene Makromoleküle im Kontext",
+  "summary": "Strukturen, Eigenschaften und Reaktionen zu Biogene Makromoleküle im Kontext verständlich und prüfungsbezogen erschließen.",
+  "order": 50,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "high",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 47,
+    "note": "47 zählt Vorschläge im Themenfeld Q2.1, keine Häufigkeit dieses Unterkapitels."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.1",
+      "subsection": "Biogene Makromoleküle im Kontext",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.q1.1.bonding",
+    "chem.q1.1.interactions"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.1.biopolymers.goal.structure",
+      "statement": "Ich kann zentrale Strukturmerkmale von Biogene Makromoleküle im Kontext beschreiben und darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "darstellen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.biopolymers.goal.properties",
+      "statement": "Ich kann Strukturmerkmale über Wechselwirkungen mit Stoffeigenschaften verknüpfen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.biopolymers.goal.reaction",
+      "statement": "Ich kann passende Reaktionen oder Nachweise formulieren und deuten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.q2.1.biopolymers.goal.evidence",
+      "statement": "Ich kann Materialaussagen mit Belegen begrenzen und bewerten.",
+      "competencies": [
+        "K",
+        "B"
+      ],
+      "operators": [
+        "auswerten",
+        "bewerten"
+      ]
+    }
+  ],
+  "introduction": "In Aufgaben zu Naturstoffen musst du Strukturwissen auf einen Materialkontext übertragen. Dabei zählt eine nachvollziehbare Erklärung mehr als ein bloßes Wiedererkennen des Stoffnamens.",
+  "explanation": "Proteine sind Polymere aus Aminosäuren, die über Peptidbindungen verknüpft sind. Polysaccharide bestehen aus Monosacchariden mit glycosidischen Bindungen. Chitin ist ein stickstoffhaltiges Polysaccharid aus N-Acetylglucosamin-Bausteinen. Galactomannane besitzen Mannose- und Galactoseeinheiten.\n\nMakroskopische Eigenschaften hängen nicht allein von der Stoffklasse ab. Kettenlänge, Verzweigung, Substituenten, Kristallinität und Wechselwirkungen beeinflussen Löslichkeit und Festigkeit. Baue Erklärungen als Kette auf: Strukturmerkmal → Wechselwirkung/Anordnung → beobachtete Eigenschaft. Wenn Materialdaten fehlen, kennzeichne die Grenze deiner Aussage.",
+  "fundamentals": [
+    {
+      "term": "Biopolymer",
+      "explanation": "Makromolekül, das von Organismen gebildet wird oder natürlichen Ursprungs ist."
+    },
+    {
+      "term": "Chitin",
+      "explanation": "Polysaccharid aus β-verknüpften N-Acetylglucosamin-Einheiten."
+    },
+    {
+      "term": "Galactomannan",
+      "explanation": "Polysaccharid mit Mannose-Hauptkette und Galactose-Seitengruppen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.1.biopolymers.eq.1",
+      "notation": "Aminosäure + Aminosäure → Dipeptid + H₂O",
+      "explanation": "Schematische Kondensation zur Peptidbindung."
+    },
+    {
+      "id": "chem.q2.1.biopolymers.eq.2",
+      "notation": "n Monosaccharide → Polysaccharid + (n−1) H₂O",
+      "explanation": "Vereinfachtes Schema; Bindungsstellen und Endgruppen sind zu beachten."
+    }
+  ],
+  "equationNote": "Schematische Reaktionsgleichungen. Ergänze Strukturformeln, Reaktionsbedingungen und Aggregatzustände, wenn die Aufgabenstellung sie verlangt.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.1.biopolymers.example.1",
+      "title": "Chitin als Materialbaustein",
+      "prompt": "Ein Chitin-haltiger Verbund ist zugfest. Formuliere eine vorsichtige Struktur-Eigenschaft-Erklärung.",
+      "steps": [
+        "Chitin ist ein Polysaccharid mit polaren Gruppen.",
+        "Zwischen Ketten können Wasserstoffbrücken zur Stabilisierung beitragen.",
+        "Faserorientierung und Verbundaufbau können die Zugfestigkeit zusätzlich prägen."
+      ],
+      "result": "Eine plausible Erklärung nennt Wechselwirkungen und Materialanordnung, ohne unbelegte Mikrostrukturdetails zu behaupten."
+    },
+    {
+      "id": "chem.q2.1.biopolymers.example.2",
+      "title": "Beleggrenze beachten",
+      "prompt": "Ein Materialtext nennt Galactomannan, aber keine Molekülmasse oder Detailstruktur. Welche Aussagen sind begründet?",
+      "steps": [
+        "Galactomannan ist ein Polysaccharid aus Mannose- und Galactoseeinheiten.",
+        "Aus dem Namen allein folgt keine bestimmte Kettenlänge oder Verzweigungsdichte.",
+        "Weitere Strukturbehauptungen brauchen Materialdaten."
+      ],
+      "result": "Die Stoffklasse lässt sich einordnen; konkrete Mikrostruktur darf nicht erfunden werden."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2019,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Stoffklasse, funktionelle Gruppen oder Strukturmerkmale aus Darstellungen bestimmen.",
+    "AFB II: Reaktionen, Nachweise und Struktur-Eigenschaft-Beziehungen fachlich erklären.",
+    "AFB III: Materialaussagen anhand von Daten beurteilen und Reichweite von Schlussfolgerungen abwägen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Erkläre Eigenschaften über einen konkreten Struktur- und Wechselwirkungsschritt.",
+      "commonError": "Von einem Stoffnamen direkt auf eine Eigenschaft schließen."
+    },
+    {
+      "tip": "Beobachtung, Deutung und Schlussfolgerung sauber trennen.",
+      "commonError": "Ein einzelner Nachweis wird als vollständige Identifikation ausgegeben."
+    },
+    {
+      "tip": "Historische Aufgabenbelege zeigen frühere Aufgabenpraxis.",
+      "commonError": "Feldhäufigkeit wird mit einer Unterthemenhäufigkeit verwechselt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q2.1.biopolymers.exercise.1",
+    "chem.q2.1.biopolymers.exercise.2",
+    "chem.q2.1.biopolymers.exercise.3",
+    "chem.q2.1.biopolymers.exercise.4",
+    "chem.q2.1.biopolymers.exercise.5",
+    "chem.q2.1.biopolymers.exercise.6"
+  ],
+  "selfTestIds": [
+    "chem.q2.1.biopolymers.selftest.1",
+    "chem.q2.1.biopolymers.selftest.2",
+    "chem.q2.1.biopolymers.selftest.3"
+  ]
+}

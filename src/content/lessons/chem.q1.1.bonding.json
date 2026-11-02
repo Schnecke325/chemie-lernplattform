@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q1.1.bonding",
+  "title": "Bindungsarten und Teilchenstrukturen",
+  "summary": "Ordne Bindungsmodelle Stoffen zu und leite daraus Struktur und ausgewählte Eigenschaften ab.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 19,
+    "note": "Die Zahl 19 bezieht sich auf Q1.1 insgesamt. Sie ist kein eigener Häufigkeitswert für Bindungsarten."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.1",
+      "subsection": "Bindungsmodelle und Teilchenstrukturen",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.basics.quantities"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q1.1.bonding.goal.models",
+      "statement": "Ich kann Ionen-, Elektronenpaar- und Metallbindung an Stoffbeispielen unterscheiden.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "beschreiben",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.bonding.goal.electronegativity",
+      "statement": "Ich kann Elektronegativitätsunterschiede nutzen, um Bindungen qualitativ einzuordnen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "bestimmen",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q1.1.bonding.goal.structures",
+      "statement": "Ich kann Lewis-Formeln, Ionenladungen und einfache Teilchenstrukturen darstellen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "zeichnen",
+        "formulieren"
+      ]
+    },
+    {
+      "id": "chem.q1.1.bonding.goal.properties",
+      "statement": "Ich kann aus dem Bindungs- und Strukturmodell geeignete Stoffeigenschaften ableiten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "vergleichen"
+      ]
+    }
+  ],
+  "introduction": "Warum leitet Kupfer elektrischen Strom, festes Kochsalz aber nicht? Um solche Eigenschaften zu erklären, brauchst du ein Modell dafür, wie die Teilchen in einem Stoff verbunden sind. In dieser Seite lernst du drei grundlegende Bindungsmodelle kennen und wählst sie passend zum Stoff aus.",
+  "explanation": "### 1. Erst die Bausteine bestimmen\n\nBeginne bei einem unbekannten Stoff mit der Frage: Welche Teilchen bilden ihn? Metalle bestehen aus Metallatomen, Salze aus Kationen und Anionen, molekulare Stoffe aus Nichtmetallatomen in abgegrenzten Molekülen. Diese Einordnung hilft dir, ein passendes Bindungsmodell auszuwählen.\n\n### 2. Elektronenpaarbindung\n\nZwei Nichtmetallatome können Elektronen gemeinsam nutzen. Das gemeinsame Elektronenpaar heißt bindendes Elektronenpaar. In einer Lewis-Formel steht ein Strich für dieses Paar; freie Elektronenpaare werden als Punktpaare gezeichnet. Wasserstoff erfüllt mit zwei Elektronen die Duettregel. Viele Hauptgruppenelemente streben in einfachen Lewis-Modellen eine Außenschale mit acht Elektronen an. Diese Oktettregel ist eine Modellregel und hat Ausnahmen.\n\nSind die Atome verschieden, ziehen sie Bindungselektronen meist unterschiedlich stark an. Die Elektronegativität beschreibt diese Anziehung qualitativ. Bei ungleicher Verteilung entstehen Partialladungen δ⁺ und δ⁻. Eine polare Elektronenpaarbindung bleibt eine kovalente Bindung; sie ist nicht automatisch eine Ionenbindung.\n\n### 3. Ionenbindung und Ionengitter\n\nBei der Ionenbindung wird die Anziehung entgegengesetzt geladener Ionen wichtig. Elektronenübertragungen können Kationen und Anionen entstehen lassen. Im festen Salz ordnen sich viele Ionen zu einem Ionengitter. Die Verhältnisformel gibt das kleinste Zahlenverhältnis der Ionen an, das elektrisch neutral ist. Na₂O enthält beispielsweise Na⁺ und O²⁻ im Verhältnis 2:1.\n\nFeste Salze leiten meist keinen elektrischen Strom: Ihre Ionen sitzen an Gitterplätzen. In einer Schmelze oder wässrigen Lösung können Ionen wandern und Ladung transportieren. Viele Salze sind hart und spröde. Wird das Gitter verschoben, geraten gleich geladene Ionen nebeneinander und stoßen sich ab.\n\n### 4. Metallbindung\n\nIm Metallmodell sitzen positive Atomrümpfe in einem Gitter. Valenzelektronen sind delokalisiert und nicht einem einzelnen Bindungspaar zugeordnet. Diese beweglichen Elektronen erklären die gute elektrische Leitfähigkeit von Metallen. Die Schichten im Gitter können sich oft verschieben, ohne dass die Bindung vollständig zerbricht. Das trägt zur Verformbarkeit vieler Metalle bei.\n\n### 5. Modell wählen und Eigenschaften begründen\n\nEine Eigenschaft erklärst du nicht allein durch den Namen einer Bindungsart. Nenne die Teilchenstruktur und den Zusammenhang zur beobachteten Eigenschaft. Für elektrische Leitfähigkeit fragst du zum Beispiel, ob bewegliche Ladungsträger vorhanden sind. Für Schmelzverhalten spielen die Kräfte im gesamten Verband eine Rolle. Vergleiche nur Stoffe unter Bedingungen, die in der Aufgabe gleich oder bekannt sind.",
+  "fundamentals": [
+    {
+      "term": "Elektronegativität",
+      "explanation": "Qualitatives Maß dafür, wie stark ein Atom Bindungselektronen anzieht."
+    },
+    {
+      "term": "Partialladung",
+      "explanation": "Teilladung δ⁺ oder δ⁻, die durch ungleiche Elektronenverteilung in einer Bindung entsteht. Sie ist keine volle Ionenladung."
+    },
+    {
+      "term": "Lewis-Formel",
+      "explanation": "Darstellung von Valenzelektronen, bindenden Elektronenpaaren und freien Elektronenpaaren."
+    },
+    {
+      "term": "Ionengitter",
+      "explanation": "Regelmäßige Anordnung von Kationen und Anionen in einem festen Salz. Die Verhältnisformel beschreibt das kleinste neutrale Zahlenverhältnis."
+    },
+    {
+      "term": "Metallbindung",
+      "explanation": "Bindungsmodell mit positiven Atomrümpfen im Gitter und delokalisierten, beweglichen Valenzelektronen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q1.1.bonding.eq.sodium-oxide",
+      "notation": "2 Na⁺ + O²⁻ → Na₂O",
+      "explanation": "Das Verhältnis 2:1 gleicht die Ladungen aus; die Gleichung steht hier für die Bildung einer neutralen Verhältnisformel."
+    },
+    {
+      "id": "chem.q1.1.bonding.eq.hcl",
+      "notation": "Hδ⁺—Clδ⁻",
+      "explanation": "Polare Elektronenpaarbindung mit zu Chlor verschobenem Bindungselektronenpaar. δ bezeichnet Partialladungen."
+    }
+  ],
+  "equationNote": "Lewis-Modelle zeigen Valenzelektronen schematisch. Oktettregel und Elektronegativitätsdifferenz helfen bei der Einordnung, ersetzen aber nicht die Prüfung des konkreten Stoffmodells.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q1.1.bonding.example.hcl",
+      "title": "Bindung im Chlorwasserstoff",
+      "prompt": "Ordne die Bindung in HCl ein und zeichne eine passende Lewis-Formel.",
+      "steps": [
+        "H und Cl sind Nichtmetalle; sie bilden ein Molekül mit gemeinsam genutztem Elektronenpaar.",
+        "Cl zieht die Bindungselektronen stärker an als H.",
+        "Zeichne eine Einfachbindung und ergänze drei freie Elektronenpaare am Cl."
+      ],
+      "result": "Hδ⁺—Clδ⁻. Die H–Cl-Bindung ist polar kovalent; am Cl befinden sich drei freie Elektronenpaare."
+    },
+    {
+      "id": "chem.q1.1.bonding.example.na2o",
+      "title": "Verhältnisformel eines Salzes",
+      "prompt": "Ein Salz besteht aus Na⁺- und O²⁻-Ionen. Bestimme die Verhältnisformel.",
+      "steps": [
+        "Notiere die Ionenladungen: Na⁺ trägt +1, O²⁻ trägt −2.",
+        "Suche das kleinste Verhältnis mit Gesamtladung null.",
+        "Zwei Na⁺ gleichen ein O²⁻ aus."
+      ],
+      "result": "Die Verhältnisformel lautet Na₂O."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Bindungsmodell, Teilchenarten, Lewis-Formel oder Ladungen angeben.",
+    "AFB II: Aus einem Stoff- oder Materialkontext Bindung und Teilchenstruktur ableiten und Eigenschaften erklären.",
+    "AFB III: Reichweite eines Bindungsmodells oder einer Struktur-Eigenschafts-Erklärung beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Bestimme zuerst die Teilchen, bevor du ein Bindungsmodell auswählst.",
+      "commonError": "Aus einer Stoffbezeichnung wird ohne Begründung auf ein einzelnes Molekül geschlossen."
+    },
+    {
+      "tip": "Unterscheide Partialladung von voller Ionenladung und Bindungspolarität von Ionenbindung.",
+      "commonError": "δ⁺/δ⁻ werden wie ganzzahlige Ionenladungen behandelt."
+    },
+    {
+      "tip": "Verknüpfe die Eigenschaft mit beweglichen Teilchen oder Elektronen im jeweiligen Modell.",
+      "commonError": "Leitfähigkeit wird nur mit „starker Bindung“ begründet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q1.1.bonding.exercise.basic-bond",
+    "chem.q1.1.bonding.exercise.basic-lewis",
+    "chem.q1.1.bonding.exercise.standard-electronegativity",
+    "chem.q1.1.bonding.exercise.standard-properties",
+    "chem.q1.1.bonding.exercise.transfer-charge",
+    "chem.q1.1.bonding.exercise.transfer-model"
+  ],
+  "selfTestIds": [
+    "chem.q1.1.bonding.selftest.models",
+    "chem.q1.1.bonding.selftest.metal",
+    "chem.q1.1.bonding.selftest.polar"
+  ]
+}

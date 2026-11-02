@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q2.1.amino-acids-peptides",
+  "title": "Aminosäuren und Peptide",
+  "summary": "Verstehe, wie Aminosäuren auf den pH-Wert reagieren. Bestimme ihren isoelektrischen Punkt und beschreibe Peptidbindungen auch stöchiometrisch.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "high",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 47,
+    "note": "Die Einstufung bezieht sich auf Q2.1 als Ganzes: In 47 vorhandenen Prüfungsvorschlägen wurde mindestens ein Q2.1-Bezug codiert. Das ist keine Häufigkeitszählung für dieses Unterkapitel allein."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.1",
+      "subsection": "Naturstoffe: Aminosäuren und Peptide",
+      "status": "year-specific"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.basics.quantities",
+    "chem.q1.1.interactions",
+    "chem.q3.2.protolysis"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q2.1.amino-acids-peptides.goal.zwitterion",
+      "statement": "Ich kann den Aufbau einer α-Aminosäure darstellen und erklären, warum sie je nach pH-Wert als Kation, Zwitterion oder Anion vorliegt.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "darstellen",
+        "erklären"
+      ]
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.goal.pka-pi",
+      "statement": "Ich kann pKa-Angaben mit dem pH-Wert vergleichen, das überwiegende Ladungsbild bestimmen und für eine Aminosäure ohne ionisierbare Seitenkette den isoelektrischen Punkt berechnen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "bestimmen",
+        "berechnen",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.goal.stereochemistry",
+      "statement": "Ich kann Chiralität, Fischer-Projektion sowie D- und L-Konfiguration unterscheiden und die Sonderstellung von Glycin erklären.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.goal.peptides",
+      "statement": "Ich kann Peptidbindungen in einer Strukturformel erkennen, eine lineare Peptidbildung als Kondensation formulieren und Stoffmengenverhältnisse sowie die Zahl der Peptidbindungen bestimmen.",
+      "competencies": [
+        "S",
+        "E",
+        "K"
+      ],
+      "operators": [
+        "formulieren",
+        "zeichnen",
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.goal.material-transfer",
+      "statement": "Ich kann aus pH- und pKa-Daten eine begründete Aussage zur Nettoladung ableiten und die Grenzen einer vereinfachten Ladungsbetrachtung benennen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "auswerten",
+        "ableiten",
+        "beurteilen"
+      ]
+    }
+  ],
+  "explanation": "### 1. Aufbau und Säure-Base-Verhalten\n\nDie allgemeine Struktur einer α-Aminosäure lautet H₂N–CH(R)–COOH. Das mittlere C-Atom heißt α-Kohlenstoff. An ihm sitzen vier Gruppen: die Aminogruppe, die Carboxygruppe, ein Wasserstoffatom und die Seitenkette R. Bei Glycin ist R = H, bei Alanin R = CH₃. Manche Seitenketten können ebenfalls Protonen aufnehmen oder abgeben. Deshalb gelten die folgenden zwei pKa-Werte und die einfache pI-Regel direkt nur, wenn R im betrachteten pH-Bereich nicht ionisierbar ist.\n\nIn Wasser kann die Carboxygruppe ein Proton abgeben. Die Aminogruppe kann eines aufnehmen. So entsteht durch Protonenübertragung innerhalb des Teilchens die Form H₃N⁺–CH(R)–COO⁻. Sie trägt eine positive und eine negative formale Ladung. Zusammen ergeben sie die Nettoladung 0. Das Zwitterion ist also ein einzelnes Teilchen – keine Mischung aus Kationen und Anionen.\n\n### 2. Ladungszustände aus pH und pKa ableiten\n\nBei einer Aminosäure mit nicht ionisierbarer Seitenkette laufen die wichtigen Protolyse-Schritte nacheinander ab: Zuerst gibt die Carboxygruppe ein Proton ab, danach die Ammoniumgruppe. Ein kleiner pKa-Wert bedeutet, dass die betreffende Säuregruppe leichter ein Proton abgibt. Vergleiche den pH mit dem pKa der jeweiligen Stufe:\n\n- Liegt der pH deutlich unter pKa₁, überwiegt H₃N⁺–CH(R)–COOH. Die Nettoladung beträgt +1.\n- Liegt der pH zwischen pKa₁ und pKa₂, überwiegt H₃N⁺–CH(R)–COO⁻. Die Nettoladung beträgt 0; das ist das Zwitterion.\n- Liegt der pH deutlich über pKa₂, überwiegt H₂N–CH(R)–COO⁻. Die Nettoladung beträgt −1.\n\n„Deutlich“ ist eine qualitative Näherung. In der Nähe eines pKa liegen beide zugehörigen Formen in merklichen Anteilen vor. Bei pH = pKa sind sie im idealisierten Henderson-Hasselbalch-Modell gleich konzentriert. Reale pKa-Werte hängen unter anderem von Temperatur und Lösungsbedingungen ab. In Prüfungsaufgaben verwendest du die angegebenen Werte und Annahmen.\n\n### 3. Isoelektrischer Punkt\n\nDer isoelektrische Punkt pI ist der pH-Wert, bei dem die mittlere Nettoladung null ist. Bei einer Aminosäure mit nicht ionisierbarer Seitenkette liegt das Zwitterion zwischen pKa₁ und pKa₂. Deshalb gilt pI = (pKa₁ + pKa₂)/2. Am pI ist aber nicht jedes Molekül ungeladen: Es überwiegen Zwitterionen, daneben gibt es kleine Anteile positiv und negativ geladener Formen.\n\nIst die Seitenkette R selbst ionisierbar, kommen weitere Protolyse-Schritte hinzu. Dann kannst du nicht einfach die beiden pKa-Werte der α-Gruppen mitteln. Bestimme zuerst die Nettoladung nach jedem Schritt der Protonenabgabe. Der pI ist der Mittelwert der beiden pKa-Werte, zwischen denen die elektrisch neutrale Gesamtform liegt.\n\nUnterhalb des pI ist die mittlere Nettoladung positiv, oberhalb ist sie negativ. Damit lässt sich die qualitative Wanderungsrichtung bei der Elektrophorese erklären: Kationen wandern zur Kathode (negativ), Anionen zur Anode (positiv). Am pI ist die mittlere Nettoladung null. Daraus folgt nicht automatisch, dass sich der Stoff in jedem Experiment gar nicht bewegt oder besonders gut löslich ist.\n\n### 4. Chiralität und D/L-Konfiguration\n\nEin α-Kohlenstoff ist chiral, wenn vier verschiedene Gruppen an ihn gebunden sind. Das gilt für proteinogene α-Aminosäuren außer Glycin. Glycin hat am α-Kohlenstoff zwei Wasserstoffatome und ist dort deshalb nicht chiral. Chiralität kann zu Enantiomeren führen: Das sind zwei Formen, die sich wie Bild und Spiegelbild verhalten.\n\nD und L geben die relative Konfiguration in einer Fischer-Projektion an. In der üblichen Darstellung zeigt die Carboxygruppe nach oben und R nach unten. Steht die Aminogruppe links, gehört die Verbindung zur L-Reihe. D/L sagt nicht, ob die Verbindung Licht nach rechts oder links dreht; das Vorzeichen (+/−) muss experimentell bestimmt werden. Setze D/L auch nicht ohne Prüfung mit R/S gleich. In Proteinen kommen überwiegend L-Aminosäuren vor. Für konkrete Aussagen ist das Aufgabenmaterial maßgeblich.\n\n### 5. Peptidbindung und Peptidstruktur\n\nDie Carboxygruppe eines Aminosäurerests kann sich mit der Aminogruppe des nächsten Restes verbinden. Formal wird dabei Wasser abgespalten und eine Amidbindung –CO–NH– gebildet. Den Aminosäurebaustein innerhalb der Kette nennt man Aminosäurerest. Ein Dipeptid enthält zwei Reste und eine Peptidbindung. Ein lineares Peptid mit n Resten enthält n−1 Peptidbindungen.\n\nDu liest Peptidsequenzen vom N-Terminus mit freier Aminogruppe zum C-Terminus mit freier Carboxygruppe. Gly–Ala bedeutet also: Glycin steht am N-Terminus, Alanin am C-Terminus. Bei der formalen Kondensation werden OH von der Carboxygruppe und H von der Aminogruppe entfernt. Zusammen bilden sie H₂O. Achte darauf, dass alle Atome in der Reaktionsgleichung erhalten bleiben.\n\nDurch Mesomerie besitzt die Peptidbindung partiellen Doppelbindungscharakter. Deshalb ist die C–N-Bindung weniger frei drehbar als eine gewöhnliche Einfachbindung. Die Peptidgruppe ist annähernd planar. Seitenketten und weitere Wechselwirkungen prägen anschließend die räumliche Struktur des Proteins.\n\nDie Gleichung für freie Aminosäuren zu einem Peptid ist eine formale Stoffbilanz. Sie bedeutet nicht, dass freie Aminosäuren in Wasser ohne Weiteres vollständig zu Peptiden reagieren. In der Zelle entsteht die Peptidbindung während der Translation. Daran sind aktivierte Aminosäuren und das Ribosom beteiligt.\n\n### 6. Peptidbildung berechnen\n\nBei einem linearen Peptid aus n Aminosäureresten werden formal n−1 Moleküle Wasser abgespalten. Deshalb erhältst du die molare Masse des Peptids, indem du von der Summe der molaren Massen aller Aminosäuren (n−1)·M(H₂O) abziehst. In einer Aufgabe ist immer die dort angegebene Reaktionsgleichung maßgeblich. Bei stöchiometrischen Rechnungen bestimmst du zuerst das limitierende Edukt. Es begrenzt die theoretisch mögliche Produktmenge.",
+  "fundamentals": [
+    {
+      "term": "α-Aminosäure",
+      "explanation": "Eine organische Verbindung mit einer Aminogruppe und einer Carboxygruppe am α-Kohlenstoff. Du kannst sie allgemein als H₂N–CH(R)–COOH schreiben; R steht für die Seitenkette."
+    },
+    {
+      "term": "Ampholyt",
+      "explanation": "Ein Teilchen, das je nach Reaktionspartner Protonen aufnehmen oder abgeben kann. Bei Aminosäuren übernimmt die basische Aminogruppe die Protonenaufnahme, die saure Carboxygruppe die Protonenabgabe."
+    },
+    {
+      "term": "Zwitterion",
+      "explanation": "Ein Teilchen mit mindestens einer positiven und einer negativen Ladung. Die Gesamtladung kann trotzdem null sein. Bei Aminosäuren lautet die Zwitterionenform H₃N⁺–CH(R)–COO⁻."
+    },
+    {
+      "term": "Isoelektrischer Punkt (pI)",
+      "explanation": "Der pH-Wert, bei dem die mittlere Nettoladung der Aminosäure null ist. Hat die Seitenkette keine ionisierbare Gruppe, mittelt man die beiden pKa-Werte, zwischen denen das Zwitterion liegt."
+    },
+    {
+      "term": "Peptidbindung",
+      "explanation": "Die Amidbindung –CO–NH– zwischen der Carboxygruppe eines Aminosäurerests und der Aminogruppe des folgenden Rests. Sie verknüpft die Bausteine eines Peptids."
+    },
+    {
+      "term": "Chiralität und D/L",
+      "explanation": "Ein tetraedrisches Atom mit vier verschiedenen Gruppen kann ein Chiralitätszentrum sein. D/L beschreibt die relative Konfiguration in der Fischer-Projektion. Daraus kannst du nicht ableiten, ob eine Substanz Licht nach rechts oder links dreht."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q2.1.amino-acids-peptides.eq.general-structure",
+      "explanation": "Allgemeine Struktur einer α-Aminosäure in der ungeladenen Schreibweise. In Wasser ist das Zwitterion häufig die dominierende Form.",
+      "notation": "H₂N–CH(R)–COOH"
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.eq.protolysis-one",
+      "explanation": "Abgabe des Protons der Carboxygruppe; die Produkte sind Zwitterion und Proton.",
+      "notation": "H₃N⁺–CH(R)–COOH ⇌ H₃N⁺–CH(R)–COO⁻ + H⁺    pKa₁"
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.eq.protolysis-two",
+      "explanation": "Bei weiter steigendem pH gibt die Ammoniumgruppe ein Proton ab; es entsteht das Anion.",
+      "notation": "H₃N⁺–CH(R)–COO⁻ ⇌ H₂N–CH(R)–COO⁻ + H⁺    pKa₂"
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.eq.pi",
+      "explanation": "Mittelwert der beiden pKa-Werte, zwischen denen das Zwitterion liegt. Bei sauren oder basischen ionisierbaren Seitenketten muss stattdessen das passende benachbarte pKa-Paar verwendet werden.",
+      "notation": "pI = (pKa₁ + pKa₂) / 2    (Seitenkette nicht ionisierbar)"
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.eq.peptide-formation",
+      "explanation": "Beispiel einer formal bilanzierten Kondensation von Glycin und Alanin zum Dipeptid Gly–Ala. Die Schreibweise zeigt die Bindungs- und Stoffbilanz, nicht den biologischen Reaktionsmechanismus.",
+      "notation": "H₂N–CH₂–COOH + H₂N–CH(CH₃)–COOH → H₂N–CH₂–CO–NH–CH(CH₃)–COOH + H₂O"
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.eq.henderson-hasselbalch",
+      "explanation": "Für ein einzelnes konjugiertes Säure-Base-Paar. Bei pH = pKa sind beide Formen im idealisierten Gleichgewichtsmodell gleich konzentriert.",
+      "notation": "pH = pKa + log₁₀([deprotonierte Form] / [protonierte Form])"
+    }
+  ],
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q2.1.amino-acids-peptides.example.isoelectric-point",
+      "prompt": "Für Glycin gelten näherungsweise pKa₁ = 2,34 (Carboxygruppe) und pKa₂ = 9,60 (Ammoniumgruppe). Berechne den isoelektrischen Punkt. Gib anschließend an, welche Form bei pH 7,00 überwiegt.",
+      "steps": [
+        "Glycin hat die Seitenkette R = H. Sie besitzt im üblichen Säure-Base-Modell keine zusätzliche ionisierbare Gruppe.",
+        "Das Zwitterion liegt zwischen den beiden Protolyse-Schritten. Deshalb mitteln wir genau pKa₁ und pKa₂.",
+        "Setze die Werte in die Formel ein: pI = (2,34 + 9,60) / 2 = 11,94 / 2 = 5,97.",
+        "Vergleiche jetzt pH 7,00 mit beiden pKa-Werten. Weil pH > pKa₁ ist, liegt die Carboxygruppe überwiegend als COO⁻ vor. Weil pH < pKa₂ ist, bleibt die Aminogruppe überwiegend als NH₃⁺ protoniert.",
+        "Damit überwiegt H₃N⁺–CH₂–COO⁻, das Zwitterion. Da pH 7 über dem pI liegt, ist die mittlere Nettoladung leicht negativ. Trotzdem ist das Zwitterion weiterhin die häufigste einzelne Teilchenform."
+      ],
+      "result": "pI(Glycin) = 5,97. Bei pH 7,00 überwiegt das Zwitterion H₃N⁺–CH₂–COO⁻; die mittlere Nettoladung ist leicht negativ.",
+      "title": "Isoelektrischer Punkt und Ladungsform"
+    },
+    {
+      "id": "chem.q2.1.amino-acids-peptides.example.peptide-stoichiometry",
+      "prompt": "0,200 mol Glycin reagieren mit 0,150 mol Alanin zu einem linearen Dipeptid Gly–Ala. Berechne die maximal mögliche Stoffmenge und Masse des Dipeptids sowie die Stoffmenge und Masse des entstehenden Wassers. Verwende M(Gly–Ala) = 146,15 g·mol⁻¹ und gehe von vollständiger Umsetzung aus.",
+      "steps": [
+        "Lies zuerst das Stoffmengenverhältnis aus der Reaktionsgleichung ab: Glycin : Alanin : Dipeptid : Wasser = 1 : 1 : 1 : 1.",
+        "Vergleiche die Eduktmengen. Mit 0,150 mol liegt weniger Alanin als Glycin vor. Alanin ist deshalb das limitierende Edukt.",
+        "Aus dem Verhältnis 1 : 1 folgt: Es können höchstens n(Dipeptid) = 0,150 mol und n(H₂O) = 0,150 mol entstehen.",
+        "Berechne die Dipeptidmasse mit m = n · M: 0,150 mol · 146,15 g·mol⁻¹ = 21,9225 g.",
+        "Runde auf drei signifikante Stellen: m(Dipeptid) = 21,9 g. Als Kontrolle ergibt sich für Wasser: 0,150 mol · 18,02 g·mol⁻¹ ≈ 2,70 g."
+      ],
+      "result": "Es entstehen maximal 0,150 mol bzw. 21,9 g Dipeptid Gly–Ala und 0,150 mol bzw. 2,70 g Wasser.",
+      "title": "Limitierendes Edukt bei der Peptidbildung"
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2014,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "pageEnd": 5,
+      "evidenceRole": "main-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2015,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Vergleiche den pH mit jedem pKa des Teilchens, bevor du die Struktur zeichnest.",
+      "commonError": "Ein häufiger Fehler: Bei neutralem pH wird die Aminogruppe als NH₂ gezeichnet. In der vorherrschenden Zwitterionenform liegt sie als NH₃⁺ vor."
+    },
+    {
+      "tip": "Bestimme bei einer pI-Aufgabe zuerst die insgesamt neutrale Protonierungsform. Prüfe dann, zwischen welchen pKa-Werten sie liegt.",
+      "commonError": "Bei einer Aminosäure mit ionisierbarer Seitenkette darfst du nicht ungeprüft die beiden pKa-Werte der α-Gruppen mitteln."
+    },
+    {
+      "tip": "Lies die Peptidsequenz vom N-Terminus zum C-Terminus und markiere jede –CO–NH–Bindung.",
+      "commonError": "Die Zahl der Peptidbindungen ist nicht gleich der Zahl der Aminosäurereste. Für eine lineare Kette gilt: n−1."
+    },
+    {
+      "tip": "Prüfe bei einer Kondensationsgleichung, ob Atome und Ladungen auf beiden Seiten übereinstimmen.",
+      "commonError": "Vergiss nicht, Wasser in der formalen Stoffbilanz zu berücksichtigen. Die Gleichung bedeutet aber nicht, dass freie Aminosäuren in Wasser spontan vollständig reagieren."
+    },
+    {
+      "tip": "Gib bei D/L an, dass du die Fischer-Projektionskonvention meinst.",
+      "commonError": "D/L beschreibt weder das Vorzeichen der optischen Drehung noch automatisch die R/S-Konfiguration."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "introduction": "Eine Aminosäure besitzt zwei Gruppen, die mit Protonen reagieren: die saure Carboxygruppe und die basische Aminogruppe. Deshalb hängt ihre Ladung davon ab, wie sauer oder basisch die Lösung ist. Das beschreibt der pH-Wert. Bei vielen Aminosäuren trägt ein Teilchen gleichzeitig eine positive und eine negative Ladung. Insgesamt ist es damit neutral. Diese Form heißt Zwitterion.\n\nZwei Aminosäuren können sich über eine Peptidbindung verbinden. Viele solcher Bausteine bilden Peptide und Proteine. Wenn du Ladungszustände und Peptidbindungen sicher erkennst, kannst du auch umfangreichere Aufgaben zu Naturstoffen Schritt für Schritt bearbeiten.",
+  "equationNote": "Die Gleichungen verwenden die üblichen Strukturformeln. In Wasser steht H⁺ vereinfachend für ein solvatisiertes Proton – also ein Proton, das von Wassermolekülen umgeben ist.",
+  "typicalTaskTypes": [
+    "Bestimme mit pH- und pKa-Angaben die Protonierungsform und begründe das zugehörige Ladungsbild.",
+    "Berechne den isoelektrischen Punkt einer Aminosäure ohne ionisierbare Seitenkette. Bei einer ionisierbaren Seitenkette wählst du begründet das passende pKa-Paar aus.",
+    "Zeichne Aminosäure- und Peptidstrukturen, deute Fischer-Projektionen und prüfe Aussagen zu D/L fachlich.",
+    "Formuliere Peptidbindungen und Reaktionsgleichungen. Prüfe die Stoffbilanz und berechne das limitierende Edukt.",
+    "Werte Material zu Proteinen und Naturstoffen aus und verknüpfe Struktur, Eigenschaft und biologische Funktion."
+  ],
+  "exerciseIds": [
+    "chem.q2.1.amino-acids-peptides.exercise.basic-draw",
+    "chem.q2.1.amino-acids-peptides.exercise.basic-bonds",
+    "chem.q2.1.amino-acids-peptides.exercise.standard-pi",
+    "chem.q2.1.amino-acids-peptides.exercise.standard-limiting",
+    "chem.q2.1.amino-acids-peptides.exercise.transfer-migration",
+    "chem.q2.1.amino-acids-peptides.exercise.transfer-configuration"
+  ],
+  "selfTestIds": [
+    "chem.q2.1.amino-acids-peptides.selftest.zwitterion",
+    "chem.q2.1.amino-acids-peptides.selftest.pi",
+    "chem.q2.1.amino-acids-peptides.selftest.bonds",
+    "chem.q2.1.amino-acids-peptides.selftest.configuration",
+    "chem.q2.1.amino-acids-peptides.selftest.limiting"
+  ]
+}

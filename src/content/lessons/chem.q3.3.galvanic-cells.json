@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.q3.3.galvanic-cells",
+  "title": "Galvanische Zellen und Zellspannung",
+  "summary": "Erkläre den Aufbau galvanischer Zellen, verfolge Elektronen- und Ionenfluss und berechne Zellspannungen.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "medium",
+    "basis": "proposal-count-proxy",
+    "kcgoProposalCount": 17,
+    "note": "Die Zahl 17 gilt für Q3.3 insgesamt. Sie ist keine Häufigkeitszählung für galvanische Zellen allein."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.3",
+      "subsection": "Galvanische Zellen und elektrochemische Potenziale",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.q3.3.redox",
+    "chem.basics.quantities"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.q3.3.galvanic-cells.goal.cells",
+      "statement": "Ich kann galvanische Zellen aus zwei Halbzellen aufbauen und Anode, Kathode sowie Teilreaktionen bestimmen.",
+      "competencies": [
+        "S",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.goal.flows",
+      "statement": "Ich kann Elektronenfluss und Ionenwanderung zur Ladungserhaltung erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.goal.potential",
+      "statement": "Ich kann Zellspannungen aus Standardpotenzialen berechnen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.goal.spontaneity",
+      "statement": "Ich kann die spontane Reaktionsrichtung mit Zellspannung und Redoxgleichung begründen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "begründen"
+      ]
+    }
+  ],
+  "introduction": "Eine galvanische Zelle wandelt chemische Energie einer spontanen Redoxreaktion in elektrische Energie um. Oxidation und Reduktion laufen räumlich getrennt ab. Dadurch können Elektronen durch einen äußeren Leiter fließen und einen Verbraucher antreiben.",
+  "explanation": "### 1. Halbzellen und Elektroden\n\nEine galvanische Zelle besteht aus zwei Halbzellen. In jeder läuft eine Teilreaktion ab. Oxidation findet an der **Anode** statt, Reduktion an der **Kathode**. In einer galvanischen Zelle ist die Anode der negative Pol und die Kathode der positive Pol.\n\nIm Daniell-Element gibt Zink Elektronen ab: Zn → Zn²⁺ + 2 e⁻. An der Kupferelektrode nehmen Cu²⁺-Ionen Elektronen auf: Cu²⁺ + 2 e⁻ → Cu. Die Gesamtreaktion lautet Zn + Cu²⁺ → Zn²⁺ + Cu.\n\n### 2. Elektronen- und Ionenfluss\n\nElektronen fließen durch den äußeren Leiter von der Anode zur Kathode. Die Salzbrücke oder eine poröse Trennwand ermöglicht Ionenwanderung und sorgt für Ladungsausgleich. Anionen wandern typischerweise zur Anodenhalbzelle, in der positive Ionen entstehen; Kationen wandern zur Kathodenhalbzelle, in der positive Ionen verbraucht werden.\n\n### 3. Zellschreibweise und Potenziale\n\nIn der Zellschreibweise steht die Anode links und die Kathode rechts. Ein senkrechter Strich trennt Phasen, ein Doppelstrich steht für Salzbrücke oder Diaphragma. Für das Daniell-Element: Zn | Zn²⁺ || Cu²⁺ | Cu.\n\nStandardelektrodenpotenziale sind als Reduktionspotenziale angegeben. Berechne die Standardzellspannung mit E°Zelle = E°Kathode − E°Anode. Ist die Spannung positiv, ist die Zellreaktion in dieser Richtung unter Standardbedingungen spontan. Drehst du die Reaktion um, wechselt das Vorzeichen.\n\n### 4. Standardbedingungen und reale Zellen\n\nStandardpotenziale gelten unter festgelegten Standardbedingungen. In realen Zellen beeinflussen Konzentrationen, Temperatur und weitere Bedingungen die Zellspannung. Nutze für diese Seite zunächst die im Aufgabenmaterial angegebenen Potenziale und Bedingungen; Konzentrationseinflüsse werden in der LK-Vertiefung behandelt.",
+  "fundamentals": [
+    {
+      "term": "Halbzelle",
+      "explanation": "Teil eines elektrochemischen Systems, in dem eine Redox-Teilreaktion an einer Elektrode abläuft."
+    },
+    {
+      "term": "Anode",
+      "explanation": "Elektrode, an der Oxidation stattfindet. In einer galvanischen Zelle ist sie der negative Pol."
+    },
+    {
+      "term": "Kathode",
+      "explanation": "Elektrode, an der Reduktion stattfindet. In einer galvanischen Zelle ist sie der positive Pol."
+    },
+    {
+      "term": "Standardelektrodenpotenzial",
+      "explanation": "Potenzial einer Halbzelle relativ zur Standard-Wasserstoffelektrode unter Standardbedingungen."
+    },
+    {
+      "term": "Salzbrücke",
+      "explanation": "Ionenleitende Verbindung zwischen Halbzellen, die Ladungsausgleich ermöglicht und den Stromkreis schließt."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.q3.3.galvanic-cells.eq.anode",
+      "notation": "Zn(s) → Zn²⁺(aq) + 2 e⁻",
+      "explanation": "Oxidation an der Anode."
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.eq.cathode",
+      "notation": "Cu²⁺(aq) + 2 e⁻ → Cu(s)",
+      "explanation": "Reduktion an der Kathode."
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.eq.cell",
+      "notation": "E°Zelle = E°Kathode − E°Anode",
+      "explanation": "Berechnung aus Standard-Reduktionspotenzialen."
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.eq.notation",
+      "notation": "Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s)",
+      "explanation": "Anode links, Kathode rechts; Striche trennen Phasen und Salzbrücke."
+    }
+  ],
+  "equationNote": "Verwende Tabellenwerte als Reduktionspotenziale. Beim Abziehen des Anodenpotenzials achte besonders auf das Vorzeichen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.q3.3.galvanic-cells.example.daniell",
+      "title": "Daniell-Element auswerten",
+      "prompt": "Bestimme Reaktion, Pole und Zellspannung mit E°(Cu²⁺/Cu)=+0,34 V und E°(Zn²⁺/Zn)=−0,76 V.",
+      "steps": [
+        "Zink wird oxidiert: Es ist die Anode und der negative Pol.",
+        "Cu²⁺ wird reduziert: Die Kupferelektrode ist die Kathode und der positive Pol.",
+        "Elektronen fließen außen von Zn zu Cu.",
+        "E°Zelle = 0,34 − (−0,76) = 1,10 V."
+      ],
+      "result": "Zn + Cu²⁺ → Zn²⁺ + Cu; E°Zelle = +1,10 V. Die Reaktion ist unter Standardbedingungen spontan."
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.example-notation",
+      "title": "Zellschreibweise lesen",
+      "prompt": "Interpretiere Zn | Zn²⁺ || Cu²⁺ | Cu.",
+      "steps": [
+        "Lies links die Anode und ihre Oxidation.",
+        "Lies rechts die Kathode und ihre Reduktion.",
+        "Ordne den Elektronenfluss im äußeren Leiter zu."
+      ],
+      "result": "Zink ist die Anode und gibt Elektronen ab; Cu²⁺ wird an der Kathode reduziert. Elektronen fließen von links nach rechts durch den äußeren Leiter."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2019,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2020,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "AFB I: Halbzellen, Pole, Elektrodenreaktionen und Zellschreibweise benennen.",
+    "AFB II: Teilreaktionen und Zellspannung aus Potenzialen bestimmen.",
+    "AFB III: Spontane Richtung und Aussagegrenzen von Standardpotenzialen im Materialkontext begründen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Merke: Oxidation an der Anode, Reduktion an der Kathode – unabhängig vom Zelltyp.",
+      "commonError": "Anode und Kathode werden ausschließlich über Plus- und Minuspol definiert."
+    },
+    {
+      "tip": "Berechne E°Zelle mit Reduktionspotenzialen und beachte das Vorzeichen.",
+      "commonError": "Das Anodenpotenzial wird mit falschem Vorzeichen eingesetzt."
+    },
+    {
+      "tip": "Erkläre den Ladungsausgleich durch Ionenwanderung zusätzlich zum Elektronenfluss.",
+      "commonError": "Die Salzbrücke wird als Elektronenleiter beschrieben."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-10-31"
+  },
+  "exerciseIds": [
+    "chem.q3.3.galvanic-cells.exercise.basic-electrodes",
+    "chem.q3.3.galvanic-cells.exercise.basic-flow",
+    "chem.q3.3.galvanic-cells.exercise.standard-voltage",
+    "chem.q3.3.galvanic-cells.exercise.standard-notation",
+    "chem.q3.3.galvanic-cells.exercise.transfer-spontaneous",
+    "chem.q3.3.galvanic-cells.exercise.transfer-bridge"
+  ],
+  "selfTestIds": [
+    "chem.q3.3.galvanic-cells.selftest.anode",
+    "chem.q3.3.galvanic-cells.selftest.flow",
+    "chem.q3.3.galvanic-cells.selftest.voltage"
+  ]
+}
