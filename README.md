@@ -13,6 +13,6 @@ Für einen Produktionsbuild: `npm run build`. Die fertigen Dateien liegen anschl
 
 ## GitHub Pages
 
-Vite ist auf den Repository-Pfad `/chemie-lernplattform/` eingestellt. Der Workflow unter `.github/workflows/deploy.yml` baut und veröffentlicht bei Pushes auf `main`. In den Repository-Einstellungen unter **Pages** muss als Quelle **GitHub Actions** gewählt sein.
+Die Site wird unter https://schnecke325.github.io/ veröffentlicht. Der Workflow unter `.github/workflows/deploy.yml` validiert die Inhalte, baut die Anwendung bei Pushes auf `main` und überträgt nur den Inhalt von `dist/` in das separate Repository `Schnecke325/Schnecke325.github.io`. Dafür braucht dieses Repository das Actions-Secret `PAGES_DEPLOY_KEY` (Deploy-Key mit Schreibrecht auf das Zielrepository). Details stehen in `PROJECT_CONTEXT.md`.
 
 Alle derzeit sichtbaren Lern- und Prüfungsdaten sind ausdrücklich Platzhalter und keine fachlich geprüften Inhalte.

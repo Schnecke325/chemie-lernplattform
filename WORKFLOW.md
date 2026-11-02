@@ -45,13 +45,15 @@ npm run build
 
 Der Build enthält die TypeScript-Projektprüfung (`tsc -b`) und den Vite-Produktionsbuild. Für UI-Änderungen mindestens `npm run build` ausführen und die betroffenen Desktop-/Mobilansichten kontrollieren, sofern Browserprüfung verfügbar ist.
 
-Im Repository gibt es aktuell kein Testframework und keine automatisierten UI-Tests. `npm run validate:content` prüft strukturelle Zuordnungen, nicht die chemische Korrektheit. Die GitHub-Action baut mit `npm ci` und `npm run build`; sie führt die Content-Validierung derzeit nicht aus.
+Im Repository gibt es aktuell kein Testframework und keine automatisierten UI-Tests. `npm run validate:content` prüft strukturelle Zuordnungen, nicht die chemische Korrektheit. Die GitHub-Action führt `npm ci`, `npm run validate:content` und `npm run build` aus; schlägt einer dieser Schritte fehl, wird nicht veröffentlicht.
 
 ## Git und Veröffentlichung
 
 - Keine Commits oder Pushes ohne ausdrückliche Zustimmung.
 - Keine Releases, Pages-Einstellungen oder Deployments manuell ändern, sofern es nicht ausdrücklich beauftragt ist.
-- Beachten, dass ein Push auf `main` den vorhandenen GitHub-Pages-Workflow startet. Bei Freigabe eines Pushs muss dieser Effekt klar sein.
+- Beachten, dass ein Push auf `main` den Deploy-Workflow startet und die Site unter `https://schnecke325.github.io/` sofort aktualisiert. Bei Freigabe eines Pushs muss dieser Effekt klar sein.
+- Das Repository `Schnecke325.github.io` ist nur Veröffentlichungsziel. Dort nicht manuell entwickeln; der Workflow verwaltet ausschließlich `index.html`, `assets/`, `.nojekyll` und `.chemie-lernplattform-deploy`. Die übrigen Dateien dort gehören zu anderen Projekten und werden nicht verändert. Details: `PROJECT_CONTEXT.md`, Abschnitt „Deployment-Architektur“.
+- Den Deploy-Key (`PAGES_DEPLOY_KEY`) nur als Actions-Secret hinterlegen, nie in Dateien, Logs oder Chats.
 - Vor jeder möglichen Veröffentlichung sicherstellen, dass `local-material/`, Originalprüfungen und geschützte Inhalte nicht enthalten sind.
 
 ## Abschlussbericht – Mindestangaben

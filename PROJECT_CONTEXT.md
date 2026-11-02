@@ -13,7 +13,7 @@ Statische Lernplattform für die Vorbereitung auf das hessische Chemie-Landesabi
 | Sprache | TypeScript 5.8.3, strict aktiviert |
 | Bundler/Dev-Server | Vite 6.4.5, `@vitejs/plugin-react` 4.7.0 |
 | Paketformat | npm, ES Modules, Lockfile v3 |
-| Basis-URL | `/chemie-lernplattform/` in `vite.config.ts` |
+| Basis-URL | `/` in `vite.config.ts` (Veröffentlichung unter `https://schnecke325.github.io/`) |
 | CI-Node | Node 22 in `.github/workflows/deploy.yml` |
 | Lokal ermittelte Laufzeit | Node 24.22.1, npm 11.20.0 (nur Bestandsaufnahme; nicht als Projektvorgabe festgeschrieben) |
 | Externe Laufzeitdienste | Keine |
@@ -24,7 +24,7 @@ Die Paketbereiche sind in `package.json` festgelegt; genaue installierte Version
 
 ```text
 .
-├── .github/workflows/deploy.yml   # GitHub-Pages-Build und Deployment
+├── .github/workflows/deploy.yml   # Build und Veröffentlichung nach Schnecke325.github.io
 ├── research/                      # KCGO-, Prüfungs- und Inhaltsdokumentation
 ├── scripts/validate-exercise-bank.mjs
 ├── src/
@@ -119,9 +119,34 @@ npm run build
 npm run preview
 ```
 
-`npm run build` führt `tsc -b` und danach `vite build --configLoader runner` aus. Im GitHub-Actions-Workflow `.github/workflows/deploy.yml` wird auf Push nach `main` oder manuell mit Node 22 `npm ci` und `npm run build` ausgeführt und `dist/` als Pages-Artefakt deployed. Der Workflow ruft `validate:content` nicht auf. In den Repository-Pages-Einstellungen muss GitHub Actions als Quelle gewählt sein.
+`npm run build` führt `tsc -b` und danach `vite build --configLoader runner` aus. `vite.config.ts` setzt `base: "/"`, weil die Site an der Domainwurzel ausgeliefert wird. Es gibt kein Testframework und keine automatisierten Unit-/Komponententests; neben TypeScript/Build existiert der Content-Validator. UI-Tests erfolgten in bisherigen Arbeitsphasen manuell im Browser, sind aber kein im Repository liegender Testlauf.
 
-`vite.config.ts` setzt `base: "/chemie-lernplattform/"`. Es gibt kein Testframework und keine automatisierten Unit-/Komponententests; neben TypeScript/Build existiert der Content-Validator. UI-Tests erfolgten in bisherigen Arbeitsphasen manuell im Browser, sind aber kein im Repository liegender Testlauf.
+### Deployment-Architektur
+
+| Repository | Rolle |
+|---|---|
+| `Schnecke325/chemie-lernplattform` | Quellcode, Inhalte, Research-Dokumentation, Workflow. Einziges Entwicklungsrepository. |
+| `Schnecke325/Schnecke325.github.io` | Reines Veröffentlichungsziel. GitHub Pages liefert Branch `main`, Ordner `/ (root)` unter `https://schnecke325.github.io/` aus. |
+
+Ablauf (`.github/workflows/deploy.yml`, bei Push auf `main` oder manuell):
+
+1. Checkout, Node 22, `npm ci`.
+2. `npm run validate:content` und `npm run build`. Schlägt ein Schritt fehl, endet der Job, bevor das Zielrepository berührt wird.
+3. Build-Prüfung: `dist/` darf nur `index.html` und `.js`/`.css` unter `assets/` enthalten und nicht auf `local-material` verweisen.
+4. Klon des Zielrepositorys per SSH-Deploy-Key. Ersetzt werden ausschließlich die verwalteten Pfade `index.html`, `assets/`, `.nojekyll` und die Markierungsdatei `.chemie-lernplattform-deploy` (enthält Quell-Repository und Commit-SHA). Ein Commit „Build aus Schnecke325/chemie-lernplattform@<sha>“ wird nach `main` gepusht.
+5. Der Push löst im Zielrepository den GitHub-Workflow `pages-build-deployment` aus, der die Site veröffentlicht.
+
+Sicherungen: Der Workflow bricht ab, wenn beim ersten Deployment bereits eine fremde `index.html` oder ein fremdes `assets/` existiert, oder wenn eine Änderung außerhalb der verwalteten Pfade vorgemerkt wäre. Die übrigen Dateien im Zielrepository (frühere HTML-Seiten, Bilder, `images/`, `README.md`, Branch `images`) bleiben unverändert und unter ihren bisherigen Adressen erreichbar. `.nojekyll` schaltet die Jekyll-Verarbeitung für das gesamte Zielrepository ab. Das Quellrepository selbst nutzt kein GitHub Pages.
+
+Berechtigungen und Einstellungen:
+
+- Zielrepository → *Settings → Deploy keys*: öffentlicher Schlüssel eines eigens erzeugten SSH-Schlüsselpaars mit **Allow write access**.
+- Quellrepository → *Settings → Secrets and variables → Actions*: privater Schlüssel als Secret `PAGES_DEPLOY_KEY`. Er steht weder im Code noch im Build. Der Workflow selbst hat nur `contents: read` auf das Quellrepository.
+- Zielrepository → *Settings → Pages*: *Deploy from a branch*, `main`, `/ (root)`.
+
+Fehlererkennung: roter Lauf unter *Actions* im Quellrepository (Validierung, Build, Build-Prüfung oder Push) bzw. roter Lauf `pages-build-deployment` im Zielrepository; GitHub benachrichtigt bei fehlgeschlagenen Läufen standardmäßig per E-Mail.
+
+Navigation an der Domainwurzel: Seiten werden über React-State gewechselt, es gibt nur die Adresse `/`. Neuladen führt zum Dashboard; direkte Pfade wie `/lernen` existieren nicht und liefern 404. Eine `404.html`-Weiterleitung ist deshalb nicht nötig.
 
 ## Dokumentationsabweichungen
 
