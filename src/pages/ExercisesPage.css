@@ -118,7 +118,11 @@
 .handwriting-group .handwriting-swatch[aria-pressed="true"]{background:#24333a}
 .handwriting-finger{display:inline-flex;align-items:center;gap:7px;color:#9fb0ac;font-size:11px;cursor:pointer}
 .handwriting-finger input{width:16px;height:16px;accent-color:#80d8bc}
-.handwriting-canvas{display:block;width:100%;height:340px;border:1px solid #2f3e45;border-radius:8px;background-color:#0d1317;background-image:linear-gradient(#1c272e 1px,transparent 1px),linear-gradient(90deg,#1c272e 1px,transparent 1px);background-size:20px 20px;touch-action:none;cursor:crosshair}
+.handwriting-canvas{display:block;width:100%;height:340px;border:1px solid #2f3e45;border-radius:8px;background:#0d1317;touch-action:none;cursor:crosshair}
+.handwriting-canvas.tool-eraser{cursor:none}
+.handwriting-canvas.tool-select{cursor:default}
+.handwriting-canvas.tool-pan{cursor:grab}
+.handwriting-canvas.tool-pan:active{cursor:grabbing}
 .handwriting-note{margin:0;color:#7d8c8f;font-size:10px;line-height:1.5}
 .exercise-topic{margin:0;color:#859398;font-size:11px;line-height:1.5}
 .exercise-topic strong{color:#bcc9c6;font-weight:500}
