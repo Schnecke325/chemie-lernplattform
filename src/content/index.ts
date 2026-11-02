@@ -68,6 +68,24 @@ function isExercise(value: unknown): value is Exercise {
       && value.supportedModes.every((mode) => ['screen', 'handwriting'].includes(String(mode)))))
     && (value.sourceExamRefs === undefined || (Array.isArray(value.sourceExamRefs)
       && value.sourceExamRefs.every(isExamRef)))
+    && (value.answer === undefined || isAnswer(value.answer))
+}
+
+function isAnswer(value: unknown): boolean {
+  if (!isRecord(value)) return false
+  if (value.kind === 'numeric') {
+    return Array.isArray(value.parts) && value.parts.length > 0 && value.parts.every((part) => isRecord(part)
+      && typeof part.id === 'string' && typeof part.label === 'string' && typeof part.value === 'number'
+      && (part.unit === undefined || typeof part.unit === 'string')
+      && (part.tolerance === undefined || isRecord(part.tolerance)))
+  }
+  if (value.kind === 'matching') {
+    const options = value.options
+    return hasStrings(options) && Array.isArray(value.items) && value.items.length > 0
+      && value.items.every((item) => isRecord(item) && typeof item.id === 'string' && typeof item.label === 'string'
+        && typeof item.correct === 'string' && options.includes(item.correct))
+  }
+  return false
 }
 
 function isExamRef(value: unknown): boolean {

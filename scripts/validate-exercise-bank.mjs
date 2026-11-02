@@ -38,6 +38,17 @@ for (const task of bank.exercises ?? []) {
   if (task.afb !== undefined && ![1, 2, 3].includes(task.afb)) errors.push(`${task.id} has invalid AFB.`)
   if ((task.afb === undefined) !== (task.taskType === undefined)) errors.push(`${task.id} must set AFB and taskType together.`)
   if (task.afb !== undefined) stats.classified += 1
+  const checkable = task.taskType === 'numeric' || task.taskType === 'matching'
+  if (checkable && task.answer?.kind !== task.taskType) errors.push(`${task.id} needs a ${task.taskType} answer.`)
+  if (!checkable && task.answer !== undefined) errors.push(`${task.id} must not define an answer for taskType ${task.taskType}.`)
+  if (task.answer?.kind === 'numeric' && (!Array.isArray(task.answer.parts) || task.answer.parts.length === 0
+    || task.answer.parts.some((part) => typeof part.id !== 'string' || typeof part.label !== 'string' || !Number.isFinite(part.value)))) {
+    errors.push(`${task.id} has an invalid numeric answer.`)
+  }
+  if (task.answer?.kind === 'matching' && (!Array.isArray(task.answer.items) || task.answer.items.length === 0
+    || task.answer.items.some((item) => !task.answer.options.includes(item.correct)))) {
+    errors.push(`${task.id} has an invalid matching answer.`)
+  }
   if (task.supportedModes !== undefined && (!Array.isArray(task.supportedModes) || task.supportedModes.length === 0
     || task.supportedModes.some((mode) => !['screen', 'handwriting'].includes(mode)))) {
     errors.push(`${task.id} has invalid supportedModes.`)

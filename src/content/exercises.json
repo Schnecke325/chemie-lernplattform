@@ -19,7 +19,31 @@
         "zuordnen"
       ],
       "sourceLessonId": "chem.applications.evaluation",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "matching",
+        "options": [
+          "Sachaussage",
+          "Wertentscheidung"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "(a) Verfahren A benötigt 20 % weniger Energie.",
+            "correct": "Sachaussage"
+          },
+          {
+            "id": "b",
+            "label": "(b) Energieeinsparung ist wichtiger als niedrige Kosten.",
+            "correct": "Wertentscheidung"
+          },
+          {
+            "id": "c",
+            "label": "(c) Für Verfahren A wird ein seltenes Metall benötigt.",
+            "correct": "Sachaussage"
+          }
+        ]
+      }
     },
     {
       "id": "chem.applications.evaluation.exercise.2",
@@ -39,7 +63,21 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.applications.evaluation",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "change",
+            "label": "Relative Änderung",
+            "value": -20,
+            "unit": "%",
+            "tolerance": {
+              "absolute": 0.5
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.applications.evaluation.exercise.3",
@@ -211,7 +249,7 @@
     },
     {
       "id": "chem.basics.data.exercise.basic-trend",
-      "title": "Grundlage selbst erklären",
+      "title": "Trend beschreiben",
       "difficulty": "basic",
       "prompt": "Die Konzentration eines Edukts sinkt in einer Messreihe stetig. Formuliere eine Beschreibung des Trends, ohne bereits eine Ursache zu behaupten.",
       "taskType": "free-response",
@@ -251,11 +289,22 @@
         "angeben"
       ],
       "sourceLessonId": "chem.basics.data",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "rate",
+            "label": "Mittlere Abnahmegeschwindigkeit",
+            "value": 0.005,
+            "unit": "mol·L⁻¹·s⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.basics.data.exercise.standard-intervals",
-      "title": "Begründung ausarbeiten",
+      "title": "Zwei Intervalle vergleichen",
       "difficulty": "standard",
       "prompt": "Eine Produktkonzentration steigt von 0,10 auf 0,30 mol·L⁻¹ in 20 s und danach auf 0,50 mol·L⁻¹ in 40 s. Vergleiche die mittleren Bildungsgeschwindigkeiten.",
       "taskType": "structured",
@@ -303,7 +352,7 @@
     },
     {
       "id": "chem.basics.data.exercise.transfer-uncertainty",
-      "title": "Transfer und Beleggrenze",
+      "title": "Messunsicherheit beachten",
       "difficulty": "transfer",
       "prompt": "Zwei Messwerte betragen 0,51 mol·L⁻¹ und 0,52 mol·L⁻¹. Für beide gilt eine Messunsicherheit von ±0,03 mol·L⁻¹. Kannst du sicher folgern, dass der zweite Wert größer ist? Begründe.",
       "taskType": "free-response",
@@ -403,11 +452,22 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.basics.quantities",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "n",
+            "label": "Stoffmenge n(H₂O)",
+            "value": 0.5,
+            "unit": "mol"
+          }
+        ]
+      }
     },
     {
       "id": "chem.basics.quantities.exercise.basic-concentration",
-      "title": "Grundlage selbst erklären",
+      "title": "Stoffmengenkonzentration berechnen",
       "difficulty": "basic",
       "prompt": "0,0200 mol Natriumchlorid werden zu 0,500 L Lösung verarbeitet. Berechne die Stoffmengenkonzentration.",
       "taskType": "numeric",
@@ -425,7 +485,18 @@
         "angeben"
       ],
       "sourceLessonId": "chem.basics.quantities",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "c",
+            "label": "Stoffmengenkonzentration",
+            "value": 0.04,
+            "unit": "mol·L⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.basics.quantities.exercise.standard-limiting",
@@ -452,7 +523,7 @@
     },
     {
       "id": "chem.basics.quantities.exercise.standard-dilution",
-      "title": "Begründung ausarbeiten",
+      "title": "Verdünnung berechnen",
       "difficulty": "standard",
       "prompt": "25,0 mL einer 0,200 mol·L⁻¹ Lösung werden auf 100,0 mL aufgefüllt. Berechne die Endkonzentration.",
       "taskType": "numeric",
@@ -469,7 +540,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.basics.quantities",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "c2",
+            "label": "Endkonzentration",
+            "value": 0.05,
+            "unit": "mol·L⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.basics.quantities.exercise.transfer-gas",
@@ -492,11 +574,22 @@
         "angeben"
       ],
       "sourceLessonId": "chem.basics.quantities",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "V",
+            "label": "Volumen",
+            "value": 0.372,
+            "unit": "L"
+          }
+        ]
+      }
     },
     {
       "id": "chem.basics.quantities.exercise.transfer-dose",
-      "title": "Transfer und Beleggrenze",
+      "title": "Konzentration und Dosis",
       "difficulty": "transfer",
       "prompt": "Eine Lösung enthält 0,030 mol Wirkstoff in 150 mL. Berechne die Stoffmengenkonzentration. Erkläre, warum dieser Wert allein keine sichere Dosis angibt.",
       "taskType": "structured",
@@ -601,7 +694,7 @@
     },
     {
       "id": "chem.basics.representation.exercise.basic-balance",
-      "title": "Grundlage selbst erklären",
+      "title": "Knallgasreaktion ausgleichen",
       "difficulty": "basic",
       "prompt": "Gleiche H₂ + O₂ → H₂O aus. Prüfe danach die Zahl der H- und O-Atome auf beiden Seiten.",
       "taskType": "free-response",
@@ -648,7 +741,7 @@
     },
     {
       "id": "chem.basics.representation.exercise.standard-structure",
-      "title": "Begründung ausarbeiten",
+      "title": "Passende Darstellung wählen",
       "difficulty": "standard",
       "prompt": "Eine Aufgabe fragt nach der räumlichen Anordnung der Atome im Wassermolekül. Welche Darstellung ist geeigneter: Summenformel H₂O oder Lewis-Modell? Begründe und nenne eine Grenze der gewählten Darstellung.",
       "taskType": "free-response",
@@ -694,7 +787,7 @@
     },
     {
       "id": "chem.basics.representation.exercise.transfer-charge",
-      "title": "Transfer und Beleggrenze",
+      "title": "Aluminiumchlorid-Gleichung entwickeln",
       "difficulty": "transfer",
       "prompt": "Aluminium reagiert mit Chlor zu Aluminiumchlorid. Entwickle eine ausgeglichene Reaktionsgleichung und erkläre, wie du Atome und Ladung überprüfst.",
       "taskType": "free-response",
@@ -798,7 +891,7 @@
     },
     {
       "id": "chem.q1.1.bonding.exercise.basic-lewis",
-      "title": "Grundlage selbst erklären",
+      "title": "Lewis-Formel von HCl",
       "difficulty": "basic",
       "prompt": "Zeichne die Lewis-Formel des Chlorwasserstoffmoleküls HCl.",
       "taskType": "free-response",
@@ -843,7 +936,7 @@
     },
     {
       "id": "chem.q1.1.bonding.exercise.standard-properties",
-      "title": "Begründung ausarbeiten",
+      "title": "Leitfähigkeit von NaCl und Kupfer",
       "difficulty": "standard",
       "prompt": "Natriumchlorid und Kupfer leiten als Feststoffe unterschiedlich gut Strom. Erkläre den Unterschied mit den jeweiligen Bindungsmodellen.",
       "taskType": "free-response",
@@ -889,7 +982,7 @@
     },
     {
       "id": "chem.q1.1.bonding.exercise.transfer-model",
-      "title": "Transfer und Beleggrenze",
+      "title": "Elektronengasmodell prüfen",
       "difficulty": "transfer",
       "prompt": "Ein Modell zeigt in einem Metallgitter positive Atomrümpfe und dazwischen bewegliche Elektronen. Erkläre, welche Eigenschaft es plausibel macht und was es vereinfacht.",
       "taskType": "free-response",
@@ -993,7 +1086,7 @@
     },
     {
       "id": "chem.q1.1.hydrocarbons.exercise.basic-isomer",
-      "title": "Grundlage selbst erklären",
+      "title": "Butan und 2-Methylpropan",
       "difficulty": "basic",
       "prompt": "Sind Butan und 2-Methylpropan Konstitutionsisomere? Begründe mit Summenformel und Verknüpfung.",
       "taskType": "free-response",
@@ -1035,7 +1128,7 @@
     },
     {
       "id": "chem.q1.1.hydrocarbons.exercise.standard-addition",
-      "title": "Begründung ausarbeiten",
+      "title": "HBr-Addition an But-1-en",
       "difficulty": "standard",
       "prompt": "Formuliere die Addition von HBr an But-1-en unter üblichen ionischen Bedingungen. Gib das Hauptprodukt nach der Markownikow-Regel an.",
       "taskType": "free-response",
@@ -1081,7 +1174,7 @@
     },
     {
       "id": "chem.q1.1.hydrocarbons.exercise.transfer-reaction",
-      "title": "Transfer und Beleggrenze",
+      "title": "Bromwasser-Entfärbung deuten",
       "difficulty": "transfer",
       "prompt": "Ein Material zeigt, dass ein Alken Bromwasser entfärbt. Deute die Beobachtung auf Teilchenebene und formuliere eine passende Reaktionsgleichung für Ethen.",
       "taskType": "free-response",
@@ -1185,7 +1278,7 @@
     },
     {
       "id": "chem.q1.1.inorganic-structures.exercise.basic-silica",
-      "title": "Grundlage selbst erklären",
+      "title": "Netzwerkstoff Siliciumdioxid",
       "difficulty": "basic",
       "prompt": "Siliciumdioxid wird als Netzwerkstoff beschrieben. Was bedeutet das für die Bausteine im Feststoff?",
       "taskType": "free-response",
@@ -1230,7 +1323,7 @@
     },
     {
       "id": "chem.q1.1.inorganic-structures.exercise.standard-structure",
-      "title": "Begründung ausarbeiten",
+      "title": "SiO₂ und CO₂ vergleichen",
       "difficulty": "standard",
       "prompt": "Quarz und Kohlendioxid bestehen aus Siliciumdioxid beziehungsweise Kohlendioxid. Erkläre, warum SiO₂ als Netzwerkstoff und CO₂ als Molekülstoff beschrieben wird.",
       "taskType": "free-response",
@@ -1276,7 +1369,7 @@
     },
     {
       "id": "chem.q1.1.inorganic-structures.exercise.transfer-model",
-      "title": "Transfer und Beleggrenze",
+      "title": "Kugelmodell von Quarz",
       "difficulty": "transfer",
       "prompt": "Ein vereinfachtes Bild zeigt Siliciumdioxid als regelmäßig angeordnete Kugeln. Welche Aussagen über den Stoff kann das Bild unterstützen und welche Eigenschaften erklärt es nicht automatisch?",
       "taskType": "free-response",
@@ -1381,7 +1474,7 @@
     },
     {
       "id": "chem.q1.1.interactions.exercise.basic-force",
-      "title": "Grundlage selbst erklären",
+      "title": "Wechselwirkung zwischen Wassermolekülen",
       "difficulty": "basic",
       "prompt": "Welche zwischenmolekulare Wechselwirkung kann zwischen Wassermolekülen auftreten? Begründe anhand der Struktur.",
       "taskType": "free-response",
@@ -1426,7 +1519,7 @@
     },
     {
       "id": "chem.q1.1.interactions.exercise.standard-boiling",
-      "title": "Begründung ausarbeiten",
+      "title": "Siedetemperatur von Ethan und Methan",
       "difficulty": "standard",
       "prompt": "Ethan siedet höher als Methan. Beide Stoffe sind unpolar. Begründe den Unterschied.",
       "taskType": "free-response",
@@ -1472,7 +1565,7 @@
     },
     {
       "id": "chem.q1.1.interactions.exercise.transfer-hyaluronan",
-      "title": "Transfer und Beleggrenze",
+      "title": "Wasserbindung der Hyaluronsäure",
       "difficulty": "transfer",
       "prompt": "Ein Material beschreibt eine wasserreiche Hyaluronsäure-Schicht. Formuliere eine plausible Erklärung für die Wasserbindung, ohne allein aus dem Namen auf die genaue Löslichkeit einer Probe zu schließen.",
       "taskType": "free-response",
@@ -1578,7 +1671,7 @@
     },
     {
       "id": "chem.q1.1.mechanisms.exercise.basic-radical",
-      "title": "Grundlage selbst erklären",
+      "title": "Phasen der radikalischen Chlorierung",
       "difficulty": "basic",
       "prompt": "Nenne die drei Phasen der radikalischen Chlorierung von Methan und ordne die Bildung von Cl· aus Cl₂ einer Phase zu.",
       "taskType": "free-response",
@@ -1621,7 +1714,7 @@
     },
     {
       "id": "chem.q1.1.mechanisms.exercise.standard-elimination",
-      "title": "Begründung ausarbeiten",
+      "title": "Eliminierung aus Bromethan",
       "difficulty": "standard",
       "prompt": "Bromoethan reagiert unter geeigneten Bedingungen mit Hydroxid-Ionen zu Ethen. Stelle eine ausgeglichene Ionengleichung auf und erkläre die Bindungsänderung.",
       "taskType": "free-response",
@@ -1667,7 +1760,7 @@
     },
     {
       "id": "chem.q1.1.mechanisms.exercise.transfer-mechanism",
-      "title": "Transfer und Beleggrenze",
+      "title": "Mechanismus aus einem Schema",
       "difficulty": "transfer",
       "prompt": "Ein Reaktionsschema zeigt, dass eine Doppelbindung ein H⁺ aufnimmt und anschließend ein Halogenid-Ion bindet. Ordne den Mechanismus ein und erkläre, welche Bindungen sich ändern.",
       "taskType": "free-response",
@@ -1768,11 +1861,36 @@
         "zuordnen"
       ],
       "sourceLessonId": "chem.q1.2.alcohols",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "matching",
+        "options": [
+          "primär",
+          "sekundär",
+          "tertiär"
+        ],
+        "items": [
+          {
+            "id": "butan-1-ol",
+            "label": "Butan-1-ol",
+            "correct": "primär"
+          },
+          {
+            "id": "butan-2-ol",
+            "label": "Butan-2-ol",
+            "correct": "sekundär"
+          },
+          {
+            "id": "methylpropan-2-ol",
+            "label": "2-Methylpropan-2-ol",
+            "correct": "tertiär"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q1.2.alcohols.exercise.basic-bond",
-      "title": "Grundlage selbst erklären",
+      "title": "Ethanol und Ethan",
       "difficulty": "basic",
       "prompt": "Welche Wechselwirkung kann zwischen zwei Ethanolmolekülen auftreten, die zwischen zwei Ethan-Molekülen nicht möglich ist? Begründe.",
       "taskType": "free-response",
@@ -1817,7 +1935,7 @@
     },
     {
       "id": "chem.q1.2.alcohols.exercise.standard-secondary",
-      "title": "Begründung ausarbeiten",
+      "title": "Oxidation von Propan-2-ol",
       "difficulty": "standard",
       "prompt": "Formuliere die Oxidation von Propan-2-ol zu Propanon als vereinfachte Reaktionsgleichung mit [O].",
       "taskType": "free-response",
@@ -1862,7 +1980,7 @@
     },
     {
       "id": "chem.q1.2.alcohols.exercise.transfer-tertiary",
-      "title": "Transfer und Beleggrenze",
+      "title": "Behauptung zu tertiären Alkanolen",
       "difficulty": "transfer",
       "prompt": "Eine Schülerin behauptet: „Jedes tertiäre Alkanol lässt sich unter milden Bedingungen genauso einfach zu einem Carbonylstoff oxidieren wie ein sekundäres Alkanol.“ Beurteile die Aussage.",
       "taskType": "free-response",
@@ -1966,7 +2084,7 @@
     },
     {
       "id": "chem.q1.2.carbonyls.exercise.basic-polar",
-      "title": "Grundlage selbst erklären",
+      "title": "Partialladungen an C=O",
       "difficulty": "basic",
       "prompt": "Welche Partialladungen entstehen an der C=O-Bindung? Begründe mit der Elektronegativität.",
       "taskType": "free-response",
@@ -2010,7 +2128,7 @@
     },
     {
       "id": "chem.q1.2.carbonyls.exercise.standard-test",
-      "title": "Begründung ausarbeiten",
+      "title": "Fehling-Befund auswerten",
       "difficulty": "standard",
       "prompt": "Eine Probe liefert mit Fehling-Lösung beim Erwärmen einen ziegelroten Niederschlag. Was kannst du daraus für eine typische Aldehydprobe schließen? Nenne eine Einschränkung.",
       "taskType": "free-response",
@@ -2056,7 +2174,7 @@
     },
     {
       "id": "chem.q1.2.carbonyls.exercise.transfer-oxidation",
-      "title": "Transfer und Beleggrenze",
+      "title": "Unbekannte Carbonylverbindung",
       "difficulty": "transfer",
       "prompt": "Eine unbekannte Carbonylverbindung wird durch ein geeignetes Oxidationsmittel weiter oxidiert. Das Ergebnis passt zur Bildung einer Carbonsäure. Welche Stoffklasse liegt wahrscheinlich vor und warum?",
       "taskType": "free-response",
@@ -2161,7 +2279,7 @@
     },
     {
       "id": "chem.q1.3.carboxylic-acids.exercise.basic-protolysis",
-      "title": "Grundlage selbst erklären",
+      "title": "Protolyse der Ethansäure",
       "difficulty": "basic",
       "prompt": "Formuliere die Protolyse von Ethansäure in Wasser.",
       "taskType": "free-response",
@@ -2206,7 +2324,7 @@
     },
     {
       "id": "chem.q1.3.carboxylic-acids.exercise.standard-pka",
-      "title": "Begründung ausarbeiten",
+      "title": "pKa-Werte vergleichen",
       "difficulty": "standard",
       "prompt": "Ethansäure hat pKa = 4,76, Chlorethansäure pKa = 2,86. Welche ist stärker? Begründe mit dem Zusammenhang zwischen pKa und Säurestärke.",
       "taskType": "free-response",
@@ -2252,7 +2370,7 @@
     },
     {
       "id": "chem.q1.3.carboxylic-acids.exercise.transfer-isomerism",
-      "title": "Transfer und Beleggrenze",
+      "title": "Chiralität am α-C-Atom",
       "difficulty": "transfer",
       "prompt": "Eine Carbonsäure besitzt am α-C-Atom vier verschiedene Substituenten. Welche stereochemische Eigenschaft kann daraus folgen? Nenne, was zusätzlich zu prüfen ist.",
       "taskType": "free-response",
@@ -2357,7 +2475,7 @@
     },
     {
       "id": "chem.q1.3.esters.exercise.basic-reaction",
-      "title": "Grundlage selbst erklären",
+      "title": "Edukte und Produkte der Veresterung",
       "difficulty": "basic",
       "prompt": "Welche Stoffklassen reagieren bei der üblichen säurekatalysierten Veresterung miteinander? Welche zwei Produkte entstehen?",
       "taskType": "free-response",
@@ -2400,7 +2518,7 @@
     },
     {
       "id": "chem.q1.3.esters.exercise.standard-hydrolysis",
-      "title": "Begründung ausarbeiten",
+      "title": "Verseifung von Ethylethanoat",
       "difficulty": "standard",
       "prompt": "Formuliere die alkalische Hydrolyse von Ethylethanoat mit Natronlauge als Ionengleichung. Nenne die organischen Produkte.",
       "taskType": "free-response",
@@ -2446,7 +2564,7 @@
     },
     {
       "id": "chem.q1.3.esters.exercise.transfer-process",
-      "title": "Transfer und Beleggrenze",
+      "title": "Esterausbeute erhöhen",
       "difficulty": "transfer",
       "prompt": "Ein Ansatz enthält Carbonsäure und Alkanol im Verhältnis 1:1. Die Ausbeute bleibt niedrig. Nenne zwei chemisch begründete Maßnahmen zur Erhöhung der Estermenge und eine praktische Einschränkung.",
       "taskType": "free-response",
@@ -2736,7 +2854,7 @@
     },
     {
       "id": "chem.q1.5.preservatives.exercise.basic-vitamin",
-      "title": "Grundlage selbst erklären",
+      "title": "Ascorbinsäure als Antioxidans",
       "difficulty": "basic",
       "prompt": "Ascorbinsäure wird als Antioxidans eingesetzt. Erkläre qualitativ, was ein Antioxidans in einer Oxidationsreaktion leisten kann.",
       "taskType": "free-response",
@@ -2776,11 +2894,22 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q1.5.preservatives",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "c",
+            "label": "Säurekonzentration",
+            "value": 0.0248,
+            "unit": "mol·L⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q1.5.preservatives.exercise.standard-speciation",
-      "title": "Begründung ausarbeiten",
+      "title": "pH und Säureform",
       "difficulty": "standard",
       "prompt": "Eine schwache Konservierungssäure HA steht mit A⁻ im Gleichgewicht. Erkläre, wie eine pH-Erhöhung die Verteilung der beiden Formen qualitativ verändert.",
       "taskType": "free-response",
@@ -2825,7 +2954,7 @@
     },
     {
       "id": "chem.q1.5.preservatives.exercise.transfer-health",
-      "title": "Transfer und Beleggrenze",
+      "title": "Grundlagen eines Gesundheitsurteils",
       "difficulty": "transfer",
       "prompt": "Ein Material nennt eine zulässige Einsatzmenge eines Konservierungsstoffs und einen analytisch bestimmten Gehalt. Welche chemischen und datenbezogenen Aspekte brauchst du für ein sachliches Urteil?",
       "taskType": "free-response",
@@ -2931,7 +3060,7 @@
     },
     {
       "id": "chem.q2.1.amino-acids-peptides.exercise.basic-bonds",
-      "title": "Grundlage selbst erklären",
+      "title": "Peptidbindungen im Tetrapeptid",
       "difficulty": "basic",
       "prompt": "Ein unverzweigtes Tetrapeptid besteht aus vier Aminosäureresten. Wie viele Peptidbindungen enthält es? Begründe deine Antwort.",
       "taskType": "free-response",
@@ -2977,7 +3106,7 @@
     },
     {
       "id": "chem.q2.1.amino-acids-peptides.exercise.standard-limiting",
-      "title": "Begründung ausarbeiten",
+      "title": "Dipeptid aus Glycin und Alanin",
       "difficulty": "standard",
       "prompt": "Für die formale Bildung eines Dipeptids setzt du 0,080 mol Glycin und 0,060 mol Alanin ein. Berechne die maximal mögliche Stoffmenge des Dipeptids und die Stoffmenge des dabei im gleichen Verhältnis entstehenden Wassers.",
       "taskType": "numeric",
@@ -2996,7 +3125,24 @@
         "ermitteln"
       ],
       "sourceLessonId": "chem.q2.1.amino-acids-peptides",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dipeptide",
+            "label": "n(Dipeptid)",
+            "value": 0.06,
+            "unit": "mol"
+          },
+          {
+            "id": "water",
+            "label": "n(Wasser)",
+            "value": 0.06,
+            "unit": "mol"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.1.amino-acids-peptides.exercise.transfer-migration",
@@ -3026,7 +3172,7 @@
     },
     {
       "id": "chem.q2.1.amino-acids-peptides.exercise.transfer-configuration",
-      "title": "Transfer und Beleggrenze",
+      "title": "L-Konfiguration und Drehsinn",
       "difficulty": "transfer",
       "prompt": "Eine Person behauptet: „L-Alanin dreht polarisiertes Licht immer nach links.“ Beurteile die Aussage und erkläre, welche Information die Bezeichnung L tatsächlich liefert.",
       "taskType": "free-response",
@@ -3107,7 +3253,20 @@
         "bestimmen"
       ],
       "sourceLessonId": "chem.q2.1.amino-acids-peptides",
-      "sourceKind": "selfTest"
+      "sourceKind": "selfTest",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "bonds",
+            "label": "Anzahl der Peptidbindungen",
+            "value": 5,
+            "tolerance": {
+              "absolute": 0
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.1.amino-acids-peptides.selftest.configuration",
@@ -3149,7 +3308,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q2.1.amino-acids-peptides",
-      "sourceKind": "selfTest"
+      "sourceKind": "selfTest",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dipeptide",
+            "label": "n(Dipeptid)",
+            "value": 0.1,
+            "unit": "mol"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.1.biopolymers.exercise.1",
@@ -3612,7 +3782,17 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q2.1.fats-oils",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "iodine",
+            "label": "Iodzahl",
+            "value": 5.08
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.1.fats-oils.exercise.5",
@@ -3677,7 +3857,20 @@
         "angeben"
       ],
       "sourceLessonId": "chem.q2.1.fats-oils",
-      "sourceKind": "selfTest"
+      "sourceKind": "selfTest",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "count",
+            "label": "Anzahl der Fettsäurereste",
+            "value": 3,
+            "tolerance": {
+              "absolute": 0
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.1.fats-oils.selftest.2",
@@ -3919,7 +4112,32 @@
         "zuordnen"
       ],
       "sourceLessonId": "chem.q2.2.polycondensation-polyaddition",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "matching",
+        "options": [
+          "Polymerisation",
+          "Polykondensation",
+          "Polyaddition"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "(a) Ethen → Polyethen",
+            "correct": "Polymerisation"
+          },
+          {
+            "id": "b",
+            "label": "(b) Ethan-1,2-diol + Terephthalsäure → Polyester + Wasser",
+            "correct": "Polykondensation"
+          },
+          {
+            "id": "c",
+            "label": "(c) Diol + Diisocyanat → Polyurethan",
+            "correct": "Polyaddition"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.2.polycondensation-polyaddition.exercise.2",
@@ -4087,7 +4305,20 @@
         "angeben"
       ],
       "sourceLessonId": "chem.q2.2.polycondensation-polyaddition",
-      "sourceKind": "selfTest"
+      "sourceKind": "selfTest",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "count",
+            "label": "Mindestzahl funktioneller Gruppen",
+            "value": 2,
+            "tolerance": {
+              "absolute": 0
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.2.polymerization.exercise.1",
@@ -4294,7 +4525,32 @@
         "zuordnen"
       ],
       "sourceLessonId": "chem.q2.2.properties",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "matching",
+        "options": [
+          "Thermoplast",
+          "Elastomer",
+          "Duroplast"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "(a) Gummiband",
+            "correct": "Elastomer"
+          },
+          {
+            "id": "b",
+            "label": "(b) Steckdosengehäuse aus Phenolharz",
+            "correct": "Duroplast"
+          },
+          {
+            "id": "c",
+            "label": "(c) Getränkeflasche aus Polyethen",
+            "correct": "Thermoplast"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.2.properties.exercise.2",
@@ -4476,7 +4732,32 @@
         "zuordnen"
       ],
       "sourceLessonId": "chem.q2.2.sustainability",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "matching",
+        "options": [
+          "werkstoffliches Recycling",
+          "rohstoffliches Recycling",
+          "energetische Verwertung"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "(a) PET-Flaschen werden zu Fasern versponnen",
+            "correct": "werkstoffliches Recycling"
+          },
+          {
+            "id": "b",
+            "label": "(b) Pyrolyse zu einem Öl",
+            "correct": "rohstoffliches Recycling"
+          },
+          {
+            "id": "c",
+            "label": "(c) Verbrennung mit Wärmenutzung",
+            "correct": "energetische Verwertung"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.2.sustainability.exercise.2",
@@ -4496,7 +4777,21 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q2.2.sustainability",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "w",
+            "label": "Massenanteil Rezyklat",
+            "value": 30,
+            "unit": "%",
+            "tolerance": {
+              "absolute": 0.5
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.q2.2.sustainability.exercise.3",
@@ -4666,7 +4961,7 @@
     },
     {
       "id": "chem.q2.3.aromatics.exercise.basic-reaction",
-      "title": "Grundlage selbst erklären",
+      "title": "Bromierung von Benzol",
       "difficulty": "basic",
       "prompt": "Benzol reagiert mit Brom unter geeigneten katalytischen Bedingungen zu Brombenzol. Ordne den Reaktionstyp ein und begründe, warum der Ring erhalten bleibt.",
       "taskType": "free-response",
@@ -4711,7 +5006,7 @@
     },
     {
       "id": "chem.q2.3.aromatics.exercise.standard-mechanism",
-      "title": "Begründung ausarbeiten",
+      "title": "Schritte der elektrophilen Substitution",
       "difficulty": "standard",
       "prompt": "Ordne die drei Grundschritte der elektrophilen aromatischen Substitution: Elektrophilbildung, Angriff des Rings, Protonenabgabe.",
       "taskType": "free-response",
@@ -4757,7 +5052,7 @@
     },
     {
       "id": "chem.q2.3.aromatics.exercise.transfer-addition",
-      "title": "Transfer und Beleggrenze",
+      "title": "Benzol und Bromwasser",
       "difficulty": "transfer",
       "prompt": "Eine Behauptung lautet: „Benzol entfärbt Bromwasser wie ein Alken, weil es drei Doppelbindungen besitzt.“ Beurteile sie.",
       "taskType": "free-response",
@@ -5279,7 +5574,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.1.mwg",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "kc",
+            "label": "Kc",
+            "value": 12.5,
+            "unit": "L·mol⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.1.mwg.exercise.standard-ice",
@@ -5301,7 +5607,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.1.mwg",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "c",
+            "label": "cₑq(N₂O₄)",
+            "value": 0.4,
+            "unit": "mol·L⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.1.mwg.exercise.transfer-data",
@@ -5620,11 +5937,24 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.2.ph",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "pH",
+            "label": "pH",
+            "value": 3,
+            "tolerance": {
+              "absolute": 0.05
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.2.ph.exercise.basic-poh",
-      "title": "Grundlage selbst erklären",
+      "title": "pOH und pH einer Base",
       "difficulty": "basic",
       "prompt": "Bei 25 °C gilt für eine starke Base c(OH⁻) = 1,0·10⁻⁴ mol·L⁻¹. Berechne pOH und pH.",
       "taskType": "numeric",
@@ -5641,7 +5971,28 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.2.ph",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "pOH",
+            "label": "pOH",
+            "value": 4,
+            "tolerance": {
+              "absolute": 0.05
+            }
+          },
+          {
+            "id": "pH",
+            "label": "pH",
+            "value": 10,
+            "tolerance": {
+              "absolute": 0.05
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.2.ph.exercise.standard-weak",
@@ -5668,7 +6019,7 @@
     },
     {
       "id": "chem.q3.2.ph.exercise.standard-pka",
-      "title": "Begründung ausarbeiten",
+      "title": "Säurestärke aus pKs",
       "difficulty": "standard",
       "prompt": "Säure A hat pKs = 3,1, Säure B pKs = 5,0. Welche Säure ist stärker und um welchen Faktor unterscheidet sich Ks?",
       "taskType": "structured",
@@ -5713,7 +6064,7 @@
     },
     {
       "id": "chem.q3.2.ph.exercise.transfer-model",
-      "title": "Transfer und Beleggrenze",
+      "title": "Grenzen der Wurzelnäherung",
       "difficulty": "transfer",
       "prompt": "Bei der Berechnung einer schwachen Säure wird [H₃O⁺] ≈ √(Ks·c₀) verwendet. Nenne die Voraussetzung und erkläre, was du tust, wenn sie nicht erfüllt ist.",
       "taskType": "free-response",
@@ -5817,7 +6168,7 @@
     },
     {
       "id": "chem.q3.2.protolysis.exercise.basic-pairs",
-      "title": "Grundlage selbst erklären",
+      "title": "Säure-Base-Paare bestimmen",
       "difficulty": "basic",
       "prompt": "Bestimme die korrespondierenden Säure-Base-Paare in HCl + H₂O → H₃O⁺ + Cl⁻.",
       "taskType": "free-response",
@@ -5861,7 +6212,7 @@
     },
     {
       "id": "chem.q3.2.protolysis.exercise.standard-strength",
-      "title": "Begründung ausarbeiten",
+      "title": "Konzentration und Säurestärke",
       "difficulty": "standard",
       "prompt": "Eine 0,10 mol·L⁻¹ Salzsäure und eine 1,0 mol·L⁻¹ Ethansäure werden verglichen. Erkläre, warum die Konzentrationsangabe allein keine Rangfolge der Säurestärke festlegt.",
       "taskType": "free-response",
@@ -5907,7 +6258,7 @@
     },
     {
       "id": "chem.q3.2.protolysis.exercise.transfer-net",
-      "title": "Transfer und Beleggrenze",
+      "title": "Erste Protolyse der Schwefelsäure",
       "difficulty": "transfer",
       "prompt": "Prüfe die Gleichung H₂SO₄ + H₂O → HSO₄⁻ + H₃O⁺ auf Atom- und Ladungsbilanz. Begründe, ob sie die erste Protolyse darstellt.",
       "taskType": "free-response",
@@ -6011,7 +6362,7 @@
     },
     {
       "id": "chem.q3.2.titration.exercise.basic-equivalence",
-      "title": "Grundlage selbst erklären",
+      "title": "Bedeutung des Äquivalenzpunkts",
       "difficulty": "basic",
       "prompt": "Was bedeutet der Äquivalenzpunkt bei der Titration einer einprotonigen Säure mit einer einwertigen Base?",
       "taskType": "free-response",
@@ -6049,11 +6400,22 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.2.titration",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "c",
+            "label": "Säurekonzentration",
+            "value": 0.093,
+            "unit": "mol·L⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.2.titration.exercise.standard-indicator",
-      "title": "Begründung ausarbeiten",
+      "title": "Kriterium der Indikatorwahl",
       "difficulty": "standard",
       "prompt": "Eine starke Säure wird mit einer starken Base titriert. Welches Kriterium nutzt du für die Indikatorwahl?",
       "taskType": "free-response",
@@ -6098,7 +6460,7 @@
     },
     {
       "id": "chem.q3.2.titration.exercise.transfer-uncertainty",
-      "title": "Transfer und Beleggrenze",
+      "title": "Schwer erkennbarer Farbumschlag",
       "difficulty": "transfer",
       "prompt": "Bei einer schwach gefärbten Probe ist der Farbumschlag des Indikators schwer erkennbar. Nenne eine mögliche Fehlerquelle und eine geeignete Alternative.",
       "taskType": "free-response",
@@ -6198,11 +6560,22 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.3.advanced",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "Q",
+            "label": "Ladung",
+            "value": 300,
+            "unit": "C"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.3.advanced.ex.basic-electrons",
-      "title": "Grundlage selbst erklären",
+      "title": "Elektronenstoffmenge aus Ladung",
       "difficulty": "basic",
       "prompt": "Wie viele Mol Elektronen entsprechen 1930 C? Verwende F=96485 C mol⁻¹.",
       "taskType": "numeric",
@@ -6219,7 +6592,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.3.advanced",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "n",
+            "label": "n(e⁻)",
+            "value": 0.02,
+            "unit": "mol"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.3.advanced.ex.standard-product",
@@ -6242,11 +6626,22 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.3.advanced",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "n",
+            "label": "n(Ag)",
+            "value": 0.1,
+            "unit": "mol"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.3.advanced.ex.standard-nernst",
-      "title": "Begründung ausarbeiten",
+      "title": "Potenzialänderung berechnen",
       "difficulty": "standard",
       "prompt": "Für Cu²⁺/Cu sinkt die Cu²⁺-Konzentration bei 25 °C um den Faktor 100. Wie ändert sich E näherungsweise? z=2.",
       "taskType": "numeric",
@@ -6265,7 +6660,18 @@
         "deuten"
       ],
       "sourceLessonId": "chem.q3.3.advanced",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dE",
+            "label": "Potenzialänderung ΔE",
+            "value": -0.0592,
+            "unit": "V"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.3.advanced.ex.transfer-efficiency",
@@ -6394,7 +6800,7 @@
     },
     {
       "id": "chem.q3.3.electrolysis-corrosion.exercise.basic-corrosion",
-      "title": "Grundlage selbst erklären",
+      "title": "Bedingungen der Rostbildung",
       "difficulty": "basic",
       "prompt": "Nenne zwei Bedingungen, die die Rostbildung von Eisen begünstigen.",
       "taskType": "free-response",
@@ -6436,7 +6842,7 @@
     },
     {
       "id": "chem.q3.3.electrolysis-corrosion.exercise.standard-protection",
-      "title": "Begründung ausarbeiten",
+      "title": "Lackschicht und Opferanode",
       "difficulty": "standard",
       "prompt": "Vergleiche eine Lackschicht mit kathodischem Schutz durch ein unedleres Opfermetall.",
       "taskType": "free-response",
@@ -6481,7 +6887,7 @@
     },
     {
       "id": "chem.q3.3.electrolysis-corrosion.exercise.transfer-battery",
-      "title": "Transfer und Beleggrenze",
+      "title": "Laden des Bleiakkumulators",
       "difficulty": "transfer",
       "prompt": "Ein Bleiakkumulator wird wiederholt geladen und entladen. Erkläre, warum Laden nicht einfach eine zweite spontane Entladung ist, und nenne eine Materialeigenschaft, die bei der Bewertung wichtig ist.",
       "taskType": "free-response",
@@ -6584,7 +6990,7 @@
     },
     {
       "id": "chem.q3.3.galvanic-cells.exercise.basic-flow",
-      "title": "Grundlage selbst erklären",
+      "title": "Elektronenfluss im Daniell-Element",
       "difficulty": "basic",
       "prompt": "In welche Richtung fließen die Elektronen im Daniell-Element durch den äußeren Leiter?",
       "taskType": "free-response",
@@ -6621,11 +7027,22 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.3.galvanic-cells",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "E",
+            "label": "E°Zelle",
+            "value": 1.1,
+            "unit": "V"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.3.galvanic-cells.exercise.standard-notation",
-      "title": "Begründung ausarbeiten",
+      "title": "Zellschreibweise",
       "difficulty": "standard",
       "prompt": "Formuliere die Zellschreibweise des Daniell-Elements.",
       "taskType": "free-response",
@@ -6670,7 +7087,7 @@
     },
     {
       "id": "chem.q3.3.galvanic-cells.exercise.transfer-bridge",
-      "title": "Transfer und Beleggrenze",
+      "title": "Aufgabe der Salzbrücke",
       "difficulty": "transfer",
       "prompt": "Erkläre, warum eine galvanische Zelle ohne Salzbrücke oder andere ionische Verbindung nach kurzer Zeit keinen dauerhaften Strom liefern kann.",
       "taskType": "free-response",
@@ -6713,15 +7130,15 @@
     },
     {
       "id": "chem.q3.3.galvanic-cells.selftest.flow",
-      "title": "Elektronenfluss im Daniell-Element",
+      "title": "Minuspol des Daniell-Elements",
       "difficulty": "basic",
-      "prompt": "In welche Richtung fließen Elektronen im Daniell-Element?",
+      "prompt": "Welche Elektrode bildet im Daniell-Element den Minuspol, und welcher Vorgang läuft dort ab?",
       "taskType": "free-response",
       "afb": 1,
       "hints": [
-        "Zink wird oxidiert, Kupfer(II) reduziert."
+        "Am Minuspol werden Elektronen an den äußeren Leiter abgegeben."
       ],
-      "solution": "Von der Zink-Anode zur Kupfer-Kathode.",
+      "solution": "Die Zinkelektrode. Dort wird Zink zu Zn²⁺-Ionen oxidiert; sie ist die Anode.",
       "competencies": [
         "S"
       ],
@@ -6733,7 +7150,7 @@
     },
     {
       "id": "chem.q3.3.galvanic-cells.selftest.voltage",
-      "title": "Zellspannung berechnen",
+      "title": "Formel der Zellspannung",
       "difficulty": "basic",
       "prompt": "Wie berechnest du E°Zelle aus Reduktionspotenzialen?",
       "taskType": "free-response",
@@ -6774,7 +7191,7 @@
     },
     {
       "id": "chem.q3.3.redox.exercise.basic-agent",
-      "title": "Grundlage selbst erklären",
+      "title": "Oxidation und Reduktion erkennen",
       "difficulty": "basic",
       "prompt": "In der Reaktion Zn + Cu²⁺ → Zn²⁺ + Cu: Welcher Stoff wird oxidiert und welcher reduziert?",
       "taskType": "free-response",
@@ -6818,7 +7235,7 @@
     },
     {
       "id": "chem.q3.3.redox.exercise.standard-acidic",
-      "title": "Begründung ausarbeiten",
+      "title": "Dichromat-Gleichung ausgleichen",
       "difficulty": "standard",
       "prompt": "Gleiche Cr₂O₇²⁻ + Fe²⁺ → Cr³⁺ + Fe³⁺ im sauren Milieu aus.",
       "taskType": "free-response",
@@ -6864,7 +7281,7 @@
     },
     {
       "id": "chem.q3.3.redox.exercise.transfer-evidence",
-      "title": "Transfer und Beleggrenze",
+      "title": "Permanganat-Entfärbung deuten",
       "difficulty": "transfer",
       "prompt": "Eine Probe entfärbt eine Permanganatlösung im Sauren. Erkläre, welche zusätzlichen Angaben du für eine vollständige Redoxdeutung brauchst.",
       "taskType": "free-response",
@@ -6968,7 +7385,7 @@
     },
     {
       "id": "chem.q3.4.buffers.exercise.basic-addition",
-      "title": "Grundlage selbst erklären",
+      "title": "Puffer und Säurezugabe",
       "difficulty": "basic",
       "prompt": "Formuliere, wie die Base CH₃COO⁻ auf eine kleine Zugabe von H₃O⁺ reagiert.",
       "taskType": "free-response",
@@ -7007,11 +7424,24 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.4.buffers",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "pH",
+            "label": "pH",
+            "value": 5.06,
+            "tolerance": {
+              "absolute": 0.05
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.4.buffers.exercise.standard-capacity",
-      "title": "Begründung ausarbeiten",
+      "title": "Pufferkapazität vergleichen",
       "difficulty": "standard",
       "prompt": "Zwei Acetatpuffer besitzen dasselbe Verhältnis c(CH₃COO⁻)/c(CH₃COOH), aber Puffer B enthält beide Komponenten in zehnfach höherer Konzentration. Welcher Puffer kann bei vergleichbarem Volumen mehr zugegebene Säure abfangen?",
       "taskType": "free-response",
@@ -7058,7 +7488,7 @@
     },
     {
       "id": "chem.q3.4.buffers.exercise.transfer-scope",
-      "title": "Transfer und Beleggrenze",
+      "title": "Rechnen oder erklären?",
       "difficulty": "transfer",
       "prompt": "Ein Aufgabenblatt verlangt nur eine qualitative Erklärung der Pufferwirkung, nennt aber keine pKs-Werte. Ist eine quantitative Henderson-Hasselbalch-Rechnung zwingend? Begründe anhand der Angaben.",
       "taskType": "free-response",
@@ -7157,7 +7587,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.5.kinetics",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "v",
+            "label": "Mittlere Bildungsgeschwindigkeit",
+            "value": 0.006,
+            "unit": "mol·L⁻¹·s⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.5.kinetics.exercise.2",
@@ -7198,7 +7639,30 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q3.5.kinetics",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "no2",
+            "label": "Zunahme von c(NO₂)",
+            "value": 0.02,
+            "unit": "mol·L⁻¹·s⁻¹"
+          },
+          {
+            "id": "o2",
+            "label": "Zunahme von c(O₂)",
+            "value": 0.005,
+            "unit": "mol·L⁻¹·s⁻¹"
+          },
+          {
+            "id": "v",
+            "label": "Normierte Reaktionsgeschwindigkeit",
+            "value": 0.005,
+            "unit": "mol·L⁻¹·s⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q3.5.kinetics.exercise.4",
@@ -7364,7 +7828,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q4.1.enthalpy",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "q",
+            "label": "Aufgenommene Wärme",
+            "value": 2.926,
+            "unit": "kJ"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q4.1.enthalpy.exercise.3",
@@ -7386,7 +7861,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q4.1.enthalpy",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dH",
+            "label": "Molare Neutralisationsenthalpie ΔH",
+            "value": -56.8,
+            "unit": "kJ·mol⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q4.1.enthalpy.exercise.4",
@@ -7555,7 +8041,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q4.1.entropy-gibbs",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dG",
+            "label": "ΔG",
+            "value": -32.7,
+            "unit": "kJ·mol⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q4.1.entropy-gibbs.exercise.3",
@@ -7722,7 +8219,18 @@
         "angeben"
       ],
       "sourceLessonId": "chem.q4.1.hess",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dH",
+            "label": "ΔH",
+            "value": 572,
+            "unit": "kJ"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q4.1.hess.exercise.2",
@@ -7742,7 +8250,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q4.1.hess",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dH",
+            "label": "ΔH",
+            "value": -45,
+            "unit": "kJ"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q4.1.hess.exercise.3",
@@ -7763,7 +8282,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q4.1.hess",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dH",
+            "label": "ΔH°_R",
+            "value": -890.3,
+            "unit": "kJ·mol⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q4.1.hess.exercise.4",
@@ -7783,7 +8313,18 @@
         "bestimmen"
       ],
       "sourceLessonId": "chem.q4.1.hess",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "dH",
+            "label": "ΔH",
+            "value": -110.5,
+            "unit": "kJ·mol⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.q4.1.hess.exercise.5",
@@ -7906,7 +8447,21 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.q4.2.energy-sustainability",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "eta",
+            "label": "Wirkungsgrad η",
+            "value": 60,
+            "unit": "%",
+            "tolerance": {
+              "absolute": 0.5
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.q4.2.energy-sustainability.exercise.2",
@@ -8097,7 +8652,41 @@
         "unterscheiden"
       ],
       "sourceLessonId": "chem.experimental.observation",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "matching",
+        "options": [
+          "Beobachtung",
+          "Deutung"
+        ],
+        "items": [
+          {
+            "id": "a",
+            "label": "(a) Die Lösung färbt sich von blau nach farblos.",
+            "correct": "Beobachtung"
+          },
+          {
+            "id": "b",
+            "label": "(b) Es entsteht Wasserstoff.",
+            "correct": "Deutung"
+          },
+          {
+            "id": "c",
+            "label": "(c) Am Boden setzt sich ein weißer Feststoff ab.",
+            "correct": "Beobachtung"
+          },
+          {
+            "id": "d",
+            "label": "(d) Die Temperatur steigt von 21 °C auf 34 °C.",
+            "correct": "Beobachtung"
+          },
+          {
+            "id": "e",
+            "label": "(e) Die Reaktion ist exotherm.",
+            "correct": "Deutung"
+          }
+        ]
+      }
     },
     {
       "id": "chem.experimental.observation.exercise.basic-variables",
@@ -8710,7 +9299,20 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.experimental.separation",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "rf",
+            "label": "Rf-Wert",
+            "value": 0.65,
+            "tolerance": {
+              "absolute": 0.01
+            }
+          }
+        ]
+      }
     },
     {
       "id": "chem.experimental.separation.exercise.standard-boiling",
@@ -8878,7 +9480,18 @@
         "berechnen"
       ],
       "sourceLessonId": "chem.experimental.quantitative",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "answer": {
+        "kind": "numeric",
+        "parts": [
+          {
+            "id": "c",
+            "label": "c(NaOH)",
+            "value": 0.15,
+            "unit": "mol·L⁻¹"
+          }
+        ]
+      }
     },
     {
       "id": "chem.experimental.quantitative.exercise.basic-indicator",

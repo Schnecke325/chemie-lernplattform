@@ -37,6 +37,25 @@ export interface LearningGoal {
   operators: string[]
 }
 
+/** Machine-checkable result of a numeric task; tolerance defaults to 2 % relative. */
+export interface NumericAnswerPart {
+  id: string
+  label: string
+  value: number
+  unit?: string
+  tolerance?: { relative?: number; absolute?: number }
+}
+
+export interface MatchingAnswerItem {
+  id: string
+  label: string
+  correct: string
+}
+
+export type ExerciseAnswer =
+  | { kind: 'numeric'; parts: NumericAnswerPart[] }
+  | { kind: 'matching'; options: string[]; items: MatchingAnswerItem[] }
+
 export interface Exercise {
   id: string
   title: string
@@ -55,6 +74,8 @@ export interface Exercise {
   competencies: Competency[]
   operators: string[]
   sourceExamRefs?: ExamRef[]
+  /** Required for numeric and matching tasks, absent for all other task types. */
+  answer?: ExerciseAnswer
 }
 
 export interface ExerciseBank {

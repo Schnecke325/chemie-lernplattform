@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react'
+import { ExercisePractice, resultLabels } from '../components/ExercisePractice'
 import { getAllExercises, learningCatalog } from '../content'
 import type { Competency, Difficulty, Exercise, ExerciseMode } from '../content/types'
+import { clearPracticeRecords, loadPracticeRecords, savePracticeRecords, type PracticeRecord, type PracticeRecords } from '../practice/storage'
 import './ExercisesPage.css'
 
 const competencyLabels: Record<Competency, string> = {
@@ -82,6 +84,22 @@ export function ExercisesPage() {
   const [isLoading, setIsLoading] = useState(true)
   const [loadError, setLoadError] = useState(false)
   const [filters, setFilters] = useState<Filters>(initialFilters)
+  const [expandedId, setExpandedId] = useState<string | null>(null)
+  const [records, setRecords] = useState<PracticeRecords>(loadPracticeRecords)
+
+  const saveRecord = (id: string, record: PracticeRecord) => {
+    setRecords((current) => {
+      const next = { ...current, [id]: record }
+      savePracticeRecords(next)
+      return next
+    })
+  }
+
+  const resetRecords = () => {
+    if (!window.confirm('Alle auf diesem Gerät gespeicherten Bearbeitungsergebnisse löschen?')) return
+    clearPracticeRecords()
+    setRecords({})
+  }
 
   useEffect(() => {
     let active = true
@@ -187,12 +205,19 @@ export function ExercisesPage() {
         <div><span className="section-kicker">ZENTRALER AUFGABENBESTAND</span><h2>Aufgabenübersicht</h2></div>
         {!isLoading && <span>{filteredExercises.length} von {exercises.length}</span>}
       </div>
+      {!isLoading && !loadError && <div className="practice-device-note">
+        <span>{Object.keys(records).length} Aufgaben bearbeitet · Ergebnisse werden nur auf diesem Gerät gespeichert.</span>
+        <button type="button" onClick={resetRecords} disabled={Object.keys(records).length === 0}>Ergebnisse zurücksetzen</button>
+      </div>}
       {isLoading ? <div className="exercise-empty"><strong>Aufgaben werden geladen …</strong><p>Der zentrale Aufgabenbestand wird vorbereitet.</p></div>
         : loadError ? <div className="exercise-empty"><strong>Aufgabenbestand konnte nicht geladen werden.</strong><p>Bitte lade die Seite erneut.</p></div>
           : filteredExercises.length === 0 ? <div className="exercise-empty"><strong>Keine Aufgaben für diese Auswahl</strong><p>Ändere oder setze einzelne Filter zurück, um weitere Aufgaben zu finden.</p></div>
             : <div className="exercise-list">{filteredExercises.map((exercise) => {
               const topic = topicByLessonId.get(exercise.sourceLessonId)
-              return <article className="exercise-list-item" key={exercise.id}>
+              const isExpanded = expandedId === exercise.id
+              const record = records[exercise.id]
+              return <article className={`exercise-list-item${isExpanded ? ' is-expanded' : ''}`} key={exercise.id}>
+                <div className="exercise-list-toggle" onClick={() => setExpandedId(isExpanded ? null : exercise.id)}>
                 <div className="exercise-list-main">
                   <div className="exercise-list-meta">
                     <span className={`exercise-source-tag ${exercise.sourceKind === 'selfTest' ? 'is-self-test' : ''}`}>
@@ -202,8 +227,10 @@ export function ExercisesPage() {
                       {difficultyLabels[exercise.difficulty]}
                     </span>}
                     {exercise.afb && <span className="exercise-meta-tag">AFB {exercise.afb}</span>}
+                    {record && <span className={`exercise-result-tag result-${record.result}`}>{resultLabels[record.result]}</span>}
                   </div>
-                  <h3>{exercise.title}</h3>
+                  <h3><button type="button" className="exercise-title-button" aria-expanded={isExpanded}
+                    aria-controls={`practice-${exercise.id}`}>{exercise.title}</button></h3>
                   <p className="exercise-topic">{topic ? <>{topic.chapterTitle}<span aria-hidden="true"> / </span><strong>{topic.lessonTitle}</strong></> : 'Thema nicht zugeordnet'}</p>
                 </div>
                 <div className="exercise-list-competencies" aria-label="Kompetenzbereiche">
@@ -212,9 +239,13 @@ export function ExercisesPage() {
                     : <span className="exercise-unclassified">Nicht angegeben</span>}
                   {exercise.supportedModes?.map((mode) => <span className="exercise-mode-tag" key={mode}>{modeLabels[mode]}</span>)}
                 </div>
+                </div>
+                {isExpanded && <div className="exercise-list-panel" id={`practice-${exercise.id}`}>
+                  <ExercisePractice exercise={exercise} record={record} onRecord={(next) => saveRecord(exercise.id, next)}/>
+                </div>}
               </article>
             })}</div>}
     </section>
-    <p className="exercise-page-note">Aufgaben werden hier zunächst nur gefunden und gefiltert. Bearbeitung und Fortschritt folgen in späteren Phasen.</p>
+    <p className="exercise-page-note">Wähle eine Aufgabe, um sie zu bearbeiten. Zahlen- und Zuordnungsaufgaben werden automatisch geprüft; bei Erklärungsaufgaben vergleichst du deine Antwort selbst mit der Musterlösung.</p>
   </div>
 }

@@ -114,11 +114,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-axes` | Achsen prüfen | angeben, begründen | angeben / begründen | **II** | frei | Begründung verlangt; Schwerpunkt von begründen. |
-| `exercise.basic-trend` | Grundlage selbst erklären | beschreiben | beschreiben | **I** | frei | Der Auftrag ist eine Beschreibung; Schwerpunkt von beschreiben. |
+| `exercise.basic-trend` | Trend beschreiben | beschreiben | beschreiben | **I** | frei | Der Auftrag ist eine Beschreibung; Schwerpunkt von beschreiben. |
 | `exercise.standard-rate` | Mittlere Abnahmegeschwindigkeit | berechnen, angeben | berechnen | **I** | numerisch | Einschrittige Rechnung mit gegebener Formel. |
-| `exercise.standard-intervals` | Begründung ausarbeiten | berechnen, vergleichen, beschreiben | berechnen / vergleichen | **II** | mehrteilig | Zwei Raten berechnen und vergleichen; Schwerpunkt von vergleichen. |
+| `exercise.standard-intervals` | Zwei Intervalle vergleichen | berechnen, vergleichen, beschreiben | berechnen / vergleichen | **II** | mehrteilig | Zwei Raten berechnen und vergleichen; Schwerpunkt von vergleichen. |
 | `exercise.transfer-equilibrium` | Hypothese mit Daten prüfen | beurteilen, begründen | beurteilen | **III** | frei | beurteilen ist nur AFB III. |
-| `exercise.transfer-uncertainty` | Transfer und Beleggrenze | beurteilen, begründen | entscheiden mit Begründung | **II** | frei | Begründete Entscheidung aus Unsicherheitsbereichen; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine begründete Entscheidung. |
+| `exercise.transfer-uncertainty` | Messunsicherheit beachten | beurteilen, begründen | entscheiden mit Begründung | **II** | frei | Begründete Entscheidung aus Unsicherheitsbereichen; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine begründete Entscheidung. |
 | `selftest.rate` | Mittlere Änderungsrate | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe der gelernten Formel. |
 | `selftest.equilibrium` | Plateau und Gleichgewicht | angeben | entscheiden | **I** | frei | Entscheidung auf Basis der Lernseite ohne verlangte Begründung; untere Grenze der Spanne. |
 | `selftest.uncertainty` | Kleine Messunterschiede | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer gelernten Regel. |
@@ -128,11 +128,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-mole` | Stoffmenge berechnen | berechnen | berechnen | **I** | numerisch | Einschrittige Rechnung mit gegebener Formel. |
-| `exercise.basic-concentration` | Grundlage selbst erklären | berechnen, angeben | berechnen | **I** | numerisch | Einschrittige Rechnung mit gegebener Formel. |
+| `exercise.basic-concentration` | Stoffmengenkonzentration berechnen | berechnen, angeben | berechnen | **I** | numerisch | Einschrittige Rechnung mit gegebener Formel. |
 | `exercise.standard-limiting` | Limitierendes Edukt | ermitteln, berechnen | bestimmen (Fragesatz) | **II** | mehrteilig | Limitierenden Stoff bestimmen und Produktmenge berechnen; Schwerpunkt von bestimmen. |
-| `exercise.standard-dilution` | Begründung ausarbeiten | berechnen | berechnen | **I** | numerisch | Rechnung mit bekannter Verdünnungsformel. |
+| `exercise.standard-dilution` | Verdünnung berechnen | berechnen | berechnen | **I** | numerisch | Rechnung mit bekannter Verdünnungsformel. |
 | `exercise.transfer-gas` | Gasvolumen im Kontext | berechnen, angeben | berechnen | **I** | numerisch | Einsetzen in die gegebene Gasgleichung. |
-| `exercise.transfer-dose` | Transfer und Beleggrenze | berechnen, beurteilen | berechnen / erklären | **II** | mehrteilig | Rechnung und Erklärung der Aussagegrenze; Schwerpunkt von erklären. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Rechnung und Erklärung. |
+| `exercise.transfer-dose` | Konzentration und Dosis | berechnen, beurteilen | berechnen / erklären | **II** | mehrteilig | Rechnung und Erklärung der Aussagegrenze; Schwerpunkt von erklären. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Rechnung und Erklärung. |
 | `selftest.molar` | Stoffmenge aus der Masse | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe der gelernten Formel. |
 | `selftest.concentration` | Stoffmengenkonzentration | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Definition. |
 | `selftest.limiting` | Limitierender Stoff | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Definition. |
@@ -142,11 +142,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-levels` | Drei Beschreibungsebenen | zuordnen, benennen | zuordnen / benennen | **II** | mehrteilig | Drei Aussagen den Beschreibungsebenen zuordnen; Schwerpunkt von zuordnen. |
-| `exercise.basic-balance` | Grundlage selbst erklären | ausgleichen, überprüfen | ausgleichen / prüfen | **I** | frei | Routineverfahren an einer einfachen Gleichung. ⚠ ausgleichen steht nicht im Operatorenblatt; AFB nach allgemeiner Beschreibung. |
+| `exercise.basic-balance` | Knallgasreaktion ausgleichen | ausgleichen, überprüfen | ausgleichen / prüfen | **I** | frei | Routineverfahren an einer einfachen Gleichung. ⚠ ausgleichen steht nicht im Operatorenblatt; AFB nach allgemeiner Beschreibung. |
 | `exercise.standard-zinc` | Beobachtung und Modell verknüpfen | beschreiben, formulieren, erläutern | beschreiben / formulieren / erklären | **II** | frei | Gleichung formulieren und erklären; Schwerpunkt von formulieren und erklären. |
-| `exercise.standard-structure` | Begründung ausarbeiten | begründen, beurteilen | entscheiden / begründen / nennen | **II** | frei | Begründete Auswahl einer Darstellung; Schwerpunkt von begründen. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine begründete Entscheidung. |
+| `exercise.standard-structure` | Passende Darstellung wählen | begründen, beurteilen | entscheiden / begründen / nennen | **II** | frei | Begründete Auswahl einer Darstellung; Schwerpunkt von begründen. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine begründete Entscheidung. |
 | `exercise.transfer-model` | Modellgrenze beurteilen | beurteilen, begründen | beurteilen | **III** | frei | beurteilen ist nur AFB III. |
-| `exercise.transfer-charge` | Transfer und Beleggrenze | entwickeln, überprüfen | entwickeln / erklären | **II** | frei | Gleichung entwickeln und Prüfung erklären; Schwerpunkt II. |
+| `exercise.transfer-charge` | Aluminiumchlorid-Gleichung entwickeln | entwickeln, überprüfen | entwickeln / erklären | **II** | frei | Gleichung entwickeln und Prüfung erklären; Schwerpunkt II. |
 | `selftest.levels` | Beschreibungsebenen | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe gelernter Begriffe. |
 | `selftest.coefficient` | Gleichungen ausgleichen | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer gelernten Regel. |
 | `selftest.model` | Gleichung und Mechanismus | angeben | begründen (Fragesatz „Warum …“) | **II** | frei | Schwerpunkt von begründen. |
@@ -156,11 +156,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-bond` | Bindungsmodell zuordnen | zuordnen, beschreiben | zuordnen | **I** | frei | Wiedergabe gelernter Standardbeispiele; untere Grenze der Spanne. |
-| `exercise.basic-lewis` | Grundlage selbst erklären | zeichnen | zeichnen | **I** | frei | Schwerpunkt von zeichnen. |
+| `exercise.basic-lewis` | Lewis-Formel von HCl | zeichnen | zeichnen | **I** | frei | Schwerpunkt von zeichnen. |
 | `exercise.standard-electronegativity` | Bindungspolarität erklären | einordnen, begründen | einordnen / einzeichnen | **II** | frei | Bindung anhand der EN-Differenz einordnen; Schwerpunkt von einordnen. |
-| `exercise.standard-properties` | Begründung ausarbeiten | erläutern, vergleichen | erklären | **II** | frei | Schwerpunkt von erklären. |
+| `exercise.standard-properties` | Leitfähigkeit von NaCl und Kupfer | erläutern, vergleichen | erklären | **II** | frei | Schwerpunkt von erklären. |
 | `exercise.transfer-charge` | Ionenformel entwickeln | entwickeln, begründen | ableiten / erklären | **II** | frei | Schwerpunkt II. |
-| `exercise.transfer-model` | Transfer und Beleggrenze | erläutern, beurteilen | erklären | **II** | frei | Erklärung von Leistung und Grenze eines behandelten Modells; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine Erklärung. |
+| `exercise.transfer-model` | Elektronengasmodell prüfen | erläutern, beurteilen | erklären | **II** | frei | Erklärung von Leistung und Grenze eines behandelten Modells; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine Erklärung. |
 | `selftest.models` | Bausteine im Ionengitter | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.metal` | Leitfähigkeit von Metallen | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.polar` | Partialladungen | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Definition. |
@@ -170,11 +170,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-series` | Stoffklasse erkennen | zuordnen, benennen | zuordnen / nennen | **I** | frei | Wiedergabe gelernter Stoffklassen-Merkmale; untere Grenze der Spanne. |
-| `exercise.basic-isomer` | Grundlage selbst erklären | begründen | entscheiden mit Begründung | **II** | frei | Begründung verlangt; Schwerpunkt II. |
+| `exercise.basic-isomer` | Butan und 2-Methylpropan | begründen | entscheiden mit Begründung | **II** | frei | Begründung verlangt; Schwerpunkt II. |
 | `exercise.standard-naming` | Struktur benennen | benennen | benennen | **I** | frei | Schwerpunkt von benennen. |
-| `exercise.standard-addition` | Begründung ausarbeiten | formulieren, begründen | formulieren / angeben | **II** | frei | Schwerpunkt von formulieren. |
+| `exercise.standard-addition` | HBr-Addition an But-1-en | formulieren, begründen | formulieren / angeben | **II** | frei | Schwerpunkt von formulieren. |
 | `exercise.transfer-combustion` | Verbrennung stöchiometrisch formulieren | formulieren, erläutern | aufstellen / erklären | **II** | frei | Schwerpunkt II. |
-| `exercise.transfer-reaction` | Transfer und Beleggrenze | deuten, formulieren | deuten / formulieren | **II** | frei | Schwerpunkt II. |
+| `exercise.transfer-reaction` | Bromwasser-Entfärbung deuten | deuten, formulieren | deuten / formulieren | **II** | frei | Schwerpunkt II. |
 | `selftest.classes` | Kennzeichen eines Alkens | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.isomers` | Konstitutionsisomere | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Definition. |
 | `selftest.addition` | Addition an C=C | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -184,11 +184,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-types` | Strukturtypen zuordnen | zuordnen | zuordnen | **I** | frei | Wiedergabe gelernter Zuordnungen; untere Grenze der Spanne. |
-| `exercise.basic-silica` | Grundlage selbst erklären | beschreiben, erläutern | angeben (Fragesatz) | **I** | frei | Wiedergabe der Bedeutung eines Fachbegriffs. ⚠ Metadaten nennen „beschreiben, erläutern“; der Prompt verlangt nur Wiedergabe. |
+| `exercise.basic-silica` | Netzwerkstoff Siliciumdioxid | beschreiben, erläutern | angeben (Fragesatz) | **I** | frei | Wiedergabe der Bedeutung eines Fachbegriffs. ⚠ Metadaten nennen „beschreiben, erläutern“; der Prompt verlangt nur Wiedergabe. |
 | `exercise.standard-properties` | Struktur und Eigenschaft verknüpfen | vergleichen, erläutern | erklären | **II** | frei | Schwerpunkt von erklären. |
-| `exercise.standard-structure` | Begründung ausarbeiten | erklären, vergleichen | erklären | **II** | frei | Schwerpunkt von erklären. |
+| `exercise.standard-structure` | SiO₂ und CO₂ vergleichen | erklären, vergleichen | erklären | **II** | frei | Schwerpunkt von erklären. |
 | `exercise.transfer-context` | Materialeigenschaft beurteilen | beurteilen, begründen | beurteilen | **III** | frei | beurteilen ist nur AFB III. |
-| `exercise.transfer-model` | Transfer und Beleggrenze | beurteilen, erläutern | beurteilen (Fragesatz) | **III** | frei | Aussagekraft eines Modells begründet einschätzen. ⚠ Der Prompt ist als Frage formuliert; inhaltlich wird ein Urteil verlangt. |
+| `exercise.transfer-model` | Kugelmodell von Quarz | beurteilen, erläutern | beurteilen (Fragesatz) | **III** | frei | Aussagekraft eines Modells begründet einschätzen. ⚠ Der Prompt ist als Frage formuliert; inhaltlich wird ein Urteil verlangt. |
 | `selftest.network` | Formel eines Netzwerkstoffs | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.conductivity` | Bindungen im Quarz | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.silicon` | Ist Silicium ein Metall? | angeben | entscheiden | **I** | frei | Entscheidung ohne verlangte Begründung; untere Grenze der Spanne. |
@@ -198,11 +198,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-shape` | Molekülform bestimmen | bestimmen, darstellen | ableiten | **II** | frei | Schwerpunkt von ableiten. |
-| `exercise.basic-force` | Grundlage selbst erklären | benennen, begründen | angeben / begründen | **II** | frei | Schwerpunkt von begründen. |
+| `exercise.basic-force` | Wechselwirkung zwischen Wassermolekülen | benennen, begründen | angeben / begründen | **II** | frei | Schwerpunkt von begründen. |
 | `exercise.standard-dipole` | Molekülpolarität vergleichen | erklären, vergleichen | erklären | **II** | frei | Schwerpunkt von erklären. |
-| `exercise.standard-boiling` | Begründung ausarbeiten | begründen | begründen | **II** | frei | Schwerpunkt von begründen. |
+| `exercise.standard-boiling` | Siedetemperatur von Ethan und Methan | begründen | begründen | **II** | frei | Schwerpunkt von begründen. |
 | `exercise.transfer-solubility` | Löslichkeit aus Struktur deuten | erläutern, beurteilen | erklären / nennen | **II** | frei | Schwerpunkt von erklären. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Erklärung und Nennung. |
-| `exercise.transfer-hyaluronan` | Transfer und Beleggrenze | erläutern, begründen | formulieren einer Erklärung | **II** | frei | Bekannte Wechselwirkungen auf einen Materialkontext anwenden; Schwerpunkt II. |
+| `exercise.transfer-hyaluronan` | Wasserbindung der Hyaluronsäure | erläutern, begründen | formulieren einer Erklärung | **II** | frei | Bekannte Wechselwirkungen auf einen Materialkontext anwenden; Schwerpunkt II. |
 | `selftest.geometry` | Elektronenbereiche im EPA-Modell | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.dipole` | Permanenter Dipol | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Bedingung. |
 | `selftest.forces` | Allgegenwärtige Wechselwirkung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -212,11 +212,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-classify` | Reaktionstyp unterscheiden | zuordnen, unterscheiden | zuordnen | **II** | mehrteilig | Reaktionstyp aus Edukten und Bedingungen erkennen; Schwerpunkt II. |
-| `exercise.basic-radical` | Grundlage selbst erklären | benennen, zuordnen | nennen / zuordnen | **I** | frei | Wiedergabe der gelernten Phasen. |
+| `exercise.basic-radical` | Phasen der radikalischen Chlorierung | benennen, zuordnen | nennen / zuordnen | **I** | frei | Wiedergabe der gelernten Phasen. |
 | `exercise.standard-sn2` | Nukleophile Substitution formulieren | formulieren, benennen | formulieren / benennen | **II** | frei | Schwerpunkt von formulieren. |
-| `exercise.standard-elimination` | Begründung ausarbeiten | formulieren, erläutern | aufstellen / erklären | **II** | frei | Schwerpunkt II. |
+| `exercise.standard-elimination` | Eliminierung aus Bromethan | formulieren, erläutern | aufstellen / erklären | **II** | frei | Schwerpunkt II. |
 | `exercise.transfer-conditions` | Reaktionswege anhand von Bedingungen beurteilen | beurteilen, begründen | begründen | **II** | frei | Schwerpunkt von begründen. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine Begründung. |
-| `exercise.transfer-mechanism` | Transfer und Beleggrenze | auswerten, erläutern | einordnen / erklären | **II** | frei | Mechanismus aus Schema einordnen; Schwerpunkt II. |
+| `exercise.transfer-mechanism` | Mechanismus aus einem Schema | auswerten, erläutern | einordnen / erklären | **II** | frei | Mechanismus aus Schema einordnen; Schwerpunkt II. |
 | `selftest.radical` | Startschritt der Chlorierung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.nucleophile` | Rolle des Nucleophils | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.elimination` | Kennzeichen der Eliminierung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -226,11 +226,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-classify` | Alkanol einordnen | zuordnen | einordnen | **II** | Zuordnung | Strukturen anhand eines gelernten Kriteriums analysieren; Schwerpunkt II. |
-| `exercise.basic-bond` | Grundlage selbst erklären | benennen, begründen | angeben / begründen | **II** | frei | Schwerpunkt von begründen. |
+| `exercise.basic-bond` | Ethanol und Ethan | benennen, begründen | angeben / begründen | **II** | frei | Schwerpunkt von begründen. |
 | `exercise.standard-oxidation` | Oxidationsprodukt vorhersagen | angeben, begründen | angeben / nennen | **I** | frei | Wiedergabe gelernter Oxidationsprodukte. |
-| `exercise.standard-secondary` | Begründung ausarbeiten | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
+| `exercise.standard-secondary` | Oxidation von Propan-2-ol | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
 | `exercise.transfer-properties` | Siedepunkte begründen | begründen, vergleichen | begründen | **II** | frei | Schwerpunkt von begründen. |
-| `exercise.transfer-tertiary` | Transfer und Beleggrenze | beurteilen, begründen | beurteilen | **III** | frei | beurteilen ist nur AFB III. |
+| `exercise.transfer-tertiary` | Behauptung zu tertiären Alkanolen | beurteilen, begründen | beurteilen | **III** | frei | beurteilen ist nur AFB III. |
 | `selftest.class` | Sekundäres Alkanol erkennen | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe eines Kriteriums. |
 | `selftest.primary` | Oxidation primärer Alkanole | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.tertiary` | Tertiäre Alkanole oxidieren | angeben | begründen (Fragesatz „Warum …“) | **II** | frei | Schwerpunkt von begründen. |
@@ -240,11 +240,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-identify` | Aldehyd oder Keton? | zuordnen, beschreiben | einordnen / beschreiben | **I** | frei | Wiedergabe gelernter Strukturmerkmale an Standardbeispielen. |
-| `exercise.basic-polar` | Grundlage selbst erklären | angeben, begründen | angeben / begründen | **II** | frei | Schwerpunkt von begründen. |
+| `exercise.basic-polar` | Partialladungen an C=O | angeben, begründen | angeben / begründen | **II** | frei | Schwerpunkt von begründen. |
 | `exercise.standard-reduction` | Reduktion zuordnen | formulieren, zuordnen | angeben | **I** | frei | Wiedergabe eines gelernten Reaktionsprodukts. |
-| `exercise.standard-test` | Begründung ausarbeiten | auswerten, beurteilen | ableiten / nennen | **II** | frei | Schlussfolgerung aus einem Befund mit Einschränkung; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Ableiten und Nennen. |
+| `exercise.standard-test` | Fehling-Befund auswerten | auswerten, beurteilen | ableiten / nennen | **II** | frei | Schlussfolgerung aus einem Befund mit Einschränkung; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Ableiten und Nennen. |
 | `exercise.transfer-addition` | Nucleophile Addition erklären | erläutern, darstellen | beschreiben | **I** | frei | Wiedergabe des auf der Lernseite behandelten Mechanismus; Schwerpunkt I. |
-| `exercise.transfer-oxidation` | Transfer und Beleggrenze | ableiten, begründen | ableiten / begründen | **II** | frei | Schwerpunkt II. |
+| `exercise.transfer-oxidation` | Unbekannte Carbonylverbindung | ableiten, begründen | ableiten / begründen | **II** | frei | Schwerpunkt II. |
 | `selftest.aldehyde` | Lage der Aldehydgruppe | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.nucleophile` | Angriffspunkt für Nucleophile | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.reduction` | Reduktion eines Ketons | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -254,11 +254,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-group` | Carboxygruppe erkennen | beschriften, benennen | kennzeichnen / benennen | **I** | frei | Schwerpunkt I. |
-| `exercise.basic-protolysis` | Grundlage selbst erklären | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
+| `exercise.basic-protolysis` | Protolyse der Ethansäure | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
 | `exercise.standard-acidity` | Säurestärke vergleichen | vergleichen, begründen | erklären | **II** | frei | Schwerpunkt von erklären. |
-| `exercise.standard-pka` | Begründung ausarbeiten | auswerten, begründen | entscheiden mit Begründung | **II** | frei | Schwerpunkt von begründen. |
+| `exercise.standard-pka` | pKa-Werte vergleichen | auswerten, begründen | entscheiden mit Begründung | **II** | frei | Schwerpunkt von begründen. |
 | `exercise.transfer-polyacid` | Mehrprotonige Säure deuten | erläutern, begründen | erklären | **II** | frei | Schwerpunkt von erklären. |
-| `exercise.transfer-isomerism` | Transfer und Beleggrenze | ableiten, begründen | ableiten (Fragesatz) | **II** | frei | Stereochemische Folgerung aus einem Strukturmerkmal ableiten; Schwerpunkt II. |
+| `exercise.transfer-isomerism` | Chiralität am α-C-Atom | ableiten, begründen | ableiten (Fragesatz) | **II** | frei | Stereochemische Folgerung aus einem Strukturmerkmal ableiten; Schwerpunkt II. |
 | `selftest.group` | Aufbau der Carboxygruppe | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.pka` | pKa und Säurestärke | angeben | entscheiden | **I** | frei | Entscheidung nach gelernter Regel; untere Grenze der Spanne. |
 | `selftest.inductive` | Elektronenziehende Gruppen | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -268,11 +268,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-name` | Estergruppe benennen | beschriften, benennen | kennzeichnen / benennen | **I** | frei | Schwerpunkt I. |
-| `exercise.basic-reaction` | Grundlage selbst erklären | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
+| `exercise.basic-reaction` | Edukte und Produkte der Veresterung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `exercise.standard-equilibrium` | Gleichgewicht beeinflussen | angeben, begründen | nennen | **I** | frei | Schwerpunkt von nennen. |
-| `exercise.standard-hydrolysis` | Begründung ausarbeiten | formulieren, benennen | formulieren / nennen | **II** | frei | Schwerpunkt von formulieren. |
+| `exercise.standard-hydrolysis` | Verseifung von Ethylethanoat | formulieren, benennen | formulieren / nennen | **II** | frei | Schwerpunkt von formulieren. |
 | `exercise.transfer-mechanism` | Mechanismus erklären | erläutern, begründen | erklären | **II** | frei | Schwerpunkt von erklären. |
-| `exercise.transfer-process` | Transfer und Beleggrenze | entwickeln, beurteilen | nennen | **I** | frei | Schwerpunkt von nennen. ⚠ Metadaten nennen „entwickeln, beurteilen“; der Prompt verlangt nur Nennen. |
+| `exercise.transfer-process` | Esterausbeute erhöhen | entwickeln, beurteilen | nennen | **I** | frei | Schwerpunkt von nennen. ⚠ Metadaten nennen „entwickeln, beurteilen“; der Prompt verlangt nur Nennen. |
 | `selftest.group` | Estergruppe | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.catalyst` | Katalysator und Estergleichgewicht | angeben | entscheiden | **I** | frei | Entscheidung nach gelernter Regel; untere Grenze der Spanne. |
 | `selftest.saponification` | Produkt der Verseifung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -296,11 +296,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-groups` | Konservierungsstoff einordnen | zuordnen, benennen | angeben (Fragesatz) | **I** | frei | Wiedergabe von Stoffklasse und funktioneller Gruppe. |
-| `exercise.basic-vitamin` | Grundlage selbst erklären | erläutern | erklären | **II** | frei | Schwerpunkt von erklären. |
+| `exercise.basic-vitamin` | Ascorbinsäure als Antioxidans | erläutern | erklären | **II** | frei | Schwerpunkt von erklären. |
 | `exercise.standard-titration` | Konzentration einer Säure bestimmen | berechnen | berechnen | **I** | numerisch | Routinerechnung im Verhältnis 1 : 1. |
-| `exercise.standard-speciation` | Begründung ausarbeiten | erläutern | erklären | **II** | frei | Schwerpunkt von erklären. |
+| `exercise.standard-speciation` | pH und Säureform | erläutern | erklären | **II** | frei | Schwerpunkt von erklären. |
 | `exercise.transfer-method` | Analytische Methode planen | planen, begründen | skizzieren / nennen | **II** | frei | Vorgehen einer Bestimmung selbst entwerfen; obere Grenze von skizzieren. |
-| `exercise.transfer-health` | Transfer und Beleggrenze | beurteilen, bewerten | bestimmen (Fragesatz) | **II** | frei | Benötigte Kriterien für ein Urteil im Kontext ermitteln; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen, bewerten“ (AFB III); der Prompt verlangt kein Urteil, nur dessen Voraussetzungen. |
+| `exercise.transfer-health` | Grundlagen eines Gesundheitsurteils | beurteilen, bewerten | bestimmen (Fragesatz) | **II** | frei | Benötigte Kriterien für ein Urteil im Kontext ermitteln; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen, bewerten“ (AFB III); der Prompt verlangt kein Urteil, nur dessen Voraussetzungen. |
 | `selftest.sorbic` | Säuregruppe der Sorbinsäure | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.ascorbic` | Schutzwirkung der Ascorbinsäure | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe der gelernten Wirkungsweise. |
 | `selftest.evidence` | Analysenwert und Grenzwert | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -310,11 +310,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-draw` | Ladungsbild von Alanin | zeichnen, angeben | zeichnen | **I** | frei | Schwerpunkt von zeichnen. |
-| `exercise.basic-bonds` | Grundlage selbst erklären | bestimmen, begründen | bestimmen (Fragesatz) / begründen | **II** | frei | Begründung verlangt; Schwerpunkt II. |
+| `exercise.basic-bonds` | Peptidbindungen im Tetrapeptid | bestimmen, begründen | bestimmen (Fragesatz) / begründen | **II** | frei | Begründung verlangt; Schwerpunkt II. |
 | `exercise.standard-pi` | Isoelektrischen Punkt bestimmen | berechnen, begründen | berechnen / entscheiden | **II** | mehrteilig | Rechnung und daraus abgeleitete Ladungsaussage; Schwerpunkt II. |
-| `exercise.standard-limiting` | Begründung ausarbeiten | berechnen, ermitteln | berechnen | **II** | numerisch | Limitierendes Edukt muss zuerst erkannt werden; obere Grenze von berechnen. |
+| `exercise.standard-limiting` | Dipeptid aus Glycin und Alanin | berechnen, ermitteln | berechnen | **II** | numerisch | Limitierendes Edukt muss zuerst erkannt werden; obere Grenze von berechnen. |
 | `exercise.transfer-migration` | Ladung und Wanderungsrichtung | vorhersagen, begründen, beurteilen | vorhersagen / begründen | **II** | frei | Gelernten pI-Zusammenhang auf zwei pH-Werte anwenden; Schwerpunkt II. ⚠ Metadaten nennen auch „beurteilen“ (AFB III); der Prompt verlangt Vorhersage und Begründung. vorhersagen steht nicht im Operatorenblatt. |
-| `exercise.transfer-configuration` | Transfer und Beleggrenze | beurteilen, erläutern | beurteilen / erklären | **III** | frei | beurteilen ist nur AFB III. |
+| `exercise.transfer-configuration` | L-Konfiguration und Drehsinn | beurteilen, erläutern | beurteilen / erklären | **III** | frei | beurteilen ist nur AFB III. |
 | `selftest.zwitterion` | Zwitterion erkennen | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.pi` | pI-Regel | angeben, erläutern | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Rechenregel. |
 | `selftest.bonds` | Bindungszahl | bestimmen | angeben (Fragesatz „Wie viele …“) | **I** | numerisch | Anwendung der gelernten Regel n − 1 ohne weiteren Kontext. ⚠ Metadaten nennen „bestimmen“ (AFB II); der Prompt ist eine reine Abzählfrage. |
@@ -438,11 +438,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-ring` | Aromaten erkennen | beschreiben, erläutern | angeben (Fragesatz) | **I** | frei | Wiedergabe des Mesomerie- bzw. Delokalisationsmodells. ⚠ Metadaten nennen „beschreiben, erläutern“; der Prompt verlangt nur die Angabe des Modells. |
-| `exercise.basic-reaction` | Grundlage selbst erklären | zuordnen, begründen | einordnen / begründen | **II** | frei | Schwerpunkt II. |
+| `exercise.basic-reaction` | Bromierung von Benzol | zuordnen, begründen | einordnen / begründen | **II** | frei | Schwerpunkt II. |
 | `exercise.standard-nitration` | Nitrierung formulieren | formulieren, benennen | formulieren / nennen | **II** | frei | Schwerpunkt von formulieren. |
-| `exercise.standard-mechanism` | Begründung ausarbeiten | ordnen, erläutern | ordnen | **I** | frei | Wiedergabe der gelernten Schrittfolge. ⚠ Die Aufgabe nennt die Schritte bereits in der richtigen Reihenfolge; inhaltliche Überarbeitung empfohlen. |
+| `exercise.standard-mechanism` | Schritte der elektrophilen Substitution | ordnen, erläutern | ordnen | **I** | frei | Wiedergabe der gelernten Schrittfolge. ⚠ Die Aufgabe nennt die Schritte bereits in der richtigen Reihenfolge; inhaltliche Überarbeitung empfohlen. |
 | `exercise.transfer-substituent` | Substituenteneffekt kontextbezogen prüfen | prüfen, begründen | bestimmen (Fragesatz) | **II** | frei | Benötigte Informationen für eine Begründung ermitteln; Schwerpunkt II. ⚠ Metadaten nennen „prüfen, begründen“; der Prompt fragt nach den Voraussetzungen einer Begründung. |
-| `exercise.transfer-addition` | Transfer und Beleggrenze | beurteilen, begründen | beurteilen | **III** | frei | beurteilen ist nur AFB III. |
+| `exercise.transfer-addition` | Benzol und Bromwasser | beurteilen, begründen | beurteilen | **III** | frei | beurteilen ist nur AFB III. |
 | `selftest.pi` | π-Elektronen im Benzol | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.reaction` | Typische Reaktion des Benzols | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.sigma` | Nach dem σ-Komplex | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -508,11 +508,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-ph` | pH einer starken Säure | berechnen | berechnen | **I** | numerisch | Einsetzen in die pH-Definition. |
-| `exercise.basic-poh` | Grundlage selbst erklären | berechnen | berechnen | **I** | numerisch | Einsetzen in gelernte Beziehungen. |
+| `exercise.basic-poh` | pOH und pH einer Base | berechnen | berechnen | **I** | numerisch | Einsetzen in gelernte Beziehungen. |
 | `exercise.standard-weak` | Schwache Säure berechnen | berechnen, überprüfen | berechnen / prüfen | **II** | mehrteilig | Näherungsrechnung mit Überprüfung der Näherung; Schwerpunkt von prüfen. |
-| `exercise.standard-pka` | Begründung ausarbeiten | vergleichen, berechnen | bestimmen (Fragesatz) | **II** | mehrteilig | Stärkere Säure bestimmen und Faktor berechnen; Schwerpunkt von bestimmen. |
+| `exercise.standard-pka` | Säurestärke aus pKs | vergleichen, berechnen | bestimmen (Fragesatz) | **II** | mehrteilig | Stärkere Säure bestimmen und Faktor berechnen; Schwerpunkt von bestimmen. |
 | `exercise.transfer-polyacid` | Mehrprotonige Säure modellieren | begründen | begründen | **II** | frei | Schwerpunkt von begründen. |
-| `exercise.transfer-model` | Transfer und Beleggrenze | beurteilen, erläutern | nennen / erklären | **II** | frei | Schwerpunkt von erklären. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Nennen und Erklären. |
+| `exercise.transfer-model` | Grenzen der Wurzelnäherung | beurteilen, erläutern | nennen / erklären | **II** | frei | Schwerpunkt von erklären. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Nennen und Erklären. |
 | `selftest.strong` | Stärkere Säure am pKs | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.poh` | pH und pOH | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.approx` | Näherung für schwache Säuren | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Bedingung. |
@@ -522,11 +522,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-role` | Säure und Base markieren | zuordnen | kennzeichnen | **I** | frei | Schwerpunkt von kennzeichnen. |
-| `exercise.basic-pairs` | Grundlage selbst erklären | bestimmen | bestimmen | **II** | frei | Schwerpunkt von bestimmen. |
+| `exercise.basic-pairs` | Säure-Base-Paare bestimmen | bestimmen | bestimmen | **II** | frei | Schwerpunkt von bestimmen. |
 | `exercise.standard-ampholyte` | Ampholyt erklären | formulieren, erläutern | zeigen | **II** | frei | Schwerpunkt von zeigen. |
-| `exercise.standard-strength` | Begründung ausarbeiten | erläutern, vergleichen | erklären | **II** | frei | Schwerpunkt von erklären. |
+| `exercise.standard-strength` | Konzentration und Säurestärke | erläutern, vergleichen | erklären | **II** | frei | Schwerpunkt von erklären. |
 | `exercise.transfer-polyprotic` | Mehrstufige Protolyse darstellen | formulieren, darstellen | formulieren | **II** | frei | Schwerpunkt von formulieren. |
-| `exercise.transfer-net` | Transfer und Beleggrenze | überprüfen, begründen | prüfen / begründen | **II** | frei | Schwerpunkt II. |
+| `exercise.transfer-net` | Erste Protolyse der Schwefelsäure | überprüfen, begründen | prüfen / begründen | **II** | frei | Schwerpunkt II. |
 | `selftest.acid` | Brønsted-Säure | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.pairs` | Korrespondierende Paare | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.ampholyte` | Ampholyt | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Definition. |
@@ -536,11 +536,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-terms` | Titrationsbegriffe zuordnen | zuordnen | angeben (Fragesatz) | **I** | frei | Wiedergabe gelernter Begriffe. |
-| `exercise.basic-equivalence` | Grundlage selbst erklären | erläutern | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Definition. ⚠ Metadaten nennen „erläutern“ (AFB II); der Prompt verlangt nur Wiedergabe. |
+| `exercise.basic-equivalence` | Bedeutung des Äquivalenzpunkts | erläutern | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Definition. ⚠ Metadaten nennen „erläutern“ (AFB II); der Prompt verlangt nur Wiedergabe. |
 | `exercise.standard-calc` | Säurekonzentration berechnen | berechnen | berechnen | **I** | numerisch | Routinerechnung im Verhältnis 1 : 1. |
-| `exercise.standard-indicator` | Begründung ausarbeiten | begründen | angeben (Fragesatz) | **I** | frei | Wiedergabe des gelernten Auswahlkriteriums. ⚠ Metadaten nennen „begründen“; der Prompt verlangt nur die Angabe des Kriteriums. |
+| `exercise.standard-indicator` | Kriterium der Indikatorwahl | begründen | angeben (Fragesatz) | **I** | frei | Wiedergabe des gelernten Auswahlkriteriums. ⚠ Metadaten nennen „begründen“; der Prompt verlangt nur die Angabe des Kriteriums. |
 | `exercise.transfer-curve` | Titrationskurve auswerten | auswerten, ableiten | erklären / ableiten | **II** | frei | Schwerpunkt II. |
-| `exercise.transfer-uncertainty` | Transfer und Beleggrenze | beurteilen, vorschlagen | nennen | **I** | frei | Schwerpunkt von nennen. ⚠ Metadaten nennen „beurteilen, vorschlagen“; der Prompt verlangt nur Nennen. |
+| `exercise.transfer-uncertainty` | Schwer erkennbarer Farbumschlag | beurteilen, vorschlagen | nennen | **I** | frei | Schwerpunkt von nennen. ⚠ Metadaten nennen „beurteilen, vorschlagen“; der Prompt verlangt nur Nennen. |
 | `selftest.equivalence` | Äquivalenzpunkt | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.indicator` | Umschlagsbereich | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.calculation` | Angaben für die Auswertung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -550,9 +550,9 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `ex.basic-charge` | Ladungsmenge bestimmen | berechnen | berechnen | **I** | numerisch | Einsetzen in Q = I · t. |
-| `ex.basic-electrons` | Grundlage selbst erklären | berechnen | berechnen (Fragesatz) | **I** | numerisch | Einsetzen in n = Q / F. |
+| `ex.basic-electrons` | Elektronenstoffmenge aus Ladung | berechnen | berechnen (Fragesatz) | **I** | numerisch | Einsetzen in n = Q / F. |
 | `ex.standard-product` | Produktstoffmenge | bestimmen, berechnen | bestimmen | **II** | numerisch | Schwerpunkt von bestimmen. |
-| `ex.standard-nernst` | Begründung ausarbeiten | berechnen, deuten | berechnen (Fragesatz) | **II** | numerisch | Anwendung der Nernst-Gleichung mit Logarithmus; obere Grenze von berechnen. |
+| `ex.standard-nernst` | Potenzialänderung berechnen | berechnen, deuten | berechnen (Fragesatz) | **II** | numerisch | Anwendung der Nernst-Gleichung mit Logarithmus; obere Grenze von berechnen. |
 | `ex.transfer-efficiency` | Stromausbeute berücksichtigen | berechnen, erläutern | berechnen / nennen | **I** | mehrteilig | Einfache Verhältnisrechnung und Nennung einer Ursache. |
 | `ex.transfer-scope` | Kupfer-Konzentrationszelle | berechnen, angeben | berechnen / angeben | **II** | mehrteilig | Nernst-Gleichung auf eine Konzentrationszelle anwenden; obere Grenze von berechnen. |
 | `st.1` | Ladung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -564,11 +564,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-electrolysis` | Elektrolyse einordnen | erläutern | begründen (Fragesatz „Warum …“) | **II** | frei | Schwerpunkt von begründen. |
-| `exercise.basic-corrosion` | Grundlage selbst erklären | nennen | nennen | **I** | frei | Wiedergabe. |
+| `exercise.basic-corrosion` | Bedingungen der Rostbildung | nennen | nennen | **I** | frei | Wiedergabe. |
 | `exercise.standard-lead` | Bleiakkumulator beim Entladen | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
-| `exercise.standard-protection` | Begründung ausarbeiten | vergleichen | vergleichen | **II** | frei | Schwerpunkt von vergleichen. |
+| `exercise.standard-protection` | Lackschicht und Opferanode | vergleichen | vergleichen | **II** | frei | Schwerpunkt von vergleichen. |
 | `exercise.transfer-electrolysis` | Elektrodenreaktion vorhersagen | formulieren, begründen | formulieren / einordnen | **II** | frei | Schwerpunkt II. |
-| `exercise.transfer-battery` | Transfer und Beleggrenze | erläutern, beurteilen | erklären / nennen | **II** | frei | Schwerpunkt von erklären. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Erklärung und Nennung. |
+| `exercise.transfer-battery` | Laden des Bleiakkumulators | erläutern, beurteilen | erklären / nennen | **II** | frei | Schwerpunkt von erklären. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Erklärung und Nennung. |
 | `selftest.electrolysis` | Antrieb der Elektrolyse | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.battery` | Akku laden | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.sacrificial` | Opferanode | angeben | begründen (Fragesatz „Warum …“) | **II** | frei | Schwerpunkt von begründen. |
@@ -578,25 +578,25 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-electrodes` | Anode und Kathode zuordnen | zuordnen | zuordnen | **I** | frei | Gelernte Definition von Anode und Kathode anwenden; untere Grenze der Spanne. |
-| `exercise.basic-flow` | Grundlage selbst erklären | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
+| `exercise.basic-flow` | Elektronenfluss im Daniell-Element | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `exercise.standard-voltage` | Zellspannung berechnen | berechnen | berechnen | **I** | numerisch | Einsetzen in die gelernte Formel. |
-| `exercise.standard-notation` | Begründung ausarbeiten | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
+| `exercise.standard-notation` | Zellschreibweise | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
 | `exercise.transfer-spontaneous` | Spontane Reaktion beurteilen | beurteilen, ableiten | ableiten (Fragesatz) | **II** | frei | Folgerung aus dem Vorzeichen ableiten; Schwerpunkt II. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Ableiten. |
-| `exercise.transfer-bridge` | Transfer und Beleggrenze | erläutern, begründen | erklären | **II** | frei | Schwerpunkt von erklären. |
+| `exercise.transfer-bridge` | Aufgabe der Salzbrücke | erläutern, begründen | erklären | **II** | frei | Schwerpunkt von erklären. |
 | `selftest.anode` | Ort der Oxidation | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
-| `selftest.flow` | Elektronenfluss im Daniell-Element | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
-| `selftest.voltage` | Zellspannung berechnen | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
+| `selftest.flow` | Minuspol des Daniell-Elements | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
+| `selftest.voltage` | Formel der Zellspannung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 
 ### chem.q3.3.redox
 
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-numbers` | Oxidationszahlen bestimmen | bestimmen | bestimmen | **II** | frei | Schwerpunkt von bestimmen. |
-| `exercise.basic-agent` | Grundlage selbst erklären | zuordnen, begründen | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
+| `exercise.basic-agent` | Oxidation und Reduktion erkennen | zuordnen, begründen | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `exercise.standard-half` | Teilgleichungen kombinieren | formulieren, ausgleichen | aufstellen | **II** | frei | Schwerpunkt von aufstellen. |
-| `exercise.standard-acidic` | Begründung ausarbeiten | ausgleichen, überprüfen | ausgleichen | **II** | frei | Mehrschrittiges Ausgleichen über Teilgleichungen. ⚠ ausgleichen steht nicht im Operatorenblatt; AFB wie bei aufstellen. |
+| `exercise.standard-acidic` | Dichromat-Gleichung ausgleichen | ausgleichen, überprüfen | ausgleichen | **II** | frei | Mehrschrittiges Ausgleichen über Teilgleichungen. ⚠ ausgleichen steht nicht im Operatorenblatt; AFB wie bei aufstellen. |
 | `exercise.transfer-basic` | Medium und Ladung prüfen | beschreiben, überprüfen | angeben (Fragesatz) | **I** | frei | Wiedergabe eines Verfahrensschritts. |
-| `exercise.transfer-evidence` | Transfer und Beleggrenze | auswerten, begründen | erklären | **II** | frei | Schwerpunkt von erklären. |
+| `exercise.transfer-evidence` | Permanganat-Entfärbung deuten | auswerten, begründen | erklären | **II** | frei | Schwerpunkt von erklären. |
 | `selftest.oxidation` | Oxidation | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.agent` | Oxidationsmittel | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe einer Definition. |
 | `selftest.balance` | Ausgeglichene Redoxgleichung | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
@@ -606,11 +606,11 @@ Eingestuft am 02.11.2026 nach denselben Regeln auf dem bereinigten Aufgabenbesta
 | Aufgabe | Titel | Operatoren (Metadaten) | Maßgeblicher Operator | AFB | Typ | Begründung / Hinweis |
 |---|---|---|---|---|---|---|
 | `exercise.basic-pair` | Pufferpaar erkennen | zuordnen, begründen | entscheiden / begründen | **II** | frei | Begründung verlangt; Schwerpunkt II. |
-| `exercise.basic-addition` | Grundlage selbst erklären | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
+| `exercise.basic-addition` | Puffer und Säurezugabe | formulieren | formulieren | **II** | frei | Schwerpunkt von formulieren. |
 | `exercise.standard-hh` | Puffer-pH berechnen | berechnen | berechnen | **I** | numerisch | Einsetzen in die Henderson-Hasselbalch-Gleichung. |
-| `exercise.standard-capacity` | Begründung ausarbeiten | vergleichen, begründen | entscheiden (Fragesatz) | **II** | frei | Konzept der Pufferkapazität auf gegebene Daten anwenden; Schwerpunkt II. |
+| `exercise.standard-capacity` | Pufferkapazität vergleichen | vergleichen, begründen | entscheiden (Fragesatz) | **II** | frei | Konzept der Pufferkapazität auf gegebene Daten anwenden; Schwerpunkt II. |
 | `exercise.transfer-carbonate` | Hydrogencarbonatpuffer deuten | erläutern, beurteilen | erklären / nennen | **II** | frei | Schwerpunkt von erklären. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt Erklärung und Nennung. |
-| `exercise.transfer-scope` | Transfer und Beleggrenze | beurteilen, begründen | entscheiden / begründen | **II** | frei | Schwerpunkt von begründen. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine begründete Entscheidung. |
+| `exercise.transfer-scope` | Rechnen oder erklären? | beurteilen, begründen | entscheiden / begründen | **II** | frei | Schwerpunkt von begründen. ⚠ Metadaten nennen „beurteilen“ (AFB III); der Prompt verlangt eine begründete Entscheidung. |
 | `selftest.components` | Bestandteile eines Säurepuffers | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.acid` | Säurezugabe zum Acetatpuffer | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
 | `selftest.capacity` | Pufferkapazität | angeben | angeben (Fragesatz) | **I** | frei | Wiedergabe. |
