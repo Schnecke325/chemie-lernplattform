@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.experimental.quantitative",
+  "title": "Quantitative Analyse und Titration",
+  "summary": "Verstehe das gemeinsame Prinzip aller Titrationen, wähle eine passende Endpunkterkennung und berechne Gehalte auch bei Redox- und Rücktitrationen.",
+  "order": 50,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "cross-cutting",
+    "note": "Methodenübersicht mit Verweis auf die ausführliche Titrationslehre in chem.q3.2.titration. Säure-Base-Titration und Redoxtitration als Prinzip sind im KCGO-Themenkatalog ausgewiesen; die Prüfungsbezüge belegen Säure-Base-, Iod- und Thiosulfat-Titrationen."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.2",
+      "subsection": "Säure-Base-Titration und Konzentrationsbestimmung",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.2",
+      "subsection": "Titrationen und quantitative Analyse",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q3.3",
+      "subsection": "Redoxtitration (Prinzip)",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.quantities",
+    "chem.q3.2.titration",
+    "chem.q3.3.redox"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.experimental.quantitative.goal.principle",
+      "statement": "Ich kann das Prinzip einer Titration erläutern und aus Volumen und Konzentration der Maßlösung die Stoffmenge der Probe berechnen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erläutern",
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.experimental.quantitative.goal.endpoint",
+      "statement": "Ich kann für eine Titration eine geeignete Endpunkterkennung auswählen und begründen.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.experimental.quantitative.goal.redox",
+      "statement": "Ich kann Redoxtitrationen mit Reaktionsgleichungen beschreiben und das Stoffmengenverhältnis für die Berechnung nutzen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "formulieren",
+        "berechnen"
+      ]
+    },
+    {
+      "id": "chem.experimental.quantitative.goal.back",
+      "statement": "Ich kann eine Rücktitration mit Blindwert auswerten, zum Beispiel bei der Bestimmung der Iodzahl.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "auswerten",
+        "berechnen"
+      ]
+    }
+  ],
+  "introduction": "Titrationen begegnen dir im Abitur in verschiedenen Zusammenhängen: als Säure-Base-Titration, als Bestimmung des Schwefeldioxid-Gehalts mit Iod oder als Bestimmung der Iodzahl eines Fettes. Das Grundprinzip ist immer gleich. Diese Seite gibt dir einen Überblick über die Methoden. Die Titrationskurven von Säuren und Basen findest du im Kapitel zu Titrationen und quantitativer Analyse.",
+  "explanation": "### 1. Das Prinzip jeder Titration\n\nBei einer Titration gibt man aus einer Bürette eine Maßlösung mit genau bekannter Konzentration zu einer abgemessenen Probe. Maßlösung und gesuchter Stoff reagieren in einem bekannten Stoffmengenverhältnis vollständig miteinander. Der Äquivalenzpunkt ist erreicht, wenn die zugegebene Stoffmenge genau diesem Verhältnis entspricht.\n\nDie Auswertung folgt immer denselben Schritten: Aus Konzentration und verbrauchtem Volumen der Maßlösung berechnest du ihre Stoffmenge. Mit dem Stoffmengenverhältnis aus der Reaktionsgleichung erhältst du die Stoffmenge des gesuchten Stoffes. Daraus berechnest du Konzentration, Masse oder Massenanteil.\n\n### 2. Den Endpunkt erkennen\n\nDer Endpunkt ist der Punkt, an dem du die Titration beendest. Er soll möglichst genau mit dem Äquivalenzpunkt übereinstimmen. Je nach Reaktion erkennt man ihn unterschiedlich:\n\n- Säure-Base-Indikatoren ändern ihre Farbe in einem bestimmten pH-Bereich. Dieser Umschlagsbereich muss im steilen Teil der Titrationskurve um den Äquivalenzpunkt liegen.\n- Kaliumpermanganat-Lösung ist intensiv violett, Mn²⁺-Ionen sind fast farblos. Die erste bleibende schwache Rosafärbung zeigt den Endpunkt an; die Maßlösung ist ihr eigener Indikator.\n- Bei Titrationen mit Iod setzt man Stärke-Lösung zu. Sie färbt sich blau, sobald freies Iod vorliegt, und entfärbt sich, sobald es verbraucht ist.\n- Bei einer pH-metrischen Titration misst man den pH-Wert fortlaufend und bestimmt den Äquivalenzpunkt aus der Titrationskurve.\n\n### 3. Säure-Base-Titration\n\nBei der Titration einer starken Säure mit einer starken Base liegt der Äquivalenzpunkt bei pH 7. Titriert man eine schwache Säure mit Natronlauge, liegt er im alkalischen Bereich, weil die korrespondierende Base der schwachen Säure mit Wasser reagiert. Für diesen Fall eignet sich zum Beispiel Phenolphthalein mit einem Umschlagsbereich von etwa pH 8,2 bis 10. Die ausführliche Behandlung der Kurven findest du im Kapitel zu Titrationen.\n\n### 4. Redoxtitrationen\n\nAuch Redoxreaktionen eignen sich für Titrationen, wenn sie schnell und vollständig ablaufen. Bei der Titration mit Iod-Lösung wird zum Beispiel Schwefeldioxid zu Sulfat oxidiert, das Iod zu Iodid reduziert. Bei der Titration mit Kaliumpermanganat in saurer Lösung wird Permanganat zu Mn²⁺ reduziert, zum Beispiel durch Fe²⁺-Ionen. Entscheidend für die Berechnung ist das Stoffmengenverhältnis aus der ausgeglichenen Redoxgleichung: Ein Permanganat-Ion nimmt fünf Elektronen auf und oxidiert daher fünf Fe²⁺-Ionen.\n\n### 5. Rücktitration und Blindwert\n\nManche Stoffe reagieren zu langsam oder lassen sich nicht direkt titrieren. Dann gibt man ein Reagenz in bekanntem Überschuss zu, lässt es vollständig reagieren und titriert anschließend den nicht verbrauchten Rest. Die Differenz zwischen eingesetzter und übrig gebliebener Menge hat mit der Probe reagiert.\n\nIn der Praxis bestimmt man die eingesetzte Menge über einen Blindwert: einen gleich behandelten Ansatz ohne Probe. Ein Beispiel ist die Iodzahl eines Fettes. Sie gibt an, wie viel Gramm Iod 100 g Fett binden können, und ist damit ein Maß für den Anteil an C=C-Doppelbindungen. Das Fett wird mit einem Halogen-Reagenz im Überschuss versetzt; der Rest wird als Iod mit Thiosulfat-Lösung titriert. Die Differenz der Thiosulfat-Volumina von Blindwert und Probe entspricht dem gebundenen Halogen.\n\n### 6. Messfehler vermeiden\n\nSpüle die Bürette vor dem Füllen mit der Maßlösung, damit sie nicht verdünnt wird. Lies auf Augenhöhe am unteren Rand des Meniskus ab. Titriere in der Nähe des Endpunkts tropfenweise. Ein überschrittener Endpunkt führt zu einem zu großen Verbrauch und damit zu einem zu hohen Ergebnis. Führe mindestens zwei übereinstimmende Bestimmungen durch und rechne mit dem Mittelwert.",
+  "fundamentals": [
+    {
+      "term": "Maßlösung",
+      "explanation": "Lösung mit genau bekannter Konzentration, die aus der Bürette zugegeben wird."
+    },
+    {
+      "term": "Äquivalenzpunkt",
+      "explanation": "Punkt, an dem Maßlösung und gesuchter Stoff genau im stöchiometrischen Verhältnis reagiert haben."
+    },
+    {
+      "term": "Endpunkt",
+      "explanation": "Punkt, an dem die Titration aufgrund einer Anzeige wie eines Farbumschlags beendet wird; er soll mit dem Äquivalenzpunkt übereinstimmen."
+    },
+    {
+      "term": "Umschlagsbereich",
+      "explanation": "pH-Bereich, in dem ein Säure-Base-Indikator seine Farbe ändert."
+    },
+    {
+      "term": "Rücktitration",
+      "explanation": "Verfahren, bei dem ein Reagenz im Überschuss zugegeben und der nicht verbrauchte Rest titriert wird."
+    },
+    {
+      "term": "Blindwert",
+      "explanation": "Ergebnis eines gleich behandelten Ansatzes ohne Probe; er erfasst die tatsächlich eingesetzte Reagenzmenge."
+    },
+    {
+      "term": "Iodzahl",
+      "explanation": "Masse an Iod in Gramm, die von 100 g Fett gebunden werden kann; Maß für den Gehalt an C=C-Doppelbindungen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.experimental.quantitative.eq.amount",
+      "notation": "n = c · V",
+      "explanation": "Stoffmenge aus Konzentration und Volumen; Volumen in L einsetzen, wenn c in mol·L⁻¹ angegeben ist."
+    },
+    {
+      "id": "chem.experimental.quantitative.eq.sulfur-dioxide",
+      "notation": "SO₂ + I₂ + 2 H₂O → SO₄²⁻ + 2 I⁻ + 4 H⁺",
+      "explanation": "Titration von Schwefeldioxid mit Iod-Lösung; Stoffmengenverhältnis n(SO₂) : n(I₂) = 1 : 1."
+    },
+    {
+      "id": "chem.experimental.quantitative.eq.thiosulfate",
+      "notation": "I₂ + 2 S₂O₃²⁻ → 2 I⁻ + S₄O₆²⁻",
+      "explanation": "Titration von Iod mit Thiosulfat-Lösung; n(I₂) = ½ · n(S₂O₃²⁻)."
+    },
+    {
+      "id": "chem.experimental.quantitative.eq.permanganate",
+      "notation": "MnO₄⁻ + 5 Fe²⁺ + 8 H⁺ → Mn²⁺ + 5 Fe³⁺ + 4 H₂O",
+      "explanation": "Permanganat-Titration in saurer Lösung; n(Fe²⁺) = 5 · n(MnO₄⁻)."
+    },
+    {
+      "id": "chem.experimental.quantitative.eq.iodine-value",
+      "notation": "IZ = (V_Blind − V_Probe) · c(S₂O₃²⁻) · ½ · M(I₂) · 100 / m(Fett)",
+      "explanation": "Iodzahl aus einer Rücktitration mit Thiosulfat; M(I₂) = 253,8 g·mol⁻¹."
+    }
+  ],
+  "equationNote": "In Redoxgleichungen schreibt man H⁺ häufig vereinfacht für H₃O⁺. Leite das Stoffmengenverhältnis immer aus der ausgeglichenen Gleichung ab und nicht aus den Indizes einzelner Formeln.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.experimental.quantitative.example.hcl",
+      "title": "Konzentration von Salzsäure bestimmen",
+      "prompt": "10,00 mL Salzsäure werden mit Natronlauge der Konzentration 0,100 mol·L⁻¹ titriert. Bis zum Äquivalenzpunkt werden 12,40 mL verbraucht. Berechne die Konzentration der Salzsäure.",
+      "steps": [
+        "Reaktionsgleichung: H₃O⁺ + OH⁻ → 2 H₂O; Stoffmengenverhältnis 1 : 1.",
+        "n(OH⁻) = c · V = 0,100 mol·L⁻¹ · 0,01240 L = 1,240 · 10⁻³ mol.",
+        "n(H₃O⁺) = n(OH⁻) = 1,240 · 10⁻³ mol.",
+        "c(HCl) = n / V = 1,240 · 10⁻³ mol / 0,01000 L."
+      ],
+      "result": "c(HCl) = 0,124 mol·L⁻¹."
+    },
+    {
+      "id": "chem.experimental.quantitative.example.iodine-value",
+      "title": "Iodzahl aus einer Rücktitration",
+      "prompt": "0,250 g eines Öls werden mit einem Halogen-Reagenz im Überschuss umgesetzt. Bei der Titration des Restes mit Thiosulfat-Lösung (c = 0,100 mol·L⁻¹) werden 15,30 mL verbraucht, beim Blindwert ohne Öl 24,80 mL. Berechne die Iodzahl.",
+      "steps": [
+        "Differenz der Volumina: ΔV = 24,80 mL − 15,30 mL = 9,50 mL.",
+        "n(S₂O₃²⁻) = 0,100 mol·L⁻¹ · 0,00950 L = 9,50 · 10⁻⁴ mol.",
+        "n(I₂) = ½ · n(S₂O₃²⁻) = 4,75 · 10⁻⁴ mol; m(I₂) = 4,75 · 10⁻⁴ mol · 253,8 g·mol⁻¹ ≈ 0,121 g.",
+        "Auf 100 g Öl umrechnen: 0,121 g / 0,250 g · 100."
+      ],
+      "result": "Die Iodzahl beträgt etwa 48."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2008,
+      "term": "HT",
+      "proposal": "D",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2013,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "pageEnd": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2021,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 5,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "Die Reaktionsgleichung einer Titration formulieren und den Gehalt eines Stoffes aus dem Verbrauch an Maßlösung berechnen.",
+    "Eine geeignete Methode zur Endpunkterkennung auswählen und begründen.",
+    "Eine mehrstufige Bestimmung wie die Iodzahl nachvollziehen und auswerten."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Schreibe vor jeder Berechnung die Reaktionsgleichung und das Stoffmengenverhältnis auf.",
+      "commonError": "Bei Redoxtitrationen wird stillschweigend ein Verhältnis von 1 : 1 angenommen."
+    },
+    {
+      "tip": "Rechne Volumina in Liter um, bevor du n = c · V verwendest.",
+      "commonError": "Milliliter werden direkt mit mol·L⁻¹ multipliziert, das Ergebnis ist um den Faktor 1000 falsch."
+    },
+    {
+      "tip": "Bei einer Rücktitration entspricht die Differenz zum Blindwert der umgesetzten Menge, nicht das Volumen der Probe allein.",
+      "commonError": "Das Thiosulfat-Volumen der Probe wird direkt als gebundene Iodmenge verwendet."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-11-02"
+  },
+  "exerciseIds": [
+    "chem.experimental.quantitative.exercise.basic-naoh",
+    "chem.experimental.quantitative.exercise.basic-indicator",
+    "chem.experimental.quantitative.exercise.standard-sulfur-dioxide",
+    "chem.experimental.quantitative.exercise.standard-permanganate",
+    "chem.experimental.quantitative.exercise.transfer-iodine-value",
+    "chem.experimental.quantitative.exercise.transfer-errors"
+  ],
+  "selfTestIds": [
+    "chem.experimental.quantitative.selftest.equivalence",
+    "chem.experimental.quantitative.selftest.starch",
+    "chem.experimental.quantitative.selftest.blank"
+  ]
+}

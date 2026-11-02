@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.experimental.separation",
+  "title": "Trennverfahren und Identifizierung",
+  "summary": "Erkläre die Destillation mit Siedetemperaturen und zwischenmolekularen Kräften, nutze Schmelz- und Siedetemperaturen zur Identifizierung und werte eine Dünnschichtchromatografie aus.",
+  "order": 40,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "cross-cutting",
+    "note": "Die Destillation ist im KCGO-Themenkatalog (E.4, fakultatives Feld) genannt und in drei Prüfungen belegt. Die Dünnschichtchromatografie ist weder im Themenkatalog noch im lokalen Prüfungsbestand belegt und wird hier nur ergänzend behandelt."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.4",
+      "subsection": "Fraktionierte Destillation",
+      "status": "additional"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.1",
+      "subsection": "Zwischenmolekulare Kräfte und Siede- bzw. Schmelztemperatur",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.experimental.observation",
+    "chem.q1.1.interactions"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.experimental.separation.goal.distillation",
+      "statement": "Ich kann Aufbau und Prinzip einer Destillation beschreiben und die Trennbarkeit eines Gemischs mit Siedetemperaturen begründen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "beschreiben",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.experimental.separation.goal.forces",
+      "statement": "Ich kann unterschiedliche Siedetemperaturen auf zwischenmolekulare Kräfte zurückführen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "erklären"
+      ]
+    },
+    {
+      "id": "chem.experimental.separation.goal.identify",
+      "statement": "Ich kann Schmelz- und Siedetemperaturen als Kriterien für Reinheit und Identität eines Stoffes nutzen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen",
+        "auswerten"
+      ]
+    },
+    {
+      "id": "chem.experimental.separation.goal.tlc",
+      "statement": "Ich kann ein Dünnschichtchromatogramm auswerten und Rf-Werte berechnen und vergleichen.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "auswerten"
+      ]
+    }
+  ],
+  "introduction": "Bevor ein Stoff nachgewiesen oder genutzt werden kann, muss er oft aus einem Gemisch abgetrennt werden. In Abituraufgaben taucht die Destillation vor allem in zwei Rollen auf: als Trennverfahren und als Mittel, ein Produkt aus einem Gleichgewicht zu entfernen. Diese Seite verbindet beides mit den zwischenmolekularen Kräften aus Q1.1.",
+  "explanation": "### 1. Prinzip der Destillation\n\nEine Destillation trennt flüssige Gemische aufgrund unterschiedlicher Siedetemperaturen. Beim Erhitzen geht der leichter flüchtige Stoff bevorzugt in die Gasphase über. Der Dampf wird in einem Kühler kondensiert und als Destillat aufgefangen. Der schwerer flüchtige Stoff bleibt überwiegend im Kolben zurück.\n\nZum Aufbau gehören ein Destillierkolben mit Siedesteinchen, ein Thermometer, ein Kühler und eine Vorlage. Die Siedesteinchen verhindern einen Siedeverzug, also ein plötzliches heftiges Aufsieden. Die Thermometerkugel sitzt auf Höhe des seitlichen Abgangs, damit sie die Temperatur des Dampfes misst, der in den Kühler strömt. Das Kühlwasser fließt im Gegenstrom: Es tritt unten in den Kühler ein und oben aus.\n\n### 2. Einfache und fraktionierte Destillation\n\nEine einfache Destillation trennt gut, wenn die Siedetemperaturen weit auseinanderliegen. Liegen sie nah beieinander, enthält schon der erste Dampf merkliche Anteile beider Stoffe. Dann nutzt man eine fraktionierte Destillation mit einer Kolonne. In ihr verdampft und kondensiert das Gemisch viele Male hintereinander. Jeder dieser Schritte reichert den leichter flüchtigen Stoff weiter an.\n\nIn der Erdölraffinerie trennt man Rohöl so in Fraktionen mit unterschiedlichen Siedebereichen. Eine Fraktion ist dabei kein Reinstoff, sondern ein Gemisch ähnlich siedender Stoffe. Manche Gemische lassen sich durch Destillation nicht vollständig trennen: Ethanol und Wasser bilden ein Azeotrop mit etwa 96 % Massenanteil Ethanol, das bei konstanter Temperatur siedet.\n\n### 3. Siedetemperatur und zwischenmolekulare Kräfte\n\nWarum sieden Stoffe unterschiedlich hoch? Beim Sieden müssen die Kräfte zwischen den Molekülen überwunden werden. Je stärker sie sind, desto höher die Siedetemperatur. Ethanol und Dimethylether haben dieselbe Summenformel C₂H₆O. Ethanol bildet Wasserstoffbrücken und siedet bei 78 °C, Dimethylether kann untereinander keine Wasserstoffbrücken bilden und siedet bei etwa −24 °C. Innerhalb einer homologen Reihe steigt die Siedetemperatur mit der Kettenlänge, weil die Van-der-Waals-Kräfte zunehmen.\n\n### 4. Destillation und chemisches Gleichgewicht\n\nEine Destillation kann auch die Ausbeute einer Gleichgewichtsreaktion erhöhen. Entfernt man ein Produkt laufend aus dem Reaktionsgemisch, weil es am leichtesten flüchtig ist, sinkt seine Konzentration. Nach dem Prinzip von Le Chatelier verschiebt sich das Gleichgewicht dann in Richtung der Produkte. Prüfe in solchen Aufgaben immer, welcher Stoff tatsächlich am niedrigsten siedet.\n\n### 5. Identifizieren über Schmelz- und Siedetemperatur\n\nReinstoffe haben unter gleichen Bedingungen eine feste Siede- und Schmelztemperatur. Bleibt die Dampftemperatur während einer Destillation konstant, spricht das für einen einheitlich siedenden Anteil. Ein reiner Feststoff schmilzt in einem engen Temperaturbereich. Verunreinigungen senken die Schmelztemperatur meist und verbreitern den Schmelzbereich. Der Vergleich mit Tabellenwerten liefert einen Hinweis auf die Identität, aber keinen Beweis: Verschiedene Stoffe können ähnliche Werte haben.\n\n### 6. Ergänzung: Dünnschichtchromatografie\n\nDie Dünnschichtchromatografie ist weder im recherchierten KCGO-Themenkatalog noch in den lokal vorliegenden Prüfungen belegt. Sie ist aber eine verbreitete Methode, um Gemische zu trennen und Stoffe zu vergleichen.\n\nAuf eine Platte mit einer dünnen Schicht Kieselgel, der stationären Phase, trägt man die Proben mit Bleistift-Markierung auf eine Startlinie auf. Die Platte steht in einer abgedeckten Kammer mit wenig Laufmittel, der mobilen Phase; die Startlinie liegt oberhalb des Laufmittelspiegels. Das Laufmittel steigt in der Schicht auf und nimmt die Stoffe unterschiedlich weit mit. Stoffe, die stärker mit der polaren Kieselgel-Oberfläche wechselwirken, bleiben weiter zurück. Farblose Stoffe macht man sichtbar, Aminosäuren zum Beispiel durch Besprühen mit Ninhydrin-Lösung und Erwärmen.\n\nDer Rf-Wert ist das Verhältnis der Laufstrecke eines Stoffes zur Laufstrecke der Laufmittelfront. Er hängt stark von Platte, Laufmittel und Kammerbedingungen ab. Vergleiche Rf-Werte deshalb nur mit Referenzsubstanzen, die auf derselben Platte mitgelaufen sind. Ein gleicher Rf-Wert ist ein Hinweis auf denselben Stoff, kein Beweis.",
+  "fundamentals": [
+    {
+      "term": "Destillat",
+      "explanation": "Im Kühler kondensierte und in der Vorlage aufgefangene Flüssigkeit."
+    },
+    {
+      "term": "Siedeverzug",
+      "explanation": "Plötzliches, heftiges Aufsieden einer überhitzten Flüssigkeit; Siedesteinchen verhindern ihn."
+    },
+    {
+      "term": "Fraktionierte Destillation",
+      "explanation": "Destillation mit Kolonne, in der viele Verdampfungs- und Kondensationsschritte nacheinander ablaufen; sie trennt auch Stoffe mit ähnlichen Siedetemperaturen."
+    },
+    {
+      "term": "Azeotrop",
+      "explanation": "Gemisch, das bei konstanter Temperatur siedet und dessen Dampf dieselbe Zusammensetzung hat wie die Flüssigkeit; es lässt sich durch Destillation nicht weiter trennen."
+    },
+    {
+      "term": "Schmelzbereich",
+      "explanation": "Temperaturbereich vom Beginn bis zum Ende des Schmelzens; bei reinen Stoffen eng, bei verunreinigten breiter und tiefer."
+    },
+    {
+      "term": "Stationäre und mobile Phase",
+      "explanation": "Bei der Chromatografie die ruhende Schicht, zum Beispiel Kieselgel, und das wandernde Laufmittel."
+    },
+    {
+      "term": "Rf-Wert",
+      "explanation": "Verhältnis der Laufstrecke eines Stoffes zur Laufstrecke der Laufmittelfront; liegt zwischen 0 und 1."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.experimental.separation.eq.rf",
+      "notation": "Rf = s(Stoff) / s(Front)",
+      "explanation": "Beide Strecken werden von der Startlinie aus gemessen; s(Stoff) bis zur Mitte des Flecks."
+    }
+  ],
+  "equationNote": "Der Rf-Wert hat keine Einheit. Gib ihn mit zwei Nachkommastellen an und nenne die Bedingungen, unter denen er bestimmt wurde.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.experimental.separation.example.ethanol",
+      "title": "Ethanol aus einer wässrigen Lösung destillieren",
+      "prompt": "Eine Lösung von Ethanol in Wasser wird destilliert. Ethanol siedet bei 78 °C, Wasser bei 100 °C. Beschreibe, welche Dampftemperaturen du erwartest, und beurteile, ob reines Ethanol entsteht.",
+      "steps": [
+        "Zu Beginn geht bevorzugt Ethanol über; die Dampftemperatur liegt knapp oberhalb von 78 °C.",
+        "Mit abnehmendem Ethanolanteil steigt die Dampftemperatur allmählich bis in die Nähe von 100 °C.",
+        "Das Destillat ist ethanolreich, enthält aber Wasser, weil auch Wasser bei diesen Temperaturen einen merklichen Dampfdruck hat.",
+        "Auch eine fraktionierte Destillation erreicht höchstens das Azeotrop mit etwa 96 % Massenanteil Ethanol."
+      ],
+      "result": "Man erhält ein ethanolreiches Destillat, aber kein reines Ethanol; die Trennung durch Destillation ist durch das Azeotrop begrenzt."
+    },
+    {
+      "id": "chem.experimental.separation.example.rf",
+      "title": "Rf-Wert berechnen und vergleichen",
+      "prompt": "Auf einer DC-Platte ist das Laufmittel 8,0 cm weit gewandert. Ein Fleck der Probe liegt 2,4 cm über der Startlinie, der Fleck einer auf derselben Platte mitgelaufenen Referenzaminosäure ebenfalls bei 2,4 cm. Berechne den Rf-Wert und deute das Ergebnis.",
+      "steps": [
+        "Setze die Strecken in Rf = s(Stoff) / s(Front) ein: Rf = 2,4 cm / 8,0 cm.",
+        "Berechne: Rf = 0,30.",
+        "Vergleiche mit der Referenz: Sie hat auf derselben Platte denselben Rf-Wert.",
+        "Beurteile: Gleiche Rf-Werte unter gleichen Bedingungen sind ein Hinweis auf denselben Stoff, aber kein Beweis."
+      ],
+      "result": "Rf = 0,30. Die Probe enthält wahrscheinlich die Referenzaminosäure; eine zweite Chromatografie mit anderem Laufmittel würde die Aussage absichern."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2008,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2015,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2016,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "Begründen, ob und wie sich die Stoffe eines Gemischs durch Destillation trennen lassen, mithilfe von Siedetemperaturen.",
+    "Unterschiedliche Siedetemperaturen mit zwischenmolekularen Kräften erklären.",
+    "Prüfen, ob das Abdestillieren eines Stoffes die Ausbeute einer Gleichgewichtsreaktion erhöht."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Begründe die Trennbarkeit immer mit konkreten Siedetemperaturen und ihrem Abstand.",
+      "commonError": "Es wird angenommen, dass bei der Destillation zunächst nur der niedriger siedende Stoff in reiner Form übergeht."
+    },
+    {
+      "tip": "Prüfe bei Gleichgewichtsaufgaben, ob der abdestillierte Stoff wirklich der am leichtesten flüchtige ist.",
+      "commonError": "Ein Edukt wird abdestilliert und trotzdem eine höhere Produktausbeute erwartet."
+    },
+    {
+      "tip": "Vergleiche Rf-Werte nur mit Referenzen auf derselben Platte.",
+      "commonError": "Ein Rf-Wert wird mit einem Tabellenwert aus einer anderen Quelle gleichgesetzt."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-11-02"
+  },
+  "exerciseIds": [
+    "chem.experimental.separation.exercise.basic-setup",
+    "chem.experimental.separation.exercise.basic-rf",
+    "chem.experimental.separation.exercise.standard-boiling",
+    "chem.experimental.separation.exercise.standard-melting",
+    "chem.experimental.separation.exercise.transfer-equilibrium",
+    "chem.experimental.separation.exercise.transfer-tlc"
+  ],
+  "selfTestIds": [
+    "chem.experimental.separation.selftest.thermometer",
+    "chem.experimental.separation.selftest.fractions",
+    "chem.experimental.separation.selftest.rf-range"
+  ]
+}

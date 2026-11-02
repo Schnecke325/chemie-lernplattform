@@ -15,7 +15,7 @@ const stats = { exercise: 0, selfTest: 0 }
 
 if (catalog.schemaVersion !== 1) errors.push('Unexpected catalog schema version.')
 if (bank.schemaVersion !== 1 || !Array.isArray(bank.exercises)) errors.push('Invalid exercise bank schema.')
-if (lessonFiles.length !== 42) errors.push(`Expected 42 lesson files, found ${lessonFiles.length}.`)
+if (lessonFiles.length !== 47) errors.push(`Expected 47 lesson files, found ${lessonFiles.length}.`)
 if (lessonIdsFromCatalog.size !== lessonIdsFromFiles.size
   || [...lessonIdsFromFiles].some((id) => !lessonIdsFromCatalog.has(id))) {
   errors.push('Lesson files and catalog lesson IDs do not match.')
@@ -71,9 +71,9 @@ for (const file of lessonFiles) {
 }
 
 for (const id of bankMap.keys()) if (!allReferencedIds.has(id)) errors.push(`Orphan task in bank: ${id}.`)
-if (stats.exercise !== 252) errors.push(`Expected 252 regular exercises, found ${stats.exercise}.`)
-if (stats.selfTest !== 128) errors.push(`Expected 128 self-tests, found ${stats.selfTest}.`)
-if (bankMap.size !== 380) errors.push(`Expected 380 total tasks, found ${bankMap.size}.`)
+if (stats.exercise !== 282) errors.push(`Expected 282 regular exercises, found ${stats.exercise}.`)
+if (stats.selfTest !== 143) errors.push(`Expected 143 self-tests, found ${stats.selfTest}.`)
+if (bankMap.size !== 425) errors.push(`Expected 425 total tasks, found ${bankMap.size}.`)
 
 if (errors.length) {
   console.error(`Content validation failed (${errors.length} issue${errors.length === 1 ? '' : 's'}):`)

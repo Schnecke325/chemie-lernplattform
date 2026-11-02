@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.experimental.organic-tests",
+  "title": "Organische Stoffe und Biomoleküle nachweisen",
+  "summary": "Wähle zu einem Strukturmerkmal den passenden Nachweis, kombiniere mehrere Proben und deute positive wie negative Ergebnisse sachgerecht.",
+  "order": 30,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "cross-cutting",
+    "note": "Übersichtsseite mit Verweisen auf die Fachkapitel. Aldehyd-Nachweise, Fehling-Probe, Iod-Stärke-Reaktion und Proteinnachweise sind im KCGO-Themenkatalog ausgewiesen; Baeyer-Probe, Bromwasser, Xanthoprotein- und Ninhydrin-Probe sind dort nicht einzeln genannt."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.2",
+      "subsection": "Aldehyde und Ketone: Nachweisreaktionen",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.1",
+      "subsection": "Nachweise von Proteinen, Fehling-Probe und Iod-Stärke-Reaktion",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.experimental.observation",
+    "chem.q1.2.carbonyls",
+    "chem.q2.1.carbohydrates",
+    "chem.q2.1.proteins"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.experimental.organic-tests.goal.match",
+      "statement": "Ich kann einem Strukturmerkmal den passenden Nachweis zuordnen und die positive Beobachtung beschreiben.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "zuordnen",
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "chem.experimental.organic-tests.goal.combine",
+      "statement": "Ich kann mehrere Nachweise so kombinieren, dass sich ähnliche Stoffe eindeutig unterscheiden lassen.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "planen",
+        "entwickeln"
+      ]
+    },
+    {
+      "id": "chem.experimental.organic-tests.goal.explain",
+      "statement": "Ich kann positive und negative Nachweise mit der Molekülstruktur begründen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "begründen",
+        "erklären"
+      ]
+    },
+    {
+      "id": "chem.experimental.organic-tests.goal.limits",
+      "statement": "Ich kann beurteilen, ob ein Nachweis für eine Strukturaussage ausreicht.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Organische Nachweise sind in den Fachkapiteln verteilt: Fehling bei den Aldehyden und Zuckern, Biuret bei den Proteinen. Diese Seite bündelt sie nach der Frage, die du im Abitur beantworten musst: Welches Strukturmerkmal will ich nachweisen, und welche Probe passt dazu? Die ausführlichen Reaktionen findest du in den verlinkten Fachkapiteln.",
+  "explanation": "### 1. Vom Strukturmerkmal zum Nachweis\n\nEin organischer Nachweis spricht fast immer auf eine funktionelle Gruppe oder ein Strukturmerkmal an, nicht auf ein einzelnes Molekül. Überlege deshalb zuerst, welches Merkmal die gesuchten Stoffe unterscheidet. Wähle dann die passende Probe:\n\n- C=C-Doppelbindung: Baeyer-Probe oder Entfärbung von Bromwasser\n- Aldehydgruppe und reduzierend wirkende Zucker: Fehling-Probe oder Silberspiegel-Probe nach Tollens\n- Stärke: Iod-Stärke-Reaktion\n- Peptidbindungen in Proteinen: Biuret-Reaktion\n- Aromatische Seitenketten in Proteinen: Xanthoprotein-Reaktion\n- Freie Aminogruppen in Aminosäuren: Ninhydrin-Probe\n\n### 2. Mehrfachbindungen\n\nBei der Baeyer-Probe gibt man verdünnte, neutrale oder schwach alkalische Kaliumpermanganat-Lösung zur Probe. Alkene werden zu Diolen oxidiert, das Permanganat zu Braunstein reduziert. Die violette Farbe verschwindet, ein brauner Niederschlag entsteht. Die Probe ist nicht spezifisch, weil auch andere leicht oxidierbare Stoffe wie Aldehyde Permanganat entfärben.\n\nBromwasser wird durch Alkene entfärbt, weil Brom an die Doppelbindung addiert wird. Benzol entfärbt Bromwasser ohne Katalysator nicht, weil das aromatische System bei einer Addition seine besondere Stabilität verlieren würde. Bromwasser ist giftig und gehört in den Abzug. Für die Baeyer-Probe gibt es im lokalen Prüfungsbestand einen Beleg, für Bromwasser keinen. Beide Proben sind im KCGO-Themenkatalog nicht einzeln aufgeführt.\n\n### 3. Aldehyde und Zucker\n\nDie Fehling-Probe nutzt Cu²⁺-Ionen in alkalischer Tartratlösung. Beim Erwärmen reduzieren Aldehyde die Cu²⁺-Ionen zu rotbraunem Kupfer(I)-oxid. Bei der Silberspiegel-Probe nach Tollens werden Silber-Ionen aus dem Diamminsilber-Komplex zu metallischem Silber reduziert, das sich als Spiegel an der Glaswand abscheidet. Tollens-Reagenz muss frisch angesetzt und direkt nach dem Versuch entsorgt werden.\n\nFür Zucker gilt: Monosaccharide sowie Disaccharide mit freier Halbacetalgruppe wie Maltose und Lactose fallen positiv aus. Saccharose fällt negativ aus, weil beide anomeren C-Atome an der glycosidischen Bindung beteiligt sind und sich keine offenkettige Form bilden kann. Fructose reagiert unter den heißen alkalischen Bedingungen ebenfalls positiv. Details findest du in den Kapiteln zu Aldehyden und Ketonen und zu Kohlenhydraten.\n\n### 4. Stärke\n\nIod-Kaliumiodid-Lösung färbt Stärke blau bis blauschwarz. Polyiodid-Ionen lagern sich in die Helix der Amylose ein. Beim Erwärmen öffnet sich die Helix und die Färbung verschwindet, beim Abkühlen kehrt sie zurück. Stärke wird so auch als Indikator für Iod bei Redoxtitrationen genutzt.\n\n### 5. Aminosäuren und Proteine\n\nBei der Biuret-Reaktion bilden Cu²⁺-Ionen in alkalischer Lösung mit Peptidbindungen einen violetten Komplex. Dafür sind mindestens zwei Peptidbindungen nötig; freie Aminosäuren und Dipeptide reagieren nicht. Die Xanthoprotein-Reaktion zeigt aromatische Seitenketten an: Konzentrierte Salpetersäure nitriert die aromatischen Ringe, die Probe färbt sich gelb. Die Ninhydrin-Probe weist freie Aminogruppen nach: Beim Erwärmen entsteht mit den meisten α-Aminosäuren ein violetter Farbstoff, mit Prolin ein gelber.\n\nDie Ninhydrin-Probe und die Xanthoprotein-Reaktion sind im lokalen Prüfungsbestand belegt. Der KCGO-Themenkatalog nennt Proteinnachweise nur allgemein und schlüsselt nicht auf, welche Proben verbindlich sind.\n\n### 6. Nachweise kombinieren\n\nEin einzelner Nachweis trennt ähnliche Stoffe oft nicht. Glucose und Maltose fallen beide bei Fehling positiv aus. Kombiniere deshalb Proben, die auf verschiedene Merkmale ansprechen, und plane die Reihenfolge so, dass jede Probe eine neue Information liefert. Setze bei jeder Probe eine Blindprobe an, damit du Farbänderungen sicher zuordnen kannst.",
+  "fundamentals": [
+    {
+      "term": "Baeyer-Probe",
+      "explanation": "Nachweis oxidierbarer Mehrfachbindungen mit verdünnter Kaliumpermanganat-Lösung; Entfärbung und brauner Niederschlag."
+    },
+    {
+      "term": "Fehling-Probe",
+      "explanation": "Nachweis reduzierend wirkender Stoffe; Cu²⁺ wird beim Erwärmen zu rotbraunem Cu₂O reduziert."
+    },
+    {
+      "term": "Silberspiegel-Probe",
+      "explanation": "Nachweis reduzierend wirkender Stoffe mit Tollens-Reagenz; es scheidet sich metallisches Silber ab."
+    },
+    {
+      "term": "Iod-Stärke-Reaktion",
+      "explanation": "Blaufärbung durch Einlagerung von Polyiodid-Ionen in die Amylose-Helix."
+    },
+    {
+      "term": "Biuret-Reaktion",
+      "explanation": "Violetter Kupfer-Komplex mit Peptidbindungen; spricht ab Tripeptiden an."
+    },
+    {
+      "term": "Ninhydrin-Probe",
+      "explanation": "Nachweis freier Aminogruppen; die meisten α-Aminosäuren ergeben einen violetten Farbstoff."
+    },
+    {
+      "term": "Halbacetal",
+      "explanation": "Gruppe am anomeren C-Atom, die sich in die offenkettige Form mit Carbonylgruppe öffnen kann; Voraussetzung für die reduzierende Wirkung von Zuckern."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.experimental.organic-tests.eq.fehling",
+      "notation": "R–CHO + 2 Cu²⁺ + 5 OH⁻ → R–COO⁻ + Cu₂O↓ + 3 H₂O",
+      "explanation": "Fehling-Probe, vereinfacht ohne Tartrat-Komplex."
+    },
+    {
+      "id": "chem.experimental.organic-tests.eq.tollens",
+      "notation": "R–CHO + 2 [Ag(NH₃)₂]⁺ + 3 OH⁻ → R–COO⁻ + 2 Ag↓ + 4 NH₃ + 2 H₂O",
+      "explanation": "Silberspiegel-Probe nach Tollens."
+    },
+    {
+      "id": "chem.experimental.organic-tests.eq.baeyer",
+      "notation": "3 R–CH=CH–R′ + 2 MnO₄⁻ + 4 H₂O → 3 R–CH(OH)–CH(OH)–R′ + 2 MnO₂↓ + 2 OH⁻",
+      "explanation": "Baeyer-Probe in neutraler bis schwach alkalischer Lösung."
+    },
+    {
+      "id": "chem.experimental.organic-tests.eq.bromine",
+      "notation": "R–CH=CH–R′ + Br₂ → R–CHBr–CHBr–R′",
+      "explanation": "Entfärbung von Bromwasser durch Addition an die Doppelbindung; der Mechanismus steht im Kapitel zu den Reaktionsmechanismen."
+    }
+  ],
+  "equationNote": "Prüfe bei Redoxnachweisen die Elektronenbilanz: Bei Fehling nimmt jedes Cu²⁺ ein Elektron auf, bei Baeyer jedes Mangan-Atom drei Elektronen.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.experimental.organic-tests.example.sugars",
+      "title": "Glucose, Saccharose und Stärke unterscheiden",
+      "prompt": "Drei unbeschriftete Lösungen enthalten Glucose, Saccharose und Stärke. Plane eine Abfolge von Nachweisen, mit der du sie zuordnen kannst.",
+      "steps": [
+        "Gib zu einer Teilprobe jeder Lösung Iod-Kaliumiodid-Lösung. Nur die Stärke-Lösung färbt sich blauschwarz.",
+        "Führe mit den beiden übrigen Lösungen die Fehling-Probe durch.",
+        "Glucose besitzt eine freie Halbacetalgruppe und ergibt einen rotbraunen Niederschlag.",
+        "Saccharose besitzt keine freie Halbacetalgruppe; die Lösung bleibt blau."
+      ],
+      "result": "Iod-Stärke identifiziert die Stärke, die Fehling-Probe unterscheidet danach Glucose (positiv) von Saccharose (negativ)."
+    },
+    {
+      "id": "chem.experimental.organic-tests.example.alkene",
+      "title": "Cyclohexen oder Benzol?",
+      "prompt": "Zwei farblose Flüssigkeiten sind Cyclohexen und Benzol. Begründe, wie die Baeyer-Probe sie unterscheidet.",
+      "steps": [
+        "Gib zu kleinen Proben beider Flüssigkeiten verdünnte Kaliumpermanganat-Lösung und schüttle.",
+        "Cyclohexen besitzt eine isolierte C=C-Doppelbindung und wird zum Diol oxidiert; die violette Farbe verschwindet, es bildet sich ein brauner Niederschlag.",
+        "Benzol besitzt ein aromatisches System, dessen Stabilität bei einer Oxidation der Ringdoppelbindungen verloren ginge; die Lösung bleibt violett."
+      ],
+      "result": "Die Probe mit Entfärbung und braunem Niederschlag ist Cyclohexen, die unveränderte Probe ist Benzol."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2015,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2008,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2024,
+      "term": "HT",
+      "proposal": "B",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2016,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2020,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 2,
+      "pageEnd": 5,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2013,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2014,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2025,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 2,
+      "pageEnd": 5,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "Die Durchführung eines Nachweises und die Beobachtung bei positivem Verlauf beschreiben.",
+    "Die Reaktionsgleichung für einen positiven Nachweis formulieren, etwa die Fehling-Probe mit einem gegebenen Zucker.",
+    "Das unterschiedliche Verhalten zweier ähnlicher Stoffe gegenüber einem Nachweisreagenz strukturell erklären.",
+    "Eine Abfolge von Nachweisen zur Unterscheidung mehrerer Stoffe planen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Begründe das Verhalten eines Zuckers bei Fehling immer mit der freien oder blockierten Halbacetalgruppe.",
+      "commonError": "Saccharose wird als reduzierend bezeichnet, weil sie aus Glucose und Fructose aufgebaut ist."
+    },
+    {
+      "tip": "Wähle für die Biuret-Reaktion nur Proben mit mindestens zwei Peptidbindungen.",
+      "commonError": "Ein negativer Biuret-Test bei einer freien Aminosäure wird als Fehler im Versuch gedeutet."
+    },
+    {
+      "tip": "Nenne bei Mehrfachbindungs-Nachweisen auch die Grenzen: Permanganat wird auch von anderen oxidierbaren Stoffen entfärbt.",
+      "commonError": "Aus der Entfärbung von Permanganat wird ohne Weiteres auf eine C=C-Doppelbindung geschlossen."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-11-02"
+  },
+  "exerciseIds": [
+    "chem.experimental.organic-tests.exercise.basic-match",
+    "chem.experimental.organic-tests.exercise.basic-fehling",
+    "chem.experimental.organic-tests.exercise.standard-disaccharides",
+    "chem.experimental.organic-tests.exercise.standard-protein",
+    "chem.experimental.organic-tests.exercise.transfer-unknown",
+    "chem.experimental.organic-tests.exercise.transfer-formic-acid"
+  ],
+  "selfTestIds": [
+    "chem.experimental.organic-tests.selftest.saccharose",
+    "chem.experimental.organic-tests.selftest.starch",
+    "chem.experimental.organic-tests.selftest.biuret"
+  ]
+}

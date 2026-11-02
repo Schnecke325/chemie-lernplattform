@@ -589,41 +589,41 @@
           "id": "chem.experimental.observation",
           "title": "Experimentieren, Beobachten und Auswerten",
           "order": 10,
-          "status": "planned",
+          "lessonId": "chem.experimental.observation",
           "relevance": "cross-cutting",
-          "relevanceNote": "Geplant: Beobachtung, Deutung, Fehlerquellen und sicherer Umgang mit Experimenten."
+          "relevanceNote": "Querschnittsseite zu Planung, Beobachtung, Deutung, Kontrollen, Fehlerquellen und sicherem Experimentieren."
         },
         {
           "id": "chem.experimental.qualitative",
           "title": "Stoffe und Ionen qualitativ nachweisen",
           "order": 20,
-          "status": "planned",
+          "lessonId": "chem.experimental.qualitative",
           "relevance": "cross-cutting",
-          "relevanceNote": "Geplant: qualitative Nachweise; konkrete Inhalte werden curricular belegt und später ausgearbeitet."
+          "relevanceNote": "Wasser-, Kohlenstoffdioxid- und Carbonatnachweis sowie Universalindikator nach KCGO-Themenkatalog; Halogenid-Nachweis als in Prüfungen belegte, curricular ungeklärte Ergänzung."
         },
         {
           "id": "chem.experimental.organic-tests",
           "title": "Organische Stoffe und Biomoleküle nachweisen",
           "order": 30,
-          "status": "planned",
+          "lessonId": "chem.experimental.organic-tests",
           "relevance": "cross-cutting",
-          "relevanceNote": "Geplant: Querverweise auf Fachkapitel, ohne Fehling-, Biuret- oder Iod-Stärke-Erklärungen zu duplizieren."
+          "relevanceNote": "Übersicht nach Strukturmerkmalen mit Verweisen auf die Fachkapitel; Fehling-, Biuret- und Iod-Stärke-Erklärungen werden dort vertieft."
         },
         {
           "id": "chem.experimental.separation",
           "title": "Trennverfahren und Identifizierung",
           "order": 40,
-          "status": "planned",
+          "lessonId": "chem.experimental.separation",
           "relevance": "cross-cutting",
-          "relevanceNote": "Geplant: eigenständige Lernseite zur Dünnschichtchromatografie mit Ninhydrin und Rf-Auswertung."
+          "relevanceNote": "Destillation (E.4) und Identifizierung über Siede- und Schmelztemperaturen; Dünnschichtchromatografie als gekennzeichnete Ergänzung ohne Prüfungsbeleg."
         },
         {
           "id": "chem.experimental.quantitative",
           "title": "Quantitative Analyse und Titration",
           "order": 50,
-          "status": "planned",
+          "lessonId": "chem.experimental.quantitative",
           "relevance": "cross-cutting",
-          "relevanceNote": "Geplant: Methodenübersicht mit Verweis auf die ausführliche Titrationslehre in chem.q3.2.titration."
+          "relevanceNote": "Methodenübersicht zu Säure-Base-, Redox- und Rücktitration mit Verweis auf die ausführliche Titrationslehre in chem.q3.2.titration."
         }
       ]
     }

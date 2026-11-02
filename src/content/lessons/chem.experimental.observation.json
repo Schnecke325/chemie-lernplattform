@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.experimental.observation",
+  "title": "Experimentieren, Beobachten und Auswerten",
+  "summary": "Plane Versuche zielgerichtet, trenne Beobachtung von Deutung und prüfe mit Kontrollen und Fehlerbetrachtung, wie belastbar ein Ergebnis ist.",
+  "order": 10,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "cross-cutting",
+    "note": "Querschnittsseite zur Erkenntnisgewinnung. Die Prüfungsbezüge belegen, dass Durchführung, Beobachtung und Deutung von Nachweisen verlangt werden; eine eigene Themenhäufigkeit ist nicht gezählt."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.2",
+      "subsection": "Nachweisreaktionen von Aldehyden",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q2.1",
+      "subsection": "Fehling-Probe und Nachweise von Naturstoffen",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.basics.representation",
+    "chem.basics.data"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.experimental.observation.goal.plan",
+      "statement": "Ich kann zu einer Fragestellung eine prüfbare Hypothese formulieren und einen Versuch mit kontrollierten Variablen planen.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "planen",
+        "entwickeln"
+      ]
+    },
+    {
+      "id": "chem.experimental.observation.goal.observe",
+      "statement": "Ich kann Durchführung und Beobachtung eines Versuchs fachsprachlich beschreiben und klar von der Deutung trennen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "deuten"
+      ]
+    },
+    {
+      "id": "chem.experimental.observation.goal.controls",
+      "statement": "Ich kann begründen, wozu Blindprobe, Positivkontrolle und Vergleichsprobe dienen.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "begründen",
+        "erläutern"
+      ]
+    },
+    {
+      "id": "chem.experimental.observation.goal.limits",
+      "statement": "Ich kann Fehlerquellen einordnen und beurteilen, welche Aussage ein Nachweis tatsächlich stützt.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen",
+        "prüfen"
+      ]
+    }
+  ],
+  "introduction": "In Abituraufgaben sollst du Versuche nicht nur nacherzählen. Du beschreibst, was zu sehen ist, deutest es mit einem chemischen Modell und prüfst, wie sicher die Schlussfolgerung ist. Diese Seite zeigt dir das Vorgehen, das für alle Nachweise und Messungen in den folgenden Kapiteln gilt.",
+  "explanation": "### 1. Von der Fragestellung zum Versuch\n\nJeder Versuch beginnt mit einer klaren Fragestellung, zum Beispiel: „Enthält die Probe einen reduzierend wirkenden Zucker?“ Daraus entwickelst du eine Hypothese. Eine gute Hypothese ist prüfbar und sagt ein Ergebnis voraus: „Wenn die Probe Glucose enthält, bildet sich bei der Fehling-Probe ein rotbrauner Niederschlag.“\n\nBei der Planung legst du fest, welche Größe du veränderst (unabhängige Variable), welche du beobachtest oder misst (abhängige Variable) und welche Bedingungen konstant bleiben. Ändere pro Versuchsreihe nur eine Variable. Sonst kannst du eine Wirkung nicht eindeutig einer Ursache zuordnen.\n\n### 2. Beobachtung und Deutung trennen\n\nEine Beobachtung beschreibt nur, was du wahrnimmst oder misst: Farbänderung, Niederschlag, Gasentwicklung, Temperaturänderung, Messwerte. Sie enthält keine Stoffnamen von Produkten und keine Teilchenvorgänge.\n\nDie Deutung erklärt die Beobachtung mit Fachwissen. Beispiel: „Die blaue Lösung färbt sich beim Erwärmen, und es bildet sich ein rotbrauner Niederschlag“ ist die Beobachtung. „Cu²⁺-Ionen wurden zu Kupfer(I)-oxid reduziert; die Probe enthält einen reduzierend wirkenden Stoff“ ist die Deutung. Wenn du beides vermischst, wirkt deine Antwort unsauber und du verschenkst Punkte.\n\n### 3. Kontrollen machen ein Ergebnis aussagekräftig\n\nEine Blindprobe enthält alle Reagenzien, aber nicht die zu untersuchende Probe. Sie zeigt, ob schon die Reagenzien oder das Lösungsmittel eine Reaktion vortäuschen. Eine Positivkontrolle enthält einen Stoff, der sicher reagiert. Sie zeigt, dass das Nachweisreagenz unter den gewählten Bedingungen funktioniert.\n\nErst mit beiden Kontrollen ist ein Ergebnis belastbar: Ein negatives Ergebnis bei funktionierender Positivkontrolle spricht wirklich gegen den gesuchten Stoff. Eine Vergleichsprobe nebeneinander hilft außerdem, schwache Farbänderungen sicher zu erkennen.\n\n### 4. Was ein Nachweis aussagt\n\nEin Nachweis zeigt in der Regel ein Strukturmerkmal oder eine Stoffeigenschaft an, nicht automatisch einen bestimmten Stoff. Die Fehling-Probe ist dafür ein gutes Beispiel: Sie reagiert mit Aldehyden, aber auch Fructose fällt positiv aus. In der heißen alkalischen Lösung lagert sich Fructose über ein Endiol in Aldosen um, die dann reduzierend wirken. Ein positiver Fehling-Test beweist also nicht, dass die untersuchte Verbindung selbst eine Aldehydgruppe besitzt.\n\nAuch ein negatives Ergebnis hat Grenzen. Die Konzentration kann unter der Nachweisgrenze liegen, oder die Bedingungen wie Temperatur und pH-Wert passen nicht. Formuliere deshalb vorsichtig: „Das Ergebnis spricht für …“ oder „Das Ergebnis ist mit … vereinbar“.\n\n### 5. Fehlerquellen einordnen\n\nSystematische Fehler verschieben alle Ergebnisse in dieselbe Richtung, zum Beispiel durch eine falsch hergestellte Maßlösung oder immer gleich schräges Ablesen. Wiederholen hilft dagegen nicht. Du erkennst sie nur durch Kontrollen, Vergleich mit Referenzwerten oder eine verbesserte Methode.\n\nZufällige Fehler lassen Messwerte um einen Mittelwert streuen, zum Beispiel durch Ablese- oder Dosierschwankungen. Mehrfachmessungen und Mittelwertbildung verringern ihren Einfluss. Verunreinigte Geräte können außerdem zu falsch positiven Nachweisen führen.\n\n### 6. Sicher experimentieren\n\nVor jedem Versuch steht eine Gefährdungsbeurteilung. Lies die GHS-Piktogramme sowie die Gefahren- und Sicherheitshinweise der verwendeten Stoffe. Trage eine Schutzbrille und arbeite mit kleinen Stoffmengen. Versuche mit giftigen oder reizenden Gasen und Dämpfen gehören in den Abzug. Richte die Öffnung eines Reagenzglases beim Erhitzen nie auf Personen. Entsorge Reste nach Vorgabe, schwermetallhaltige Lösungen zum Beispiel getrennt.\n\nFühre Versuche nur im Unterricht unter Anleitung einer Lehrkraft durch. Diese Lernseite ersetzt keine Sicherheitsunterweisung.",
+  "fundamentals": [
+    {
+      "term": "Hypothese",
+      "explanation": "Prüfbare Vermutung, die ein Versuchsergebnis vorhersagt, oft als „Wenn …, dann …“-Satz."
+    },
+    {
+      "term": "Beobachtung",
+      "explanation": "Wahrnehmbares oder gemessenes Ergebnis eines Versuchs, ohne Erklärung auf Teilchenebene."
+    },
+    {
+      "term": "Deutung",
+      "explanation": "Erklärung einer Beobachtung mit Fachwissen, zum Beispiel mit einer Reaktionsgleichung oder einem Teilchenmodell."
+    },
+    {
+      "term": "Blindprobe",
+      "explanation": "Ansatz mit allen Reagenzien, aber ohne Probe. Er zeigt, ob die Reagenzien allein schon ein Signal erzeugen."
+    },
+    {
+      "term": "Positivkontrolle",
+      "explanation": "Ansatz mit einem Stoff, der sicher positiv reagiert. Er zeigt, dass der Nachweis unter den Versuchsbedingungen funktioniert."
+    },
+    {
+      "term": "Systematischer Fehler",
+      "explanation": "Abweichung, die alle Messwerte in dieselbe Richtung verschiebt und sich durch Wiederholen nicht ausgleicht."
+    },
+    {
+      "term": "Zufälliger Fehler",
+      "explanation": "Unvorhersehbare Streuung der Messwerte, deren Einfluss du durch Mehrfachmessungen verringern kannst."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.experimental.observation.eq.mean",
+      "notation": "x̄ = (x₁ + x₂ + … + xₙ) / n",
+      "explanation": "Arithmetischer Mittelwert aus n Einzelmessungen; er verringert den Einfluss zufälliger Fehler."
+    },
+    {
+      "id": "chem.experimental.observation.eq.deviation",
+      "notation": "relative Abweichung = |x̄ − x_Ref| / x_Ref · 100 %",
+      "explanation": "Vergleich des Ergebnisses mit einem Literatur- oder Referenzwert x_Ref; eine große Abweichung weist auf systematische Fehler hin."
+    }
+  ],
+  "equationNote": "Gib Mittelwerte nur mit so vielen Stellen an, wie die Einzelmessungen hergeben. Eine kleine Streuung bedeutet nicht automatisch, dass das Ergebnis richtig ist.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.experimental.observation.example.limewater",
+      "title": "Beobachtung und Deutung beim Kalkwasser",
+      "prompt": "Ein Gas wird in klares Kalkwasser geleitet. Die Lösung wird milchig trüb. Formuliere Beobachtung und Deutung getrennt.",
+      "steps": [
+        "Beschreibe nur das Wahrnehmbare: Die zuvor klare Lösung wird beim Einleiten des Gases milchig trüb.",
+        "Deute mit Fachwissen: Kohlenstoffdioxid reagiert mit Calcium- und Hydroxid-Ionen zu schwer löslichem Calciumcarbonat.",
+        "Formuliere die Reaktionsgleichung: Ca²⁺ + 2 OH⁻ + CO₂ → CaCO₃↓ + H₂O.",
+        "Prüfe die Aussagekraft: Auch andere Gase wie Schwefeldioxid können Kalkwasser trüben."
+      ],
+      "result": "Beobachtung: weiße Trübung. Deutung: Bildung von Calciumcarbonat, das Gas ist wahrscheinlich Kohlenstoffdioxid. Ohne Zusatzinformation ist es ein starker Hinweis, aber kein Beweis."
+    },
+    {
+      "id": "chem.experimental.observation.example.controls",
+      "title": "Kontrollen für die Fehling-Probe planen",
+      "prompt": "Du sollst prüfen, ob ein Fruchtsaft reduzierend wirkende Zucker enthält. Plane die nötigen Kontrollansätze.",
+      "steps": [
+        "Probeansatz: Fruchtsaft mit frisch gemischter Fehling-Lösung im Wasserbad erwärmen.",
+        "Blindprobe: dasselbe Volumen Wasser statt Fruchtsaft mit Fehling-Lösung genauso erwärmen.",
+        "Positivkontrolle: verdünnte Glucose-Lösung mit Fehling-Lösung genauso erwärmen.",
+        "Alle Ansätze unter gleichen Bedingungen nebeneinander vergleichen."
+      ],
+      "result": "Bleibt die Blindprobe blau und färbt sich die Positivkontrolle rotbraun, ist ein rotbrauner Niederschlag im Probeansatz ein belastbarer Hinweis auf reduzierend wirkende Zucker."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2014,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2017,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 2,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2020,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2024,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "evidenceRole": "competency",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "Durchführung und Beobachtungen eines Nachweises beschreiben, ohne die Deutung vorwegzunehmen.",
+    "Beobachtungen mit einer Reaktionsgleichung oder einem Teilchenmodell deuten.",
+    "Ein Experiment zu einer Fragestellung planen und die Wahl der Kontrollansätze begründen.",
+    "Die Aussagekraft eines Versuchsergebnisses oder einer Schlussfolgerung beurteilen."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Schreibe Beobachtung und Deutung in getrennte Sätze oder Abschnitte.",
+      "commonError": "In der Beobachtung steht bereits „Es bildet sich Kupfer(I)-oxid“."
+    },
+    {
+      "tip": "Plane zu jedem Nachweis eine Blindprobe und, wenn möglich, eine Positivkontrolle.",
+      "commonError": "Ein negatives Ergebnis wird als sicherer Ausschluss gewertet, obwohl nie geprüft wurde, ob das Reagenz funktioniert."
+    },
+    {
+      "tip": "Formuliere Schlussfolgerungen so vorsichtig, wie es der Nachweis erlaubt.",
+      "commonError": "Aus einer positiven Fehling-Probe wird ohne Weiteres auf eine Aldehydgruppe im untersuchten Molekül geschlossen."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-11-02"
+  },
+  "exerciseIds": [
+    "chem.experimental.observation.exercise.basic-observation",
+    "chem.experimental.observation.exercise.basic-variables",
+    "chem.experimental.observation.exercise.standard-blank",
+    "chem.experimental.observation.exercise.standard-errors",
+    "chem.experimental.observation.exercise.transfer-fructose",
+    "chem.experimental.observation.exercise.transfer-plan"
+  ],
+  "selfTestIds": [
+    "chem.experimental.observation.selftest.positive-control",
+    "chem.experimental.observation.selftest.negative-result",
+    "chem.experimental.observation.selftest.hypothesis"
+  ]
+}

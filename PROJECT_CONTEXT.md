@@ -64,23 +64,23 @@ Die mobile Sidebar greift bei `max-width: 800px`, zusätzliche enge Layoutregeln
 
 ### Katalog
 
-`src/content/catalog.json` hat Schema-Version 1 und enthält derzeit **12 Hauptkapitel und 47 Unterkapiteleinträge**. Davon sind **42 mit einer `lessonId` verknüpft**. Das zuletzt ergänzte Kapitel `chem.experimental` hat fünf Einträge mit Status `planned`, ohne `lessonId` und ohne Lernseiten-Dateien. Die Oberfläche stellt diese als geplant/deaktiviert dar.
+`src/content/catalog.json` hat Schema-Version 1 und enthält derzeit **12 Hauptkapitel und 47 Unterkapiteleinträge**. Alle **47 sind mit einer `lessonId` verknüpft**; es gibt derzeit keine Einträge mit Status `planned`. Das Kapitel `chem.experimental` erhielt am 02.11.2026 seine fünf Lernseiten. Einzelne dort behandelte Methoden (Halogenid-Nachweis, Baeyer-Probe, Bromwasser, Xanthoprotein- und Ninhydrin-Probe, Dünnschichtchromatografie) sind im KCGO-Themenkatalog nicht ausgewiesen und auf den Lernseiten entsprechend gekennzeichnet.
 
 IDs wie `chem.q3.1.mwg` sind stabile Daten-IDs und nicht aus Routepfaden abzuleiten. Kapitelzugehörigkeit und sichtbare Themenbezeichnungen werden über den Katalog bestimmt.
 
 ### Lernseiten
 
-- 42 JSON-Dateien in `src/content/lessons/`.
+- 47 JSON-Dateien in `src/content/lessons/`.
 - Aktuelles Rohformat: `LessonContentRecord`, `schemaVersion: 2`.
-- Alle 42 Einträge tragen momentan `publicationStatus: "review"`.
+- Alle 47 Einträge tragen momentan `publicationStatus: "review"`.
 - Lektionen enthalten strukturierte Lernziele, Curriculum-Referenzen, Erklärungstexte, Fachbegriffe, Gleichungen, Beispiele, Prüfungsreferenzen, Hinweise sowie Referenzlisten `exerciseIds` und `selfTestIds`.
 - Die Oberfläche zeigt einen redaktionellen Review-Hinweis. Technisch prüft die Katalognavigation im aktuellen Code die Existenz einer Lesson-Datei; sie erzwingt keinen Gate anhand von `publicationStatus`.
 
 ### Aufgabenbank
 
-`src/content/exercises.json` hat Schema-Version 1 und **380 eindeutige Aufgaben**: 252 mit `sourceKind: "exercise"` und 128 mit `sourceKind: "selfTest"`. Lektionen speichern nur die zugehörigen IDs. `sourceLessonId` und `sourceKind` verknüpfen jeden Eintrag zurück zur Lektion und zur jeweiligen Liste.
+`src/content/exercises.json` hat Schema-Version 1 und **425 eindeutige Aufgaben**: 282 mit `sourceKind: "exercise"` und 143 mit `sourceKind: "selfTest"`. Lektionen speichern nur die zugehörigen IDs. `sourceLessonId` und `sourceKind` verknüpfen jeden Eintrag zurück zur Lektion und zur jeweiligen Liste.
 
-Eine Aufgabe besitzt u. a. ID, Titel, Schwierigkeitsgrad, Prompt, Hinweise, Lösung, Kompetenzbereiche und Operatoren. Aktuell sind bei **0/380** Aufgaben `taskType`, `afb`, `supportedModes` oder `sourceExamRefs` gesetzt. Der Übungsbereich darf diese Angaben nicht inferieren. Kompetenzfilter können mit den tatsächlich vorhandenen Kompetenzcodes arbeiten.
+Eine Aufgabe besitzt u. a. ID, Titel, Schwierigkeitsgrad, Prompt, Hinweise, Lösung, Kompetenzbereiche und Operatoren. Aktuell sind bei **0/425** Aufgaben `taskType`, `afb`, `supportedModes` oder `sourceExamRefs` gesetzt. Der Übungsbereich darf diese Angaben nicht inferieren. Kompetenzfilter können mit den tatsächlich vorhandenen Kompetenzcodes arbeiten.
 
 Das Modell enthält keine Nutzerantworten, Versuche, Punktzahlen oder Fortschrittsdaten. Die Lernseite kann weiterhin die Hinweise/Lösung über `<details>` anzeigen; der eigenständige Übungsbereich bietet derzeit nur Suche über Filter/Anzeige, keine Bearbeitung oder Bewertung.
 
@@ -95,7 +95,7 @@ Das Modell enthält keine Nutzerantworten, Versuche, Punktzahlen oder Fortschrit
 - exportiert `getAllExercises()`, `getExerciseById()` und `getLessonById()`;
 - löst bei `getLessonById()` `exerciseIds`/`selfTestIds` auf und kontrolliert Zugehörigkeit und Quellentyp.
 
-`npm run validate:content` ruft `scripts/validate-exercise-bank.mjs` auf. Es prüft Katalog-/Lesson-Abdeckung, aktuell 42 Lesson-Dateien, Aufgabenreferenzen, Duplikate/Waisen, Quelltyp, Kapitelverknüpfungen und Sollzählungen 252/128/380. Es ersetzt keine chemische oder redaktionelle Prüfung.
+`npm run validate:content` ruft `scripts/validate-exercise-bank.mjs` auf. Es prüft Katalog-/Lesson-Abdeckung, aktuell 47 Lesson-Dateien, Aufgabenreferenzen, Duplikate/Waisen, Quelltyp, Kapitelverknüpfungen und Sollzählungen 282/143/425. Es ersetzt keine chemische oder redaktionelle Prüfung.
 
 ## Research-Stand und Grenzen
 
@@ -150,8 +150,9 @@ Navigation an der Domainwurzel: Seiten werden über React-State gewechselt, es g
 
 ## Dokumentationsabweichungen
 
-- `README.md` enthält noch den Satz, dass alle sichtbaren Lern- und Prüfungsdaten Platzhalter seien. Das ist für den aktuellen Stand nicht mehr korrekt: 42 strukturierte Lernseiten und 380 Aufgaben sind im Repository. Sie sind allerdings weiterhin im Review-Status und nicht als fachlich freigegeben zu behandeln. Dieser Übergabeauftrag ändert die README nicht.
-- `research/phase4-fortschritt.md` nennt 11 Hauptkapitel/42 Unterkapitel; der aktuelle Katalog enthält zusätzlich das Experimentierkapitel mit fünf geplanten Unterkapiteln (12/47 gesamt, weiterhin 42 Lesson-Dateien).
+- `README.md` enthält noch den Satz, dass alle sichtbaren Lern- und Prüfungsdaten Platzhalter seien. Das ist für den aktuellen Stand nicht mehr korrekt: 47 strukturierte Lernseiten und 425 Aufgaben sind im Repository. Sie sind allerdings weiterhin im Review-Status und nicht als fachlich freigegeben zu behandeln. Dieser Übergabeauftrag ändert die README nicht.
+- `research/phase4-fortschritt.md` nennt 11 Hauptkapitel/42 Unterkapitel; der aktuelle Katalog enthält zusätzlich das Experimentierkapitel mit fünf Unterkapiteln (12/47 gesamt, 47 Lesson-Dateien).
+- `research/lernstruktur.md` nennt 2024 NT B als Titrationsbeleg; eine Textsuche im lokalen PDF dieser Prüfung findet keine Titration. Die Lernseite `chem.experimental.quantitative` verwendet diesen Beleg deshalb nicht. Ungeklärt, ob die Angabe auf einer nicht textlich erfassten Abbildung beruht.
 - `research/inhaltsmodell.md` beschreibt teilweise den ursprünglichen Vorschlag (Schema 1, Aufgaben direkt in Lessons). Der tatsächliche Code verwendet Lesson-Rohschema 2, ID-Referenzen und eine zentrale Aufgabenbank.
 - `research/README.md` ist als Forschungsstand zu lesen und nicht als aktueller technischer Änderungsbericht.
 - `research/lernziele.md` liegt laut Repository nicht vor; die Lernziele stehen in `research/lernstruktur.md` und den einzelnen Lesson-Datensätzen.

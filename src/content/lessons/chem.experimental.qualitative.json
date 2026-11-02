@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 2,
+  "id": "chem.experimental.qualitative",
+  "title": "Stoffe und Ionen qualitativ nachweisen",
+  "summary": "Weise Wasser, Kohlenstoffdioxid, Carbonat sowie saure und basische Stoffe nach und deute Halogenid-Nachweise mit Silbernitrat fachgerecht.",
+  "order": 20,
+  "publicationStatus": "review",
+  "relevance": {
+    "label": "supplementary",
+    "basis": "cross-cutting",
+    "note": "Querschnittsseite. Wasser-, Kohlenstoffdioxid- und Carbonatnachweis sowie Universalindikator sind im KCGO-Themenkatalog ausgewiesen. Der Halogenid-Nachweis mit Silbernitrat ist in Prüfungen belegt, seine curriculare Verankerung im KCGO 2026 aber in den Projektunterlagen nicht."
+  },
+  "curriculum": [
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "E.2",
+      "subsection": "Nachweis mit Universalindikator",
+      "status": "required"
+    },
+    {
+      "sourceId": "kcgo-chemie-2026-04",
+      "fieldId": "Q1.1",
+      "subsection": "Nachweise von Wasser und Kohlenstoffdioxid sowie Carbonatnachweis",
+      "status": "required"
+    }
+  ],
+  "prerequisites": [
+    "chem.experimental.observation",
+    "chem.q3.2.protolysis"
+  ],
+  "learningGoals": [
+    {
+      "id": "chem.experimental.qualitative.goal.gases",
+      "statement": "Ich kann Wasser und Kohlenstoffdioxid nachweisen und die Nachweise mit Reaktionsgleichungen deuten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "beschreiben",
+        "formulieren"
+      ]
+    },
+    {
+      "id": "chem.experimental.qualitative.goal.carbonate",
+      "statement": "Ich kann einen Carbonatnachweis als Abfolge von zwei Reaktionen erklären.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erklären",
+        "formulieren"
+      ]
+    },
+    {
+      "id": "chem.experimental.qualitative.goal.indicator",
+      "statement": "Ich kann Farbänderungen von Universalindikator bei Lösungen und Gasen mit Protolysereaktionen deuten.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "deuten",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.experimental.qualitative.goal.halide",
+      "statement": "Ich kann den Halogenid-Nachweis mit Silbernitrat durchführen, beschreiben und seine Grenzen benennen.",
+      "competencies": [
+        "S",
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beschreiben",
+        "beurteilen"
+      ]
+    }
+  ],
+  "introduction": "Viele Abituraufgaben enthalten Sätze wie „Es entsteht ein Gas, das Kalkwasser trübt“ oder „Das Produkt lässt sich mit Silbernitrat-Lösung nachweisen“. Dahinter steckt jeweils eine konkrete Reaktion. Wenn du sie kennst, kannst du aus solchen Hinweisen Produkte erschließen und Reaktionsgleichungen vervollständigen.",
+  "explanation": "### 1. Wasser nachweisen\n\nWasserfreies Kupfer(II)-sulfat ist ein weißes Pulver. Kommt es mit Wasser in Kontakt, färbt es sich blau, weil sich das Hydrat CuSO₄ · 5 H₂O bildet. In den Hydrat-Kristallen sind Wassermoleküle an die Cu²⁺-Ionen gebunden. Dieser Nachweis zeigt nur an, dass Wasser vorhanden ist. Er sagt nichts darüber aus, wie viel Wasser vorliegt oder ob die Flüssigkeit reines Wasser ist.\n\n### 2. Kohlenstoffdioxid mit Kalkwasser nachweisen\n\nKalkwasser ist eine klare, gesättigte Calciumhydroxid-Lösung. Leitet man Kohlenstoffdioxid ein, entsteht schwer lösliches Calciumcarbonat: Die Lösung wird milchig trüb. Leitet man sehr lange weiter Kohlenstoffdioxid ein, kann die Trübung wieder verschwinden, weil sich lösliches Calciumhydrogencarbonat bildet.\n\nDer Nachweis ist nicht völlig spezifisch. Auch Schwefeldioxid trübt Kalkwasser, weil schwer lösliches Calciumsulfit entsteht. In Aufgaben geht aus dem Zusammenhang meist hervor, welches Gas gemeint ist, etwa bei Verbrennungen organischer Stoffe oder bei der Reaktion von Carbonaten mit Säuren.\n\n### 3. Carbonat nachweisen\n\nGibt man zu einem Carbonat eine Säure wie Salzsäure, schäumt die Probe auf. Die Oxonium-Ionen protonieren die Carbonat-Ionen. Die dabei entstehende Kohlensäure zerfällt zu Wasser und Kohlenstoffdioxid. Den Nachweis vervollständigst du, indem du das Gas in Kalkwasser leitest. Erst beide Schritte zusammen ergeben einen Carbonatnachweis: Aufschäumen allein könnte auch ein anderes Gas anzeigen.\n\n### 4. Universalindikator bei Lösungen und Gasen\n\nUniversalindikator ist ein Gemisch mehrerer Farbstoffe und zeigt durch seine Farbe einen pH-Bereich an: rot für stark sauer, grün für etwa neutral, blau bis violett für stark alkalisch. Er ersetzt keine genaue pH-Messung.\n\nGase prüfst du mit angefeuchtetem Indikatorpapier. Das Wasser auf dem Papier ist entscheidend: Erst darin reagiert das Gas in einer Protolyse. Chlorwasserstoff gibt Protonen an Wassermoleküle ab, es entstehen Oxonium-Ionen, das Papier färbt sich rot. Ammoniak nimmt Protonen auf, es entstehen Hydroxid-Ionen, das Papier färbt sich blau.\n\nAuf diesem Prinzip beruht auch der Nachweis von Ammonium-Ionen: Man versetzt die Probe mit Natronlauge und erwärmt leicht. Die Hydroxid-Ionen deprotonieren die Ammonium-Ionen, es entweicht Ammoniak, das feuchtes Indikatorpapier über der Probe blau färbt. Das Papier darf dabei die Natronlauge nicht berühren, sonst zeigt es nur die Lauge an.\n\n### 5. Halogenide mit Silbernitrat nachweisen\n\nDieser Nachweis kommt in hessischen Abiturprüfungen vor. Ob er im aktuellen KCGO verbindlich verankert ist, ist in den Unterlagen dieses Projekts nicht belegt.\n\nMan säuert die Probelösung zunächst mit verdünnter Salpetersäure an und gibt dann Silbernitrat-Lösung hinzu. Halogenid-Ionen bilden mit Silber-Ionen schwer lösliche Niederschläge: Silberchlorid ist weiß, Silberbromid gelblich weiß, Silberiodid gelb. Die Farben liegen nahe beieinander. Zur Unterscheidung nutzt man zusätzlich die Löslichkeit in Ammoniak-Lösung: Silberchlorid löst sich in verdünnter Ammoniak-Lösung, Silberbromid kaum, Silberiodid nicht.\n\nDas Ansäuern mit Salpetersäure verhindert Fehldeutungen. In neutraler oder alkalischer Lösung könnten auch Carbonat- oder Hydroxid-Ionen mit Silber-Ionen einen Niederschlag bilden. Salzsäure ist zum Ansäuern ungeeignet, weil sie selbst Chlorid-Ionen einbringt.\n\nDer Nachweis erfasst nur Halogenid-Ionen in Lösung. In vielen organischen Halogenverbindungen ist das Halogen-Atom kovalent gebunden. Sie geben mit Silbernitrat-Lösung daher zunächst keinen Niederschlag. Erst wenn eine Reaktion Halogenid-Ionen freisetzt, etwa eine Substitution oder Hydrolyse, fällt das Silberhalogenid aus.",
+  "fundamentals": [
+    {
+      "term": "Kalkwasser",
+      "explanation": "Klare, gesättigte Calciumhydroxid-Lösung; Nachweisreagenz für Kohlenstoffdioxid."
+    },
+    {
+      "term": "Hydrat",
+      "explanation": "Verbindung, in deren Kristallgitter Wassermoleküle fest eingebaut sind, zum Beispiel CuSO₄ · 5 H₂O."
+    },
+    {
+      "term": "Universalindikator",
+      "explanation": "Farbstoffgemisch, dessen Farbe einen pH-Bereich anzeigt; für Gase als angefeuchtetes Indikatorpapier verwendet."
+    },
+    {
+      "term": "Fällungsreaktion",
+      "explanation": "Reaktion, bei der aus gelösten Ionen ein schwer löslicher Feststoff, der Niederschlag, entsteht."
+    },
+    {
+      "term": "Silberhalogenid",
+      "explanation": "Schwer lösliches Salz aus Silber- und Halogenid-Ionen, zum Beispiel AgCl, AgBr oder AgI."
+    },
+    {
+      "term": "Spezifität",
+      "explanation": "Eigenschaft eines Nachweises, nur auf einen bestimmten Stoff oder eine Stoffgruppe anzusprechen."
+    }
+  ],
+  "equations": [
+    {
+      "id": "chem.experimental.qualitative.eq.water",
+      "notation": "CuSO₄ (weiß) + 5 H₂O → CuSO₄ · 5 H₂O (blau)",
+      "explanation": "Hydratbildung als Wassernachweis."
+    },
+    {
+      "id": "chem.experimental.qualitative.eq.limewater",
+      "notation": "Ca²⁺ + 2 OH⁻ + CO₂ → CaCO₃↓ + H₂O",
+      "explanation": "Trübung des Kalkwassers durch Calciumcarbonat."
+    },
+    {
+      "id": "chem.experimental.qualitative.eq.redissolve",
+      "notation": "CaCO₃ + CO₂ + H₂O → Ca²⁺ + 2 HCO₃⁻",
+      "explanation": "Bei großem Kohlenstoffdioxid-Überschuss verschwindet die Trübung wieder."
+    },
+    {
+      "id": "chem.experimental.qualitative.eq.carbonate",
+      "notation": "CO₃²⁻ + 2 H₃O⁺ → CO₂↑ + 3 H₂O",
+      "explanation": "Freisetzung von Kohlenstoffdioxid aus Carbonat durch eine Säure."
+    },
+    {
+      "id": "chem.experimental.qualitative.eq.ammonium",
+      "notation": "NH₄⁺ + OH⁻ → NH₃↑ + H₂O",
+      "explanation": "Freisetzung von Ammoniak als Grundlage des Ammonium-Nachweises."
+    },
+    {
+      "id": "chem.experimental.qualitative.eq.halide",
+      "notation": "Ag⁺ + Cl⁻ → AgCl↓",
+      "explanation": "Fällung von weißem Silberchlorid; analog AgBr und AgI."
+    }
+  ],
+  "equationNote": "Formuliere Fällungen als Ionengleichung und markiere den Niederschlag mit ↓. Nicht beteiligte Ionen wie Na⁺ oder NO₃⁻ musst du nicht aufschreiben.",
+  "mechanisms": [],
+  "workedExamples": [
+    {
+      "id": "chem.experimental.qualitative.example.carbonate",
+      "title": "Ein weißes Pulver untersuchen",
+      "prompt": "Ein weißes Pulver schäumt nach Zugabe von Salzsäure auf. Das entstehende Gas trübt Kalkwasser. Deute die Beobachtungen für den Fall, dass das Pulver Calciumcarbonat ist.",
+      "steps": [
+        "Erster Schritt: Die Oxonium-Ionen der Salzsäure reagieren mit den Carbonat-Ionen: CO₃²⁻ + 2 H₃O⁺ → CO₂ + 3 H₂O.",
+        "Für das Pulver insgesamt gilt: CaCO₃ + 2 H₃O⁺ → Ca²⁺ + CO₂ + 3 H₂O.",
+        "Zweiter Schritt: Das Gas reagiert im Kalkwasser: Ca²⁺ + 2 OH⁻ + CO₂ → CaCO₃↓ + H₂O.",
+        "Schlussfolgerung: Das Aufschäumen allein reicht nicht; erst die Trübung des Kalkwassers macht Kohlenstoffdioxid und damit Carbonat wahrscheinlich."
+      ],
+      "result": "Die Beobachtungen passen zu einem Carbonat, aus dem die Säure Kohlenstoffdioxid freisetzt."
+    },
+    {
+      "id": "chem.experimental.qualitative.example.chloride",
+      "title": "Chlorid neben Carbonat nachweisen",
+      "prompt": "Eine Lösung enthält möglicherweise Chlorid- und Carbonat-Ionen. Begründe, wie du den Chlorid-Nachweis durchführst.",
+      "steps": [
+        "Säure die Lösung zuerst mit verdünnter Salpetersäure an, bis keine Gasentwicklung mehr auftritt. So werden die Carbonat-Ionen als Kohlenstoffdioxid entfernt.",
+        "Verwende keine Salzsäure, weil sie selbst Chlorid-Ionen einbringt.",
+        "Gib danach Silbernitrat-Lösung zu und beobachte.",
+        "Prüfe einen weißen Niederschlag mit verdünnter Ammoniak-Lösung: Silberchlorid löst sich darin."
+      ],
+      "result": "Ein weißer, in verdünnter Ammoniak-Lösung löslicher Niederschlag nach Ansäuern mit Salpetersäure weist auf Chlorid-Ionen hin."
+    }
+  ],
+  "examReferences": [
+    {
+      "year": 2008,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2016,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 2,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2022,
+      "term": "NT",
+      "proposal": "C",
+      "pageStart": 1,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2024,
+      "term": "HT",
+      "proposal": "A",
+      "pageStart": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "NT",
+      "proposal": "D",
+      "pageStart": 6,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2011,
+      "term": "HT",
+      "proposal": "C",
+      "pageStart": 3,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2023,
+      "term": "NT",
+      "proposal": "A",
+      "pageStart": 4,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    },
+    {
+      "year": 2024,
+      "term": "NT",
+      "proposal": "B",
+      "pageStart": 1,
+      "evidenceRole": "additional-topic",
+      "sourceAvailability": "local-only"
+    }
+  ],
+  "typicalTaskTypes": [
+    "Aus einer Nachweisbeschreibung wie „Gas trübt Kalkwasser“ ein Reaktionsprodukt erschließen und die Reaktionsgleichung vervollständigen.",
+    "Die Reaktionsgleichung für einen Nachweis, etwa von Chlorid-Ionen mit Silbernitrat-Lösung, formulieren.",
+    "Die Farbe von Universalindikator bei einer Lösung oder einem Gas mit einer Protolyse erklären."
+  ],
+  "tipsAndErrors": [
+    {
+      "tip": "Nenne beim Carbonatnachweis immer beide Schritte: Gasentwicklung mit Säure und Trübung von Kalkwasser.",
+      "commonError": "Das Aufschäumen allein wird schon als Carbonatnachweis gewertet."
+    },
+    {
+      "tip": "Säure vor dem Halogenid-Nachweis mit Salpetersäure an, nicht mit Salzsäure.",
+      "commonError": "Salzsäure wird zum Ansäuern verwendet und täuscht dadurch Chlorid-Ionen vor."
+    },
+    {
+      "tip": "Feuchte das Indikatorpapier für Gase an und halte es über die Probe, ohne die Lösung zu berühren.",
+      "commonError": "Ein trockenes Papier wird verwendet, oder das Papier taucht in die Natronlauge und zeigt nur diese an."
+    }
+  ],
+  "review": {
+    "sourceCheckedOn": "2026-11-02"
+  },
+  "exerciseIds": [
+    "chem.experimental.qualitative.exercise.basic-limewater",
+    "chem.experimental.qualitative.exercise.basic-water",
+    "chem.experimental.qualitative.exercise.standard-carbonate",
+    "chem.experimental.qualitative.exercise.standard-ammonium",
+    "chem.experimental.qualitative.exercise.transfer-halides",
+    "chem.experimental.qualitative.exercise.transfer-organic-halide"
+  ],
+  "selfTestIds": [
+    "chem.experimental.qualitative.selftest.nitric-acid",
+    "chem.experimental.qualitative.selftest.indicator-gas",
+    "chem.experimental.qualitative.selftest.copper-sulfate"
+  ]
+}

@@ -7496,6 +7496,890 @@
       ],
       "sourceLessonId": "chem.q4.2.energy-sustainability",
       "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.observation.exercise.basic-observation",
+      "title": "Beobachtung oder Deutung?",
+      "difficulty": "basic",
+      "prompt": "Ordne jede Aussage als Beobachtung oder Deutung ein: (a) Die Lösung färbt sich von blau nach farblos. (b) Es entsteht Wasserstoff. (c) Am Boden des Reagenzglases setzt sich ein weißer Feststoff ab. (d) Die Temperatur steigt von 21 °C auf 34 °C. (e) Die Reaktion ist exotherm.",
+      "hints": [
+        "Eine Beobachtung kannst du sehen, riechen, hören oder messen.",
+        "Sobald ein Stoffname eines Produkts oder ein Fachbegriff zur Erklärung vorkommt, ist es meist eine Deutung."
+      ],
+      "solution": "Beobachtungen: (a), (c), (d). Deutungen: (b) nennt ein Produkt, das nur durch einen Nachweis erschlossen werden kann; (e) ist die Erklärung der gemessenen Temperaturerhöhung.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "zuordnen",
+        "unterscheiden"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.observation.exercise.basic-variables",
+      "title": "Variablen festlegen",
+      "difficulty": "basic",
+      "prompt": "Du untersuchst, wie die Temperatur die Geschwindigkeit der Reaktion von Magnesiumband mit Salzsäure beeinflusst. Nenne die unabhängige Variable, die abhängige Variable und drei Größen, die konstant bleiben müssen.",
+      "hints": [
+        "Die unabhängige Variable veränderst du gezielt.",
+        "Überlege, was außer der Temperatur die Reaktionsgeschwindigkeit noch beeinflusst."
+      ],
+      "solution": "Unabhängige Variable: Temperatur der Salzsäure. Abhängige Variable: Reaktionsgeschwindigkeit, zum Beispiel gemessen als Zeit bis zum Auflösen des Magnesiums oder als Gasvolumen pro Zeit. Konstant: Konzentration und Volumen der Salzsäure, Masse und Oberfläche des Magnesiumbands, Rühren.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "nennen",
+        "planen"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.observation.exercise.standard-blank",
+      "title": "Wozu eine Blindprobe?",
+      "difficulty": "standard",
+      "prompt": "Eine Schülergruppe führt die Fehling-Probe mit einer Probelösung durch und erhält einen rotbraunen Niederschlag. Eine Blindprobe mit Wasser wurde nicht angesetzt. Erläutere, welche Fehldeutung dadurch möglich ist, und beschreibe die fehlende Blindprobe.",
+      "hints": [
+        "Überlege, was passiert, wenn die Fehling-Lösung oder das Reagenzglas bereits verunreinigt ist.",
+        "Die Blindprobe enthält alles außer der Probe."
+      ],
+      "solution": "Ohne Blindprobe bleibt offen, ob der Niederschlag von der Probe stammt. Ein verunreinigtes Reagenzglas, eine verunreinigte Fehling-Lösung oder zu starkes Erhitzen könnten ebenfalls zu einem Niederschlag führen. Die Blindprobe enthält das gleiche Volumen Wasser statt der Probe sowie die gleiche Menge Fehling-Lösung und wird genauso erwärmt. Bleibt sie blau, kann der Niederschlag im Probeansatz der Probe zugeordnet werden.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "erläutern",
+        "beschreiben"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.observation.exercise.standard-errors",
+      "title": "Fehler einordnen",
+      "difficulty": "standard",
+      "prompt": "Bei einer Titration liest eine Person den Flüssigkeitsstand der Bürette jedes Mal von schräg oben ab. Eine zweite Person erhält bei fünf Wiederholungen die Volumina 12,3 mL, 12,6 mL, 12,2 mL, 12,5 mL und 12,4 mL. Ordne beide Fälle einem Fehlertyp zu und nenne jeweils eine Gegenmaßnahme.",
+      "hints": [
+        "Prüfe, ob der Fehler die Werte immer in dieselbe Richtung verschiebt.",
+        "Bilde für die zweite Person den Mittelwert."
+      ],
+      "solution": "Schräges Ablesen von oben ist ein systematischer Fehler, weil jeder Wert in dieselbe Richtung verfälscht wird. Gegenmaßnahme: auf Augenhöhe am unteren Rand des Meniskus ablesen. Die Streuung der fünf Werte ist ein zufälliger Fehler. Gegenmaßnahme: Mehrfachmessungen und Mittelwert, hier x̄ = 62,0 mL / 5 = 12,4 mL.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "zuordnen",
+        "nennen"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.observation.exercise.transfer-fructose",
+      "title": "Schlussfolgerung prüfen",
+      "difficulty": "transfer",
+      "prompt": "Ein Schüler beobachtet bei der Fehling-Probe mit Fructose einen rotbraunen Niederschlag. Er folgert: „Fructose besitzt eine Aldehydgruppe.“ Beurteile diese Schlussfolgerung.",
+      "hints": [
+        "Fructose ist eine Ketohexose.",
+        "Bedenke die Bedingungen der Fehling-Probe: heiß und alkalisch."
+      ],
+      "solution": "Die Schlussfolgerung ist nicht haltbar. Fructose ist eine Ketose und besitzt in der offenkettigen Form eine Ketogruppe. In der heißen alkalischen Fehling-Lösung lagert sich Fructose über ein Endiol in Aldosen um. Diese wirken reduzierend und reduzieren Cu²⁺ zu Cu₂O. Der positive Test zeigt nur, dass unter den Testbedingungen ein reduzierend wirkender Stoff vorliegt, nicht dass das Ausgangsmolekül eine Aldehydgruppe besitzt.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen",
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.observation.exercise.transfer-plan",
+      "title": "Experiment zur Kerzenflamme planen",
+      "difficulty": "transfer",
+      "prompt": "Plane ein Experiment, mit dem man prüfen kann, ob bei der Verbrennung von Kerzenwachs Kohlenstoffdioxid entsteht. Formuliere eine Hypothese, beschreibe Durchführung, Kontrolle und erwartete Beobachtung und nenne eine Sicherheitsmaßnahme.",
+      "hints": [
+        "Die Verbrennungsgase müssen aufgefangen und in ein Nachweisreagenz geleitet werden.",
+        "Überlege, womit du vergleichst, damit Kohlenstoffdioxid aus der Raumluft nicht stört."
+      ],
+      "solution": "Hypothese: Wenn Kerzenwachs verbrennt, entsteht Kohlenstoffdioxid, das Kalkwasser trübt. Durchführung: Die Verbrennungsgase werden mit einem Trichter über der Flamme abgesaugt und durch klares Kalkwasser geleitet. Kontrolle: Gleich lange und gleich viel Raumluft ohne Flamme durch eine zweite Kalkwasserprobe leiten. Erwartung: Nur der Probeansatz wird deutlich milchig trüb. Sicherheit: Schutzbrille, nichts Brennbares in Flammennähe, Kerze standsicher aufstellen.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "planen",
+        "beschreiben"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.observation.selftest.positive-control",
+      "title": "Positivkontrolle",
+      "difficulty": "basic",
+      "prompt": "Welche Information liefert eine Positivkontrolle bei einem Nachweis?",
+      "hints": [
+        "Sie enthält einen Stoff, der sicher positiv reagiert."
+      ],
+      "solution": "Sie zeigt, dass das Nachweisreagenz unter den gewählten Bedingungen funktioniert. Nur dann ist ein negatives Ergebnis im Probeansatz aussagekräftig.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "erläutern"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.observation.selftest.negative-result",
+      "title": "Negatives Ergebnis",
+      "difficulty": "basic",
+      "prompt": "Nenne zwei Gründe, warum ein negativer Nachweis einen Stoff nicht sicher ausschließt.",
+      "hints": [
+        "Denke an Menge und Bedingungen."
+      ],
+      "solution": "Die Konzentration kann unter der Nachweisgrenze liegen. Die Bedingungen wie Temperatur, pH-Wert oder Reaktionszeit können ungeeignet sein, oder das Reagenz ist unbrauchbar.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "nennen"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.observation.selftest.hypothesis",
+      "title": "Hypothese formulieren",
+      "difficulty": "basic",
+      "prompt": "Formuliere eine prüfbare Hypothese zur Frage, ob eine Lösung Chlorid-Ionen enthält.",
+      "hints": [
+        "Nutze die Form „Wenn …, dann …“ und nenne eine erwartete Beobachtung."
+      ],
+      "solution": "Zum Beispiel: Wenn die Lösung Chlorid-Ionen enthält, bildet sich nach Ansäuern mit Salpetersäure und Zugabe von Silbernitrat-Lösung ein weißer Niederschlag.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "formulieren"
+      ],
+      "sourceLessonId": "chem.experimental.observation",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.qualitative.exercise.basic-limewater",
+      "title": "Kalkwasser deuten",
+      "difficulty": "basic",
+      "prompt": "Bei der Verbrennung von Ethanol entsteht ein Gas, das Kalkwasser trübt. Nenne das Gas und formuliere die Reaktionsgleichung für die Trübung.",
+      "hints": [
+        "Ethanol ist eine organische Verbindung mit Kohlenstoff-Atomen.",
+        "Die Trübung entsteht durch einen schwer löslichen Feststoff."
+      ],
+      "solution": "Das Gas ist Kohlenstoffdioxid. Im Kalkwasser bildet sich schwer lösliches Calciumcarbonat: Ca²⁺ + 2 OH⁻ + CO₂ → CaCO₃↓ + H₂O.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "benennen",
+        "formulieren"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.qualitative.exercise.basic-water",
+      "title": "Wasser nachweisen",
+      "difficulty": "basic",
+      "prompt": "Beschreibe, wie du nachweisen kannst, dass sich an einem kalten Becherglas über einer Kerzenflamme Wasser niederschlägt. Gib Beobachtung und Deutung an.",
+      "hints": [
+        "Ein weißes Salz ändert bei Kontakt mit Wasser seine Farbe."
+      ],
+      "solution": "Man bringt etwas wasserfreies, weißes Kupfer(II)-sulfat mit dem Beschlag in Kontakt. Beobachtung: Das Pulver färbt sich blau. Deutung: Es bildet sich das blaue Hydrat CuSO₄ · 5 H₂O, der Beschlag enthält also Wasser.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "beschreiben",
+        "deuten"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.qualitative.exercise.standard-carbonate",
+      "title": "Carbonat in Eierschalen",
+      "difficulty": "standard",
+      "prompt": "Eierschalen bestehen überwiegend aus Calciumcarbonat. Plane einen Nachweis für Carbonat in Eierschalen und formuliere für beide Schritte die Reaktionsgleichungen.",
+      "hints": [
+        "Der Nachweis besteht aus zwei aufeinanderfolgenden Reaktionen.",
+        "Das freigesetzte Gas muss selbst nachgewiesen werden."
+      ],
+      "solution": "Schritt 1: Zerkleinerte Eierschalen werden mit verdünnter Salzsäure versetzt; es tritt Gasentwicklung auf: CaCO₃ + 2 H₃O⁺ → Ca²⁺ + CO₂ + 3 H₂O. Schritt 2: Das Gas wird in Kalkwasser geleitet, das sich trübt: Ca²⁺ + 2 OH⁻ + CO₂ → CaCO₃↓ + H₂O. Erst beide Beobachtungen zusammen weisen auf Carbonat hin.",
+      "competencies": [
+        "E",
+        "S"
+      ],
+      "operators": [
+        "planen",
+        "formulieren"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.qualitative.exercise.standard-ammonium",
+      "title": "Ammonium-Ionen im Dünger",
+      "difficulty": "standard",
+      "prompt": "Ein Dünger soll auf Ammonium-Ionen untersucht werden. Man versetzt eine Probe mit Natronlauge, erwärmt leicht und hält angefeuchtetes Universalindikatorpapier darüber. Das Papier färbt sich blau. Erkläre die Beobachtung mit Reaktionsgleichungen.",
+      "hints": [
+        "Hydroxid-Ionen sind Protonenakzeptoren.",
+        "Das entweichende Gas reagiert im Wasser auf dem Papier."
+      ],
+      "solution": "Die Hydroxid-Ionen deprotonieren die Ammonium-Ionen; Ammoniak entweicht: NH₄⁺ + OH⁻ → NH₃ + H₂O. Im Wasser auf dem Indikatorpapier nimmt Ammoniak Protonen auf: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻. Die entstehenden Hydroxid-Ionen färben den Indikator blau. Da das Papier die Natronlauge nicht berührt, stammt die Färbung vom Gas.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erklären",
+        "formulieren"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.qualitative.exercise.transfer-halides",
+      "title": "Drei Halogenide unterscheiden",
+      "difficulty": "transfer",
+      "prompt": "Drei unbeschriftete Lösungen enthalten Natriumchlorid, Natriumbromid und Natriumiodid. Entwickle ein Vorgehen, mit dem du die Lösungen zuordnen kannst, und begründe, warum die Niederschlagsfarbe allein unsicher ist.",
+      "hints": [
+        "Die Silberhalogenide unterscheiden sich in Farbe und Löslichkeit in Ammoniak-Lösung.",
+        "Überlege, wie gut sich weiß und gelblich weiß unterscheiden lassen."
+      ],
+      "solution": "Jede Lösung mit verdünnter Salpetersäure ansäuern und Silbernitrat-Lösung zugeben. Silberchlorid fällt weiß, Silberbromid gelblich weiß, Silberiodid gelb aus. Da die Farben ähnlich sind und Silberchlorid sich im Licht dunkel färbt, gibt man anschließend verdünnte Ammoniak-Lösung zu den Niederschlägen: Silberchlorid löst sich, Silberbromid kaum, Silberiodid nicht. Die Kombination aus Farbe und Löslichkeit ermöglicht die Zuordnung.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "entwickeln",
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.qualitative.exercise.transfer-organic-halide",
+      "title": "Kein Niederschlag bei Chlorethan",
+      "difficulty": "transfer",
+      "prompt": "Gibt man Silbernitrat-Lösung zu einer Lösung von Chlorethan in Ethanol, entsteht zunächst kein Niederschlag. Nach längerem Erwärmen mit Wasser bildet sich langsam ein weißer Niederschlag. Erkläre beide Beobachtungen.",
+      "hints": [
+        "Unterscheide zwischen kovalent gebundenem Chlor und Chlorid-Ionen.",
+        "Beim Erwärmen mit Wasser kann eine Substitution ablaufen."
+      ],
+      "solution": "Im Chlorethan-Molekül ist das Chlor-Atom kovalent gebunden. Es liegen keine freien Chlorid-Ionen vor, deshalb fällt zunächst kein Silberchlorid aus. Beim Erwärmen mit Wasser wird das Chlor-Atom langsam nucleophil substituiert: C₂H₅Cl + H₂O → C₂H₅OH + H⁺ + Cl⁻. Die freigesetzten Chlorid-Ionen bilden mit den Silber-Ionen weißes Silberchlorid: Ag⁺ + Cl⁻ → AgCl↓.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "erklären",
+        "formulieren"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.qualitative.selftest.nitric-acid",
+      "title": "Warum Salpetersäure?",
+      "difficulty": "basic",
+      "prompt": "Warum säuert man vor dem Chlorid-Nachweis mit Salpetersäure und nicht mit Salzsäure an?",
+      "hints": [
+        "Prüfe, welche Ionen die Salzsäure mitbringt."
+      ],
+      "solution": "Das Ansäuern verhindert Niederschläge mit Carbonat- oder Hydroxid-Ionen. Salzsäure enthält selbst Chlorid-Ionen und würde den Nachweis immer positiv ausfallen lassen; Nitrat-Ionen stören nicht.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.qualitative.selftest.indicator-gas",
+      "title": "Indikatorpapier für Gase",
+      "difficulty": "basic",
+      "prompt": "Warum muss Universalindikatorpapier für den Nachweis eines Gases angefeuchtet werden?",
+      "hints": [
+        "Saure oder basische Wirkung zeigt sich erst in einer Reaktion mit Wasser."
+      ],
+      "solution": "Erst im Wasser auf dem Papier kann das Gas eine Protolyse eingehen und Oxonium- oder Hydroxid-Ionen bilden. Diese bewirken die Farbänderung des Indikators.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.qualitative.selftest.copper-sulfate",
+      "title": "Kupfer(II)-sulfat",
+      "difficulty": "basic",
+      "prompt": "Wasserfreies Kupfer(II)-sulfat färbt sich mit einer Flüssigkeit blau. Ist die Flüssigkeit damit als reines Wasser identifiziert?",
+      "hints": [
+        "Der Test spricht auf das Vorhandensein von Wasser an."
+      ],
+      "solution": "Nein. Der Test zeigt nur, dass Wasser enthalten ist. Auch wässrige Lösungen oder wasserhaltige Gemische färben das Salz blau.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen"
+      ],
+      "sourceLessonId": "chem.experimental.qualitative",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.organic-tests.exercise.basic-match",
+      "title": "Passenden Nachweis wählen",
+      "difficulty": "basic",
+      "prompt": "Ordne jedem Stoff einen geeigneten Nachweis zu und gib die Beobachtung bei positivem Verlauf an: (a) Propanal, (b) Stärke, (c) Hühnereiweiß, (d) Propen.",
+      "hints": [
+        "Bestimme zuerst das jeweilige Strukturmerkmal.",
+        "Für (c) eignet sich ein Nachweis für Peptidbindungen."
+      ],
+      "solution": "(a) Aldehydgruppe: Fehling-Probe, beim Erwärmen rotbrauner Niederschlag; alternativ Silberspiegel nach Tollens. (b) Iod-Kaliumiodid-Lösung: blauschwarze Färbung. (c) Biuret-Reaktion: violette Färbung. (d) C=C-Doppelbindung: Baeyer-Probe, die violette Lösung entfärbt sich und es entsteht ein brauner Niederschlag; alternativ Entfärbung von Bromwasser.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "zuordnen",
+        "angeben"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.organic-tests.exercise.basic-fehling",
+      "title": "Fehling-Probe beschreiben",
+      "difficulty": "basic",
+      "prompt": "Beschreibe die Durchführung der Fehling-Probe und die Beobachtung bei positivem Verlauf.",
+      "hints": [
+        "Fehling-Lösung wird aus zwei Teillösungen frisch gemischt.",
+        "Die Probe muss erwärmt werden."
+      ],
+      "solution": "Fehling-Lösung I (Kupfer(II)-sulfat-Lösung) und Fehling-Lösung II (alkalische Kaliumnatriumtartrat-Lösung) werden zu gleichen Teilen gemischt; es entsteht eine tiefblaue Lösung. Diese gibt man zur Probelösung und erwärmt im Wasserbad. Bei positivem Verlauf verschwindet die blaue Farbe zunehmend, und es bildet sich ein rotbrauner Niederschlag von Kupfer(I)-oxid.",
+      "competencies": [
+        "E",
+        "K"
+      ],
+      "operators": [
+        "beschreiben"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.organic-tests.exercise.standard-disaccharides",
+      "title": "Maltose und Saccharose",
+      "difficulty": "standard",
+      "prompt": "Maltose reagiert bei der Fehling-Probe positiv, Saccharose negativ. Erkläre den Unterschied mit dem Bau der beiden Disaccharide.",
+      "hints": [
+        "Untersuche, welche anomeren C-Atome an der glycosidischen Bindung beteiligt sind.",
+        "Nur eine freie Halbacetalgruppe kann sich zur offenkettigen Form öffnen."
+      ],
+      "solution": "In Maltose sind zwei Glucose-Einheiten α-1,4-glycosidisch verknüpft. Das anomere C-Atom der zweiten Glucose-Einheit bleibt frei. Diese Halbacetalgruppe kann sich öffnen und bildet eine Aldehydgruppe, die Cu²⁺ reduziert. In Saccharose sind das anomere C-Atom C1 der Glucose und das anomere C-Atom C2 der Fructose gemeinsam an der glycosidischen Bindung beteiligt. Es gibt keine freie Halbacetalgruppe, keine Ringöffnung und daher keine reduzierende Wirkung.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "erklären"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.organic-tests.exercise.standard-protein",
+      "title": "Zwei Proteinnachweise auswerten",
+      "difficulty": "standard",
+      "prompt": "Eine Probe ergibt bei der Biuret-Reaktion eine violette Färbung, bei der Xanthoprotein-Reaktion aber keine Gelbfärbung. Deute die beiden Ergebnisse.",
+      "hints": [
+        "Die beiden Proben sprechen auf unterschiedliche Strukturmerkmale an."
+      ],
+      "solution": "Die Biuret-Reaktion zeigt mindestens zwei Peptidbindungen an; die Probe enthält also Peptide oder Proteine. Die Xanthoprotein-Reaktion spricht auf aromatische Seitenketten an. Ihr negativer Verlauf spricht dafür, dass das Peptid keine oder nur sehr wenige aromatische Aminosäure-Reste wie Phenylalanin oder Tyrosin enthält.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "deuten"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.organic-tests.exercise.transfer-unknown",
+      "title": "Zwei Isomere mit der Formel C₃H₆O",
+      "difficulty": "transfer",
+      "prompt": "Zwei Flüssigkeiten besitzen die Summenformel C₃H₆O. Es handelt sich um Propanal und Propanon. Entwickle einen Nachweis zur Zuordnung, formuliere die Reaktionsgleichung für den positiven Fall und begründe das unterschiedliche Verhalten.",
+      "hints": [
+        "Aldehyde und Ketone unterscheiden sich in ihrer Oxidierbarkeit.",
+        "Nutze die vereinfachte Gleichung der Fehling-Probe."
+      ],
+      "solution": "Beide Flüssigkeiten werden der Fehling-Probe unterzogen, mit Blindprobe. Propanal besitzt eine Aldehydgruppe mit einem H-Atom am Carbonyl-C und wird zur Propansäure oxidiert; es entsteht ein rotbrauner Niederschlag: CH₃CH₂CHO + 2 Cu²⁺ + 5 OH⁻ → CH₃CH₂COO⁻ + Cu₂O + 3 H₂O. Propanon ist ein Keton; am Carbonyl-C sitzt kein H-Atom, unter diesen milden Bedingungen findet keine Oxidation statt, die Lösung bleibt blau.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "entwickeln",
+        "formulieren",
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.organic-tests.exercise.transfer-formic-acid",
+      "title": "Silberspiegel mit Methansäure",
+      "difficulty": "transfer",
+      "prompt": "Methansäure ist eine Carbonsäure, reagiert aber bei der Silberspiegel-Probe positiv. Erkläre diese Beobachtung mit der Molekülstruktur und formuliere die Reaktionsgleichung für die alkalische Lösung mit dem Methanoat-Ion.",
+      "hints": [
+        "Zeichne die Strukturformel von Methansäure und vergleiche sie mit einem Aldehyd.",
+        "In alkalischer Lösung entsteht aus Kohlenstoffdioxid Carbonat."
+      ],
+      "solution": "Im Methansäure-Molekül H–COOH ist an das Carbonyl-C ein H-Atom gebunden. Das Molekül enthält damit eine Struktur wie eine Aldehydgruppe und lässt sich weiter oxidieren. Das C-Atom wird von der Oxidationszahl +II auf +IV oxidiert, die Silber-Ionen werden zu Silber reduziert: HCOO⁻ + 2 [Ag(NH₃)₂]⁺ + 3 OH⁻ → CO₃²⁻ + 2 Ag + 4 NH₃ + 2 H₂O.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "erklären",
+        "formulieren"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.organic-tests.selftest.saccharose",
+      "title": "Saccharose und Fehling",
+      "difficulty": "basic",
+      "prompt": "Wie fällt die Fehling-Probe mit Saccharose aus, und warum?",
+      "hints": [
+        "Prüfe, ob eine freie Halbacetalgruppe vorliegt."
+      ],
+      "solution": "Negativ. Beide anomeren C-Atome sind an der glycosidischen Bindung beteiligt; es gibt keine freie Halbacetalgruppe und keine offenkettige Form mit Carbonylgruppe.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "angeben",
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.organic-tests.selftest.starch",
+      "title": "Iod-Stärke beim Erwärmen",
+      "difficulty": "basic",
+      "prompt": "Was beobachtest du, wenn du eine blau gefärbte Iod-Stärke-Lösung erwärmst und wieder abkühlst? Deute kurz.",
+      "hints": [
+        "Die Färbung hängt von der Helixstruktur der Amylose ab."
+      ],
+      "solution": "Beim Erwärmen verschwindet die Blaufärbung, beim Abkühlen kehrt sie zurück. Die Amylose-Helix öffnet sich in der Wärme und gibt die eingelagerten Polyiodid-Ionen frei; beim Abkühlen bildet sie sich neu.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "beschreiben",
+        "deuten"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.organic-tests.selftest.biuret",
+      "title": "Biuret und Dipeptid",
+      "difficulty": "basic",
+      "prompt": "Ein Dipeptid ergibt keinen positiven Biuret-Test. Ist der Versuch fehlgeschlagen?",
+      "hints": [
+        "Zähle die Peptidbindungen."
+      ],
+      "solution": "Nein. Ein Dipeptid hat nur eine Peptidbindung; für den violetten Komplex sind mindestens zwei Peptidbindungen nötig.",
+      "competencies": [
+        "S",
+        "B"
+      ],
+      "operators": [
+        "beurteilen"
+      ],
+      "sourceLessonId": "chem.experimental.organic-tests",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.separation.exercise.basic-setup",
+      "title": "Destillationsapparatur",
+      "difficulty": "basic",
+      "prompt": "Nenne die Aufgabe von (a) Siedesteinchen, (b) der Thermometerkugel auf Höhe des seitlichen Abgangs und (c) dem Kühlwasser, das unten in den Kühler eintritt.",
+      "hints": [
+        "Überlege jeweils, welches Problem ohne das Bauteil auftreten würde."
+      ],
+      "solution": "(a) Siedesteinchen verhindern einen Siedeverzug und sorgen für gleichmäßiges Sieden. (b) Die Thermometerkugel misst so die Temperatur des Dampfes, der tatsächlich in den Kühler gelangt. (c) Im Gegenstrom ist der Kühler vollständig mit Wasser gefüllt, und das kälteste Wasser kühlt den bereits abgekühlten Dampf am Kühlerende; so wird der Dampf vollständig kondensiert.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "nennen"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.separation.exercise.basic-rf",
+      "title": "Rf-Wert berechnen",
+      "difficulty": "basic",
+      "prompt": "Die Laufmittelfront liegt 6,5 cm über der Startlinie, ein Fleck 4,2 cm. Berechne den Rf-Wert.",
+      "hints": [
+        "Rf = s(Stoff) / s(Front)."
+      ],
+      "solution": "Rf = 4,2 cm / 6,5 cm ≈ 0,65.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "berechnen"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.separation.exercise.standard-boiling",
+      "title": "Siedetemperaturen erklären",
+      "difficulty": "standard",
+      "prompt": "Butan (M ≈ 58 g/mol) siedet bei etwa −1 °C, Propanon (M ≈ 58 g/mol) bei 56 °C und Propan-1-ol (M ≈ 60 g/mol) bei 97 °C. Erkläre die Reihenfolge mit den zwischenmolekularen Kräften.",
+      "hints": [
+        "Die molaren Massen sind ähnlich, die Van-der-Waals-Kräfte also vergleichbar.",
+        "Prüfe für jeden Stoff, ob Dipole oder Wasserstoffbrücken möglich sind."
+      ],
+      "solution": "Bei ähnlicher Molekülgröße unterscheiden sich vor allem die zusätzlichen Kräfte. Butan ist unpolar; zwischen den Molekülen wirken nur Van-der-Waals-Kräfte, daher die niedrigste Siedetemperatur. Propanon besitzt eine polare Carbonylgruppe; zusätzlich wirken Dipol-Dipol-Kräfte. Propan-1-ol besitzt eine Hydroxygruppe und bildet Wasserstoffbrücken, die stärksten der drei zwischenmolekularen Kräfte; es siedet am höchsten.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "erklären"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.separation.exercise.standard-melting",
+      "title": "Schmelzbereich beurteilen",
+      "difficulty": "standard",
+      "prompt": "Für den reinen Stoff X gibt die Literatur eine Schmelztemperatur von 122 °C an. Ein im Labor hergestelltes Produkt schmilzt zwischen 114 °C und 119 °C. Beurteile die Reinheit des Produkts und schlage eine Maßnahme vor.",
+      "hints": [
+        "Vergleiche Lage und Breite des Schmelzbereichs mit dem Literaturwert."
+      ],
+      "solution": "Der Schmelzbereich liegt deutlich unter dem Literaturwert und ist mit 5 K breit. Beides spricht für ein verunreinigtes Produkt. Man kann es reinigen, zum Beispiel durch Umkristallisieren, und den Schmelzbereich erneut bestimmen. Ein enger Schmelzbereich nahe 122 °C spräche dann für ein reines Produkt.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.separation.exercise.transfer-equilibrium",
+      "title": "Ester abdestillieren?",
+      "difficulty": "transfer",
+      "prompt": "Ethansäure (Siedetemperatur 118 °C) und Ethanol (78 °C) reagieren im Gleichgewicht zu Ethylethanoat (77 °C) und Wasser (100 °C). Jemand schlägt vor, die Ausbeute zu erhöhen, indem man den Ester während der Reaktion abdestilliert. Prüfe diesen Vorschlag.",
+      "hints": [
+        "Wende das Prinzip von Le Chatelier an.",
+        "Vergleiche die Siedetemperatur des Esters mit denen der anderen Stoffe."
+      ],
+      "solution": "Prinzipiell ist der Vorschlag sinnvoll: Entfernt man ein Produkt, sinkt seine Konzentration, und das Gleichgewicht verschiebt sich nach Le Chatelier zu den Produkten. Der Ester ist auch der am niedrigsten siedende Stoff. Seine Siedetemperatur liegt aber nur etwa 1 K unter der von Ethanol. Beim Abdestillieren geht daher auch das Edukt Ethanol über, was dem gewünschten Effekt entgegenwirkt. Eine wirksame Umsetzung erfordert eine fraktionierte Destillation oder einen Ethanol-Überschuss.",
+      "competencies": [
+        "S",
+        "B"
+      ],
+      "operators": [
+        "prüfen",
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.separation.exercise.transfer-tlc",
+      "title": "Aminosäuren per DC vergleichen",
+      "difficulty": "transfer",
+      "prompt": "Ein Gemisch aus Aminosäuren soll per Dünnschichtchromatografie untersucht werden. Begründe drei Arbeitsschritte: Startlinie mit Bleistift, Startlinie oberhalb des Laufmittelspiegels, Referenzsubstanzen auf derselben Platte. Erläutere außerdem, wie die farblosen Aminosäuren sichtbar werden.",
+      "hints": [
+        "Tinte enthält selbst Farbstoffe.",
+        "Rf-Werte hängen von den Bedingungen ab."
+      ],
+      "solution": "Bleistift-Graphit wandert nicht mit, Tintenfarbstoffe würden mitlaufen und das Chromatogramm stören. Läge die Startlinie unter dem Laufmittelspiegel, würden sich die Proben im Laufmittel der Kammer lösen statt in der Schicht aufzusteigen. Referenzsubstanzen auf derselben Platte erleben dieselben Bedingungen; nur so sind Rf-Werte direkt vergleichbar. Zum Sichtbarmachen besprüht man die getrocknete Platte mit Ninhydrin-Lösung und erwärmt; die Aminosäuren erscheinen meist als violette Flecken.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "begründen",
+        "erläutern"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.separation.selftest.thermometer",
+      "title": "Thermometerposition",
+      "difficulty": "basic",
+      "prompt": "Warum taucht das Thermometer bei einer Destillation nicht in die siedende Flüssigkeit ein?",
+      "hints": [
+        "Gesucht ist die Temperatur dessen, was destilliert."
+      ],
+      "solution": "Gemessen werden soll die Temperatur des Dampfes, der in den Kühler gelangt. Sie zeigt an, welcher Stoff gerade übergeht; die Flüssigkeit im Kolben kann heißer sein.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.separation.selftest.fractions",
+      "title": "Erdölfraktionen",
+      "difficulty": "basic",
+      "prompt": "Ist eine Erdölfraktion wie Benzin ein Reinstoff?",
+      "hints": [
+        "Fraktionen werden nach Siedebereichen aufgefangen."
+      ],
+      "solution": "Nein. Eine Fraktion ist ein Gemisch vieler Stoffe mit ähnlichen Siedetemperaturen in einem bestimmten Siedebereich.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "beurteilen"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.separation.selftest.rf-range",
+      "title": "Rf-Wert über 1?",
+      "difficulty": "basic",
+      "prompt": "Eine Auswertung ergibt Rf = 1,2. Was ist falsch gelaufen?",
+      "hints": [
+        "Kein Stoff kann weiter wandern als das Laufmittel."
+      ],
+      "solution": "Ein Rf-Wert kann höchstens 1 sein. Vermutlich wurden die Strecken vertauscht oder nicht beide von der Startlinie aus gemessen.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "überprüfen"
+      ],
+      "sourceLessonId": "chem.experimental.separation",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.quantitative.exercise.basic-naoh",
+      "title": "Natronlauge titrieren",
+      "difficulty": "basic",
+      "prompt": "20,00 mL Natronlauge werden mit Salzsäure der Konzentration 0,200 mol·L⁻¹ titriert. Bis zum Äquivalenzpunkt werden 15,00 mL verbraucht. Berechne die Konzentration der Natronlauge.",
+      "hints": [
+        "Oxonium- und Hydroxid-Ionen reagieren im Verhältnis 1 : 1.",
+        "Rechne die Volumina in Liter um."
+      ],
+      "solution": "n(H₃O⁺) = 0,200 mol·L⁻¹ · 0,01500 L = 3,000 · 10⁻³ mol. Wegen H₃O⁺ + OH⁻ → 2 H₂O gilt n(OH⁻) = 3,000 · 10⁻³ mol. c(NaOH) = 3,000 · 10⁻³ mol / 0,02000 L = 0,150 mol·L⁻¹.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "berechnen"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.quantitative.exercise.basic-indicator",
+      "title": "Indikator auswählen",
+      "difficulty": "basic",
+      "prompt": "Ethansäure-Lösung soll mit Natronlauge titriert werden. Zur Auswahl stehen Methylorange (Umschlagsbereich pH 3,1 bis 4,4) und Phenolphthalein (pH 8,2 bis 10). Begründe, welcher Indikator geeignet ist.",
+      "hints": [
+        "Überlege, in welchem pH-Bereich der Äquivalenzpunkt bei einer schwachen Säure liegt."
+      ],
+      "solution": "Am Äquivalenzpunkt liegt eine Natriumethanoat-Lösung vor. Die Ethanoat-Ionen reagieren als schwache Base mit Wasser, der pH-Wert liegt im alkalischen Bereich. Der Umschlagsbereich von Phenolphthalein liegt im steilen Teil der Kurve um diesen Punkt; Phenolphthalein ist geeignet. Methylorange würde schon weit vor dem Äquivalenzpunkt umschlagen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "begründen"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.quantitative.exercise.standard-sulfur-dioxide",
+      "title": "Schwefeldioxid im Wein",
+      "difficulty": "standard",
+      "prompt": "50,0 mL Weißwein werden nach Zusatz von Stärke-Lösung mit Iod-Lösung (c = 0,0100 mol·L⁻¹) bis zur bleibenden Blaufärbung titriert. Verbrauch: 7,50 mL. Berechne die Massenkonzentration an Schwefeldioxid in mg·L⁻¹ (M(SO₂) = 64,07 g·mol⁻¹) und erläutere die Rolle der Stärke.",
+      "hints": [
+        "SO₂ + I₂ + 2 H₂O → SO₄²⁻ + 2 I⁻ + 4 H⁺",
+        "Rechne zuerst die Masse in 50,0 mL aus und dann auf einen Liter um."
+      ],
+      "solution": "n(I₂) = 0,0100 mol·L⁻¹ · 0,00750 L = 7,50 · 10⁻⁵ mol = n(SO₂). m(SO₂) = 7,50 · 10⁻⁵ mol · 64,07 g·mol⁻¹ ≈ 4,81 · 10⁻³ g = 4,81 mg in 50,0 mL. β(SO₂) = 4,81 mg / 0,0500 L ≈ 96 mg·L⁻¹. Solange Schwefeldioxid vorhanden ist, wird das zugetropfte Iod sofort reduziert. Erst nach dem Äquivalenzpunkt bleibt freies Iod übrig und färbt die Stärke blau.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "erläutern"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.quantitative.exercise.standard-permanganate",
+      "title": "Eisen(II)-Ionen mit Permanganat",
+      "difficulty": "standard",
+      "prompt": "25,00 mL einer Eisen(II)-sulfat-Lösung werden angesäuert und mit Kaliumpermanganat-Lösung (c = 0,0200 mol·L⁻¹) titriert. Verbrauch: 18,00 mL. Berechne c(Fe²⁺) und beschreibe, woran man den Endpunkt erkennt.",
+      "hints": [
+        "MnO₄⁻ + 5 Fe²⁺ + 8 H⁺ → Mn²⁺ + 5 Fe³⁺ + 4 H₂O",
+        "Kaliumpermanganat-Lösung ist intensiv violett."
+      ],
+      "solution": "n(MnO₄⁻) = 0,0200 mol·L⁻¹ · 0,01800 L = 3,60 · 10⁻⁴ mol. n(Fe²⁺) = 5 · 3,60 · 10⁻⁴ mol = 1,80 · 10⁻³ mol. c(Fe²⁺) = 1,80 · 10⁻³ mol / 0,02500 L = 0,0720 mol·L⁻¹. Solange Fe²⁺ vorliegt, wird das violette Permanganat zu fast farblosem Mn²⁺ reduziert. Der Endpunkt ist erreicht, wenn eine schwache Rosafärbung bestehen bleibt.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "beschreiben"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.quantitative.exercise.transfer-iodine-value",
+      "title": "Zwei Öle vergleichen",
+      "difficulty": "transfer",
+      "prompt": "Bei der Iodzahl-Bestimmung von Öl A (m = 0,200 g) werden 17,10 mL Thiosulfat-Lösung (c = 0,100 mol·L⁻¹) verbraucht, beim Blindwert 25,00 mL. Öl B hat die Iodzahl 120. Berechne die Iodzahl von Öl A und vergleiche die beiden Öle hinsichtlich ihrer Fettsäure-Reste.",
+      "hints": [
+        "IZ = (V_Blind − V_Probe) · c(S₂O₃²⁻) · ½ · M(I₂) · 100 / m(Fett) mit M(I₂) = 253,8 g·mol⁻¹.",
+        "Die Iodzahl ist ein Maß für C=C-Doppelbindungen."
+      ],
+      "solution": "ΔV = 25,00 mL − 17,10 mL = 7,90 mL. n(S₂O₃²⁻) = 7,90 · 10⁻⁴ mol, n(I₂) = 3,95 · 10⁻⁴ mol, m(I₂) = 3,95 · 10⁻⁴ mol · 253,8 g·mol⁻¹ ≈ 0,100 g. IZ = 0,100 g / 0,200 g · 100 ≈ 50. Öl B bindet pro 100 g mehr als doppelt so viel Iod; es enthält deutlich mehr C=C-Doppelbindungen, also einen höheren Anteil ungesättigter Fettsäure-Reste.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "berechnen",
+        "vergleichen"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.quantitative.exercise.transfer-errors",
+      "title": "Auswirkung von Fehlern",
+      "difficulty": "transfer",
+      "prompt": "Bei einer Säure-Base-Titration passieren folgende Fehler: (a) Die Bürette wurde nur mit Wasser gespült und dann mit Maßlösung gefüllt. (b) Der Farbumschlag wird um mehrere Tropfen überschritten. (c) Eine Luftblase in der Bürettenspitze entweicht während der Titration. Beurteile jeweils, ob die berechnete Konzentration der Probe zu hoch oder zu niedrig ausfällt.",
+      "hints": [
+        "Überlege jeweils, ob das abgelesene Volumen größer oder kleiner ist als das Volumen, das tatsächlich reagiert hat.",
+        "Ein größeres Volumen der Maßlösung führt bei der Berechnung zu einer größeren Stoffmenge."
+      ],
+      "solution": "(a) Restwasser verdünnt die Maßlösung; es wird mehr Volumen verbraucht, die berechnete Konzentration ist zu hoch. (b) Es wird mehr Maßlösung abgelesen als bis zum Äquivalenzpunkt nötig; das Ergebnis ist zu hoch. (c) Das Volumen der entweichenden Luftblase wird als verbrauchte Maßlösung abgelesen, obwohl es keine Lösung war; das Ergebnis ist zu hoch. Alle drei sind systematische Fehler.",
+      "competencies": [
+        "E",
+        "B"
+      ],
+      "operators": [
+        "beurteilen"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "exercise"
+    },
+    {
+      "id": "chem.experimental.quantitative.selftest.equivalence",
+      "title": "Äquivalenzpunkt und Endpunkt",
+      "difficulty": "basic",
+      "prompt": "Worin unterscheiden sich Äquivalenzpunkt und Endpunkt einer Titration?",
+      "hints": [
+        "Einer ist durch die Stöchiometrie festgelegt, der andere durch eine Anzeige."
+      ],
+      "solution": "Am Äquivalenzpunkt haben die Stoffe genau im stöchiometrischen Verhältnis reagiert. Der Endpunkt ist der Punkt, an dem man aufgrund eines Farbumschlags oder einer Messung aufhört; er soll möglichst mit dem Äquivalenzpunkt übereinstimmen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "unterscheiden"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.quantitative.selftest.starch",
+      "title": "Stärke als Indikator",
+      "difficulty": "basic",
+      "prompt": "Wozu setzt man bei Titrationen mit Iod Stärke-Lösung zu?",
+      "hints": [
+        "Denke an die Iod-Stärke-Reaktion."
+      ],
+      "solution": "Stärke zeigt freies Iod durch eine Blaufärbung an. So erkennt man genau, wann Iod im Überschuss vorliegt oder vollständig verbraucht ist.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "erläutern"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "selfTest"
+    },
+    {
+      "id": "chem.experimental.quantitative.selftest.blank",
+      "title": "Blindwert",
+      "difficulty": "basic",
+      "prompt": "Welche Information liefert der Blindwert bei einer Rücktitration?",
+      "hints": [
+        "Der Ansatz enthält alles außer der Probe."
+      ],
+      "solution": "Er gibt an, wie viel Maßlösung der gesamten eingesetzten Reagenzmenge entspricht. Die Differenz zum Verbrauch der Probe entspricht der Menge, die mit der Probe reagiert hat.",
+      "competencies": [
+        "E"
+      ],
+      "operators": [
+        "erläutern"
+      ],
+      "sourceLessonId": "chem.experimental.quantitative",
+      "sourceKind": "selfTest"
     }
   ]
 }
