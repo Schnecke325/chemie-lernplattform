@@ -21,25 +21,23 @@
   ],
   "prerequisites": [
     "chem.basics.quantities",
-    "chem.basics.data",
-    "chem.q3.1.mwg"
+    "chem.basics.data"
   ],
   "learningGoals": [
     {
       "id": "chem.q4.1.enthalpy.goal.fundamentals",
-      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "statement": "Ich kann System, Umgebung und Systemarten unterscheiden und erklären, warum die Reaktionsenthalpie bei konstantem Druck der ausgetauschten Wärme entspricht.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
-        "erläutern",
-        "beschreiben"
+        "beschreiben",
+        "erklären"
       ]
     },
     {
       "id": "chem.q4.1.enthalpy.goal.calculate",
-      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "statement": "Ich kann aus kalorimetrischen Messdaten die Wärme und die molare Reaktionsenthalpie mit richtigem Vorzeichen berechnen.",
       "competencies": [
         "S",
         "E"
@@ -51,7 +49,7 @@
     },
     {
       "id": "chem.q4.1.enthalpy.goal.material",
-      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "statement": "Ich kann Energiediagramme und Temperaturmessungen auswerten und daraus ableiten, ob eine Reaktion exotherm oder endotherm ist.",
       "competencies": [
         "E",
         "K"
@@ -63,62 +61,97 @@
     },
     {
       "id": "chem.q4.1.enthalpy.goal.evaluate",
-      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "statement": "Ich kann Abweichungen zwischen Mess- und Literaturwert auf konkrete Fehlerquellen zurückführen und einen Kalorimeteraufbau beurteilen.",
       "competencies": [
-        "B",
-        "K"
+        "E",
+        "B"
       ],
       "operators": [
-        "bewerten",
+        "erläutern",
         "beurteilen"
       ]
     }
   ],
-  "introduction": "Bei einer Reaktion wird Energie zwischen System und Umgebung übertragen. Kalorimetrie macht diese Änderung über Temperaturmessungen zugänglich.",
-  "explanation": "Exotherme Reaktionen geben Energie an die Umgebung ab; für das betrachtete System ist ΔH < 0. Endotherme Reaktionen nehmen Energie auf; ΔH > 0. Bei konstantem Druck entspricht die Reaktionsenthalpie der ausgetauschten Wärme. Im Kalorimeter gilt näherungsweise q= m·c·ΔT. Achte auf die Definition, ob q für Lösung, Reaktionssystem oder Kalorimeter angegeben wird: deren Vorzeichen unterscheiden sich.\n\nDie molare Reaktionsenthalpie erhältst du aus q und der umgesetzten Stoffmenge. Wärmeverluste, Wärmekapazität des Gefäßes und unvollständige Reaktion sind mögliche systematische Fehler.",
+  "introduction": "Bei fast jeder chemischen Reaktion wird Energie mit der Umgebung ausgetauscht: Ein Teelicht erwärmt die Luft, ein Kältepack kühlt die Haut. Damit du diese Energie messen und vergleichen kannst, brauchst du klare Begriffe für System und Umgebung, eine Vorzeichenregel und ein Messverfahren – die Kalorimetrie.",
+  "explanation": "### 1. System und Umgebung\n\nDas System ist der Teil der Welt, den du betrachtest, zum Beispiel die reagierenden Stoffe in einem Becherglas. Alles andere ist die Umgebung, also auch das Wasser im Kalorimeter, das Gefäß und die Luft. Nach dem Stoff- und Energieaustausch mit der Umgebung unterscheidet man drei Systemarten: Ein offenes System tauscht Stoffe und Energie aus (offenes Becherglas). Ein geschlossenes System tauscht nur Energie aus (verschlossener Kolben). Ein isoliertes System tauscht weder Stoffe noch Energie aus; ein gut isoliertes Kalorimeter kommt diesem Idealfall nahe.\n\n### 2. Innere Energie und Enthalpie\n\nDie innere Energie U ist die gesamte Energie eines Systems, etwa in Bewegung der Teilchen und in chemischen Bindungen. Ihren Absolutwert kann man nicht messen, wohl aber ihre Änderung. Nach dem Energieerhaltungssatz (1. Hauptsatz) gilt ΔU = Q + W: Die innere Energie ändert sich um die ausgetauschte Wärme Q und die verrichtete Arbeit W. Beide zählen positiv, wenn sie dem System zugeführt werden.\n\nViele Reaktionen laufen in offenen Gefäßen bei konstantem Luftdruck ab. Entsteht dabei ein Gas, schiebt das System die Atmosphäre ein Stück weg und verrichtet Volumenarbeit. Damit man diese Arbeit nicht jedes Mal getrennt berechnen muss, verwendet man die Enthalpie H = U + p·V. Bei konstantem Druck und ohne andere Arbeit als Volumenarbeit gilt ΔH = Q_p: Die Enthalpieänderung entspricht genau der ausgetauschten Wärme.\n\n### 3. Exotherm und endotherm\n\nDie Reaktionsenthalpie ΔrH gibt an, wie sich die Enthalpie des Systems bei einem Formelumsatz der angegebenen Reaktionsgleichung ändert, zum Beispiel in kJ·mol⁻¹. Gibt das System Wärme an die Umgebung ab, sinkt seine Enthalpie: ΔrH < 0, die Reaktion ist exotherm. Nimmt das System Wärme auf, ist ΔrH > 0 und die Reaktion endotherm. Das Vorzeichen bezieht sich immer auf das System, nicht auf die Umgebung.\n\nIm Energiediagramm liegen die Produkte einer exothermen Reaktion tiefer als die Edukte. Auf Teilchenebene lässt sich der Wert grob deuten: Das Spalten von Bindungen erfordert Energie, das Knüpfen neuer Bindungen setzt Energie frei. Überwiegt die Energie aus der Bindungsbildung, ist die Reaktion exotherm. Die Standardreaktionsenthalpie ΔrH° bezieht sich auf den Standarddruck p° = 1 bar (manche Schulbücher verwenden 1013 hPa) und auf Stoffe in ihrem Standardzustand. Tabellenwerte gelten meist für 25 °C (298 K).\n\n### 4. Kalorimetrie\n\nIn einem Kalorimeter läuft die Reaktion in einer abgewogenen Wassermenge oder verdünnten Lösung ab. Du misst die Temperaturänderung und berechnest die vom Kalorimeterinhalt aufgenommene Wärme mit Q = m·c·ΔT. Für verdünnte wässrige Lösungen setzt man näherungsweise die spezifische Wärmekapazität von Wasser ein, c = 4,18 J·g⁻¹·K⁻¹, und für m die Masse der gesamten Lösung. Nimmt das Gefäß selbst merklich Wärme auf, ergänzt man die Kalorimeterkonstante C_K: Q = (m·c + C_K)·ΔT.\n\nDie Wärme, die der Kalorimeterinhalt aufnimmt, hat das Reaktionssystem abgegeben. Deshalb gilt für die molare Reaktionsenthalpie ΔrH = −Q_Umgebung / n. Für n setzt du die Stoffmenge ein, die dem Formelumsatz entspricht, meist die des vollständig umgesetzten Edukts. Steigt die Temperatur, ist Q_Umgebung positiv und ΔrH negativ.\n\n### 5. Fehlerquellen und Modellgrenzen\n\nDie einfache Rechnung nimmt an, dass keine Wärme verloren geht, dass das Gefäß nichts aufnimmt und dass die Reaktion vollständig abläuft. In realen Versuchen geht Wärme an Luft und Gefäß verloren, die Temperatur wird zu früh oder zu spät abgelesen, oder ein Teil des Stoffs reagiert nicht. Solche Fehler machen den gemessenen Betrag von ΔrH meist kleiner als den Literaturwert. Bei Verbrennungen in einfachen Aufbauten (Brenner unter einer Wasserdose) ist der Wärmeverlust besonders groß, bei Neutralisationen in einem isolierten Becher deutlich kleiner.",
   "fundamentals": [
     {
-      "term": "Energieumsatz, Enthalpie und Kalorimetrie",
-      "explanation": "Bei einer Reaktion wird Energie zwischen System und Umgebung übertragen. Kalorimetrie macht diese Änderung über Temperaturmessungen zugänglich."
+      "term": "System und Umgebung",
+      "explanation": "Das System ist der betrachtete Ausschnitt, meist die reagierenden Stoffe; die Umgebung ist alles außerhalb, etwa Wasser, Gefäß und Luft."
     },
     {
-      "term": "Modellgrenze",
-      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+      "term": "Offenes, geschlossenes und isoliertes System",
+      "explanation": "Offen: Stoff- und Energieaustausch; geschlossen: nur Energieaustausch; isoliert: weder Stoff- noch Energieaustausch."
     },
     {
-      "term": "AFB III",
-      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+      "term": "Innere Energie U",
+      "explanation": "Gesamte Energie eines Systems; messbar ist nur ihre Änderung ΔU = Q + W."
+    },
+    {
+      "term": "Enthalpie H",
+      "explanation": "H = U + p·V. Bei konstantem Druck entspricht ΔH der mit der Umgebung ausgetauschten Wärme."
+    },
+    {
+      "term": "Reaktionsenthalpie ΔrH",
+      "explanation": "Enthalpieänderung des Systems je Formelumsatz der angegebenen Gleichung; negativ bei exothermen, positiv bei endothermen Reaktionen."
+    },
+    {
+      "term": "Spezifische Wärmekapazität c",
+      "explanation": "Wärme, die 1 g eines Stoffs um 1 K erwärmt; für Wasser 4,18 J·g⁻¹·K⁻¹."
+    },
+    {
+      "term": "Kalorimeterkonstante C_K",
+      "explanation": "Wärmekapazität des Kalorimetergefäßes mit Rührer und Thermometer in J·K⁻¹; wird durch einen Eichversuch bestimmt."
     }
   ],
   "equations": [
     {
       "id": "chem.q4.1.enthalpy.eq.1",
-      "notation": "q = m · c · ΔT; ΔH_m = −q_Umgebung / n",
-      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+      "notation": "Q = m · c · ΔT",
+      "explanation": "Wärme, die eine Wasser- oder Lösungsmasse m bei der Temperaturänderung ΔT aufnimmt (ΔT > 0) oder abgibt (ΔT < 0)."
+    },
+    {
+      "id": "chem.q4.1.enthalpy.eq.2",
+      "notation": "Q = (m · c + C_K) · ΔT",
+      "explanation": "Wie oben, aber einschließlich der Wärme, die das Kalorimetergefäß aufnimmt."
+    },
+    {
+      "id": "chem.q4.1.enthalpy.eq.3",
+      "notation": "ΔrH = −Q_Umgebung / n",
+      "explanation": "Molare Reaktionsenthalpie des Systems; das Minuszeichen wechselt von der Sicht der Umgebung zur Sicht des Systems."
+    },
+    {
+      "id": "chem.q4.1.enthalpy.eq.4",
+      "notation": "ΔU = Q + W;  ΔH = Q_p (bei konstantem Druck)",
+      "explanation": "Energieerhaltung für das System; bei konstantem Druck fasst die Enthalpie Wärme und Volumenarbeit zusammen."
     }
   ],
-  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "equationNote": "Setze Q in J, m in g, c in J·g⁻¹·K⁻¹ und ΔT in K ein. Eine Temperaturdifferenz hat in K und °C denselben Zahlenwert. Gib ΔrH in kJ·mol⁻¹ an und nenne die Reaktionsgleichung, auf die sich der Wert bezieht: Verdoppelst du die Koeffizienten, verdoppelt sich auch ΔrH.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q4.1.enthalpy.example.1",
-      "title": "Lösung erwärmen",
-      "prompt": "100 g Wasser erwärmen sich um 4,0 K. c=4,18 J g⁻¹ K⁻¹. Berechne q für das Wasser.",
+      "title": "Verbrennungsenthalpie von Ethanol abschätzen",
+      "prompt": "In einem einfachen Brennerkalorimeter verbrennen 0,46 g Ethanol (M = 46,07 g·mol⁻¹). 200 g Wasser erwärmen sich dabei um 12,0 K. Berechne die molare Verbrennungsenthalpie und vergleiche mit dem Literaturwert von −1367 kJ·mol⁻¹.",
       "steps": [
-        "q=100·4,18·4,0=1672 J≈1,7 kJ",
-        "Das Wasser nimmt Wärme auf; das Reaktionssystem gibt sie bei idealer Wärmeübertragung ab."
+        "Wärme des Wassers: Q = 200 g · 4,18 J·g⁻¹·K⁻¹ · 12,0 K = 10 032 J ≈ 10,0 kJ.",
+        "Stoffmenge Ethanol: n = 0,46 g / 46,07 g·mol⁻¹ ≈ 0,00998 mol.",
+        "Das Wasser hat Wärme aufgenommen, das System hat sie abgegeben. Für die Verbrennungsenthalpie gilt ΔcH = −10,0 kJ / 0,00998 mol ≈ −1,0·10³ kJ·mol⁻¹.",
+        "Der Betrag liegt gut ein Viertel unter dem Literaturwert. Hauptursache sind Wärmeverluste an Luft und Dose sowie eine unvollständige Verbrennung (Ruß)."
       ],
-      "result": "q=100·4,18·4,0=1672 J≈1,7 kJ. Das Wasser nimmt Wärme auf; das Reaktionssystem gibt sie bei idealer Wärmeübertragung ab."
+      "result": "ΔcH(Ethanol) ≈ −1,0·10³ kJ·mol⁻¹. Der Messwert ist betragsmäßig deutlich zu klein, weil ein großer Teil der Wärme nicht ins Wasser gelangt."
     },
     {
       "id": "chem.q4.1.enthalpy.example.2",
-      "title": "Enthalpiezeichen",
-      "prompt": "Eine Reaktion erwärmt die Umgebung. Welches Vorzeichen hat ΔH des Systems?",
+      "title": "Kalorimeterkonstante bestimmen",
+      "prompt": "Im Kalorimeter befinden sich 100 g Wasser von 20,0 °C. Man gibt 100 g Wasser von 50,0 °C hinzu; die Mischtemperatur beträgt 33,8 °C. Bestimme die Kalorimeterkonstante.",
       "steps": [
-        "Die Umgebung nimmt Wärme auf; das System gibt sie ab",
-        "Daher ist ΔH des Systems negativ: exotherme Reaktion."
+        "Vom warmen Wasser abgegebene Wärme: 100 g · 4,18 J·g⁻¹·K⁻¹ · 16,2 K = 6772 J.",
+        "Vom kalten Wasser aufgenommene Wärme: 100 g · 4,18 J·g⁻¹·K⁻¹ · 13,8 K = 5768 J.",
+        "Die Differenz von 1004 J hat das Gefäß aufgenommen, das sich wie das kalte Wasser um 13,8 K erwärmt hat.",
+        "C_K = 1004 J / 13,8 K ≈ 73 J·K⁻¹."
       ],
-      "result": "Die Umgebung nimmt Wärme auf; das System gibt sie ab. Daher ist ΔH des Systems negativ: exotherme Reaktion."
+      "result": "C_K ≈ 73 J·K⁻¹. Bei späteren Messungen in diesem Gefäß rechnest du mit Q = (m·c + 73 J·K⁻¹)·ΔT."
     }
   ],
   "examReferences": [
@@ -133,22 +166,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
-    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
-    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+    "AFB I: Systemarten, Vorzeichen von ΔrH und Größen der Kalorimetergleichung angeben.",
+    "AFB II: Aus Temperaturmessungen Wärme und molare Reaktionsenthalpie berechnen; Energiediagramme zeichnen und deuten.",
+    "AFB III: Abweichungen vom Literaturwert auf Fehlerquellen zurückführen und Verbesserungen des Versuchsaufbaus beurteilen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
-      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+      "tip": "Lege vor dem Rechnen fest, ob Q die Wärme des Kalorimeterinhalts oder des Reaktionssystems ist.",
+      "commonError": "Die vom Wasser aufgenommene Wärme wird direkt als ΔrH übernommen; das Vorzeichen ist dann falsch."
     },
     {
-      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
-      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+      "tip": "Setze für m die Masse der gesamten erwärmten Lösung ein.",
+      "commonError": "Nur die Masse des gelösten Feststoffs oder einer der beiden gemischten Lösungen wird verwendet."
     },
     {
-      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
-      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+      "tip": "Beziehe die Wärme auf die Stoffmenge des Stoffs, der vollständig umgesetzt wird.",
+      "commonError": "Es wird durch die Summe aller Eduktstoffmengen oder durch eine Masse geteilt."
+    },
+    {
+      "tip": "Eine Temperaturdifferenz hat in K und °C denselben Zahlenwert.",
+      "commonError": "Zu ΔT werden 273 addiert, als müsste eine Temperaturdifferenz in Kelvin umgerechnet werden."
     }
   ],
   "review": {

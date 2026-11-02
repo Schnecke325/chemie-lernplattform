@@ -20,26 +20,26 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.quantities",
-    "chem.basics.data",
-    "chem.q3.1.mwg"
+    "chem.q4.1.enthalpy",
+    "chem.q4.1.entropy-gibbs",
+    "chem.q3.3.galvanic-cells",
+    "chem.q1.3.esters"
   ],
   "learningGoals": [
     {
       "id": "chem.q4.2.energy-sustainability.goal.fundamentals",
-      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "statement": "Ich kann Aufbau und Funktion einer Wasserstoff-Brennstoffzelle und eines Lithium-Ionen-Akkus beschreiben und die Elektrodenreaktionen formulieren.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
-        "erläutern",
-        "beschreiben"
+        "beschreiben",
+        "formulieren"
       ]
     },
     {
       "id": "chem.q4.2.energy-sustainability.goal.calculate",
-      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "statement": "Ich kann Wirkungsgrade einzelner Wandler und ganzer Energieketten berechnen und den theoretischen Wirkungsgrad einer Brennstoffzelle aus ΔG und ΔH bestimmen.",
       "competencies": [
         "S",
         "E"
@@ -51,19 +51,19 @@
     },
     {
       "id": "chem.q4.2.energy-sustainability.goal.material",
-      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "statement": "Ich kann Herstellung und Nutzung von Bioethanol, Pflanzenöl und Biodiesel mit Reaktionsgleichungen darstellen und Stoff- und Energiedaten auswerten.",
       "competencies": [
         "E",
         "K"
       ],
       "operators": [
-        "auswerten",
-        "deuten"
+        "formulieren",
+        "auswerten"
       ]
     },
     {
       "id": "chem.q4.2.energy-sustainability.goal.evaluate",
-      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "statement": "Ich kann Energieträger, Speicher und Werkstoffe mit gleichen Systemgrenzen nach ökologischen, ökonomischen und sozialen Kriterien bewerten.",
       "competencies": [
         "B",
         "K"
@@ -74,58 +74,106 @@
       ]
     }
   ],
-  "introduction": "Energieumwandlung bewertet man nicht nur nach der gespeicherten Energiemenge, sondern auch nach Effizienz, Stoffkreislauf und Umweltwirkungen.",
-  "explanation": "Chemische Energieträger wandeln Reaktionsenthalpie in nutzbare Energie um. Bei Brennstoffzellen wird chemische Energie elektrochemisch direkt in elektrische Arbeit überführt; reale Systeme haben Verluste und benötigen Infrastruktur. Nachhaltigkeitsbewertungen betrachten Rohstoffbedarf, Herstellung, Betrieb, Lebensdauer, Emissionen und Entsorgung.\n\nEin Wirkungsgrad ist η=E_nutz/E_zugeführt·100 %. Vergleiche nur gleiche Systemgrenzen und funktionale Einheiten. Daten zu Wirkungsgrad, Speicherbarkeit oder Emissionen müssen im jeweiligen Kontext interpretiert werden. Ein einzelner Vorteil begründet keine pauschale Gesamtbewertung.",
+  "introduction": "Ob Auto, Heizung oder Verpackung: Für viele Anwendungen gibt es Alternativen zu fossilen Rohstoffen, etwa Brennstoffzellen, Akkus, Biokraftstoffe oder Folien aus Stärke. Welche davon wirklich nachhaltiger ist, lässt sich nicht an einem einzigen Wert ablesen. Du brauchst die chemischen Grundlagen der Energieumwandlung und klare Kriterien für einen fairen Vergleich.",
+  "explanation": "### 1. Energieumwandlung und Wirkungsgrad\n\nChemische Energieträger speichern Energie in ihren Bindungen. Bei der Verbrennung wird sie als Wärme frei, in galvanischen Zellen wie Brennstoffzellen und Akkus direkt als elektrische Energie. Kein Wandler arbeitet verlustfrei. Der Wirkungsgrad η = E_nutz / E_zugeführt gibt an, welcher Anteil der zugeführten Energie in der gewünschten Form ankommt. Durchläuft die Energie mehrere Stufen, multiplizieren sich die Einzelwirkungsgrade: η_gesamt = η₁·η₂·η₃·… Lange Umwandlungsketten haben deshalb oft einen kleinen Gesamtwirkungsgrad.\n\nFür mobile Anwendungen zählt außerdem die Energiedichte: wie viel Energie je Kilogramm oder je Liter gespeichert ist. Flüssige Kraftstoffe haben eine hohe Energiedichte, Akkus eine deutlich kleinere, dafür einen höheren Wirkungsgrad beim Antrieb.\n\n### 2. Brennstoffzelle\n\nIn einer Wasserstoff-Sauerstoff-Brennstoffzelle laufen Oxidation und Reduktion räumlich getrennt ab. Bei saurem Elektrolyten (zum Beispiel einer Protonenaustauschmembran) wird an der Anode, dem Minuspol, Wasserstoff oxidiert: H₂ → 2 H⁺ + 2 e⁻. Die Protonen wandern durch die Membran, die Elektronen fließen über den äußeren Stromkreis. An der Kathode, dem Pluspol, wird Sauerstoff reduziert: O₂ + 4 H⁺ + 4 e⁻ → 2 H₂O. Bei alkalischem Elektrolyten wandern stattdessen Hydroxid-Ionen. Die Gesamtreaktion ist in beiden Fällen 2 H₂ + O₂ → 2 H₂O.\n\nAnders als eine Wärmekraftmaschine wandelt die Brennstoffzelle chemische Energie direkt in elektrische Arbeit um. Höchstens nutzbar ist dabei die freie Enthalpie ΔG; der Anteil T·ΔS wird zwangsläufig als Wärme abgegeben. Unter Standardbedingungen ergibt sich so ein theoretischer Wirkungsgrad von etwa 83 % und eine Zellspannung von 1,23 V. Reale Zellen liefern unter Last eine deutlich kleinere Spannung, weil an den Elektroden und im Elektrolyten Verluste auftreten. Wie klimafreundlich eine Brennstoffzelle ist, hängt vor allem davon ab, wie der Wasserstoff hergestellt wird: durch Elektrolyse mit Strom aus erneuerbaren Quellen oder aus Erdgas.\n\n### 3. Akkumulatoren in Elektrofahrzeugen\n\nEin Akkumulator ist eine wiederaufladbare galvanische Zelle. In Lithium-Ionen-Akkus sind Lithium-Ionen in Graphit (Minuspol) und in ein Metalloxid wie Lithiumcobaltoxid (Pluspol) eingelagert. Beim Entladen geben die Lithiumatome im Graphit Elektronen ab, die Lithium-Ionen wandern durch den Elektrolyten zum Metalloxid, und die Elektronen fließen durch den Verbraucher. Beim Laden erzwingt eine äußere Spannung die Umkehrung. Für die Bewertung wichtig sind neben dem hohen Wirkungsgrad die Rohstoffe Lithium, Cobalt und Nickel: Ihr Abbau verbraucht Wasser und Energie und findet zum Teil unter problematischen Arbeitsbedingungen statt. Recycling und Zellchemien mit weniger Cobalt verringern diese Lasten.\n\n### 4. Kraftstoffe aus Biomasse\n\nBioethanol entsteht durch alkoholische Gärung von Zucker aus Zuckerrohr, Zuckerrüben oder Getreide und wird anschließend durch Destillation angereichert. Pflanzenöl lässt sich direkt als Kraftstoff nutzen, ist aber für viele Motoren zu zähflüssig. Durch Umesterung mit Methanol entstehen aus den Triacylglyceriden Fettsäuremethylester (Biodiesel) und Glycerin. Die kleineren Estermoleküle haben schwächere Van-der-Waals-Kräfte untereinander, deshalb ist Biodiesel dünnflüssiger.\n\nBeim Verbrennen von Biokraftstoffen wird nur so viel CO₂ frei, wie die Pflanzen beim Wachsen gebunden haben. Das macht sie aber nicht automatisch klimaneutral: Anbau, Düngerherstellung, Lachgas-Emissionen aus gedüngten Böden, Transport und Destillation verursachen zusätzliche Emissionen. Hinzu kommen Flächenkonkurrenz mit Nahrungsmitteln („Tank oder Teller“) und mögliche Rodung von Wäldern.\n\n### 5. Stärkefolien\n\nStärke besteht aus Amylose und Amylopektin. Mit Weichmachern wie Glycerin und Wasser lässt sie sich zu thermoplastischer Stärke verarbeiten und zu Folien formen. Solche Folien sind biobasiert und unter geeigneten Bedingungen biologisch abbaubar. Nachteile sind die Empfindlichkeit gegenüber Feuchtigkeit und die geringere Festigkeit; oft werden sie deshalb mit anderen Polymeren gemischt.\n\n### 6. Nachhaltigkeit bewerten\n\nEin fairer Vergleich betrachtet den ganzen Lebensweg: Rohstoffgewinnung, Herstellung, Nutzung und Entsorgung oder Recycling. Beide Alternativen brauchen dieselbe Systemgrenze und dieselbe funktionale Einheit, etwa „100 km Fahrstrecke“ oder „eine Verpackung für 1 kg Ware“. Neben ökologischen Kriterien (Emissionen, Ressourcen, Fläche) zählen ökonomische (Kosten, Infrastruktur) und soziale (Arbeitsbedingungen, Ernährungssicherheit). Ein einzelner Vorteil wie ein hoher Wirkungsgrad oder ein nachwachsender Rohstoff begründet noch kein Gesamturteil.",
   "fundamentals": [
     {
-      "term": "Energieumwandlung und nachhaltige Chemie",
-      "explanation": "Energieumwandlung bewertet man nicht nur nach der gespeicherten Energiemenge, sondern auch nach Effizienz, Stoffkreislauf und Umweltwirkungen."
+      "term": "Wirkungsgrad η",
+      "explanation": "Anteil der zugeführten Energie, der als Nutzenergie zur Verfügung steht; bei mehreren Stufen das Produkt der Einzelwirkungsgrade."
     },
     {
-      "term": "Modellgrenze",
-      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+      "term": "Brennstoffzelle",
+      "explanation": "Galvanische Zelle, der die Reaktionspartner laufend zugeführt werden; wandelt chemische Energie direkt in elektrische Energie um."
     },
     {
-      "term": "AFB III",
-      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+      "term": "Akkumulator",
+      "explanation": "Wiederaufladbare galvanische Zelle; beim Laden wird die Entladereaktion durch eine äußere Spannung umgekehrt."
+    },
+    {
+      "term": "Bioethanol",
+      "explanation": "Ethanol aus der alkoholischen Gärung von Zucker aus Biomasse, als Kraftstoff oder Beimischung genutzt."
+    },
+    {
+      "term": "Biodiesel",
+      "explanation": "Fettsäuremethylester, die durch Umesterung von Pflanzenöl mit Methanol entstehen; dünnflüssiger als das Ausgangsöl."
+    },
+    {
+      "term": "Systemgrenze und funktionale Einheit",
+      "explanation": "Festlegung, welche Lebensabschnitte eine Bewertung einschließt, und auf welche Leistung sich alle Werte beziehen."
+    },
+    {
+      "term": "Biobasiert und biologisch abbaubar",
+      "explanation": "Biobasiert beschreibt die Rohstoffherkunft, biologisch abbaubar das Verhalten nach der Nutzung; das eine folgt nicht aus dem anderen."
     }
   ],
   "equations": [
     {
       "id": "chem.q4.2.energy-sustainability.eq.1",
-      "notation": "η = E_nutz / E_zugeführt · 100 %",
-      "explanation": "Wirkungsgrad als Anteil der nutzbaren Energie."
+      "notation": "η = E_nutz / E_zugeführt · 100 %;  η_gesamt = η₁ · η₂ · η₃ · …",
+      "explanation": "Wirkungsgrad eines Wandlers und einer Umwandlungskette."
     },
     {
       "id": "chem.q4.2.energy-sustainability.eq.2",
-      "notation": "2 H₂ + O₂ → 2 H₂O",
-      "explanation": "Gesamtreaktion einer Wasserstoff-Sauerstoff-Brennstoffzelle; die praktische Zellspannung ist kleiner als die thermodynamische Idealspannung."
+      "notation": "2 H₂(g) + O₂(g) → 2 H₂O(l)",
+      "explanation": "Gesamtreaktion der Wasserstoff-Sauerstoff-Brennstoffzelle; ΔG° = −237,1 kJ und ΔH° = −285,8 kJ je Mol Wasser."
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.eq.3",
+      "notation": "Anode (−): H₂ → 2 H⁺ + 2 e⁻;  Kathode (+): O₂ + 4 H⁺ + 4 e⁻ → 2 H₂O",
+      "explanation": "Elektrodenreaktionen bei saurem Elektrolyten."
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.eq.4",
+      "notation": "Entladen: LiₓC₆ + Li₁₋ₓCoO₂ → C₆ + LiCoO₂",
+      "explanation": "Vereinfachte Gesamtreaktion eines Lithium-Ionen-Akkus mit Graphit- und Lithiumcobaltoxid-Elektrode; beim Laden läuft sie umgekehrt."
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.eq.5",
+      "notation": "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂",
+      "explanation": "Alkoholische Gärung von Glucose durch Hefen."
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.eq.6",
+      "notation": "Triacylglycerid + 3 CH₃OH ⇌ Glycerin + 3 Fettsäuremethylester",
+      "explanation": "Umesterung von Pflanzenöl zu Biodiesel, meist mit basischem Katalysator und Methanol im Überschuss."
     }
   ],
-  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "equationNote": "Wirkungsgrade setzt du als Dezimalzahl (0,70) oder in Prozent ein, aber innerhalb einer Rechnung einheitlich. Energieangaben müssen sich auf dieselbe Bezugsgröße beziehen, etwa je Mol, je Kilogramm oder je 100 km.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q4.2.energy-sustainability.example.1",
-      "title": "Wirkungsgrad berechnen",
-      "prompt": "Ein System nimmt 500 kJ auf und liefert 180 kJ Nutzenergie. Berechne η.",
+      "title": "Theoretischer Wirkungsgrad der Brennstoffzelle",
+      "prompt": "Für H₂(g) + ½ O₂(g) → H₂O(l) gilt ΔH° = −285,8 kJ·mol⁻¹ und ΔG° = −237,1 kJ·mol⁻¹. Berechne den höchstmöglichen Wirkungsgrad einer Brennstoffzelle unter Standardbedingungen.",
       "steps": [
-        "Wirkungsgrad als Nutzenergie durch zugeführte Energie definieren.",
-        "η=180 kJ/500 kJ·100 %.",
-        "Die Einheiten kürzen sich; η=36 %."
+        "Als elektrische Arbeit nutzbar ist höchstens der Betrag von ΔG°; als Energieinhalt des Brennstoffs gilt der Betrag von ΔH°.",
+        "η_max = 237,1 kJ·mol⁻¹ / 285,8 kJ·mol⁻¹ ≈ 0,83.",
+        "Der Rest, T·ΔS° ≈ −48,7 kJ·mol⁻¹, wird auch im Idealfall als Wärme abgegeben."
       ],
-      "result": "η=180/500·100 %=36 %."
+      "result": "η_max ≈ 83 %. Reale Zellen erreichen weniger, weil Elektroden und Elektrolyt zusätzliche Verluste verursachen."
     },
     {
       "id": "chem.q4.2.energy-sustainability.example.2",
       "title": "Systemgrenzen festlegen",
-      "prompt": "Warum ist ein Vergleich zweier Energiespeicher ohne Lebenszyklusdaten unvollständig?",
+      "prompt": "Eine Werbung vergleicht ein Batterie- und ein Verbrennerfahrzeug nur anhand der Emissionen am Auspuff. Erläutere, warum dieser Vergleich unvollständig ist.",
       "steps": [
-        "Ohne Lebenszyklusdaten ist der Vergleich auf einzelne Phasen begrenzt.",
-        "Rohstoffgewinnung und Herstellung können erhebliche Energie- und Umweltlasten verursachen.",
-        "Auch Lebensdauer, Verluste während der Nutzung und Entsorgung einbeziehen."
+        "Die Systemgrenze umfasst nur die Nutzungsphase, und dort nur das Fahrzeug selbst.",
+        "Beim Batteriefahrzeug fehlen die Herstellung des Akkus und die Erzeugung des Stroms; beim Verbrenner die Förderung und Raffination des Kraftstoffs.",
+        "Für einen fairen Vergleich braucht man dieselbe Systemgrenze und dieselbe funktionale Einheit, zum Beispiel Emissionen je 100 km über die gesamte Lebensdauer."
       ],
-      "result": "Er betrachtet eventuell nur den Betrieb, nicht Rohstoffgewinnung, Herstellung, Lebensdauer, Wirkungsgradverluste und Entsorgung."
+      "result": "Der Vergleich ist unvollständig, weil er Herstellung, Energiebereitstellung und Entsorgung ausblendet. Erst ein Vergleich über den ganzen Lebensweg erlaubt ein begründetes Urteil."
+    },
+    {
+      "id": "chem.q4.2.energy-sustainability.example.3",
+      "title": "CO₂ aus der Verbrennung von Bioethanol",
+      "prompt": "Berechne, wie viel CO₂ bei der vollständigen Verbrennung von 1,00 kg Ethanol entsteht (C₂H₅OH + 3 O₂ → 2 CO₂ + 3 H₂O; M(C₂H₅OH) = 46,07 g·mol⁻¹, M(CO₂) = 44,01 g·mol⁻¹), und ordne das Ergebnis ein.",
+      "steps": [
+        "n(Ethanol) = 1000 g / 46,07 g·mol⁻¹ ≈ 21,7 mol.",
+        "Nach der Gleichung entstehen doppelt so viele Mol CO₂: n(CO₂) ≈ 43,4 mol.",
+        "m(CO₂) = 43,4 mol · 44,01 g·mol⁻¹ ≈ 1,91 kg.",
+        "Dieses CO₂ haben die Pflanzen zuvor aus der Luft aufgenommen. Nicht enthalten sind die Emissionen aus Anbau, Dünger, Transport und Destillation."
+      ],
+      "result": "Es entstehen etwa 1,91 kg CO₂ je Kilogramm Ethanol. Ob Bioethanol klimafreundlicher ist als Benzin, entscheidet erst die Bilanz über den ganzen Herstellungsweg."
     }
   ],
   "examReferences": [
@@ -149,22 +197,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
-    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
-    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+    "AFB I: Elektrodenreaktionen der Brennstoffzelle angeben; Begriffe wie Wirkungsgrad, Biodiesel und Systemgrenze erklären.",
+    "AFB II: Wirkungsgrade von Wandlern und Energieketten berechnen; Gärung, Verbrennung und Umesterung formulieren; Stoff- und Energiedaten auswerten.",
+    "AFB III: Energieträger, Antriebe oder Werkstoffe anhand gleicher Systemgrenzen und mehrerer Kriterien bewerten."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
-      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+      "tip": "Multipliziere die Wirkungsgrade aller Stufen einer Energiekette.",
+      "commonError": "Die Einzelwirkungsgrade werden addiert oder gemittelt; der Gesamtwirkungsgrad wirkt dann viel zu groß."
     },
     {
-      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
-      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+      "tip": "In jeder galvanischen Zelle findet an der Anode die Oxidation statt; bei Brennstoffzelle und entladendem Akku ist sie der Minuspol.",
+      "commonError": "Die Polung der Elektrolyse wird übernommen und die Anode der Brennstoffzelle als Pluspol bezeichnet."
     },
     {
-      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
-      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+      "tip": "Unterscheide biobasiert, biologisch abbaubar und klimaneutral.",
+      "commonError": "Ein Stoff aus nachwachsenden Rohstoffen wird automatisch als abbaubar oder CO₂-neutral bezeichnet."
+    },
+    {
+      "tip": "Frage bei Wasserstoff und Strom immer nach der Herkunft.",
+      "commonError": "Brennstoffzellen- oder Batteriefahrzeuge werden als emissionsfrei bezeichnet, weil am Fahrzeug selbst kein CO₂ entsteht."
     }
   ],
   "review": {

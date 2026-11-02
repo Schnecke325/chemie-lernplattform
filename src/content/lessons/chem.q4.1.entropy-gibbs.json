@@ -20,26 +20,25 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.quantities",
-    "chem.basics.data",
+    "chem.q4.1.enthalpy",
+    "chem.q4.1.hess",
     "chem.q3.1.mwg"
   ],
   "learningGoals": [
     {
       "id": "chem.q4.1.entropy-gibbs.goal.fundamentals",
-      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "statement": "Ich kann Entropie als Maß für die Zahl der Verteilungsmöglichkeiten erklären und das Vorzeichen von ΔS für einen Vorgang begründet abschätzen.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
-        "erläutern",
-        "beschreiben"
+        "erklären",
+        "abschätzen"
       ]
     },
     {
       "id": "chem.q4.1.entropy-gibbs.goal.calculate",
-      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "statement": "Ich kann mit der Gibbs-Helmholtz-Gleichung ΔG berechnen und die Temperatur bestimmen, ab der eine Reaktion thermodynamisch begünstigt ist.",
       "competencies": [
         "S",
         "E"
@@ -51,7 +50,7 @@
     },
     {
       "id": "chem.q4.1.entropy-gibbs.goal.material",
-      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "statement": "Ich kann aus Tabellenwerten die Reaktionsentropie bestimmen und Ergebnisse für verschiedene Temperaturen deuten.",
       "competencies": [
         "E",
         "K"
@@ -63,64 +62,104 @@
     },
     {
       "id": "chem.q4.1.entropy-gibbs.goal.evaluate",
-      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "statement": "Ich kann thermodynamische Begünstigung von Reaktionsgeschwindigkeit abgrenzen und Aussagen über freiwillig ablaufende Reaktionen beurteilen.",
       "competencies": [
-        "B",
-        "K"
+        "E",
+        "B"
       ],
       "operators": [
-        "bewerten",
+        "erläutern",
         "beurteilen"
       ]
     }
   ],
-  "introduction": "Ob eine Reaktion freiwillig abläuft, hängt nicht allein davon ab, ob sie Wärme abgibt. Auch die Verteilungsmöglichkeiten der Teilchen spielen eine Rolle.",
-  "explanation": "Die Entropie S beschreibt die Zahl zugänglicher Mikrozustände eines Systems. Häufig steigt sie, wenn Teilchenzahl oder Unordnung zunimmt, aber der konkrete Prozess ist entscheidend. Für Prozesse gilt ΔS_gesamt=ΔS_System+ΔS_Umgebung. Bei konstantem Druck und konstanter Temperatur beschreibt ΔG=ΔH−TΔS die Triebkraft; ΔG<0 kennzeichnet eine thermodynamisch begünstigte Richtung.\n\nEine endotherme Reaktion kann bei ausreichend großem positiven ΔS und hoher Temperatur begünstigt sein. Spontaneität sagt nichts über die Reaktionsgeschwindigkeit aus. Temperatur in Gibbs-Rechnungen in Kelvin einsetzen und Einheiten von ΔH und TΔS angleichen.",
+  "introduction": "Exotherme Reaktionen laufen oft von selbst ab – aber nicht immer, und manche endotherme Vorgänge laufen trotzdem freiwillig ab: Eis schmilzt bei Zimmertemperatur, obwohl es dafür Wärme aufnimmt. Um vorherzusagen, in welche Richtung ein Vorgang abläuft, brauchst du neben der Enthalpie eine zweite Größe, die Entropie. Beide zusammen ergeben die freie Enthalpie ΔG.",
+  "explanation": "### 1. Freiwillig ablaufende Vorgänge\n\nEin Vorgang heißt freiwillig (spontan), wenn er ohne dauernde Energiezufuhr von außen in eine Richtung abläuft: Wärme fließt vom warmen zum kalten Körper, ein Gas verteilt sich im ganzen Raum, Zucker löst sich in Tee. Die Gegenrichtung beobachtet man nie von selbst. Die Enthalpie allein erklärt das nicht, denn beim Ausbreiten eines idealen Gases oder beim Schmelzen von Eis wird keine Wärme frei.\n\n### 2. Entropie\n\nDie Entropie S beschreibt, auf wie viele Arten (Mikrozustände) sich Teilchen und Energie in einem System verteilen können, ohne dass sich der äußere Zustand ändert. Je mehr Möglichkeiten es gibt, desto größer ist die Entropie. Ludwig Boltzmann hat dies als S = k_B·ln W formuliert, wobei W die Zahl der Mikrozustände ist. Die oft verwendete Beschreibung als „Unordnung“ ist nur eine grobe Veranschaulichung.\n\nFür Abschätzungen helfen einige Regeln: Gase haben eine viel größere Entropie als Flüssigkeiten, Flüssigkeiten eine größere als Feststoffe. Nimmt bei einer Reaktion die Zahl der Gasteilchen zu, ist ΔS meist positiv; nimmt sie ab, meist negativ. Eine höhere Temperatur erhöht die Entropie eines Stoffs. Beim Lösen von Salzen steigt die Entropie häufig, aber nicht immer, weil sich Wassermoleküle um die Ionen ordnen.\n\n### 3. Standardentropien und Reaktionsentropie\n\nAnders als Enthalpien besitzen Entropien einen absoluten Nullpunkt: Ein idealer Kristall hat bei 0 K die Entropie null. Deshalb sind Standardentropien S° tabelliert, und sie sind auch für Elemente größer als null, etwa S°(O₂, g) = 205,2 J·mol⁻¹·K⁻¹. Die Reaktionsentropie berechnest du analog zur Reaktionsenthalpie: ΔrS° = Σ ν·S°(Produkte) − Σ ν·S°(Edukte). Achtung: Entropien stehen in J, Enthalpien in kJ.\n\n### 4. Zweiter Hauptsatz\n\nEin Vorgang läuft freiwillig ab, wenn dabei die Entropie von System und Umgebung zusammen zunimmt: ΔS_gesamt = ΔS_System + ΔS_Umgebung > 0. Die Umgebung ändert ihre Entropie durch die Wärme, die sie bei konstantem Druck vom System erhält: ΔS_Umgebung = −ΔrH / T. Eine exotherme Reaktion erhöht also die Entropie der Umgebung, und zwar umso stärker, je niedriger die Temperatur ist.\n\n### 5. Freie Enthalpie und Gibbs-Helmholtz-Gleichung\n\nMultipliziert man die Bedingung ΔS_gesamt > 0 mit −T und setzt ΔS_Umgebung ein, erhält man eine Größe, die nur noch das System betrifft: die freie Enthalpie (Gibbs-Energie) ΔG = ΔH − T·ΔS. Bei konstantem Druck und konstanter Temperatur gilt: ΔG < 0 bedeutet, die Reaktion ist in der betrachteten Richtung thermodynamisch begünstigt (exergonisch). ΔG > 0 bedeutet, die Rückreaktion ist begünstigt (endergonisch). Bei ΔG = 0 liegt Gleichgewicht vor, zum Beispiel bei einem Phasenübergang an der Siede- oder Schmelztemperatur.\n\n### 6. Einfluss der Temperatur\n\nAus den Vorzeichen von ΔH und ΔS ergeben sich vier Fälle. Ist ΔH < 0 und ΔS > 0, ist die Reaktion bei jeder Temperatur begünstigt. Ist ΔH > 0 und ΔS < 0, ist sie bei keiner Temperatur begünstigt. Haben ΔH und ΔS dasselbe Vorzeichen, entscheidet die Temperatur: Bei ΔH < 0 und ΔS < 0 ist die Reaktion bei tiefen Temperaturen begünstigt, bei ΔH > 0 und ΔS > 0 bei hohen. Die Grenztemperatur, bei der ΔG = 0 wird, schätzt du mit T = ΔH/ΔS ab.\n\n### 7. Modellgrenzen\n\nDie Rechnung nimmt an, dass ΔH und ΔS kaum von der Temperatur abhängen; Ergebnisse weit weg von 298 K sind daher Näherungen. ΔG° bezieht sich auf den Standardzustand, also alle Gase bei 1 bar und gelöste Stoffe bei 1 mol·L⁻¹. Bei anderen Zusammensetzungen kann ein Vorgang trotz ΔG° > 0 teilweise ablaufen, bis sich ein Gleichgewicht einstellt; dafür ist das Massenwirkungsgesetz zuständig. Vor allem sagt ΔG nichts über die Geschwindigkeit: Eine begünstigte Reaktion kann wegen einer hohen Aktivierungsenergie praktisch nicht ablaufen.",
   "fundamentals": [
     {
-      "term": "Entropie und freie Enthalpie",
-      "explanation": "Ob eine Reaktion freiwillig abläuft, hängt nicht allein davon ab, ob sie Wärme abgibt. Auch die Verteilungsmöglichkeiten der Teilchen spielen eine Rolle."
+      "term": "Freiwilliger (spontaner) Vorgang",
+      "explanation": "Vorgang, der ohne dauernde Energiezufuhr von außen in eine Richtung abläuft; über seine Geschwindigkeit ist damit nichts gesagt."
     },
     {
-      "term": "Modellgrenze",
-      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+      "term": "Entropie S",
+      "explanation": "Maß für die Zahl der Verteilungsmöglichkeiten von Teilchen und Energie in einem System; Einheit J·K⁻¹, molar J·mol⁻¹·K⁻¹."
     },
     {
-      "term": "AFB III",
-      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+      "term": "Standardentropie S°",
+      "explanation": "Absolute molare Entropie eines Stoffs unter Standardbedingungen; auch für Elemente größer als null."
+    },
+    {
+      "term": "Zweiter Hauptsatz",
+      "explanation": "Bei einem freiwilligen Vorgang nimmt die Entropie von System und Umgebung zusammen zu."
+    },
+    {
+      "term": "Freie Enthalpie ΔG",
+      "explanation": "Gibbs-Energie, ΔG = ΔH − T·ΔS; bei konstantem Druck und konstanter Temperatur Kriterium für die begünstigte Reaktionsrichtung."
+    },
+    {
+      "term": "Exergonisch und endergonisch",
+      "explanation": "Exergonisch: ΔG < 0, die Reaktion ist begünstigt. Endergonisch: ΔG > 0, die Rückreaktion ist begünstigt."
     }
   ],
   "equations": [
     {
       "id": "chem.q4.1.entropy-gibbs.eq.1",
-      "notation": "ΔG = ΔH − TΔS; spontan begünstigte Richtung bei ΔG < 0",
-      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+      "notation": "ΔG = ΔH − T · ΔS",
+      "explanation": "Gibbs-Helmholtz-Gleichung; ΔG < 0 kennzeichnet die thermodynamisch begünstigte Richtung bei konstantem Druck und konstanter Temperatur."
+    },
+    {
+      "id": "chem.q4.1.entropy-gibbs.eq.2",
+      "notation": "ΔrS° = Σ ν·S°(Produkte) − Σ ν·S°(Edukte)",
+      "explanation": "Reaktionsentropie aus tabellierten Standardentropien."
+    },
+    {
+      "id": "chem.q4.1.entropy-gibbs.eq.3",
+      "notation": "ΔS_gesamt = ΔS_System + ΔS_Umgebung;  ΔS_Umgebung = −ΔrH / T",
+      "explanation": "Zweiter Hauptsatz: Ein Vorgang läuft freiwillig ab, wenn ΔS_gesamt > 0 ist. Daraus folgt ΔG = −T·ΔS_gesamt."
+    },
+    {
+      "id": "chem.q4.1.entropy-gibbs.eq.4",
+      "notation": "T(ΔG = 0) ≈ ΔH / ΔS",
+      "explanation": "Grenztemperatur, oberhalb oder unterhalb derer eine Reaktion begünstigt ist; nur sinnvoll, wenn ΔH und ΔS dasselbe Vorzeichen haben."
     }
   ],
-  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "equationNote": "Setze T in Kelvin ein und rechne ΔS vor dem Einsetzen in kJ·mol⁻¹·K⁻¹ um, damit ΔH und T·ΔS dieselbe Einheit haben. Bei Rechnungen weit weg von 298 K mit Tabellenwerten für 298 K ist das Ergebnis eine Abschätzung.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q4.1.entropy-gibbs.example.1",
-      "title": "Gibbs-Wert berechnen",
-      "prompt": "ΔH=20 kJ mol⁻¹, ΔS=100 J mol⁻¹ K⁻¹, T=300 K. Berechne ΔG.",
+      "title": "Verdampfen von Wasser",
+      "prompt": "Für H₂O(l) → H₂O(g) gilt ΔH° = +44,0 kJ·mol⁻¹ und ΔS° = +118,9 J·mol⁻¹·K⁻¹. Berechne ΔG° bei 25 °C und schätze die Temperatur ab, bei der ΔG° = 0 wird.",
       "steps": [
-        "ΔS=0,100 kJ mol⁻¹ K⁻¹",
-        "TΔS=30 kJ mol⁻¹",
-        "ΔG=20−30=−10 kJ mol⁻¹; die Reaktion ist unter diesen Bedingungen thermodynamisch begünstigt."
+        "Einheiten angleichen: ΔS° = 0,1189 kJ·mol⁻¹·K⁻¹; T = 298 K.",
+        "ΔG° = 44,0 kJ·mol⁻¹ − 298 K · 0,1189 kJ·mol⁻¹·K⁻¹ = 44,0 − 35,4 = +8,6 kJ·mol⁻¹.",
+        "Grenztemperatur: T = 44,0 / 0,1189 K ≈ 370 K, also etwa 97 °C.",
+        "Der tatsächliche Siedepunkt bei 1 bar liegt bei 373 K. Die kleine Abweichung entsteht, weil ΔH und ΔS bei 298 K tabelliert sind."
       ],
-      "result": "ΔS=0,100 kJ mol⁻¹ K⁻¹. TΔS=30 kJ mol⁻¹. ΔG=20−30=−10 kJ mol⁻¹; die Reaktion ist unter diesen Bedingungen thermodynamisch begünstigt."
+      "result": "Bei 25 °C ist ΔG° > 0: Wasser verdampft nicht zu Dampf von 1 bar. Dass Wasser trotzdem an der Luft verdunstet, widerspricht dem nicht, denn der Wasserdampfdruck in der Luft ist viel kleiner als 1 bar."
     },
     {
       "id": "chem.q4.1.entropy-gibbs.example.2",
-      "title": "Kinetik abgrenzen",
-      "prompt": "Eine Reaktion hat ΔG<0, läuft aber sehr langsam. Ist das widersprüchlich?",
+      "title": "Begünstigt, aber nicht schnell",
+      "prompt": "Für 2 H₂(g) + O₂(g) → 2 H₂O(l) gilt ΔG° = −474 kJ·mol⁻¹. Ein Gemisch aus Wasserstoff und Sauerstoff bleibt bei Raumtemperatur trotzdem lange unverändert. Erkläre den Befund.",
       "steps": [
-        "Nein",
-        "ΔG beschreibt die thermodynamische Triebkraft, nicht die Aktivierungsbarriere",
-        "Eine große Aktivierungsenergie kann den Ablauf verlangsamen."
+        "ΔG° ist stark negativ: Die Bildung von Wasser ist thermodynamisch stark begünstigt.",
+        "Damit die Reaktion abläuft, müssen zunächst Bindungen in H₂ und O₂ gelockert werden; dafür ist eine hohe Aktivierungsenergie nötig.",
+        "Bei Raumtemperatur haben zu wenige Teilchen genug Energie. Ein Funke oder ein Katalysator wie Platin startet die Reaktion, die dann explosionsartig verläuft."
       ],
-      "result": "Nein. ΔG beschreibt die thermodynamische Triebkraft, nicht die Aktivierungsbarriere. Eine große Aktivierungsenergie kann den Ablauf verlangsamen."
+      "result": "Kein Widerspruch: ΔG beschreibt, ob eine Reaktion begünstigt ist, nicht wie schnell sie abläuft. Das Gemisch ist kinetisch gehemmt."
+    },
+    {
+      "id": "chem.q4.1.entropy-gibbs.example.3",
+      "title": "Reaktionsentropie aus Tabellenwerten",
+      "prompt": "Berechne ΔrS° für 2 H₂(g) + O₂(g) → 2 H₂O(l). S° in J·mol⁻¹·K⁻¹: H₂(g) 130,7; O₂(g) 205,2; H₂O(l) 69,9. Deute das Vorzeichen.",
+      "steps": [
+        "Produkte: 2 · 69,9 = 139,8 J·mol⁻¹·K⁻¹.",
+        "Edukte: 2 · 130,7 + 205,2 = 466,6 J·mol⁻¹·K⁻¹.",
+        "ΔrS° = 139,8 − 466,6 = −326,8 J·mol⁻¹·K⁻¹.",
+        "Aus drei Gasteilchen entstehen zwei Teilchen einer Flüssigkeit; die Zahl der Verteilungsmöglichkeiten sinkt stark."
+      ],
+      "result": "ΔrS° ≈ −327 J·mol⁻¹·K⁻¹. Die Reaktion ist trotzdem begünstigt, weil ΔrH° = −571,6 kJ·mol⁻¹ den Entropieterm bei 298 K weit überwiegt: ΔG° = −571,6 + 97,4 ≈ −474 kJ·mol⁻¹."
     }
   ],
   "examReferences": [
@@ -135,22 +174,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
-    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
-    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+    "AFB I: Vorzeichen von ΔS für einfache Vorgänge angeben; Bedeutung von ΔG < 0 nennen.",
+    "AFB II: ΔrS° aus Standardentropien und ΔG aus der Gibbs-Helmholtz-Gleichung berechnen; Grenztemperaturen bestimmen; endotherme freiwillige Vorgänge erklären.",
+    "AFB III: Thermodynamische und kinetische Argumente abgrenzen und technische Reaktionsbedingungen oder scheinbare Widersprüche beurteilen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
-      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+      "tip": "Rechne ΔS von J in kJ um, bevor du es in die Gibbs-Helmholtz-Gleichung einsetzt.",
+      "commonError": "ΔH in kJ und ΔS in J werden gemischt; T·ΔS ist dann um den Faktor 1000 zu groß."
     },
     {
-      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
-      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+      "tip": "Setze Standardentropien von Elementen mit ihrem Tabellenwert ein.",
+      "commonError": "S°(O₂) oder S°(H₂) wird wie die Bildungsenthalpie gleich null gesetzt."
     },
     {
-      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
-      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+      "tip": "Prüfe ΔH und ΔS getrennt: Exotherm heißt nicht automatisch begünstigt, endotherm nicht automatisch unmöglich.",
+      "commonError": "Allein aus ΔH < 0 wird geschlossen, dass eine Reaktion bei jeder Temperatur freiwillig abläuft."
+    },
+    {
+      "tip": "Trenne die Frage „Läuft die Reaktion ab?“ von der Frage „Wie schnell läuft sie ab?“.",
+      "commonError": "Eine Reaktion mit ΔG < 0 wird als schnell bezeichnet oder eine langsame Reaktion als thermodynamisch ungünstig."
     }
   ],
   "review": {

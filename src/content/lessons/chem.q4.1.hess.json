@@ -21,25 +21,23 @@
   ],
   "prerequisites": [
     "chem.basics.quantities",
-    "chem.basics.data",
-    "chem.q3.1.mwg"
+    "chem.q4.1.enthalpy"
   ],
   "learningGoals": [
     {
       "id": "chem.q4.1.hess.goal.fundamentals",
-      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "statement": "Ich kann den Satz von Hess damit begründen, dass die Enthalpie eine Zustandsgröße ist, und die Rechenregeln für thermochemische Gleichungen anwenden.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
-        "erläutern",
-        "beschreiben"
+        "begründen",
+        "erläutern"
       ]
     },
     {
       "id": "chem.q4.1.hess.goal.calculate",
-      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "statement": "Ich kann Reaktionsenthalpien aus Teilreaktionen, Standardbildungsenthalpien oder Verbrennungsenthalpien berechnen.",
       "competencies": [
         "S",
         "E"
@@ -51,74 +49,114 @@
     },
     {
       "id": "chem.q4.1.hess.goal.material",
-      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "statement": "Ich kann Enthalpiediagramme und Hess-Kreisläufe aufstellen und die passenden Tabellenwerte auswählen.",
       "competencies": [
         "E",
         "K"
       ],
       "operators": [
-        "auswerten",
-        "deuten"
+        "aufstellen",
+        "auswerten"
       ]
     },
     {
       "id": "chem.q4.1.hess.goal.evaluate",
-      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "statement": "Ich kann begründen, wann eine Reaktionsenthalpie nur indirekt bestimmt werden kann, und ein Rechenergebnis auf Plausibilität prüfen.",
       "competencies": [
-        "B",
-        "K"
+        "E",
+        "B"
       ],
       "operators": [
-        "bewerten",
+        "begründen",
         "beurteilen"
       ]
     }
   ],
-  "introduction": "Der Satz von Hess erlaubt, eine Reaktionsenthalpie aus bekannten Teilreaktionen zu bestimmen.",
-  "explanation": "Die Reaktionsenthalpie ist eine Zustandsgröße. Ihr Wert hängt nur von Anfangs- und Endzustand ab, nicht vom Reaktionsweg. Beim Addieren thermochemischer Gleichungen addierst du auch ihre Enthalpien. Drehst du eine Gleichung um, ändert ΔH das Vorzeichen. Multiplizierst du die Gleichung, wird ΔH mit demselben Faktor multipliziert.\n\nOrdne die Teilgleichungen so, dass Zwischenstoffe gekürzt werden und die Zielgleichung übrig bleibt. Prüfe Atombilanz, Koeffizienten und Einheiten. Standardbildungsenthalpien werden über ΔH°_R=ΣνΔH°_f(Produkte)−ΣνΔH°_f(Edukte) kombiniert.",
+  "introduction": "Viele Reaktionsenthalpien lassen sich nicht direkt im Kalorimeter messen, weil die Reaktion zu langsam ist, Nebenprodukte entstehen oder sie gar nicht gezielt abläuft. Der Satz von Hess löst dieses Problem: Du setzt die gesuchte Reaktion rechnerisch aus Reaktionen mit bekannten Enthalpien zusammen.",
+  "explanation": "### 1. Enthalpie als Zustandsgröße\n\nDie Enthalpie eines Systems hängt nur von seinem Zustand ab, also von Stoffen, Stoffmengen, Aggregatzuständen, Druck und Temperatur. Wie das System in diesen Zustand gekommen ist, spielt keine Rolle. Deshalb ist auch die Enthalpieänderung zwischen Anfangs- und Endzustand unabhängig vom Reaktionsweg. Das ist der Satz von Hess: Die Reaktionsenthalpie einer Gesamtreaktion ist gleich der Summe der Reaktionsenthalpien der Teilreaktionen, aus denen sie sich zusammensetzen lässt.\n\nEin Beispiel: Kohlenstoff kann direkt zu Kohlenstoffdioxid verbrennen oder zuerst zu Kohlenstoffmonooxid und dieses dann zu Kohlenstoffdioxid. Beide Wege führen vom selben Anfangs- zum selben Endzustand, also ist die Summe der Enthalpien auf dem zweistufigen Weg gleich der Enthalpie des direkten Wegs.\n\n### 2. Rechenregeln für thermochemische Gleichungen\n\nEine thermochemische Gleichung nennt Stoffe mit Aggregatzuständen und die Reaktionsenthalpie für genau diesen Formelumsatz. Drei Regeln folgen aus der Zustandsgröße: Kehrst du eine Gleichung um, wechselt ΔrH das Vorzeichen. Multiplizierst du alle Koeffizienten mit einem Faktor, multiplizierst du auch ΔrH mit diesem Faktor. Addierst du Gleichungen, addierst du auch ihre Reaktionsenthalpien.\n\n### 3. Vorgehen beim Kombinieren\n\nSchreibe zuerst die Zielgleichung auf. Suche dann für jeden Stoff der Zielgleichung eine Teilgleichung, in der er vorkommt, und richte sie aus: Steht der Stoff in der Zielgleichung auf der Eduktseite, muss er auch in der Teilgleichung links stehen, sonst kehrst du sie um. Passe die Koeffizienten an. Addiere anschließend alle Teilgleichungen; Zwischenstoffe, die links und rechts in gleicher Menge auftreten, kürzen sich heraus. Prüfe am Ende, ob genau die Zielgleichung übrig bleibt, einschließlich der Aggregatzustände.\n\n### 4. Standardbildungsenthalpien\n\nDie Standardbildungsenthalpie ΔfH° eines Stoffs ist die Reaktionsenthalpie, wenn 1 mol dieses Stoffs unter Standardbedingungen aus den Elementen in ihrer stabilsten Form entsteht. Für die Elemente selbst in dieser Form ist ΔfH° = 0, zum Beispiel für O₂(g), H₂(g) und C(Graphit), nicht aber für O₃(g) oder C(Diamant).\n\nMit tabellierten Werten kannst du jede Reaktionsenthalpie berechnen: ΔrH° = Σ ν·ΔfH°(Produkte) − Σ ν·ΔfH°(Edukte). Dahinter steckt ein gedachter Umweg über die Elemente: Die Edukte werden in Elemente zerlegt (Bildungsreaktionen umgekehrt, daher das Minuszeichen), aus den Elementen entstehen die Produkte. Die stöchiometrischen Faktoren ν stammen aus der Reaktionsgleichung.\n\n### 5. Verbrennungsenthalpien\n\nFür organische Stoffe sind oft Standardverbrennungsenthalpien ΔcH° tabelliert, weil sie sich im Kalorimeter gut messen lassen. Hier verläuft der gedachte Umweg über die Verbrennungsprodukte CO₂ und H₂O. Deshalb kehrt sich die Reihenfolge um: ΔrH° = Σ ν·ΔcH°(Edukte) − Σ ν·ΔcH°(Produkte).\n\n### 6. Modellgrenzen und Plausibilität\n\nTabellenwerte gelten meist für 25 °C und Standarddruck. Achte besonders auf den Aggregatzustand: ΔfH°(H₂O, l) = −285,8 kJ·mol⁻¹, ΔfH°(H₂O, g) = −241,8 kJ·mol⁻¹. Der Unterschied von 44 kJ·mol⁻¹ ist die Verdampfungsenthalpie. Prüfe dein Ergebnis auf Plausibilität: Verbrennungen sind stark exotherm, Zersetzungen stabiler Verbindungen meist endotherm. Der Satz von Hess liefert nur die Energiebilanz; ob und wie schnell eine Reaktion abläuft, sagt er nicht.",
   "fundamentals": [
     {
-      "term": "Satz von Hess und Reaktionsenthalpie",
-      "explanation": "Der Satz von Hess erlaubt, eine Reaktionsenthalpie aus bekannten Teilreaktionen zu bestimmen."
+      "term": "Satz von Hess",
+      "explanation": "Die Reaktionsenthalpie einer Gesamtreaktion ist gleich der Summe der Reaktionsenthalpien ihrer Teilreaktionen, unabhängig vom Reaktionsweg."
     },
     {
-      "term": "Modellgrenze",
-      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+      "term": "Zustandsgröße",
+      "explanation": "Größe, die nur vom Zustand des Systems abhängt, nicht vom Weg dorthin; Beispiele sind Enthalpie, innere Energie und Temperatur."
     },
     {
-      "term": "AFB III",
-      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+      "term": "Thermochemische Gleichung",
+      "explanation": "Reaktionsgleichung mit Aggregatzuständen und der Reaktionsenthalpie für genau diesen Formelumsatz."
+    },
+    {
+      "term": "Standardbildungsenthalpie ΔfH°",
+      "explanation": "Reaktionsenthalpie für die Bildung von 1 mol eines Stoffs aus den Elementen in ihrer stabilsten Form unter Standardbedingungen."
+    },
+    {
+      "term": "Standardverbrennungsenthalpie ΔcH°",
+      "explanation": "Reaktionsenthalpie für die vollständige Verbrennung von 1 mol eines Stoffs zu CO₂(g) und H₂O(l) unter Standardbedingungen."
+    },
+    {
+      "term": "Hess-Kreislauf",
+      "explanation": "Diagramm, das den direkten Reaktionsweg und einen gedachten Umweg über Zwischenstufen gegenüberstellt; beide Wege haben dieselbe Enthalpieänderung."
     }
   ],
   "equations": [
     {
       "id": "chem.q4.1.hess.eq.1",
-      "notation": "ΔH°_R = Σ ν ΔH°_f(Produkte) − Σ ν ΔH°_f(Edukte)",
-      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+      "notation": "ΔrH° = Σ ν·ΔfH°(Produkte) − Σ ν·ΔfH°(Edukte)",
+      "explanation": "Reaktionsenthalpie aus tabellierten Standardbildungsenthalpien."
+    },
+    {
+      "id": "chem.q4.1.hess.eq.2",
+      "notation": "ΔrH° = Σ ν·ΔcH°(Edukte) − Σ ν·ΔcH°(Produkte)",
+      "explanation": "Reaktionsenthalpie aus Standardverbrennungsenthalpien; die Reihenfolge ist gegenüber den Bildungsenthalpien vertauscht."
+    },
+    {
+      "id": "chem.q4.1.hess.eq.3",
+      "notation": "ΔH(Rückreaktion) = −ΔH(Hinreaktion);  ΔH(k · Gleichung) = k · ΔH",
+      "explanation": "Rechenregeln beim Umkehren und Vervielfachen thermochemischer Gleichungen."
+    },
+    {
+      "id": "chem.q4.1.hess.eq.4",
+      "notation": "ΔfH°(Element in stabilster Form) = 0",
+      "explanation": "Bezugspunkt der Bildungsenthalpien, etwa für O₂(g), H₂(g), N₂(g) und C(Graphit)."
     }
   ],
-  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "equationNote": "Die Faktoren ν sind die Koeffizienten der Reaktionsgleichung; ΔfH°- und ΔcH°-Werte stehen in kJ·mol⁻¹ und beziehen sich auf 1 mol des jeweiligen Stoffs. Das Ergebnis gilt für den Formelumsatz der Gleichung, die du aufgeschrieben hast.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q4.1.hess.example.1",
-      "title": "Gleichung umkehren",
-      "prompt": "Gegeben ist A → B mit ΔH=−40 kJ mol⁻¹. Bestimme ΔH für B → A.",
+      "title": "Gleichung umkehren und halbieren",
+      "prompt": "Für N₂(g) + O₂(g) → 2 NO(g) gilt ΔrH° = +181 kJ·mol⁻¹. Bestimme ΔrH° für NO(g) → ½ N₂(g) + ½ O₂(g).",
       "steps": [
-        "Beim Umkehren ändert sich das Vorzeichen",
-        "Für B → A gilt ΔH=+40 kJ mol⁻¹."
+        "Umkehren: 2 NO(g) → N₂(g) + O₂(g) mit ΔrH° = −181 kJ·mol⁻¹.",
+        "Halbieren: alle Koeffizienten und ΔrH° mit ½ multiplizieren."
       ],
-      "result": "Beim Umkehren ändert sich das Vorzeichen. Für B → A gilt ΔH=+40 kJ mol⁻¹."
+      "result": "Für NO(g) → ½ N₂(g) + ½ O₂(g) gilt ΔrH° ≈ −90,5 kJ·mol⁻¹. Der Zerfall von Stickstoffmonooxid in die Elemente ist exotherm."
     },
     {
       "id": "chem.q4.1.hess.example.2",
-      "title": "Teilreaktionen addieren",
-      "prompt": "A → B: ΔH=−40 kJ; B → C: ΔH=+15 kJ. Bestimme ΔH für A → C.",
+      "title": "Graphit in Diamant umwandeln",
+      "prompt": "Bestimme ΔrH° für C(Graphit) → C(Diamant) aus den Verbrennungen: (1) C(Graphit) + O₂(g) → CO₂(g), ΔrH° = −393,5 kJ·mol⁻¹; (2) C(Diamant) + O₂(g) → CO₂(g), ΔrH° = −395,4 kJ·mol⁻¹.",
       "steps": [
-        "Die Gleichungen addieren sich zu A → C; B kürzt sich",
-        "ΔH=−40+15=−25 kJ."
+        "Graphit steht in der Zielgleichung links wie in (1): Gleichung (1) unverändert übernehmen.",
+        "Diamant steht in der Zielgleichung rechts: Gleichung (2) umkehren, CO₂(g) → C(Diamant) + O₂(g) mit ΔrH° = +395,4 kJ·mol⁻¹.",
+        "Addieren: CO₂ und O₂ kürzen sich heraus, übrig bleibt C(Graphit) → C(Diamant).",
+        "ΔrH° = −393,5 kJ·mol⁻¹ + 395,4 kJ·mol⁻¹ = +1,9 kJ·mol⁻¹."
       ],
-      "result": "Die Gleichungen addieren sich zu A → C; B kürzt sich. ΔH=−40+15=−25 kJ."
+      "result": "ΔrH° = +1,9 kJ·mol⁻¹. Direkt messen lässt sich dieser Wert nicht, weil die Umwandlung unter Normalbedingungen praktisch nicht abläuft."
+    },
+    {
+      "id": "chem.q4.1.hess.example.3",
+      "title": "Verbrennungsenthalpie aus Bildungsenthalpien",
+      "prompt": "Berechne ΔrH° für C₂H₅OH(l) + 3 O₂(g) → 2 CO₂(g) + 3 H₂O(l). ΔfH° in kJ·mol⁻¹: C₂H₅OH(l) −277,7; CO₂(g) −393,5; H₂O(l) −285,8.",
+      "steps": [
+        "Produkte: 2·(−393,5) + 3·(−285,8) = −787,0 − 857,4 = −1644,4 kJ·mol⁻¹.",
+        "Edukte: −277,7 kJ·mol⁻¹ für Ethanol; O₂(g) ist ein Element in stabilster Form und trägt 0 bei.",
+        "ΔrH° = −1644,4 − (−277,7) = −1366,7 kJ·mol⁻¹."
+      ],
+      "result": "ΔrH° ≈ −1367 kJ·mol⁻¹. Das ist der Literaturwert, mit dem auch der Kalorimeterversuch auf der Seite zur Enthalpie verglichen wird."
     }
   ],
   "examReferences": [
@@ -133,22 +171,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
-    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
-    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+    "AFB I: Rechenregeln für thermochemische Gleichungen angeben; Elemente mit ΔfH° = 0 erkennen.",
+    "AFB II: Teilgleichungen zu einer Zielgleichung kombinieren; Reaktionsenthalpien aus Bildungs- oder Verbrennungsenthalpien berechnen; Hess-Kreisläufe zeichnen.",
+    "AFB III: Begründen, warum eine Enthalpie nur indirekt zugänglich ist, und Ergebnisse mit Messwerten oder Plausibilitätsüberlegungen vergleichen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
-      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+      "tip": "Schreibe bei jedem Stoff den Aggregatzustand dazu und wähle den passenden Tabellenwert.",
+      "commonError": "Für flüssiges Wasser wird der Wert von Wasserdampf eingesetzt; das Ergebnis weicht dann um 44 kJ·mol⁻¹ je Mol Wasser ab."
     },
     {
-      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
-      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+      "tip": "Multipliziere jeden Tabellenwert mit dem Koeffizienten aus der Reaktionsgleichung.",
+      "commonError": "Die Koeffizienten werden vergessen, sodass zum Beispiel nur einmal ΔfH°(H₂O) statt dreimal eingeht."
     },
     {
-      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
-      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+      "tip": "Bei Verbrennungsenthalpien rechnest du Edukte minus Produkte.",
+      "commonError": "Die Reihenfolge der Bildungsenthalpie-Formel wird übernommen; das Vorzeichen des Ergebnisses ist dann falsch."
+    },
+    {
+      "tip": "ΔfH° = 0 gilt nur für Elemente in ihrer stabilsten Form unter Standardbedingungen.",
+      "commonError": "O₂ erhält einen Tabellenwert, oder Diamant und Ozon werden wie Graphit und Sauerstoff mit 0 angesetzt."
     }
   ],
   "review": {
