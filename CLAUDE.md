@@ -30,7 +30,7 @@ Prüfe bei jedem Auftrag zuerst den aktuellen Code und die betroffenen Dateien. 
 - Navigation/Layout: `src/components/AppShell.tsx`, `Sidebar.tsx`; Seitentypen in `src/types/navigation.ts`.
 - Datengetriebener Lernbereich: `src/content/catalog.json`, `src/content/lessons/*.json`, zentrale Aufgabenbank `src/content/exercises.json`, Verträge und Loader in `src/content/types.ts` und `src/content/index.ts`.
 - Seiten und lokale Styles liegen in `src/pages/`; gemeinsame Basisstile in `src/styles/global.css`.
-- Es gibt keine Authentifizierung, Datenbank oder Server-API. Bearbeitungsergebnisse im Übungsbereich werden nur lokal im Browser gespeichert (`src/practice/storage.ts`), Antworttexte gar nicht.
+- Es gibt keine Authentifizierung, Datenbank oder Server-API. Bearbeitungsergebnisse aus Übungsbereich und Lernseiten werden nur lokal im Browser gespeichert (`src/practice/storage.ts`), Antworttexte gar nicht.
 
 Details, Schema-IDs, Ladepfade, Scripts und Einschränkungen stehen in `PROJECT_CONTEXT.md`.
 

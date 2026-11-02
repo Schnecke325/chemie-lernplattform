@@ -88,7 +88,7 @@ Eine Aufgabe besitzt u. a. ID, Titel, Schwierigkeitsgrad, Prompt, Hinweise, Lös
 
 **Maschinenlesbare Antworten:** Die 37 Aufgaben mit `taskType: "numeric"` und die 6 mit `"matching"` besitzen ein Feld `answer` (Zahlenwerte mit Bezeichnung, Einheit und optionaler Toleranz bzw. Optionen und richtige Zuordnungen). Der Validator verlangt es für diese Typen und verbietet es für alle anderen.
 
-**Lokale Speicherung:** Die Inhaltsdaten enthalten keine Nutzerantworten oder Fortschrittsdaten. Bearbeitungsergebnisse (Ergebnis, Art der Prüfung, Zeitpunkt; keine Antworttexte) werden ausschließlich im `localStorage` des Browsers unter dem Schlüssel `chemie-lernraum.practice.v1` gespeichert (`src/practice/storage.ts`), im Übungsbereich als „nur auf diesem Gerät“ gekennzeichnet und dort zurücksetzbar. Es gibt keine Übertragung an einen Server und keine geräteübergreifende Synchronisierung.
+**Lokale Speicherung:** Die Inhaltsdaten enthalten keine Nutzerantworten oder Fortschrittsdaten. Bearbeitungsergebnisse (Ergebnis, Art der Prüfung, Zeitpunkt; keine Antworttexte) werden ausschließlich im `localStorage` des Browsers unter dem Schlüssel `chemie-lernraum.practice.v1` gespeichert (`src/practice/storage.ts`, gemeinsamer Zugriff über `src/practice/usePracticeRecords.ts`). Übungsbereich und Lernseiten nutzen denselben Speicher. Die Ergebnisse sind im Übungsbereich als „nur auf diesem Gerät“ gekennzeichnet und dort zurücksetzbar. Es gibt keine Übertragung an einen Server und keine geräteübergreifende Synchronisierung.
 
 ## Loader und Validierung
 
@@ -156,7 +156,6 @@ Navigation an der Domainwurzel: Seiten werden über React-State gewechselt, es g
 
 ## Dokumentationsabweichungen
 
-- `README.md` enthält noch den Satz, dass alle sichtbaren Lern- und Prüfungsdaten Platzhalter seien. Das ist für den aktuellen Stand nicht mehr korrekt: 47 strukturierte Lernseiten und 425 Aufgaben sind im Repository. Sie sind allerdings weiterhin im Review-Status und nicht als fachlich freigegeben zu behandeln. Dieser Übergabeauftrag ändert die README nicht.
 - `research/phase4-fortschritt.md` nennt 11 Hauptkapitel/42 Unterkapitel; der aktuelle Katalog enthält zusätzlich das Experimentierkapitel mit fünf Unterkapiteln (12/47 gesamt, 47 Lesson-Dateien).
 - `research/lernstruktur.md` nennt 2024 NT B als Titrationsbeleg; eine Textsuche im lokalen PDF dieser Prüfung findet keine Titration. Die Lernseite `chem.experimental.quantitative` verwendet diesen Beleg deshalb nicht. Ungeklärt, ob die Angabe auf einer nicht textlich erfassten Abbildung beruht.
 - `research/inhaltsmodell.md` beschreibt teilweise den ursprünglichen Vorschlag (Schema 1, Aufgaben direkt in Lessons). Der tatsächliche Code verwendet Lesson-Rohschema 2, ID-Referenzen und eine zentrale Aufgabenbank.

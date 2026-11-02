@@ -115,9 +115,9 @@ Die Aufgaben liegen zentral in `src/content/exercises.json`. Die Lernseiten verw
 
 Der aktuelle Bestand umfasst:
 
-- 252 Übungen;
-- 128 Selbsttests;
-- insgesamt 380 Aufgaben.
+- 282 Übungen;
+- 143 Selbsttests;
+- insgesamt 425 Aufgaben.
 
 Bereits umgesetzt:
 
@@ -129,15 +129,13 @@ Bereits umgesetzt:
 - Filter nach Aufgabenquelle;
 - Filter nach Kompetenzbereich;
 - kombinierbare Filter;
-- Zurücksetzen der Filter.
+- Zurücksetzen der Filter;
+- Klassifizierung aller Aufgaben nach AFB, Aufgabentyp und Bearbeitungsmodus (Regeln und Begründungen in `research/aufgabenklassifikation.md`), dazu passende Filter;
+- Aufgabenbearbeitung im Übungsbereich und auf den Lernseiten: automatische Prüfung bei Zahlen- und Zuordnungsaufgaben, sonst Musterlösung und Selbsteinschätzung;
+- Handschrift-Schreibfläche für freie Aufgaben und Rechenwege;
+- lokale Speicherung der Ergebnisse im Browser (ohne Antworttexte und Handschrift).
 
-Noch nicht klassifiziert sind unter anderem:
-
-- Anforderungsbereiche (AFB);
-- konkrete Aufgabentypen;
-- unterstützte Bearbeitungsmodi.
-
-Diese Angaben dürfen nicht erfunden oder pauschal ergänzt werden. Sie benötigen eine fachliche Prüfung.
+Noch nicht klassifiziert sind historische Prüfungsbezüge (`sourceExamRefs`). Solche Angaben dürfen nicht erfunden oder pauschal ergänzt werden. Sie benötigen eine fachliche Prüfung.
 
 ### Langfristige Funktionen
 
@@ -336,10 +334,9 @@ Die folgenden Punkte sind nicht automatisch als beschlossen zu betrachten:
 
 - Kriterien für den Wechsel von `review` zu `published`;
 - endgültige Klärung der verwendeten Lehrplanversionen im Verhältnis zu den jeweiligen Abiturerlassen;
-- fachliche Klassifizierung der Aufgaben nach AFB und Aufgabentyp;
-- konkrete Bewertungslogik für unterschiedliche Aufgabentypen;
-- konkrete Umsetzung und Speicherung handschriftlicher Eingaben;
-- genaue Gestaltung des Lernfortschritts;
+- Bewertungslogik über die bisherige automatische Prüfung (Zahlen, Zuordnungen) und Selbsteinschätzung hinaus;
+- dauerhafte Speicherung handschriftlicher Eingaben (derzeit bewusst nicht gespeichert);
+- genaue Gestaltung des Lernfortschritts (vom Nutzer festgelegt: erst nach Einführung von Benutzerkonten, da der Fortschritt an die Zugangsdaten gebunden sein soll);
 - Reihenfolge der noch offenen Entwicklungsphasen;
 - Zeitpunkt und Umfang einer Supabase-Integration;
 - Integration der Content-Validierung in die CI-Pipeline.
