@@ -11,7 +11,7 @@ const lessonIdsFromCatalog = new Set(lessonLinks.map((link) => link.lessonId))
 const lessonIdsFromFiles = new Set(lessonFiles.map((file) => file.slice(0, -5)))
 const errors = []
 const allReferencedIds = new Set()
-const stats = { exercise: 0, selfTest: 0 }
+const stats = { exercise: 0, selfTest: 0, classified: 0 }
 
 if (catalog.schemaVersion !== 1) errors.push('Unexpected catalog schema version.')
 if (bank.schemaVersion !== 1 || !Array.isArray(bank.exercises)) errors.push('Invalid exercise bank schema.')
@@ -36,6 +36,8 @@ for (const task of bank.exercises ?? []) {
     errors.push(`${task.id} has invalid taskType.`)
   }
   if (task.afb !== undefined && ![1, 2, 3].includes(task.afb)) errors.push(`${task.id} has invalid AFB.`)
+  if ((task.afb === undefined) !== (task.taskType === undefined)) errors.push(`${task.id} must set AFB and taskType together.`)
+  if (task.afb !== undefined) stats.classified += 1
   if (task.supportedModes !== undefined && (!Array.isArray(task.supportedModes) || task.supportedModes.length === 0
     || task.supportedModes.some((mode) => !['screen', 'handwriting'].includes(mode)))) {
     errors.push(`${task.id} has invalid supportedModes.`)
@@ -74,11 +76,12 @@ for (const id of bankMap.keys()) if (!allReferencedIds.has(id)) errors.push(`Orp
 if (stats.exercise !== 282) errors.push(`Expected 282 regular exercises, found ${stats.exercise}.`)
 if (stats.selfTest !== 143) errors.push(`Expected 143 self-tests, found ${stats.selfTest}.`)
 if (bankMap.size !== 425) errors.push(`Expected 425 total tasks, found ${bankMap.size}.`)
+if (stats.classified !== bankMap.size) errors.push(`Expected all tasks to have AFB and taskType, found ${stats.classified} of ${bankMap.size}.`)
 
 if (errors.length) {
   console.error(`Content validation failed (${errors.length} issue${errors.length === 1 ? '' : 's'}):`)
   for (const error of errors) console.error(`- ${error}`)
   process.exitCode = 1
 } else {
-  console.log(`Content validation passed: ${lessonFiles.length} lessons; ${stats.exercise} exercises; ${stats.selfTest} self-tests; ${bankMap.size} unique, linked tasks.`)
+  console.log(`Content validation passed: ${lessonFiles.length} lessons; ${stats.exercise} exercises; ${stats.selfTest} self-tests; ${bankMap.size} unique, linked tasks; ${stats.classified} classified by AFB and task type.`)
 }
