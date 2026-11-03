@@ -85,7 +85,9 @@ export function ExercisesPage() {
   const [loadError, setLoadError] = useState(false)
   const [filters, setFilters] = useState<Filters>(initialFilters)
   const [expandedId, setExpandedId] = useState<string | null>(null)
-  const { records, saveRecord, resetRecords: clearRecords, storage, syncProblem } = usePracticeRecords()
+  const { records, saveRecord, resetRecords: clearRecords, refresh, storage, syncProblem } = usePracticeRecords()
+  // Ergebnisse von anderen Geräten beim Öffnen übernehmen
+  useEffect(() => { refresh() }, [refresh])
 
   const resetRecords = () => {
     if (!window.confirm(storage === 'account' ? 'Alle Bearbeitungsergebnisse in deinem Konto löschen?' : 'Alle auf diesem Gerät gespeicherten Bearbeitungsergebnisse löschen?')) return
@@ -198,7 +200,7 @@ export function ExercisesPage() {
       </div>
       {!isLoading && !loadError && <div className="practice-device-note">
         <span>{Object.keys(records).length} Aufgaben bearbeitet · {storage === 'account'
-          ? syncProblem ? 'Abgleich mit deinem Konto gerade nicht möglich; neue Ergebnisse werden beim nächsten Laden nachgetragen.' : 'Ergebnisse werden in deinem Konto gespeichert.'
+          ? syncProblem ? 'Abgleich mit deinem Konto gerade nicht möglich; neue Ergebnisse werden beim nächsten Abgleich nachgetragen.' : 'Ergebnisse werden in deinem Konto gespeichert.'
           : 'Ergebnisse werden nur auf diesem Gerät gespeichert.'}</span>
         <button type="button" onClick={resetRecords} disabled={Object.keys(records).length === 0}>Ergebnisse zurücksetzen</button>
       </div>}

@@ -168,7 +168,9 @@ function LearningCatalog({
 
 function LessonView({ lesson }: { lesson: LessonContent }) {
   const [activeSection, setActiveSection] = useState<string>(sectionLinks[0][0])
-  const { records, saveRecord } = usePracticeRecords()
+  const { records, saveRecord, refresh } = usePracticeRecords()
+  // Ergebnisse von anderen Geräten beim Öffnen übernehmen
+  useEffect(() => { refresh() }, [refresh])
   const lessonStartRef = useRef<HTMLDivElement>(null)
   const parent = learningCatalog.chapters.find((chapter) => chapter.children.some((child) => child.lessonId === lesson.id))
   const catalogEntries = learningCatalog.chapters.flatMap((chapter) => [

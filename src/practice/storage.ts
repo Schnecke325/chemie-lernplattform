@@ -80,7 +80,41 @@ export function mergePracticeRecords(base: PracticeRecords, incoming: PracticeRe
   return merged
 }
 
-/** Einträge aus `local`, die in `remote` fehlen oder dort älter sind. */
-export function newerThan(local: PracticeRecords, remote: PracticeRecords): PracticeRecords {
-  return Object.fromEntries(Object.entries(local).filter(([id, record]) => isNewer(record, remote[id])))
+/**
+ * Aufgaben, deren Ergebnis noch nicht sicher im Konto angekommen ist. Nur diese dürfen beim
+ * Abgleich das Konto überschreiben; alles andere übernimmt den Stand des Kontos, damit ein
+ * Zurücksetzen auf einem anderen Gerät nicht durch eine alte lokale Kopie rückgängig wird.
+ */
+const pendingKey = (userId: string) => `${accountStorageKey(userId)}.pending`
+
+export function loadPendingIds(userId: string): Set<string> {
+  try {
+    const parsed: unknown = JSON.parse(window.localStorage.getItem(pendingKey(userId)) ?? '[]')
+    return new Set(Array.isArray(parsed) ? parsed.filter((id): id is string => typeof id === 'string') : [])
+  } catch {
+    return new Set()
+  }
+}
+
+export function savePendingIds(userId: string, ids: Set<string>) {
+  try {
+    if (ids.size === 0) window.localStorage.removeItem(pendingKey(userId))
+    else window.localStorage.setItem(pendingKey(userId), JSON.stringify([...ids]))
+  } catch {
+    // siehe savePracticeRecords
+  }
+}
+
+/** Stand des Kontos plus die noch nicht übertragenen lokalen Ergebnisse, sofern sie neuer sind. */
+export function reconcile(local: PracticeRecords, remote: PracticeRecords, pending: Set<string>): { records: PracticeRecords; toPush: PracticeRecords } {
+  const records = { ...remote }
+  const toPush: PracticeRecords = {}
+  for (const id of pending) {
+    const record = local[id]
+    if (record && isNewer(record, remote[id])) {
+      records[id] = record
+      toPush[id] = record
+    }
+  }
+  return { records, toPush }
 }

@@ -1,7 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import {
-  accountStorageKey, clearPracticeRecords, deviceStorageKey, loadPracticeRecords, mergePracticeRecords, newerThan,
-  savePracticeRecords, type PracticeRecord, type PracticeRecords,
+  accountStorageKey, clearPracticeRecords, deviceStorageKey, loadPendingIds, loadPracticeRecords, mergePracticeRecords,
+  reconcile, savePendingIds, savePracticeRecords, type PracticeRecord, type PracticeRecords,
 } from './storage'
 import './PracticeRecordsContext.css'
 
@@ -9,9 +9,11 @@ interface PracticeValue {
   records: PracticeRecords
   saveRecord: (id: string, record: PracticeRecord) => void
   resetRecords: () => void
+  /** Stand aus dem Konto neu laden (z. B. beim Öffnen einer Seite); ohne Konto wirkungslos */
+  refresh: () => void
   /** Wo die Ergebnisse dauerhaft liegen */
   storage: 'device' | 'account'
-  /** Letzter Abgleich mit dem Konto ist fehlgeschlagen; neuere lokale Ergebnisse werden beim nächsten Laden nachgetragen. */
+  /** Letzter Abgleich mit dem Konto ist fehlgeschlagen; neue Ergebnisse werden beim nächsten Abgleich nachgetragen. */
   syncProblem: boolean
 }
 
@@ -19,15 +21,20 @@ const PracticeContext = createContext<PracticeValue | null>(null)
 
 // Supabase-Zugriff erst bei Bedarf laden
 const loadRemote = () => import('./remote')
+/** Mindestabstand zwischen zwei Abgleichen, damit Fokuswechsel nicht ständig Anfragen auslösen */
+const minSyncInterval = 5000
 
 /**
  * Gemeinsamer Ergebnisbestand für Übungsbereich und Lernseiten. Ohne Konto bleibt er auf
- * diesem Gerät; mit Konto wird er mit dem Konto abgeglichen (neueres Ergebnis gewinnt).
+ * diesem Gerät. Mit Konto ist das Konto maßgeblich: Beim Start, beim Öffnen einer Seite und
+ * bei der Rückkehr zum Tab wird sein Stand übernommen; noch nicht übertragene lokale
+ * Ergebnisse werden dabei nachgetragen, wenn sie neuer sind.
  */
 export function PracticeRecordsProvider({ userId, children }: { userId: string | null; children: ReactNode }) {
   const key = userId ? accountStorageKey(userId) : deviceStorageKey
   const [records, setRecords] = useState<PracticeRecords>(() => loadPracticeRecords(key))
   const recordsRef = useRef(records)
+  const lastSyncRef = useRef(0)
   const [syncProblem, setSyncProblem] = useState(false)
   const [deviceCount, setDeviceCount] = useState(() => userId ? Object.keys(loadPracticeRecords(deviceStorageKey)).length : 0)
 
@@ -37,29 +44,54 @@ export function PracticeRecordsProvider({ userId, children }: { userId: string |
     setRecords(next)
   }, [key])
 
+  /** Überträgt Ergebnisse ins Konto; bis zur Bestätigung gelten sie als ausstehend. */
   const push = useCallback((changes: PracticeRecords) => {
     if (!userId || Object.keys(changes).length === 0) return
+    const pending = loadPendingIds(userId)
+    for (const id of Object.keys(changes)) pending.add(id)
+    savePendingIds(userId, pending)
     loadRemote()
       .then((remote) => remote.upsertRemoteRecords(userId, changes))
-      .then(() => setSyncProblem(false), () => setSyncProblem(true))
+      .then(() => {
+        const stillPending = loadPendingIds(userId)
+        // Nur entfernen, wenn das Ergebnis seitdem nicht erneut geändert wurde
+        for (const [id, record] of Object.entries(changes)) {
+          if (recordsRef.current[id]?.updatedAt === record.updatedAt) stillPending.delete(id)
+        }
+        savePendingIds(userId, stillPending)
+        setSyncProblem(false)
+      }, () => setSyncProblem(true))
   }, [userId])
 
-  // Beim Start mit dem Konto abgleichen: fehlende oder neuere Ergebnisse in beide Richtungen übernehmen.
-  useEffect(() => {
+  const sync = useCallback((force = false) => {
     if (!userId) return
-    let active = true
+    if (!force && Date.now() - lastSyncRef.current < minSyncInterval) return
+    lastSyncRef.current = Date.now()
     loadRemote()
       .then((remote) => remote.fetchRemoteRecords())
       .then((remoteRecords) => {
-        if (!active) return
-        const local = recordsRef.current
-        commit(mergePracticeRecords(local, remoteRecords))
-        push(newerThan(local, remoteRecords))
+        const { records: next, toPush } = reconcile(recordsRef.current, remoteRecords, loadPendingIds(userId))
+        commit(next)
+        savePendingIds(userId, new Set(Object.keys(toPush)))
+        push(toPush)
         setSyncProblem(false)
       })
-      .catch(() => { if (active) setSyncProblem(true) })
-    return () => { active = false }
+      .catch(() => setSyncProblem(true))
   }, [userId, commit, push])
+
+  // Beim Start und bei der Rückkehr zum Tab bzw. Fenster abgleichen.
+  useEffect(() => {
+    if (!userId) return
+    sync(true)
+    const onVisible = () => { if (document.visibilityState === 'visible') sync() }
+    const onFocus = () => sync()
+    document.addEventListener('visibilitychange', onVisible)
+    window.addEventListener('focus', onFocus)
+    return () => {
+      document.removeEventListener('visibilitychange', onVisible)
+      window.removeEventListener('focus', onFocus)
+    }
+  }, [userId, sync])
 
   const saveRecord = useCallback((id: string, record: PracticeRecord) => {
     commit({ ...recordsRef.current, [id]: record })
@@ -69,6 +101,7 @@ export function PracticeRecordsProvider({ userId, children }: { userId: string |
   const resetRecords = useCallback(() => {
     commit({})
     if (!userId) return
+    savePendingIds(userId, new Set())
     loadRemote()
       .then((remote) => remote.deleteRemoteRecords(userId))
       .then(() => setSyncProblem(false), () => setSyncProblem(true))
@@ -87,8 +120,10 @@ export function PracticeRecordsProvider({ userId, children }: { userId: string |
     setDeviceCount(0)
   }
 
-  const value = useMemo(() => ({ records, saveRecord, resetRecords, storage: userId ? 'account' as const : 'device' as const, syncProblem }),
-    [records, saveRecord, resetRecords, userId, syncProblem])
+  const refresh = useCallback(() => sync(), [sync])
+
+  const value = useMemo(() => ({ records, saveRecord, resetRecords, refresh, storage: userId ? 'account' as const : 'device' as const, syncProblem }),
+    [records, saveRecord, resetRecords, refresh, userId, syncProblem])
 
   return <PracticeContext.Provider value={value}>
     {children}
