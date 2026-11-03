@@ -86,7 +86,7 @@ Seit 04.11.2026 nach Nutzerentscheidung. Je Konto und Aufgabe gibt es eine Notiz
 - **Privat oder geteilt:** Voreingestellt ist privat. Private Notizen kann nur die eigene Person lesen, auch Admins nicht (RLS). „Geteilt“ zeigt allen gültigen Konten die Handschrift mit dem Namen der Person; die getippte Antwort bleibt immer privat. Admins dürfen geteilte Notizen entfernen, private nicht. Eine Notiz ohne Inhalt wird gelöscht.
 - **Code:** `src/notes/` (`encoding.ts`: kompaktes Strichformat, Koordinaten auf 0,1 gerundet; `remote.ts`; `NotesContext.tsx` mit `useExerciseNote`), `src/components/SharedNotes.tsx` (Liste „Geteilte Notizen anderer (n)“, erst beim Aufklappen geladen, statische SVG-Vorschau `StrokePreview`). `HandwritingPad` nimmt `initialStrokes`, `onChange` und `storageNote` entgegen.
 - **Datenbank:** `supabase/migrations/20261104160000_notes.sql`. Tabelle `notes` mit höchstens etwa 2 MB Handschrift je Notiz. Die Funktionen `shared_note_counts()`, `shared_notes(exercise)` (ohne getippte Antwort) und `delete_shared_note()` (nur Admins, nur geteilte) stellen sicher, dass die Profiltabelle nicht für alle lesbar wird.
-- **Getestet** gegen den lokalen Supabase-Ersatz: speichern, teilen, wieder öffnen, fremde geteilte Notiz ansehen, Admin entfernt geteilte Notiz, getippte Antwort nie sichtbar. Im echten Projekt eingerichtet (Tabelle und Funktionen vorhanden, ohne Anmeldung gesperrt).
+- **Getestet** gegen den lokalen Supabase-Ersatz: speichern, teilen, wieder öffnen, fremde geteilte Notiz ansehen, Admin entfernt geteilte Notiz, getippte Antwort nie sichtbar. Im echten Projekt eingerichtet und vom Nutzer am 04.11.2026 bestätigt.
 
 ## Abiturarchiv
 
