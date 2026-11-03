@@ -86,7 +86,7 @@ Seit 04.11.2026 nach ausdrücklicher Entscheidung des Nutzers. **Ausnahme von de
 - **Daten:** `src/content/exam-archive.json`, erzeugt mit `node scripts/build-exam-archive.mjs` aus `research/pruefungsanalyse_2007-2025.md`, `research/pruefungsinventar.md` (Dateinamen) und den `examReferences` der Lernseiten. Nur Metadaten, keine Prüfungstexte. Nach Änderungen an diesen Quellen neu erzeugen.
 - **Zugriffsschutz:** `supabase/migrations/20261104150000_exam_archive.sql` legt den privaten Bucket und eine Storage-Policy an (Lesen nur mit `can_view_archive()`); Schreiben ist nur mit der Service-Rolle im Dashboard möglich.
 - **Sichtbarkeit ohne Recht (Nutzerwunsch):** Kein Menüpunkt, keine Archivkarte auf dem Dashboard, und auf den Lernseiten werden die Prüfungsbelege (Jahr, Termin, Vorschlag, Seiten) im Abschnitt „Typische Abitur-Aufgabentypen“ ausgeblendet (`useCanViewArchive`). Zwei Erklärtexte (`chem.q1.5.preservatives`, `chem.q3.4.buffers`) nennen keine konkreten Prüfungen mehr. Das ist eine Anzeigeregel: Die Metadaten stehen weiterhin im öffentlichen Repository (`research/`) und in den öffentlichen JavaScript-Dateien.
-- **Getestet** gegen einen lokalen Supabase-Ersatz (mit und ohne Recht, PDF-Link, fehlende Datei, Passend üben, Handyansicht). Im echten Projekt stehen SQL und Upload noch aus.
+- **Getestet** gegen einen lokalen Supabase-Ersatz (mit und ohne Recht, PDF-Link, fehlende Datei, Passend üben, Handyansicht). Im echten Projekt eingerichtet; der Nutzer hat am 04.11.2026 bestätigt, dass alle 131 PDFs im Speicher sind.
 
 ## Katalog, Lerninhalte und Aufgaben
 
