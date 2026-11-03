@@ -12,6 +12,12 @@ import type {
 
 const lessonModules = import.meta.glob<LessonContentRecord>('./lessons/*.json', { import: 'default' })
 const loadExerciseBank = () => import('./exercises.json').then((module) => module.default as ExerciseBank)
+const figureUrls = import.meta.glob<string>('./figures/*.svg', { query: '?url', import: 'default', eager: true })
+
+/** URL einer Aufgabenabbildung aus src/content/figures/. */
+export function getFigureUrl(file: string): string | undefined {
+  return figureUrls[`./figures/${file}`]
+}
 
 const relevanceValues = new Set<Relevance | 'cross-cutting'>(['high', 'medium', 'supplementary', 'cross-cutting'])
 const taskTypes = new Set(['free-response', 'numeric', 'single-choice', 'multiple-choice', 'matching', 'structured'])
@@ -69,6 +75,14 @@ function isExercise(value: unknown): value is Exercise {
     && (value.sourceExamRefs === undefined || (Array.isArray(value.sourceExamRefs)
       && value.sourceExamRefs.every(isExamRef)))
     && (value.answer === undefined || isAnswer(value.answer))
+    && (value.figures === undefined || (Array.isArray(value.figures) && value.figures.every(isFigure)))
+}
+
+function isFigure(value: unknown): boolean {
+  return isRecord(value) && typeof value.file === 'string' && getFigureUrl(value.file) !== undefined
+    && typeof value.alt === 'string' && value.alt.length > 0
+    && (value.caption === undefined || typeof value.caption === 'string')
+    && ['prompt', 'solution'].includes(String(value.placement))
 }
 
 function isAnswer(value: unknown): boolean {

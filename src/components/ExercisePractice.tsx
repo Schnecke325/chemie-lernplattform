@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import type { Exercise, ExerciseAnswer, ExerciseMode } from '../content/types'
+import { getFigureUrl } from '../content'
+import type { Exercise, ExerciseAnswer, ExerciseFigure, ExerciseMode } from '../content/types'
 import { HandwritingPad } from './HandwritingPad'
 import './ExercisePractice.css'
 import { combineResults, isWithinTolerance, parseNumber } from '../practice/checkAnswer'
@@ -9,6 +10,13 @@ export const resultLabels: Record<PracticeResult, string> = {
   correct: 'Richtig',
   partial: 'Teilweise',
   incorrect: 'Noch nicht',
+}
+
+function Figures({ figures }: { figures: ExerciseFigure[] }) {
+  return <>{figures.map((figure) => <figure className="practice-figure" key={figure.file}>
+    <img src={getFigureUrl(figure.file)} alt={figure.alt} loading="lazy"/>
+    {figure.caption && <figcaption>{figure.caption}</figcaption>}
+  </figure>)}</>
 }
 
 type NumericAnswer = Extract<ExerciseAnswer, { kind: 'numeric' }>
@@ -113,6 +121,8 @@ export function ExercisePractice({ exercise, record, onRecord }: {
   const [solutionVisible, setSolutionVisible] = useState(false)
   const [autoResult, setAutoResult] = useState<PracticeResult | null>(null)
   const answer = exercise.answer
+  const promptFigures = exercise.figures?.filter((figure) => figure.placement === 'prompt') ?? []
+  const solutionFigures = exercise.figures?.filter((figure) => figure.placement === 'solution') ?? []
   const handwritingOnly = exercise.supportedModes?.length === 1 && exercise.supportedModes[0] === 'handwriting'
   const [inputMode, setInputMode] = useState<ExerciseMode>(handwritingOnly ? 'handwriting' : 'screen')
   const [scratchVisible, setScratchVisible] = useState(false)
@@ -128,6 +138,7 @@ export function ExercisePractice({ exercise, record, onRecord }: {
 
   return <div className="exercise-practice">
     <p className="practice-prompt">{exercise.prompt}</p>
+    {promptFigures.length > 0 && <Figures figures={promptFigures}/>}
 
     {answer?.kind === 'numeric' && <>
       <button type="button" className="practice-scratch-toggle" aria-expanded={scratchVisible}
@@ -174,6 +185,7 @@ export function ExercisePractice({ exercise, record, onRecord }: {
     {solutionVisible && <div className="practice-solution">
       <strong>Musterlösung</strong>
       <p>{exercise.solution}</p>
+      {solutionFigures.length > 0 && <Figures figures={solutionFigures}/>}
     </div>}
 
     {!answer && solutionVisible && <SelfAssessment onResult={saveSelf} current={record}/>}

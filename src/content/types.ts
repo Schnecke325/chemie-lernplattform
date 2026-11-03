@@ -56,6 +56,15 @@ export type ExerciseAnswer =
   | { kind: 'numeric'; parts: NumericAnswerPart[] }
   | { kind: 'matching'; options: string[]; items: MatchingAnswerItem[] }
 
+/** Eigene Abbildung zu einer Aufgabe; die SVG-Datei liegt in src/content/figures/. */
+export interface ExerciseFigure {
+  file: string
+  alt: string
+  caption?: string
+  /** Als Aufgabenmaterial unter dem Aufgabentext oder als Teil der Musterlösung. */
+  placement: 'prompt' | 'solution'
+}
+
 export interface Exercise {
   id: string
   title: string
@@ -76,6 +85,7 @@ export interface Exercise {
   sourceExamRefs?: ExamRef[]
   /** Required for numeric and matching tasks, absent for all other task types. */
   answer?: ExerciseAnswer
+  figures?: ExerciseFigure[]
 }
 
 export interface ExerciseBank {

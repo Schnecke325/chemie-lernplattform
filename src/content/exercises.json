@@ -257,7 +257,7 @@
       "id": "chem.basics.data.exercise.basic-axes",
       "title": "Achsen prüfen",
       "difficulty": "basic",
-      "prompt": "Ein Diagramm zeigt die Temperatur einer Reaktionsmischung in °C gegen die Zeit in Sekunden. Was muss in einer vollständigen Achsenbeschriftung stehen und warum ist die Einheit wichtig?",
+      "prompt": "Die Abbildung zeigt die Temperatur einer Reaktionsmischung in °C gegen die Zeit in Sekunden; die Achsenbeschriftungen fehlen noch. Was muss in einer vollständigen Achsenbeschriftung stehen und warum ist die Einheit wichtig?",
       "taskType": "free-response",
       "afb": 2,
       "supportedModes": [
@@ -277,7 +277,14 @@
         "begründen"
       ],
       "sourceLessonId": "chem.basics.data",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "temperature-unlabeled.svg",
+          "alt": "Diagramm ohne Achsenbeschriftung: Eine Kurve steigt zunächst an, erreicht ein Maximum und fällt dann langsam ab. An beiden Achsen steht ein Fragezeichen.",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.basics.data.exercise.basic-trend",
@@ -1034,7 +1041,15 @@
         "zeichnen"
       ],
       "sourceLessonId": "chem.q1.1.bonding",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "lewis-hcl.svg",
+          "alt": "Lewis-Formel H–Cl: ein Bindungsstrich zwischen H und Cl, am Chlor drei freie Elektronenpaare oben, unten und rechts.",
+          "caption": "Lewis-Formel von HCl; freie Elektronenpaare sind als Striche dargestellt.",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.q1.1.bonding.exercise.standard-electronegativity",
@@ -1119,7 +1134,7 @@
       "id": "chem.q1.1.bonding.exercise.transfer-model",
       "title": "Elektronengasmodell prüfen",
       "difficulty": "transfer",
-      "prompt": "Ein Modell zeigt in einem Metallgitter positive Atomrümpfe und dazwischen bewegliche Elektronen. Erkläre, welche Eigenschaft es plausibel macht und was es vereinfacht.",
+      "prompt": "Die Abbildung zeigt ein Modell eines Metallgitters mit positiven Atomrümpfen und dazwischen beweglichen Elektronen. Erkläre, welche Eigenschaft es plausibel macht und was es vereinfacht.",
       "taskType": "free-response",
       "afb": 2,
       "supportedModes": [
@@ -1139,7 +1154,14 @@
         "beurteilen"
       ],
       "sourceLessonId": "chem.q1.1.bonding",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "electron-gas-model.svg",
+          "alt": "Elektronengasmodell: regelmäßig angeordnete Kreise mit Pluszeichen als Atomrümpfe, dazwischen viele kleine Punkte als frei bewegliche Elektronen.",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.q1.1.bonding.selftest.models",
@@ -3089,7 +3111,15 @@
         "erklären"
       ],
       "sourceLessonId": "chem.q1.4.q4.3.surfactants",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "washing-steps.svg",
+          "alt": "Drei Schritte des Waschvorgangs: Erstens lagern sich Tensid-Teilchen mit ihren hydrophoben Resten an einen Fettfleck auf einer Faser an. Zweitens löst sich das Fett als Tröpfchen ab, auch an der Faser sitzen Tenside. Drittens ist das Fetttröpfchen vollständig von Tensiden umhüllt, die hydrophilen Köpfe zeigen nach außen.",
+          "caption": "Vereinfachtes Teilchenmodell des Waschvorgangs",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.q1.4.q4.3.surfactants.exercise.4",
@@ -3491,7 +3521,15 @@
         "angeben"
       ],
       "sourceLessonId": "chem.q2.1.amino-acids-peptides",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "alanine-zwitterion.svg",
+          "alt": "Valenzstrichformel des Alanin-Zwitterions: Ammoniumgruppe mit drei H-Atomen und positiver Ladung am Stickstoff, zentrales C-Atom mit H und CH₃, Carboxylatgruppe mit einer C=O-Doppelbindung und einem negativ geladenen Sauerstoffatom; freie Elektronenpaare an den Sauerstoffatomen.",
+          "caption": "Alanin bei pH 6,0 als Zwitterion",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.q2.1.amino-acids-peptides.exercise.basic-bonds",
@@ -4029,7 +4067,15 @@
         "angeben"
       ],
       "sourceLessonId": "chem.q2.1.carbohydrates",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "glucose-anomers.svg",
+          "alt": "Zwei Haworth-Projektionen nebeneinander. Bei α-D-Glucopyranose zeigt die OH-Gruppe am C1 nach unten, bei β-D-Glucopyranose nach oben. Die übrigen Gruppen sind gleich: CH₂OH an C5 oben, OH an C4 unten, an C3 oben, an C2 unten.",
+          "caption": "Haworth-Projektionen; H-Atome an den Ring-C-Atomen sind nicht dargestellt. Markiert ist das anomere C-Atom C1.",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.q2.1.carbohydrates.exercise.2",
@@ -4796,7 +4842,15 @@
         "erklären"
       ],
       "sourceLessonId": "chem.q2.2.polycondensation-polyaddition",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "polyamide-hydrogen-bonds.svg",
+          "alt": "Zwei waagerechte Polyamid-Kettenabschnitte übereinander. Die C=O-Gruppen der einen Kette liegen gegenüber den N–H-Gruppen der anderen; gepunktete Linien kennzeichnen die Wasserstoffbrücken zwischen ihnen.",
+          "caption": "Ausschnitt aus zwei benachbarten Ketten von Polyamid 6,6",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.q2.2.polycondensation-polyaddition.exercise.5",
@@ -6419,7 +6473,7 @@
       "id": "chem.q3.1.mwg.exercise.transfer-data",
       "title": "Messkurve interpretieren",
       "difficulty": "transfer",
-      "prompt": "Eine Konzentration steigt zunächst und erreicht dann ein Plateau. Erkläre, was die Kurve über das System aussagt und was sie allein nicht beweist.",
+      "prompt": "Die Abbildung zeigt, wie die Konzentration eines Produkts zunächst steigt und dann ein Plateau erreicht. Erkläre, was die Kurve über das System aussagt und was sie allein nicht beweist.",
       "taskType": "free-response",
       "afb": 2,
       "supportedModes": [
@@ -6439,7 +6493,14 @@
         "beurteilen"
       ],
       "sourceLessonId": "chem.q3.1.mwg",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "concentration-plateau.svg",
+          "alt": "Konzentration eines Produkts gegen die Zeit von 0 bis 120 s: Die Kurve steigt anfangs steil und nähert sich ab etwa 80 s einem konstanten Wert von etwa 0,6 mol pro Liter.",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.q3.1.mwg.exercise.transfer-equilibrium",
@@ -7350,7 +7411,7 @@
       "id": "chem.q3.2.titration.exercise.transfer-curve",
       "title": "Titrationskurve auswerten",
       "difficulty": "transfer",
-      "prompt": "Eine Kurve zeigt bei Zugabe von Maßlösung zunächst geringe pH-Änderungen und nahe einem bestimmten Volumen einen steilen Sprung. Erkläre, was du aus diesem Verlauf ableitest und was du für eine Konzentrationsberechnung zusätzlich brauchst.",
+      "prompt": "Die Abbildung zeigt die Titrationskurve einer Säureprobe mit Natronlauge. Der pH-Wert ändert sich zunächst nur wenig und steigt nahe einem bestimmten Volumen steil an. Erkläre, was du aus diesem Verlauf ableitest und was du für eine Konzentrationsberechnung zusätzlich brauchst.",
       "taskType": "free-response",
       "afb": 2,
       "supportedModes": [
@@ -7360,7 +7421,7 @@
         "Der steile Bereich liegt in der Nähe des Äquivalenzpunkts.",
         "Für die Rechnung brauchst du Volumen, Maßlösungskonzentration und Stöchiometrie."
       ],
-      "solution": "Der steile Sprung markiert den pH-Bereich um den Äquivalenzpunkt. Für die Konzentration brauchst du das Äquivalenzvolumen, die Konzentration der Maßlösung, das Probenvolumen und die ausgeglichene Neutralisationsgleichung mit ihrem Stoffmengenverhältnis.",
+      "solution": "Der steile Sprung markiert den pH-Bereich um den Äquivalenzpunkt. Für die Konzentration brauchst du das Äquivalenzvolumen, die Konzentration der Maßlösung, das Probenvolumen und die ausgeglichene Neutralisationsgleichung mit ihrem Stoffmengenverhältnis. In der Abbildung liegt der Sprung bei etwa 20 mL Natronlauge.",
       "competencies": [
         "E",
         "K"
@@ -7370,7 +7431,15 @@
         "ableiten"
       ],
       "sourceLessonId": "chem.q3.2.titration",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "titration-curve.svg",
+          "alt": "Titrationskurve: pH-Wert gegen das Volumen zugegebener Natronlauge von 0 bis 40 mL. Der pH-Wert beginnt bei etwa 2,9, steigt flach bis etwa 6 an, springt bei etwa 20 mL steil auf etwa 11 und flacht danach bei etwa 12,5 ab.",
+          "caption": "Berechneter Kurvenverlauf",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.q3.2.titration.exercise.transfer-uncertainty",
@@ -8093,7 +8162,7 @@
       "id": "chem.q3.3.galvanic-cells.exercise.transfer-bridge",
       "title": "Aufgabe der Salzbrücke",
       "difficulty": "transfer",
-      "prompt": "Erkläre, warum eine galvanische Zelle ohne Salzbrücke oder andere ionische Verbindung nach kurzer Zeit keinen dauerhaften Strom liefern kann.",
+      "prompt": "Die Abbildung zeigt den Aufbau eines Daniell-Elements. Erkläre, warum eine galvanische Zelle ohne Salzbrücke oder andere ionische Verbindung nach kurzer Zeit keinen dauerhaften Strom liefern kann.",
       "taskType": "free-response",
       "afb": 2,
       "supportedModes": [
@@ -8113,7 +8182,14 @@
         "begründen"
       ],
       "sourceLessonId": "chem.q3.3.galvanic-cells",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "daniell-cell.svg",
+          "alt": "Daniell-Element: links ein Zinkstab in Zinksulfat-Lösung, rechts ein Kupferstab in Kupfersulfat-Lösung. Die Lösungen sind durch eine Salzbrücke verbunden, die Elektroden über eine Leitung mit Spannungsmessgerät. Ein Pfeil zeigt den Elektronenfluss vom Zink (Minuspol) zum Kupfer (Pluspol).",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.q3.3.galvanic-cells.selftest.anode",
@@ -8800,7 +8876,7 @@
       "id": "chem.q3.5.kinetics.exercise.6",
       "title": "Messreihe auswerten",
       "difficulty": "transfer",
-      "prompt": "Die Konzentration eines Edukts wird gemessen: t = 0 s: 0,80 mol·L⁻¹; 20 s: 0,56 mol·L⁻¹; 40 s: 0,40 mol·L⁻¹; 60 s: 0,28 mol·L⁻¹. Berechne die mittlere Verbrauchsgeschwindigkeit für jedes Intervall und deute den Verlauf.",
+      "prompt": "Die Konzentration eines Edukts wird gemessen: t = 0 s: 0,80 mol·L⁻¹; 20 s: 0,56 mol·L⁻¹; 40 s: 0,40 mol·L⁻¹; 60 s: 0,28 mol·L⁻¹. Berechne die mittlere Verbrauchsgeschwindigkeit für jedes Intervall und deute den Verlauf. Die Abbildung zeigt die Messwerte.",
       "taskType": "structured",
       "afb": 2,
       "supportedModes": [
@@ -8820,7 +8896,14 @@
         "deuten"
       ],
       "sourceLessonId": "chem.q3.5.kinetics",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "kinetics-measurements.svg",
+          "alt": "Diagramm der Eduktkonzentration gegen die Zeit mit vier Messpunkten: 0,80 mol pro Liter bei 0 s, 0,56 bei 20 s, 0,40 bei 40 s und 0,28 bei 60 s, verbunden durch eine gestrichelte Linie.",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.q3.5.kinetics.selftest.1",
@@ -8843,7 +8926,15 @@
         "angeben"
       ],
       "sourceLessonId": "chem.q3.5.kinetics",
-      "sourceKind": "selfTest"
+      "sourceKind": "selfTest",
+      "figures": [
+        {
+          "file": "energy-catalyst.svg",
+          "alt": "Energiediagramm einer exothermen Reaktion: Die Kurve ohne Katalysator hat ein hohes Maximum, die gestrichelte Kurve mit Katalysator ein niedrigeres. Pfeile zeigen die beiden Aktivierungsenergien; die Reaktionsenthalpie zwischen Edukten und Produkten ist in beiden Fällen gleich.",
+          "caption": "Exotherme Reaktion: Der Katalysator senkt die Aktivierungsenergie, ΔH bleibt gleich.",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.q3.5.kinetics.selftest.2",

@@ -6,12 +6,14 @@ const lessonsDirectory = fileURLToPath(new URL('../src/content/lessons/', import
 const catalog = JSON.parse(await readFile(new URL('../src/content/catalog.json', import.meta.url), 'utf8'))
 const bank = JSON.parse(await readFile(new URL('../src/content/exercises.json', import.meta.url), 'utf8'))
 const lessonFiles = (await readdir(lessonsDirectory)).filter((file) => file.endsWith('.json'))
+const figureFiles = new Set((await readdir(fileURLToPath(new URL('../src/content/figures/', import.meta.url)))).filter((file) => file.endsWith('.svg')))
+const usedFigures = new Set()
 const lessonLinks = catalog.chapters.flatMap((chapter) => chapter.children).filter((link) => link.lessonId)
 const lessonIdsFromCatalog = new Set(lessonLinks.map((link) => link.lessonId))
 const lessonIdsFromFiles = new Set(lessonFiles.map((file) => file.slice(0, -5)))
 const errors = []
 const allReferencedIds = new Set()
-const stats = { exercise: 0, selfTest: 0, classified: 0 }
+const stats = { exercise: 0, selfTest: 0, classified: 0, figures: 0 }
 
 if (catalog.schemaVersion !== 1) errors.push('Unexpected catalog schema version.')
 if (bank.schemaVersion !== 1 || !Array.isArray(bank.exercises)) errors.push('Invalid exercise bank schema.')
@@ -54,7 +56,20 @@ for (const task of bank.exercises ?? []) {
     || task.supportedModes.some((mode) => !['screen', 'handwriting'].includes(mode)))) {
     errors.push(`${task.id} has invalid supportedModes.`)
   }
+  if (task.figures !== undefined) {
+    if (!Array.isArray(task.figures) || task.figures.length === 0) errors.push(`${task.id} has an empty or invalid figures list.`)
+    for (const figure of task.figures ?? []) {
+      if (!figureFiles.has(figure.file)) errors.push(`${task.id} references missing figure ${figure.file}.`)
+      if (typeof figure.alt !== 'string' || figure.alt.trim().length < 10) errors.push(`${task.id} needs a descriptive alt text for ${figure.file}.`)
+      if (!['prompt', 'solution'].includes(figure.placement)) errors.push(`${task.id} has invalid figure placement.`)
+      if (figure.caption !== undefined && typeof figure.caption !== 'string') errors.push(`${task.id} has an invalid figure caption.`)
+      usedFigures.add(figure.file)
+      stats.figures += 1
+    }
+  }
 }
+
+for (const file of figureFiles) if (!usedFigures.has(file)) errors.push(`Unused figure file: ${file}.`)
 
 for (const file of lessonFiles) {
   const lesson = JSON.parse(await readFile(join(lessonsDirectory, file), 'utf8'))
@@ -95,5 +110,5 @@ if (errors.length) {
   for (const error of errors) console.error(`- ${error}`)
   process.exitCode = 1
 } else {
-  console.log(`Content validation passed: ${lessonFiles.length} lessons; ${stats.exercise} exercises; ${stats.selfTest} self-tests; ${bankMap.size} unique, linked tasks; ${stats.classified} classified by AFB and task type.`)
+  console.log(`Content validation passed: ${lessonFiles.length} lessons; ${stats.exercise} exercises; ${stats.selfTest} self-tests; ${bankMap.size} unique, linked tasks; ${stats.classified} classified by AFB and task type; ${stats.figures} figures.`)
 }
