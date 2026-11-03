@@ -21,6 +21,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Überarbeitung der 16 Schablonen-Lernseiten:** Lernziele, Erklärtexte, Fachbegriffe, Gleichungen, Beispiele, Aufgabenformate und typische Fehler der 16 Seiten (Q2.1, Q2.2, Q2.4, Q4.1, Q4.2, Kinetik, Tenside, Anwendungen bewerten) wurden in vier Paketen am 03. und 04.11.2026 themenspezifisch neu geschrieben; siehe `PROJECT_CONTEXT.md`.
 - **Ausbau knapper Lernseiten:** Acht Seiten mit Erklärtexten unter 2.000 Zeichen (vier Q3.3-Seiten zur Elektrochemie sowie Protolyse, Carbonsäuren, Aldehyde und Ketone, technische Gleichgewichte) wurden am 04.11.2026 in zwei Paketen ergänzt, einschließlich der zuvor fehlenden KCGO-Inhalte Konzentrationszelle und Wasserelektrolyse.
 - **Freigabe der Lernseiten:** Alle 47 Lernseiten stehen seit 04.11.2026 auf `publicationStatus: "published"` (Entscheidung des Nutzers nach Abschluss der inhaltlichen Überarbeitungen, ohne formale Prüfkriterien). Der Redaktionshinweis wird nur noch für nicht freigegebene Seiten angezeigt.
+- **Periodensystem:** Über den Knopf „PSE“ in der Kopfzeile lässt sich seit 04.11.2026 ein Periodensystem mit Detailansicht je Element öffnen.
 - **Qualitätskontrolle durch den Nutzer:** Am 02.11.2026 ohne Beanstandungen abgeschlossen.
 - **Dokumentierte Zusammenarbeit/Notizen:** Anforderungen an Aufgabenkommentare sowie private und geteilte Handschriftnotizen sind konzeptionell in `research/zusammenarbeit-und-notizen.md` beschrieben, nicht implementiert.
 
