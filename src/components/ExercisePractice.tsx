@@ -1,7 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { getFigureUrl } from '../content'
 import type { Exercise, ExerciseAnswer, ExerciseFigure, ExerciseMode } from '../content/types'
 import { HandwritingPad } from './HandwritingPad'
+import { SharedNotes } from './SharedNotes'
+import { useExerciseNote, type NoteSaveState } from '../notes/NotesContext'
 import './ExercisePractice.css'
 import { combineResults, isWithinTolerance, parseNumber } from '../practice/checkAnswer'
 import type { PracticeRecord, PracticeResult } from '../practice/storage'
@@ -130,6 +132,21 @@ export function ExercisePractice({ exercise, record, onRecord }: {
     ? handwritingOnly ? 'Diese Aufgabe bearbeitest du am besten handschriftlich.' : 'Diese Aufgabe eignet sich auch gut zur handschriftlichen Bearbeitung.'
     : null
 
+  // Eigene Notiz (Handschrift, Rechenweg, getippte Antwort) im Konto
+  const note = useExerciseNote(exercise.id)
+  const accountNote = note.status !== 'off'
+  useEffect(() => {
+    if (note.loadKey === 0) return
+    const { answer: answerStrokes, scratch, typed } = note.content
+    if (typed) setOwnAnswer(typed)
+    if (answerStrokes.length > 0 && !typed) setInputMode('handwriting')
+    if (scratch.length > 0) setScratchVisible(true)
+  // Nur nach dem Laden einer gespeicherten Notiz übernehmen
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [note.loadKey])
+  const storageNote = accountNote ? 'Die Handschrift wird automatisch in deinem Konto gespeichert.' : undefined
+  const padReady = note.status !== 'loading'
+
   const saveAuto = (result: PracticeResult) => {
     setAutoResult(result)
     onRecord({ result, checkedBy: 'auto', updatedAt: new Date().toISOString() })
@@ -145,7 +162,8 @@ export function ExercisePractice({ exercise, record, onRecord }: {
         onClick={() => setScratchVisible((visible) => !visible)}>
         {scratchVisible ? 'Schreibfläche für den Rechenweg ausblenden' : 'Rechenweg handschriftlich notieren'}
       </button>
-      {scratchVisible && <HandwritingPad label={`Schreibfläche für den Rechenweg: ${exercise.title}`}/>}
+      {scratchVisible && padReady && <HandwritingPad key={`scratch-${note.loadKey}`} label={`Schreibfläche für den Rechenweg: ${exercise.title}`}
+        initialStrokes={note.content.scratch} onChange={(strokes) => note.update({ scratch: strokes })} storageNote={storageNote}/>}
       <NumericCheck exercise={exercise} answer={answer} onResult={saveAuto}/>
     </>}
     {answer?.kind === 'matching' && <MatchingCheck exercise={exercise} answer={answer} onResult={saveAuto}/>}
@@ -156,12 +174,18 @@ export function ExercisePractice({ exercise, record, onRecord }: {
       </div>
       {recommendation && <p className="practice-mode-hint">{recommendation}</p>}
       <label className="practice-own-answer" hidden={inputMode !== 'screen'}>
-        <span>Deine Antwort (optional, wird nicht gespeichert)</span>
-        <textarea rows={4} value={ownAnswer} onChange={(event) => setOwnAnswer(event.target.value)}
+        <span>Deine Antwort (optional, {accountNote ? 'wird nur für dich gespeichert und nie geteilt' : 'wird nicht gespeichert'})</span>
+        <textarea rows={4} value={ownAnswer} maxLength={10000} onChange={(event) => { setOwnAnswer(event.target.value); note.update({ typed: event.target.value }) }}
           placeholder="Formuliere deine Antwort, bevor du die Musterlösung öffnest."/>
       </label>
-      <div hidden={inputMode !== 'handwriting'}><HandwritingPad label={`Schreibfläche für die Antwort: ${exercise.title}`}/></div>
+      <div hidden={inputMode !== 'handwriting'}>{padReady && <HandwritingPad key={`answer-${note.loadKey}`} label={`Schreibfläche für die Antwort: ${exercise.title}`}
+        initialStrokes={note.content.answer} onChange={(strokes) => note.update({ answer: strokes })} storageNote={storageNote}/>}</div>
     </div>}
+    {note.status === 'loading' && answer?.kind !== 'matching' && <p className="practice-sync-note">Deine Notiz wird geladen …</p>}
+    {note.status === 'error' && <p className="practice-sync-note is-error">Deine gespeicherte Notiz konnte nicht geladen werden.</p>}
+    {accountNote && note.status === 'ready' && answer?.kind !== 'matching' && <NoteSharing shared={note.content.shared} saveState={note.saveState}
+      onChange={(shared) => note.update({ shared })}/>}
+    {accountNote && <SharedNotes exerciseId={exercise.id}/>}
 
     {autoResult && <p className={`practice-result result-${autoResult}`} role="status">
       {autoResult === 'correct' ? 'Alles richtig.' : autoResult === 'partial' ? 'Teilweise richtig.' : 'Noch nicht richtig.'}
@@ -189,5 +213,19 @@ export function ExercisePractice({ exercise, record, onRecord }: {
     </div>}
 
     {!answer && solutionVisible && <SelfAssessment onResult={saveSelf} current={record}/>}
+  </div>
+}
+
+const saveLabels: Record<NoteSaveState, string> = { idle: '', saving: 'Wird gespeichert …', saved: 'Gespeichert', error: 'Speichern fehlgeschlagen, neuer Versuch bei der nächsten Änderung', 'too-large': 'Zu viel Handschrift für eine Notiz; bitte etwas löschen' }
+
+/** Privat oder geteilt; geteilt wird nur die Handschrift, nie die getippte Antwort. */
+function NoteSharing({ shared, saveState, onChange }: { shared: boolean; saveState: NoteSaveState; onChange: (shared: boolean) => void }) {
+  return <div className="note-sharing">
+    <div className="practice-mode-switch" role="group" aria-label="Sichtbarkeit deiner Notiz">
+      <button type="button" aria-pressed={!shared} onClick={() => onChange(false)}>Privat</button>
+      <button type="button" aria-pressed={shared} onClick={() => onChange(true)}>Geteilt</button>
+    </div>
+    <span className="note-sharing-hint">{shared ? 'Andere sehen deine Handschrift zu dieser Aufgabe mit deinem Namen; die getippte Antwort bleibt privat.' : 'Nur du kannst diese Notiz sehen, auch Admins nicht.'}</span>
+    {saveLabels[saveState] && <span className={`note-save-state is-${saveState}`}>{saveLabels[saveState]}</span>}
   </div>
 }

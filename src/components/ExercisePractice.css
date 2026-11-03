@@ -82,3 +82,21 @@
 .handwriting-canvas.tool-pan:active{cursor:grabbing}
 .handwriting-note{margin:0;color:#7d8c8f;font-size:10px;line-height:1.5}
 @media(max-width:650px){.practice-matching-row{grid-template-columns:1fr}.practice-matching-row small{grid-column:auto}.practice-actions button,.practice-self-button,.practice-primary{min-height:44px}.handwriting-canvas{height:280px}.handwriting-group button,.practice-mode-switch button{min-height:40px}}
+.practice-sync-note{margin:8px 0 0;color:#8995a0;font-size:12px}
+.practice-sync-note.is-error{color:#f2a08f}
+.note-sharing{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:12px;padding:10px 12px;border:1px solid #1f2830;border-radius:8px;background:#0f151b}
+.note-sharing .practice-mode-switch{margin:0}
+.note-sharing-hint{flex:1 1 260px;color:#8995a0;font-size:11px;line-height:1.5}
+.note-save-state{font:10px var(--mono);color:#8995a0}
+.note-save-state.is-saved{color:var(--mint)}
+.note-save-state.is-error,.note-save-state.is-too-large{color:#f2a08f}
+.shared-notes{margin-top:12px}
+.shared-notes-toggle{padding:7px 12px;border:1px solid #31413d;border-radius:6px;background:#182522;color:#a9decb;font-size:12px;cursor:pointer}
+.shared-notes-toggle:hover{background:#20362e}
+.shared-notes-list{display:grid;gap:10px;margin-top:10px}
+.shared-note{padding:12px;border:1px solid #232d37;border-radius:9px;background:#0f151b}
+.shared-note header{display:flex;align-items:center;gap:10px;margin-bottom:8px;font-size:12px}
+.shared-note header span{color:#8995a0;font:11px var(--mono)}
+.shared-note header button{margin-left:auto;padding:4px 9px;border:1px solid #4a2a28;border-radius:6px;background:#1e1413;color:#f2a08f;font-size:11px;cursor:pointer}
+.shared-note-kicker{display:block;margin:10px 0 4px;font:10px var(--mono);letter-spacing:1px;color:#8995a0}
+.note-preview{display:block;width:100%;max-height:360px;border-radius:7px;background:#0b1015;border:1px solid #1c242d}

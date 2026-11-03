@@ -120,6 +120,7 @@ Neue Funktionen bringen eigene SQL-Dateien mit. Sie werden im SQL Editor (neue, 
 | `20261104130000_practice_records.sql` | Aufgabenergebnisse im Konto (Paket K2) |
 | `20261104140000_admin_progress.sql` | Lernstand-Übersicht für Admins (Paket K3) |
 | `20261104150000_exam_archive.sql` | Privater Speicher für das Abiturarchiv |
+| `20261104160000_notes.sql` | Notizen zu Aufgaben (privat oder geteilt) |
 
 Ob K2 eingerichtet ist, zeigt diese Abfrage; sie muss ohne Fehler laufen:
 

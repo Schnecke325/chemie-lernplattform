@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useState } from 'react'
 import { AccountProvider, accountsEnabled, useAccount } from './account/AccountContext'
 import { AppShell } from './components/AppShell'
 import { PracticeRecordsProvider } from './practice/PracticeRecordsContext'
+import { NotesProvider } from './notes/NotesContext'
 import { LoginGate } from './components/LoginGate'
 import { SubjectPicker, type SubjectId } from './components/SubjectPicker'
 import { DashboardPage } from './pages/DashboardPage'
@@ -64,7 +65,7 @@ function Pages({ userId, onLeaveSubject }: { userId: string | null; onLeaveSubje
   }
   const openExercise = (exerciseId: string) => openPractice({ exerciseId })
 
-  return <PracticeRecordsProvider userId={userId}><AppShell activePage={activePage} onNavigate={setActivePage} onLeaveSubject={onLeaveSubject}>
+  return <PracticeRecordsProvider userId={userId}><NotesProvider userId={userId}><AppShell activePage={activePage} onNavigate={setActivePage} onLeaveSubject={onLeaveSubject}>
     {activePage === 'dashboard'
       ? <DashboardPage onNavigate={setActivePage} onPractice={openExercise}/>
       : activePage === 'lernen'
@@ -78,5 +79,5 @@ function Pages({ userId, onLeaveSubject }: { userId: string | null; onLeaveSubje
               : activePage === 'fortschritt'
                 ? <ProgressPage onPractice={openExercise}/>
                 : <Suspense fallback={null}><ArchivePage onPractice={openPractice}/></Suspense>}
-  </AppShell></PracticeRecordsProvider>
+  </AppShell></NotesProvider></PracticeRecordsProvider>
 }

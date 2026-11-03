@@ -2,9 +2,8 @@ import { useCallback, useEffect, useRef, useState, type CSSProperties, type Poin
 
 /**
  * Schreibfläche für Stift, Maus und optional Finger. Striche werden als Vektordaten
- * in Weltkoordinaten gehalten (unabhängig von Zoom und Verschiebung), damit sie
- * später kontogebunden gespeichert werden können; derzeit existieren sie nur,
- * solange die Komponente geöffnet ist.
+ * in Weltkoordinaten gehalten (unabhängig von Zoom und Verschiebung). Mit `onChange`
+ * meldet die Fläche jede fertige Änderung, damit sie im Konto gespeichert werden kann.
  */
 export interface Stroke {
   color: string
@@ -75,9 +74,22 @@ function boundsOf(strokes: Stroke[]): Box | null {
   return box
 }
 
-export function HandwritingPad({ label }: { label: string }) {
+interface HandwritingPadProps {
+  label: string
+  /** Gespeicherte Striche beim Öffnen */
+  initialStrokes?: Stroke[]
+  /** Wird nach jeder abgeschlossenen Änderung mit dem neuen Stand aufgerufen */
+  onChange?: (strokes: Stroke[]) => void
+  /** Ersetzt den Hinweis, dass die Handschrift nicht gespeichert wird */
+  storageNote?: string
+}
+
+export function HandwritingPad({ label, initialStrokes, onChange, storageNote }: HandwritingPadProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const strokesRef = useRef<Stroke[]>([])
+  const strokesRef = useRef<Stroke[]>(initialStrokes ? copyStrokes(initialStrokes) : [])
+  const onChangeRef = useRef(onChange)
+  onChangeRef.current = onChange
+  const notifyChange = () => onChangeRef.current?.(copyStrokes(strokesRef.current))
   const historyRef = useRef<Stroke[][]>([])
   const viewRef = useRef<View>({ scale: 1, x: 0, y: 0 })
   const selectionRef = useRef<{ strokes: Stroke[]; box: Box } | null>(null)
@@ -96,7 +108,7 @@ export function HandwritingPad({ label }: { label: string }) {
   >(null)
 
   const [historySize, setHistorySize] = useState(0)
-  const [hasStrokes, setHasStrokes] = useState(false)
+  const [hasStrokes, setHasStrokes] = useState(strokesRef.current.length > 0)
   const [hasSelection, setHasSelection] = useState(false)
   const [tool, setToolState] = useState<Tool>('pen')
   const [color, setColor] = useState(inkColors[0].value)
@@ -222,6 +234,7 @@ export function HandwritingPad({ label }: { label: string }) {
     strokesRef.current = next
     setHistorySize(historyRef.current.length)
     setHasStrokes(next.length > 0)
+    notifyChange()
   }
 
   const clearSelection = () => {
@@ -389,9 +402,11 @@ export function HandwritingPad({ label }: { label: string }) {
       setHasSelection(Boolean(bounds))
     } else if (action.kind === 'move' && selectionRef.current) {
       setHasStrokes(strokesRef.current.length > 0)
+      notifyChange()
     } else if (action.kind === 'erase') {
       setHasStrokes(strokesRef.current.length > 0)
       if (event.pointerType === 'touch') cursorRef.current = null
+      notifyChange()
     }
     render()
   }
@@ -411,6 +426,7 @@ export function HandwritingPad({ label }: { label: string }) {
     clearSelection()
     setHistorySize(historyRef.current.length)
     setHasStrokes(previous.length > 0)
+    notifyChange()
     render()
   }
 
@@ -479,7 +495,7 @@ export function HandwritingPad({ label }: { label: string }) {
       onPointerLeave={onPointerLeave}/>
     <p className="handwriting-note">
       Stift oder Maus schreiben, ein Finger scrollt (bei Zoom: verschiebt die Ansicht), zwei Finger zoomen. Am Computer zoomt Strg + Mausrad.
-      {' '}Die Handschrift wird nicht gespeichert und geht beim Schließen der Aufgabe verloren.
+      {' '}{storageNote ?? 'Die Handschrift wird nicht gespeichert und geht beim Schließen der Aufgabe verloren.'}
     </p>
   </div>
 }
