@@ -1,5 +1,5 @@
 import { lazy, Suspense, useRef, useState, type ReactNode } from 'react'
-import { accountsEnabled, useAccount } from '../account/AccountContext'
+import { useAccount } from '../account/AccountContext'
 import type { PageId } from '../types/navigation'
 import { AccountDialog } from './AccountDialog'
 import { Icon } from './Icon'
@@ -34,11 +34,9 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
         <button ref={tableButtonRef} className="icon-button pse-button" aria-haspopup="dialog" aria-label="Periodensystem öffnen" onClick={() => setTableOpen(true)}>PSE</button>
         <div className="breadcrumb"><span>CHEMIE LERNRAUM</span><Icon name="chevron" size={14}/><strong>{pageLabels[activePage]}</strong></div>
         <div className="topbar-right"><span className="topbar-tag"><span className="status-dot"/> DEIN LERNPLATZ</span>
-          {!accountsEnabled
-            ? <span className="avatar">C</span>
-            : profile
-              ? <button ref={accountButtonRef} className="avatar account-button" aria-haspopup="dialog" aria-label={`Konto von ${profile.display_name}`} title={profile.display_name} onClick={() => setAccountOpen(true)}>{initials(profile.display_name)}</button>
-              : <button ref={accountButtonRef} className="icon-button login-button" aria-haspopup="dialog" aria-label="Anmelden" onClick={() => setAccountOpen(true)}><Icon name="user" size={15}/><span>ANMELDEN</span></button>}
+          {profile
+            ? <button ref={accountButtonRef} className="avatar account-button" aria-haspopup="dialog" aria-label={`Konto von ${profile.display_name}`} title={profile.display_name} onClick={() => setAccountOpen(true)}>{initials(profile.display_name)}</button>
+            : <span className="avatar">C</span>}
         </div>
       </header>
       <div className="page-content">{children}</div>
