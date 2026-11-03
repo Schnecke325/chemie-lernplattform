@@ -141,7 +141,7 @@ Ablauf (`.github/workflows/deploy.yml`, bei Push auf `main` oder manuell):
 
 1. Checkout, Node 22, `npm ci`.
 2. `npm run validate:content` und `npm run build`. Schlägt ein Schritt fehl, endet der Job, bevor das Zielrepository berührt wird.
-3. Build-Prüfung: `dist/` darf nur `index.html` und `.js`/`.css` unter `assets/` enthalten und nicht auf `local-material` verweisen.
+3. Build-Prüfung: `dist/` darf nur `index.html` sowie `.js`/`.css`/`.svg` unter `assets/` enthalten und nicht auf `local-material` verweisen. `.svg` ist seit 04.11.2026 für die selbst erstellten Aufgabenabbildungen erlaubt (Zustimmung des Nutzers); andere Bild- oder Dokumentformate bleiben gesperrt.
 4. Klon des Zielrepositorys per SSH-Deploy-Key. Ersetzt werden ausschließlich die verwalteten Pfade `index.html`, `assets/`, `.nojekyll` und die Markierungsdatei `.chemie-lernplattform-deploy` (enthält Quell-Repository und Commit-SHA). Ein Commit „Build aus Schnecke325/chemie-lernplattform@<sha>“ wird nach `main` gepusht.
 5. Der Push löst im Zielrepository den GitHub-Workflow `pages-build-deployment` aus, der die Site veröffentlicht.
 

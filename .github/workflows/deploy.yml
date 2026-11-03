@@ -41,7 +41,7 @@ jobs:
         run: |
           set -euo pipefail
           test -f dist/index.html || { echo "::error::dist/index.html fehlt."; exit 1; }
-          unexpected=$(cd dist && find . -type f ! -path './index.html' ! \( -path './assets/*' \( -name '*.js' -o -name '*.css' \) \))
+          unexpected=$(cd dist && find . -type f ! -path './index.html' ! \( -path './assets/*' \( -name '*.js' -o -name '*.css' -o -name '*.svg' \) \))
           if [ -n "$unexpected" ]; then
             echo "::error::Unerwartete Dateien im Build:"; echo "$unexpected"; exit 1
           fi
