@@ -70,7 +70,7 @@ Bei der Auflistung gilt daher:
 
 Der Nutzer bevorzugt bei der Prüfungsübersicht eine klare Einzelauflistung pro Prüfung und keine ersetzenden Vergleichszusammenfassungen.
 
-Die ursprünglichen PDF-Dateien und das lokale Recherchematerial liegen unter `local-material/` und werden nicht in das Git-Repository übernommen. Die Forschungsdokumentation liegt unter `research/`.
+Die ursprünglichen PDF-Dateien und das lokale Recherchematerial liegen unter `local-material/` und werden nicht in das Git-Repository übernommen. Seit 04.11.2026 dürfen die 131 Prüfungs-PDFs nach Entscheidung des Nutzers zusätzlich in einem privaten Supabase-Speicher liegen, abrufbar nur mit dem Recht „Abiturarchiv“ (laut Nutzer nur die beiden Admins); ohne dieses Recht sind Archiv und Prüfungsbelege nicht sichtbar. Die Forschungsdokumentation liegt unter `research/`.
 
 ## 4. Lernbereich
 

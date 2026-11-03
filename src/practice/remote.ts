@@ -41,3 +41,19 @@ export async function deleteRemoteRecords(userId: string) {
   const { error } = await supabase.from('practice_records').delete().eq('user_id', userId)
   if (error) throw error
 }
+
+const archiveBucket = 'abitur-archiv'
+
+/** Kurzlebiger Link auf ein Original-PDF; Storage-RLS erlaubt das nur mit dem Recht „Abiturarchiv“. */
+export async function signedArchiveUrl(file: string): Promise<string> {
+  const { data, error } = await supabase.storage.from(archiveBucket).createSignedUrl(file, 300)
+  if (error || !data) throw error ?? new Error('Kein Link erhalten')
+  return data.signedUrl
+}
+
+/** Dateinamen im Archivspeicher, für die Upload-Kontrolle der Admins. */
+export async function listArchiveFiles(): Promise<Set<string>> {
+  const { data, error } = await supabase.storage.from(archiveBucket).list('', { limit: 1000 })
+  if (error) throw error
+  return new Set(data.map((item) => item.name))
+}

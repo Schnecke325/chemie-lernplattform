@@ -32,6 +32,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Benutzerkonten, Paket K1 (04.11.2026):** Code für Konten mit Benutzername und Zugangscode, Benutzerverwaltung für Admins (anlegen, Rechte „Abiturarchiv“/„Admin“, Ablaufdatum, neuer Code, entfernen), automatische Löschung abgelaufener Konten und Datenschutzseite liegt vor. Supabase-Schema, Edge Function und Einrichtungsanleitung stehen unter `supabase/`. Am 04.11.2026 mit dem echten Supabase-Projekt eingerichtet und vom Nutzer bestätigt (Anmeldung, Benutzer anlegen und entfernen). Seitdem sehen nicht Angemeldete nur eine Zugangsseite; das grenzt den Nutzerkreis ein, schützt die Inhalte aber nicht. 
 - **Ergebnisse im Konto, Paket K2 (04.11.2026):** Code liegt vor und ist gegen einen lokalen Supabase-Ersatz getestet: Ergebnisse werden je Konto gespeichert und zwischen Geräten abgeglichen, ohne Konto gespeicherte Ergebnisse lassen sich übernehmen. Im echten Projekt eingerichtet; Speichern vom Nutzer bestätigt. Der Abgleich läuft auch beim Seitenwechsel und bei der Rückkehr zum Tab. 
 - **Lernfortschritt, Paket K3 (04.11.2026):** Seite „Lernfortschritt“ (Stand je Kapitel und Lernseite, AFB-Aufteilung, Wiederholungsliste mit Sprung zur Aufgabe), echte Kennzahlen auf dem Dashboard und Reiter „Lernstand“ für Admins. Im echten Projekt eingerichtet und vom Nutzer am 04.11.2026 bestätigt.
+- **Abiturarchiv (04.11.2026):** Jede Prüfung einzeln mit Themen, Original-PDF aus privatem Supabase-Speicher und „Passend üben“; nur für Konten mit dem Recht „Abiturarchiv“ (laut Nutzer nur die beiden Admins). Ohne das Recht sind Archiv und Prüfungsbelege auf den Lernseiten ausgeblendet. Gegen einen lokalen Supabase-Ersatz getestet. Offen: SQL-Datei ausführen, PDFs hochladen und Test durch den Nutzer.
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.
 
 ## Geplant
@@ -41,13 +42,11 @@ Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschri
 - Speicherung der Handschrift im Benutzerkonto.
 - Zusammenhängende Prüfungssimulationen und Abiturtraining.
 - Abbildungen und weitere quellenbasierte Versuchsdarstellungen für die experimentellen Lernseiten.
-- Geschützter Zugang zum Abiturarchiv. Das Recht dafür wird mit K1 je Konto gespeichert; welche Inhalte ins Archiv dürfen und der Schutz von Originalprüfungen sind gesondert zu entscheiden.
 - Privater Storage bei Supabase für Handschrift und Dateien (Auth, PostgreSQL mit RLS und eine Edge Function sind seit K1 im Repository).
 - Aufgabenkommentare, Moderation, persönliche Notizen und gezieltes Teilen gemäß Konzept in `research/zusammenarbeit-und-notizen.md`.
 
 ## Bewusst zurückgestellt oder noch nicht freigegeben
 
-- Abiturarchiv bleibt Platzhalter; Original-PDFs werden nicht in das öffentliche Repository oder den Site-Build übernommen.
 - Kommentare, Notizen, Prüfungssimulationen, kontogebundene Speicherung und die Speicherung von Antworttexten sind nicht Bestandteil des aktuellen Stands.
 - Weitere Supabase-Funktionen über K1–K3 hinaus werden nicht begonnen, bis der Nutzer den konkreten Umfang freigibt.
 - Es gibt keine festgelegten Termine, Prioritäten zwischen diesen Punkten oder endgültige Entscheidung zur konkreten Ausgestaltung von Teilen/Moderation/Offline-Speicherung.
@@ -56,6 +55,5 @@ Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschri
 
 - Sollen für künftige neue oder geänderte Lernseiten formale Prüfkriterien vor der Freigabe gelten?
 - Soll zunächst die fachliche Redaktion, weitere Prüfungsauswertung oder eine spätere Nutzerfunktion priorisiert werden?
-- Welche Inhalte im Abiturarchiv dürfen geschützt bereitgestellt werden, und wie wird der Zugriff serverseitig durchgesetzt?
 - Welche Datenschutzfristen und Rollen gelten für Benutzer, IP-Protokolle, Sessions, Kommentare und Notizfreigaben?
 - Wie wird die im Research beschriebene Versionsabweichung zwischen KCGO April 2026 und LA-2027-Erlass für eine konkrete fachliche Freigabe behandelt?

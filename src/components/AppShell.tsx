@@ -1,5 +1,5 @@
 import { lazy, Suspense, useRef, useState, type ReactNode } from 'react'
-import { useAccount } from '../account/AccountContext'
+import { useAccount, useCanViewArchive } from '../account/AccountContext'
 import type { PageId } from '../types/navigation'
 import { AccountDialog } from './AccountDialog'
 import { Icon } from './Icon'
@@ -26,8 +26,9 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
     requestAnimationFrame(() => accountButtonRef.current?.focus())
   }
   const profile = account.status === 'signed-in' ? account.profile : null
+  const canViewArchive = useCanViewArchive()
   return <div className="app-shell">
-    <Sidebar activePage={activePage} onNavigate={onNavigate} open={menuOpen} onClose={() => setMenuOpen(false)} showAdmin={Boolean(profile?.is_admin)} />
+    <Sidebar activePage={activePage} onNavigate={onNavigate} open={menuOpen} onClose={() => setMenuOpen(false)} showAdmin={Boolean(profile?.is_admin)} showArchive={canViewArchive} />
     <main className="main-area">
       <header className="topbar">
         <button className="mobile-menu icon-button" aria-label="Navigation öffnen" onClick={() => setMenuOpen(true)}><Icon name="menu"/></button>

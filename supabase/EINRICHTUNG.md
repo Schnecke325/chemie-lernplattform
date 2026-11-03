@@ -119,6 +119,7 @@ Neue Funktionen bringen eigene SQL-Dateien mit. Sie werden im SQL Editor (neue, 
 | `20261104120000_accounts.sql` | Konten und Rechte (Paket K1, Schritt 3 oben) |
 | `20261104130000_practice_records.sql` | Aufgabenergebnisse im Konto (Paket K2) |
 | `20261104140000_admin_progress.sql` | Lernstand-Übersicht für Admins (Paket K3) |
+| `20261104150000_exam_archive.sql` | Privater Speicher für das Abiturarchiv |
 
 Ob K2 eingerichtet ist, zeigt diese Abfrage; sie muss ohne Fehler laufen:
 
@@ -131,6 +132,15 @@ Ob K3 eingerichtet ist, zeigt diese Abfrage; im SQL Editor liefert sie keine Zei
 ```sql
 select * from public.admin_practice_summary();
 ```
+
+## Abiturarchiv: PDFs hochladen
+
+1. Die SQL-Datei `20261104150000_exam_archive.sql` ausführen (siehe oben).
+2. Im Dashboard unter **Storage** den Bereich **abitur-archiv** öffnen. Er muss als privat gekennzeichnet sein, also nicht als „Public“.
+3. Alle **131 Prüfungs-PDFs** aus `local-material/` hineinziehen, direkt in die oberste Ebene und mit **unveränderten Dateinamen**. Die Excel-Datei und das Operatoren-PDF (`la27-operatoren-…pdf`) nicht hochladen.
+4. Auf der Website im Abiturarchiv kontrollieren: Admins mit dem Recht „Abiturarchiv“ sehen oben, ob alle 131 PDFs vorhanden sind.
+
+Das Recht „Abiturarchiv“ nur an Konten vergeben, die die Originale sehen dürfen.
 
 ## Lokale Entwicklung (optional)
 

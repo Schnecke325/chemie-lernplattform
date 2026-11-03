@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { ExercisePractice, resultLabels } from '../components/ExercisePractice'
 import { getAllExercises, learningCatalog } from '../content'
 import type { Competency, Difficulty, Exercise, ExerciseMode } from '../content/types'
+import type { ExerciseFocus } from '../types/navigation'
 import { usePracticeRecords } from '../practice/PracticeRecordsContext'
 import './ExercisesPage.css'
 
@@ -79,8 +80,8 @@ function SelectField({
   </label>
 }
 
-/** focusExerciseId: Aufgabe, die nach dem Laden aufgeklappt und angezeigt wird (z. B. aus der Wiederholungsliste). */
-export function ExercisesPage({ focusExerciseId = null, onFocusHandled }: { focusExerciseId?: string | null; onFocusHandled?: () => void }) {
+/** focus: Aufgabe, die nach dem Laden aufgeklappt wird, oder Kapitel/Lernseite, auf die gefiltert wird. */
+export function ExercisesPage({ focus = null, onFocusHandled }: { focus?: ExerciseFocus | null; onFocusHandled?: () => void }) {
   const [exercises, setExercises] = useState<Exercise[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [loadError, setLoadError] = useState(false)
@@ -110,15 +111,20 @@ export function ExercisesPage({ focusExerciseId = null, onFocusHandled }: { focu
   const scrollTargetRef = useRef<string | null>(null)
   // Gewünschte Aufgabe in ihrer Lernseite zeigen, aufklappen und hinscrollen
   useEffect(() => {
-    if (!focusExerciseId || exercises.length === 0) return
-    const exercise = exercises.find((item) => item.id === focusExerciseId)
+    if (!focus || exercises.length === 0) return
     onFocusHandled?.()
+    if (!('exerciseId' in focus)) {
+      setFilters({ ...initialFilters, chapterId: focus.chapterId, lessonId: focus.lessonId ?? '' })
+      setExpandedId(null)
+      return
+    }
+    const exercise = exercises.find((item) => item.id === focus.exerciseId)
     if (!exercise) return
     const topic = topicByLessonId.get(exercise.sourceLessonId)
     setFilters({ ...initialFilters, chapterId: topic?.chapterId ?? '', lessonId: topic?.lessonId ?? '' })
     setExpandedId(exercise.id)
     scrollTargetRef.current = exercise.id
-  }, [focusExerciseId, exercises, onFocusHandled])
+  }, [focus, exercises, onFocusHandled])
 
   // Erst nach dem Rendern der gefilterten Liste hinscrollen
   useEffect(() => {

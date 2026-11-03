@@ -21,7 +21,7 @@ Prüfe bei jedem Auftrag zuerst den aktuellen Code und die betroffenen Dateien. 
 - Ändere nur Projektdateien, die für den Auftrag erforderlich sind. Keine Refactorings oder Designänderungen „nebenbei“.
 - Roadmap-Inhalte und Prioritäten nicht eigenmächtig ändern. Einen Status nur nach bestätigtem Arbeitsstand und mit nachvollziehbarem Beleg aktualisieren.
 - Keine Git-Commits, Pushes, Veröffentlichungen oder Änderungen an Repository-Einstellungen ohne ausdrückliche Zustimmung.
-- Niemals außerhalb des Projektordners arbeiten. `local-material/` enthält lokale Arbeitsquellen und ist durch `.gitignore` ausgeschlossen. Prüfungsoriginale nicht in Git aufnehmen, in die Anwendung einbetten oder in die öffentliche Site kopieren.
+- Niemals außerhalb des Projektordners arbeiten. `local-material/` enthält lokale Arbeitsquellen und ist durch `.gitignore` ausgeschlossen. Prüfungsoriginale nicht in Git aufnehmen, in die Anwendung einbetten oder in die öffentliche Site kopieren. Einzige Ausnahme (Nutzerentscheidung 04.11.2026): Die Prüfungs-PDFs liegen im privaten Supabase-Speicher `abitur-archiv`, nur mit dem Recht „Abiturarchiv“ abrufbar; hochgeladen werden sie vom Nutzer, nicht von Claude.
 
 ## Architektur im Überblick
 

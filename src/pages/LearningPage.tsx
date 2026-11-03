@@ -6,6 +6,7 @@ import { usePracticeRecords } from '../practice/PracticeRecordsContext'
 import type { ReactNode } from 'react'
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import './LearningPage.css'
+import { useCanViewArchive } from '../account/AccountContext'
 
 const competencyLabels: Record<Competency, string> = {
   S: 'Sachkompetenz',
@@ -167,6 +168,8 @@ function LearningCatalog({
 }
 
 function LessonView({ lesson }: { lesson: LessonContent }) {
+  // Prüfungsbelege (Jahr, Termin, Vorschlag) nur mit dem Recht „Abiturarchiv“
+  const canViewArchive = useCanViewArchive()
   const [activeSection, setActiveSection] = useState<string>(sectionLinks[0][0])
   const { records, saveRecord, refresh } = usePracticeRecords()
   // Ergebnisse von anderen Geräten beim Öffnen übernehmen
@@ -276,10 +279,10 @@ function LessonView({ lesson }: { lesson: LessonContent }) {
 
         <LessonSection id="abiturbezug" number="08" title="Typische Abitur-Aufgabentypen">
           <ul className="task-type-list">{lesson.typicalTaskTypes.map((taskType) => <li key={taskType}>{taskType}</li>)}</ul>
-          <div className="exam-reference-list">{lesson.examReferences.map((reference) => <article className="exam-reference" key={`${reference.year}-${reference.term}-${reference.proposal}`}>
+          {canViewArchive && <><div className="exam-reference-list">{lesson.examReferences.map((reference) => <article className="exam-reference" key={`${reference.year}-${reference.term}-${reference.proposal}`}>
             <span className="exam-year">{reference.year}</span><div><strong>{reference.term} · Vorschlag {reference.proposal}</strong><p>Aufgabenblatt S. {reference.pageStart}{reference.pageEnd ? `–${reference.pageEnd}` : ''} · {reference.evidenceRole === 'main-topic' ? 'Hauptthema' : 'Ergänzender Fachbezug'}</p></div><span className="local-source-tag">lokaler Quellenbeleg</span>
           </article>)}</div>
-          <p className="copyright-note">Die Belege verweisen auf Jahr, Termin, Vorschlag und Seiten der lokalen Originale. Originalaufgaben und Lösungstexte sind nicht in diese Lernseite kopiert oder eingebettet.</p>
+          <p className="copyright-note">Die Belege verweisen auf Jahr, Termin, Vorschlag und Seiten der Originale im Abiturarchiv. Originalaufgaben und Lösungstexte sind nicht in diese Lernseite kopiert oder eingebettet.</p></>}
         </LessonSection>
 
         <LessonSection id="uebungen" number="09" title="Übungen in drei Schwierigkeitsstufen">

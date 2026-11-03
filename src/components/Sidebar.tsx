@@ -11,9 +11,9 @@ const items: NavigationItem[] = [
 
 const adminItem: NavigationItem = { id: 'admin', label: 'Benutzerverwaltung', icon: 'shield' }
 
-interface SidebarProps { activePage: PageId; onNavigate: (page: PageId) => void; open: boolean; onClose: () => void; showAdmin: boolean }
+interface SidebarProps { activePage: PageId; onNavigate: (page: PageId) => void; open: boolean; onClose: () => void; showAdmin: boolean; showArchive: boolean }
 
-export function Sidebar({ activePage, onNavigate, open, onClose, showAdmin }: SidebarProps) {
+export function Sidebar({ activePage, onNavigate, open, onClose, showAdmin, showArchive }: SidebarProps) {
   const navButton = (item: NavigationItem) => <button key={item.id} className={`nav-item ${activePage === item.id ? 'active' : ''}`} onClick={() => { onNavigate(item.id); onClose() }} aria-current={activePage === item.id ? 'page' : undefined}>
     <Icon name={item.icon}/><span>{item.label}</span>{activePage === item.id && <span className="nav-indicator"/>}
   </button>
@@ -26,7 +26,7 @@ export function Sidebar({ activePage, onNavigate, open, onClose, showAdmin }: Si
       </a>
       <div className="nav-label">LERNEN</div>
       <nav className="main-nav" aria-label="Hauptnavigation">
-        {items.map(navButton)}
+        {items.filter((item) => showArchive || item.id !== 'abiturarchiv').map(navButton)}
       </nav>
       {showAdmin && <>
         <div className="nav-label nav-label-admin">VERWALTUNG</div>

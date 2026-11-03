@@ -109,3 +109,10 @@ export function useAdminProfile(): Profile | null {
   const { state } = useAccount()
   return state.status === 'signed-in' && state.profile.is_admin ? state.profile : null
 }
+
+/** Darf das Abiturarchiv samt Prüfungsbezügen sehen? Ohne eingerichtete Konten (lokal) ja. */
+export function useCanViewArchive(): boolean {
+  const { state } = useAccount()
+  if (!accountsEnabled) return true
+  return state.status === 'signed-in' && state.profile.can_view_archive
+}

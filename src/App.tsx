@@ -4,15 +4,16 @@ import { AppShell } from './components/AppShell'
 import { PracticeRecordsProvider } from './practice/PracticeRecordsContext'
 import { LoginGate } from './components/LoginGate'
 import { DashboardPage } from './pages/DashboardPage'
-import { PlaceholderPage } from './pages/PlaceholderPage'
 import { LearningPage } from './pages/LearningPage'
 import { ExercisesPage } from './pages/ExercisesPage'
 import { PrivacyPage } from './pages/PrivacyPage'
 import { ProgressPage } from './pages/ProgressPage'
-import type { PageId } from './types/navigation'
+import type { ExerciseFocus, PageId } from './types/navigation'
 
 // Die Benutzerverwaltung wird nur für Admins gebraucht und deshalb erst beim Öffnen geladen.
 const AdminPage = lazy(() => import('./pages/AdminPage'))
+// Archivdaten nur laden, wenn das Archiv geöffnet wird
+const ArchivePage = lazy(() => import('./pages/ArchivePage'))
 
 export default function App() {
   return <AccountProvider><Workspace/></AccountProvider>
@@ -29,12 +30,13 @@ function Workspace() {
 
 function Pages({ userId }: { userId: string | null }) {
   const [activePage, setActivePage] = useState<PageId>('dashboard')
-  // Aufgabe, die der Übungsbereich beim nächsten Öffnen aufklappen soll (aus Wiederholungsliste oder Dashboard)
-  const [focusExerciseId, setFocusExerciseId] = useState<string | null>(null)
-  const openExercise = (exerciseId: string) => {
-    setFocusExerciseId(exerciseId)
+  // Ziel, das der Übungsbereich beim nächsten Öffnen zeigen soll (Wiederholungsliste, Dashboard, Archiv)
+  const [exerciseFocus, setExerciseFocus] = useState<ExerciseFocus | null>(null)
+  const openPractice = (focus: ExerciseFocus) => {
+    setExerciseFocus(focus)
     setActivePage('uebungen')
   }
+  const openExercise = (exerciseId: string) => openPractice({ exerciseId })
 
   return <PracticeRecordsProvider userId={userId}><AppShell activePage={activePage} onNavigate={setActivePage}>
     {activePage === 'dashboard'
@@ -42,13 +44,13 @@ function Pages({ userId }: { userId: string | null }) {
       : activePage === 'lernen'
         ? <LearningPage/>
         : activePage === 'uebungen'
-          ? <ExercisesPage focusExerciseId={focusExerciseId} onFocusHandled={() => setFocusExerciseId(null)}/>
+          ? <ExercisesPage focus={exerciseFocus} onFocusHandled={() => setExerciseFocus(null)}/>
           : activePage === 'admin'
             ? <Suspense fallback={null}><AdminPage/></Suspense>
             : activePage === 'datenschutz'
               ? <PrivacyPage/>
               : activePage === 'fortschritt'
                 ? <ProgressPage onPractice={openExercise}/>
-                : <PlaceholderPage page={activePage}/>}
+                : <Suspense fallback={null}><ArchivePage onPractice={openPractice}/></Suspense>}
   </AppShell></PracticeRecordsProvider>
 }

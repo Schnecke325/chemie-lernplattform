@@ -1,0 +1,3182 @@
+{
+  "schemaVersion": 1,
+  "source": "research/pruefungsanalyse_2007-2025.md und research/pruefungsinventar.md",
+  "exams": [
+    {
+      "id": "2025-HT-A",
+      "year": 2025,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA25-CHE-LK-A-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Haare/Keratin (Q2.1/Q3.2)",
+      "further": "Peptide, Disulfid-Redox, Puffer, Polymerbezug",
+      "fields": [
+        "Q2.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.amino-acids-peptides"
+        },
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.proteins"
+        },
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q3.4.buffers"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2025-HT-B",
+      "year": 2025,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA25-CHE-LK-B-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Tenside (Q1.4/Q2.1/Q2.3)",
+      "further": "Triglyceride/Seifen, Aromatensubstitution, Cellulose",
+      "fields": [
+        "Q1.4",
+        "Q2.1",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.applications",
+          "lessonId": "chem.q1.4.q4.3.surfactants"
+        },
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.fats-oils"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2025-HT-C",
+      "year": 2025,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA25-CHE-LK-C-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Silicium und Siliciumverbindungen (Q1.1/Q3.3/Q2.2)",
+      "further": "Redox, Silane/Siloxane, Nachhaltigkeit",
+      "fields": [
+        "Q1.1",
+        "Q3.3",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1",
+          "lessonId": "chem.q1.1.bonding"
+        },
+        {
+          "chapterId": "chem.q1.1",
+          "lessonId": "chem.q1.1.inorganic-structures"
+        },
+        {
+          "chapterId": "chem.q3.3",
+          "lessonId": "chem.q3.3.advanced"
+        },
+        {
+          "chapterId": "chem.q3.3",
+          "lessonId": "chem.q3.3.redox"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2025-NT-A",
+      "year": 2025,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA25NT-CHE-LK-A-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Natürliche/künstliche Fasern (Q2.1/Q2.2)",
+      "further": "Seidenprotein, Polyacrylnitril, Farbstoffe/Nachweis",
+      "fields": [
+        "Q2.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.organic-tests"
+        },
+        {
+          "chapterId": "chem.q2.2",
+          "lessonId": "chem.q2.2.sustainability"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2025-NT-B",
+      "year": 2025,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA25NT-CHE-LK-B-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Ester (Q1.3/Q3.1/Q3.2)",
+      "further": "Synthese/Hydrolyse, Zucker-Tenside, Gleichgewicht/Titrationskurve",
+      "fields": [
+        "Q1.3",
+        "Q3.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.quantitative"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.3.esters"
+        },
+        {
+          "chapterId": "chem.q3.1",
+          "lessonId": "chem.q3.1.applications"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2025-NT-C",
+      "year": 2025,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA25NT-CHE-LK-C-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Reaktionsmechanismen (Q1.1/Q2.3)",
+      "further": "Addition, Substitution, Eliminierung, Aromatensubstitution",
+      "fields": [
+        "Q1.1",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.basics",
+          "lessonId": "chem.basics.representation"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3",
+          "lessonId": "chem.q1.1.mechanisms"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3",
+          "lessonId": "chem.q2.3.aromatics"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2024-HT-A",
+      "year": 2024,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA24-CH-LK-A-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Outdoorbekleidung (Q2.2)",
+      "further": "PTFE, Polymerisation, Isomerie, Polyaddition",
+      "fields": [
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.qualitative"
+        },
+        {
+          "chapterId": "chem.q2.2",
+          "lessonId": "chem.q2.2.polycondensation-polyaddition"
+        },
+        {
+          "chapterId": "chem.q2.2",
+          "lessonId": "chem.q2.2.properties"
+        },
+        {
+          "chapterId": "chem.q2.2",
+          "lessonId": "chem.q2.4.organic-materials"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2024-HT-B",
+      "year": 2024,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA24-CH-LK-B-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Götterspeise/Färbemittel (Q2.1/Q3.3)",
+      "further": "Aminosäuren/Proteine, Zucker-Nachweis, Cobalt-Redox",
+      "fields": [
+        "Q2.1",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.organic-tests"
+        },
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.proteins"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2024-HT-C",
+      "year": 2024,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA24-CH-LK-C-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Aufbau/Abbau energiereicher Stoffe (Q2.1/Q3.2)",
+      "further": "Photosynthese/Kohlenhydrate, Säure-Base/Redox",
+      "fields": [
+        "Q2.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.observation"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2024-NT-A",
+      "year": 2024,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA24NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Hyaluronsäure (Q2.1)",
+      "further": "Polysaccharid, intermolekulare Kräfte, Hydrolyse",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1",
+          "lessonId": "chem.q1.1.interactions"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2024-NT-B",
+      "year": 2024,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA24NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Säuren und Basen (Q3.2)",
+      "further": "Neutralisation, Titration, Esterverseifung",
+      "fields": [
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.basics",
+          "lessonId": "chem.basics.quantities"
+        },
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.qualitative"
+        },
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q3.2.titration"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2024-NT-C",
+      "year": 2024,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA24NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Harnstoff (Q3.1/Q2.2/Q2.1)",
+      "further": "Gleichgewicht, Polymerharze, Ureazyklus/Nitrit",
+      "fields": [
+        "Q3.1",
+        "Q2.2",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.1",
+          "lessonId": "chem.q3.1.shifts"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2023-HT-A",
+      "year": 2023,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA23-CH-LK-A-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Karies (Q2.1/Q3.2)",
+      "further": "Zucker, Säuregleichgewicht, Fluorid, Werkstoffbewertung",
+      "fields": [
+        "Q2.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1",
+          "lessonId": "chem.q1.1.inorganic-structures"
+        },
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.carbohydrates"
+        },
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q3.2.ph"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2023-HT-B",
+      "year": 2023,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA23-CH-LK-B-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Fleischersatz (Q2.1/Q2.2)",
+      "further": "Proteine, Galactomannan, Redox, Nachhaltigkeitsvergleich",
+      "fields": [
+        "Q2.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.applications",
+          "lessonId": "chem.applications.evaluation"
+        },
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.biopolymers"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2023-HT-C",
+      "year": 2023,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA23-CH-LK-C-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Phosphorverbindungen (Q3.3/Q4.1)",
+      "further": "Redox/Thermo, Lecithin/Tensid, Säure-Base",
+      "fields": [
+        "Q3.3",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        },
+        {
+          "chapterId": "chem.q4.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2023-HT-D",
+      "year": 2023,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA23-CH-LK-D-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Muconsäure (Q1.3/Q2.2)",
+      "further": "Stereochemie, Polymerisation, Materialbewertung",
+      "fields": [
+        "Q1.3",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2023-NT-A",
+      "year": 2023,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA23NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Chlor in organischen Synthesen (Q3.1/Q3.3/Q1.1)",
+      "further": "Gleichgewicht, Redox, Epoxidchemie",
+      "fields": [
+        "Q3.1",
+        "Q3.3",
+        "Q1.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.qualitative"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2023-NT-B",
+      "year": 2023,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA23NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Vanillin (Q2.1/Q2.3/Q2.2)",
+      "further": "Aromat, Lignin/biogene Fasern, Batterie-Redox",
+      "fields": [
+        "Q2.1",
+        "Q2.3",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2023-NT-C",
+      "year": 2023,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA23NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Malein-/Fumarsäure (Q1.3/Q4.1)",
+      "further": "Isomerie, Kräfte, pKa und Esterbildung",
+      "fields": [
+        "Q1.3",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.3.carboxylic-acids"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2023-NT-D",
+      "year": 2023,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA23NT-CH-LK-D-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Ammoniakgleichgewicht (Q3.1/Q4.1)",
+      "further": "Gleichgewicht, Diagramm-/Datenanalyse, Reaktionsgeschwindigkeit",
+      "fields": [
+        "Q3.1",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.basics",
+          "lessonId": "chem.basics.data"
+        },
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.qualitative"
+        },
+        {
+          "chapterId": "chem.q3.1",
+          "lessonId": "chem.q3.1.applications"
+        },
+        {
+          "chapterId": "chem.q3.1",
+          "lessonId": "chem.q3.1.mwg"
+        },
+        {
+          "chapterId": "chem.q4.1",
+          "lessonId": "chem.q3.5.kinetics"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2022-HT-A",
+      "year": 2022,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA22-CH-LK-A-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Frühstück (Q2.1)",
+      "further": "Peptide, Ascorbinsäure, Kohlenhydrate, Säure-Base",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2022-HT-B",
+      "year": 2022,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA22-CH-LK-B-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Ethin/Alkine (Q1.1)",
+      "further": "Addition, Verbrennung, Isomerie",
+      "fields": [
+        "Q1.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3",
+          "lessonId": "chem.q1.1.hydrocarbons"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2022-HT-C",
+      "year": 2022,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA22-CH-LK-C-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Salpetersäure/Stickstoffverbindungen (Q3.1/Q3.3)",
+      "further": "Gleichgewicht, Redox, Substitution/Energetik",
+      "fields": [
+        "Q3.1",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q3.1"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2022-HT-D",
+      "year": 2022,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA22-CH-LK-D-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Phosgen-Synthese (Q3.1/Q4.1/Q2.2)",
+      "further": "Entropie, Gleichgewicht, Polycarbonat",
+      "fields": [
+        "Q3.1",
+        "Q4.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q4.1",
+          "lessonId": "chem.q4.1.entropy-gibbs"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2022-NT-A",
+      "year": 2022,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA22NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Sonnenschutzmittel (Q1.3/Q2.1)",
+      "further": "Ester/Fette und Aromaten-Gleichgewicht",
+      "fields": [
+        "Q1.3",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2022-NT-B",
+      "year": 2022,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA22NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Alkohole/Energieträger (Q1.2/Q2.2/Q4.1)",
+      "further": "Isomerie, Verbrennung, Polymerisation",
+      "fields": [
+        "Q1.2",
+        "Q2.2",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.3.esters"
+        },
+        {
+          "chapterId": "chem.q4.1",
+          "lessonId": "chem.q4.1.hess"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2022-NT-C",
+      "year": 2022,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA22NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Milchsäure (Q1.3/Q3.2/Q2.2)",
+      "further": "pH, Redox, Polyester",
+      "fields": [
+        "Q1.3",
+        "Q3.2",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.qualitative"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2022-NT-D",
+      "year": 2022,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA22NT-CH-LK-D-AUFG.pdf",
+      "pages": "S. 1–3",
+      "focus": "Isomerie/Mesomerie (Q1.1/Q2.3)",
+      "further": "optische Trennung, Esterhydrolyse",
+      "fields": [
+        "Q1.1",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2021-HT-A",
+      "year": 2021,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA21-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Fette und Seifen (Q1.4/Q2.1)",
+      "further": "Iodzahl, Säure-Base/Titration",
+      "fields": [
+        "Q1.4",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.fats-oils"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2021-HT-B",
+      "year": 2021,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA21-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Dieselkraftstoff/Abgasreinigung (Q1.1/Q3.3)",
+      "further": "Kohlenwasserstoffe, Harnstoff/SCR, Redox",
+      "fields": [
+        "Q1.1",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2021-HT-C",
+      "year": 2021,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA21-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Styrol/Polystyrol (Q2.2/Q4.1)",
+      "further": "radikalische/anionische Polymerisation, Thermodynamik",
+      "fields": [
+        "Q2.2",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.2",
+          "lessonId": "chem.q2.2.polymerization"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2021-HT-D",
+      "year": 2021,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA21-CH-LK-D-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Methan/Methanol (Q3.1/Q1.3)",
+      "further": "Sabatier-Gleichgewicht, Aldolreaktion",
+      "fields": [
+        "Q3.1",
+        "Q1.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2021-NT-A",
+      "year": 2021,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA21NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Fette und Iodzahl (Q2.1/Q3.2)",
+      "further": "Titration/quantitative Analyse",
+      "fields": [
+        "Q2.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.quantitative"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2021-NT-B",
+      "year": 2021,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA21NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Brom und organische Reaktionen (Q1.1/Q3.3/Q4.1)",
+      "further": "Addition, Aromat, Redox/Thermo",
+      "fields": [
+        "Q1.1",
+        "Q3.3",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        },
+        {
+          "chapterId": "chem.q4.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2021-NT-C",
+      "year": 2021,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA21NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Aminosäuren/Oxalsäure (Q2.1/Q3.3)",
+      "further": "Stereochemie, Redox",
+      "fields": [
+        "Q2.1",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2021-NT-D",
+      "year": 2021,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA21NT-CH-LK-D-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Ethylenglycol (Q1.2/Q3.2)",
+      "further": "Oxidation, Carbonylverbindungen, Titration",
+      "fields": [
+        "Q1.2",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.2.alcohols"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2020-HT-A",
+      "year": 2020,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA20-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Korrosion (Q3.3)",
+      "further": "Elektrochemie, Korrosionsschutz/Polymerbeschichtung",
+      "fields": [
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.3",
+          "lessonId": "chem.q3.3.electrolysis-corrosion"
+        },
+        {
+          "chapterId": "chem.q3.3",
+          "lessonId": "chem.q3.3.galvanic-cells"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2020-HT-B",
+      "year": 2020,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA20-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Nitrile (Q1.1/Q1.3)",
+      "further": "organische Synthese und Strukturformeln",
+      "fields": [
+        "Q1.1",
+        "Q1.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2020-HT-C",
+      "year": 2020,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA20-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Xanthan/Cellulose (Q2.1/Q2.2)",
+      "further": "Polysaccharide, Fehling-Probe",
+      "fields": [
+        "Q2.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.observation"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2020-NT-A",
+      "year": 2020,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA20NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Wasserstoffperoxid/organische Synthese (Q1.2/Q2.2/Q3.3)",
+      "further": "Redox, Ester/Polymerisation",
+      "fields": [
+        "Q1.2",
+        "Q2.2",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2020-NT-B",
+      "year": 2020,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA20NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Geruchsstoffe (Q1.2/Q2.1/Q2.3)",
+      "further": "Aromaten, Thioladdition, Protein-Disulfidbrücke",
+      "fields": [
+        "Q1.2",
+        "Q2.1",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.2.carbonyls"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2020-NT-C",
+      "year": 2020,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA20NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Phosphorsäure/RNA/Proteine (Q2.1/Q3.2)",
+      "further": "mehrprotonige Säure, Naturstoffe",
+      "fields": [
+        "Q2.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.organic-tests"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2019-HT-A",
+      "year": 2019,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA19-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Schwefelsäure/Bleiakkumulator (Q3.1/Q3.3)",
+      "further": "Ethanol, Redox und Thermochemie",
+      "fields": [
+        "Q3.1",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.3",
+          "lessonId": "chem.q3.3.advanced"
+        },
+        {
+          "chapterId": "chem.q3.3",
+          "lessonId": "chem.q3.3.electrolysis-corrosion"
+        },
+        {
+          "chapterId": "chem.q3.3",
+          "lessonId": "chem.q3.3.redox"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2019-HT-B",
+      "year": 2019,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA19-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Zimtaldehyd und organische Synthesen (Q1.2/Q1.3/Q2.3)",
+      "further": "Aldol, Aminosäure, Struktur/Reaktion",
+      "fields": [
+        "Q1.2",
+        "Q1.3",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2019-HT-C",
+      "year": 2019,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA19-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Fluorwasserstoff/PTFE (Q2.2/Q3.2)",
+      "further": "Säure-Base, Polymer, Umweltbewertung",
+      "fields": [
+        "Q2.2",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.applications",
+          "lessonId": "chem.applications.evaluation"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2019-NT-A",
+      "year": 2019,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA19NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Nickel und Mond-Verfahren (Q3.1/Q3.3/Q4.1)",
+      "further": "Elektrochemie, Gleichgewicht, Thermochemie",
+      "fields": [
+        "Q3.1",
+        "Q3.3",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.3",
+          "lessonId": "chem.q3.3.galvanic-cells"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2019-NT-B",
+      "year": 2019,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA19NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Muschelmaterialien (Q2.1/Q2.2)",
+      "further": "Calciumcarbonat, Proteine/Chitin, Werkstoffvergleich",
+      "fields": [
+        "Q2.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.biopolymers"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2019-NT-C",
+      "year": 2019,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA19NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Acetylsalicylsäure/Analgetika (Q1.3/Q3.2)",
+      "further": "Säure-Base und Synthese",
+      "fields": [
+        "Q1.3",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2018-HT-A",
+      "year": 2018,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA18-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Capsaicin (Q1.1/Q2.3)",
+      "further": "Funktionelle Gruppen/Aromat",
+      "fields": [
+        "Q1.1",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2018-HT-B",
+      "year": 2018,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA18-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "PVC (Q2.2)",
+      "further": "Polymerisation und Werkstoffeigenschaften",
+      "fields": [
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2018-HT-C",
+      "year": 2018,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA18-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Anilin (Q2.3/Q3.2)",
+      "further": "Basizität, Aromatensubstitution",
+      "fields": [
+        "Q2.3",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2018-NT-A",
+      "year": 2018,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA18NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Energy-Drinks (Q1.3/Q2.1)",
+      "further": "Koffein, Taurin, Konzentrationsrechnung",
+      "fields": [
+        "Q1.3",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.basics",
+          "lessonId": "chem.basics.quantities"
+        },
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q3.2.titration"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2018-NT-B",
+      "year": 2018,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA18NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Phthalsäureanhydrid (Q2.3/Q4.1)",
+      "further": "Aromaten, Oxidation/Thermochemie",
+      "fields": [
+        "Q2.3",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q4.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2018-NT-C",
+      "year": 2018,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA18NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Ethylenoxid (Q1.1/Q2.2)",
+      "further": "Epoxidreaktion, Polymerchemie",
+      "fields": [
+        "Q1.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2017-HT-A",
+      "year": 2017,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA17-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Chlorverbindungen und Phosphorchemie (Q1.1/Q3.3)",
+      "further": "radikalische Substitution, Gleichgewicht, Redox",
+      "fields": [
+        "Q1.1",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2017-HT-B",
+      "year": 2017,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA17-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Fumar-/Maleinsäure (Q1.3/Q4.1)",
+      "further": "Isomerie, Wechselwirkung, Thermochemie",
+      "fields": [
+        "Q1.3",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.basics",
+          "lessonId": "chem.basics.representation"
+        },
+        {
+          "chapterId": "chem.q1.1",
+          "lessonId": "chem.q1.1.interactions"
+        },
+        {
+          "chapterId": "chem.q4.1",
+          "lessonId": "chem.q4.1.enthalpy"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2017-HT-C",
+      "year": 2017,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA17-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Chloressigsäure/Celluloseether/Peptid (Q1.3/Q2.1/Q2.2)",
+      "further": "Polymer- und Naturstoffbezug",
+      "fields": [
+        "Q1.3",
+        "Q2.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2017-NT-A",
+      "year": 2017,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA17NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Isobuten/Polyisobuten (Q1.2/Q2.2)",
+      "further": "Eliminierung und kationische Polymerisation",
+      "fields": [
+        "Q1.2",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3",
+          "lessonId": "chem.q1.1.mechanisms"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2017-NT-B",
+      "year": 2017,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA17NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Himbeeraroma (Q1.2/Q1.3)",
+      "further": "Ester, Gleichgewicht und Thermochemie",
+      "fields": [
+        "Q1.2",
+        "Q1.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.3.esters"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2017-NT-C",
+      "year": 2017,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA17NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Manuka-Honig (Q2.1)",
+      "further": "Naturstoffe und Stoffeigenschaften",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.observation"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2016-HT-A",
+      "year": 2016,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA16-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Methansäure (Q1.3/Q3.2/Q3.3)",
+      "further": "Redox, pH, Gleichgewicht; Deckblatt S. 1 nennt drei Vorschläge, daher HT D nicht vorgesehen",
+      "fields": [
+        "Q1.3",
+        "Q3.2",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.organic-tests"
+        },
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.separation"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2016-HT-B",
+      "year": 2016,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA16-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Speiseeis/Emulgator (Q2.1/Q1.4)",
+      "further": "Fette, Tensidwirkung und Grenzflächen",
+      "fields": [
+        "Q2.1",
+        "Q1.4"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.applications"
+        },
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2016-HT-C",
+      "year": 2016,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA16-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Milchproteine/Melamin (Q2.1)",
+      "further": "Protein/Nachweis, Struktur und Bewertung",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.qualitative"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2015-HT-A",
+      "year": 2015,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA15-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–5",
+      "focus": "Citronensäure (Q1.3/Q3.2)",
+      "further": "Isomerie/Stereochemie, Protolyse, quantitative Bestimmung",
+      "fields": [
+        "Q1.3",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.3.carboxylic-acids"
+        },
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q3.2.ph"
+        },
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q3.2.protolysis"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2015-HT-B",
+      "year": 2015,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA15-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–5",
+      "focus": "Ketchup und Mayonnaise (Q2.1/Q2.2)",
+      "further": "Lycopin-Addition, Emulsion, Xanthan",
+      "fields": [
+        "Q2.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2015-HT-C",
+      "year": 2015,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA15-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Ethen und Pflanzenhormon (Q1.1/Q2.2)",
+      "further": "Doppelbindung, Nachweis, Polymerisation",
+      "fields": [
+        "Q1.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.organic-tests"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3",
+          "lessonId": "chem.q1.1.hydrocarbons"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2015-HT-D",
+      "year": 2015,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA15-CH-LK-D-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Schwefelsäurederivate (Q3.1/Q2.3)",
+      "further": "Gleichgewicht/Zeitverlauf, Synthese Saccharin",
+      "fields": [
+        "Q3.1",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.basics",
+          "lessonId": "chem.basics.data"
+        },
+        {
+          "chapterId": "chem.q3.1",
+          "lessonId": "chem.q3.1.shifts"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2015-NT-A",
+      "year": 2015,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA15NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–5",
+      "focus": "Bier (Q2.1/Q1.2)",
+      "further": "Maltose, Gärung, Alkohole/Carbonylverbindungen",
+      "fields": [
+        "Q2.1",
+        "Q1.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2015-NT-B",
+      "year": 2015,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA15NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Kresole (Q2.3)",
+      "further": "Aromaten, elektrophile Substitution, Indikatoren",
+      "fields": [
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3",
+          "lessonId": "chem.q2.3.aromatics"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2015-NT-C",
+      "year": 2015,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA15NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Cystein und Taurin (Q2.1)",
+      "further": "Aminosäure/Peptid, Redox, Protolyse",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.separation"
+        },
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.amino-acids-peptides"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2015-NT-D",
+      "year": 2015,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA15NT-CH-LK-D-AUFG.pdf",
+      "pages": "S. 2–5",
+      "focus": "Kohlensäure und Salze (Q3.1/Q3.2)",
+      "further": "Protolysegleichgewichte, thermische Zersetzung",
+      "fields": [
+        "Q3.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q3.1"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2014-HT-A",
+      "year": 2014,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA14-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Chemische Spezialeffekte (Q2.2/Q3.3/Q4.1)",
+      "further": "Polyvinylalkohol/Boratgel, Redox und Energetik",
+      "fields": [
+        "Q2.2",
+        "Q3.3",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        },
+        {
+          "chapterId": "chem.q4.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2014-HT-B",
+      "year": 2014,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA14-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Konservierungsstoffe (Q1.3/Q2.3)",
+      "further": "Sorbin-/Benzoesäure, Reaktivität/Aromat",
+      "fields": [
+        "Q1.3",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q1.5.preservatives"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2014-HT-C",
+      "year": 2014,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA14-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–3",
+      "focus": "Pentosen (Q2.1)",
+      "further": "Fischer-/Ringformen, Zuckeraufbau",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.observation"
+        },
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.carbohydrates"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2014-HT-D",
+      "year": 2014,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA14-CH-LK-D-AUFG.pdf",
+      "pages": "S. 2–3",
+      "focus": "Carbonsäuren (Q1.3)",
+      "further": "Wechselwirkungen, Aminosäuren, Polyamid",
+      "fields": [
+        "Q1.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2014-NT-A",
+      "year": 2014,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA14NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Tenside und Fette (Q1.4/Q2.1)",
+      "further": "Verseifung, Struktur-Eigenschaft",
+      "fields": [
+        "Q1.4",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.applications",
+          "lessonId": "chem.q1.4.q4.3.surfactants"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2014-NT-B",
+      "year": 2014,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA14NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–5",
+      "focus": "Aminosäurereaktionen (Q2.1)",
+      "further": "Peptidsynthese, Aromatenreaktion/Nachweis",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.organic-tests"
+        },
+        {
+          "chapterId": "chem.q2.1",
+          "lessonId": "chem.q2.1.amino-acids-peptides"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2014-NT-C",
+      "year": 2014,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA14NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–3",
+      "focus": "Ascorbinsäure (Q1.5/Q2.1)",
+      "further": "Synthese, Redox und quantitative Analyse",
+      "fields": [
+        "Q1.5",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q1.5.preservatives"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2014-NT-D",
+      "year": 2014,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA14NT-CH-LK-D-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Chlor und Chlorverbindungen (Q3.1/Q3.3)",
+      "further": "Gleichgewicht und Redoxverfahren",
+      "fields": [
+        "Q3.1",
+        "Q3.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q3.1"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2013-HT-A",
+      "year": 2013,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA13-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Tennisfilz und Gummi (Q2.2)",
+      "further": "Polymerstruktur/Werkstoffe",
+      "fields": [
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2013-HT-B",
+      "year": 2013,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA13-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–3",
+      "focus": "Harnstoff und Ammoniak (Q3.1/Q2.1)",
+      "further": "Gleichgewicht, organische Stickstoffverbindungen",
+      "fields": [
+        "Q3.1",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        },
+        {
+          "chapterId": "chem.q3.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2013-HT-C",
+      "year": 2013,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA13-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Wein-Inhaltsstoffe (Q2.1/Q1.3)",
+      "further": "Naturstoffe, Säuren",
+      "fields": [
+        "Q2.1",
+        "Q1.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.organic-tests"
+        },
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.quantitative"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2013-HT-D",
+      "year": 2013,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA13-CH-LK-D-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Nitroverbindungen (Q2.3)",
+      "further": "Aromatensubstitution/Redox",
+      "fields": [
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2013-NT-A",
+      "year": 2013,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA13NT-CH-LK-A-AUFG.pdf",
+      "pages": "S. 2–3",
+      "focus": "Lakritze (Q2.1)",
+      "further": "Naturstoffe/Kohlenhydrate",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2013-NT-B",
+      "year": 2013,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA13NT-CH-LK-B-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Phenole und Phenoplaste (Q2.3/Q2.2)",
+      "further": "Aromaten, Polykondensation",
+      "fields": [
+        "Q2.3",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2013-NT-C",
+      "year": 2013,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA13NT-CH-LK-C-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Eiklar (Q2.1)",
+      "further": "Proteine und Nachweise",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2013-NT-D",
+      "year": 2013,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA13NT-CH-LK-D-AUFG.pdf",
+      "pages": "S. 2–4",
+      "focus": "Biokraftstoffe (Q4.2/Q2.1)",
+      "further": "Ester, Energie/Nachhaltigkeit",
+      "fields": [
+        "Q4.2",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.applications",
+          "lessonId": "chem.q4.2.energy-sustainability"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2012-HT-A",
+      "year": 2012,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA12-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Benzoesäure (Q1.3/Q2.3)",
+      "further": "Aromat, Carbonsäure/Säurestärke",
+      "fields": [
+        "Q1.3",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2012-HT-B",
+      "year": 2012,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA12-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Kohle zu Kunststoff (Q3.1/Q2.2)",
+      "further": "Boudouard-Gleichgewicht, Polymerwerkstoff",
+      "fields": [
+        "Q3.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.2"
+        },
+        {
+          "chapterId": "chem.q3.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2012-HT-C",
+      "year": 2012,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA12-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Kondensationsreaktionen (Q1.3/Q2.2)",
+      "further": "Ester/Polyreaktionen",
+      "fields": [
+        "Q1.3",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2012-HT-D",
+      "year": 2012,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA12-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Bakterienzellwand (Q2.1)",
+      "further": "Naturstoffe/biologische Makromoleküle",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2011-HT-A",
+      "year": 2011,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA11-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Blausäure/Cyanide (Q3.2)",
+      "further": "Säure-Base, Gleichgewichte",
+      "fields": [
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2011-HT-B",
+      "year": 2011,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA11-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Buttersäure (Q1.3/Q3.2)",
+      "further": "Carbonsäure, Struktur und Protolyse",
+      "fields": [
+        "Q1.3",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2011-HT-C",
+      "year": 2011,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA11-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Süßungsmittel (Q1.3/Q2.1)",
+      "further": "organische Struktur/Naturstoffkontext",
+      "fields": [
+        "Q1.3",
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.qualitative"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2011-HT-D",
+      "year": 2011,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA11-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Phenol (Q2.3)",
+      "further": "Aromat, Säure-Base/Reaktionen",
+      "fields": [
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2011-NT-A",
+      "year": 2011,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA11NT-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Ibuprofen (Q1.3/Q2.3)",
+      "further": "Carbonsäure, Aromat, Synthese",
+      "fields": [
+        "Q1.3",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2011-NT-B",
+      "year": 2011,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA11NT-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Essigsäure und Derivate (Q1.3)",
+      "further": "Ester/Derivate, Protolyse",
+      "fields": [
+        "Q1.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2011-NT-C",
+      "year": 2011,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA11NT-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Naturstoffe und Klebstoffe (Q2.1/Q2.2)",
+      "further": "Polymer-/Stoffeigenschaften",
+      "fields": [
+        "Q2.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2011-NT-D",
+      "year": 2011,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA11NT-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Entschwefelung fossiler Brennstoffe (Q3.3/Q4.2)",
+      "further": "Redox, Verfahren und Umweltbezug",
+      "fields": [
+        "Q3.3",
+        "Q4.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.applications"
+        },
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q3.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2010-HT-A",
+      "year": 2010,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA10-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Halogenalkane (Q1.1)",
+      "further": "Herstellung, Reaktionsmechanismen",
+      "fields": [
+        "Q1.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2010-HT-B",
+      "year": 2010,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA10-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Stickstoffverbindungen (Q3.1)",
+      "further": "Gleichgewicht/Anorganik",
+      "fields": [
+        "Q3.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2010-HT-C",
+      "year": 2010,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA10-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Milch (Q2.1)",
+      "further": "Proteine/Naturstoffe",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2010-HT-D",
+      "year": 2010,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA10-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Reaktionen an Doppelbindungen (Q1.1)",
+      "further": "Additionen, Reaktionsgleichungen",
+      "fields": [
+        "Q1.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3",
+          "lessonId": "chem.q1.1.hydrocarbons"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2010-NT-A",
+      "year": 2010,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA10NT-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Phenole (Q2.3)",
+      "further": "Aromaten, Säure-Base/Reaktivität",
+      "fields": [
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2010-NT-B",
+      "year": 2010,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA10NT-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Organische Synthesewege (Q1.1–Q1.3)",
+      "further": "Reaktionsfolgen, Strukturformeln",
+      "fields": [
+        "Q1.1",
+        "Q1.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2010-NT-C",
+      "year": 2010,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA10NT-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Kunststoffe (Q2.2)",
+      "further": "Polymerbildung und Eigenschaften",
+      "fields": [
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2010-NT-D",
+      "year": 2010,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA10NT-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Methansäure (Q1.3/Q3.2)",
+      "further": "Carbonsäure, Protolyse/Redox",
+      "fields": [
+        "Q1.3",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2009-HT-A",
+      "year": 2009,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA09-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Ricinusöl/nachwachsender Rohstoff (Q2.1)",
+      "further": "Ester, Polyreaktion, Werkstoffkontext",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2009-HT-B",
+      "year": 2009,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA09-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Synthesegas und Methanol (Q3.1/Q4.1)",
+      "further": "Gleichgewicht, Energetik",
+      "fields": [
+        "Q3.1",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.1"
+        },
+        {
+          "chapterId": "chem.q4.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2009-HT-C",
+      "year": 2009,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA09-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Oxalsäure (Q1.3/Q3.2)",
+      "further": "Dicarbonsäure, Säure-Base/Redox",
+      "fields": [
+        "Q1.3",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2009-HT-D",
+      "year": 2009,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA09-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Chemie der Biene (Q2.1)",
+      "further": "Naturstoffe/Polysaccharide",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2009-NT-A",
+      "year": 2009,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA09NT-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2–4",
+      "focus": "Glycin (Q2.1/Q3.2)",
+      "further": "Aminosäure, Protolyse, Verbrennung",
+      "fields": [
+        "Q2.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2009-NT-B",
+      "year": 2009,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA09NT-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Propanon (Q1.2)",
+      "further": "Carbonylverbindung, Reaktionen",
+      "fields": [
+        "Q1.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.2.carbonyls"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2009-NT-C",
+      "year": 2009,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA09NT-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Kunststoffe im Sportschuh (Q2.2)",
+      "further": "Polymerstruktur/Eigenschaften",
+      "fields": [
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2009-NT-D",
+      "year": 2009,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA09NT-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Salpetersäure/Düngemittel (Q3.1/Q3.2)",
+      "further": "Gleichgewicht, Säure-Base, Anwendung",
+      "fields": [
+        "Q3.1",
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q3.1"
+        },
+        {
+          "chapterId": "chem.q3.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2008-HT-A",
+      "year": 2008,
+      "term": "HT",
+      "proposal": "A",
+      "file": "LA08-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2",
+      "focus": "Explosivstoffe/TNT (Q1.1/Q2.3)",
+      "further": "Aromatensubstitution, Energetik",
+      "fields": [
+        "Q1.1",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2008-HT-B",
+      "year": 2008,
+      "term": "HT",
+      "proposal": "B",
+      "file": "LA08-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Ethin und Makromoleküle (Q1.1/Q2.2)",
+      "further": "Mehrfachbindung, Polymerchemie",
+      "fields": [
+        "Q1.1",
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        },
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2008-HT-C",
+      "year": 2008,
+      "term": "HT",
+      "proposal": "C",
+      "file": "LA08-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Methanol im Wein (Q1.2)",
+      "further": "Stoffmengenkonzentration, Oxidation/Nachweis",
+      "fields": [
+        "Q1.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.qualitative"
+        },
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.separation"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2008-HT-D",
+      "year": 2008,
+      "term": "HT",
+      "proposal": "D",
+      "file": "LA08-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Kochsalzlösung/Titration (Q3.2)",
+      "further": "quantitative Säure-Base-Analyse",
+      "fields": [
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.quantitative"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2008-NT-A",
+      "year": 2008,
+      "term": "NT",
+      "proposal": "A",
+      "file": "LA08NT-CH-LK-A-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Isomaltulose (Q2.1)",
+      "further": "Kohlenhydratstruktur und Reaktionen",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental",
+          "lessonId": "chem.experimental.organic-tests"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2008-NT-B",
+      "year": 2008,
+      "term": "NT",
+      "proposal": "B",
+      "file": "LA08NT-CH-LK-B-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Biodiesel (Q2.1/Q4.2)",
+      "further": "Ester, Fette, Nachhaltigkeitskontext",
+      "fields": [
+        "Q2.1",
+        "Q4.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.applications",
+          "lessonId": "chem.q4.2.energy-sustainability"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2008-NT-C",
+      "year": 2008,
+      "term": "NT",
+      "proposal": "C",
+      "file": "LA08NT-CH-LK-C-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Aminoplaste (Q2.2)",
+      "further": "Polykondensation/Polymerstruktur",
+      "fields": [
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2008-NT-D",
+      "year": 2008,
+      "term": "NT",
+      "proposal": "D",
+      "file": "LA08NT-CH-LK-D-PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Ammoniak (Q3.1)",
+      "further": "Gleichgewicht, Säure-Base",
+      "fields": [
+        "Q3.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2007-HT-A",
+      "year": 2007,
+      "term": "HT",
+      "proposal": "A",
+      "file": "2007_CH-LK_A_PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Disaccharide/Kohlenhydrate (Q2.1)",
+      "further": "Strukturvergleich, Bindungs-/Stoffeigenschaften",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2007-HT-B",
+      "year": 2007,
+      "term": "HT",
+      "proposal": "B",
+      "file": "2007_CH-LK_B_PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Schwefelsäuresynthese/Gleichgewicht (Q3.1)",
+      "further": "Reaktionskinetik/Thermodynamik (Q4.1), Gleichgewichtsdeutung",
+      "fields": [
+        "Q3.1",
+        "Q4.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.1",
+          "lessonId": "chem.q3.1.applications"
+        },
+        {
+          "chapterId": "chem.q3.1",
+          "lessonId": "chem.q3.1.mwg"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2007-HT-C",
+      "year": 2007,
+      "term": "HT",
+      "proposal": "C",
+      "file": "2007_CH-LK_C_PRFL.pdf",
+      "pages": "S. 2",
+      "focus": "Kunststoffsynthese (Q2.2)",
+      "further": "organische Reaktionen/Polymerstruktur",
+      "fields": [
+        "Q2.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q2.2"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2007-HT-D",
+      "year": 2007,
+      "term": "HT",
+      "proposal": "D",
+      "file": "2007_CH-LK_D_PRFL.pdf",
+      "pages": "S. 2",
+      "focus": "Toluol und Oxidationsprodukte (Q1.1/Q2.3)",
+      "further": "Aromaten, Oxidation, Strukturformeln",
+      "fields": [
+        "Q1.1",
+        "Q2.3"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.1.q2.3",
+          "lessonId": "chem.q2.3.aromatics"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2007-NT-A",
+      "year": 2007,
+      "term": "NT",
+      "proposal": "A",
+      "file": "2007NP_CH-LK_A_PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Peptide und Aminosäuren (Q2.1)",
+      "further": "Säure-Base, Struktur/Bindung",
+      "fields": [
+        "Q2.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q2.1"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2007-NT-B",
+      "year": 2007,
+      "term": "NT",
+      "proposal": "B",
+      "file": "2007NP_CH-LK_B_PRFL.pdf",
+      "pages": "S. 2",
+      "focus": "Alkohole und Reaktionen (Q1.2)",
+      "further": "Stoffeigenschaften, Reaktionsgleichungen",
+      "fields": [
+        "Q1.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q1.organic-functional-groups",
+          "lessonId": "chem.q1.2.alcohols"
+        }
+      ],
+      "practiceMatch": "lesson"
+    },
+    {
+      "id": "2007-NT-C",
+      "year": 2007,
+      "term": "NT",
+      "proposal": "C",
+      "file": "2007NP_CH-LK_C_PRFL.pdf",
+      "pages": "S. 2",
+      "focus": "Isomerie bei Halogenalkanen (Q1.1)",
+      "further": "Strukturformeln/Nomenklatur, Substitution",
+      "fields": [
+        "Q1.1"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.experimental"
+        },
+        {
+          "chapterId": "chem.q1.1"
+        },
+        {
+          "chapterId": "chem.q1.1.q2.3"
+        }
+      ],
+      "practiceMatch": "chapter"
+    },
+    {
+      "id": "2007-NT-D",
+      "year": 2007,
+      "term": "NT",
+      "proposal": "D",
+      "file": "2007NP_CH-LK_D_PRFL.pdf",
+      "pages": "S. 2–3",
+      "focus": "Schwefelwasserstoff (Q3.2)",
+      "further": "Säure-Base, Gleichgewicht",
+      "fields": [
+        "Q3.2"
+      ],
+      "practice": [
+        {
+          "chapterId": "chem.q3.2",
+          "lessonId": "chem.q3.2.protolysis"
+        }
+      ],
+      "practiceMatch": "lesson"
+    }
+  ],
+  "notes": [
+    {
+      "label": "2012 NT A–D",
+      "observation": "Keine lokalen Dateien",
+      "assessment": "Ungeklärt, ob Chemie-Nachtermin stattfand; siehe Inventar. Keine Aussage zu Themenvorkommen."
+    },
+    {
+      "label": "2016 NT A–D",
+      "observation": "Keine lokalen Dateien",
+      "assessment": "Ungeklärt, ob Chemie-Nachtermin stattfand; siehe Inventar. Keine Aussage zu Themenvorkommen."
+    },
+    {
+      "label": "2017 HT/NT D",
+      "observation": "Nicht vorgesehen laut Aufgabendeckblättern (je drei Vorschläge)",
+      "assessment": "Keine fehlenden PDFs; siehe Inventar."
+    },
+    {
+      "label": "2018 HT/NT D",
+      "observation": "Nicht vorgesehen laut Aufgabendeckblättern (je drei Vorschläge)",
+      "assessment": "Keine fehlenden PDFs; siehe Inventar."
+    },
+    {
+      "label": "2019 HT/NT D",
+      "observation": "Nicht vorgesehen laut Aufgabendeckblättern (je drei Vorschläge)",
+      "assessment": "Keine fehlenden PDFs; siehe Inventar."
+    },
+    {
+      "label": "2020 HT/NT D",
+      "observation": "Nicht vorgesehen laut Aufgabendeckblättern (je drei Vorschläge)",
+      "assessment": "Keine fehlenden PDFs; siehe Inventar."
+    },
+    {
+      "label": "2024 HT/NT D",
+      "observation": "Keine D-Dateien im lokalen Bestand",
+      "assessment": "Ungeklärt, ob D vorgesehen war; nicht als Datenlücke gezählt. Siehe Inventar."
+    },
+    {
+      "label": "2025 HT/NT D",
+      "observation": "Keine D-Dateien im lokalen Bestand",
+      "assessment": "Ungeklärt, ob D vorgesehen war; nicht als Datenlücke gezählt. Siehe Inventar."
+    }
+  ]
+}

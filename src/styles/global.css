@@ -10,3 +10,4 @@
 .topbar{position:sticky;top:0;z-index:15;background:#0b0f14eb;backdrop-filter:blur(8px)}
 .account-button{padding:0;cursor:pointer}.account-button:hover{background:#20362e}.nav-label-admin{margin-top:22px}.footer-link{padding:0;border:0;background:none;color:#81918c;font:inherit;letter-spacing:inherit;cursor:pointer}.footer-link:hover{color:var(--mint)}
 @media(max-width:370px){.topbar-right{display:flex}}
+.lower-grid.is-single{grid-template-columns:minmax(0,1fr)}

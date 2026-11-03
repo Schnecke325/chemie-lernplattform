@@ -1,8 +1,8 @@
 import { useMemo } from 'react'
 import { Icon } from '../components/Icon'
-import { PlaceholderBadge } from '../components/PlaceholderBadge'
 import { useExercises } from '../components/ProgressOverview'
 import { learningCatalog } from '../content'
+import { useCanViewArchive } from '../account/AccountContext'
 import { usePracticeRecords } from '../practice/PracticeRecordsContext'
 import { buildProgress, repeatAfterDays } from '../progress/progress'
 import type { PageId } from '../types/navigation'
@@ -13,6 +13,7 @@ const reasonTexts = { missing: 'Zuletzt noch nicht gelöst', partial: 'Zuletzt t
 
 export function DashboardPage({ onNavigate, onPractice }: DashboardPageProps) {
   const { records } = usePracticeRecords()
+  const canViewArchive = useCanViewArchive()
   const exercises = useExercises()
   const progress = useMemo(() => exercises && buildProgress(learningCatalog.chapters, exercises, records), [exercises, records])
   const stats = [
@@ -54,7 +55,7 @@ export function DashboardPage({ onNavigate, onPractice }: DashboardPageProps) {
       </article>)}</div>
     </section>
 
-    <section className="lower-grid">
+    <section className={`lower-grid${canViewArchive ? '' : ' is-single'}`}>
       <article className="continue-card"><div className="card-heading"><div><div className="section-kicker">WEITERLERNEN</div><h3>Dein nächster Schritt</h3></div><span className="card-heading-icon"><Icon name="arrow" size={18}/></span></div>
         <div className="empty-state"><span className="empty-icon"><Icon name="spark" size={20}/></span>
           {next
@@ -65,8 +66,7 @@ export function DashboardPage({ onNavigate, onPractice }: DashboardPageProps) {
           ? <button className="text-link" onClick={() => onPractice(next.exercise.id)}>Jetzt üben <Icon name="arrow" size={15}/></button>
           : <button className="text-link" onClick={() => onNavigate('lernen')}>Zum Lernbereich <Icon name="arrow" size={15}/></button>}
       </article>
-      <article className="focus-card"><div className="section-kicker">ABITURVORBEREITUNG</div><h3>Systematisch<br/>zum Überblick.</h3><p>Prüfungsinhalte werden anhand der verfügbaren hessischen Landesabiturprüfungen strukturiert.</p><div className="focus-foot"><PlaceholderBadge/><button className="icon-button" aria-label="Zum Abiturarchiv" onClick={() => onNavigate('abiturarchiv')}><Icon name="arrow" size={17}/></button></div><span className="focus-watermark">H<sub>2</sub>O</span></article>
+      {canViewArchive && <article className="focus-card"><div className="section-kicker">ABITURVORBEREITUNG</div><h3>Systematisch<br/>zum Überblick.</h3><p>Hessische Chemie-LK-Prüfungen 2007–2025, jede einzeln mit Themen, Original-PDF und passenden Übungen.</p><div className="focus-foot"><span/><button className="icon-button" aria-label="Zum Abiturarchiv" onClick={() => onNavigate('abiturarchiv')}><Icon name="arrow" size={17}/></button></div><span className="focus-watermark">H<sub>2</sub>O</span></article>}
     </section>
-    <p className="placeholder-note"><span className="status-dot"/> Das Abiturarchiv ist noch ein Platzhalter.</p>
   </div>
 }
