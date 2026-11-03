@@ -148,6 +148,12 @@ Eine Aufgabe besitzt u. a. ID, Titel, Schwierigkeitsgrad, Prompt, Hinweise, Lös
 
 Dieselben Dateien stehen bei sieben Aufgaben. Als Material dienen die DC-Platte mit 6,5 cm und 4,2 cm (eigene Datei, damit die Lernseite den Rf-Wert nicht vorrechnet), der Titrationsaufbau und die Kalkwasserprobe; die Aufgabentexte verweisen jeweils mit einem Satz auf die Abbildung. In der Musterlösung stehen die Destillation, das Meniskus-Ablesen, die Silberhalogenide und die Fehling-Probe.
 
+**Berechnete Diagramme, Paket B (seit 04.11.2026):** Vier Diagramme sind aus Formeln berechnet, je auf einer Lernseite und bei einer Aufgabe:
+- **Titrationskurven** von Salzsäure und Ethansäure (je 20 mL, 0,10 mol·L⁻¹, pKs 4,76) mit den Umschlagbereichen von Methylorange und Phenolphthalein. Lernseite: Quantitative Analyse §3. Aufgabe: „Indikator auswählen“ als Material.
+- **Konzentration-Zeit-Diagramm** für N₂ + 3 H₂ ⇌ 2 NH₃ nach Zugabe von H₂. Angenommen ist Kc = 0,5 L²·mol⁻²; das neue Gleichgewicht ist exakt berechnet, der zeitliche Verlauf schematisch. Lernseite: Gleichgewichtsverschiebung §2. Aufgabe: „Konzentration ändern“, in der Musterlösung.
+- **Wasser gegen Acetatpuffer** bei Zugabe von je bis zu 10 mL Säure oder Lauge (0,10 mol·L⁻¹). Lernseite: Puffersysteme §2. Aufgabe: „Puffer und Säurezugabe“, in der Musterlösung.
+- **Siedetemperaturen** von Butan, Propanon und Propan-1-ol. Lernseite: Trennverfahren §3. Aufgabe: „Siedetemperaturen erklären“ als Material.
+
 **Lokale Speicherung:** Die Inhaltsdaten enthalten keine Nutzerantworten oder Fortschrittsdaten. Bearbeitungsergebnisse (Ergebnis, Art der Prüfung, Zeitpunkt; keine Antworttexte) werden ausschließlich im `localStorage` des Browsers unter dem Schlüssel `chemie-lernraum.practice.v1` gespeichert (`src/practice/storage.ts`, gemeinsamer Zugriff über `src/practice/usePracticeRecords.ts`). Übungsbereich und Lernseiten nutzen denselben Speicher. Die Ergebnisse sind im Übungsbereich als „nur auf diesem Gerät“ gekennzeichnet und dort zurücksetzbar. Es gibt keine Übertragung an einen Server und keine geräteübergreifende Synchronisierung.
 
 ## Loader und Validierung

@@ -6619,7 +6619,15 @@
         "ableiten"
       ],
       "sourceLessonId": "chem.q3.1.shifts",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "equilibrium-disturbance.svg",
+          "alt": "Konzentration-Zeit-Diagramm für N₂ + 3 H₂ ⇌ 2 NH₃. Bis zum Zeitpunkt t₁ sind die Konzentrationen konstant: N₂ und H₂ bei 1,0 mol pro Liter, NH₃ bei etwa 0,71 mol pro Liter. Bei t₁ springt die H₂-Konzentration durch Zugabe auf 2,0 mol pro Liter. Danach sinken H₂ auf etwa 1,43 und N₂ auf etwa 0,81 mol pro Liter, während NH₃ auf etwa 1,09 mol pro Liter steigt, bis ein neues Gleichgewicht erreicht ist.",
+          "caption": "Beispiel Zugabe von H₂ (angenommenes Kc = 0,5 L²·mol⁻², Verlauf schematisch)",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.q3.1.shifts.exercise.basic-catalyst",
@@ -8530,7 +8538,15 @@
         "formulieren"
       ],
       "sourceLessonId": "chem.q3.4.buffers",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "buffer-vs-water.svg",
+          "alt": "pH-Wert gegen die zugegebene Menge Säure (nach links) oder Lauge (nach rechts), je bis 10 mL mit 0,10 mol pro Liter. 100 mL Wasser beginnen bei pH 7 und erreichen nach Zugabe von Salzsäure pH 2,0 und nach Zugabe von Natronlauge pH 12,0. Der Acetatpuffer bleibt nahezu waagerecht zwischen pH 4,67 und 4,85.",
+          "caption": "Säure- oder Laugenzugabe verändert den pH-Wert des Puffers kaum, den von Wasser stark.",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.q3.4.buffers.exercise.standard-hh",
@@ -10770,7 +10786,7 @@
       "id": "chem.experimental.separation.exercise.standard-boiling",
       "title": "Siedetemperaturen erklären",
       "difficulty": "standard",
-      "prompt": "Butan (M ≈ 58 g/mol) siedet bei etwa −1 °C, Propanon (M ≈ 58 g/mol) bei 56 °C und Propan-1-ol (M ≈ 60 g/mol) bei 97 °C. Erkläre die Reihenfolge mit den zwischenmolekularen Kräften.",
+      "prompt": "Butan (M ≈ 58 g/mol) siedet bei etwa −1 °C, Propanon (M ≈ 58 g/mol) bei 56 °C und Propan-1-ol (M ≈ 60 g/mol) bei 97 °C. Erkläre die Reihenfolge mit den zwischenmolekularen Kräften. Die Abbildung zeigt die Siedetemperaturen im Vergleich.",
       "taskType": "free-response",
       "afb": 2,
       "supportedModes": [
@@ -10788,7 +10804,14 @@
         "erklären"
       ],
       "sourceLessonId": "chem.experimental.separation",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "boiling-points.svg",
+          "alt": "Balkendiagramm der Siedetemperaturen: Butan (M ungefähr 58 g/mol) −1 °C, Propanon (58 g/mol) 56 °C, Propan-1-ol (60 g/mol) 97 °C.",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.experimental.separation.exercise.standard-melting",
@@ -10981,7 +11004,7 @@
       "id": "chem.experimental.quantitative.exercise.basic-indicator",
       "title": "Indikator auswählen",
       "difficulty": "basic",
-      "prompt": "Ethansäure-Lösung soll mit Natronlauge titriert werden. Zur Auswahl stehen Methylorange (Umschlagsbereich pH 3,1 bis 4,4) und Phenolphthalein (pH 8,2 bis 10). Begründe, welcher Indikator geeignet ist.",
+      "prompt": "Ethansäure-Lösung soll mit Natronlauge titriert werden. Zur Auswahl stehen Methylorange (Umschlagsbereich pH 3,1 bis 4,4) und Phenolphthalein (pH 8,2 bis 10). Begründe, welcher Indikator geeignet ist. Die Abbildung zeigt die Titrationskurven von Salzsäure und Ethansäure mit den Umschlagbereichen.",
       "taskType": "free-response",
       "afb": 2,
       "supportedModes": [
@@ -10999,7 +11022,14 @@
         "begründen"
       ],
       "sourceLessonId": "chem.experimental.quantitative",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "titration-indicators.svg",
+          "alt": "Titrationskurven von je 20 mL Säure (0,10 mol pro Liter) mit Natronlauge (0,10 mol pro Liter). Die Kurve der Salzsäure beginnt bei pH 1 und springt bei 20 mL von etwa 3 auf etwa 11. Die Kurve der Ethansäure beginnt bei pH 2,9, steigt flach an und springt bei 20 mL von etwa 7 auf etwa 11, der Äquivalenzpunkt liegt bei pH 8,7. Waagerechte Bänder markieren den Umschlagbereich von Methylorange (pH 3,1 bis 4,4) und von Phenolphthalein (pH 8,2 bis 10,0).",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.experimental.quantitative.exercise.standard-sulfur-dioxide",

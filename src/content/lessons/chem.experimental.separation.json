@@ -85,6 +85,12 @@
       "afterSection": 1
     },
     {
+      "file": "boiling-points.svg",
+      "afterSection": 3,
+      "caption": "Ähnlich große Moleküle, sehr unterschiedliche Siedetemperaturen",
+      "alt": "Balkendiagramm der Siedetemperaturen: Butan (M ungefähr 58 g/mol) −1 °C, Propanon (58 g/mol) 56 °C, Propan-1-ol (60 g/mol) 97 °C."
+    },
+    {
       "file": "tlc-plate.svg",
       "alt": "DC-Platte in einer Kammer mit wenig Laufmittel. Die Startlinie liegt oberhalb des Laufmittelspiegels, oben ist die Laufmittelfront eingezeichnet. Zwei Flecken sind unterschiedlich weit gewandert. Pfeil a markiert die Laufstrecke eines Flecks, Pfeil b die des Laufmittels; daneben steht Rf = a / b, immer zwischen 0 und 1.",
       "caption": "Der Rf-Wert setzt die Laufstrecke eines Stoffs ins Verhältnis zur Laufstrecke des Laufmittels, beide gemessen ab der Startlinie.",

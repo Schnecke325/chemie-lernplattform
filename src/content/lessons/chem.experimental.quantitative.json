@@ -92,6 +92,12 @@
       "afterSection": 1
     },
     {
+      "file": "titration-indicators.svg",
+      "afterSection": 3,
+      "caption": "Ein Indikator ist geeignet, wenn sein Umschlagbereich im steilen Teil der Kurve liegt.",
+      "alt": "Titrationskurven von je 20 mL Säure (0,10 mol pro Liter) mit Natronlauge (0,10 mol pro Liter). Die Kurve der Salzsäure beginnt bei pH 1 und springt bei 20 mL von etwa 3 auf etwa 11. Die Kurve der Ethansäure beginnt bei pH 2,9, steigt flach an und springt bei 20 mL von etwa 7 auf etwa 11, der Äquivalenzpunkt liegt bei pH 8,7. Waagerechte Bänder markieren den Umschlagbereich von Methylorange (pH 3,1 bis 4,4) und von Phenolphthalein (pH 8,2 bis 10,0)."
+    },
+    {
       "file": "meniscus-reading.svg",
       "alt": "Ausschnitt einer Bürette mit nach unten zunehmender Skala und gewölbtem Flüssigkeitsspiegel. Drei Augen blicken auf den tiefsten Punkt des Meniskus: Von schräg oben wird 12,30 mL abgelesen (zu klein), auf Augenhöhe 12,35 mL (richtig), von schräg unten 12,40 mL (zu groß).",
       "caption": "Wer schräg abliest, macht bei jeder Messung denselben Fehler: Er ist systematisch.",
