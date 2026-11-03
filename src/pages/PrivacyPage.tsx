@@ -36,10 +36,12 @@ export function PrivacyPage() {
         <li>die Rechte (Admin, Abiturarchiv), das Ablaufdatum und der Zeitpunkt der Erstellung;</li>
         <li>je bearbeiteter Aufgabe das letzte Ergebnis (richtig, teilweise oder falsch), ob es automatisch geprüft oder selbst eingeschätzt wurde, und der Zeitpunkt;</li>
         <li>deine Notizen zu Aufgaben: handschriftliche Antwort, handschriftlicher Rechenweg und getippte Antwort, jeweils mit dem Zeitpunkt der letzten Änderung;</li>
+        <li>deine Beiträge in den Diskussionen zu Aufgaben mit Zeitpunkt und gegebenenfalls dem Zeitpunkt der letzten Bearbeitung;</li>
         <li>technische Anmeldedaten wie Sitzungen, Zeitpunkt der letzten Anmeldung und Protokolle der Anmeldeanfragen einschließlich IP-Adresse.</li>
       </ul>
       <p>Admins sehen Name, Benutzername, Rechte und Ablaufdatum aller Konten und können die Aufgabenergebnisse aller Konten einsehen, etwa für eine Übersicht zum Lernstand des Kurses. Deine eigenen Ergebnisse kannst du im Übungsbereich mit „Ergebnisse zurücksetzen“ jederzeit löschen.</p>
       <p>Notizen sind zunächst privat: Nur du kannst sie lesen, auch Admins nicht. Stellst du eine Notiz auf „Geteilt“, sehen alle Konten deine Handschrift zu dieser Aufgabe zusammen mit deinem Namen; die getippte Antwort bleibt immer privat. Admins können geteilte Notizen entfernen, private nicht. Mit „Alles löschen“ auf der Schreibfläche und einer leeren Antwort löschst du eine Notiz.</p>
+      <p>Beiträge in den Diskussionen sehen alle Konten mit deinem Namen. Eigene Beiträge kannst du bearbeiten und löschen; Admins können Beiträge entfernen. Hat ein gelöschter Beitrag Antworten, bleibt an seiner Stelle ein Hinweis ohne Text und ohne Namen stehen. Wird dein Konto gelöscht, werden deine Beiträge entfernt bzw. durch einen solchen Hinweis ersetzt.</p>
       <p>Die Konten werden bei Supabase (Supabase, Inc.) als Dienstleister gespeichert; die Datenbank liegt in einem Rechenzentrum in Frankfurt am Main (EU). Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung des vergebenen Zugangs); für Sicherheitsprotokolle Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren Betrieb).</p>
     </section>
 

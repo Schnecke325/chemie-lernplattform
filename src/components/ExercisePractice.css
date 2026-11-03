@@ -100,3 +100,26 @@
 .shared-note header button{margin-left:auto;padding:4px 9px;border:1px solid #4a2a28;border-radius:6px;background:#1e1413;color:#f2a08f;font-size:11px;cursor:pointer}
 .shared-note-kicker{display:block;margin:10px 0 4px;font:10px var(--mono);letter-spacing:1px;color:#8995a0}
 .note-preview{display:block;width:100%;max-height:360px;border-radius:7px;background:#0b1015;border:1px solid #1c242d}
+.discussion{margin-top:12px}
+.discussion-panel{display:grid;gap:10px;margin-top:10px}
+.discussion-thread{display:grid;gap:6px}
+.discussion-comment{padding:11px 13px;border:1px solid #232d37;border-radius:9px;background:#0f151b}
+.discussion-comment.is-reply{margin-left:22px;border-left:2px solid #315449}
+.discussion-comment header{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;font-size:12px}
+.discussion-comment header span{color:#8995a0;font:10px var(--mono)}
+.discussion-body{margin:6px 0 0;color:#c4cdd2;font-size:13px;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere}
+.discussion-placeholder{margin:0;color:#6c7a84;font-size:12px;font-style:italic}
+.discussion-actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.discussion-actions button,.discussion-form-actions button{padding:4px 10px;border:1px solid #2a3540;border-radius:6px;background:#141c24;color:#c4cdd2;font-size:11px;cursor:pointer}
+.discussion-actions button:hover,.discussion-form-actions button:hover:not(:disabled){border-color:#397e6e;color:var(--mint)}
+.discussion-actions button.is-danger{border-color:#4a2a28;color:#f2a08f}
+.discussion-reply-form{margin-left:22px}
+.discussion-form{display:grid;gap:6px}
+.discussion-form textarea{width:100%;padding:9px 11px;border:1px solid #2a3540;border-radius:7px;background:#11171e;color:var(--text);font:13px/1.5 var(--display);resize:vertical}
+.discussion-form textarea:focus{outline:2px solid #397e6e;outline-offset:1px}
+.discussion-form-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px}
+.discussion-form-actions span{margin-right:auto;font:10px var(--mono);color:#6c7a84}
+.discussion-form-actions button.is-primary{background:var(--mint);border-color:var(--mint);color:#0c1917;font-weight:600}
+.discussion-form-actions button:disabled{opacity:.5;cursor:not-allowed}
+.discussion-note{margin:0;color:#6c7a84;font-size:11px}
+@media(max-width:600px){.discussion-comment.is-reply,.discussion-reply-form{margin-left:12px}}

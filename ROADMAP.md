@@ -34,6 +34,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Lernfortschritt, Paket K3 (04.11.2026):** Seite „Lernfortschritt“ (Stand je Kapitel und Lernseite, AFB-Aufteilung, Wiederholungsliste mit Sprung zur Aufgabe), echte Kennzahlen auf dem Dashboard und Reiter „Lernstand“ für Admins. Im echten Projekt eingerichtet und vom Nutzer am 04.11.2026 bestätigt.
 - **Abiturarchiv (04.11.2026):** Jede Prüfung einzeln mit Themen, Original-PDF aus privatem Supabase-Speicher und „Passend üben“; nur für Konten mit dem Recht „Abiturarchiv“ (laut Nutzer nur die beiden Admins). Ohne das Recht sind Archiv und Prüfungsbelege auf den Lernseiten ausgeblendet. Im echten Projekt eingerichtet; alle 131 PDFs hochgeladen und vom Nutzer am 04.11.2026 bestätigt.
 - **Notizen zu Aufgaben (04.11.2026):** Handschrift, Rechenweg und getippte Antwort werden je Aufgabe im Konto gespeichert; Notizen sind privat (auch für Admins unlesbar) oder geteilt (Handschrift mit Namen für alle Konten, getippte Antwort nie). Im echten Projekt eingerichtet und vom Nutzer am 04.11.2026 bestätigt.
+- **Diskussion zu Aufgaben (04.11.2026):** Beiträge mit einer Antwortebene, Bearbeiten und Löschen eigener Beiträge, Entfernen durch Admins mit Platzhalter, Namen sichtbar für alle Konten. Gegen einen lokalen Supabase-Ersatz getestet und im echten Projekt eingerichtet. Offen: Test durch den Nutzer. Benachrichtigungen über neue Antworten sind bewusst noch nicht enthalten.
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.
 
 ## Geplant
@@ -42,11 +43,10 @@ Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschri
 
 - Zusammenhängende Prüfungssimulationen und Abiturtraining.
 - Abbildungen und weitere quellenbasierte Versuchsdarstellungen für die experimentellen Lernseiten.
-- Aufgabenkommentare und Moderation gemäß Konzept in `research/zusammenarbeit-und-notizen.md` (persönliche Notizen mit Teilen sind seit 04.11.2026 umgesetzt).
 
 ## Bewusst zurückgestellt oder noch nicht freigegeben
 
-- Kommentare und Prüfungssimulationen sind nicht Bestandteil des aktuellen Stands.
+- Prüfungssimulationen sind nicht Bestandteil des aktuellen Stands.
 - Weitere Supabase-Funktionen über K1–K3 hinaus werden nicht begonnen, bis der Nutzer den konkreten Umfang freigibt.
 - Es gibt keine festgelegten Termine, Prioritäten zwischen diesen Punkten oder endgültige Entscheidung zur konkreten Ausgestaltung von Teilen/Moderation/Offline-Speicherung.
 

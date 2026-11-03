@@ -88,6 +88,18 @@ Seit 04.11.2026 nach Nutzerentscheidung. Je Konto und Aufgabe gibt es eine Notiz
 - **Datenbank:** `supabase/migrations/20261104160000_notes.sql`. Tabelle `notes` mit höchstens etwa 2 MB Handschrift je Notiz. Die Funktionen `shared_note_counts()`, `shared_notes(exercise)` (ohne getippte Antwort) und `delete_shared_note()` (nur Admins, nur geteilte) stellen sicher, dass die Profiltabelle nicht für alle lesbar wird.
 - **Getestet** gegen den lokalen Supabase-Ersatz: speichern, teilen, wieder öffnen, fremde geteilte Notiz ansehen, Admin entfernt geteilte Notiz, getippte Antwort nie sichtbar. Im echten Projekt eingerichtet und vom Nutzer am 04.11.2026 bestätigt.
 
+## Diskussion zu Aufgaben
+
+Seit 04.11.2026 nach Nutzerentscheidung. Jede Aufgabe hat am Ende einen Bereich „Diskussion (n)“ bzw. „Diskussion starten“, der erst beim Aufklappen geladen wird. Beiträge haben höchstens 2000 Zeichen und eine Antwortebene. Alle gültigen Konten sehen sie mit Namen.
+
+- **Eigene Beiträge** lassen sich bearbeiten (mit Vermerk „bearbeitet“) und löschen.
+- **Admins** können jeden Beitrag entfernen.
+- **Platzhalter:** Hat ein gelöschter oder entfernter Beitrag Antworten, bleibt ein Platzhalter ohne Text und Namen stehen („Beitrag gelöscht“, „Von einem Admin entfernt“). Platzhalter ohne Antworten verschwinden.
+- **Konto gelöscht:** Beiträge ohne Antworten werden entfernt, die übrigen werden zu „Beitrag eines gelöschten Kontos“ (Trigger auf `profiles`).
+- **Code:** `src/comments/` (`remote.ts`, `CommentsContext.tsx` mit Zählern), `src/components/Discussion.tsx`.
+- **Datenbank:** `supabase/migrations/20261104170000_comments.sql`. Die Tabelle `comments` ist für Clients gesperrt; aller Zugriff läuft über die Funktionen `exercise_comments`, `comment_counts`, `add_comment`, `edit_comment` und `delete_comment`.
+- **Getestet** gegen den lokalen Supabase-Ersatz: Beitrag, Antwort, Bearbeiten, Löschen, Admin-Entfernen mit Platzhalter, Aufräumen leerer Platzhalter. Im echten Projekt eingerichtet (Tabelle und Funktionen vorhanden, ohne Anmeldung gesperrt).
+
 ## Abiturarchiv
 
 Seit 04.11.2026 nach ausdrücklicher Entscheidung des Nutzers. **Ausnahme von der Regel, dass lokales Recherchematerial nie veröffentlicht wird:** Die 131 Prüfungs-PDFs aus `local-material/` dürfen in einem privaten Supabase-Speicherbereich (`abitur-archiv`) liegen. Zugriff haben nur gültige Konten mit dem Recht „Abiturarchiv“, nach Nutzerangabe nur die beiden Admins. Hochladen erfolgt durch den Nutzer im Supabase-Dashboard; Claude lädt nichts aus `local-material/` hoch. Excel-Datei, Operatoren-PDF und alle anderen lokalen Dateien bleiben lokal. Die PDFs gehören weiterhin nicht in Git oder den Site-Build (Build-Prüfung erlaubt nur `.js`, `.css`, `.svg`).
@@ -204,5 +216,5 @@ Navigation an der Domainwurzel: Seiten werden über React-State gewechselt, es g
 
 ## Noch nicht implementiert
 
-Prüfungssimulation und Kommentarfunktion. Diese Themen sind teils konzeptionell in `research/zusammenarbeit-und-notizen.md` oder vorherigen Übergabeanforderungen erwähnt, aber nicht im Anwendungscode implementiert.
+Prüfungssimulation und Benachrichtigungen über neue Diskussionsbeiträge. Diese Themen sind teils konzeptionell in `research/zusammenarbeit-und-notizen.md` oder vorherigen Übergabeanforderungen erwähnt, aber nicht im Anwendungscode implementiert.
 

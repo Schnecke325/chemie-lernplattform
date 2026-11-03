@@ -3,6 +3,7 @@ import { getFigureUrl } from '../content'
 import type { Exercise, ExerciseAnswer, ExerciseFigure, ExerciseMode } from '../content/types'
 import { HandwritingPad } from './HandwritingPad'
 import { SharedNotes } from './SharedNotes'
+import { Discussion } from './Discussion'
 import { useExerciseNote, type NoteSaveState } from '../notes/NotesContext'
 import './ExercisePractice.css'
 import { combineResults, isWithinTolerance, parseNumber } from '../practice/checkAnswer'
@@ -185,7 +186,6 @@ export function ExercisePractice({ exercise, record, onRecord }: {
     {note.status === 'error' && <p className="practice-sync-note is-error">Deine gespeicherte Notiz konnte nicht geladen werden.</p>}
     {accountNote && note.status === 'ready' && answer?.kind !== 'matching' && <NoteSharing shared={note.content.shared} saveState={note.saveState}
       onChange={(shared) => note.update({ shared })}/>}
-    {accountNote && <SharedNotes exerciseId={exercise.id}/>}
 
     {autoResult && <p className={`practice-result result-${autoResult}`} role="status">
       {autoResult === 'correct' ? 'Alles richtig.' : autoResult === 'partial' ? 'Teilweise richtig.' : 'Noch nicht richtig.'}
@@ -213,6 +213,8 @@ export function ExercisePractice({ exercise, record, onRecord }: {
     </div>}
 
     {!answer && solutionVisible && <SelfAssessment onResult={saveSelf} current={record}/>}
+    {accountNote && <SharedNotes exerciseId={exercise.id}/>}
+    <Discussion exerciseId={exercise.id}/>
   </div>
 }
 
