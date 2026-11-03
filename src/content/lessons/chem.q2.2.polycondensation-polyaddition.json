@@ -4,7 +4,7 @@
   "title": "Polykondensation und Polyaddition",
   "summary": "Polyester, Polyamide und Polyurethane entstehen aus Monomeren mit zwei oder mehr funktionellen Gruppen: bei der Polykondensation unter Abspaltung eines kleinen Moleküls, bei der Polyaddition ohne.",
   "order": 20,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "high",
     "basis": "proposal-count-proxy",

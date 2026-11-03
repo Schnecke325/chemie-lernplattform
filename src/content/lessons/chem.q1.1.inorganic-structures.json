@@ -4,7 +4,7 @@
   "title": "Anorganische Strukturen",
   "summary": "Unterscheide ausgewählte anorganische Strukturtypen und leite daraus vorsichtig Stoffeigenschaften ab.",
   "order": 30,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "medium",
     "basis": "proposal-count-proxy",

@@ -4,7 +4,7 @@
   "title": "Seifen, Tenside und Waschen",
   "summary": "Tenside verbinden wasserliebende und fettliebende Bereiche. Dadurch können sie Grenzflächen verändern und Schmutz in Wasser dispergieren.",
   "order": 10,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "supplementary",
     "basis": "proposal-count-proxy",

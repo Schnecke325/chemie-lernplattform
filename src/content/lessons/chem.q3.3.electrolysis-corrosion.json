@@ -4,7 +4,7 @@
   "title": "Elektrolyse, Akkumulatoren und Korrosion",
   "summary": "Erkläre erzwungene Redoxreaktionen, wiederaufladbare Zellen und elektrochemische Korrosion samt Schutzmaßnahmen.",
   "order": 30,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "medium",
     "basis": "proposal-count-proxy",

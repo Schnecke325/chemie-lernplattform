@@ -2,7 +2,7 @@
 
 Statische Lernplattform mit React, TypeScript und Vite für die Vorbereitung auf das hessische Chemie-Landesabitur im Leistungskurs.
 
-Enthalten sind 47 Lernseiten in 12 Kapiteln und ein Übungsbereich mit 425 Aufgaben. Jede Aufgabe ist nach Anforderungsbereich (AFB) und Aufgabentyp eingestuft. Die Lerninhalte stehen im Status „review“: Sie sind fachlich ausgearbeitet und geprüft, aber noch nicht nach festgelegten Kriterien abschließend freigegeben. Originalprüfungen sind nicht Teil des Repositorys oder der Website.
+Enthalten sind 47 Lernseiten in 12 Kapiteln und ein Übungsbereich mit 425 Aufgaben. Jede Aufgabe ist nach Anforderungsbereich (AFB) und Aufgabentyp eingestuft. Die Lernseiten sind seit 04.11.2026 freigegeben (Status „published“). Originalprüfungen sind nicht Teil des Repositorys oder der Website.
 
 ## Lokal starten
 

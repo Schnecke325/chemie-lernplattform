@@ -4,7 +4,7 @@
   "title": "Energieumwandlung und nachhaltige Chemie",
   "summary": "Energieumwandlung bewertet man nicht nur nach der gespeicherten Energiemenge, sondern auch nach Effizienz, Stoffkreislauf und Umweltwirkungen.",
   "order": 20,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "supplementary",
     "basis": "proposal-count-proxy",

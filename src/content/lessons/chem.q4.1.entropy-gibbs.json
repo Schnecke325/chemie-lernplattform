@@ -4,7 +4,7 @@
   "title": "Entropie und freie Enthalpie",
   "summary": "Ob eine Reaktion freiwillig abläuft, hängt nicht allein davon ab, ob sie Wärme abgibt. Auch die Verteilungsmöglichkeiten der Teilchen spielen eine Rolle.",
   "order": 30,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "medium",
     "basis": "proposal-count-proxy",

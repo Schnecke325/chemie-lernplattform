@@ -4,7 +4,7 @@
   "title": "pH, pKS/pKB und mehrprotonige Säuren",
   "summary": "Berechne pH-Werte, ordne Säurestärken ein und wähle für Protolysegleichgewichte passende Näherungen.",
   "order": 20,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "medium",
     "basis": "proposal-count-proxy",

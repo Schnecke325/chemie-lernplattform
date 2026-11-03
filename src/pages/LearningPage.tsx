@@ -1,6 +1,6 @@
 import { ExercisePractice, resultLabels } from '../components/ExercisePractice'
 import { getLessonById, hasLearningLesson, learningCatalog, learningLessonIds } from '../content'
-import type { Competency, Exercise, LessonContent } from '../content/types'
+import type { Competency, Exercise, LessonContent, PublicationStatus } from '../content/types'
 import type { PracticeRecord } from '../practice/storage'
 import { usePracticeRecords } from '../practice/usePracticeRecords'
 import type { ReactNode } from 'react'
@@ -12,6 +12,13 @@ const competencyLabels: Record<Competency, string> = {
   E: 'Erkenntnisgewinnung',
   K: 'Kommunikation',
   B: 'Bewertung',
+}
+
+/** Hinweis im Seitenkopf; freigegebene Seiten tragen keinen. */
+const statusLabels: Record<PublicationStatus, string | null> = {
+  draft: 'Entwurf',
+  review: 'In fachlicher Redaktion',
+  published: null,
 }
 
 const sectionLinks = [
@@ -219,7 +226,7 @@ function LessonView({ lesson }: { lesson: LessonContent }) {
           </div>
           <h1>{lesson.title}</h1>
           <p>{lesson.summary}</p>
-          <span className="review-label">In fachlicher Redaktion</span>
+          {statusLabels[lesson.publicationStatus] && <span className="review-label">{statusLabels[lesson.publicationStatus]}</span>}
         </header>
 
         <LessonSection id="ziele" number="01" title="Lernziele">
@@ -296,7 +303,7 @@ function LessonView({ lesson }: { lesson: LessonContent }) {
             showDifficulty={false} record={records[item.id]} onRecord={(record) => saveRecord(item.id, record)}/>)}</div>
         </LessonSection>
 
-        <div className="lesson-endnote"><span className="lesson-endnote-dot"/> Musterseite im redaktionellen Review · Curriculum- und Häufigkeitsangaben sind im Quellenmodell getrennt geführt.</div>
+        <div className="lesson-endnote"><span className="lesson-endnote-dot"/> {lesson.publicationStatus !== 'published' && 'Seite im redaktionellen Review · '}Curriculum- und Häufigkeitsangaben sind im Quellenmodell getrennt geführt.</div>
       </article>
 
       <aside className="lesson-rail" aria-label="Auf dieser Seite">

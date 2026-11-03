@@ -4,7 +4,7 @@
   "title": "Bindungsarten und Teilchenstrukturen",
   "summary": "Ordne Bindungsmodelle Stoffen zu und leite daraus Struktur und ausgewählte Eigenschaften ab.",
   "order": 10,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "medium",
     "basis": "proposal-count-proxy",

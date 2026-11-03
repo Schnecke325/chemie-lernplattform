@@ -72,9 +72,9 @@ IDs wie `chem.q3.1.mwg` sind stabile Daten-IDs und nicht aus Routepfaden abzulei
 
 - 47 JSON-Dateien in `src/content/lessons/`.
 - Aktuelles Rohformat: `LessonContentRecord`, `schemaVersion: 2`.
-- Alle 47 Einträge tragen momentan `publicationStatus: "review"`.
+- Alle 47 Einträge tragen `publicationStatus: "published"`. Am 04.11.2026 hat der Nutzer entschieden, alle 47 Lernseiten auf `published` zu setzen, weil ihr inhaltlicher Stand nach den Überarbeitungen ausreicht; formale Prüfkriterien wurden dafür nicht festgelegt.
 - Lektionen enthalten strukturierte Lernziele, Curriculum-Referenzen, Erklärungstexte, Fachbegriffe, Gleichungen, Beispiele, Prüfungsreferenzen, Hinweise sowie Referenzlisten `exerciseIds` und `selfTestIds`.
-- Die Oberfläche zeigt einen redaktionellen Review-Hinweis. Technisch prüft die Katalognavigation im aktuellen Code die Existenz einer Lesson-Datei; sie erzwingt keinen Gate anhand von `publicationStatus`.
+- Die Lernseite zeigt den Hinweis „In fachlicher Redaktion“ (bzw. „Entwurf“) nur noch für Seiten mit Status `review` bzw. `draft`; freigegebene Seiten tragen keinen Statushinweis. Technisch prüft die Katalognavigation im aktuellen Code die Existenz einer Lesson-Datei; sie erzwingt keinen Gate anhand von `publicationStatus`.
 
 ### Aufgabenbank
 

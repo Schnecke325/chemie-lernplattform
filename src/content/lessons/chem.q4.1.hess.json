@@ -4,7 +4,7 @@
   "title": "Satz von Hess und Reaktionsenthalpie",
   "summary": "Der Satz von Hess erlaubt, eine Reaktionsenthalpie aus bekannten Teilreaktionen zu bestimmen.",
   "order": 20,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "medium",
     "basis": "proposal-count-proxy",

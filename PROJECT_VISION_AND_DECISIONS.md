@@ -105,7 +105,7 @@ Die Lerninhalte sollen:
 - Fachbegriffe im passenden Kontext erklären;
 - keine fachlichen Zusammenhänge übermäßig vereinfachen.
 
-Die Lernseiten befinden sich derzeit im Status `review`. Sie dürfen nicht ohne festgelegte fachliche Prüfungskriterien als endgültig veröffentlicht betrachtet werden.
+Seit 04.11.2026 stehen alle Lernseiten im Status `published`. Der Nutzer hat diese Freigabe nach den inhaltlichen Überarbeitungen ausdrücklich entschieden, ohne dafür formale Prüfkriterien festzulegen. Neue oder wesentlich geänderte Lernseiten werden nur mit Zustimmung des Nutzers als freigegeben markiert.
 
 ## 5. Übungsbereich
 
@@ -332,7 +332,7 @@ Claude soll nicht versuchen, möglichst viele Funktionen möglichst schnell umzu
 
 Die folgenden Punkte sind nicht automatisch als beschlossen zu betrachten:
 
-- Kriterien für den Wechsel von `review` zu `published`;
+- formale Prüfkriterien für künftige Freigaben neuer oder geänderter Lernseiten;
 - endgültige Klärung der verwendeten Lehrplanversionen im Verhältnis zu den jeweiligen Abiturerlassen;
 - Bewertungslogik über die bisherige automatische Prüfung (Zahlen, Zuordnungen) und Selbsteinschätzung hinaus;
 - dauerhafte Speicherung handschriftlicher Eingaben (derzeit bewusst nicht gespeichert);

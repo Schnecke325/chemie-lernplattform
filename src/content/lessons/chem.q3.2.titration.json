@@ -4,7 +4,7 @@
   "title": "Titrationen und quantitative Analyse",
   "summary": "Nutze Titrationskurven und Stoffmengenverhältnisse, um Konzentrationen zu bestimmen und Indikatoren begründet auszuwählen.",
   "order": 30,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "medium",
     "basis": "proposal-count-proxy",

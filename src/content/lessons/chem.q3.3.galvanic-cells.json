@@ -4,7 +4,7 @@
   "title": "Galvanische Zellen und Zellspannung",
   "summary": "Erkläre den Aufbau galvanischer Zellen, verfolge Elektronen- und Ionenfluss und berechne Zellspannungen.",
   "order": 20,
-  "publicationStatus": "review",
+  "publicationStatus": "published",
   "relevance": {
     "label": "medium",
     "basis": "proposal-count-proxy",
