@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.1.proteins",
   "title": "Proteine",
-  "summary": "Erkläre Struktur, Eigenschaften und typische Reaktionen von Proteine im Chemie-LK.",
+  "summary": "Proteine falten sich von der Aminosäuresequenz zur räumlichen Struktur. Wechselwirkungen zwischen Seitenketten erklären Stabilität, Denaturierung und Funktion; Biuret- und Xanthoprotein-Reaktion weisen Proteine nach.",
   "order": 20,
   "publicationStatus": "review",
   "relevance": {
@@ -20,109 +20,149 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
-    "chem.q1.1.interactions"
+    "chem.q2.1.amino-acids-peptides",
+    "chem.q1.1.interactions",
+    "chem.q3.3.redox"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.1.proteins.goal.structure",
-      "statement": "Ich kann zentrale Strukturmerkmale von Proteine darstellen und fachsprachlich beschreiben.",
+      "statement": "Ich kann Primär-, Sekundär-, Tertiär- und Quartärstruktur eines Proteins beschreiben und die jeweils stabilisierenden Bindungen und Wechselwirkungen zuordnen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "beschreiben",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.proteins.goal.properties",
+      "statement": "Ich kann Eigenschaften und Funktion von Faser- und globulären Proteinen aus ihrer Struktur erklären.",
       "competencies": [
         "S",
         "K"
       ],
       "operators": [
-        "beschreiben",
-        "darstellen"
+        "erklären",
+        "begründen"
       ]
     },
     {
-      "id": "chem.q2.1.proteins.goal.properties",
-      "statement": "Ich kann Strukturmerkmale mit beobachtbaren Eigenschaften über passende Wechselwirkungen verknüpfen.",
+      "id": "chem.q2.1.proteins.goal.reaction",
+      "statement": "Ich kann Denaturierung, Hydrolyse und die Bildung oder Spaltung von Disulfidbrücken unterscheiden und Nachweisbeobachtungen deuten.",
       "competencies": [
         "S",
         "E"
       ],
       "operators": [
         "erläutern",
-        "begründen"
-      ]
-    },
-    {
-      "id": "chem.q2.1.proteins.goal.reaction",
-      "statement": "Ich kann typische Reaktionen oder Nachweise ausgleichen und ihre Beobachtungen deuten.",
-      "competencies": [
-        "S",
-        "E"
-      ],
-      "operators": [
-        "formulieren",
         "deuten"
       ]
     },
     {
       "id": "chem.q2.1.proteins.goal.material",
-      "statement": "Ich kann Aussagen aus einem Material belegen und ihre Reichweite kritisch begrenzen.",
+      "statement": "Ich kann Materialien zu Proteinen auswerten und beurteilen, welche Schlüsse die Daten über Struktur und Funktion zulassen.",
       "competencies": [
-        "K",
+        "E",
         "B"
       ],
       "operators": [
         "auswerten",
-        "bewerten"
+        "beurteilen"
       ]
     }
   ],
-  "introduction": "Proteine sind keine bloßen Ketten aus Aminosäuren. Ihre räumliche Faltung bestimmt, welche Teilchen sie binden und welche Reaktionen sie ermöglichen.",
-  "explanation": "### Von der Sequenz zur Funktion\nDie Primärstruktur ist die Aminosäuresequenz, verbunden durch Peptidbindungen. Wasserstoffbrücken stabilisieren typische Abschnitte der Sekundärstruktur, etwa α-Helix und β-Faltblatt. Die Tertiärstruktur beschreibt die gesamte Faltung einer Polypeptidkette. Bei mehreren Untereinheiten spricht man von Quartärstruktur.\n\nStabilisierende Wechselwirkungen sind Wasserstoffbrücken, Ionenbindungen zwischen geladenen Seitenketten, hydrophobe Effekte und Disulfidbrücken zwischen Cysteinresten. Welche davon wichtig sind, hängt von Sequenz und Umgebung ab.\n\n### Denaturierung und Nachweise\nHitze, extreme pH-Werte oder bestimmte Lösungsmittel können die räumliche Struktur verändern. Dabei werden meist nicht die Peptidbindungen hydrolysiert; die Funktion geht durch Verlust der Faltung verloren. Die Biuret-Reaktion weist Peptidbindungen über einen violetten Komplex mit Cu²⁺ im alkalischen Milieu nach. Ein Nachweis belegt eine Stoffeigenschaft, nicht automatisch eine biologische Funktion.",
+  "introduction": "Enzyme beschleunigen Reaktionen, Hämoglobin transportiert Sauerstoff, Keratin macht Haare und Wolle fest. Alle diese Proteine sind aus denselben rund zwanzig Aminosäuren aufgebaut. Ihre Funktion verdanken sie der Reihenfolge der Bausteine und vor allem der räumlichen Faltung, die sich daraus ergibt.",
+  "explanation": "### 1. Primärstruktur und Peptidbindung\n\nProteine sind Polypeptide aus meist mehr als 100 Aminosäuren, die über Peptidbindungen verknüpft sind. Die Reihenfolge der Aminosäuren heißt Primärstruktur; man liest sie vom N-Terminus zum C-Terminus. Die Peptidbindung ist durch Mesomerie eben und kaum drehbar. Beweglich ist die Kette nur an den Bindungen zum α-C-Atom. Diese Einschränkung bestimmt, welche Faltungen überhaupt möglich sind.\n\n### 2. Sekundärstruktur\n\nDie Sekundärstruktur beschreibt regelmäßige Faltungsmuster des Peptidrückgrats, die durch Wasserstoffbrücken zwischen C=O- und N–H-Gruppen stabilisiert werden. In der α-Helix windet sich die Kette schraubenförmig; Wasserstoffbrücken verbinden jeweils die C=O-Gruppe einer Aminosäure mit der N–H-Gruppe der vierten folgenden. Die Seitenketten zeigen nach außen. Im β-Faltblatt liegen gestreckte Kettenabschnitte nebeneinander und sind über Wasserstoffbrücken zwischen den Strängen verbunden.\n\n### 3. Tertiär- und Quartärstruktur\n\nDie Tertiärstruktur ist die vollständige räumliche Faltung einer Polypeptidkette. Sie wird durch Wechselwirkungen zwischen den Seitenketten stabilisiert: Wasserstoffbrücken zwischen polaren Seitenketten, Ionenbindungen zwischen positiv und negativ geladenen Seitenketten, Van-der-Waals-Kräfte zwischen unpolaren Seitenketten und Disulfidbrücken. Disulfidbrücken sind kovalente S–S-Bindungen, die durch Oxidation zweier Cysteinreste entstehen. In wässriger Umgebung lagern sich unpolare Seitenketten bevorzugt im Inneren zusammen, polare und geladene außen.\n\nBesteht ein Protein aus mehreren Polypeptidketten, beschreibt die Quartärstruktur deren Anordnung. Hämoglobin besteht zum Beispiel aus vier Untereinheiten. Zwischen den Untereinheiten wirken dieselben Wechselwirkungen wie innerhalb der Tertiärstruktur.\n\n### 4. Struktur, Eigenschaften und Funktion\n\nFaserproteine wie Keratin (Haare, Wolle), Kollagen (Sehnen, Haut) und Fibroin (Seide) bestehen aus langen, regelmäßig gebauten Ketten. Sie sind wasserunlöslich und reißfest. Im Keratin sind Helices umeinander gewunden und durch viele Disulfidbrücken quervernetzt. Globuläre Proteine wie Enzyme und Hämoglobin sind kompakt gefaltet, tragen außen polare Gruppen und sind deshalb wasserlöslich. Bei Enzymen bilden wenige Seitenketten in einer Tasche das aktive Zentrum; seine Form passt nur zu bestimmten Substraten. Weitere Aufgaben von Proteinen sind Transport, Signalübertragung und Abwehr. In Lebensmitteln dienen sie als Nährstoff, technisch werden zum Beispiel Gelatine (aus Kollagen) und Enzyme in Waschmitteln genutzt.\n\n### 5. Denaturierung und Hydrolyse\n\nBei der Denaturierung verliert ein Protein seine räumliche Struktur, die Primärstruktur bleibt erhalten. Hitze verstärkt die Molekülbewegung, bis Wasserstoffbrücken und schwache Wechselwirkungen brechen. Starke Säuren und Basen verändern die Ladungen der Seitenketten und zerstören so Ionenbindungen. Schwermetall-Ionen binden an Thiolgruppen, organische Lösungsmittel wie Ethanol stören die Wechselwirkungen unpolarer Seitenketten. Mit der Struktur geht meist auch die Funktion verloren. Leichte Denaturierungen sind manchmal umkehrbar; ein gekochtes Ei wird nicht wieder roh.\n\nBei der Hydrolyse werden dagegen Peptidbindungen gespalten, zum Beispiel durch längeres Kochen mit Säure oder durch Proteasen bei der Verdauung. Dabei entstehen kürzere Peptide und schließlich Aminosäuren. Disulfidbrücken lassen sich gezielt reduktiv spalten und durch Oxidation neu knüpfen; das nutzt man bei der Dauerwelle.\n\n### 6. Nachweise\n\nDie Biuret-Reaktion weist Peptidbindungen nach: In alkalischer Lösung bilden Cu²⁺-Ionen mit den N-Atomen benachbarter Peptidbindungen einen violetten Komplex. Dafür sind mindestens zwei Peptidbindungen nötig; freie Aminosäuren und Dipeptide reagieren nicht. Die Xanthoprotein-Reaktion zeigt aromatische Seitenketten an: Konzentrierte Salpetersäure nitriert die Benzolringe, die Probe färbt sich gelb. Ein positiver Nachweis zeigt nur das jeweilige Strukturmerkmal, nicht welches Protein vorliegt und ob es noch funktionsfähig ist.",
   "fundamentals": [
     {
       "term": "Primärstruktur",
-      "explanation": "Aminosäuresequenz eines Proteins."
+      "explanation": "Reihenfolge der Aminosäuren in einer Polypeptidkette, vom N- zum C-Terminus gelesen."
     },
     {
-      "term": "Denaturierung",
-      "explanation": "Verlust der nativen räumlichen Struktur und oft der Funktion, meist ohne Spaltung des Peptidrückgrats."
+      "term": "Sekundärstruktur",
+      "explanation": "Regelmäßige Faltung des Peptidrückgrats, vor allem α-Helix und β-Faltblatt, stabilisiert durch Wasserstoffbrücken zwischen C=O und N–H."
+    },
+    {
+      "term": "Tertiärstruktur",
+      "explanation": "Vollständige räumliche Faltung einer Polypeptidkette, stabilisiert durch Wechselwirkungen zwischen Seitenketten und Disulfidbrücken."
+    },
+    {
+      "term": "Quartärstruktur",
+      "explanation": "Anordnung mehrerer Polypeptidketten (Untereinheiten) in einem Protein, zum Beispiel im Hämoglobin."
     },
     {
       "term": "Disulfidbrücke",
-      "explanation": "Kovalente S–S-Verknüpfung zweier Cysteinreste."
+      "explanation": "Kovalente S–S-Bindung zwischen zwei Cysteinresten; entsteht durch Oxidation, wird durch Reduktion gespalten."
+    },
+    {
+      "term": "Denaturierung",
+      "explanation": "Verlust der räumlichen Struktur und meist der Funktion, ohne dass Peptidbindungen gespalten werden."
+    },
+    {
+      "term": "Faser- und globuläre Proteine",
+      "explanation": "Faserproteine sind lang gestreckt, unlöslich und reißfest; globuläre Proteine sind kompakt gefaltet und wasserlöslich."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.1.proteins.eq.1",
-      "notation": "Protein + Cu²⁺ (alkalisch) → violetter Komplex",
-      "explanation": "Komplexbildung an Peptidbindungen; keine vollständige Strukturformel des Komplexes erforderlich."
+      "notation": "Peptid (≥ 2 Peptidbindungen) + Cu²⁺ (alkalisch) → violetter Kupferkomplex",
+      "explanation": "Biuret-Reaktion; die genaue Struktur des Komplexes ist für Schulaufgaben nicht erforderlich."
+    },
+    {
+      "id": "chem.q2.1.proteins.eq.2",
+      "notation": "2 R–SH ⇌ R–S–S–R + 2 H⁺ + 2 e⁻",
+      "explanation": "Bildung einer Disulfidbrücke aus zwei Cysteinresten (Oxidation, nach rechts) und ihre Spaltung (Reduktion, nach links)."
+    },
+    {
+      "id": "chem.q2.1.proteins.eq.3",
+      "notation": "…–CO–NH–… + H₂O → …–COOH + H₂N–…",
+      "explanation": "Hydrolyse einer Peptidbindung; bei vollständiger Hydrolyse entstehen die einzelnen Aminosäuren."
+    },
+    {
+      "id": "chem.q2.1.proteins.eq.4",
+      "notation": "Ar–H + HNO₃ → Ar–NO₂ + H₂O",
+      "explanation": "Nitrierung aromatischer Seitenketten bei der Xanthoprotein-Reaktion; die Nitroverbindungen sind gelb."
     }
   ],
-  "equationNote": "Schematische Gleichungen zeigen den Reaktionstyp. Ergänze Zustände, Bedingungen und Strukturformeln, wenn die Aufgabe dies verlangt.",
+  "equationNote": "Die Gleichungen sind schematisch und zeigen nur die reagierende Gruppe; R und Ar stehen für den Rest des Proteins. Bei Redoxgleichungen zu Disulfidbrücken ergänzt du das Oxidations- oder Reduktionsmittel, wenn die Aufgabe es nennt.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q2.1.proteins.example.1",
-      "title": "Strukturstörung erklären",
-      "prompt": "Eine Erhöhung der Temperatur verändert die Aktivität eines Enzyms.",
+      "title": "Enzymaktivität und Temperatur",
+      "prompt": "Die Aktivität eines Enzyms steigt zwischen 20 °C und 37 °C an, oberhalb von etwa 45 °C fällt sie stark ab und erholt sich beim Abkühlen nicht. Erkläre den Verlauf.",
       "steps": [
-        "Wärme erhöht die Bewegungsenergie der Teilchen.",
-        "Schwache Wechselwirkungen, die die Faltung stabilisieren, können gestört werden.",
-        "Das aktive Zentrum verändert seine Form; das Substrat passt schlechter.",
-        "Die Peptidkette muss dabei nicht hydrolysiert werden."
+        "Unterhalb des Optimums nimmt die Reaktionsgeschwindigkeit mit der Temperatur zu, weil Enzym und Substrat häufiger und energiereicher zusammenstoßen.",
+        "Oberhalb des Optimums brechen Wasserstoffbrücken und andere schwache Wechselwirkungen, die die Tertiärstruktur stabilisieren.",
+        "Das aktive Zentrum verliert seine Form, das Substrat kann nicht mehr passend binden.",
+        "Die fehlende Erholung beim Abkühlen zeigt, dass die Denaturierung hier nicht umkehrbar ist."
       ],
-      "result": "Die Aktivität sinkt durch Denaturierung beziehungsweise Strukturänderung."
+      "result": "Der Anstieg ist ein kinetischer Effekt, der Abfall eine Folge der Denaturierung. Die Peptidbindungen bleiben dabei erhalten."
     },
     {
       "id": "chem.q2.1.proteins.example.2",
-      "title": "Nachweis auswerten",
-      "prompt": "Eine Probe wird mit alkalischer Cu²⁺-Lösung violett.",
+      "title": "Zwei Nachweise kombinieren",
+      "prompt": "Probe A färbt sich bei der Biuret-Reaktion violett und mit konzentrierter Salpetersäure gelb. Probe B zeigt keine Biuret-Reaktion, färbt sich mit Salpetersäure aber gelb. Deute die Befunde.",
       "steps": [
-        "Die violette Färbung ist die Beobachtung.",
-        "Sie entspricht einer positiven Biuret-Reaktion.",
-        "Daraus folgt: Peptidbindungen sind vorhanden.",
-        "Allein daraus folgen weder genaue Proteinidentität noch Funktion."
+        "Probe A enthält Moleküle mit mindestens zwei Peptidbindungen und aromatischen Seitenketten; das passt zu einem Protein.",
+        "Probe B enthält aromatische Ringe, aber keine längeren Peptide.",
+        "Probe B könnte zum Beispiel eine aromatische Aminosäure wie Tyrosin enthalten; das lässt sich allein aus diesen Nachweisen nicht sicher bestimmen."
       ],
-      "result": "Die Probe enthält Peptidbindungen; weitergehende Aussagen brauchen zusätzliche Daten."
+      "result": "Probe A enthält wahrscheinlich ein Protein mit aromatischen Aminosäuren, Probe B aromatische Verbindungen ohne Peptidkette. Welche Stoffe genau vorliegen, zeigen die Nachweise nicht."
+    },
+    {
+      "id": "chem.q2.1.proteins.example.3",
+      "title": "Chemie der Dauerwelle",
+      "prompt": "Bei der Dauerwelle wird das Haar zuerst mit einem Reduktionsmittel behandelt, dann auf Wickler gedreht und schließlich mit Wasserstoffperoxid behandelt. Erläutere die Vorgänge im Keratin.",
+      "steps": [
+        "Das Reduktionsmittel spaltet Disulfidbrücken zwischen den Keratinketten zu Thiolgruppen: R–S–S–R + 2 H⁺ + 2 e⁻ → 2 R–SH.",
+        "Ohne die Querverbindungen lassen sich die Ketten gegeneinander verschieben; die Wickler geben die neue Form vor.",
+        "Wasserstoffperoxid oxidiert die Thiolgruppen wieder zu Disulfidbrücken, jetzt zwischen anderen Cysteinresten."
+      ],
+      "result": "Die neuen Disulfidbrücken fixieren die gewellte Form. Die Primärstruktur bleibt unverändert; geändert wird nur die Quervernetzung."
     }
   ],
   "examReferences": [
@@ -146,22 +186,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Stoffklasse, funktionelle Gruppen und Strukturmerkmale identifizieren.",
-    "AFB II: Reaktionen, Nachweise oder Struktur-Eigenschaft-Beziehungen mit Fachmodellen erklären.",
-    "AFB III: Materialaussagen anhand von Daten bewerten und Grenzen der Deutung kennzeichnen."
+    "AFB I: Strukturebenen und stabilisierende Wechselwirkungen benennen; Nachweisbeobachtungen angeben.",
+    "AFB II: Struktur-Eigenschafts-Beziehungen erklären; Denaturierung von Hydrolyse abgrenzen; Bildung und Spaltung von Disulfidbrücken formulieren; Nachweise deuten.",
+    "AFB III: Materialien zu Proteinen auswerten (z. B. Aktivitätskurven, Strukturdaten) und die Reichweite der Schlussfolgerungen beurteilen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Baue eine Struktur-Eigenschaft-Erklärung als nachvollziehbare Kette auf.",
-      "commonError": "Eine Eigenschaft wird allein aus dem Stoffnamen abgeleitet."
+      "tip": "Ordne Wasserstoffbrücken der richtigen Ebene zu: Im Rückgrat stabilisieren sie die Sekundärstruktur, zwischen Seitenketten die Tertiärstruktur.",
+      "commonError": "Die Sekundärstruktur wird mit Wechselwirkungen zwischen Seitenketten erklärt."
     },
     {
-      "tip": "Trenne Beobachtung, Deutung und Schlussfolgerung.",
-      "commonError": "Ein einzelner Nachweis wird als vollständige Stoffidentifikation behandelt."
+      "tip": "Bei der Denaturierung bleibt die Aminosäuresequenz erhalten.",
+      "commonError": "Denaturierung wird als Spaltung des Proteins in Aminosäuren beschrieben."
     },
     {
-      "tip": "Historische Belege zeigen Aufgabenpraxis, nicht automatisch aktuelle Verbindlichkeit.",
-      "commonError": "Feldhäufigkeit wird als Häufigkeit jedes Unterthemas ausgegeben."
+      "tip": "Nenne bei Disulfidbrücken die Redoxreaktion: Bildung ist eine Oxidation, Spaltung eine Reduktion.",
+      "commonError": "Disulfidbrücken werden als Wasserstoffbrücken oder als nicht kovalente Wechselwirkung bezeichnet."
+    },
+    {
+      "tip": "Ein Nachweis zeigt ein Strukturmerkmal, nicht ein bestimmtes Protein.",
+      "commonError": "Aus einer violetten Biuret-Probe wird geschlossen, dass ein bestimmtes Protein vorliegt oder dass es funktionsfähig ist."
     }
   ],
   "review": {

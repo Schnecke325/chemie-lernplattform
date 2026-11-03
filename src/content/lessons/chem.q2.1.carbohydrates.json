@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.1.carbohydrates",
   "title": "Kohlenhydrate",
-  "summary": "Strukturen, Eigenschaften und Reaktionen zu Kohlenhydrate verständlich und prüfungsbezogen erschließen.",
+  "summary": "Glucose, Fructose, Disaccharide und Polysaccharide: Strukturformen, glycosidische Bindung und die Nachweise mit Fehling-Probe und Iod-Stärke-Reaktion.",
   "order": 30,
   "publicationStatus": "review",
   "relevance": {
@@ -20,29 +20,28 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
+    "chem.q1.2.carbonyls",
+    "chem.q2.1.amino-acids-peptides",
     "chem.q1.1.interactions"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.1.carbohydrates.goal.structure",
-      "statement": "Ich kann zentrale Strukturmerkmale von Kohlenhydrate beschreiben und darstellen.",
+      "statement": "Ich kann Glucose und Fructose in Fischer- und Haworth-Projektion darstellen und α- und β-Anomere unterscheiden.",
       "competencies": [
         "S",
         "K"
       ],
       "operators": [
-        "beschreiben",
-        "darstellen"
+        "darstellen",
+        "beschreiben"
       ]
     },
     {
       "id": "chem.q2.1.carbohydrates.goal.properties",
-      "statement": "Ich kann Strukturmerkmale über Wechselwirkungen mit Stoffeigenschaften verknüpfen.",
+      "statement": "Ich kann erklären, wie Ringschluss und glycosidische Bindung entstehen und wie die Verknüpfungsart die Eigenschaften von Stärke und Cellulose bestimmt.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
         "erläutern",
@@ -51,10 +50,10 @@
     },
     {
       "id": "chem.q2.1.carbohydrates.goal.reaction",
-      "statement": "Ich kann passende Reaktionen oder Nachweise formulieren und deuten.",
+      "statement": "Ich kann Fehling-Probe und Iod-Stärke-Reaktion auswerten und begründen, ob ein Zucker reduzierend wirkt.",
       "competencies": [
-        "S",
-        "E"
+        "E",
+        "S"
       ],
       "operators": [
         "formulieren",
@@ -63,69 +62,106 @@
     },
     {
       "id": "chem.q2.1.carbohydrates.goal.evidence",
-      "statement": "Ich kann Materialaussagen mit Belegen begrenzen und bewerten.",
+      "statement": "Ich kann aus Nachweisergebnissen begründete Schlüsse über eine Kohlenhydratprobe ziehen und die Grenzen dieser Schlüsse benennen.",
       "competencies": [
-        "K",
+        "E",
         "B"
       ],
       "operators": [
         "auswerten",
-        "bewerten"
+        "beurteilen"
       ]
     }
   ],
-  "introduction": "Kohlenhydrate verbinden eine große Vielfalt an Funktionen in wenigen wiederkehrenden Bausteinen.",
-  "explanation": "Monosaccharide wie Glucose und Fructose besitzen die Formel C₆H₁₂O₆, aber unterschiedliche Struktur. In Wasser stehen offenkettige und cyclische Formen im Gleichgewicht. Beim Ringschluss entsteht das anomere C-Atom; α- und β-Anomer unterscheiden sich nur dort. Fischer-Projektionen zeigen die offene Kette, Haworth-Projektionen die Ringform.\n\nBei der glycosidischen Bindung reagieren Hydroxygruppen unter Wasserabspaltung. Bleibt ein anomeres Zentrum als Halbacetal frei, kann es in die offenkettige Form übergehen; der Zucker ist dann reduzierend. Die Fehling-Probe weist reduzierendes Verhalten über ziegelrotes Cu₂O nach. Iod-Kaliumiodid weist Stärke über eine dunkle Färbung der Amylose-Helix nach. Diese Nachweise prüfen unterschiedliche Eigenschaften.",
+  "introduction": "Zucker im Obst, Stärke in Kartoffeln, Cellulose in Holz und Baumwolle: Alle diese Stoffe sind aus wenigen Zuckerbausteinen aufgebaut. Wie diese Bausteine gebaut sind, wie sie Ringe bilden und wie sie miteinander verknüpft werden, erklärt ihre Eigenschaften und das Ergebnis der typischen Nachweisreaktionen.",
+  "explanation": "### 1. Monosaccharide: Glucose und Fructose\n\nKohlenhydrate teilt man in Monosaccharide (Einfachzucker), Disaccharide (Zweifachzucker) und Polysaccharide (Vielfachzucker) ein. Glucose und Fructose haben beide die Summenformel C₆H₁₂O₆, sind aber Konstitutionsisomere. Glucose ist eine Aldohexose: In der offenkettigen Form trägt C1 eine Aldehydgruppe, die übrigen C-Atome tragen Hydroxygruppen. Fructose ist eine Ketohexose mit einer Ketogruppe an C2.\n\nIn der Fischer-Projektion steht die Kohlenstoffkette senkrecht, C1 oben. Glucose hat vier asymmetrische C-Atome (C2 bis C5). Ob ein Zucker zur D- oder L-Reihe gehört, entscheidet die Hydroxygruppe am untersten asymmetrischen C-Atom, bei Hexosen an C5: Steht sie rechts, ist es ein D-Zucker. Natürlich vorkommende Glucose und Fructose sind D-Zucker.\n\n### 2. Ringschluss und Anomere\n\nIn wässriger Lösung liegt Glucose fast vollständig als Ring vor. Die Hydroxygruppe an C5 addiert an die Aldehydgruppe an C1; es entsteht ein intramolekulares Halbacetal mit einem Sechsring aus fünf C-Atomen und einem O-Atom (Pyranose). Dabei wird C1 zu einem neuen asymmetrischen Zentrum, dem anomeren C-Atom. Die beiden möglichen Ringformen heißen Anomere. In der Haworth-Projektion steht die OH-Gruppe an C1 beim α-Anomer unterhalb der Ringebene, beim β-Anomer oberhalb (bei D-Zuckern). Gruppen, die in der Fischer-Projektion rechts stehen, zeichnet man in der Haworth-Projektion unterhalb des Rings.\n\nDie Ringformen öffnen sich in Lösung immer wieder und schließen sich neu. Deshalb stellt sich ein Gleichgewicht ein: etwa ein Drittel α-, zwei Drittel β-Glucopyranose, die offenkettige Form nur in Spuren. Diese Umwandlung über die offene Form heißt Mutarotation. Fructose bildet über die Hydroxygruppe an C5 und die Ketogruppe an C2 auch einen Fünfring (Furanose), so liegt sie zum Beispiel in Saccharose vor.\n\n### 3. Glycosidische Bindung, Di- und Polysaccharide\n\nDie OH-Gruppe am anomeren C-Atom ist besonders reaktionsfähig. Reagiert sie unter Wasserabspaltung mit einer Hydroxygruppe eines zweiten Zuckers, entsteht eine glycosidische Bindung; aus dem Halbacetal wird ein Acetal. Man gibt an, welche C-Atome verknüpft sind und ob das anomere C-Atom α- oder β-konfiguriert ist. Maltose besteht aus zwei Glucose-Einheiten mit α-1,4-glycosidischer Bindung. In Saccharose sind Glucose und Fructose über ihre beiden anomeren C-Atome verknüpft (α-1,β-2).\n\nPolysaccharide bestehen aus sehr vielen Monosaccharid-Einheiten. Stärke besteht aus Amylose (α-1,4-verknüpft, unverzweigt, schraubenförmig gewunden) und Amylopektin (zusätzlich α-1,6-Verzweigungen). Cellulose besteht aus β-1,4-verknüpfter Glucose; die gestreckten Ketten lagern sich über Wasserstoffbrücken zu reißfesten Fasern zusammen. Dass Menschen Stärke, aber nicht Cellulose verdauen können, liegt an dieser unterschiedlichen Verknüpfung.\n\n### 4. Reduzierende Zucker und Fehling-Probe\n\nBei der Fehling-Probe wird die Probe mit Fehling-Lösung (Kupfer(II)-Ionen als Tartratkomplex in Natronlauge) erwärmt. Ein reduzierender Zucker reduziert Cu²⁺ zu Cu⁺; es fällt ziegelrotes Kupfer(I)-oxid aus. Reduzierend wirkt ein Zucker, wenn er ein freies Halbacetal besitzt, das sich zur offenkettigen Form öffnen kann. Deshalb sind Glucose, Maltose und Lactose reduzierend, Saccharose dagegen nicht: Beide anomeren C-Atome sind in der glycosidischen Bindung festgelegt. Auch Fructose zeigt eine positive Fehling-Probe, obwohl sie eine Ketose ist: Im alkalischen Milieu wandelt sie sich über ein Endiol teilweise in Aldosen um.\n\n### 5. Iod-Stärke-Reaktion und Modellgrenzen\n\nGibt man Iod-Kaliumiodid-Lösung zu Stärke, färbt sich die Probe blauschwarz. Polyiodid-Ionen lagern sich in die Schraube der Amylose ein und bilden einen farbigen Einschlusskomplex. Beim Erhitzen verschwindet die Farbe, weil die Schraube aufgelockert wird, und kehrt beim Abkühlen zurück. Die Nachweise prüfen unterschiedliche Eigenschaften: Die Fehling-Probe zeigt reduzierende Gruppen an, nicht speziell Glucose; auch Aldehyde reagieren. Die Iod-Probe zeigt die Amylose-Schraube an, nicht Kohlenhydrate allgemein. Ein einzelner Nachweis identifiziert einen Stoff daher nicht eindeutig.",
   "fundamentals": [
     {
-      "term": "Anomer",
-      "explanation": "Stereoisomer, das sich nur am anomeren C-Atom unterscheidet."
+      "term": "Aldose und Ketose",
+      "explanation": "Monosaccharid mit Aldehydgruppe (z. B. Glucose) bzw. mit Ketogruppe (z. B. Fructose) in der offenkettigen Form."
+    },
+    {
+      "term": "D-/L-Konfiguration",
+      "explanation": "Festgelegt durch die Stellung der OH-Gruppe am untersten asymmetrischen C-Atom in der Fischer-Projektion: rechts D, links L."
+    },
+    {
+      "term": "Halbacetal",
+      "explanation": "Entsteht bei der Addition einer Hydroxygruppe an eine Carbonylgruppe; beim Ringschluss der Glucose an C1."
+    },
+    {
+      "term": "Anomere",
+      "explanation": "Ringformen eines Zuckers, die sich nur in der Stellung der OH-Gruppe am anomeren C-Atom unterscheiden (α und β)."
+    },
+    {
+      "term": "Mutarotation",
+      "explanation": "Gegenseitige Umwandlung von α- und β-Anomer über die offenkettige Form, bis sich ein Gleichgewicht einstellt."
     },
     {
       "term": "Glycosidische Bindung",
-      "explanation": "Kovalente Bindung zwischen Zuckerbausteinen über ein anomeres Zentrum."
+      "explanation": "Verknüpfung zweier Zuckerbausteine über das anomere C-Atom unter Wasserabspaltung; aus dem Halbacetal wird ein Acetal."
     },
     {
       "term": "Reduzierender Zucker",
-      "explanation": "Zucker mit zugänglicher reduzierender Form, der etwa Cu²⁺ reduzieren kann."
+      "explanation": "Zucker mit freiem Halbacetal, das sich öffnen kann; reduziert Cu²⁺ in der Fehling-Probe zu Cu₂O."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.1.carbohydrates.eq.1",
-      "notation": "C₆H₁₂O₆ (Glucose/Fructose)",
-      "explanation": "Gleiche Summenformel bedeutet nicht gleiche Struktur oder Reaktivität."
+      "notation": "α-D-Glucopyranose ⇌ offenkettige D-Glucose ⇌ β-D-Glucopyranose",
+      "explanation": "Mutarotation in wässriger Lösung; im Gleichgewicht überwiegt die β-Form."
     },
     {
       "id": "chem.q2.1.carbohydrates.eq.2",
       "notation": "R–CHO + 2 Cu²⁺ + 5 OH⁻ → R–COO⁻ + Cu₂O↓ + 3 H₂O",
-      "explanation": "Vereinfachte Fehling-Bilanz für ein Aldehyd."
+      "explanation": "Vereinfachte Fehling-Reaktion; der Tartratkomplex des Cu²⁺ ist nicht dargestellt."
+    },
+    {
+      "id": "chem.q2.1.carbohydrates.eq.3",
+      "notation": "C₁₂H₂₂O₁₁ + H₂O → C₆H₁₂O₆ (Glucose) + C₆H₁₂O₆ (Fructose)",
+      "explanation": "Hydrolyse von Saccharose, zum Beispiel durch Erhitzen mit verdünnter Säure; beide Produkte sind reduzierend."
+    },
+    {
+      "id": "chem.q2.1.carbohydrates.eq.4",
+      "notation": "n C₆H₁₂O₆ → (C₆H₁₀O₅)ₙ + n H₂O",
+      "explanation": "Vereinfachte Bildung eines Polysaccharids wie Stärke oder Cellulose; für sehr große n gilt näherungsweise ein Wassermolekül je Baustein."
     }
   ],
-  "equationNote": "Schematische Reaktionsgleichungen. Ergänze Strukturformeln, Reaktionsbedingungen und Aggregatzustände, wenn die Aufgabenstellung sie verlangt.",
+  "equationNote": "Summenformeln reichen in Aufgaben zu Kohlenhydraten selten aus, weil Glucose, Fructose und Galactose dieselbe Summenformel haben. Zeichne bei Bedarf Fischer- oder Haworth-Projektionen und gib bei glycosidischen Bindungen Verknüpfungsstellen und α/β an.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q2.1.carbohydrates.example.1",
-      "title": "Reduzierendes Ende prüfen",
-      "prompt": "Ein Disaccharid ist über beide anomeren C-Atome verknüpft. Ist es reduzierend?",
+      "title": "Reduzierend oder nicht?",
+      "prompt": "Trehalose besteht aus zwei Glucose-Einheiten, die über ihre beiden anomeren C-Atome verknüpft sind (α-1,α-1). Sage das Ergebnis der Fehling-Probe voraus.",
       "steps": [
-        "Beide anomeren Zentren sind an der glycosidischen Bindung beteiligt.",
-        "Es bleibt kein freies Halbacetalzentrum, das zur Carbonylform öffnen kann.",
-        "Damit fehlt die typische reduzierende Form."
+        "Reduzierend wirkt ein Zucker nur, wenn ein anomeres C-Atom als freies Halbacetal vorliegt.",
+        "In Trehalose sind beide anomeren C-Atome an der glycosidischen Bindung beteiligt; beide Ringe sind Acetale.",
+        "Kein Ring kann sich zur offenkettigen Form mit Aldehydgruppe öffnen."
       ],
-      "result": "Das Disaccharid ist nicht reduzierend."
+      "result": "Trehalose ist nicht reduzierend; die Fehling-Probe bleibt blau. Das gleiche Argument gilt für Saccharose."
     },
     {
       "id": "chem.q2.1.carbohydrates.example.2",
-      "title": "Nachweis auswählen",
-      "prompt": "Eine Probe färbt sich mit Iod-Kaliumiodid dunkelblau. Deute die Beobachtung.",
+      "title": "Iod-Stärke-Befund deuten",
+      "prompt": "Eine Probe färbt sich mit Iod-Kaliumiodid-Lösung blauschwarz. Beim Erwärmen verschwindet die Farbe, beim Abkühlen kehrt sie zurück. Deute die Beobachtungen.",
       "steps": [
-        "Die Färbung ist die Beobachtung.",
-        "Iod lagert sich in die Helixstruktur von Amylose ein.",
-        "Der Befund spricht für Stärke; Fehling würde reduzierende Eigenschaften prüfen."
+        "Die blauschwarze Färbung zeigt Amylose an: Polyiodid-Ionen lagern sich in die Amylose-Schraube ein.",
+        "Beim Erwärmen lockert sich die Schraube, der Einschlusskomplex zerfällt, die Farbe verschwindet.",
+        "Beim Abkühlen bildet sich die Schraube wieder, und die Einlagerung ist erneut möglich."
       ],
-      "result": "Der Befund ist ein Stärkenachweis, kein allgemeiner Zuckernachweis."
+      "result": "Die Probe enthält Stärke. Die Reversibilität zeigt, dass die Farbe auf einer räumlichen Struktur beruht und nicht auf einer dauerhaften chemischen Reaktion."
+    },
+    {
+      "id": "chem.q2.1.carbohydrates.example.3",
+      "title": "Von Fischer zu Haworth",
+      "prompt": "In der Fischer-Projektion der D-Glucose stehen die OH-Gruppen an C2, C4 und C5 rechts, an C3 links. Beschreibe die Haworth-Projektion der β-D-Glucopyranose.",
+      "steps": [
+        "Rechts stehende Gruppen kommen in der Haworth-Projektion nach unten: OH an C2 und C4 unterhalb des Rings, OH an C3 oberhalb.",
+        "Die OH-Gruppe an C5 wird zum Ring-Sauerstoff; die CH₂OH-Gruppe an C5 steht bei D-Zuckern oberhalb des Rings.",
+        "Beim β-Anomer steht die OH-Gruppe am anomeren C1 auf derselben Seite wie die CH₂OH-Gruppe, also oberhalb."
+      ],
+      "result": "β-D-Glucopyranose: OH an C1 oben, C2 unten, C3 oben, C4 unten, CH₂OH oben. Die Substituenten wechseln sich ab; das erklärt, warum β-Glucose die stabilste Form ist."
     }
   ],
   "examReferences": [
@@ -149,22 +185,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Stoffklasse, funktionelle Gruppen oder Strukturmerkmale aus Darstellungen bestimmen.",
-    "AFB II: Reaktionen, Nachweise und Struktur-Eigenschaft-Beziehungen fachlich erklären.",
-    "AFB III: Materialaussagen anhand von Daten beurteilen und Reichweite von Schlussfolgerungen abwägen."
+    "AFB I: Aldosen und Ketosen, Anomere und glycosidische Bindungen benennen; Nachweisbeobachtungen angeben.",
+    "AFB II: Fischer- und Haworth-Projektionen ineinander überführen; Ringschluss und Bildung von Disacchariden formulieren; reduzierendes Verhalten begründen.",
+    "AFB III: Aus Kombinationen von Nachweisergebnissen auf die Zusammensetzung einer Probe schließen und die Aussagekraft der Nachweise beurteilen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Erkläre Eigenschaften über einen konkreten Struktur- und Wechselwirkungsschritt.",
-      "commonError": "Von einem Stoffnamen direkt auf eine Eigenschaft schließen."
+      "tip": "Prüfe bei Disacchariden, ob noch ein anomeres C-Atom als freies Halbacetal vorliegt.",
+      "commonError": "Jedes Disaccharid aus reduzierenden Bausteinen wird als reduzierend eingestuft, auch Saccharose."
     },
     {
-      "tip": "Beobachtung, Deutung und Schlussfolgerung sauber trennen.",
-      "commonError": "Ein einzelner Nachweis wird als vollständige Identifikation ausgegeben."
+      "tip": "Denke daran, dass auch Fructose die Fehling-Probe positiv ausfallen lässt.",
+      "commonError": "Ein positiver Fehling-Befund wird als Beleg für Glucose oder für eine Aldose gedeutet."
     },
     {
-      "tip": "Historische Aufgabenbelege zeigen frühere Aufgabenpraxis.",
-      "commonError": "Feldhäufigkeit wird mit einer Unterthemenhäufigkeit verwechselt."
+      "tip": "Bestimme α und β immer relativ zur CH₂OH-Gruppe bzw. zur Ringebene in der Haworth-Projektion.",
+      "commonError": "α und β werden mit D und L verwechselt oder aus der Fischer-Projektion der offenen Kette abgelesen."
+    },
+    {
+      "tip": "Verbinde den Bindungstyp mit der Eigenschaft: α-1,4 ergibt Schrauben, β-1,4 gestreckte Ketten.",
+      "commonError": "Stärke und Cellulose werden gleichgesetzt, weil beide aus Glucose bestehen."
     }
   ],
   "review": {

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.1.biopolymers",
   "title": "Biogene Makromoleküle im Kontext",
-  "summary": "Strukturen, Eigenschaften und Reaktionen zu Biogene Makromoleküle im Kontext verständlich und prüfungsbezogen erschließen.",
+  "summary": "Proteine und Polysaccharide wie Cellulose, Stärke, Chitin und Galactomannane im Vergleich: Wie Bausteine, Verknüpfung und Wechselwirkungen die Eigenschaften natürlicher Materialien bestimmen.",
   "order": 50,
   "publicationStatus": "review",
   "relevance": {
@@ -20,112 +20,138 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
+    "chem.q2.1.carbohydrates",
+    "chem.q2.1.proteins",
     "chem.q1.1.interactions"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.1.biopolymers.goal.structure",
-      "statement": "Ich kann zentrale Strukturmerkmale von Biogene Makromoleküle im Kontext beschreiben und darstellen.",
+      "statement": "Ich kann Proteine und Polysaccharide anhand ihrer Bausteine und Bindungstypen unterscheiden und Cellulose, Stärke, Chitin und Galactomannane strukturell einordnen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "vergleichen",
+        "einordnen"
+      ]
+    },
+    {
+      "id": "chem.q2.1.biopolymers.goal.properties",
+      "statement": "Ich kann Eigenschaften wie Reißfestigkeit, Löslichkeit und Quellvermögen über die Kette Struktur – Wechselwirkung – Eigenschaft erklären.",
       "competencies": [
         "S",
         "K"
       ],
       "operators": [
-        "beschreiben",
-        "darstellen"
-      ]
-    },
-    {
-      "id": "chem.q2.1.biopolymers.goal.properties",
-      "statement": "Ich kann Strukturmerkmale über Wechselwirkungen mit Stoffeigenschaften verknüpfen.",
-      "competencies": [
-        "S",
-        "E"
-      ],
-      "operators": [
-        "erläutern",
+        "erklären",
         "begründen"
       ]
     },
     {
       "id": "chem.q2.1.biopolymers.goal.reaction",
-      "statement": "Ich kann passende Reaktionen oder Nachweise formulieren und deuten.",
+      "statement": "Ich kann die Bildung und Hydrolyse von Biopolymeren als Kondensation bzw. Wasseraufnahme formulieren.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
         "formulieren",
-        "deuten"
+        "bestimmen"
       ]
     },
     {
       "id": "chem.q2.1.biopolymers.goal.evidence",
-      "statement": "Ich kann Materialaussagen mit Belegen begrenzen und bewerten.",
+      "statement": "Ich kann Materialtexte zu natürlichen Werkstoffen auswerten und kennzeichnen, welche Aussagen die Angaben stützen und welche nicht.",
       "competencies": [
-        "K",
+        "E",
         "B"
       ],
       "operators": [
         "auswerten",
-        "bewerten"
+        "beurteilen"
       ]
     }
   ],
-  "introduction": "In Aufgaben zu Naturstoffen musst du Strukturwissen auf einen Materialkontext übertragen. Dabei zählt eine nachvollziehbare Erklärung mehr als ein bloßes Wiedererkennen des Stoffnamens.",
-  "explanation": "Proteine sind Polymere aus Aminosäuren, die über Peptidbindungen verknüpft sind. Polysaccharide bestehen aus Monosacchariden mit glycosidischen Bindungen. Chitin ist ein stickstoffhaltiges Polysaccharid aus N-Acetylglucosamin-Bausteinen. Galactomannane besitzen Mannose- und Galactoseeinheiten.\n\nMakroskopische Eigenschaften hängen nicht allein von der Stoffklasse ab. Kettenlänge, Verzweigung, Substituenten, Kristallinität und Wechselwirkungen beeinflussen Löslichkeit und Festigkeit. Baue Erklärungen als Kette auf: Strukturmerkmal → Wechselwirkung/Anordnung → beobachtete Eigenschaft. Wenn Materialdaten fehlen, kennzeichne die Grenze deiner Aussage.",
+  "introduction": "Holz, Baumwolle, Seide, Insektenpanzer und Pudding haben etwas gemeinsam: Ihre Eigenschaften gehen auf Makromoleküle zurück, die Lebewesen aus wenigen Bausteinen aufbauen. In Prüfungsaufgaben begegnen sie dir oft in einem Materialkontext. Dann musst du dein Wissen über Kohlenhydrate und Proteine auf einen unbekannten Stoff übertragen.",
+  "explanation": "### 1. Zwei Bauprinzipien\n\nBiogene Makromoleküle entstehen durch Kondensation: Bausteine werden unter Abspaltung von Wasser verknüpft. Proteine bestehen aus Aminosäuren, die über Peptidbindungen verbunden sind. Polysaccharide bestehen aus Monosacchariden, die über glycosidische Bindungen verknüpft sind. Bei der Hydrolyse wird Wasser aufgenommen und die Bindungen werden wieder gespalten; in Lebewesen übernehmen das Enzyme. Für eine unverzweigte Kette aus n Bausteinen werden n − 1 Wassermoleküle abgespalten.\n\n### 2. Cellulose und Stärke: gleicher Baustein, andere Eigenschaften\n\nCellulose und Stärke bestehen beide aus Glucose. In der Cellulose sind die Einheiten β-1,4-glycosidisch verknüpft. Dadurch ist jede Einheit gegenüber der vorherigen um 180° gedreht, und die Kette ist gestreckt. Parallele Ketten bilden viele Wasserstoffbrücken untereinander und lagern sich zu teilkristallinen Mikrofibrillen zusammen. Das macht Cellulose reißfest und wasserunlöslich, obwohl sie viele Hydroxygruppen trägt: Diese sind bereits untereinander gebunden. In der Stärke sind die Einheiten α-1,4-verknüpft (Amylopektin zusätzlich α-1,6). Die Ketten winden sich zu Schrauben oder verzweigen sich und packen sich weniger regelmäßig. Stärke quillt deshalb in heißem Wasser und bildet Kleister.\n\n### 3. Chitin\n\nChitin ist ein Polysaccharid aus N-Acetylglucosamin, das wie Cellulose β-1,4-verknüpft ist. An C2 trägt jede Einheit statt einer OH-Gruppe eine Acetylaminogruppe (–NH–CO–CH₃). Zwischen den C=O- und N–H-Gruppen benachbarter Ketten bilden sich zusätzliche Wasserstoffbrücken. Chitin ist das Gerüstmaterial der Panzer von Insekten und Krebstieren und der Zellwände von Pilzen. In solchen Panzern ist es oft mit Proteinen und Calciumcarbonat zu einem Verbundwerkstoff kombiniert, der fester ist als jeder Bestandteil allein.\n\n### 4. Galactomannane\n\nGalactomannane besitzen eine Hauptkette aus β-1,4-verknüpfter Mannose, an der einzelne Galactose-Einheiten als Seitengruppen hängen (α-1,6). Sie kommen in den Samen von Guar und Johannisbrot vor und werden als Guarkernmehl und Johannisbrotkernmehl zum Verdicken von Lebensmitteln eingesetzt. Die Seitengruppen verhindern, dass sich die Ketten wie in der Cellulose dicht zusammenlagern. Die vielen Hydroxygruppen binden stattdessen Wasser über Wasserstoffbrücken, die langen Ketten verschlingen sich, und die Lösung wird zähflüssig.\n\n### 5. Proteinfasern\n\nAuch Proteine bilden Materialien: Seide besteht vor allem aus Fibroin, dessen Ketten große Bereiche aus β-Faltblättern bilden, Wolle und Haare aus Keratin mit vielen Disulfidbrücken, Sehnen aus Kollagen. Ihre Festigkeit beruht auf Wasserstoffbrücken zwischen den Ketten und bei Keratin zusätzlich auf kovalenten Quervernetzungen.\n\n### 6. Vorgehen in Materialaufgaben\n\nErmittle zuerst Bausteine und Bindungstyp aus dem Material. Leite daraus die möglichen Wechselwirkungen ab: Wasserstoffbrücken über OH-, NH- und C=O-Gruppen, Ionenbindungen bei geladenen Gruppen, Van-der-Waals-Kräfte bei unpolaren Bereichen. Verknüpfe dann Struktur, Wechselwirkung und Eigenschaft zu einer Erklärungskette. Berücksichtige Kettenlänge, Verzweigung, Seitengruppen und Ordnung der Ketten. Fehlen im Material Angaben, etwa zur Kettenlänge oder Kristallinität, kennzeichnest du deine Aussage als begründete Vermutung.",
   "fundamentals": [
     {
       "term": "Biopolymer",
-      "explanation": "Makromolekül, das von Organismen gebildet wird oder natürlichen Ursprungs ist."
+      "explanation": "Makromolekül, das von Lebewesen aus wiederkehrenden Bausteinen aufgebaut wird, etwa Protein oder Polysaccharid."
+    },
+    {
+      "term": "Kondensation und Hydrolyse",
+      "explanation": "Verknüpfung von Bausteinen unter Wasserabspaltung bzw. Spaltung der Bindungen unter Wasseraufnahme."
+    },
+    {
+      "term": "Cellulose",
+      "explanation": "Unverzweigtes Polysaccharid aus β-1,4-verknüpfter Glucose; bildet über Wasserstoffbrücken reißfeste, unlösliche Fasern."
     },
     {
       "term": "Chitin",
-      "explanation": "Polysaccharid aus β-verknüpften N-Acetylglucosamin-Einheiten."
+      "explanation": "Polysaccharid aus β-1,4-verknüpftem N-Acetylglucosamin; Gerüstsubstanz von Insektenpanzern und Pilzzellwänden."
     },
     {
       "term": "Galactomannan",
-      "explanation": "Polysaccharid mit Mannose-Hauptkette und Galactose-Seitengruppen."
+      "explanation": "Polysaccharid mit Mannose-Hauptkette und Galactose-Seitengruppen; bindet viel Wasser und wird als Verdickungsmittel genutzt."
+    },
+    {
+      "term": "Teilkristallinität",
+      "explanation": "Nebeneinander von geordneten, dicht gepackten und ungeordneten Bereichen in einem Polymer; geordnete Bereiche erhöhen die Festigkeit."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.1.biopolymers.eq.1",
-      "notation": "Aminosäure + Aminosäure → Dipeptid + H₂O",
-      "explanation": "Schematische Kondensation zur Peptidbindung."
+      "notation": "H₂N–CHR–COOH + H₂N–CHR′–COOH → H₂N–CHR–CO–NH–CHR′–COOH + H₂O",
+      "explanation": "Kondensation zweier Aminosäuren zu einem Dipeptid; die neue Bindung ist die Peptidbindung."
     },
     {
       "id": "chem.q2.1.biopolymers.eq.2",
-      "notation": "n Monosaccharide → Polysaccharid + (n−1) H₂O",
-      "explanation": "Vereinfachtes Schema; Bindungsstellen und Endgruppen sind zu beachten."
+      "notation": "n Monosaccharid → Polysaccharid + (n − 1) H₂O",
+      "explanation": "Kondensation zu einer unverzweigten Kette; an jeder glycosidischen Bindung wird ein Wassermolekül abgespalten."
+    },
+    {
+      "id": "chem.q2.1.biopolymers.eq.3",
+      "notation": "(C₆H₁₀O₅)ₙ + n H₂O → n C₆H₁₂O₆",
+      "explanation": "Vollständige Hydrolyse von Cellulose oder Stärke zu Glucose (für große n vereinfacht)."
     }
   ],
-  "equationNote": "Schematische Reaktionsgleichungen. Ergänze Strukturformeln, Reaktionsbedingungen und Aggregatzustände, wenn die Aufgabenstellung sie verlangt.",
+  "equationNote": "Bei Biopolymeren genügen meist schematische Gleichungen oder Ausschnitte aus der Kette. Zeichne die Wiederholungseinheit in eckige Klammern und gib bei Polysacchariden die Verknüpfungsstellen und α/β an.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q2.1.biopolymers.example.1",
-      "title": "Chitin als Materialbaustein",
-      "prompt": "Ein Chitin-haltiger Verbund ist zugfest. Formuliere eine vorsichtige Struktur-Eigenschaft-Erklärung.",
+      "title": "Chitin im Insektenpanzer",
+      "prompt": "Ein Materialtext beschreibt Chitin als unlöslichen, sehr festen Bestandteil von Insektenpanzern. Formuliere eine Struktur-Eigenschafts-Erklärung.",
       "steps": [
-        "Chitin ist ein Polysaccharid mit polaren Gruppen.",
-        "Zwischen Ketten können Wasserstoffbrücken zur Stabilisierung beitragen.",
-        "Faserorientierung und Verbundaufbau können die Zugfestigkeit zusätzlich prägen."
+        "Struktur: unverzweigte, β-1,4-verknüpfte Ketten aus N-Acetylglucosamin, gestreckt wie bei Cellulose.",
+        "Wechselwirkung: Zwischen parallelen Ketten bilden OH-, N–H- und C=O-Gruppen viele Wasserstoffbrücken; die Ketten lagern sich geordnet zusammen.",
+        "Eigenschaft: Die vielen Bindungen zwischen den Ketten machen das Material fest; Wassermoleküle können die Ketten nicht voneinander lösen."
       ],
-      "result": "Eine plausible Erklärung nennt Wechselwirkungen und Materialanordnung, ohne unbelegte Mikrostrukturdetails zu behaupten."
+      "result": "Festigkeit und Unlöslichkeit folgen aus gestreckten Ketten und dichten Wasserstoffbrücken-Netzwerken. Wie stark Proteine und Calciumcarbonat im Panzer beitragen, lässt sich nur mit weiteren Angaben beurteilen."
     },
     {
       "id": "chem.q2.1.biopolymers.example.2",
-      "title": "Beleggrenze beachten",
-      "prompt": "Ein Materialtext nennt Galactomannan, aber keine Molekülmasse oder Detailstruktur. Welche Aussagen sind begründet?",
+      "title": "Was der Materialtext trägt",
+      "prompt": "Ein Text nennt Galactomannan als Verdickungsmittel, gibt aber weder Molekülmasse noch Verzweigungsgrad an. Welche Aussagen sind begründet?",
       "steps": [
-        "Galactomannan ist ein Polysaccharid aus Mannose- und Galactoseeinheiten.",
-        "Aus dem Namen allein folgt keine bestimmte Kettenlänge oder Verzweigungsdichte.",
-        "Weitere Strukturbehauptungen brauchen Materialdaten."
+        "Begründet: Galactomannan ist ein Polysaccharid mit vielen Hydroxygruppen und kann Wasser über Wasserstoffbrücken binden.",
+        "Begründet: Lange, sich verschlingende Ketten erhöhen die Viskosität einer Lösung.",
+        "Nicht begründet: genaue Viskositätswerte oder ein quantitativer Vergleich mit einem anderen Verdickungsmittel, denn dazu fehlen Kettenlänge und Galactose-Anteil."
       ],
-      "result": "Die Stoffklasse lässt sich einordnen; konkrete Mikrostruktur darf nicht erfunden werden."
+      "result": "Qualitative Aussagen zur Wasserbindung und Verdickung sind gestützt, quantitative Aussagen nicht. In der Antwort machst du diese Grenze ausdrücklich kenntlich."
+    },
+    {
+      "id": "chem.q2.1.biopolymers.example.3",
+      "title": "Stärke und Cellulose vergleichen",
+      "prompt": "Kartoffelstärke quillt in heißem Wasser zu Kleister, Baumwolle (Cellulose) bleibt auch beim Kochen fest. Erkläre den Unterschied, obwohl beide aus Glucose bestehen.",
+      "steps": [
+        "Unterschied in der Verknüpfung: Stärke α-1,4 (und α-1,6), Cellulose β-1,4.",
+        "Folge für die Kettenform: Amylose bildet Schrauben, Amylopektin ist verzweigt; Cellulose bildet gestreckte Ketten.",
+        "Folge für die Wechselwirkung: Cellulose-Ketten sind über viele Wasserstoffbrücken dicht gepackt; Stärke packt sich lockerer, Wassermoleküle können eindringen."
+      ],
+      "result": "Die Verknüpfungsart bestimmt Kettenform und Packung und damit, ob Wasser eindringen kann. Gleiche Bausteine reichen nicht aus, um gleiche Eigenschaften zu erwarten."
     }
   ],
   "examReferences": [
@@ -149,22 +175,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Stoffklasse, funktionelle Gruppen oder Strukturmerkmale aus Darstellungen bestimmen.",
-    "AFB II: Reaktionen, Nachweise und Struktur-Eigenschaft-Beziehungen fachlich erklären.",
-    "AFB III: Materialaussagen anhand von Daten beurteilen und Reichweite von Schlussfolgerungen abwägen."
+    "AFB I: Bausteine und Bindungstypen von Proteinen und Polysacchariden angeben; Biopolymere einer Stoffklasse zuordnen.",
+    "AFB II: Kondensation und Hydrolyse formulieren; Eigenschaften wie Festigkeit, Löslichkeit und Quellen über Struktur und Wechselwirkungen erklären; Biopolymere vergleichen.",
+    "AFB III: Materialtexte zu natürlichen Werkstoffen auswerten, Erklärungen auf unbekannte Stoffe übertragen und ihre Reichweite beurteilen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Erkläre Eigenschaften über einen konkreten Struktur- und Wechselwirkungsschritt.",
-      "commonError": "Von einem Stoffnamen direkt auf eine Eigenschaft schließen."
+      "tip": "Gehe in Erklärungen immer über die Wechselwirkung: Struktur → Wechselwirkung → Eigenschaft.",
+      "commonError": "Eine Eigenschaft wird direkt aus dem Stoffnamen oder der Stoffklasse abgeleitet („Cellulose ist ein Zucker, also löslich“)."
     },
     {
-      "tip": "Beobachtung, Deutung und Schlussfolgerung sauber trennen.",
-      "commonError": "Ein einzelner Nachweis wird als vollständige Identifikation ausgegeben."
+      "tip": "Achte auf α- und β-Verknüpfung; sie entscheidet über die Kettenform.",
+      "commonError": "Stärke und Cellulose werden gleich behandelt, weil beide aus Glucose bestehen."
     },
     {
-      "tip": "Historische Aufgabenbelege zeigen frühere Aufgabenpraxis.",
-      "commonError": "Feldhäufigkeit wird mit einer Unterthemenhäufigkeit verwechselt."
+      "tip": "Viele Hydroxygruppen bedeuten nicht automatisch gute Wasserlöslichkeit.",
+      "commonError": "Die Unlöslichkeit von Cellulose wird übersehen, weil die OH-Gruppen nur als Kontaktstellen zum Wasser betrachtet werden."
+    },
+    {
+      "tip": "Kennzeichne Aussagen, die das Material nicht belegt, als Vermutung.",
+      "commonError": "Aus qualitativen Angaben werden genaue Zahlenwerte oder sichere Vergleiche abgeleitet."
     }
   ],
   "review": {

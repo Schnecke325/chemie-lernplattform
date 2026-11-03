@@ -25,7 +25,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 
 - **Feingranulare Prüfungsanalyse:** Die vorhandenen 131 PDFs sind laut Research inventarisiert und breit nach Jahr, Termin, Vorschlag und KCGO-Feld zugeordnet. Teilfragen-/Punkte-Codierung und belastbare Häufigkeitsklassen sind offen. Es gibt keinen Grund, hierfür Häufigkeiten zu schätzen.
 - **Freigabestatus der Lernseiten:** Alle 47 Lesson-Dateien stehen auf `publicationStatus: "review"`. Kriterien für den Wechsel zu `published` sind noch nicht festgelegt.
-- **Lernseitentexte mit Schablonenresten:** Bei 16 Lernseiten (u. a. Q2.2, Q2.4, Q4.1, Q4.2, Kinetik, Tenside, Anwendungen bewerten, vier Q2.1-Seiten) enthalten Lernziele, Fachbegriffe und typische Fehler noch gleichlautende oder themenfremde Formulierungen; siehe `PROJECT_CONTEXT.md`. Überarbeitung in vier Paketen: Paket 1 (Energetik, Q4.1/Q4.2, vier Seiten) am 03.11.2026 abgeschlossen; offen sind Q2.1 (vier Seiten), Q2.2/Q2.4 (fünf Seiten) sowie Kinetik, Tenside und Anwendungen bewerten.
+- **Lernseitentexte mit Schablonenresten:** Bei 16 Lernseiten (u. a. Q2.2, Q2.4, Q4.1, Q4.2, Kinetik, Tenside, Anwendungen bewerten, vier Q2.1-Seiten) enthalten Lernziele, Fachbegriffe und typische Fehler noch gleichlautende oder themenfremde Formulierungen; siehe `PROJECT_CONTEXT.md`. Überarbeitung in vier Paketen: Paket 1 (Energetik, Q4.1/Q4.2) und Paket 2 (Naturstoffe, Q2.1) mit je vier Seiten am 03.11.2026 abgeschlossen; offen sind Q2.2/Q2.4 (fünf Seiten) sowie Kinetik, Tenside und Anwendungen bewerten.
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.
 
 ## Geplant

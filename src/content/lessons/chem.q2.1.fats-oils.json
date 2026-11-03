@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.1.fats-oils",
   "title": "Fette, Öle und Fettsäuren",
-  "summary": "Strukturen, Eigenschaften und Reaktionen zu Fette, Öle und Fettsäuren verständlich und prüfungsbezogen erschließen.",
+  "summary": "Fette und Öle sind Ester aus Glycerin und Fettsäuren. Kettenlänge und Doppelbindungen bestimmen ihr Schmelzverhalten; Verseifung, Fetthärtung und Iodzahl beruhen auf diesem Aufbau.",
   "order": 40,
   "publicationStatus": "review",
   "relevance": {
@@ -20,111 +20,152 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
-    "chem.q1.1.interactions"
+    "chem.q1.3.esters",
+    "chem.q1.1.interactions",
+    "chem.q1.1.hydrocarbons"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.1.fats-oils.goal.structure",
-      "statement": "Ich kann zentrale Strukturmerkmale von Fette, Öle und Fettsäuren beschreiben und darstellen.",
+      "statement": "Ich kann den Aufbau von Triacylglyceriden darstellen und Fettsäuren als gesättigt, einfach oder mehrfach ungesättigt einordnen.",
       "competencies": [
         "S",
         "K"
       ],
       "operators": [
-        "beschreiben",
-        "darstellen"
+        "darstellen",
+        "einordnen"
       ]
     },
     {
       "id": "chem.q2.1.fats-oils.goal.properties",
-      "statement": "Ich kann Strukturmerkmale über Wechselwirkungen mit Stoffeigenschaften verknüpfen.",
+      "statement": "Ich kann das Schmelzverhalten von Fetten und Ölen mit Kettenlänge, Doppelbindungen, cis-trans-Isomerie und Van-der-Waals-Kräften begründen.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
-        "erläutern",
+        "erklären",
         "begründen"
       ]
     },
     {
       "id": "chem.q2.1.fats-oils.goal.reaction",
-      "statement": "Ich kann passende Reaktionen oder Nachweise formulieren und deuten.",
+      "statement": "Ich kann Veresterung, Verseifung, Fetthärtung und die Addition von Iod formulieren und ihre Bedeutung erläutern.",
       "competencies": [
         "S",
         "E"
       ],
       "operators": [
         "formulieren",
-        "deuten"
+        "erläutern"
       ]
     },
     {
       "id": "chem.q2.1.fats-oils.goal.evidence",
-      "statement": "Ich kann Materialaussagen mit Belegen begrenzen und bewerten.",
+      "statement": "Ich kann Iodzahlen berechnen und beurteilen, was sie über ein Fett aussagen und was nicht.",
       "competencies": [
-        "K",
+        "E",
         "B"
       ],
       "operators": [
-        "auswerten",
-        "bewerten"
+        "berechnen",
+        "beurteilen"
       ]
     }
   ],
-  "introduction": "Fette und Öle sind Energiespeicher und zugleich chemisch klar definierte Ester. Ihr Aufbau erklärt typische Unterschiede zwischen festen Fetten und flüssigen Ölen.",
-  "explanation": "Ein Triacylglycerid entsteht, wenn alle drei Hydroxygruppen des Glycerins mit Fettsäuren verestert sind. Gesättigte Reste besitzen keine C=C-Bindung. Cis-ungesättigte Reste enthalten Knicke, die dichtes Packen erschweren; deshalb sinkt häufig der Schmelzbereich.\n\nBei der Hydrolyse werden Esterbindungen gespalten. Im alkalischen Milieu entstehen Glycerin und Fettsäuresalze; dieser Vorgang heißt Verseifung. Bei der Fetthärtung wird Wasserstoff an C=C-Bindungen addiert. Die Iodzahl gibt die Masse I₂ an, die 100 g Fett unter definierten Bedingungen aufnehmen. Sie dient als Maß für den Ungesättigungsgrad, nicht als vollständige Identifizierung der Fettsäuren.",
+  "introduction": "Butter ist streichfest, Olivenöl flüssig, Kokosfett schmilzt in der Hand. Chemisch gehören alle drei zur selben Stoffklasse: Es sind Ester aus Glycerin und Fettsäuren. Kleine Unterschiede im Bau der Fettsäuren genügen, um diese verschiedenen Eigenschaften zu erklären.",
+  "explanation": "### 1. Fettsäuren\n\nFettsäuren sind unverzweigte Monocarbonsäuren mit meist gerader Anzahl an C-Atomen, häufig 16 oder 18. Gesättigte Fettsäuren enthalten keine C=C-Doppelbindung und haben die allgemeine Formel CₙH₂ₙ₊₁COOH, zum Beispiel Palmitinsäure C₁₅H₃₁COOH. Jede C=C-Doppelbindung verringert die Zahl der H-Atome um zwei. Einfach ungesättigte Fettsäuren haben eine Doppelbindung, mehrfach ungesättigte zwei oder mehr; Linolensäure C₁₇H₂₉COOH besitzt zum Beispiel drei. In natürlichen Fetten sind die Doppelbindungen fast immer cis-konfiguriert.\n\n### 2. Triacylglyceride\n\nGlycerin (Propan-1,2,3-triol) besitzt drei Hydroxygruppen. Jede kann mit der Carboxygruppe einer Fettsäure einen Ester bilden. Sind alle drei verestert, entsteht ein Triacylglycerid (Triglycerid) mit drei Esterbindungen. Natürliche Fette sind Gemische verschiedener Triacylglyceride, deren drei Fettsäurereste meist unterschiedlich sind. Deshalb haben sie keinen scharfen Schmelzpunkt, sondern einen Schmelzbereich. Die langen Kohlenwasserstoffreste machen Fette unpolar: Sie lösen sich nicht in Wasser, aber gut in unpolaren Lösungsmitteln wie Heptan.\n\n### 3. Struktur und Schmelzverhalten\n\nZwischen den Fettsäureresten benachbarter Moleküle wirken Van-der-Waals-Kräfte. Sie sind umso stärker, je länger die Ketten sind und je dichter sich die Moleküle aneinanderlagern können. Gesättigte Ketten sind gestreckt und lassen sich dicht packen; Fette mit vielen gesättigten Resten sind bei Raumtemperatur fest. Eine cis-Doppelbindung erzeugt einen Knick in der Kette, der die dichte Packung stört. Die Kräfte zwischen den Molekülen werden schwächer, der Schmelzbereich sinkt; Öle mit vielen cis-ungesättigten Resten sind flüssig. Eine trans-Doppelbindung lässt die Kette fast gestreckt. Das zeigen die Schmelztemperaturen dreier C₁₈-Fettsäuren: Stearinsäure (gesättigt) rund 69 °C, Elaidinsäure (trans) rund 45 °C, Ölsäure (cis) rund 13 °C.\n\n### 4. Hydrolyse und Verseifung\n\nEsterbindungen lassen sich durch Wasser spalten. Im sauren Milieu stellt sich dabei ein Gleichgewicht ein, weil die Rückreaktion, die Veresterung, ebenfalls abläuft. Erhitzt man ein Fett mit Natron- oder Kalilauge, entstehen Glycerin und die Salze der Fettsäuren, also Seifen. Diese Verseifung verläuft praktisch vollständig, denn die Carboxylat-Ionen können nicht mehr mit Glycerin reagieren.\n\n### 5. Addition an Doppelbindungen: Fetthärtung und Iodzahl\n\nAn C=C-Doppelbindungen können Halogene und Wasserstoff addiert werden. Bei der Fetthärtung wird Wasserstoff mit einem Nickel-Katalysator an die Doppelbindungen eines Öls addiert; aus flüssigem Öl wird ein streichfestes Fett. Wird nur ein Teil der Doppelbindungen hydriert, können sich verbliebene cis-Doppelbindungen am Katalysator in trans-Doppelbindungen umlagern. Solche trans-Fettsäuren gelten als gesundheitlich ungünstig.\n\nDie Iodzahl gibt an, wie viel Gramm Iod 100 g Fett unter festgelegten Bedingungen addieren. Da je Doppelbindung ein I₂-Molekül addiert wird, ist sie ein Maß für den Gehalt an Doppelbindungen. Sie sagt aber nicht, welche Fettsäuren enthalten sind, wo die Doppelbindungen liegen oder ob sie cis- oder trans-konfiguriert sind. Mit Bromwasser lassen sich Doppelbindungen auch qualitativ nachweisen: Die braune Lösung entfärbt sich.",
   "fundamentals": [
     {
+      "term": "Fettsäure",
+      "explanation": "Unverzweigte Monocarbonsäure mit meist gerader Anzahl von C-Atomen; gesättigt ohne, ungesättigt mit C=C-Doppelbindungen."
+    },
+    {
       "term": "Triacylglycerid",
-      "explanation": "Triester aus Glycerin und drei Fettsäureresten."
+      "explanation": "Triester aus Glycerin und drei Fettsäuren; Hauptbestandteil natürlicher Fette und Öle."
+    },
+    {
+      "term": "cis-trans-Isomerie",
+      "explanation": "Unterschiedliche Anordnung der Kettenreste an einer C=C-Doppelbindung; cis erzeugt einen Knick, trans lässt die Kette gestreckt."
+    },
+    {
+      "term": "Schmelzbereich",
+      "explanation": "Temperaturbereich, in dem ein Stoffgemisch schmilzt; Fette haben ihn, weil sie Gemische verschiedener Triacylglyceride sind."
     },
     {
       "term": "Verseifung",
-      "explanation": "Basische Esterhydrolyse mit Bildung von Glycerin und Fettsäuresalzen."
+      "explanation": "Alkalische Esterhydrolyse eines Fettes zu Glycerin und Fettsäuresalzen (Seifen); praktisch vollständig."
+    },
+    {
+      "term": "Fetthärtung",
+      "explanation": "Katalytische Addition von Wasserstoff an die Doppelbindungen eines Öls; erhöht den Schmelzbereich."
     },
     {
       "term": "Iodzahl",
-      "explanation": "Gramm I₂, die 100 g Fett unter festgelegten Bedingungen addieren."
+      "explanation": "Masse an Iod in Gramm, die 100 g Fett addieren; Maß für den Gehalt an C=C-Doppelbindungen."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.1.fats-oils.eq.1",
-      "notation": "Triacylglycerid + 3 OH⁻ → Glycerin + 3 RCOO⁻",
-      "explanation": "Bilanz der alkalischen Verseifung."
+      "notation": "Triacylglycerid + 3 OH⁻ → Glycerin + 3 R–COO⁻",
+      "explanation": "Verseifung mit Lauge; die Carboxylat-Ionen bilden mit Na⁺ oder K⁺ Seifen."
     },
     {
       "id": "chem.q2.1.fats-oils.eq.2",
       "notation": "R–CH=CH–R′ + H₂ → R–CH₂–CH₂–R′",
-      "explanation": "Hydrierung einer C=C-Bindung; Katalysator und Bedingungen beachten."
+      "explanation": "Hydrierung einer Doppelbindung bei der Fetthärtung; Nickel als Katalysator."
+    },
+    {
+      "id": "chem.q2.1.fats-oils.eq.3",
+      "notation": "Glycerin + 3 R–COOH ⇌ Triacylglycerid + 3 H₂O",
+      "explanation": "Veresterung; im sauren Milieu stellt sich ein Gleichgewicht mit der Hydrolyse ein."
+    },
+    {
+      "id": "chem.q2.1.fats-oils.eq.4",
+      "notation": "R–CH=CH–R′ + I₂ → R–CHI–CHI–R′",
+      "explanation": "Addition von Iod; je Doppelbindung wird ein I₂-Molekül verbraucht."
+    },
+    {
+      "id": "chem.q2.1.fats-oils.eq.5",
+      "notation": "Iodzahl = m(I₂) / m(Fett) · 100 g",
+      "explanation": "Masse addierten Iods in Gramm, bezogen auf 100 g Fett; m(I₂) = n(I₂) · 253,8 g·mol⁻¹."
     }
   ],
-  "equationNote": "Schematische Reaktionsgleichungen. Ergänze Strukturformeln, Reaktionsbedingungen und Aggregatzustände, wenn die Aufgabenstellung sie verlangt.",
+  "equationNote": "R steht für einen Fettsäurerest. Bei einem Triacylglycerid mit drei verschiedenen Resten schreibst du R, R′ und R″. Die Iodzahl ist eine Massenangabe ohne Einheit; sie bezieht sich immer auf 100 g Fett.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q2.1.fats-oils.example.1",
-      "title": "Iodzahl aus Stoffmenge",
-      "prompt": "Eine 2,00-g-Fettprobe addiert 0,00200 mol I₂. Berechne die Iodzahl mit M(I₂)=253,8 g mol⁻¹.",
+      "title": "Iodzahl aus einer Messung",
+      "prompt": "Eine Fettprobe von 2,00 g addiert 0,00200 mol I₂. Berechne die Iodzahl (M(I₂) = 253,8 g·mol⁻¹).",
       "steps": [
-        "m(I₂)=n·M=0,00200 mol·253,8 g mol⁻¹=0,508 g.",
-        "Auf 100 g Fett skalieren: 0,508 g/2,00 g·100 g=25,4 g."
+        "Masse des addierten Iods: m(I₂) = 0,00200 mol · 253,8 g·mol⁻¹ = 0,508 g.",
+        "Auf 100 g Fett umrechnen: 0,508 g / 2,00 g · 100 g = 25,4 g."
       ],
-      "result": "Die Iodzahl beträgt 25,4 g I₂ je 100 g Fett."
+      "result": "Die Iodzahl beträgt 25,4. Das Fett enthält vergleichsweise wenige Doppelbindungen, etwa wie ein tierisches Fett."
     },
     {
       "id": "chem.q2.1.fats-oils.example.2",
-      "title": "Schmelzverhalten erklären",
-      "prompt": "Ein Öl enthält mehr cis-ungesättigte Fettsäurereste als ein festes Fett. Begründe den typischen Unterschied im Schmelzbereich.",
+      "title": "Tristearin und Triolein vergleichen",
+      "prompt": "Tristearin enthält drei Stearinsäurereste (C₁₈, gesättigt), Triolein drei Ölsäurereste (C₁₈, eine cis-Doppelbindung). Bei Raumtemperatur ist Tristearin fest, Triolein flüssig. Erkläre den Unterschied.",
       "steps": [
-        "Cis-Doppelbindungen erzeugen Knicke in den Ketten.",
-        "Die Ketten packen meist weniger dicht.",
-        "Die zwischenmolekularen Anziehungen im Feststoff sind dadurch häufig geringer."
+        "Beide Moleküle haben gleich lange Ketten; der Unterschied liegt nur in den Doppelbindungen.",
+        "Die gesättigten Stearinsäurereste sind gestreckt und lagern sich dicht aneinander; die Van-der-Waals-Kräfte sind stark.",
+        "Die cis-Doppelbindung erzeugt in jedem Ölsäurerest einen Knick; die Moleküle packen sich weniger dicht, die Kräfte sind schwächer."
       ],
-      "result": "Das Öl hat typischerweise einen niedrigeren Schmelzbereich; die genaue Zusammensetzung bleibt entscheidend."
+      "result": "Für das Schmelzen von Triolein ist weniger Energie nötig, deshalb ist es bei Raumtemperatur flüssig. Die Erklärung verknüpft Struktur (cis-Knick), Wechselwirkung (schwächere Van-der-Waals-Kräfte) und Eigenschaft (niedriger Schmelzbereich)."
+    },
+    {
+      "id": "chem.q2.1.fats-oils.example.3",
+      "title": "Iodzahl von Triolein vorhersagen",
+      "prompt": "Berechne die theoretische Iodzahl von Triolein (C₅₇H₁₀₄O₆, M = 885,4 g·mol⁻¹), das drei C=C-Doppelbindungen je Molekül besitzt.",
+      "steps": [
+        "Je Doppelbindung wird ein I₂ addiert: 1 mol Triolein addiert 3 mol I₂.",
+        "Masse: 3 · 253,8 g = 761,4 g I₂ je 885,4 g Triolein.",
+        "Auf 100 g umrechnen: 761,4 g / 885,4 g · 100 g ≈ 86,0 g."
+      ],
+      "result": "Die Iodzahl von Triolein beträgt etwa 86. Ein natürliches Öl mit höherer Iodzahl muss also im Mittel mehr als drei Doppelbindungen je Triacylglycerid enthalten, etwa durch Linol- oder Linolensäurereste."
     }
   ],
   "examReferences": [
@@ -148,22 +189,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Stoffklasse, funktionelle Gruppen oder Strukturmerkmale aus Darstellungen bestimmen.",
-    "AFB II: Reaktionen, Nachweise und Struktur-Eigenschaft-Beziehungen fachlich erklären.",
-    "AFB III: Materialaussagen anhand von Daten beurteilen und Reichweite von Schlussfolgerungen abwägen."
+    "AFB I: Bausteine eines Triacylglycerids nennen; Fettsäuren nach Sättigungsgrad einordnen; Verseifungsprodukte angeben.",
+    "AFB II: Veresterung, Verseifung, Hydrierung und Iodaddition formulieren; Schmelzverhalten mit Struktur und Van-der-Waals-Kräften erklären; Iodzahlen berechnen.",
+    "AFB III: Aussagen über Fette anhand von Iodzahlen oder Fettsäureanteilen beurteilen; Vor- und Nachteile der Fetthärtung abwägen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Erkläre Eigenschaften über einen konkreten Struktur- und Wechselwirkungsschritt.",
-      "commonError": "Von einem Stoffnamen direkt auf eine Eigenschaft schließen."
+      "tip": "Zähle die Doppelbindungen über die H-Atome: Jede C=C-Bindung hat zwei H-Atome weniger als die gesättigte Säure CₙH₂ₙ₊₁COOH.",
+      "commonError": "Die Zahl der Doppelbindungen wird aus der Zahl der C-Atome abgeleitet."
     },
     {
-      "tip": "Beobachtung, Deutung und Schlussfolgerung sauber trennen.",
-      "commonError": "Ein einzelner Nachweis wird als vollständige Identifikation ausgegeben."
+      "tip": "Begründe Schmelzverhalten immer über Packung und Van-der-Waals-Kräfte, nicht über die Doppelbindung allein.",
+      "commonError": "Es wird behauptet, die Doppelbindung selbst sei „schwächer“ und das Öl schmelze deshalb leichter."
     },
     {
-      "tip": "Historische Aufgabenbelege zeigen frühere Aufgabenpraxis.",
-      "commonError": "Feldhäufigkeit wird mit einer Unterthemenhäufigkeit verwechselt."
+      "tip": "Bei der Verseifung entstehen Carboxylat-Ionen, keine freien Fettsäuren.",
+      "commonError": "Als Produkte der Verseifung werden Glycerin und Fettsäuren angegeben, und die Reaktion wird als Gleichgewicht formuliert."
+    },
+    {
+      "tip": "Die Iodzahl bezieht sich auf 100 g Fett und gibt eine Iod-Masse an.",
+      "commonError": "Die Iodzahl wird als Stoffmenge Iod oder als Zahl der Doppelbindungen je Molekül angegeben."
     }
   ],
   "review": {
