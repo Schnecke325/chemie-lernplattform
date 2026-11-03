@@ -24,6 +24,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 
 ## Begonnen, aber noch nicht abgeschlossen
 
+- **Ausbau knapper Lernseiten:** Acht Seiten mit Erklärtexten unter 2.000 Zeichen werden in zwei Paketen ergänzt. Paket A (Elektrochemie, vier Q3.3-Seiten, einschließlich Konzentrationszelle und Wasserelektrolyse) am 04.11.2026 abgeschlossen; offen ist Paket B (Protolyse, Carbonsäuren, Aldehyde und Ketone, technische Gleichgewichte).
 - **Feingranulare Prüfungsanalyse:** Die vorhandenen 131 PDFs sind laut Research inventarisiert und breit nach Jahr, Termin, Vorschlag und KCGO-Feld zugeordnet. Teilfragen-/Punkte-Codierung und belastbare Häufigkeitsklassen sind offen. Es gibt keinen Grund, hierfür Häufigkeiten zu schätzen.
 - **Freigabestatus der Lernseiten:** Alle 47 Lesson-Dateien stehen auf `publicationStatus: "review"`. Kriterien für den Wechsel zu `published` sind noch nicht festgelegt.
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.

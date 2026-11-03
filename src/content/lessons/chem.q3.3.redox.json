@@ -72,7 +72,7 @@
     }
   ],
   "introduction": "Redoxreaktionen beruhen auf Elektronenübertragungen. Oxidation und Reduktion laufen immer gemeinsam ab: Ein Teilchen gibt Elektronen ab, ein anderes nimmt sie auf. Mit Oxidationszahlen erkennst du diese Änderungen und kannst die Reaktionsgleichung über Teilgleichungen ausgleichen.",
-  "explanation": "### 1. Oxidation und Reduktion\n\nOxidation bedeutet Elektronenabgabe, Reduktion Elektronenaufnahme. Beides findet gleichzeitig statt. Das Teilchen, das Elektronen abgibt, ist der Elektronendonator und wird oxidiert. Es wirkt als Reduktionsmittel. Der Elektronenakzeptor nimmt Elektronen auf, wird reduziert und wirkt als Oxidationsmittel.\n\n### 2. Oxidationszahlen\n\nOxidationszahlen sind formale Ladungszahlen, die du Atomen nach festgelegten Regeln zuordnest. In einem neutralen Molekül ist ihre Summe null; in einem Ion entspricht die Summe der Ionenladung. Elemente in ihrer Reinform haben Oxidationszahl 0.\n\nSteigt die Oxidationszahl eines Atoms, wurde es oxidiert. Sinkt sie, wurde es reduziert. Eine Oxidationszahl ist ein Bilanzmodell und nicht immer eine reale ganzzahlige Atomladung.\n\n### 3. Teilgleichungsmethode\n\nSchreibe Oxidation und Reduktion zunächst getrennt auf. Gleiche Atome aus, gleiche dann die Ladung über Elektronen aus. Multipliziere die Teilgleichungen so, dass gleich viele Elektronen abgegeben wie aufgenommen werden. Addiere beide Seiten und kürze Elektronen sowie gleiche Teilchen.\n\nIm sauren Milieu verwendest du H₂O zum Ausgleich von Sauerstoff und H⁺ zum Ausgleich von Wasserstoff. Im alkalischen Milieu kannst du zunächst wie im Sauren ausgleichen, danach H⁺ mit OH⁻ neutralisieren und überschüssiges Wasser kürzen. Am Ende müssen Atome und Ladung stimmen.\n\n### 4. Gesamtgleichung prüfen\n\nPrüfe nach dem Addieren jedes Element und die Gesamtladung. Elektronen dürfen in der fertigen Gesamtgleichung nicht übrig bleiben. Kontrolliere außerdem, ob Koeffizienten im kleinsten ganzzahligen Verhältnis stehen. Ordne Oxidationsmittel und Reduktionsmittel anhand der Elektronenaufnahme beziehungsweise -abgabe zu.",
+  "explanation": "### 1. Oxidation und Reduktion\n\nOxidation bedeutet Elektronenabgabe, Reduktion Elektronenaufnahme. Beides findet gleichzeitig statt. Das Teilchen, das Elektronen abgibt, ist der Elektronendonator und wird oxidiert. Es wirkt als Reduktionsmittel. Der Elektronenakzeptor nimmt Elektronen auf, wird reduziert und wirkt als Oxidationsmittel.\n\nÄhnlich wie bei Säuren und Basen bilden die oxidierte und die reduzierte Form eines Teilchens ein korrespondierendes Redoxpaar, geschrieben Ox/Red, zum Beispiel Cu²⁺/Cu oder Fe³⁺/Fe²⁺. Bei jeder Redoxreaktion wirken zwei Redoxpaare zusammen: Das Reduktionsmittel des einen Paares gibt Elektronen an das Oxidationsmittel des anderen Paares ab. Man spricht deshalb vom Donator-Akzeptor-Prinzip.\n\n### 2. Oxidationszahlen\n\nOxidationszahlen sind formale Ladungszahlen, die du Atomen nach festgelegten Regeln zuordnest. In einem neutralen Molekül ist ihre Summe null; in einem Ion entspricht die Summe der Ionenladung. Elemente in ihrer Reinform haben Oxidationszahl 0.\n\nFür die übrigen Atome gelten folgende Regeln in dieser Reihenfolge: Fluor hat stets −I. Metalle der 1. Gruppe haben +I, der 2. Gruppe +II. Wasserstoff hat meist +I (in Metallhydriden −I). Sauerstoff hat meist −II (in Peroxiden wie H₂O₂ −I). Die Oxidationszahl der verbleibenden Atome ergibt sich aus der Summenregel. Im Permanganat-Ion MnO₄⁻ gilt zum Beispiel: 4 · (−II) + x = −1, also x = +VII. Die Oxidationszahl wird je Atom angegeben, nicht für alle Atome eines Elements zusammen.\n\nSteigt die Oxidationszahl eines Atoms, wurde es oxidiert. Sinkt sie, wurde es reduziert. Eine Oxidationszahl ist ein Bilanzmodell und nicht immer eine reale ganzzahlige Atomladung. Auch organische Redoxreaktionen lassen sich so erkennen: Bei der Oxidation von Ethanol zu Ethanal steigt die Oxidationszahl des C-Atoms, das die funktionelle Gruppe trägt, von −I auf +I.\n\n### 3. Redoxreihe der Metalle\n\nMetalle unterscheiden sich darin, wie leicht sie Elektronen abgeben. Unedle Metalle wie Zink oder Magnesium sind starke Reduktionsmittel, edle Metalle wie Kupfer, Silber oder Gold geben ihre Elektronen schwer ab; ihre Ionen sind dafür gute Oxidationsmittel. Ordnet man die Redoxpaare danach, erhält man die Redoxreihe. Aus ihr folgt: Ein Metall reduziert die Ionen eines edleren Metalls. Taucht man einen Eisennagel in Kupfer(II)-sulfat-Lösung, überzieht er sich mit Kupfer, und Eisen geht als Fe²⁺ in Lösung. Umgekehrt reagiert Kupfer nicht mit Fe²⁺-Ionen. Quantitativ wird diese Reihe durch die Standardpotenziale beschrieben.\n\n### 4. Teilgleichungsmethode\n\nSchreibe Oxidation und Reduktion zunächst getrennt auf. Gleiche Atome aus, gleiche dann die Ladung über Elektronen aus. Multipliziere die Teilgleichungen so, dass gleich viele Elektronen abgegeben wie aufgenommen werden. Addiere beide Seiten und kürze Elektronen sowie gleiche Teilchen.\n\nIm sauren Milieu verwendest du H₂O zum Ausgleich von Sauerstoff und H⁺ zum Ausgleich von Wasserstoff. Im alkalischen Milieu kannst du zunächst wie im Sauren ausgleichen, danach H⁺ mit OH⁻ neutralisieren und überschüssiges Wasser kürzen. Am Ende müssen Atome und Ladung stimmen. Das Medium bestimmt auch die Produkte: Permanganat wird im Sauren zu farblosen Mn²⁺-Ionen reduziert, im Neutralen und Alkalischen zu braunem Mangandioxid (MnO₂).\n\n### 5. Gesamtgleichung prüfen\n\nPrüfe nach dem Addieren jedes Element und die Gesamtladung. Elektronen dürfen in der fertigen Gesamtgleichung nicht übrig bleiben. Kontrolliere außerdem, ob Koeffizienten im kleinsten ganzzahligen Verhältnis stehen. Ordne Oxidationsmittel und Reduktionsmittel anhand der Elektronenaufnahme beziehungsweise -abgabe zu.\n\n### 6. Sonderfälle und Redoxtitration\n\nBei einer Disproportionierung wird ein Element gleichzeitig oxidiert und reduziert, etwa Sauerstoff im Wasserstoffperoxid: 2 H₂O₂ → 2 H₂O + O₂ (−I → −II und −I → 0). Bei einer Komproportionierung reagieren zwei Verbindungen desselben Elements mit unterschiedlichen Oxidationszahlen zu einer mittleren Oxidationszahl.\n\nRedoxreaktionen lassen sich wie Säure-Base-Reaktionen für Titrationen nutzen. Bei der Manganometrie titriert man zum Beispiel eine reduzierende Probe im Sauren mit Kaliumpermanganat-Lösung. Solange noch Reduktionsmittel vorliegt, wird das violette Permanganat zu farblosem Mn²⁺ entfärbt; eine bleibende schwache Violettfärbung zeigt den Endpunkt an. Aus Verbrauch und Elektronenbilanz berechnest du die Stoffmenge des Reduktionsmittels. Das Verfahren ist auf der Seite zur quantitativen Analyse ausführlicher beschrieben.",
   "fundamentals": [
     {
       "term": "Oxidation",
@@ -97,6 +97,18 @@
     {
       "term": "Teilgleichung",
       "explanation": "Separater Ausdruck der Oxidation oder Reduktion, in dem Elektronenbilanz explizit sichtbar ist."
+    },
+    {
+      "term": "Korrespondierendes Redoxpaar",
+      "explanation": "Oxidierte und reduzierte Form eines Teilchens, die durch Elektronenaufnahme oder -abgabe ineinander übergehen, z. B. Cu²⁺/Cu."
+    },
+    {
+      "term": "Redoxreihe",
+      "explanation": "Anordnung von Redoxpaaren nach ihrem Bestreben, Elektronen abzugeben; ein Metall reduziert die Ionen edlerer Metalle."
+    },
+    {
+      "term": "Disproportionierung",
+      "explanation": "Redoxreaktion, bei der dasselbe Element gleichzeitig oxidiert und reduziert wird."
     }
   ],
   "equations": [
@@ -114,6 +126,21 @@
       "id": "chem.q3.3.redox.eq.dichromate",
       "notation": "Cr₂O₇²⁻ + 14 H⁺ + 6 Fe²⁺ → 2 Cr³⁺ + 7 H₂O + 6 Fe³⁺",
       "explanation": "Gesamtgleichung im sauren Milieu nach Teilgleichungsmethode."
+    },
+    {
+      "id": "chem.q3.3.redox.eq.permanganate-acidic",
+      "notation": "MnO₄⁻ + 8 H⁺ + 5 e⁻ → Mn²⁺ + 4 H₂O",
+      "explanation": "Reduktion von Permanganat im sauren Milieu; Grundlage der Manganometrie."
+    },
+    {
+      "id": "chem.q3.3.redox.eq.permanganate-basic",
+      "notation": "MnO₄⁻ + 2 H₂O + 3 e⁻ → MnO₂ + 4 OH⁻",
+      "explanation": "Reduktion von Permanganat im alkalischen Milieu; es entsteht braunes Mangandioxid."
+    },
+    {
+      "id": "chem.q3.3.redox.eq.iron-copper",
+      "notation": "Fe + Cu²⁺ → Fe²⁺ + Cu",
+      "explanation": "Eisen reduziert die Ionen des edleren Kupfers."
     }
   ],
   "equationNote": "Passe den Ausgleich an das angegebene Medium an. In der fertigen Gesamtgleichung müssen Atome, Ladung und Elektronenbilanz stimmen.",
@@ -142,6 +169,18 @@
         "Addiere und kürze Elektronen. Prüfe Atome und Ladung."
       ],
       "result": "Cr₂O₇²⁻ + 14 H⁺ + 6 Fe²⁺ → 2 Cr³⁺ + 7 H₂O + 6 Fe³⁺."
+    },
+    {
+      "id": "chem.q3.3.redox.example.titration",
+      "title": "Permanganat und Oxalsäure",
+      "prompt": "Bei einer Redoxtitration reagiert Oxalsäure (H₂C₂O₄) im Sauren mit Permanganat zu CO₂ und Mn²⁺. Stelle die Gesamtgleichung auf.",
+      "steps": [
+        "Oxidationszahlen: C in H₂C₂O₄ hat +III, in CO₂ +IV; Mn in MnO₄⁻ hat +VII, in Mn²⁺ +II.",
+        "Oxidation: H₂C₂O₄ → 2 CO₂ + 2 H⁺ + 2 e⁻.",
+        "Reduktion: MnO₄⁻ + 8 H⁺ + 5 e⁻ → Mn²⁺ + 4 H₂O.",
+        "Elektronen angleichen: Oxidation mal 5, Reduktion mal 2; addieren und H⁺ kürzen (16 H⁺ links, 10 H⁺ rechts)."
+      ],
+      "result": "2 MnO₄⁻ + 5 H₂C₂O₄ + 6 H⁺ → 2 Mn²⁺ + 10 CO₂ + 8 H₂O. Probe: Ladung links +4, rechts +4; je 28 O-Atome auf beiden Seiten."
     }
   ],
   "examReferences": [
@@ -181,6 +220,10 @@
     {
       "tip": "Berücksichtige das Reaktionsmedium und prüfe nach dem Kürzen erneut die Bilanz.",
       "commonError": "H⁺ wird in alkalischer Lösung stehen gelassen."
+    },
+    {
+      "tip": "Gib Oxidationszahlen je Atom an und teile bei mehreren gleichen Atomen die Summe auf.",
+      "commonError": "Für Chrom in Cr₂O₇²⁻ wird +XII statt +VI angegeben."
     }
   ],
   "review": {

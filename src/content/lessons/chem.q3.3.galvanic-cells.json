@@ -70,7 +70,7 @@
     }
   ],
   "introduction": "Eine galvanische Zelle wandelt chemische Energie einer spontanen Redoxreaktion in elektrische Energie um. Oxidation und Reduktion laufen räumlich getrennt ab. Dadurch können Elektronen durch einen äußeren Leiter fließen und einen Verbraucher antreiben.",
-  "explanation": "### 1. Halbzellen und Elektroden\n\nEine galvanische Zelle besteht aus zwei Halbzellen. In jeder läuft eine Teilreaktion ab. Oxidation findet an der **Anode** statt, Reduktion an der **Kathode**. In einer galvanischen Zelle ist die Anode der negative Pol und die Kathode der positive Pol.\n\nIm Daniell-Element gibt Zink Elektronen ab: Zn → Zn²⁺ + 2 e⁻. An der Kupferelektrode nehmen Cu²⁺-Ionen Elektronen auf: Cu²⁺ + 2 e⁻ → Cu. Die Gesamtreaktion lautet Zn + Cu²⁺ → Zn²⁺ + Cu.\n\n### 2. Elektronen- und Ionenfluss\n\nElektronen fließen durch den äußeren Leiter von der Anode zur Kathode. Die Salzbrücke oder eine poröse Trennwand ermöglicht Ionenwanderung und sorgt für Ladungsausgleich. Anionen wandern typischerweise zur Anodenhalbzelle, in der positive Ionen entstehen; Kationen wandern zur Kathodenhalbzelle, in der positive Ionen verbraucht werden.\n\n### 3. Zellschreibweise und Potenziale\n\nIn der Zellschreibweise steht die Anode links und die Kathode rechts. Ein senkrechter Strich trennt Phasen, ein Doppelstrich steht für Salzbrücke oder Diaphragma. Für das Daniell-Element: Zn | Zn²⁺ || Cu²⁺ | Cu.\n\nStandardelektrodenpotenziale sind als Reduktionspotenziale angegeben. Berechne die Standardzellspannung mit E°Zelle = E°Kathode − E°Anode. Ist die Spannung positiv, ist die Zellreaktion in dieser Richtung unter Standardbedingungen spontan. Drehst du die Reaktion um, wechselt das Vorzeichen.\n\n### 4. Standardbedingungen und reale Zellen\n\nStandardpotenziale gelten unter festgelegten Standardbedingungen. In realen Zellen beeinflussen Konzentrationen, Temperatur und weitere Bedingungen die Zellspannung. Nutze für diese Seite zunächst die im Aufgabenmaterial angegebenen Potenziale und Bedingungen; Konzentrationseinflüsse werden in der LK-Vertiefung behandelt.",
+  "explanation": "### 1. Halbzellen und Elektroden\n\nEine galvanische Zelle besteht aus zwei Halbzellen. In jeder läuft eine Teilreaktion ab. Oxidation findet an der Anode statt, Reduktion an der Kathode. In einer galvanischen Zelle ist die Anode der negative Pol und die Kathode der positive Pol.\n\nIm Daniell-Element gibt Zink Elektronen ab: Zn → Zn²⁺ + 2 e⁻. An der Kupferelektrode nehmen Cu²⁺-Ionen Elektronen auf: Cu²⁺ + 2 e⁻ → Cu. Die Gesamtreaktion lautet Zn + Cu²⁺ → Zn²⁺ + Cu. Taucht man ein Zinkblech direkt in Kupfersulfat-Lösung, läuft dieselbe Reaktion ab, aber die Energie wird nur als Wärme frei. Erst die räumliche Trennung zwingt die Elektronen durch den äußeren Leiter.\n\nNicht jede Halbzelle enthält ein Metall des Redoxpaares. Bei Paaren wie Cl₂/Cl⁻ oder Fe³⁺/Fe²⁺ taucht eine inerte Elektrode aus Platin oder Graphit in die Lösung. Sie leitet nur die Elektronen und reagiert selbst nicht.\n\n### 2. Elektronen- und Ionenfluss\n\nElektronen fließen durch den äußeren Leiter von der Anode zur Kathode. Die Salzbrücke oder eine poröse Trennwand ermöglicht Ionenwanderung und sorgt für Ladungsausgleich. Anionen wandern typischerweise zur Anodenhalbzelle, in der positive Ionen entstehen; Kationen wandern zur Kathodenhalbzelle, in der positive Ionen verbraucht werden. Ohne diesen Ladungsausgleich würde sich in den Halbzellen sofort eine Gegenladung aufbauen, und der Strom käme zum Erliegen.\n\n### 3. Zellschreibweise und Potenziale\n\nIn der Zellschreibweise steht die Anode links und die Kathode rechts. Ein senkrechter Strich trennt Phasen, ein Doppelstrich steht für Salzbrücke oder Diaphragma. Für das Daniell-Element: Zn | Zn²⁺ || Cu²⁺ | Cu.\n\nDas Potenzial einer einzelnen Halbzelle lässt sich nicht absolut messen, nur die Spannung zwischen zwei Halbzellen. Als Bezug dient deshalb die Standard-Wasserstoffelektrode: eine platinierte Platinelektrode, die bei 1 bar von Wasserstoff umspült wird und in eine Säure mit c(H⁺) = 1 mol·L⁻¹ taucht. Ihr Potenzial wird bei 25 °C auf 0 V festgelegt. Die gegen sie gemessenen Standardpotenziale E° der übrigen Redoxpaare ergeben, nach Größe geordnet, die elektrochemische Spannungsreihe.\n\nStandardelektrodenpotenziale sind als Reduktionspotenziale angegeben. Berechne die Standardzellspannung mit E°Zelle = E°Kathode − E°Anode. Ist die Spannung positiv, ist die Zellreaktion in dieser Richtung unter Standardbedingungen spontan. Drehst du die Reaktion um, wechselt das Vorzeichen. Das Potenzial ist eine Eigenschaft des Redoxpaares und nicht der Stoffmenge: Wird eine Teilgleichung mit einem Faktor multipliziert, um die Elektronenzahl anzugleichen, bleibt E° unverändert.\n\n### 4. Vorhersagen mit der Spannungsreihe\n\nJe größer E°, desto stärker ist die oxidierte Form des Paares als Oxidationsmittel; je kleiner E°, desto stärker ist die reduzierte Form als Reduktionsmittel. Freiwillig reagiert daher die oxidierte Form des Paares mit dem höheren Potenzial mit der reduzierten Form des Paares mit dem niedrigeren Potenzial. Metalle mit negativem Standardpotenzial, etwa Zink oder Eisen, können deshalb H⁺-Ionen zu Wasserstoff reduzieren und lösen sich in Säuren unter Gasentwicklung. Kupfer und Silber mit positivem Potenzial tun das nicht.\n\n### 5. Standardbedingungen und reale Zellen\n\nStandardpotenziale gelten unter festgelegten Standardbedingungen: 25 °C, 1 bar für Gase und c = 1 mol·L⁻¹ für gelöste Teilchen. In realen Zellen beeinflussen Konzentrationen, Temperatur und weitere Bedingungen die Zellspannung. Die berechnete Zellspannung entspricht der Spannung, die man stromlos mit einem hochohmigen Messgerät misst. Fließt ein Strom durch einen Verbraucher, ist die Klemmenspannung wegen des Innenwiderstands kleiner. Ein positives E°Zelle sagt außerdem nichts darüber, wie schnell die Elektrodenreaktionen ablaufen. Nutze für diese Seite die im Aufgabenmaterial angegebenen Potenziale und Bedingungen; Konzentrationseinflüsse werden in der LK-Vertiefung behandelt.",
   "fundamentals": [
     {
       "term": "Halbzelle",
@@ -91,6 +91,18 @@
     {
       "term": "Salzbrücke",
       "explanation": "Ionenleitende Verbindung zwischen Halbzellen, die Ladungsausgleich ermöglicht und den Stromkreis schließt."
+    },
+    {
+      "term": "Standard-Wasserstoffelektrode",
+      "explanation": "Bezugselektrode aus platiniertem Platin in Säure mit c(H⁺) = 1 mol·L⁻¹, umspült von H₂ bei 1 bar; ihr Potenzial ist als 0 V festgelegt."
+    },
+    {
+      "term": "Elektrochemische Spannungsreihe",
+      "explanation": "Nach ihren Standardpotenzialen geordnete Redoxpaare; erlaubt Vorhersagen über freiwillig ablaufende Redoxreaktionen."
+    },
+    {
+      "term": "Inerte Elektrode",
+      "explanation": "Elektrode aus Platin oder Graphit, die nur Elektronen leitet und selbst nicht reagiert; nötig bei Halbzellen ohne festes Metall."
     }
   ],
   "equations": [
@@ -113,6 +125,16 @@
       "id": "chem.q3.3.galvanic-cells.eq.notation",
       "notation": "Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s)",
       "explanation": "Anode links, Kathode rechts; Striche trennen Phasen und Salzbrücke."
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.eq.hydrogen",
+      "notation": "2 H⁺(aq) + 2 e⁻ ⇌ H₂(g);  E° = 0,00 V",
+      "explanation": "Redoxpaar der Standard-Wasserstoffelektrode, Bezugspunkt aller Standardpotenziale."
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.eq.silver",
+      "notation": "Cu(s) + 2 Ag⁺(aq) → Cu²⁺(aq) + 2 Ag(s)",
+      "explanation": "Zellreaktion einer Kupfer-Silber-Zelle; der Faktor 2 gleicht die Elektronen aus, ändert aber E°(Ag⁺/Ag) nicht."
     }
   ],
   "equationNote": "Verwende Tabellenwerte als Reduktionspotenziale. Beim Abziehen des Anodenpotenzials achte besonders auf das Vorzeichen.",
@@ -140,6 +162,29 @@
         "Ordne den Elektronenfluss im äußeren Leiter zu."
       ],
       "result": "Zink ist die Anode und gibt Elektronen ab; Cu²⁺ wird an der Kathode reduziert. Elektronen fließen von links nach rechts durch den äußeren Leiter."
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.example.silver",
+      "title": "Kupfer-Silber-Zelle",
+      "prompt": "Eine Zelle besteht aus einer Cu²⁺/Cu- und einer Ag⁺/Ag-Halbzelle. E°(Cu²⁺/Cu) = +0,34 V, E°(Ag⁺/Ag) = +0,80 V. Bestimme Anode, Zellreaktion und Standardzellspannung.",
+      "steps": [
+        "Das Paar mit dem kleineren Potenzial liefert die Elektronen: Kupfer wird oxidiert, die Kupferelektrode ist die Anode (Minuspol).",
+        "Ag⁺ wird an der Silberelektrode reduziert (Kathode, Pluspol).",
+        "Elektronen angleichen: Cu → Cu²⁺ + 2 e⁻ und 2 Ag⁺ + 2 e⁻ → 2 Ag.",
+        "E°Zelle = 0,80 V − 0,34 V = 0,46 V; das Potenzial des Silberpaares wird nicht verdoppelt."
+      ],
+      "result": "Cu + 2 Ag⁺ → Cu²⁺ + 2 Ag mit E°Zelle = +0,46 V. Zellschreibweise: Cu | Cu²⁺ || Ag⁺ | Ag."
+    },
+    {
+      "id": "chem.q3.3.galvanic-cells.example.acid",
+      "title": "Welche Metalle lösen sich in Salzsäure?",
+      "prompt": "Sage mithilfe der Standardpotenziale voraus, ob Zink (E° = −0,76 V) und Kupfer (E° = +0,34 V) mit Salzsäure unter Wasserstoffentwicklung reagieren.",
+      "steps": [
+        "Mögliches Oxidationsmittel ist H⁺ mit E°(H⁺/H₂) = 0,00 V.",
+        "Zink: E°Zelle = 0,00 V − (−0,76 V) = +0,76 V > 0; die Reaktion ist begünstigt.",
+        "Kupfer: E°Zelle = 0,00 V − 0,34 V = −0,34 V < 0; die Reaktion läuft nicht freiwillig ab."
+      ],
+      "result": "Zink löst sich unter Wasserstoffentwicklung: Zn + 2 H⁺ → Zn²⁺ + H₂. Kupfer reagiert mit Salzsäure nicht."
     }
   ],
   "examReferences": [
@@ -179,6 +224,10 @@
     {
       "tip": "Erkläre den Ladungsausgleich durch Ionenwanderung zusätzlich zum Elektronenfluss.",
       "commonError": "Die Salzbrücke wird als Elektronenleiter beschrieben."
+    },
+    {
+      "tip": "Standardpotenziale werden beim Angleichen der Elektronenzahl nicht mit Faktoren multipliziert.",
+      "commonError": "Für 2 Ag⁺ + 2 e⁻ → 2 Ag wird mit 2 · 0,80 V gerechnet."
     }
   ],
   "review": {

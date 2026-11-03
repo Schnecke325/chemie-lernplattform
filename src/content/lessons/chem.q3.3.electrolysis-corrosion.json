@@ -73,7 +73,7 @@
     }
   ],
   "introduction": "Eine galvanische Zelle liefert elektrische Energie aus einer spontanen Redoxreaktion. Bei der Elektrolyse läuft die Reaktion durch zugeführte elektrische Energie in die Gegenrichtung. Akkumulatoren können zwischen beiden Betriebsarten wechseln. Auch Korrosion beruht auf räumlich gekoppelten Oxidations- und Reduktionsreaktionen.",
-  "explanation": "### 1. Elektrolyse\n\nBei einer Elektrolyse erzwingt eine äußere Spannungsquelle eine nicht spontane Redoxreaktion. Oxidation findet an der Anode, Reduktion an der Kathode statt. Im Unterschied zur galvanischen Zelle ist die Anode beim Elektrolyseur mit dem Pluspol der Spannungsquelle verbunden und die Kathode mit dem Minuspol. Die Reaktionsprodukte hängen von Elektrolyt, Elektrodenmaterial und Bedingungen ab.\n\n### 2. Akkumulatoren\n\nEin Akkumulator ist eine wiederaufladbare elektrochemische Zelle. Beim Entladen arbeitet er als galvanische Zelle. Beim Laden erzwingt eine Spannungsquelle die Umkehrreaktion. Beim Bleiakkumulator bilden sich beim Entladen an beiden Elektroden Bleisulfat; Schwefelsäure wird verbraucht und Wasser gebildet. Beim Laden werden die Ausgangsstoffe regeneriert.\n\n### 3. Korrosion als Lokalelement\n\nKorrosion ist die unerwünschte Oxidation eines Werkstoffs. Auf einer feuchten Eisenoberfläche können lokale Anoden- und Kathodenbereiche entstehen. Eisen wird an anodischen Stellen oxidiert; an kathodischen Stellen wird häufig gelöster Sauerstoff reduziert. Wasser ermöglicht den Ionentransport. Die entstehenden Eisenverbindungen können weiter zu Rost reagieren.\n\n### 4. Korrosionsschutz\n\nEine Beschichtung wie Lack trennt Metall von Wasser und Sauerstoff. Wird die Schicht beschädigt, kann das freiliegende Metall lokal korrodieren. Beim kathodischen Schutz wird das zu schützende Metall mit einem unedleren Opfermetall elektrisch verbunden. Dieses oxidiert bevorzugt und muss bei Verbrauch ersetzt werden. Welche Methode geeignet ist, hängt von Umgebung, Belastung, Wartung und Material ab.\n\n### 5. Energie- und Stoffbilanz\n\nUnterscheide Energieumwandlung und Stoffumwandlung. Beim Entladen eines Akkumulators wird chemische Energie in elektrische Energie umgewandelt; beim Laden wird elektrische Energie zugeführt. Eine vollständige Bewertung berücksichtigt neben Reaktionsgleichungen auch Lebensdauer, Wirkungsgrad, Rohstoffe und Recycling.",
+  "explanation": "### 1. Elektrolyse\n\nBei einer Elektrolyse erzwingt eine äußere Spannungsquelle eine nicht spontane Redoxreaktion. Oxidation findet an der Anode, Reduktion an der Kathode statt. Im Unterschied zur galvanischen Zelle ist die Anode beim Elektrolyseur mit dem Pluspol der Spannungsquelle verbunden und die Kathode mit dem Minuspol. Die Reaktionsprodukte hängen von Elektrolyt, Elektrodenmaterial und Bedingungen ab.\n\nEin einfaches Beispiel ist die Elektrolyse einer Kupfer(II)-chlorid-Lösung mit Graphitelektroden. An der Kathode scheidet sich Kupfer ab (Cu²⁺ + 2 e⁻ → Cu), an der Anode entsteht Chlor (2 Cl⁻ → Cl₂ + 2 e⁻). Die Elektrolyse kehrt damit die freiwillige Reaktion von Kupfer mit Chlor um. In wässrigen Lösungen konkurrieren die gelösten Ionen aber immer mit dem Wasser. Bei der Elektrolyse von Natriumchlorid-Lösung entsteht an der Kathode kein Natrium, sondern Wasserstoff, weil Wasser viel leichter reduziert wird als Na⁺-Ionen. Welche Reaktion tatsächlich abläuft, hängt von den Potenzialen und zusätzlich von Überspannungen ab, die in der LK-Vertiefung behandelt werden.\n\nElektrolysen werden technisch vielfach genutzt: zur Gewinnung unedler Metalle wie Aluminium, zur Reinigung von Rohkupfer (Raffination) und zum Galvanisieren, bei dem ein Gegenstand als Kathode mit einer dünnen Metallschicht überzogen wird.\n\n### 2. Wasserelektrolyse und Energiespeicherung\n\nBei der Elektrolyse von Wasser entstehen Wasserstoff und Sauerstoff im Volumenverhältnis 2 : 1. Damit Wasser leitet, setzt man eine Säure oder Lauge zu oder nutzt eine Protonenaustauschmembran. Im sauren Milieu wird an der Anode Wasser zu Sauerstoff oxidiert (2 H₂O → O₂ + 4 H⁺ + 4 e⁻), an der Kathode werden H⁺-Ionen zu Wasserstoff reduziert (4 H⁺ + 4 e⁻ → 2 H₂). Thermodynamisch sind mindestens 1,23 V nötig; in der Praxis braucht man wegen Überspannungen und Widerständen deutlich mehr.\n\nDie Wasserelektrolyse ist ein Weg, elektrische Energie chemisch zu speichern. Mit Strom aus Wind- oder Solaranlagen erzeugter Wasserstoff kann gelagert, transportiert und später in einer Brennstoffzelle oder als Rohstoff genutzt werden. Bei jeder Umwandlung geht allerdings ein Teil der Energie als Wärme verloren; der Gesamtwirkungsgrad von Strom über Wasserstoff zurück zu Strom ist deshalb deutlich kleiner als bei einem Akkumulator.\n\n### 3. Akkumulatoren\n\nEin Akkumulator ist eine wiederaufladbare elektrochemische Zelle. Beim Entladen arbeitet er als galvanische Zelle. Beim Laden erzwingt eine Spannungsquelle die Umkehrreaktion. Beim Bleiakkumulator bilden sich beim Entladen an beiden Elektroden Bleisulfat; Schwefelsäure wird verbraucht und Wasser gebildet. Beim Laden werden die Ausgangsstoffe regeneriert.\n\nAm Minuspol wird beim Entladen Blei oxidiert (Pb + SO₄²⁻ → PbSO₄ + 2 e⁻), am Pluspol Blei(IV)-oxid reduziert (PbO₂ + SO₄²⁻ + 4 H⁺ + 2 e⁻ → PbSO₄ + 2 H₂O). Beim Laden laufen beide Reaktionen umgekehrt ab. Die Bezeichnungen Anode und Kathode wechseln dabei, denn sie richten sich nach Oxidation und Reduktion, nicht nach dem Pol. Weil die Dichte der Schwefelsäure beim Entladen sinkt, lässt sich der Ladezustand über die Säuredichte prüfen. Lithium-Ionen-Akkus werden auf der Seite zur Energieumwandlung behandelt.\n\n### 4. Korrosion als Lokalelement\n\nKorrosion ist die unerwünschte Oxidation eines Werkstoffs. Auf einer feuchten Eisenoberfläche können lokale Anoden- und Kathodenbereiche entstehen. Eisen wird an anodischen Stellen oxidiert; an kathodischen Stellen wird häufig gelöster Sauerstoff reduziert. Wasser ermöglicht den Ionentransport. Die entstehenden Eisenverbindungen können weiter zu Rost reagieren.\n\nBei dieser Sauerstoffkorrosion bilden Fe²⁺- und OH⁻-Ionen zunächst Eisen(II)-hydroxid, das durch Sauerstoff zu Eisen(III)-hydroxid weiterreagiert. Daraus entsteht wasserhaltiges Eisen(III)-oxid, der lockere Rost, der das Metall nicht schützt. In saurer Umgebung können statt Sauerstoff auch H⁺-Ionen reduziert werden (Säurekorrosion). Salze beschleunigen die Korrosion, weil sie die Leitfähigkeit des Wasserfilms erhöhen. Berühren sich zwei verschiedene Metalle in Gegenwart eines Elektrolyten, bildet sich ein Lokalelement, in dem das unedlere Metall verstärkt korrodiert (Kontaktkorrosion).\n\n### 5. Korrosionsschutz\n\nEine Beschichtung wie Lack trennt Metall von Wasser und Sauerstoff. Wird die Schicht beschädigt, kann das freiliegende Metall lokal korrodieren. Bei metallischen Überzügen kommt es darauf an, ob das Überzugsmetall edler oder unedler ist als Eisen. Zink ist unedler: Verzinkter Stahl ist auch an Kratzern geschützt, weil das Zink als Anode oxidiert wird. Zinn ist edler: Bei beschädigtem Weißblech wird das Eisen zur Anode und rostet sogar schneller.\n\nBeim kathodischen Schutz wird das zu schützende Metall mit einem unedleren Opfermetall elektrisch verbunden. Dieses oxidiert bevorzugt und muss bei Verbrauch ersetzt werden. Alternativ kann eine äußere Spannungsquelle das Bauteil zur Kathode machen. Welche Methode geeignet ist, hängt von Umgebung, Belastung, Wartung und Material ab.\n\n### 6. Energie- und Stoffbilanz\n\nUnterscheide Energieumwandlung und Stoffumwandlung. Beim Entladen eines Akkumulators wird chemische Energie in elektrische Energie umgewandelt; beim Laden wird elektrische Energie zugeführt. Eine vollständige Bewertung berücksichtigt neben Reaktionsgleichungen auch Lebensdauer, Wirkungsgrad, Rohstoffe und Recycling.",
   "fundamentals": [
     {
       "term": "Elektrolyse",
@@ -94,6 +94,18 @@
     {
       "term": "Opferanode",
       "explanation": "Unedleres Metall, das bevorzugt oxidiert und dadurch ein anderes Metall kathodisch schützt."
+    },
+    {
+      "term": "Wasserelektrolyse",
+      "explanation": "Zerlegung von Wasser in Wasserstoff und Sauerstoff durch elektrische Energie; Grundlage der Wasserstoffgewinnung."
+    },
+    {
+      "term": "Galvanisieren",
+      "explanation": "Elektrolytisches Überziehen eines Gegenstands, der als Kathode geschaltet ist, mit einer Metallschicht."
+    },
+    {
+      "term": "Kontaktkorrosion",
+      "explanation": "Verstärkte Korrosion des unedleren Metalls, wenn zwei verschiedene Metalle in Gegenwart eines Elektrolyten in Kontakt stehen."
     }
   ],
   "equations": [
@@ -116,6 +128,21 @@
       "id": "chem.q3.3.electrolysis-corrosion.eq.oxygen",
       "notation": "O₂(g) + 2 H₂O(l) + 4 e⁻ → 4 OH⁻(aq)",
       "explanation": "Mögliche kathodische Sauerstoffreduktion in neutraler oder alkalischer wässriger Umgebung."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.eq.water",
+      "notation": "Anode: 2 H₂O → O₂ + 4 H⁺ + 4 e⁻;  Kathode: 4 H⁺ + 4 e⁻ → 2 H₂",
+      "explanation": "Elektrodenreaktionen der Wasserelektrolyse im sauren Milieu; Gesamtreaktion 2 H₂O → 2 H₂ + O₂."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.eq.lead-electrodes",
+      "notation": "(−) Pb + SO₄²⁻ → PbSO₄ + 2 e⁻;  (+) PbO₂ + SO₄²⁻ + 4 H⁺ + 2 e⁻ → PbSO₄ + 2 H₂O",
+      "explanation": "Elektrodenreaktionen des Bleiakkumulators beim Entladen."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.eq.rust",
+      "notation": "Fe²⁺ + 2 OH⁻ → Fe(OH)₂;  4 Fe(OH)₂ + O₂ + 2 H₂O → 4 Fe(OH)₃",
+      "explanation": "Folgereaktionen der Sauerstoffkorrosion; Fe(OH)₃ geht unter Wasserabgabe in Rost über."
     }
   ],
   "equationNote": "Elektrodenprodukte bei Elektrolysen hängen von Elektrolyt, Elektrodenmaterial und Bedingungen ab. Gib die Bedingungen aus dem Aufgabenmaterial an.",
@@ -142,6 +169,28 @@
         "Erkläre die Folge für den Stahl."
       ],
       "result": "Zink oxidiert bevorzugt und liefert Elektronen. Der Stahl wird kathodisch polarisiert und seine Oxidation gehemmt. Das Zink wird dabei verbraucht."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.example.coatings",
+      "title": "Verzinkt oder verzinnt?",
+      "prompt": "Ein verzinktes und ein verzinntes Stahlblech werden zerkratzt und feucht gelagert. Sage voraus, welches Blech am Kratzer rostet. E°(Zn²⁺/Zn) = −0,76 V, E°(Fe²⁺/Fe) = −0,44 V, E°(Sn²⁺/Sn) = −0,14 V.",
+      "steps": [
+        "Am Kratzer bildet sich ein Lokalelement aus Eisen und Überzugsmetall; das unedlere Metall wird zur Anode und oxidiert.",
+        "Zink ist unedler als Eisen: Zink wird oxidiert, Eisen ist Kathode und bleibt geschützt.",
+        "Zinn ist edler als Eisen: Eisen wird zur Anode und oxidiert, an der Zinnoberfläche wird Sauerstoff reduziert."
+      ],
+      "result": "Das verzinnte Blech rostet am Kratzer, sogar schneller als ungeschütztes Eisen. Das verzinkte Blech bleibt geschützt, solange Zink vorhanden ist."
+    },
+    {
+      "id": "chem.q3.3.electrolysis-corrosion.example.water",
+      "title": "Wasserstoff durch Elektrolyse",
+      "prompt": "Formuliere die Elektrodenreaktionen der Wasserelektrolyse in saurer Lösung und begründe das Volumenverhältnis der Gase.",
+      "steps": [
+        "Anode (Pluspol, Oxidation): 2 H₂O → O₂ + 4 H⁺ + 4 e⁻.",
+        "Kathode (Minuspol, Reduktion): 4 H⁺ + 4 e⁻ → 2 H₂.",
+        "Für 4 übertragene Elektronen entstehen 2 Moleküle H₂ und 1 Molekül O₂; gleiche Stoffmengen von Gasen nehmen bei gleichen Bedingungen gleiche Volumina ein."
+      ],
+      "result": "Gesamtreaktion 2 H₂O → 2 H₂ + O₂; das Volumenverhältnis von Wasserstoff zu Sauerstoff beträgt 2 : 1."
     }
   ],
   "examReferences": [
@@ -181,6 +230,10 @@
     {
       "tip": "Erkläre Korrosionsschutz über Barriere oder bevorzugte Opferoxidation.",
       "commonError": "Eine Beschichtung wird als dauerhafter Schutz angenommen, obwohl sie beschädigt ist."
+    },
+    {
+      "tip": "Prüfe bei wässrigen Lösungen immer, ob Wasser statt der gelösten Ionen reagiert.",
+      "commonError": "Bei der Elektrolyse von Kochsalzlösung wird an der Kathode Natrium als Produkt angegeben."
     }
   ],
   "review": {

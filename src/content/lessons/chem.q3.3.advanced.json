@@ -76,7 +76,7 @@
     }
   ],
   "introduction": "Eine Zellspannung hängt nicht nur von den beteiligten Redoxpaaren ab. Auch Konzentrationen, Temperatur und reale Elektrodenbedingungen können eine Rolle spielen. Die folgenden Modelle sind Vertiefungen: Prüfe vor einer Prüfung immer, welche davon der aktuelle Abiturerlass tatsächlich verlangt.",
-  "explanation": "### 1. Standardspannung und reale Zellspannung\n\nDie Standardzellspannung wird aus Standardpotentialen berechnet: E°Zelle = E°Kathode − E°Anode. Sie gilt unter Standardbedingungen. Ändern sich Konzentrationen, verschiebt sich das Redoxgleichgewicht und damit das Elektrodenpotential.\n\n### 2. Nernst-Gleichung\n\nFür eine Reduktion Ox + z e⁻ ⇌ Red gilt bei 25 °C näherungsweise E = E° − (0,0592 V/z) · log(Q), wenn Q passend zur Reduktionsgleichung aufgestellt ist. Reine Feststoffe und reine Flüssigkeiten erscheinen nicht in Q. Der genaue Ausdruck hängt von der Reaktionsstöchiometrie ab. Verwechsle nicht Q mit einer beliebigen Konzentration: Es ist der Reaktionsquotient.\n\n### 3. Elektrolyse quantitativ\n\nDie elektrische Ladung ist Q_el = I · t. Mit der Faraday-Konstante F ≈ 96485 C mol⁻¹ folgt n(e⁻)=Q_el/F. Aus der Teilgleichung erhältst du die Stoffmenge des Produkts. Bei Mⁿ⁺ + n e⁻ → M gilt n(M)=n(e⁻)/n. Stromausbeute, Nebenreaktionen und Verluste können die reale Masse verkleinern.\n\n### 4. Überspannung und Zersetzungsspannung\n\nDie thermodynamische Mindestspannung allein sagt nicht immer voraus, ab welcher angelegten Spannung eine Elektrolyse praktisch messbar abläuft. Überspannungen und ohmsche Widerstände erhöhen die nötige Spannung. Diese kinetischen und technischen Effekte sind von der Gleichgewichtsspannung zu unterscheiden.",
+  "explanation": "### 1. Standardspannung und reale Zellspannung\n\nDie Standardzellspannung wird aus Standardpotentialen berechnet: E°Zelle = E°Kathode − E°Anode. Sie gilt unter Standardbedingungen. Ändern sich Konzentrationen, verschiebt sich das Redoxgleichgewicht und damit das Elektrodenpotential. Erhöht man die Konzentration der oxidierten Form, wird die Reduktion begünstigt, und das Potential steigt; erhöht man die Konzentration der reduzierten Form, sinkt es.\n\n### 2. Nernst-Gleichung\n\nFür eine Reduktion Ox + z e⁻ ⇌ Red gilt bei 25 °C näherungsweise E = E° − (0,0592 V/z) · log(Q), wenn Q passend zur Reduktionsgleichung aufgestellt ist. Reine Feststoffe und reine Flüssigkeiten erscheinen nicht in Q. Der genaue Ausdruck hängt von der Reaktionsstöchiometrie ab. Verwechsle nicht Q mit einer beliebigen Konzentration: Es ist der Reaktionsquotient.\n\nGleichwertig ist die Schreibweise E = E° + (0,0592 V/z) · log(c(Ox)/c(Red)). Für eine Metallhalbzelle Mᶻ⁺/M steht im Nenner das reine Metall, sodass E = E° + (0,0592 V/z) · log c(Mᶻ⁺) bleibt. Eine Verdünnung um den Faktor 10 senkt das Potential einer Cu²⁺/Cu-Halbzelle (z = 2) also um etwa 0,03 V, einer Ag⁺/Ag-Halbzelle (z = 1) um etwa 0,06 V.\n\nAuch die Wasserstoffelektrode hängt von der Konzentration ab. Bei p(H₂) = 1 bar gilt E(H⁺/H₂) = −0,0592 V · pH. In neutralem Wasser (pH 7) liegt ihr Potential daher bei etwa −0,41 V. Auf dieser Abhängigkeit beruht das Prinzip potentiometrischer pH-Messungen.\n\n### 3. Konzentrationszellen\n\nEine Konzentrationszelle besteht aus zwei Halbzellen desselben Redoxpaares, die sich nur in der Konzentration unterscheiden, zum Beispiel zwei Cu²⁺/Cu-Halbzellen mit unterschiedlich konzentrierter Kupfersulfat-Lösung. Weil E° in beiden Halbzellen gleich ist, ergibt sich die Spannung allein aus dem Konzentrationsunterschied: ΔE = (0,0592 V/z) · log(c_hoch/c_niedrig).\n\nDie Halbzelle mit der verdünnten Lösung hat das kleinere Potential und ist die Anode: Dort geht Metall in Lösung, die Konzentration steigt. In der konzentrierten Halbzelle (Kathode) scheidet sich Metall ab, die Konzentration sinkt. Die Zelle liefert Strom, bis beide Konzentrationen gleich sind und die Spannung null wird. Konzentrationszellen zeigen besonders deutlich, dass die Zellspannung ein Maß für den Abstand vom Gleichgewicht ist.\n\n### 4. Elektrolyse quantitativ\n\nDie elektrische Ladung ist Q_el = I · t. Mit der Faraday-Konstante F ≈ 96485 C mol⁻¹ folgt n(e⁻)=Q_el/F. Aus der Teilgleichung erhältst du die Stoffmenge des Produkts. Bei Mⁿ⁺ + n e⁻ → M gilt n(M)=n(e⁻)/n. Die abgeschiedene Stoffmenge ist also proportional zur geflossenen Ladung (Faraday-Gesetz). Stromausbeute, Nebenreaktionen und Verluste können die reale Masse verkleinern; die Stromausbeute ist das Verhältnis von tatsächlich zu theoretisch abgeschiedener Stoffmenge.\n\n### 5. Zersetzungsspannung und Überspannung\n\nDie thermodynamische Mindestspannung allein sagt nicht immer voraus, ab welcher angelegten Spannung eine Elektrolyse praktisch messbar abläuft. Diese Spannung heißt Zersetzungsspannung. Man bestimmt sie, indem man die Spannung schrittweise erhöht und die Stromstärke misst: Erst oberhalb der Zersetzungsspannung steigt die Stromstärke deutlich an. Theoretisch entspricht sie der Spannung der galvanischen Zelle, die sich aus den Elektrolyseprodukten bilden würde.\n\nÜberspannungen und ohmsche Widerstände erhöhen die nötige Spannung. Überspannungen entstehen, weil Elektrodenreaktionen gehemmt ablaufen; sie sind besonders groß, wenn Gase wie Wasserstoff oder Sauerstoff entstehen, und hängen stark vom Elektrodenmaterial ab. Deshalb kann eine Reaktion bevorzugt ablaufen, die nach den Standardpotentialen ungünstiger wäre. Bei der Elektrolyse von Natriumchlorid-Lösung entsteht an der Anode Chlor statt Sauerstoff, weil die Sauerstoffabscheidung eine hohe Überspannung hat. Diese kinetischen und technischen Effekte sind von der Gleichgewichtsspannung zu unterscheiden.",
   "fundamentals": [
     {
       "term": "Standardpotential E°",
@@ -93,6 +93,18 @@
     {
       "term": "Überspannung",
       "explanation": "Zusätzlicher Spannungsbedarf gegenüber dem thermodynamischen Wert, unter anderem wegen langsamer Elektrodenreaktionen."
+    },
+    {
+      "term": "Konzentrationszelle",
+      "explanation": "Galvanische Zelle aus zwei Halbzellen desselben Redoxpaares mit unterschiedlicher Konzentration; die Spannung folgt aus dem Konzentrationsunterschied."
+    },
+    {
+      "term": "Zersetzungsspannung",
+      "explanation": "Mindestspannung, ab der eine Elektrolyse mit merklicher Stromstärke abläuft; theoretischer Wert plus Überspannungen und Widerstandsverluste."
+    },
+    {
+      "term": "Stromausbeute",
+      "explanation": "Verhältnis der tatsächlich abgeschiedenen zur nach dem Faraday-Gesetz berechneten Stoffmenge."
     }
   ],
   "equations": [
@@ -110,6 +122,21 @@
       "id": "chem.q3.3.advanced.eq.mass",
       "notation": "m = M · n(Produkt)",
       "explanation": "Nach der Elektronenbilanz wird die Produktstoffmenge in eine Masse umgerechnet."
+    },
+    {
+      "id": "chem.q3.3.advanced.eq.metal",
+      "notation": "E(Mᶻ⁺/M) = E° + (0,0592 V / z) · log c(Mᶻ⁺) (bei 25 °C)",
+      "explanation": "Nernst-Gleichung für eine Metallhalbzelle; das reine Metall erscheint nicht im Ausdruck."
+    },
+    {
+      "id": "chem.q3.3.advanced.eq.concentration-cell",
+      "notation": "ΔE = (0,0592 V / z) · log(c_hoch / c_niedrig)",
+      "explanation": "Spannung einer Konzentrationszelle; die verdünnte Halbzelle ist die Anode."
+    },
+    {
+      "id": "chem.q3.3.advanced.eq.ph",
+      "notation": "E(H⁺/H₂) = −0,0592 V · pH (bei 25 °C, p(H₂) = 1 bar)",
+      "explanation": "pH-Abhängigkeit der Wasserstoffelektrode."
     }
   ],
   "equationNote": "Einheiten konsequent einsetzen: 1 A = 1 C s⁻¹. Nernst-Rechnungen nur durchführen, wenn Temperatur, Reaktionsgleichung und erforderlicher Curriculumumfang feststehen.",
@@ -139,6 +166,29 @@
         "Masse: m=0,0187·63,55=1,19 g."
       ],
       "result": "Theoretisch werden etwa 1,19 g Kupfer abgeschieden; Nebenreaktionen oder eine Stromausbeute unter 100 % senken den Messwert."
+    },
+    {
+      "id": "chem.q3.3.advanced.example.concentration-cell",
+      "title": "Silber-Konzentrationszelle",
+      "prompt": "Zwei Ag⁺/Ag-Halbzellen enthalten c₁(Ag⁺) = 0,10 mol·L⁻¹ und c₂(Ag⁺) = 0,0010 mol·L⁻¹. Berechne die Zellspannung bei 25 °C und gib Anode und Elektronenfluss an.",
+      "steps": [
+        "Gleiches Redoxpaar, z = 1: ΔE = 0,0592 V · log(0,10 / 0,0010) = 0,0592 V · log(100).",
+        "log(100) = 2, also ΔE ≈ 0,118 V.",
+        "Die verdünnte Halbzelle hat das kleinere Potential und ist die Anode: Ag → Ag⁺ + e⁻.",
+        "In der konzentrierten Halbzelle wird Ag⁺ reduziert; die Elektronen fließen außen von der verdünnten zur konzentrierten Halbzelle."
+      ],
+      "result": "ΔE ≈ 0,12 V. Die Zelle arbeitet, bis sich die Konzentrationen angeglichen haben; dann ist die Spannung null."
+    },
+    {
+      "id": "chem.q3.3.advanced.example.decomposition",
+      "title": "Zersetzungsspannung von Zinkbromid",
+      "prompt": "Eine Zinkbromid-Lösung wird mit Graphitelektroden elektrolysiert. Berechne die theoretische Zersetzungsspannung (E°(Zn²⁺/Zn) = −0,76 V, E°(Br₂/Br⁻) = +1,07 V) und erkläre, warum der gemessene Wert höher liegt.",
+      "steps": [
+        "Produkte: Zink an der Kathode (Zn²⁺ + 2 e⁻ → Zn), Brom an der Anode (2 Br⁻ → Br₂ + 2 e⁻).",
+        "Die Produkte bilden eine galvanische Zelle mit E = 1,07 V − (−0,76 V) = 1,83 V; diese Gegenspannung muss überwunden werden.",
+        "Zusätzlich sind Überspannungen an den Elektroden und der Widerstand der Lösung zu überwinden."
+      ],
+      "result": "Die theoretische Zersetzungsspannung beträgt 1,83 V unter Standardbedingungen. Gemessen wird ein höherer Wert, weil Überspannungen und ohmsche Verluste hinzukommen."
     }
   ],
   "examReferences": [
@@ -178,6 +228,10 @@
     {
       "tip": "Prüfe bei Vertiefungen stets die Jahrgangsvorgaben.",
       "commonError": "Ein historischer Prüfungsbeleg wird als aktueller Erlassinhalt ausgegeben."
+    },
+    {
+      "tip": "In einer Konzentrationszelle ist die verdünnte Halbzelle die Anode.",
+      "commonError": "Die Halbzelle mit der höheren Konzentration wird als Ort der Oxidation angenommen, weil dort „mehr Ionen“ vorliegen."
     }
   ],
   "review": {
