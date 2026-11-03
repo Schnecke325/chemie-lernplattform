@@ -18,6 +18,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Übungsbereich, Phase 3 – Aufgabenbearbeitung:** Aufgaben lassen sich im Übungsbereich öffnen und bearbeiten. 37 Zahlen- und 6 Zuordnungsaufgaben werden automatisch geprüft; bei allen übrigen gibt es Musterlösung und Selbsteinschätzung. Ergebnisse werden nur lokal im Browser gespeichert und sind zurücksetzbar.
 - **Bearbeitungsmodi und Handschrift:** Alle 425 Aufgaben sind nach Bildschirm/Handschrift eingestuft, der Filter ist aktiv. Eine Schreibfläche für Stift, Maus und optional Finger steht bei freien Aufgaben und als Rechenweg-Fläche bei Zahlenaufgaben zur Verfügung; Handschrift wird derzeit nicht gespeichert.
 - **Bearbeitung auf den Lernseiten:** Übungen und Selbsttests der Lernseiten sind direkt bearbeitbar, mit derselben Komponente und demselben lokalen Ergebnisspeicher wie der Übungsbereich.
+- **Überarbeitung der 16 Schablonen-Lernseiten:** Lernziele, Erklärtexte, Fachbegriffe, Gleichungen, Beispiele, Aufgabenformate und typische Fehler der 16 Seiten (Q2.1, Q2.2, Q2.4, Q4.1, Q4.2, Kinetik, Tenside, Anwendungen bewerten) wurden in vier Paketen am 03. und 04.11.2026 themenspezifisch neu geschrieben; siehe `PROJECT_CONTEXT.md`.
 - **Qualitätskontrolle durch den Nutzer:** Am 02.11.2026 ohne Beanstandungen abgeschlossen.
 - **Dokumentierte Zusammenarbeit/Notizen:** Anforderungen an Aufgabenkommentare sowie private und geteilte Handschriftnotizen sind konzeptionell in `research/zusammenarbeit-und-notizen.md` beschrieben, nicht implementiert.
 
@@ -25,7 +26,6 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 
 - **Feingranulare Prüfungsanalyse:** Die vorhandenen 131 PDFs sind laut Research inventarisiert und breit nach Jahr, Termin, Vorschlag und KCGO-Feld zugeordnet. Teilfragen-/Punkte-Codierung und belastbare Häufigkeitsklassen sind offen. Es gibt keinen Grund, hierfür Häufigkeiten zu schätzen.
 - **Freigabestatus der Lernseiten:** Alle 47 Lesson-Dateien stehen auf `publicationStatus: "review"`. Kriterien für den Wechsel zu `published` sind noch nicht festgelegt.
-- **Lernseitentexte mit Schablonenresten:** Bei 16 Lernseiten (u. a. Q2.2, Q2.4, Q4.1, Q4.2, Kinetik, Tenside, Anwendungen bewerten, vier Q2.1-Seiten) enthalten Lernziele, Fachbegriffe und typische Fehler noch gleichlautende oder themenfremde Formulierungen; siehe `PROJECT_CONTEXT.md`. Überarbeitung in vier Paketen: Paket 1 (Energetik, Q4.1/Q4.2) und Paket 2 (Naturstoffe, Q2.1) mit je vier Seiten am 03.11.2026, Paket 3 (Kunststoffe, Q2.2/Q2.4, fünf Seiten) am 04.11.2026 abgeschlossen; offen sind Kinetik, Tenside und Anwendungen bewerten.
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.
 
 ## Geplant

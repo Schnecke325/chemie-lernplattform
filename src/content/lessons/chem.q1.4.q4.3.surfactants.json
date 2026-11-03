@@ -20,106 +20,153 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.quantities",
-    "chem.basics.data",
-    "chem.q3.1.mwg"
+    "chem.q2.1.fats-oils",
+    "chem.q1.1.interactions",
+    "chem.q3.2.protolysis"
   ],
   "learningGoals": [
     {
       "id": "chem.q1.4.q4.3.surfactants.goal.fundamentals",
-      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "statement": "Ich kann den amphiphilen Bau von Seifen und synthetischen Tensiden beschreiben und daraus Grenzflächenaktivität, Mizellbildung und den Waschvorgang erklären.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "beschreiben",
+        "erklären"
+      ]
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.goal.calculate",
+      "statement": "Ich kann Reaktionen von Seifen mit Säuren und mit Härtebildnern formulieren und die Wasserhärte aus Ionenkonzentrationen bestimmen.",
+      "competencies": [
+        "S",
+        "E"
+      ],
+      "operators": [
+        "formulieren",
+        "bestimmen"
+      ]
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.goal.material",
+      "statement": "Ich kann die Aufgaben der Bestandteile eines modernen Waschmittels (Tenside, Enthärter, Bleichsystem, Enzyme) erläutern und Beobachtungen zu Tensiden deuten.",
       "competencies": [
         "S",
         "E"
       ],
       "operators": [
         "erläutern",
-        "beschreiben"
-      ]
-    },
-    {
-      "id": "chem.q1.4.q4.3.surfactants.goal.calculate",
-      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
-      "competencies": [
-        "S",
-        "E"
-      ],
-      "operators": [
-        "berechnen",
-        "bestimmen"
-      ]
-    },
-    {
-      "id": "chem.q1.4.q4.3.surfactants.goal.material",
-      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
-      "competencies": [
-        "E",
-        "K"
-      ],
-      "operators": [
-        "auswerten",
         "deuten"
       ]
     },
     {
       "id": "chem.q1.4.q4.3.surfactants.goal.evaluate",
-      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "statement": "Ich kann Seifen, synthetische Tenside und Waschmittelbestandteile nach Wirksamkeit und Umweltwirkung vergleichen und bewerten.",
       "competencies": [
         "B",
         "K"
       ],
       "operators": [
-        "bewerten",
-        "beurteilen"
+        "vergleichen",
+        "bewerten"
       ]
     }
   ],
-  "introduction": "Tenside verbinden wasserliebende und fettliebende Bereiche. Dadurch können sie Grenzflächen verändern und Schmutz in Wasser dispergieren.",
-  "explanation": "Ein Tensidmolekül besitzt einen hydrophilen Kopf und einen hydrophoben Rest. Oberhalb einer konzentrationsabhängigen kritischen Mizellbildungskonzentration lagern sich Moleküle zu Mizellen zusammen: unpolare Reste richten sich nach innen, Köpfe nach außen zum Wasser. Fett kann im Inneren aufgenommen und mit Wasser entfernt werden.\n\nSeifen sind Salze langkettiger Fettsäuren. Ca²⁺- und Mg²⁺-Ionen bilden schwer lösliche Kalkseifen und vermindern die Waschleistung. Enthärter binden solche Ionen. Moderne Waschmittel können zusätzlich Bleichmittel, Enzyme und weitere Hilfsstoffe enthalten; ihre Funktion ist jeweils getrennt zu erklären.",
+  "introduction": "Wasser allein löst Fett nicht: Die unpolaren Fettmoleküle und die polaren Wassermoleküle ziehen sich kaum an. Seifen und andere Tenside überbrücken diesen Gegensatz, weil ihre Teilchen einen wasserliebenden und einen fettliebenden Teil besitzen. Moderne Waschmittel kombinieren Tenside mit weiteren Stoffen, die jeweils eine eigene Aufgabe erfüllen.",
+  "explanation": "### 1. Seifen und ihr Bau\n\nSeifen entstehen bei der Verseifung von Fetten mit Natron- oder Kalilauge. Sie sind Natrium- oder Kaliumsalze langkettiger Fettsäuren, zum Beispiel Natriumstearat C₁₇H₃₅COO⁻ Na⁺. Das Fettsäure-Anion ist amphiphil: Die Carboxylatgruppe ist geladen und hydrophil, der lange Kohlenwasserstoffrest unpolar und hydrophob. Seifenlösungen reagieren schwach basisch, weil die Carboxylat-Ionen als Base Protonen von Wassermolekülen aufnehmen. Säuert man eine Seifenlösung an, entstehen die freien Fettsäuren, die in Wasser kaum löslich sind und ausflocken; die Waschwirkung geht verloren.\n\n### 2. Synthetische Tenside\n\nTenside ist der Oberbegriff für grenzflächenaktive Stoffe; Seifen sind eine Gruppe davon. Nach der Ladung des hydrophilen Teils unterscheidet man anionische Tenside (Seifen, Alkylbenzolsulfonate mit –SO₃⁻-Gruppe), kationische Tenside (mit positiv geladener Ammoniumgruppe, etwa in Weichspülern), nichtionische Tenside (mit einer Kette aus Ethylenoxid-Einheiten als hydrophilem Teil) und amphotere Tenside. Viele synthetische Tenside sind gegenüber Säuren und Härtebildnern unempfindlicher als Seifen.\n\n### 3. Grenzflächen und Mizellen\n\nIn Wasser lagern sich Tensid-Teilchen bevorzugt an Grenzflächen an: an der Wasseroberfläche mit dem hydrophoben Rest zur Luft, an Fett mit dem hydrophoben Rest ins Fett. An der Wasseroberfläche verringern sie die Oberflächenspannung, weil sie Wassermoleküle verdrängen, die sich sonst gegenseitig stark nach innen ziehen. Wasser benetzt dann Oberflächen und dringt in Gewebe ein. Ist die Oberfläche besetzt, lagern sich die Teilchen oberhalb der kritischen Mizellbildungskonzentration im Inneren der Lösung zu Mizellen zusammen: kugelförmigen Aggregaten mit den hydrophoben Resten innen und den hydrophilen Köpfen außen zum Wasser.\n\n### 4. Der Waschvorgang\n\nWaschen lässt sich in Schritte gliedern. Tenside setzen die Oberflächenspannung herab, sodass die Waschlauge Faser und Schmutz benetzt. Die hydrophoben Reste dringen in den Fettfleck ein, die hydrophilen Köpfe ragen ins Wasser. Durch Bewegung und Wärme löst sich das Fett von der Faser und wird in Tröpfchen zerteilt, die von Tensid-Teilchen umhüllt sind (Emulgieren). Weil die Hüllen nach außen gleich geladen sind, stoßen sich die Tröpfchen gegenseitig und von der ebenfalls belegten Faser ab und setzen sich nicht wieder ab. Das Fett wird mit der Lauge weggespült.\n\n### 5. Wasserhärte und Kalkseife\n\nHartes Wasser enthält viele Calcium- und Magnesium-Ionen. Sie bilden mit Seifen-Anionen schwer lösliche Kalkseifen, die als grauer Belag ausfallen. Dadurch wird Seife verbraucht, ohne zu waschen, und die Wäsche vergraut. Die Gesamthärte ist die Summe der Konzentrationen von Ca²⁺ und Mg²⁺ in mmol·L⁻¹. In Deutschland gilt Wasser unter 1,5 mmol·L⁻¹ als weich, von 1,5 bis 2,5 mmol·L⁻¹ als mittel und darüber als hart. Gebräuchlich ist auch die Einheit Grad deutscher Härte: 1 °dH entspricht 0,178 mmol·L⁻¹.\n\n### 6. Moderne Waschmittel\n\nNeben Tensiden enthalten Waschmittel weitere Bestandteile. Enthärter binden Ca²⁺- und Mg²⁺-Ionen. Früher setzte man dafür Phosphate ein, die in Gewässern als Dünger wirkten und zur Überdüngung beitrugen. Heute dient unter anderem Zeolith A, ein Ionenaustauscher, der Na⁺-Ionen gegen Ca²⁺-Ionen austauscht. Das Bleichsystem enthält meist Natriumpercarbonat, das in Wasser Wasserstoffperoxid freisetzt; es oxidiert farbige Verschmutzungen. Ein Bleichaktivator ermöglicht die Wirkung schon bei niedrigen Temperaturen. Enzyme wie Proteasen, Lipasen und Amylasen spalten Eiweiß-, Fett- und Stärkeflecken. Für die Bewertung zählen neben der Waschleistung die biologische Abbaubarkeit der Tenside, die Belastung von Gewässern, Dosierung und Waschtemperatur sowie Kosten.",
   "fundamentals": [
     {
-      "term": "Seifen, Tenside und Waschen",
-      "explanation": "Tenside verbinden wasserliebende und fettliebende Bereiche. Dadurch können sie Grenzflächen verändern und Schmutz in Wasser dispergieren."
+      "term": "Tensid",
+      "explanation": "Grenzflächenaktiver Stoff mit hydrophilem und hydrophobem Molekülteil; Seifen sind anionische Tenside."
     },
     {
-      "term": "Modellgrenze",
-      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+      "term": "Amphiphil",
+      "explanation": "Ein Teilchen ist amphiphil, wenn es einen hydrophilen und einen hydrophoben Teil besitzt."
     },
     {
-      "term": "AFB III",
-      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+      "term": "Oberflächenspannung",
+      "explanation": "Energie, die nötig ist, um eine Flüssigkeitsoberfläche zu vergrößern; Tenside setzen sie herab."
+    },
+    {
+      "term": "Mizelle",
+      "explanation": "Kugelförmiges Aggregat von Tensid-Teilchen in Wasser mit hydrophoben Resten innen und hydrophilen Köpfen außen."
+    },
+    {
+      "term": "Kritische Mizellbildungskonzentration",
+      "explanation": "Tensidkonzentration, oberhalb der sich Mizellen bilden."
+    },
+    {
+      "term": "Wasserhärte",
+      "explanation": "Gehalt an Ca²⁺- und Mg²⁺-Ionen im Wasser, angegeben in mmol·L⁻¹ oder °dH."
+    },
+    {
+      "term": "Enthärter",
+      "explanation": "Waschmittelbestandteil, der Härtebildner bindet, zum Beispiel der Ionenaustauscher Zeolith A."
     }
   ],
   "equations": [
     {
       "id": "chem.q1.4.q4.3.surfactants.eq.1",
       "notation": "2 RCOO⁻ + Ca²⁺ → (RCOO)₂Ca↓",
-      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+      "explanation": "Bildung schwer löslicher Kalkseife in hartem Wasser."
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.eq.2",
+      "notation": "RCOO⁻ + H₂O ⇌ RCOOH + OH⁻",
+      "explanation": "Seifenlösungen reagieren schwach basisch."
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.eq.3",
+      "notation": "RCOO⁻ + H₃O⁺ → RCOOH↓ + H₂O",
+      "explanation": "In saurer Lösung fallen die schwer löslichen Fettsäuren aus."
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.eq.4",
+      "notation": "Na₂-Zeolith + Ca²⁺ → Ca-Zeolith + 2 Na⁺",
+      "explanation": "Schema des Ionenaustauschs an Zeolith A."
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.eq.5",
+      "notation": "2 Na₂CO₃ · 3 H₂O₂ → 2 Na₂CO₃ + 3 H₂O₂",
+      "explanation": "Natriumpercarbonat setzt in Wasser Wasserstoffperoxid frei, das als Bleichmittel wirkt."
     }
   ],
-  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "equationNote": "R steht für den langen Kohlenwasserstoffrest, etwa C₁₇H₃₅ bei Stearat. Für die Gesamthärte addierst du die Stoffmengenkonzentrationen von Ca²⁺ und Mg²⁺; beide Ionen sind zweifach positiv geladen und zählen gleich.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q1.4.q4.3.surfactants.example.1",
-      "title": "Mizelle beschreiben",
-      "prompt": "Welche Orientierung haben Tenside in einer Mizelle in Wasser?",
+      "title": "Aufbau einer Mizelle",
+      "prompt": "Beschreibe und begründe die Anordnung der Tensid-Teilchen in einer Mizelle in Wasser.",
       "steps": [
-        "Hydrophile Köpfe richten sich zum Wasser aus.",
-        "Hydrophobe Reste meiden das Wasser und liegen im Inneren der Mizelle.",
-        "Unpolare Schmutzstoffe können dort aufgenommen und dispergiert werden."
+        "Die hydrophoben Kohlenwasserstoffreste treten kaum mit Wassermolekülen in Wechselwirkung; sie lagern sich zusammen, wobei Van-der-Waals-Kräfte zwischen ihnen wirken.",
+        "Die geladenen oder polaren Köpfe bilden Ion-Dipol-Wechselwirkungen bzw. Wasserstoffbrücken mit Wasser und zeigen deshalb nach außen.",
+        "So entsteht eine Kugel mit unpolarem Kern und hydrophiler Hülle, in deren Kern Fett aufgenommen werden kann."
       ],
-      "result": "Hydrophile Köpfe zeigen zum Wasser, hydrophobe Reste liegen im Inneren und können unpolare Stoffe aufnehmen."
+      "result": "In der Mizelle zeigen die hydrophoben Reste nach innen und die hydrophilen Köpfe nach außen zum Wasser. Diese Anordnung erlaubt es, Fett in Wasser zu verteilen."
     },
     {
       "id": "chem.q1.4.q4.3.surfactants.example.2",
-      "title": "Kalkseife erklären",
-      "prompt": "Warum sinkt die Waschleistung von Seife in hartem Wasser?",
+      "title": "Seife in hartem Wasser",
+      "prompt": "In hartem Wasser schäumt Seife schlecht, und es bildet sich ein grauer Belag. Ein Waschmittel mit Alkylbenzolsulfonat und Zeolith A wäscht dagegen gut. Erkläre beide Beobachtungen.",
       "steps": [
-        "Ca²⁺/Mg²⁺ bilden schwer lösliche Salze mit Fettsäure-Anionen",
-        "Tensid wird dadurch aus der Lösung entfernt und bildet Ablagerungen."
+        "Ca²⁺- und Mg²⁺-Ionen bilden mit den Carboxylat-Ionen der Seife schwer lösliche Kalkseife: 2 RCOO⁻ + Ca²⁺ → (RCOO)₂Ca.",
+        "Die ausgefällten Anionen stehen nicht mehr als Tensid zur Verfügung; der Niederschlag lagert sich als Belag ab.",
+        "Calciumsalze der Alkylbenzolsulfonate sind besser löslich; zusätzlich bindet Zeolith A die Ca²⁺-Ionen im Austausch gegen Na⁺."
       ],
-      "result": "Ca²⁺/Mg²⁺ bilden schwer lösliche Salze mit Fettsäure-Anionen. Tensid wird dadurch aus der Lösung entfernt und bildet Ablagerungen."
+      "result": "Die Seife wird durch Härtebildner ausgefällt, das moderne Waschmittel nicht. Das liegt am anderen Tensid und am Enthärter."
+    },
+    {
+      "id": "chem.q1.4.q4.3.surfactants.example.3",
+      "title": "Wasserhärte bestimmen",
+      "prompt": "Eine Wasserprobe enthält c(Ca²⁺) = 2,0 mmol·L⁻¹ und c(Mg²⁺) = 0,60 mmol·L⁻¹. Bestimme die Gesamthärte in mmol·L⁻¹ und °dH und ordne den Härtebereich zu.",
+      "steps": [
+        "Gesamthärte = 2,0 mmol·L⁻¹ + 0,60 mmol·L⁻¹ = 2,6 mmol·L⁻¹.",
+        "Umrechnung: 2,6 mmol·L⁻¹ / 0,178 mmol·L⁻¹ pro °dH ≈ 14,6 °dH.",
+        "Der Wert liegt über 2,5 mmol·L⁻¹."
+      ],
+      "result": "Die Gesamthärte beträgt 2,6 mmol·L⁻¹ bzw. etwa 14,6 °dH; das Wasser gilt als hart. Bei der Waschmitteldosierung ist deshalb mehr Enthärter nötig."
     }
   ],
   "examReferences": [
@@ -143,22 +190,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
-    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
-    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+    "AFB I: Hydrophile und hydrophobe Molekülteile benennen; Härtebildner und Waschmittelbestandteile angeben.",
+    "AFB II: Grenzflächenaktivität, Mizellbildung und Waschvorgang auf Teilchenebene erklären; Kalkseifenbildung und Reaktionen mit Säure formulieren; Wasserhärte berechnen.",
+    "AFB III: Seifen, synthetische Tenside und Waschmittelzusätze nach Wirksamkeit, Umweltwirkung und Kosten vergleichen und bewerten."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
-      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+      "tip": "Beschreibe Tensid-Teilchen immer mit beiden Teilen: hydrophiler Kopf und hydrophober Rest.",
+      "commonError": "Es wird behauptet, Seife „löse“ Fett wie ein Lösungsmittel, ohne die Anordnung der Teilchen zu erklären."
     },
     {
-      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
-      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+      "tip": "In der Mizelle in Wasser zeigen die hydrophoben Reste nach innen.",
+      "commonError": "Die Anordnung wird umgekehrt gezeichnet, mit den geladenen Köpfen im Inneren."
     },
     {
-      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
-      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+      "tip": "Kalkseife entsteht aus Seifen-Anionen und Ca²⁺- oder Mg²⁺-Ionen, nicht aus Kalk.",
+      "commonError": "Kalkseife wird als Calciumcarbonat oder als Kalkablagerung beschrieben."
+    },
+    {
+      "tip": "Erkläre die Funktion jedes Waschmittelbestandteils einzeln.",
+      "commonError": "Enthärter, Bleichmittel und Enzyme werden alle als „waschaktive Substanzen“ zusammengefasst."
     }
   ],
   "review": {

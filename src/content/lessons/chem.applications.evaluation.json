@@ -20,28 +20,26 @@
   ],
   "prerequisites": [
     "chem.basics.quantities",
-    "chem.basics.data",
-    "chem.q3.1.mwg"
+    "chem.basics.data"
   ],
   "learningGoals": [
     {
       "id": "chem.applications.evaluation.goal.fundamentals",
-      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "statement": "Ich kann Sachurteil und Wertentscheidung unterscheiden und den Aufbau einer begründeten Bewertung beschreiben.",
       "competencies": [
-        "S",
-        "E"
+        "B"
       ],
       "operators": [
-        "erläutern",
-        "beschreiben"
+        "beschreiben",
+        "erläutern"
       ]
     },
     {
       "id": "chem.applications.evaluation.goal.calculate",
-      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "statement": "Ich kann Daten auf eine gemeinsame Bezugsgröße umrechnen, relative Änderungen und die Atomökonomie berechnen.",
       "competencies": [
-        "S",
-        "E"
+        "E",
+        "B"
       ],
       "operators": [
         "berechnen",
@@ -50,7 +48,7 @@
     },
     {
       "id": "chem.applications.evaluation.goal.material",
-      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "statement": "Ich kann Materialien zu chemischen Anwendungen auswerten, Kriterien ableiten und Messwerte unter Berücksichtigung ihrer Unsicherheit deuten.",
       "competencies": [
         "E",
         "K"
@@ -62,7 +60,7 @@
     },
     {
       "id": "chem.applications.evaluation.goal.evaluate",
-      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "statement": "Ich kann Verfahren und Stoffe anhand gewichteter Kriterien bewerten, Zielkonflikte benennen und mein Urteil mit Belegen begründen.",
       "competencies": [
         "B",
         "K"
@@ -73,53 +71,90 @@
       ]
     }
   ],
-  "introduction": "Chemische Bewertungen werden belastbar, wenn Kriterien klar sind, Daten vergleichbar sind und Unsicherheiten offen benannt werden.",
-  "explanation": "Eine begründete Bewertung trennt Sachurteil und Wertentscheidung. Lege zuerst Ziel und Kriterien fest, etwa Sicherheit, Ressourcenverbrauch, Wirksamkeit, Kosten oder Umweltwirkung. Werte Daten auf gleicher Bezugsbasis aus. Beschreibe Zielkonflikte und berücksichtige Unsicherheiten.\n\nIm AFB III reicht eine Meinung nicht: Du führst Kriterien an, belegst Aussagen mit Material und erklärst, wie stark der Beleg deine Schlussfolgerung trägt. Historische Prüfungsthemen illustrieren Aufgabenpraxis; verbindliche Inhalte bestimmt der aktuelle Jahrgangserlass.",
+  "introduction": "Soll eine Stadt im Winter Salz streuen? Ist ein neues Syntheseverfahren besser als das alte? In Prüfungsaufgaben mit dem Operator „bewerten“ oder „beurteilen“ reicht eine Meinung nicht. Du brauchst chemisches Fachwissen, vergleichbare Daten und eine nachvollziehbare Methode, um zu einem begründeten Urteil zu kommen.",
+  "explanation": "### 1. Sachurteil und Wertentscheidung\n\nEine Bewertung hat zwei Ebenen. Ein Sachurteil beruht auf überprüfbaren Fakten: „Verfahren A benötigt 20 % weniger Energie als Verfahren B.“ Eine Wertentscheidung legt fest, was wichtig ist: „Energieeinsparung ist wichtiger als niedrige Kosten.“ Sachurteile lassen sich mit Daten belegen oder widerlegen, Wertentscheidungen nicht. Eine gute Bewertung trennt beide Ebenen und macht die Wertentscheidung ausdrücklich sichtbar, statt sie als Tatsache auszugeben.\n\n### 2. Vorgehen in vier Schritten\n\nErstens: Ziel und Fragestellung klären. Was soll erreicht werden, welche Alternativen stehen zur Wahl? Zweitens: Kriterien festlegen. Typische Kriterien sind Wirksamkeit, Energie- und Rohstoffbedarf, Gefährdung von Mensch und Umwelt, Abbaubarkeit, Kosten und soziale Folgen. Drittens: Die Alternativen anhand der Kriterien mit Daten vergleichen. Viertens: Die Kriterien gewichten, Zielkonflikte benennen und ein Urteil formulieren, das deutlich macht, unter welchen Annahmen es gilt.\n\n### 3. Daten vergleichbar machen\n\nDaten lassen sich nur vergleichen, wenn sie sich auf dieselbe Bezugsgröße beziehen, etwa je Kilogramm Produkt, je Waschgang oder je Liter Getränk. Gehaltsangaben in Prozent sagen erst zusammen mit der eingesetzten Menge etwas über die tatsächliche Stoffmenge aus. Veränderungen gibst du als relative Änderung an: (Endwert − Anfangswert) / Anfangswert · 100 %. Achte auch darauf, ob Daten aus derselben Quelle stammen und unter vergleichbaren Bedingungen erhoben wurden.\n\n### 4. Messunsicherheit und Grenzwerte\n\nJeder Messwert hat eine Unsicherheit. Liegt ein Messwert unter einem Grenzwert, der Grenzwert aber innerhalb seines Unsicherheitsbereichs, ist eine Überschreitung nicht sicher ausgeschlossen. Eine verantwortliche Aussage nennt diese Unsicherheit, statt das Ergebnis als eindeutig darzustellen. Grenzwerte selbst sind ebenfalls Ergebnisse von Abwägungen zwischen Schutz, Machbarkeit und Kosten.\n\n### 5. Kriterien der Grünen Chemie\n\nFür die Bewertung von Syntheseverfahren werden häufig Kriterien der Grünen Chemie herangezogen: Abfall vermeiden, möglichst viele Atome der Edukte im Produkt nutzen, Katalysatoren statt stöchiometrischer Hilfsstoffe einsetzen, ungefährliche Lösungsmittel wählen, Energie sparen und nachwachsende Rohstoffe nutzen. Ein Maß dafür ist die Atomökonomie: der Anteil der Edukt-Masse, der im gewünschten Produkt landet. Additionsreaktionen erreichen 100 %, bei Eliminierungen und Substitutionen entstehen zwangsläufig Nebenprodukte.\n\n### 6. Gewichten und urteilen\n\nSelten ist eine Alternative in allen Kriterien besser. Eine Bewertungsmatrix ordnet jeder Alternative für jedes Kriterium Punkte zu und gewichtet die Kriterien. Die Gewichtung ist eine Wertentscheidung; ändert man sie, kann sich das Ergebnis umkehren. Ein gutes Urteil prüft deshalb, wie stabil es gegenüber anderen Gewichtungen ist, und berücksichtigt verschiedene Perspektiven, etwa die von Herstellern, Anwohnern und Umweltverbänden. Historische Prüfungsaufgaben zeigen, wie solche Bewertungen in Aufgaben eingebettet waren; welche Inhalte aktuell verbindlich sind, legt der jeweilige Abiturerlass fest.",
   "fundamentals": [
     {
-      "term": "Chemische Anwendungen bewerten",
-      "explanation": "Chemische Bewertungen werden belastbar, wenn Kriterien klar sind, Daten vergleichbar sind und Unsicherheiten offen benannt werden."
+      "term": "Sachurteil",
+      "explanation": "Aussage über Fakten, die sich mit Daten oder Experimenten überprüfen lässt."
     },
     {
-      "term": "Modellgrenze",
-      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+      "term": "Wertentscheidung",
+      "explanation": "Festlegung, welche Ziele oder Kriterien wichtiger sind; nicht durch Daten beweisbar, aber begründbar."
     },
     {
-      "term": "AFB III",
-      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+      "term": "Bewertungskriterium",
+      "explanation": "Merkmal, nach dem Alternativen verglichen werden, etwa Energiebedarf, Gefährdung oder Kosten."
+    },
+    {
+      "term": "Bezugsgröße",
+      "explanation": "Gemeinsame Einheit, auf die Daten umgerechnet werden, damit sie vergleichbar sind."
+    },
+    {
+      "term": "Zielkonflikt",
+      "explanation": "Situation, in der eine Alternative bei einem Kriterium besser, bei einem anderen schlechter abschneidet."
+    },
+    {
+      "term": "Atomökonomie",
+      "explanation": "Anteil der Masse aller Edukte, der im gewünschten Produkt enthalten ist; Maß für Abfallvermeidung."
+    },
+    {
+      "term": "Messunsicherheit",
+      "explanation": "Bereich um einen Messwert, in dem der wahre Wert mit hoher Wahrscheinlichkeit liegt."
     }
   ],
   "equations": [
     {
       "id": "chem.applications.evaluation.eq.1",
       "notation": "relative Änderung = (Endwert − Anfangswert) / Anfangswert · 100 %",
-      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+      "explanation": "Prozentuale Zu- oder Abnahme bezogen auf den Ausgangswert."
+    },
+    {
+      "id": "chem.applications.evaluation.eq.2",
+      "notation": "Atomökonomie = M(Zielprodukt) / Σ M(Edukte) · 100 %",
+      "explanation": "Mit den Koeffizienten der Reaktionsgleichung gewichtete molare Massen; 100 % bei reinen Additionen."
+    },
+    {
+      "id": "chem.applications.evaluation.eq.3",
+      "notation": "Gesamtwert = Σ (Gewicht · Punktzahl)",
+      "explanation": "Gewichtete Summe in einer Bewertungsmatrix; die Gewichte summieren sich meist zu 1."
     }
   ],
-  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "equationNote": "Relative Änderungen beziehen sich immer auf den Anfangswert. Bei der Atomökonomie gehen alle Edukte mit ihren Koeffizienten ein, auch Stoffe, die nur als Nebenprodukt wieder herauskommen.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.applications.evaluation.example.1",
-      "title": "Kriterien anwenden",
-      "prompt": "Ein neues Verfahren spart 20 % Energie, benötigt aber einen seltenen Rohstoff. Formuliere einen ausgewogenen Bewertungsschritt.",
+      "title": "Bewertungsmatrix und Gewichtung",
+      "prompt": "Zwei Verfahren werden mit Punkten von 1 (schlecht) bis 5 (gut) bewertet (fiktive Daten). Verfahren A: Energiebedarf 4, Kosten 2, Gefährdung 3. Verfahren B: 3, 4, 4. Berechne die Gesamtwerte für die Gewichte 0,4 / 0,3 / 0,3 und für 0,6 / 0,2 / 0,2.",
       "steps": [
-        "Zunächst Kriterien festlegen: Energiebedarf und Rohstoffverfügbarkeit.",
-        "Die Energieeinsparung ist ein Vorteil; der seltene Rohstoff ist ein möglicher Nachteil.",
-        "Für das Gesamturteil brauchst du Daten zur Rohstoffgewinnung und eine begründete Gewichtung."
+        "Gewichtung 1: A = 0,4·4 + 0,3·2 + 0,3·3 = 3,1; B = 0,4·3 + 0,3·4 + 0,3·4 = 3,6.",
+        "Gewichtung 2: A = 0,6·4 + 0,2·2 + 0,2·3 = 3,4; B = 0,6·3 + 0,2·4 + 0,2·4 = 3,4.",
+        "Mit stärkerer Gewichtung des Energiebedarfs schrumpft der Vorsprung von B auf null."
       ],
-      "result": "Energieeinsparung ist ein Vorteil; Rohstoffverfügbarkeit und Umweltfolgen des Abbaus sind mögliche Nachteile. Für ein Gesamturteil braucht es vergleichbare Daten und eine Gewichtung der Kriterien."
+      "result": "Bei der ersten Gewichtung liegt B vorn, bei der zweiten sind beide gleichwertig. Das Ergebnis hängt also von der Wertentscheidung über die Gewichte ab; ein Urteil muss diese offenlegen."
     },
     {
       "id": "chem.applications.evaluation.example.2",
-      "title": "Aussage belegen",
-      "prompt": "Was muss eine Aussage wie „Verfahren A ist nachhaltiger“ enthalten?",
+      "title": "Eine Aussage belegen",
+      "prompt": "Ein Hersteller schreibt: „Unser Verfahren ist nachhaltiger.“ Was müsste die Aussage enthalten, um überprüfbar zu sein?",
       "steps": [
-        "Vergleichsszenario und gleiche Bezugsgröße nennen.",
-        "Aussagen durch Materialdaten belegen.",
-        "Zielkonflikte, Unsicherheiten und Systemgrenzen abwägen."
+        "Vergleichsmaßstab: Nachhaltiger als welches Verfahren?",
+        "Kriterien und Daten: zum Beispiel Energiebedarf, Emissionen und Abfall, jeweils je Kilogramm Produkt.",
+        "Systemgrenze und Quelle: welche Prozessschritte einbezogen sind und woher die Daten stammen."
       ],
-      "result": "Ein klares Vergleichsszenario, Kriterien und Bezugsgrößen, Materialbelege sowie eine Abwägung der Zielkonflikte und Grenzen."
+      "result": "Erst mit Vergleichsmaßstab, Kriterien, gemeinsamer Bezugsgröße, Systemgrenze und Datenquelle wird aus einem Werbeversprechen ein prüfbares Sachurteil."
+    },
+    {
+      "id": "chem.applications.evaluation.example.3",
+      "title": "Atomökonomie zweier Synthesewege",
+      "prompt": "Ethen kann durch Dehydratisierung von Ethanol hergestellt werden: C₂H₅OH → C₂H₄ + H₂O. Berechne die Atomökonomie (M(C₂H₅OH) = 46,07 g·mol⁻¹, M(C₂H₄) = 28,05 g·mol⁻¹) und vergleiche mit der Hydrierung von Ethin zu Ethen.",
+      "steps": [
+        "Atomökonomie = 28,05 g·mol⁻¹ / 46,07 g·mol⁻¹ · 100 % ≈ 60,9 %.",
+        "Der Rest der Edukt-Masse verlässt die Reaktion als Wasser.",
+        "Die Hydrierung C₂H₂ + H₂ → C₂H₄ ist eine Addition; alle Atome landen im Produkt, die Atomökonomie beträgt 100 %."
+      ],
+      "result": "Die Dehydratisierung hat eine Atomökonomie von etwa 61 %, die Addition von 100 %. Für ein Gesamturteil braucht es aber weitere Kriterien wie Rohstoffherkunft, Energiebedarf und Gefährdung."
     }
   ],
   "examReferences": [
@@ -143,22 +178,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
-    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
-    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+    "AFB I: Sachaussagen und Wertentscheidungen unterscheiden; Bewertungskriterien nennen.",
+    "AFB II: Daten auf eine gemeinsame Bezugsgröße umrechnen; relative Änderungen und Atomökonomie berechnen; Messwerte mit Unsicherheit deuten.",
+    "AFB III: Verfahren, Stoffe oder Produkte anhand mehrerer Kriterien bewerten, Zielkonflikte abwägen und ein begründetes Urteil formulieren."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
-      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+      "tip": "Kennzeichne in deiner Antwort, welche Aussagen Fakten und welche Wertungen sind.",
+      "commonError": "Eine persönliche Präferenz wird als Tatsache formuliert („Verfahren A ist eindeutig besser“)."
     },
     {
-      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
-      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+      "tip": "Rechne alle Angaben auf dieselbe Bezugsgröße um, bevor du vergleichst.",
+      "commonError": "Prozentangaben zweier Produkte werden direkt verglichen, obwohl unterschiedliche Mengen eingesetzt werden."
     },
     {
-      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
-      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+      "tip": "Nenne bei jeder Bewertung mindestens einen Zielkonflikt.",
+      "commonError": "Nur die Vorteile einer Alternative werden aufgezählt, und das Urteil folgt ohne Abwägung."
+    },
+    {
+      "tip": "Berücksichtige die Messunsicherheit, wenn ein Wert nahe an einem Grenzwert liegt.",
+      "commonError": "Ein Messwert knapp unter dem Grenzwert wird als sichere Einhaltung gewertet."
     }
   ],
   "review": {

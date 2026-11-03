@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q3.5.kinetics",
   "title": "Reaktionskinetik und Katalyse",
-  "summary": "Thermodynamik sagt, ob ein Prozess begünstigt ist. Kinetik beschreibt, wie schnell er abläuft.",
+  "summary": "Wie schnell eine Reaktion abläuft, beschreibt die Reaktionsgeschwindigkeit. Konzentration, Temperatur, Zerteilungsgrad und Katalysatoren beeinflussen sie; die Stoßtheorie und die Aktivierungsenergie erklären, warum.",
   "order": 40,
   "publicationStatus": "review",
   "relevance": {
@@ -21,24 +21,24 @@
   "prerequisites": [
     "chem.basics.quantities",
     "chem.basics.data",
+    "chem.q4.1.entropy-gibbs",
     "chem.q3.1.mwg"
   ],
   "learningGoals": [
     {
       "id": "chem.q3.5.kinetics.goal.fundamentals",
-      "statement": "Ich kann zentrale Begriffe, Modelle und Zusammenhänge des Themenfelds fachsprachlich erklären.",
+      "statement": "Ich kann die Einflüsse von Konzentration, Temperatur, Zerteilungsgrad und Katalysator auf die Reaktionsgeschwindigkeit mit der Stoßtheorie und der Aktivierungsenergie erklären.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
-        "erläutern",
-        "beschreiben"
+        "erklären",
+        "erläutern"
       ]
     },
     {
       "id": "chem.q3.5.kinetics.goal.calculate",
-      "statement": "Ich kann geeignete Daten und Beziehungen für quantitative Aufgaben nutzen.",
+      "statement": "Ich kann mittlere und momentane Reaktionsgeschwindigkeiten aus Messwerten bestimmen und stöchiometrisch umrechnen.",
       "competencies": [
         "S",
         "E"
@@ -50,74 +50,117 @@
     },
     {
       "id": "chem.q3.5.kinetics.goal.material",
-      "statement": "Ich kann Diagramme oder Versuchsdaten auswerten und mit einem Modell verknüpfen.",
+      "statement": "Ich kann Konzentrations-Zeit-Diagramme und Energiediagramme auswerten und skizzieren.",
       "competencies": [
         "E",
         "K"
       ],
       "operators": [
         "auswerten",
-        "deuten"
+        "skizzieren"
       ]
     },
     {
       "id": "chem.q3.5.kinetics.goal.evaluate",
-      "statement": "Ich kann Aussagen anhand transparenter Kriterien und ihrer Belege beurteilen.",
+      "statement": "Ich kann kinetische und thermodynamische Aussagen voneinander abgrenzen und Aussagen über Katalysatoren beurteilen.",
       "competencies": [
-        "B",
-        "K"
+        "E",
+        "B"
       ],
       "operators": [
-        "bewerten",
+        "vergleichen",
         "beurteilen"
       ]
     }
   ],
-  "introduction": "Thermodynamik sagt, ob ein Prozess begünstigt ist. Kinetik beschreibt, wie schnell er abläuft.",
-  "explanation": "Die Reaktionsgeschwindigkeit beschreibt die Konzentrationsänderung pro Zeit. Für Edukte ist v=−Δc/Δt, für Produkte v=+Δc/Δt; bei stöchiometrischen Koeffizienten wird normiert. Ein Konzentrations-Zeit-Diagramm liefert mittlere Steigungen über ein Intervall und momentane Geschwindigkeiten über die Tangente.\n\nHöhere Temperatur erhöht meist den Anteil energiereicher Teilchen. Größere Konzentration oder Oberfläche kann wirksame Zusammenstöße wahrscheinlicher machen. Ein Katalysator bietet einen alternativen Reaktionsweg mit niedrigerer Aktivierungsenergie. Er beschleunigt Hin- und Rückreaktion und verändert weder ΔG noch die Gleichgewichtslage.",
+  "introduction": "Eisen rostet in Jahren, Knallgas reagiert in Sekundenbruchteilen, und im Kühlschrank verdirbt Milch langsamer als auf dem Tisch. Ob eine Reaktion überhaupt begünstigt ist, sagt die Thermodynamik. Wie schnell sie abläuft und wie man das beeinflussen kann, untersucht die Reaktionskinetik.",
+  "explanation": "### 1. Reaktionsgeschwindigkeit\n\nDie Reaktionsgeschwindigkeit gibt an, wie schnell sich die Konzentration eines Stoffs mit der Zeit ändert. Für ein Edukt nimmt die Konzentration ab, deshalb setzt man ein Minuszeichen: v = −Δc(Edukt)/Δt. Für ein Produkt gilt v = +Δc(Produkt)/Δt. Die Einheit ist mol·L⁻¹·s⁻¹. Haben die Stoffe unterschiedliche Koeffizienten, ändern sich ihre Konzentrationen unterschiedlich schnell. Damit die Reaktionsgeschwindigkeit eindeutig ist, teilt man durch den jeweiligen Koeffizienten: Für 2 A → B nimmt c(A) doppelt so schnell ab, wie c(B) zunimmt.\n\n### 2. Konzentrations-Zeit-Diagramme\n\nTrägt man die Konzentration gegen die Zeit auf, ergibt sich meist eine Kurve, die anfangs steil verläuft und dann abflacht, weil die Eduktkonzentration abnimmt. Die mittlere Geschwindigkeit in einem Zeitintervall ist die Steigung der Sekante zwischen zwei Messpunkten. Die momentane Geschwindigkeit zu einem Zeitpunkt ist die Steigung der Tangente an dieser Stelle. Weil die Kurve gekrümmt ist, hängt die mittlere Geschwindigkeit stark vom gewählten Intervall ab.\n\n### 3. Stoßtheorie und Aktivierungsenergie\n\nDamit Teilchen reagieren, müssen sie zusammenstoßen, und zwar mit ausreichender Energie und in einer geeigneten Orientierung. Die Mindestenergie heißt Aktivierungsenergie Eₐ. Im Energiediagramm ist sie der Abstand zwischen den Edukten und dem höchsten Punkt des Reaktionswegs, dem Übergangszustand. Sie hängt nicht davon ab, ob die Reaktion insgesamt exotherm oder endotherm ist.\n\n### 4. Einflussfaktoren\n\nEine höhere Konzentration oder bei Gasen ein höherer Druck erhöht die Zahl der Zusammenstöße pro Zeit. Ein höherer Zerteilungsgrad, etwa Pulver statt Stück, vergrößert bei Reaktionen mit Feststoffen die Oberfläche, an der Zusammenstöße stattfinden können. Eine höhere Temperatur wirkt besonders stark: Die Teilchen sind im Mittel schneller, vor allem aber steigt der Anteil der Teilchen, deren Energie die Aktivierungsenergie übersteigt. Als Faustregel gilt die RGT-Regel: Eine Temperaturerhöhung um 10 K verdoppelt bis vervierfacht die Reaktionsgeschwindigkeit vieler Reaktionen.\n\n### 5. Katalyse\n\nEin Katalysator beschleunigt eine Reaktion, indem er einen anderen Reaktionsweg mit niedrigerer Aktivierungsenergie ermöglicht. Er geht dabei Zwischenverbindungen ein, liegt am Ende aber unverändert vor. Liegen Katalysator und Reaktionspartner in derselben Phase vor, spricht man von homogener Katalyse, sonst von heterogener Katalyse, etwa an einer Metalloberfläche im Autoabgaskatalysator. Ein Katalysator senkt die Aktivierungsenergie von Hin- und Rückreaktion gleichermaßen. Das Gleichgewicht stellt sich deshalb schneller ein, seine Lage ändert sich aber nicht; ΔH und ΔG bleiben gleich.\n\n### 6. Enzyme und Autokatalyse\n\nEnzyme sind Proteine, die als Biokatalysatoren wirken. Das Substrat bindet im aktiven Zentrum, dessen Form und Seitengruppen nur zu bestimmten Substraten passen (Substratspezifität). Enzyme arbeiten in einem engen Temperatur- und pH-Bereich; außerhalb davon verlieren sie durch Denaturierung ihre Wirkung. Bei der Autokatalyse wirkt ein Produkt als Katalysator. Die Reaktion beginnt langsam, beschleunigt sich, sobald genug Produkt vorliegt, und wird erst gegen Ende wieder langsamer. Ein Beispiel ist die Reaktion von Permanganat-Ionen mit Oxalsäure, die durch entstehende Mn²⁺-Ionen beschleunigt wird.",
   "fundamentals": [
     {
-      "term": "Reaktionskinetik und Katalyse",
-      "explanation": "Thermodynamik sagt, ob ein Prozess begünstigt ist. Kinetik beschreibt, wie schnell er abläuft."
+      "term": "Reaktionsgeschwindigkeit v",
+      "explanation": "Konzentrationsänderung pro Zeit, für Edukte mit Minuszeichen; Einheit mol·L⁻¹·s⁻¹."
     },
     {
-      "term": "Modellgrenze",
-      "explanation": "Bedingung oder Annahme, unter der eine vereinfachte Beschreibung gültig ist."
+      "term": "Mittlere und momentane Geschwindigkeit",
+      "explanation": "Steigung der Sekante über ein Zeitintervall bzw. der Tangente zu einem Zeitpunkt im c-t-Diagramm."
     },
     {
-      "term": "AFB III",
-      "explanation": "Anforderungsbereich für begründetes Bewerten, Beurteilen und Entwickeln von Lösungswegen."
+      "term": "Stoßtheorie",
+      "explanation": "Teilchen reagieren nur, wenn sie mit ausreichender Energie und passender Orientierung zusammenstoßen."
+    },
+    {
+      "term": "Aktivierungsenergie Eₐ",
+      "explanation": "Mindestenergie, die beim Zusammenstoß aufgebracht werden muss, damit eine Reaktion abläuft."
+    },
+    {
+      "term": "RGT-Regel",
+      "explanation": "Faustregel: Eine Temperaturerhöhung um 10 K steigert die Reaktionsgeschwindigkeit auf das Zwei- bis Vierfache."
+    },
+    {
+      "term": "Katalysator",
+      "explanation": "Stoff, der über einen Reaktionsweg mit niedrigerer Aktivierungsenergie die Reaktion beschleunigt und unverändert zurückbleibt."
+    },
+    {
+      "term": "Autokatalyse",
+      "explanation": "Ein Reaktionsprodukt wirkt als Katalysator; die Reaktion beschleunigt sich zunächst selbst."
     }
   ],
   "equations": [
     {
       "id": "chem.q3.5.kinetics.eq.1",
-      "notation": "v = −Δc(Edukt)/Δt = +Δc(Produkt)/Δt (stöchiometrisch normiert)",
-      "explanation": "Nutze die Beziehung nur mit passender Definition, Vorzeichenkonvention und Einheit."
+      "notation": "v = −Δc(Edukt)/Δt = +Δc(Produkt)/Δt",
+      "explanation": "Mittlere Reaktionsgeschwindigkeit für ein Edukt bzw. Produkt."
+    },
+    {
+      "id": "chem.q3.5.kinetics.eq.2",
+      "notation": "Für aA → bB:  v = −(1/a)·Δc(A)/Δt = (1/b)·Δc(B)/Δt",
+      "explanation": "Stöchiometrisch normierte Reaktionsgeschwindigkeit, die für alle Stoffe denselben Wert hat."
+    },
+    {
+      "id": "chem.q3.5.kinetics.eq.3",
+      "notation": "v(T + 10 K) ≈ 2 bis 4 · v(T)",
+      "explanation": "RGT-Regel als Abschätzung; der genaue Faktor hängt von der Aktivierungsenergie ab."
+    },
+    {
+      "id": "chem.q3.5.kinetics.eq.4",
+      "notation": "2 H₂O₂ → 2 H₂O + O₂ (Katalysator: MnO₂)",
+      "explanation": "Zersetzung von Wasserstoffperoxid; Braunstein beschleunigt sie als heterogener Katalysator."
     }
   ],
-  "equationNote": "Vor dem Rechnen Größen und Einheiten umformen; im Ergebnis die chemische Bedeutung deuten.",
+  "equationNote": "Gib bei Geschwindigkeiten immer an, auf welchen Stoff sie sich beziehen, oder normiere mit den Koeffizienten. Für die momentane Geschwindigkeit legst du im Diagramm eine Tangente an und bestimmst ihre Steigung über ein Steigungsdreieck.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q3.5.kinetics.example.1",
-      "title": "Mittlere Geschwindigkeit",
-      "prompt": "Die Konzentration eines Edukts sinkt in 20 s von 0,80 auf 0,50 mol L⁻¹. Berechne die mittlere Verbrauchsgeschwindigkeit.",
+      "title": "Mittlere Geschwindigkeit bestimmen",
+      "prompt": "Die Konzentration eines Edukts sinkt in 50 s von 0,50 mol·L⁻¹ auf 0,30 mol·L⁻¹. Berechne die mittlere Reaktionsgeschwindigkeit in diesem Intervall.",
       "steps": [
-        "v=−(0,50−0,80)/20=0,015 mol L⁻¹ s⁻¹",
-        "Das Minuszeichen macht die Verbrauchsgeschwindigkeit positiv."
+        "Δc = 0,30 mol·L⁻¹ − 0,50 mol·L⁻¹ = −0,20 mol·L⁻¹.",
+        "Für ein Edukt: v = −Δc/Δt = −(−0,20 mol·L⁻¹) / 50 s."
       ],
-      "result": "v=−(0,50−0,80)/20=0,015 mol L⁻¹ s⁻¹. Das Minuszeichen macht die Verbrauchsgeschwindigkeit positiv."
+      "result": "v = 0,0040 mol·L⁻¹·s⁻¹. Das ist ein Mittelwert; zu Beginn des Intervalls ist die Geschwindigkeit größer, am Ende kleiner."
     },
     {
       "id": "chem.q3.5.kinetics.example.2",
-      "title": "Katalysatorwirkung",
-      "prompt": "Ein Katalysator senkt die Aktivierungsenergie. Was ändert sich, was nicht?",
+      "title": "Wirkung eines Katalysators",
+      "prompt": "Wasserstoffperoxid zersetzt sich bei Raumtemperatur kaum. Gibt man Braunstein (MnO₂) hinzu, entsteht sofort viel Sauerstoff, und der Braunstein lässt sich danach unverändert abfiltrieren. Deute die Beobachtungen.",
       "steps": [
-        "Die Reaktion erreicht schneller das Gleichgewicht",
-        "Die Gleichgewichtskonstante und Gleichgewichtslage ändern sich bei gleicher Temperatur nicht."
+        "Die Zersetzung ist begünstigt, verläuft ohne Katalysator aber wegen einer hohen Aktivierungsenergie langsam.",
+        "Braunstein ermöglicht an seiner Oberfläche einen Reaktionsweg mit niedrigerer Aktivierungsenergie; ein größerer Anteil der Teilchen reagiert.",
+        "Dass der Braunstein unverändert zurückbleibt, zeigt, dass er Katalysator und nicht Reaktionspartner ist."
       ],
-      "result": "Die Reaktion erreicht schneller das Gleichgewicht. Die Gleichgewichtskonstante und Gleichgewichtslage ändern sich bei gleicher Temperatur nicht."
+      "result": "MnO₂ wirkt als heterogener Katalysator. Er verändert die Geschwindigkeit, nicht die Energiebilanz der Reaktion."
+    },
+    {
+      "id": "chem.q3.5.kinetics.example.3",
+      "title": "RGT-Regel anwenden",
+      "prompt": "Eine Reaktion braucht bei 20 °C 80 min. Schätze die Dauer bei 40 °C ab, wenn sich die Geschwindigkeit je 10 K verdoppelt.",
+      "steps": [
+        "Von 20 °C auf 40 °C sind es zwei Schritte von je 10 K.",
+        "Die Geschwindigkeit steigt um den Faktor 2 · 2 = 4.",
+        "Die Reaktionsdauer sinkt entsprechend auf ein Viertel: 80 min / 4."
+      ],
+      "result": "Die Reaktion dauert bei 40 °C etwa 20 min. Die RGT-Regel ist eine Faustregel; bei Enzymen gilt sie nur bis zum Temperaturoptimum."
     }
   ],
   "examReferences": [
@@ -132,22 +175,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Größen, Begriffe, Beobachtungen und Daten aus Material entnehmen.",
-    "AFB II: Rechenwege oder Ursache-Wirkungs-Zusammenhänge nachvollziehbar entwickeln.",
-    "AFB III: Modelle, Verfahren oder Anwendungen anhand von Kriterien und Belegen beurteilen."
+    "AFB I: Einflussfaktoren nennen; Reaktionsgeschwindigkeit definieren; Wirkung eines Katalysators angeben.",
+    "AFB II: Mittlere und momentane Geschwindigkeiten aus Messwerten oder Diagrammen bestimmen; Einflüsse mit Stoßtheorie und Aktivierungsenergie erklären; Energiediagramme skizzieren.",
+    "AFB III: Messreihen auswerten und Versuche zur Kinetik planen oder beurteilen; Aussagen über Katalysatoren und Gleichgewichte kritisch prüfen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Definiere System und Vorzeichen, bevor du rechnest.",
-      "commonError": "Wärme für System und Umgebung wird mit demselben Vorzeichen versehen."
+      "tip": "Setze für Edukte ein Minuszeichen vor Δc, damit die Geschwindigkeit positiv wird.",
+      "commonError": "Die Reaktionsgeschwindigkeit wird für ein Edukt als negativer Wert angegeben."
     },
     {
-      "tip": "Trenne thermodynamische Begünstigung von Reaktionsgeschwindigkeit.",
-      "commonError": "Eine spontane Reaktion wird automatisch als schnell bezeichnet."
+      "tip": "Erkläre den Temperatureinfluss vor allem über den Anteil der Teilchen mit ausreichender Energie.",
+      "commonError": "Die starke Beschleunigung wird nur mit häufigeren Zusammenstößen begründet."
     },
     {
-      "tip": "Nutze bei Bewertungen Daten, gleiche Bezugsgrößen und transparente Kriterien.",
-      "commonError": "Einzelne Vorteile werden ohne Zielkonflikte zum Gesamturteil verallgemeinert."
+      "tip": "Ein Katalysator ändert die Geschwindigkeit, nicht die Lage des Gleichgewichts.",
+      "commonError": "Es wird behauptet, ein Katalysator erhöhe die Ausbeute oder verschiebe das Gleichgewicht zu den Produkten."
+    },
+    {
+      "tip": "Trenne Kinetik und Thermodynamik: Eₐ bestimmt die Geschwindigkeit, ΔH und ΔG die Energiebilanz.",
+      "commonError": "Aus einer stark exothermen Reaktion wird geschlossen, dass sie schnell ablaufen müsse."
     }
   ],
   "review": {
