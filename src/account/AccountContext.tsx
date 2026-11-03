@@ -1,4 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { clearAccountCaches } from '../practice/storage'
 import { isProfileActive, type Profile } from './profile'
 
 /** Konten sind nur aktiv, wenn beim Build eine Supabase-Konfiguration vorlag. */
@@ -54,7 +55,13 @@ export function AccountProvider({ children }: { children: ReactNode }) {
       if (cancelled) return
       const { data } = supabase.auth.onAuthStateChange((event, session) => {
         // Keine Supabase-Aufrufe direkt im Callback (Sperre im Auth-Client), daher entkoppelt.
-        if (event === 'SIGNED_OUT') { userIdRef.current = null; setState({ status: 'signed-out' }); return }
+        if (event === 'SIGNED_OUT') {
+          // Zwischengespeicherte Ergebnisse nicht auf (womöglich geteilten) Geräten zurücklassen
+          clearAccountCaches()
+          userIdRef.current = null
+          setState({ status: 'signed-out' })
+          return
+        }
         if (event === 'TOKEN_REFRESHED' && session?.user.id === userIdRef.current) return
         setTimeout(() => { void loadProfile(session?.user.id ?? null) }, 0)
       })

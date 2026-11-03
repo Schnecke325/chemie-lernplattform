@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import { ExercisePractice, resultLabels } from '../components/ExercisePractice'
 import { getAllExercises, learningCatalog } from '../content'
 import type { Competency, Difficulty, Exercise, ExerciseMode } from '../content/types'
-import { usePracticeRecords } from '../practice/usePracticeRecords'
+import { usePracticeRecords } from '../practice/PracticeRecordsContext'
 import './ExercisesPage.css'
 
 const competencyLabels: Record<Competency, string> = {
@@ -85,10 +85,10 @@ export function ExercisesPage() {
   const [loadError, setLoadError] = useState(false)
   const [filters, setFilters] = useState<Filters>(initialFilters)
   const [expandedId, setExpandedId] = useState<string | null>(null)
-  const { records, saveRecord, resetRecords: clearRecords } = usePracticeRecords()
+  const { records, saveRecord, resetRecords: clearRecords, storage, syncProblem } = usePracticeRecords()
 
   const resetRecords = () => {
-    if (!window.confirm('Alle auf diesem Gerät gespeicherten Bearbeitungsergebnisse löschen?')) return
+    if (!window.confirm(storage === 'account' ? 'Alle Bearbeitungsergebnisse in deinem Konto löschen?' : 'Alle auf diesem Gerät gespeicherten Bearbeitungsergebnisse löschen?')) return
     clearRecords()
   }
 
@@ -197,7 +197,9 @@ export function ExercisesPage() {
         {!isLoading && <span>{filteredExercises.length} von {exercises.length}</span>}
       </div>
       {!isLoading && !loadError && <div className="practice-device-note">
-        <span>{Object.keys(records).length} Aufgaben bearbeitet · Ergebnisse werden nur auf diesem Gerät gespeichert.</span>
+        <span>{Object.keys(records).length} Aufgaben bearbeitet · {storage === 'account'
+          ? syncProblem ? 'Abgleich mit deinem Konto gerade nicht möglich; neue Ergebnisse werden beim nächsten Laden nachgetragen.' : 'Ergebnisse werden in deinem Konto gespeichert.'
+          : 'Ergebnisse werden nur auf diesem Gerät gespeichert.'}</span>
         <button type="button" onClick={resetRecords} disabled={Object.keys(records).length === 0}>Ergebnisse zurücksetzen</button>
       </div>}
       {isLoading ? <div className="exercise-empty"><strong>Aufgaben werden geladen …</strong><p>Der zentrale Aufgabenbestand wird vorbereitet.</p></div>

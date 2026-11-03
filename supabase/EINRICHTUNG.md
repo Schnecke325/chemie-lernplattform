@@ -110,6 +110,21 @@ Beide Werte sind öffentlich und landen im Build. Der geheime Schlüssel `sb_sec
 
 Danach unter **Actions → Deploy to Schnecke325.github.io → Run workflow** neu veröffentlichen.
 
+## Aktualisierungen
+
+Neue Funktionen bringen eigene SQL-Dateien mit. Sie werden im SQL Editor (neue, leere Abfrage) einmal vollständig ausgeführt, in der Reihenfolge ihres Datums im Dateinamen.
+
+| Datei | Inhalt |
+|---|---|
+| `20261104120000_accounts.sql` | Konten und Rechte (Paket K1, Schritt 3 oben) |
+| `20261104130000_practice_records.sql` | Aufgabenergebnisse im Konto (Paket K2) |
+
+Ob K2 eingerichtet ist, zeigt diese Abfrage; sie muss ohne Fehler laufen:
+
+```sql
+select count(*) from public.practice_records;
+```
+
 ## Lokale Entwicklung (optional)
 
 Für `npm run dev` mit Konten eine Datei `.env.local` mit denselben beiden Werten anlegen. `*.local` ist von Git ausgeschlossen.

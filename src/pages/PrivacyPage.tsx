@@ -22,8 +22,8 @@ export function PrivacyPage() {
 
     <section>
       <h2>Speicherung in deinem Browser</h2>
-      <p>Wenn du Aufgaben bearbeitest, speichert die Seite das Ergebnis (richtig, teilweise oder falsch), die Art der Prüfung und den Zeitpunkt im lokalen Speicher deines Browsers. Diese Daten verlassen dein Gerät nicht. Antworttexte und Handschrift werden nicht gespeichert. Im Übungsbereich kannst du die Ergebnisse mit „Ergebnisse zurücksetzen“ löschen.</p>
-      <p>Wenn du angemeldet bist, liegt zusätzlich deine Anmeldesitzung im lokalen Speicher, damit du nicht bei jedem Besuch neu anmelden musst. Beim Abmelden wird sie entfernt.</p>
+      <p>Wenn du angemeldet bist, liegen deine Anmeldesitzung und eine Kopie deiner Aufgabenergebnisse im lokalen Speicher deines Browsers. So musst du dich nicht bei jedem Besuch neu anmelden, und die Ergebnisse erscheinen sofort. Beim Abmelden wird beides von diesem Gerät entfernt.</p>
+      <p>Ohne Konto gespeicherte Aufgabenergebnisse aus früheren Besuchen bleiben nur auf diesem Gerät, bis du sie nach der Anmeldung in dein Konto übernimmst oder verwirfst.</p>
       <p>Diese Speicherung ist für die von dir genutzten Funktionen unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG).</p>
     </section>
 
@@ -34,9 +34,10 @@ export function PrivacyPage() {
         <li>der Name, den der Admin beim Anlegen einträgt, und der daraus gebildete Benutzername;</li>
         <li>der Zugangscode, und zwar nur als Hash-Wert, aus dem er sich nicht zurückgewinnen lässt;</li>
         <li>die Rechte (Admin, Abiturarchiv), das Ablaufdatum und der Zeitpunkt der Erstellung;</li>
+        <li>je bearbeiteter Aufgabe das letzte Ergebnis (richtig, teilweise oder falsch), ob es automatisch geprüft oder selbst eingeschätzt wurde, und der Zeitpunkt. Antworttexte und Handschrift werden nicht gespeichert;</li>
         <li>technische Anmeldedaten wie Sitzungen, Zeitpunkt der letzten Anmeldung und Protokolle der Anmeldeanfragen einschließlich IP-Adresse.</li>
       </ul>
-      <p>Admins sehen in der Benutzerverwaltung Name, Benutzername, Rechte und Ablaufdatum aller Konten. Aufgabenergebnisse werden derzeit nicht im Konto gespeichert.</p>
+      <p>Admins sehen Name, Benutzername, Rechte und Ablaufdatum aller Konten und können die Aufgabenergebnisse aller Konten einsehen, etwa für eine Übersicht zum Lernstand des Kurses. Deine eigenen Ergebnisse kannst du im Übungsbereich mit „Ergebnisse zurücksetzen“ jederzeit löschen.</p>
       <p>Die Konten werden bei Supabase (Supabase, Inc.) als Dienstleister gespeichert; die Datenbank liegt in einem Rechenzentrum in Frankfurt am Main (EU). Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung des vergebenen Zugangs); für Sicherheitsprotokolle Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren Betrieb).</p>
     </section>
 

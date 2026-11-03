@@ -30,7 +30,7 @@ Prüfe bei jedem Auftrag zuerst den aktuellen Code und die betroffenen Dateien. 
 - Navigation/Layout: `src/components/AppShell.tsx`, `Sidebar.tsx`; Seitentypen in `src/types/navigation.ts`.
 - Datengetriebener Lernbereich: `src/content/catalog.json`, `src/content/lessons/*.json`, zentrale Aufgabenbank `src/content/exercises.json`, Verträge und Loader in `src/content/types.ts` und `src/content/index.ts`.
 - Seiten und lokale Styles liegen in `src/pages/`; gemeinsame Basisstile in `src/styles/global.css`.
-- Optionale Benutzerkonten über Supabase (seit 04.11.2026, Paket K1): von Admins vergeben, Code unter `src/account/` und `supabase/`, Einrichtung in `supabase/EINRICHTUNG.md`. Bearbeitungsergebnisse aus Übungsbereich und Lernseiten werden weiterhin nur lokal im Browser gespeichert (`src/practice/storage.ts`), Antworttexte gar nicht.
+- Optionale Benutzerkonten über Supabase (seit 04.11.2026, Paket K1): von Admins vergeben, Code unter `src/account/` und `supabase/`, Einrichtung in `supabase/EINRICHTUNG.md`. Bearbeitungsergebnisse aus Übungsbereich und Lernseiten werden angemeldet im Konto gespeichert (Paket K2, `src/practice/PracticeRecordsContext.tsx`), ohne Konfiguration nur lokal im Browser (`src/practice/storage.ts`); Antworttexte gar nicht.
 
 Details, Schema-IDs, Ladepfade, Scripts und Einschränkungen stehen in `PROJECT_CONTEXT.md`.
 

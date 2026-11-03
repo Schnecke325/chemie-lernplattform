@@ -1,6 +1,7 @@
 import { lazy, Suspense, useState } from 'react'
 import { AccountProvider, accountsEnabled, useAccount } from './account/AccountContext'
 import { AppShell } from './components/AppShell'
+import { PracticeRecordsProvider } from './practice/PracticeRecordsContext'
 import { LoginGate } from './components/LoginGate'
 import { DashboardPage } from './pages/DashboardPage'
 import { PlaceholderPage } from './pages/PlaceholderPage'
@@ -19,16 +20,16 @@ export default function App() {
 /** Mit eingerichteten Konten sieht nur, wer angemeldet ist, die Lernbereiche. */
 function Workspace() {
   const { state } = useAccount()
-  if (!accountsEnabled) return <Pages/>
+  if (!accountsEnabled) return <Pages userId={null}/>
   if (state.status !== 'signed-in') return <LoginGate/>
   // Neuer Schlüssel je Konto: Nach einem Kontowechsel beginnt die Ansicht wieder beim Dashboard.
-  return <Pages key={state.profile.id}/>
+  return <Pages key={state.profile.id} userId={state.profile.id}/>
 }
 
-function Pages() {
+function Pages({ userId }: { userId: string | null }) {
   const [activePage, setActivePage] = useState<PageId>('dashboard')
 
-  return <AppShell activePage={activePage} onNavigate={setActivePage}>
+  return <PracticeRecordsProvider userId={userId}><AppShell activePage={activePage} onNavigate={setActivePage}>
     {activePage === 'dashboard'
       ? <DashboardPage onNavigate={setActivePage}/>
       : activePage === 'lernen'
@@ -40,5 +41,5 @@ function Pages() {
             : activePage === 'datenschutz'
               ? <PrivacyPage/>
               : <PlaceholderPage page={activePage}/>}
-  </AppShell>
+  </AppShell></PracticeRecordsProvider>
 }
