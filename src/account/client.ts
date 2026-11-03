@@ -12,7 +12,8 @@ export const supabase = createClient(import.meta.env.VITE_SUPABASE_URL!, import.
 /** Interne Platzhalter-Domain; muss zu supabase/functions/admin-users passen. Es werden nie E-Mails verschickt. */
 const loginDomain = 'chemie-lernraum.invalid'
 
-export const loginEmail = (username: string) => `${username.trim().toLowerCase()}@${loginDomain}`
+/** Ein versehentlich mit eingegebener Adressteil (@…) wird ignoriert. */
+export const loginEmail = (username: string) => `${username.trim().toLowerCase().split('@')[0]}@${loginDomain}`
 
 /** Zugangscodes werden in Viererblöcken angezeigt, aber ohne Trennzeichen und in Großbuchstaben gespeichert. */
 export const normalizeCode = (code: string) => code.toUpperCase().replace(/[^A-Z0-9]/g, '')

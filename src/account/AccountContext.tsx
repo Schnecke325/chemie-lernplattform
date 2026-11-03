@@ -66,7 +66,13 @@ export function AccountProvider({ children }: { children: ReactNode }) {
   const signIn = useCallback(async (username: string, code: string) => {
     const { supabase, loginEmail, normalizeCode } = await loadClient()
     setNotice(null)
-    const { error } = await supabase.auth.signInWithPassword({ email: loginEmail(username), password: normalizeCode(code) })
+    const email = loginEmail(username)
+    // Zuerst wie eingegeben (von Hand gesetzte Passwörter, z. B. beim ersten Admin), dann als erzeugter Code normalisiert.
+    const typed = code.trim()
+    let { error } = await supabase.auth.signInWithPassword({ email, password: typed })
+    if (error?.status === 400 && normalizeCode(typed) !== typed) {
+      ({ error } = await supabase.auth.signInWithPassword({ email, password: normalizeCode(typed) }))
+    }
     if (!error) return null
     if (error.status === 429) return 'Zu viele Anmeldeversuche. Bitte später erneut versuchen.'
     if (error.status === 400) return 'Benutzername oder Zugangscode ist falsch.'

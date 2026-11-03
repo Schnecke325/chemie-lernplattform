@@ -59,24 +59,47 @@ Der erste Admin muss von Hand angelegt werden; alle weiteren Konten entstehen da
 
 1. **Authentication → Users → Add user → Create new user**:
    - E-Mail: `<benutzername>@chemie-lernraum.invalid`. Der Benutzername darf nur Kleinbuchstaben, Ziffern, Punkt und Bindestrich enthalten, z. B. `rayan.a`.
-   - Passwort: ein vorläufiger Code aus 16 Zeichen, nur Großbuchstaben A–Z und Ziffern 2–9.
+   - Passwort: ein vorläufiges Passwort, mindestens 6 Zeichen. **Vorher aufschreiben**, nicht nur in die Zwischenablage kopieren.
    - **Auto Confirm User** anhaken.
-2. Im SQL Editor das Profil anlegen. Benutzername und Name dabei ersetzen:
+2. Erst wenn der Benutzer in der Liste steht: im SQL Editor (neue, leere Abfrage) das Profil anlegen. Benutzername und Name dabei ersetzen:
 
    ```sql
    insert into public.profiles (id, username, display_name, is_admin, can_view_archive)
    select id, 'rayan.a', 'Vorname Nachname', true, true
-   from auth.users where email = 'rayan.a@chemie-lernraum.invalid';
+   from auth.users where email = 'rayan.a@chemie-lernraum.invalid'
+   returning username, is_admin;
    ```
 
-3. Auf der Website mit Benutzername und vorläufigem Code anmelden.
+   Das Ergebnis muss eine Zeile mit dem Benutzernamen und `true` zeigen. „No rows returned“ heißt, dass es keinen Benutzer mit genau dieser Adresse gibt.
+
+3. Auf der Website mit dem Benutzernamen (ohne `@chemie-lernraum.invalid`) und dem vorläufigen Passwort anmelden.
 4. In der Benutzerverwaltung beim eigenen Konto **Neuer Code** wählen. So wird der vorläufige durch einen zufälligen Code ersetzt.
 
-Admin-Konten am besten unbefristet lassen. Ist kein gültiges Admin-Konto mehr vorhanden, lässt sich wieder nur über Schritt 6 ein Admin anlegen.
+Admin-Konten am besten unbefristet lassen und mindestens zwei Admins anlegen, damit einer dem anderen einen neuen Code erzeugen kann. Ist kein gültiges Admin-Konto mehr vorhanden, lässt sich wieder nur über Schritt 6 ein Admin anlegen.
+
+### Passwort des einzigen Admins vergessen
+
+Im SQL Editor ein neues vorläufiges Passwort setzen. Danach anmelden und sofort „Neuer Code“ wählen, weil das Passwort im SQL-Verlauf steht:
+
+```sql
+update auth.users
+set encrypted_password = extensions.crypt('NEUES-PASSWORT', extensions.gen_salt('bf'))
+where email = 'rayan.a@chemie-lernraum.invalid'
+returning email;
+```
+
+Löschen und neu anlegen geht beim einzigen Admin nicht: Die Datenbank lässt das letzte gültige Admin-Konto nicht entfernen.
+
+### Konten prüfen
+
+```sql
+select u.email, u.email_confirmed_at is not null as bestaetigt, p.username, p.is_admin, p.valid_until
+from auth.users u left join public.profiles p on p.id = u.id;
+```
 
 ## 7. Website verbinden
 
-Im Quellrepository `Schnecke325/chemie-lernplattform` unter **Settings → Secrets and variables → Actions**, Reiter **Variables** (nicht Secrets), zwei Repository-Variablen anlegen:
+Im Quellrepository `Schnecke325/chemie-lernplattform` unter **Settings → Secrets and variables → Actions**, Reiter **Variables** (nicht Secrets), zwei Repository-Variablen anlegen. Ins Feld **Value** gehört nur der Wert selbst, also ohne Namen, Pfeil, Anführungszeichen oder Leerzeichen; Teile in spitzen Klammern sind durch die eigenen Angaben zu ersetzen:
 
 | Name | Wert | Fundort in Supabase |
 |---|---|---|
