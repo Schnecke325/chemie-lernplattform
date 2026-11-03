@@ -16,6 +16,10 @@ interface ArchiveExam {
   focus: string
   further: string
   fields: string[]
+  /** Kapitel aus Lernseiten-Belegen und Hauptfokus-Feldern */
+  chapterIds: string[]
+  /** Lernseiten, die diese Prüfung als Beleg nennen */
+  lessonIds: string[]
   practice: Array<{ chapterId: string; lessonId?: string }>
   practiceMatch: 'lesson' | 'chapter' | 'none'
 }
@@ -26,6 +30,9 @@ const notes = archiveData.notes as ArchiveNote[]
 const years = [...new Set(exams.map((exam) => exam.year))]
 const fields = [...new Set(exams.flatMap((exam) => exam.fields))].sort((a, b) => a.localeCompare(b, 'de', { numeric: true }))
 const chapterTitles = new Map(learningCatalog.chapters.map((chapter) => [chapter.id, chapter.title]))
+// Nur Kapitel und Lernseiten anbieten, zu denen es Prüfungen gibt, in Katalogreihenfolge
+const topicChapters = [...learningCatalog.chapters].sort((a, b) => a.order - b.order)
+  .filter((chapter) => exams.some((exam) => exam.chapterIds.includes(chapter.id)))
 const lessonTitles = new Map(learningCatalog.chapters.flatMap((chapter) => chapter.children.filter((child) => child.lessonId).map((child) => [child.lessonId!, child.title])))
 
 /** Abiturarchiv: jede Prüfung einzeln, Original-PDF nur mit dem Recht „Abiturarchiv“. */
@@ -43,6 +50,8 @@ function ArchiveList({ onPractice }: { onPractice: (focus: ExerciseFocus) => voi
   const [year, setYear] = useState('')
   const [term, setTerm] = useState('')
   const [field, setField] = useState('')
+  const [chapterId, setChapterId] = useState('')
+  const [lessonId, setLessonId] = useState('')
   const [opening, setOpening] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [uploaded, setUploaded] = useState<Set<string> | null>(null)
@@ -53,8 +62,12 @@ function ArchiveList({ onPractice }: { onPractice: (focus: ExerciseFocus) => voi
     import('../practice/remote').then((remote) => remote.listArchiveFiles()).then(setUploaded).catch(() => setUploaded(null))
   }, [admin])
 
+  const subtopics = useMemo(() => [...(topicChapters.find((chapter) => chapter.id === chapterId)?.children ?? [])]
+    .sort((a, b) => a.order - b.order)
+    .filter((child) => child.lessonId && exams.some((exam) => exam.lessonIds.includes(child.lessonId!))), [chapterId])
   const filtered = useMemo(() => exams.filter((exam) => (!year || exam.year === Number(year))
-    && (!term || exam.term === term) && (!field || exam.fields.includes(field))), [year, term, field])
+    && (!term || exam.term === term) && (!field || exam.fields.includes(field))
+    && (!chapterId || exam.chapterIds.includes(chapterId)) && (!lessonId || exam.lessonIds.includes(lessonId))), [year, term, field, chapterId, lessonId])
   const missing = uploaded ? exams.filter((exam) => !uploaded.has(exam.file)) : []
 
   const openPdf = async (exam: ArchiveExam) => {
@@ -87,8 +100,11 @@ function ArchiveList({ onPractice }: { onPractice: (focus: ExerciseFocus) => voi
       <label>Jahr<select value={year} onChange={(event) => setYear(event.target.value)}><option value="">Alle</option>{years.map((value) => <option key={value} value={value}>{value}</option>)}</select></label>
       <label>Termin<select value={term} onChange={(event) => setTerm(event.target.value)}><option value="">HT und NT</option><option value="HT">Haupttermin</option><option value="NT">Nachtermin</option></select></label>
       <label>KCGO-Feld<select value={field} onChange={(event) => setField(event.target.value)}><option value="">Alle</option>{fields.map((value) => <option key={value} value={value}>{value}</option>)}</select></label>
+      <label>Thema<select value={chapterId} onChange={(event) => { setChapterId(event.target.value); setLessonId('') }}><option value="">Alle Themen</option>{topicChapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</select></label>
+      <label>Unterthema<select value={lessonId} disabled={!chapterId || subtopics.length === 0} onChange={(event) => setLessonId(event.target.value)}><option value="">{chapterId ? 'Alle Unterthemen' : 'Erst Thema wählen'}</option>{subtopics.map((child) => <option key={child.lessonId} value={child.lessonId}>{child.title}</option>)}</select></label>
       <span className="archive-count">{filtered.length} von {exams.length}</span>
     </div>
+    {lessonId && <p className="archive-filter-note">Beim Unterthema erscheinen die Prüfungen, die auf dieser Lernseite als Beleg genannt sind. Weitere Prüfungen zum Thema zeigt der Themenfilter allein.</p>}
 
     {error && <p className="account-message is-error" role="alert">{error}</p>}
 

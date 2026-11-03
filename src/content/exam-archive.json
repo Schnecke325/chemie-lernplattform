@@ -15,6 +15,15 @@
         "Q2.1",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.q2.1.amino-acids-peptides",
+        "chem.q2.1.proteins",
+        "chem.q3.4.buffers"
+      ],
       "practice": [
         {
           "chapterId": "chem.q2.1",
@@ -45,6 +54,15 @@
         "Q2.1",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q1.1.q2.3",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.q1.4.q4.3.surfactants",
+        "chem.q2.1.fats-oils"
+      ],
       "practice": [
         {
           "chapterId": "chem.applications",
@@ -70,6 +88,18 @@
         "Q1.1",
         "Q3.3",
         "Q2.2"
+      ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q2.2",
+        "chem.q3.3"
+      ],
+      "lessonIds": [
+        "chem.q1.1.bonding",
+        "chem.q1.1.inorganic-structures",
+        "chem.q3.3.advanced",
+        "chem.q3.3.redox"
       ],
       "practice": [
         {
@@ -104,6 +134,15 @@
         "Q2.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1",
+        "chem.q2.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.organic-tests",
+        "chem.q2.2.sustainability"
+      ],
       "practice": [
         {
           "chapterId": "chem.experimental",
@@ -129,6 +168,17 @@
         "Q1.3",
         "Q3.1",
         "Q3.2"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.quantitative",
+        "chem.q1.3.esters",
+        "chem.q3.1.applications"
       ],
       "practice": [
         {
@@ -159,6 +209,16 @@
         "Q1.1",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.basics",
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [
+        "chem.basics.representation",
+        "chem.q1.1.mechanisms",
+        "chem.q2.3.aromatics"
+      ],
       "practice": [
         {
           "chapterId": "chem.basics",
@@ -186,6 +246,16 @@
       "further": "PTFE, Polymerisation, Isomerie, Polyaddition",
       "fields": [
         "Q2.2"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.qualitative",
+        "chem.q2.2.polycondensation-polyaddition",
+        "chem.q2.2.properties",
+        "chem.q2.4.organic-materials"
       ],
       "practice": [
         {
@@ -220,6 +290,15 @@
         "Q2.1",
         "Q3.3"
       ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1",
+        "chem.q3.3"
+      ],
+      "lessonIds": [
+        "chem.experimental.organic-tests",
+        "chem.q2.1.proteins"
+      ],
       "practice": [
         {
           "chapterId": "chem.experimental",
@@ -245,6 +324,14 @@
         "Q2.1",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.observation"
+      ],
       "practice": [
         {
           "chapterId": "chem.experimental",
@@ -265,6 +352,13 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.q1.1.interactions"
+      ],
       "practice": [
         {
           "chapterId": "chem.q1.1",
@@ -284,6 +378,16 @@
       "further": "Neutralisation, Titration, Esterverseifung",
       "fields": [
         "Q3.2"
+      ],
+      "chapterIds": [
+        "chem.basics",
+        "chem.experimental",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.basics.quantities",
+        "chem.experimental.qualitative",
+        "chem.q3.2.titration"
       ],
       "practice": [
         {
@@ -315,6 +419,14 @@
         "Q2.2",
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1",
+        "chem.q2.2",
+        "chem.q3.1"
+      ],
+      "lessonIds": [
+        "chem.q3.1.shifts"
+      ],
       "practice": [
         {
           "chapterId": "chem.q3.1",
@@ -335,6 +447,16 @@
       "fields": [
         "Q2.1",
         "Q3.2"
+      ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.q1.1.inorganic-structures",
+        "chem.q2.1.carbohydrates",
+        "chem.q3.2.ph"
       ],
       "practice": [
         {
@@ -365,6 +487,15 @@
         "Q2.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q2.1",
+        "chem.q2.2"
+      ],
+      "lessonIds": [
+        "chem.applications.evaluation",
+        "chem.q2.1.biopolymers"
+      ],
       "practice": [
         {
           "chapterId": "chem.applications",
@@ -390,10 +521,12 @@
         "Q3.3",
         "Q4.1"
       ],
+      "chapterIds": [
+        "chem.q3.3",
+        "chem.q4.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q3.3"
         },
@@ -416,12 +549,21 @@
         "Q1.3",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q2.2",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
         {
           "chapterId": "chem.q2.2"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -439,6 +581,16 @@
         "Q3.1",
         "Q3.3",
         "Q1.1"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q3.1",
+        "chem.q3.3"
+      ],
+      "lessonIds": [
+        "chem.experimental.qualitative"
       ],
       "practice": [
         {
@@ -462,10 +614,13 @@
         "Q2.3",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q2.1",
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1.q2.3"
         },
@@ -491,6 +646,14 @@
         "Q1.3",
         "Q4.1"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2",
+        "chem.q4.1"
+      ],
+      "lessonIds": [
+        "chem.q1.3.carboxylic-acids"
+      ],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups",
@@ -511,6 +674,19 @@
       "fields": [
         "Q3.1",
         "Q4.1"
+      ],
+      "chapterIds": [
+        "chem.basics",
+        "chem.experimental",
+        "chem.q3.1",
+        "chem.q4.1"
+      ],
+      "lessonIds": [
+        "chem.basics.data",
+        "chem.experimental.qualitative",
+        "chem.q3.1.applications",
+        "chem.q3.1.mwg",
+        "chem.q3.5.kinetics"
       ],
       "practice": [
         {
@@ -548,10 +724,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -569,6 +746,13 @@
       "further": "Addition, Verbrennung, Isomerie",
       "fields": [
         "Q1.1"
+      ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [
+        "chem.q1.1.hydrocarbons"
       ],
       "practice": [
         {
@@ -591,10 +775,12 @@
         "Q3.1",
         "Q3.3"
       ],
+      "chapterIds": [
+        "chem.q3.1",
+        "chem.q3.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q3.1"
         },
@@ -618,6 +804,14 @@
         "Q4.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.2",
+        "chem.q3.1",
+        "chem.q4.1"
+      ],
+      "lessonIds": [
+        "chem.q4.1.entropy-gibbs"
+      ],
       "practice": [
         {
           "chapterId": "chem.q4.1",
@@ -639,15 +833,21 @@
         "Q1.3",
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
         {
           "chapterId": "chem.q2.1"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -665,6 +865,15 @@
         "Q1.2",
         "Q2.2",
         "Q4.1"
+      ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q2.2",
+        "chem.q4.1"
+      ],
+      "lessonIds": [
+        "chem.q1.3.esters",
+        "chem.q4.1.hess"
       ],
       "practice": [
         {
@@ -692,6 +901,15 @@
         "Q3.2",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q1.organic-functional-groups",
+        "chem.q2.2",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.qualitative"
+      ],
       "practice": [
         {
           "chapterId": "chem.experimental",
@@ -713,10 +931,12 @@
         "Q1.1",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -739,6 +959,13 @@
         "Q1.4",
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.q2.1.fats-oils"
+      ],
       "practice": [
         {
           "chapterId": "chem.q2.1",
@@ -760,10 +987,13 @@
         "Q1.1",
         "Q3.3"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q3.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -789,6 +1019,13 @@
         "Q2.2",
         "Q4.1"
       ],
+      "chapterIds": [
+        "chem.q2.2",
+        "chem.q4.1"
+      ],
+      "lessonIds": [
+        "chem.q2.2.polymerization"
+      ],
       "practice": [
         {
           "chapterId": "chem.q2.2",
@@ -810,12 +1047,21 @@
         "Q3.1",
         "Q1.3"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
         {
           "chapterId": "chem.q3.1"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -832,6 +1078,14 @@
       "fields": [
         "Q2.1",
         "Q3.2"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.quantitative"
       ],
       "practice": [
         {
@@ -855,10 +1109,14 @@
         "Q3.3",
         "Q4.1"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q3.3",
+        "chem.q4.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -887,10 +1145,12 @@
         "Q2.1",
         "Q3.3"
       ],
+      "chapterIds": [
+        "chem.q2.1",
+        "chem.q3.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         },
@@ -913,6 +1173,13 @@
         "Q1.2",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.q1.2.alcohols"
+      ],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups",
@@ -932,6 +1199,13 @@
       "further": "Elektrochemie, Korrosionsschutz/Polymerbeschichtung",
       "fields": [
         "Q3.3"
+      ],
+      "chapterIds": [
+        "chem.q3.3"
+      ],
+      "lessonIds": [
+        "chem.q3.3.electrolysis-corrosion",
+        "chem.q3.3.galvanic-cells"
       ],
       "practice": [
         {
@@ -958,10 +1232,14 @@
         "Q1.1",
         "Q1.3"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -970,6 +1248,9 @@
         },
         {
           "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -986,6 +1267,14 @@
       "fields": [
         "Q2.1",
         "Q2.2"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1",
+        "chem.q2.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.observation"
       ],
       "practice": [
         {
@@ -1009,10 +1298,13 @@
         "Q2.2",
         "Q3.3"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q2.2",
+        "chem.q3.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
@@ -1039,6 +1331,14 @@
         "Q2.1",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q1.organic-functional-groups",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.q1.2.carbonyls"
+      ],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups",
@@ -1060,6 +1360,14 @@
         "Q2.1",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.organic-tests"
+      ],
       "practice": [
         {
           "chapterId": "chem.experimental",
@@ -1080,6 +1388,15 @@
       "fields": [
         "Q3.1",
         "Q3.3"
+      ],
+      "chapterIds": [
+        "chem.q3.1",
+        "chem.q3.3"
+      ],
+      "lessonIds": [
+        "chem.q3.3.advanced",
+        "chem.q3.3.electrolysis-corrosion",
+        "chem.q3.3.redox"
       ],
       "practice": [
         {
@@ -1111,15 +1428,21 @@
         "Q1.3",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1.q2.3"
         },
         {
           "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -1136,6 +1459,14 @@
       "fields": [
         "Q2.2",
         "Q3.2"
+      ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q2.2",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.applications.evaluation"
       ],
       "practice": [
         {
@@ -1159,6 +1490,14 @@
         "Q3.3",
         "Q4.1"
       ],
+      "chapterIds": [
+        "chem.q3.1",
+        "chem.q3.3",
+        "chem.q4.1"
+      ],
+      "lessonIds": [
+        "chem.q3.3.galvanic-cells"
+      ],
       "practice": [
         {
           "chapterId": "chem.q3.3",
@@ -1179,6 +1518,13 @@
       "fields": [
         "Q2.1",
         "Q2.2"
+      ],
+      "chapterIds": [
+        "chem.q2.1",
+        "chem.q2.2"
+      ],
+      "lessonIds": [
+        "chem.q2.1.biopolymers"
       ],
       "practice": [
         {
@@ -1201,10 +1547,12 @@
         "Q1.3",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
@@ -1227,10 +1575,12 @@
         "Q1.1",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -1252,6 +1602,10 @@
       "fields": [
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q2.2"
@@ -1272,10 +1626,12 @@
         "Q2.3",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1.q2.3"
         },
@@ -1297,6 +1653,16 @@
       "fields": [
         "Q1.3",
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.basics",
+        "chem.q1.organic-functional-groups",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.basics.quantities",
+        "chem.q3.2.titration"
       ],
       "practice": [
         {
@@ -1323,6 +1689,11 @@
         "Q2.3",
         "Q4.1"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q4.1"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.1.q2.3"
@@ -1346,10 +1717,13 @@
         "Q1.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -1375,10 +1749,13 @@
         "Q1.1",
         "Q3.3"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q3.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -1403,6 +1780,18 @@
       "fields": [
         "Q1.3",
         "Q4.1"
+      ],
+      "chapterIds": [
+        "chem.basics",
+        "chem.q1.1",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2",
+        "chem.q4.1"
+      ],
+      "lessonIds": [
+        "chem.basics.representation",
+        "chem.q1.1.interactions",
+        "chem.q4.1.enthalpy"
       ],
       "practice": [
         {
@@ -1434,10 +1823,14 @@
         "Q2.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q2.1",
+        "chem.q2.2",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
@@ -1446,6 +1839,9 @@
         },
         {
           "chapterId": "chem.q2.2"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -1462,6 +1858,14 @@
       "fields": [
         "Q1.2",
         "Q2.2"
+      ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q1.organic-functional-groups",
+        "chem.q2.2"
+      ],
+      "lessonIds": [
+        "chem.q1.1.mechanisms"
       ],
       "practice": [
         {
@@ -1484,6 +1888,13 @@
         "Q1.2",
         "Q1.3"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.q1.3.esters"
+      ],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups",
@@ -1503,6 +1914,13 @@
       "further": "Naturstoffe und Stoffeigenschaften",
       "fields": [
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.experimental.observation"
       ],
       "practice": [
         {
@@ -1525,6 +1943,16 @@
         "Q1.3",
         "Q3.2",
         "Q3.3"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2",
+        "chem.q3.3"
+      ],
+      "lessonIds": [
+        "chem.experimental.organic-tests",
+        "chem.experimental.separation"
       ],
       "practice": [
         {
@@ -1551,12 +1979,14 @@
         "Q2.1",
         "Q1.4"
       ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.applications"
-        },
-        {
-          "chapterId": "chem.experimental"
         },
         {
           "chapterId": "chem.q2.1"
@@ -1575,6 +2005,13 @@
       "further": "Protein/Nachweis, Struktur und Bewertung",
       "fields": [
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.experimental.qualitative"
       ],
       "practice": [
         {
@@ -1596,6 +2033,15 @@
       "fields": [
         "Q1.3",
         "Q3.2"
+      ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.q1.3.carboxylic-acids",
+        "chem.q3.2.ph",
+        "chem.q3.2.protolysis"
       ],
       "practice": [
         {
@@ -1626,10 +2072,12 @@
         "Q2.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.1",
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         },
@@ -1651,6 +2099,16 @@
       "fields": [
         "Q1.1",
         "Q2.2"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q2.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.organic-tests",
+        "chem.q1.1.hydrocarbons"
       ],
       "practice": [
         {
@@ -1677,6 +2135,15 @@
         "Q3.1",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.basics",
+        "chem.q1.1.q2.3",
+        "chem.q3.1"
+      ],
+      "lessonIds": [
+        "chem.basics.data",
+        "chem.q3.1.shifts"
+      ],
       "practice": [
         {
           "chapterId": "chem.basics",
@@ -1702,10 +2169,12 @@
         "Q2.1",
         "Q1.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
@@ -1727,6 +2196,12 @@
       "fields": [
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [
+        "chem.q2.3.aromatics"
+      ],
       "practice": [
         {
           "chapterId": "chem.q1.1.q2.3",
@@ -1746,6 +2221,14 @@
       "further": "Aminosäure/Peptid, Redox, Protolyse",
       "fields": [
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.experimental.separation",
+        "chem.q2.1.amino-acids-peptides"
       ],
       "practice": [
         {
@@ -1772,10 +2255,12 @@
         "Q3.1",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q3.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q3.1"
         },
@@ -1799,10 +2284,13 @@
         "Q3.3",
         "Q4.1"
       ],
+      "chapterIds": [
+        "chem.q2.2",
+        "chem.q3.3",
+        "chem.q4.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.2"
         },
@@ -1828,6 +2316,14 @@
         "Q1.3",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.q1.5.preservatives"
+      ],
       "practice": [
         {
           "chapterId": "chem.q3.2",
@@ -1847,6 +2343,14 @@
       "further": "Fischer-/Ringformen, Zuckeraufbau",
       "fields": [
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.experimental.observation",
+        "chem.q2.1.carbohydrates"
       ],
       "practice": [
         {
@@ -1872,9 +2376,17 @@
       "fields": [
         "Q1.3"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -1891,6 +2403,13 @@
       "fields": [
         "Q1.4",
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.q1.4.q4.3.surfactants"
       ],
       "practice": [
         {
@@ -1911,6 +2430,14 @@
       "further": "Peptidsynthese, Aromatenreaktion/Nachweis",
       "fields": [
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.experimental.organic-tests",
+        "chem.q2.1.amino-acids-peptides"
       ],
       "practice": [
         {
@@ -1937,6 +2464,14 @@
         "Q1.5",
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.q1.5.preservatives"
+      ],
       "practice": [
         {
           "chapterId": "chem.q3.2",
@@ -1958,10 +2493,12 @@
         "Q3.1",
         "Q3.3"
       ],
+      "chapterIds": [
+        "chem.q3.1",
+        "chem.q3.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q3.1"
         },
@@ -1983,6 +2520,10 @@
       "fields": [
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q2.2"
@@ -2003,10 +2544,12 @@
         "Q3.1",
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1",
+        "chem.q3.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         },
@@ -2028,6 +2571,16 @@
       "fields": [
         "Q2.1",
         "Q1.3"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q1.organic-functional-groups",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.organic-tests",
+        "chem.experimental.quantitative"
       ],
       "practice": [
         {
@@ -2053,6 +2606,10 @@
       "fields": [
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.1.q2.3"
@@ -2072,10 +2629,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -2095,6 +2653,11 @@
         "Q2.3",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.1.q2.3"
@@ -2117,10 +2680,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -2139,6 +2703,13 @@
       "fields": [
         "Q4.2",
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.q4.2.energy-sustainability"
       ],
       "practice": [
         {
@@ -2161,12 +2732,21 @@
         "Q1.3",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.1.q2.3"
         },
         {
           "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -2184,6 +2764,11 @@
         "Q3.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.2",
+        "chem.q3.1"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q2.2"
@@ -2207,12 +2792,21 @@
         "Q1.3",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q2.2",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
         {
           "chapterId": "chem.q2.2"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -2229,10 +2823,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -2251,10 +2846,11 @@
       "fields": [
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q3.2"
         }
@@ -2274,10 +2870,12 @@
         "Q1.3",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
@@ -2300,6 +2898,15 @@
         "Q1.3",
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q1.organic-functional-groups",
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.qualitative"
+      ],
       "practice": [
         {
           "chapterId": "chem.experimental",
@@ -2320,6 +2927,10 @@
       "fields": [
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.1.q2.3"
@@ -2340,12 +2951,21 @@
         "Q1.3",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.1.q2.3"
         },
         {
           "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -2362,9 +2982,17 @@
       "fields": [
         "Q1.3"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -2382,10 +3010,12 @@
         "Q2.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.1",
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         },
@@ -2408,12 +3038,14 @@
         "Q3.3",
         "Q4.2"
       ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q3.3"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.applications"
-        },
-        {
-          "chapterId": "chem.experimental"
         },
         {
           "chapterId": "chem.q3.3"
@@ -2433,10 +3065,12 @@
       "fields": [
         "Q1.1"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -2458,6 +3092,10 @@
       "fields": [
         "Q3.1"
       ],
+      "chapterIds": [
+        "chem.q3.1"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q3.1"
@@ -2477,10 +3115,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -2498,6 +3137,13 @@
       "further": "Additionen, Reaktionsgleichungen",
       "fields": [
         "Q1.1"
+      ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [
+        "chem.q1.1.hydrocarbons"
       ],
       "practice": [
         {
@@ -2519,6 +3165,10 @@
       "fields": [
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q1.1.q2.3"
@@ -2539,10 +3189,14 @@
         "Q1.1",
         "Q1.3"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -2551,6 +3205,9 @@
         },
         {
           "chapterId": "chem.q1.organic-functional-groups"
+        },
+        {
+          "chapterId": "chem.q3.2"
         }
       ],
       "practiceMatch": "chapter"
@@ -2567,6 +3224,10 @@
       "fields": [
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q2.2"
@@ -2587,10 +3248,12 @@
         "Q1.3",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
@@ -2612,10 +3275,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -2635,6 +3299,11 @@
         "Q3.1",
         "Q4.1"
       ],
+      "chapterIds": [
+        "chem.q3.1",
+        "chem.q4.1"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q3.1"
@@ -2658,10 +3327,12 @@
         "Q1.3",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.organic-functional-groups"
         },
@@ -2683,10 +3354,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -2706,10 +3378,12 @@
         "Q2.1",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q2.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         },
@@ -2731,6 +3405,12 @@
       "fields": [
         "Q1.2"
       ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups"
+      ],
+      "lessonIds": [
+        "chem.q1.2.carbonyls"
+      ],
       "practice": [
         {
           "chapterId": "chem.q1.organic-functional-groups",
@@ -2751,6 +3431,10 @@
       "fields": [
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q2.2"
@@ -2771,10 +3455,12 @@
         "Q3.1",
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.q3.1",
+        "chem.q3.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q3.1"
         },
@@ -2797,10 +3483,12 @@
         "Q1.1",
         "Q2.3"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -2823,10 +3511,13 @@
         "Q1.1",
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3",
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -2850,6 +3541,14 @@
       "further": "Stoffmengenkonzentration, Oxidation/Nachweis",
       "fields": [
         "Q1.2"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q1.organic-functional-groups"
+      ],
+      "lessonIds": [
+        "chem.experimental.qualitative",
+        "chem.experimental.separation"
       ],
       "practice": [
         {
@@ -2875,6 +3574,13 @@
       "fields": [
         "Q3.2"
       ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.experimental.quantitative"
+      ],
       "practice": [
         {
           "chapterId": "chem.experimental",
@@ -2894,6 +3600,13 @@
       "further": "Kohlenhydratstruktur und Reaktionen",
       "fields": [
         "Q2.1"
+      ],
+      "chapterIds": [
+        "chem.experimental",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.experimental.organic-tests"
       ],
       "practice": [
         {
@@ -2916,6 +3629,13 @@
         "Q2.1",
         "Q4.2"
       ],
+      "chapterIds": [
+        "chem.applications",
+        "chem.q2.1"
+      ],
+      "lessonIds": [
+        "chem.q4.2.energy-sustainability"
+      ],
       "practice": [
         {
           "chapterId": "chem.applications",
@@ -2936,6 +3656,10 @@
       "fields": [
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q2.2"
@@ -2955,6 +3679,10 @@
       "fields": [
         "Q3.1"
       ],
+      "chapterIds": [
+        "chem.q3.1"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q3.1"
@@ -2974,10 +3702,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -2996,6 +3725,13 @@
       "fields": [
         "Q3.1",
         "Q4.1"
+      ],
+      "chapterIds": [
+        "chem.q3.1"
+      ],
+      "lessonIds": [
+        "chem.q3.1.applications",
+        "chem.q3.1.mwg"
       ],
       "practice": [
         {
@@ -3021,6 +3757,10 @@
       "fields": [
         "Q2.2"
       ],
+      "chapterIds": [
+        "chem.q2.2"
+      ],
+      "lessonIds": [],
       "practice": [
         {
           "chapterId": "chem.q2.2"
@@ -3040,6 +3780,13 @@
       "fields": [
         "Q1.1",
         "Q2.3"
+      ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [
+        "chem.q2.3.aromatics"
       ],
       "practice": [
         {
@@ -3061,10 +3808,11 @@
       "fields": [
         "Q2.1"
       ],
+      "chapterIds": [
+        "chem.q2.1"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q2.1"
         }
@@ -3082,6 +3830,12 @@
       "further": "Stoffeigenschaften, Reaktionsgleichungen",
       "fields": [
         "Q1.2"
+      ],
+      "chapterIds": [
+        "chem.q1.organic-functional-groups"
+      ],
+      "lessonIds": [
+        "chem.q1.2.alcohols"
       ],
       "practice": [
         {
@@ -3103,10 +3857,12 @@
       "fields": [
         "Q1.1"
       ],
+      "chapterIds": [
+        "chem.q1.1",
+        "chem.q1.1.q2.3"
+      ],
+      "lessonIds": [],
       "practice": [
-        {
-          "chapterId": "chem.experimental"
-        },
         {
           "chapterId": "chem.q1.1"
         },
@@ -3127,6 +3883,12 @@
       "further": "Säure-Base, Gleichgewicht",
       "fields": [
         "Q3.2"
+      ],
+      "chapterIds": [
+        "chem.q3.2"
+      ],
+      "lessonIds": [
+        "chem.q3.2.protolysis"
       ],
       "practice": [
         {

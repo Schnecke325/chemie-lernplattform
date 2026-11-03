@@ -32,12 +32,15 @@ const exams = [...analysis.matchAll(/^\| (20\d\d) (HT|NT) ([A-D]), PDF ([^|]+?) 
   const focusFields = focus.match(fieldPattern) ?? fields
   // Übungsbezug: Lernseiten, die diese Prüfung selbst als Beleg nennen; sonst die Kapitel der Hauptfokus-Felder
   const direct = (directLessons.get(id) ?? []).sort()
-  const fieldChapters = [...new Set(lessons
-    .filter((lesson) => lesson.curriculum.some((reference) => focusFields.includes(reference.fieldId)))
-    .map((lesson) => chapterOf.get(lesson.id)).filter(Boolean))].sort()
+  const fieldChapters = catalog.chapters
+    .filter((chapter) => chapter.curriculumRefs.some((ref) => focusFields.includes(ref))).map((chapter) => chapter.id).sort()
+  const lessonChapters = direct.map((lessonId) => chapterOf.get(lessonId))
   return {
     id, year: Number(year), term, proposal, file, pages: plain(pages),
     focus: plain(focus), further: plain(further), fields,
+    // Für die Filter: Kapitel aus den Belegen der Lernseiten und aus den Hauptfokus-Feldern, Lernseiten nur aus Belegen
+    chapterIds: [...new Set([...lessonChapters, ...fieldChapters])].sort(),
+    lessonIds: direct,
     practice: direct.length > 0
       ? direct.map((lessonId) => ({ chapterId: chapterOf.get(lessonId), lessonId }))
       : fieldChapters.map((chapterId) => ({ chapterId })),
