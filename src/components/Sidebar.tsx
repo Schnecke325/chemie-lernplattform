@@ -11,9 +11,9 @@ const items: NavigationItem[] = [
 
 const adminItem: NavigationItem = { id: 'admin', label: 'Benutzerverwaltung', icon: 'shield' }
 
-interface SidebarProps { activePage: PageId; onNavigate: (page: PageId) => void; open: boolean; onClose: () => void; showAdmin: boolean; showArchive: boolean }
+interface SidebarProps { activePage: PageId; onNavigate: (page: PageId) => void; open: boolean; onClose: () => void; showAdmin: boolean; showArchive: boolean; onLeaveSubject: () => void }
 
-export function Sidebar({ activePage, onNavigate, open, onClose, showAdmin, showArchive }: SidebarProps) {
+export function Sidebar({ activePage, onNavigate, open, onClose, showAdmin, showArchive, onLeaveSubject }: SidebarProps) {
   const navButton = (item: NavigationItem) => <button key={item.id} className={`nav-item ${activePage === item.id ? 'active' : ''}`} onClick={() => { onNavigate(item.id); onClose() }} aria-current={activePage === item.id ? 'page' : undefined}>
     <Icon name={item.icon}/><span>{item.label}</span>{activePage === item.id && <span className="nav-indicator"/>}
   </button>
@@ -24,6 +24,7 @@ export function Sidebar({ activePage, onNavigate, open, onClose, showAdmin, show
         <span className="brand-mark"><Icon name="flask" size={22}/></span>
         <span className="brand-copy"><strong>chemie<span>.</span></strong><small>LERNRAUM · LK</small></span>
       </a>
+      <button className="sidebar-back" onClick={onLeaveSubject}><Icon name="arrow" size={13}/> ALLE FÄCHER</button>
       <div className="nav-label">LERNEN</div>
       <nav className="main-nav" aria-label="Hauptnavigation">
         {items.filter((item) => showArchive || item.id !== 'abiturarchiv').map(navButton)}

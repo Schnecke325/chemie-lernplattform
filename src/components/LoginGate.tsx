@@ -16,8 +16,8 @@ export function LoginGate() {
 
   return <div className="gate">
     <header className="gate-brand">
-      <span className="brand-mark"><Icon name="flask" size={22}/></span>
-      <span className="brand-copy"><strong>chemie<span>.</span></strong><small>LERNRAUM · LK</small></span>
+      <span className="brand-mark"><Icon name="spark" size={22}/></span>
+      <span className="brand-copy"><strong>lernraum<span>.</span></strong><small>OBERSTUFE · HESSEN</small></span>
     </header>
     {showPrivacy
       ? <main className="gate-privacy">
@@ -26,7 +26,7 @@ export function LoginGate() {
       </main>
       : <main className="gate-main">
         <section className="gate-intro">
-          <div className="eyebrow"><span className="eyebrow-line"/> HESSEN · CHEMIE LEISTUNGSKURS</div>
+          <div className="eyebrow"><span className="eyebrow-line"/> HESSEN · OBERSTUFE</div>
           <h1>Willkommen im <span>Lernraum.</span></h1>
           <p>Erklärungen, Übungen und Abiturvorbereitung für unseren Kurs. Melde dich mit den Zugangsdaten an, die du von einem Admin bekommen hast.</p>
         </section>
@@ -35,7 +35,7 @@ export function LoginGate() {
         </section>
       </main>}
     <footer className="gate-footer">
-      <span>Ein Lernprojekt für das hessische Chemie-Landesabitur</span>
+      <span>Ein Lernprojekt für das hessische Landesabitur</span>
       {!showPrivacy && <button className="footer-link" onClick={() => setShowPrivacy(true)}>DATENSCHUTZ</button>}
     </footer>
   </div>

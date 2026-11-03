@@ -11,3 +11,6 @@
 .account-button{padding:0;cursor:pointer}.account-button:hover{background:#20362e}.nav-label-admin{margin-top:22px}.footer-link{padding:0;border:0;background:none;color:#81918c;font:inherit;letter-spacing:inherit;cursor:pointer}.footer-link:hover{color:var(--mint)}
 @media(max-width:370px){.topbar-right{display:flex}}
 .lower-grid.is-single{grid-template-columns:minmax(0,1fr)}
+.sidebar-back{display:flex;align-items:center;gap:8px;margin:-18px 9px 22px;padding:0;border:0;background:none;color:#7f8d94;font:10px var(--mono);letter-spacing:1px;cursor:pointer}
+.sidebar-back:hover{color:var(--mint)}
+.sidebar-back svg{transform:rotate(180deg)}

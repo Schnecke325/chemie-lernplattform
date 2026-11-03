@@ -5,12 +5,12 @@ import { AccountDialog } from './AccountDialog'
 import { Icon } from './Icon'
 import { Sidebar } from './Sidebar'
 
-interface AppShellProps { activePage: PageId; onNavigate: (page: PageId) => void; children: ReactNode }
+interface AppShellProps { activePage: PageId; onNavigate: (page: PageId) => void; onLeaveSubject: () => void; children: ReactNode }
 
 // Das Periodensystem wird erst beim ersten Öffnen geladen.
 const PeriodicTable = lazy(() => import('./PeriodicTable'))
 
-export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
+export function AppShell({ activePage, onNavigate, onLeaveSubject, children }: AppShellProps) {
   const [menuOpen, setMenuOpen] = useState(false)
   const [tableOpen, setTableOpen] = useState(false)
   const tableButtonRef = useRef<HTMLButtonElement>(null)
@@ -28,7 +28,7 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
   const profile = account.status === 'signed-in' ? account.profile : null
   const canViewArchive = useCanViewArchive()
   return <div className="app-shell">
-    <Sidebar activePage={activePage} onNavigate={onNavigate} open={menuOpen} onClose={() => setMenuOpen(false)} showAdmin={Boolean(profile?.is_admin)} showArchive={canViewArchive} />
+    <Sidebar activePage={activePage} onNavigate={onNavigate} open={menuOpen} onClose={() => setMenuOpen(false)} showAdmin={Boolean(profile?.is_admin)} showArchive={canViewArchive} onLeaveSubject={onLeaveSubject} />
     <main className="main-area">
       <header className="topbar">
         <button className="mobile-menu icon-button" aria-label="Navigation öffnen" onClick={() => setMenuOpen(true)}><Icon name="menu"/></button>
