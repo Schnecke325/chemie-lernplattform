@@ -22,7 +22,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Ausbau knapper Lernseiten:** Acht Seiten mit Erklärtexten unter 2.000 Zeichen (vier Q3.3-Seiten zur Elektrochemie sowie Protolyse, Carbonsäuren, Aldehyde und Ketone, technische Gleichgewichte) wurden am 04.11.2026 in zwei Paketen ergänzt, einschließlich der zuvor fehlenden KCGO-Inhalte Konzentrationszelle und Wasserelektrolyse.
 - **Freigabe der Lernseiten:** Alle 47 Lernseiten stehen seit 04.11.2026 auf `publicationStatus: "published"` (Entscheidung des Nutzers nach Abschluss der inhaltlichen Überarbeitungen, ohne formale Prüfkriterien). Der Redaktionshinweis wird nur noch für nicht freigegebene Seiten angezeigt.
 - **Periodensystem:** Über den Knopf „PSE“ in der Kopfzeile lässt sich seit 04.11.2026 ein Periodensystem mit Detailansicht je Element öffnen.
-- **Abbildungen in Aufgaben (Pilot):** Seit 04.11.2026 können Aufgaben eigene SVG-Abbildungen als Material oder in der Musterlösung zeigen; 12 Aufgaben sind damit ausgestattet. Eine Ausweitung auf weitere Aufgaben ist nach Durchsicht durch den Nutzer möglich.
+- **Abbildungen in Aufgaben (Pilot):** Seit 04.11.2026 können Aufgaben eigene SVG-Abbildungen als Material oder in der Musterlösung zeigen; 12 Aufgaben sind damit ausgestattet. Seit 04.11.2026 zusätzlich Paket A: sieben Versuchsabbildungen auf den experimentellen Lernseiten und bei sieben Aufgaben (Lernseiten können dafür Abbildungen nach einem Erklärabschnitt zeigen). Offen: Durchsicht durch den Nutzer, danach Paket B (Diagramme für Materialaufgaben) und später Paket C (Mechanismen).
 - **Qualitätskontrolle durch den Nutzer:** Am 02.11.2026 ohne Beanstandungen abgeschlossen.
 - **Dokumentierte Zusammenarbeit/Notizen:** Anforderungen an Aufgabenkommentare sowie private und geteilte Handschriftnotizen sind konzeptionell in `research/zusammenarbeit-und-notizen.md` beschrieben, nicht implementiert.
 
@@ -42,7 +42,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschritte. Umfang und Reihenfolge sind offen.
 
 - Zusammenhängende Prüfungssimulationen und Abiturtraining.
-- Abbildungen und weitere quellenbasierte Versuchsdarstellungen für die experimentellen Lernseiten.
+- Weitere Abbildungen: Paket B (berechnete Diagramme für Materialaufgaben) und Paket C (Reaktionsmechanismen in Musterlösungen).
 
 ## Bewusst zurückgestellt oder noch nicht freigegeben
 

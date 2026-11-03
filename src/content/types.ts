@@ -93,6 +93,9 @@ export interface ExerciseBank {
   exercises: Exercise[]
 }
 
+/** Eigene Abbildung auf einer Lernseite; steht nach dem Erklärabschnitt „### n.“ mit der Nummer afterSection. */
+export interface LessonFigure { file: string; alt: string; caption?: string; afterSection: number }
+
 export interface LessonContentRecord {
   schemaVersion: 2
   id: string
@@ -111,6 +114,8 @@ export interface LessonContentRecord {
   learningGoals: LearningGoal[]
   introduction: string
   explanation: string
+  /** Optional: Abbildungen zu den nummerierten Abschnitten der Erklärung */
+  figures?: LessonFigure[]
   fundamentals: Array<{ term: string; explanation: string }>
   equations: Array<{ id: string; notation: string; explanation: string }>
   equationNote: string

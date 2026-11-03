@@ -85,6 +85,13 @@ function isFigure(value: unknown): boolean {
     && ['prompt', 'solution'].includes(String(value.placement))
 }
 
+function isLessonFigure(value: unknown): boolean {
+  return isRecord(value) && typeof value.file === 'string' && getFigureUrl(value.file) !== undefined
+    && typeof value.alt === 'string' && value.alt.length > 0
+    && (value.caption === undefined || typeof value.caption === 'string')
+    && typeof value.afterSection === 'number'
+}
+
 function isAnswer(value: unknown): boolean {
   if (!isRecord(value)) return false
   if (value.kind === 'numeric') {
@@ -132,6 +139,7 @@ function isLessonContent(value: unknown): value is LessonContentRecord {
       && ['required', 'additional', 'year-specific'].includes(String(item.status)))
     && hasStrings(value.prerequisites) && Array.isArray(value.learningGoals) && value.learningGoals.every(isLearningGoal)
     && typeof value.introduction === 'string' && typeof value.explanation === 'string'
+    && (value.figures === undefined || (Array.isArray(value.figures) && value.figures.every(isLessonFigure)))
     && isObjectArray('fundamentals', ['term', 'explanation']) && isObjectArray('equations', ['id', 'notation', 'explanation'])
     && typeof value.equationNote === 'string' && isObjectArray('mechanisms', ['id', 'title'])
     && isObjectArray('workedExamples', ['id', 'title', 'prompt', 'result'])

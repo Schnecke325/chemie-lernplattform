@@ -13,7 +13,7 @@ const lessonIdsFromCatalog = new Set(lessonLinks.map((link) => link.lessonId))
 const lessonIdsFromFiles = new Set(lessonFiles.map((file) => file.slice(0, -5)))
 const errors = []
 const allReferencedIds = new Set()
-const stats = { exercise: 0, selfTest: 0, classified: 0, figures: 0 }
+const stats = { exercise: 0, selfTest: 0, classified: 0, figures: 0, lessonFigures: 0 }
 
 if (catalog.schemaVersion !== 1) errors.push('Unexpected catalog schema version.')
 if (bank.schemaVersion !== 1 || !Array.isArray(bank.exercises)) errors.push('Invalid exercise bank schema.')
@@ -69,10 +69,20 @@ for (const task of bank.exercises ?? []) {
   }
 }
 
-for (const file of figureFiles) if (!usedFigures.has(file)) errors.push(`Unused figure file: ${file}.`)
-
 for (const file of lessonFiles) {
   const lesson = JSON.parse(await readFile(join(lessonsDirectory, file), 'utf8'))
+  if (lesson.figures !== undefined) {
+    const sections = new Set([...String(lesson.explanation).matchAll(/^### (\d+)\./gm)].map((match) => Number(match[1])))
+    if (!Array.isArray(lesson.figures) || lesson.figures.length === 0) errors.push(`${file} has an empty or invalid figures list.`)
+    for (const figure of lesson.figures ?? []) {
+      if (!figureFiles.has(figure.file)) errors.push(`${file} references missing figure ${figure.file}.`)
+      if (typeof figure.alt !== 'string' || figure.alt.trim().length < 10) errors.push(`${file} needs a descriptive alt text for ${figure.file}.`)
+      if (!sections.has(figure.afterSection)) errors.push(`${file} places ${figure.file} after missing section ${figure.afterSection}.`)
+      if (figure.caption !== undefined && typeof figure.caption !== 'string') errors.push(`${file} has an invalid figure caption.`)
+      usedFigures.add(figure.file)
+      stats.lessonFigures += 1
+    }
+  }
   if (lesson.schemaVersion !== 2) errors.push(`${file} has unexpected schema version.`)
   const catalogLink = lessonLinks.find((link) => link.lessonId === lesson.id)
   if (!catalogLink || catalogLink.id !== lesson.id || catalogLink.title !== lesson.title) {
@@ -99,6 +109,7 @@ for (const file of lessonFiles) {
   }
 }
 
+for (const file of figureFiles) if (!usedFigures.has(file)) errors.push(`Unused figure file: ${file}.`)
 for (const id of bankMap.keys()) if (!allReferencedIds.has(id)) errors.push(`Orphan task in bank: ${id}.`)
 if (stats.exercise !== 282) errors.push(`Expected 282 regular exercises, found ${stats.exercise}.`)
 if (stats.selfTest !== 143) errors.push(`Expected 143 self-tests, found ${stats.selfTest}.`)
@@ -110,5 +121,5 @@ if (errors.length) {
   for (const error of errors) console.error(`- ${error}`)
   process.exitCode = 1
 } else {
-  console.log(`Content validation passed: ${lessonFiles.length} lessons; ${stats.exercise} exercises; ${stats.selfTest} self-tests; ${bankMap.size} unique, linked tasks; ${stats.classified} classified by AFB and task type; ${stats.figures} figures.`)
+  console.log(`Content validation passed: ${lessonFiles.length} lessons; ${stats.exercise} exercises; ${stats.selfTest} self-tests; ${bankMap.size} unique, linked tasks; ${stats.classified} classified by AFB and task type; ${stats.figures} task figures; ${stats.lessonFigures} lesson figures.`)
 }

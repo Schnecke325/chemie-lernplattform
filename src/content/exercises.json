@@ -10081,7 +10081,15 @@
         "nennen"
       ],
       "sourceLessonId": "chem.experimental.observation",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "meniscus-reading.svg",
+          "alt": "Ausschnitt einer Bürette mit nach unten zunehmender Skala und gewölbtem Flüssigkeitsspiegel. Drei Augen blicken auf den tiefsten Punkt des Meniskus: Von schräg oben wird 12,30 mL abgelesen (zu klein), auf Augenhöhe 12,35 mL (richtig), von schräg unten 12,40 mL (zu groß).",
+          "caption": "Schräges Ablesen verschiebt jeden Wert in dieselbe Richtung.",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.experimental.observation.exercise.transfer-fructose",
@@ -10210,7 +10218,7 @@
       "id": "chem.experimental.qualitative.exercise.basic-limewater",
       "title": "Kalkwasser deuten",
       "difficulty": "basic",
-      "prompt": "Bei der Verbrennung von Ethanol entsteht ein Gas, das Kalkwasser trübt. Nenne das Gas und formuliere die Reaktionsgleichung für die Trübung.",
+      "prompt": "Bei der Verbrennung von Ethanol entsteht ein Gas, das Kalkwasser trübt. Nenne das Gas und formuliere die Reaktionsgleichung für die Trübung. Die Abbildung zeigt den Versuchsaufbau.",
       "taskType": "free-response",
       "afb": 2,
       "supportedModes": [
@@ -10231,7 +10239,14 @@
         "formulieren"
       ],
       "sourceLessonId": "chem.experimental.qualitative",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "limewater-test.svg",
+          "alt": "Über einer Ethanolflamme hängt ein umgedrehter Trichter. Ein Schlauch führt die angesaugten Verbrennungsgase in eine Waschflasche mit Kalkwasser, wo sie durch die Lösung perlen; ein zweites Rohr führt zur Wasserstrahlpumpe. Das Kalkwasser ist milchig trüb.",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.experimental.qualitative.exercise.basic-water",
@@ -10336,7 +10351,14 @@
         "begründen"
       ],
       "sourceLessonId": "chem.experimental.qualitative",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "silver-halides.svg",
+          "alt": "Zwei Reihen mit je drei Reagenzgläsern für NaCl, NaBr und NaI. Oben nach Ansäuern und Zugabe von Silbernitrat: weißer, gelblich weißer und gelber Niederschlag. Unten nach Zugabe von verdünnter Ammoniak-Lösung: Der weiße Niederschlag hat sich gelöst, der gelblich weiße kaum, der gelbe nicht.",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.experimental.qualitative.exercise.transfer-organic-halide",
@@ -10485,7 +10507,14 @@
         "beschreiben"
       ],
       "sourceLessonId": "chem.experimental.organic-tests",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "fehling-test.svg",
+          "alt": "Drei Reagenzgläser: Links die tiefblaue Mischung aus Fehling I, Fehling II und Probe. In der Mitte nach Erwärmen im Wasserbad bei positivem Verlauf eine heller gewordene Lösung mit rotbraunem Niederschlag von Kupfer(I)-oxid. Rechts nach Erwärmen bei negativem Verlauf eine blau gebliebene Lösung.",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.experimental.organic-tests.exercise.standard-disaccharides",
@@ -10684,13 +10713,20 @@
         "nennen"
       ],
       "sourceLessonId": "chem.experimental.separation",
-      "sourceKind": "exercise"
+      "sourceKind": "exercise",
+      "figures": [
+        {
+          "file": "distillation-setup.svg",
+          "alt": "Destillationsapparatur: Rundkolben mit Flüssigkeit und Siedesteinchen über einer Heizquelle, darauf ein Aufsatz mit Thermometer, dessen Messfühler auf Höhe des seitlichen Abgangs sitzt. Vom Abgang führt ein schräg nach unten geneigter Liebigkühler zur Vorlage, in die das Destillat tropft. Das Kühlwasser tritt unten am Kühler ein und oben aus.",
+          "placement": "solution"
+        }
+      ]
     },
     {
       "id": "chem.experimental.separation.exercise.basic-rf",
       "title": "Rf-Wert berechnen",
       "difficulty": "basic",
-      "prompt": "Die Laufmittelfront liegt 6,5 cm über der Startlinie, ein Fleck 4,2 cm. Berechne den Rf-Wert.",
+      "prompt": "Die Laufmittelfront liegt 6,5 cm über der Startlinie, ein Fleck 4,2 cm. Berechne den Rf-Wert. Die Abbildung zeigt die DC-Platte.",
       "taskType": "numeric",
       "afb": 1,
       "supportedModes": [
@@ -10721,7 +10757,14 @@
             }
           }
         ]
-      }
+      },
+      "figures": [
+        {
+          "file": "tlc-rf-measurement.svg",
+          "alt": "DC-Platte mit Startlinie und Laufmittelfront. Ein roter Fleck ist 4,2 cm über der Startlinie, die Laufmittelfront 6,5 cm über der Startlinie; beide Strecken sind mit Pfeilen markiert. Ein zweiter, grüner Fleck ist kürzer gewandert.",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.experimental.separation.exercise.standard-boiling",
@@ -10895,7 +10938,7 @@
       "id": "chem.experimental.quantitative.exercise.basic-naoh",
       "title": "Natronlauge titrieren",
       "difficulty": "basic",
-      "prompt": "20,00 mL Natronlauge werden mit Salzsäure der Konzentration 0,200 mol·L⁻¹ titriert. Bis zum Äquivalenzpunkt werden 15,00 mL verbraucht. Berechne die Konzentration der Natronlauge.",
+      "prompt": "20,00 mL Natronlauge werden mit Salzsäure der Konzentration 0,200 mol·L⁻¹ titriert. Bis zum Äquivalenzpunkt werden 15,00 mL verbraucht. Berechne die Konzentration der Natronlauge. Die Abbildung zeigt den Versuchsaufbau.",
       "taskType": "numeric",
       "afb": 1,
       "supportedModes": [
@@ -10925,7 +10968,14 @@
             "unit": "mol·L⁻¹"
           }
         ]
-      }
+      },
+      "figures": [
+        {
+          "file": "titration-setup.svg",
+          "alt": "Titrationsaufbau: Am Stativ hängt eine Bürette mit Maßlösung bekannter Konzentration und einem Hahn. Darunter steht auf einem Magnetrührer ein Erlenmeyerkolben mit Probelösung und Indikator. Abgelesen werden Anfangs- und Endstand der Bürette.",
+          "placement": "prompt"
+        }
+      ]
     },
     {
       "id": "chem.experimental.quantitative.exercise.basic-indicator",

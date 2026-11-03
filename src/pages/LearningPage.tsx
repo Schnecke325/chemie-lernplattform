@@ -1,10 +1,10 @@
 import { ExercisePractice, resultLabels } from '../components/ExercisePractice'
-import { getLessonById, hasLearningLesson, learningCatalog, learningLessonIds } from '../content'
-import type { Competency, Exercise, LessonContent, PublicationStatus } from '../content/types'
+import { getFigureUrl, getLessonById, hasLearningLesson, learningCatalog, learningLessonIds } from '../content'
+import type { Competency, Exercise, LessonContent, LessonFigure, PublicationStatus } from '../content/types'
 import type { PracticeRecord } from '../practice/storage'
 import { usePracticeRecords } from '../practice/PracticeRecordsContext'
 import type { ReactNode } from 'react'
-import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import './LearningPage.css'
 import { useCanViewArchive } from '../account/AccountContext'
 
@@ -35,6 +35,22 @@ const sectionLinks = [
   ['loesungen', 'Typische Fehler'],
   ['selbsttest', 'Selbsttest'],
 ] as const
+
+/** Erklärung mit Abbildungen jeweils nach dem passenden Abschnitt „### n.“ */
+function ExplanationWithFigures({ text, figures }: { text: string; figures?: LessonFigure[] }) {
+  if (!figures?.length) return <RichText text={text}/>
+  const sections = text.split(/\n\s*\n(?=### \d+\.)/)
+  return <>{sections.map((section, index) => {
+    const number = Number(/^### (\d+)\./.exec(section)?.[1])
+    return <Fragment key={index}>
+      <RichText text={section}/>
+      {figures.filter((figure) => figure.afterSection === number).map((figure) => <figure className="lesson-figure" key={figure.file}>
+        <a href={getFigureUrl(figure.file)} target="_blank" rel="noreferrer" title="Abbildung groß öffnen"><img src={getFigureUrl(figure.file)} alt={figure.alt} loading="lazy"/></a>
+        <figcaption>{figure.caption && <>{figure.caption} · </>}<a href={getFigureUrl(figure.file)} target="_blank" rel="noreferrer">groß öffnen</a></figcaption>
+      </figure>)}
+    </Fragment>
+  })}</>
+}
 
 function RichText({ text }: { text: string }) {
   return <div className="lesson-richtext">
@@ -253,7 +269,7 @@ function LessonView({ lesson }: { lesson: LessonContent }) {
         </LessonSection>
 
         <LessonSection id="grundlagen" number="04" title="Fachliche Erklärung">
-          <div className="lesson-prose"><RichText text={lesson.explanation}/></div>
+          <div className="lesson-prose"><ExplanationWithFigures text={lesson.explanation} figures={lesson.figures}/></div>
         </LessonSection>
 
         <LessonSection id="begriffe" number="05" title="Wichtige Fachbegriffe">

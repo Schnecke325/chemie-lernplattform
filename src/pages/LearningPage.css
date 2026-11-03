@@ -144,3 +144,7 @@ button.catalog-lesson.is-selected{border-color:#315747;background:#1b3028;color:
   .learning-catalog-chapter.is-open ul{display:grid}
   .catalog-lesson{min-height:44px;padding:9px 10px;font-size:13px}
 }
+.lesson-figure{margin:6px 0 22px;max-width:680px;padding:12px;border:1px solid #26333a;border-radius:8px;background:#0e151a}
+.lesson-figure img{display:block;width:100%;height:auto}
+.lesson-figure figcaption{margin-top:8px;color:#8b98a0;font-size:12px;line-height:1.5}
+.lesson-figure figcaption a{color:var(--mint)}
