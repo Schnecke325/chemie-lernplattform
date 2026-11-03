@@ -75,7 +75,7 @@
     }
   ],
   "introduction": "Die Carboxygruppe macht Carbonsäuren zu Protonendonatoren. Wie leicht sie ein Proton abgeben, hängt nicht nur von der Gruppe selbst ab. Auch weitere Atome und Gruppen im Molekül beeinflussen die Stabilität des Säurerest-Ions. So kannst du Säurestärken mit Struktur und Messdaten erklären.",
-  "explanation": "### 1. Carboxygruppe und Nomenklatur\n\nDie Carboxygruppe –COOH besteht aus einer Carbonylgruppe C=O und einer Hydroxygruppe O–H am selben C-Atom. Carbonsäuren heißen nach ihrer Hauptkette mit der Endung „-säure“, zum Beispiel Ethansäure CH₃COOH. Bei mehreren Carboxygruppen verwendest du passende Endungen wie „-disäure“.\n\n### 2. Protolyse in Wasser\n\nEine Carbonsäure HA kann ein Proton an Wasser übertragen: HA + H₂O ⇌ A⁻ + H₃O⁺. Es entsteht ein Carboxylat-Ion. Seine negative Ladung ist durch Mesomerie über beide O-Atome delokalisiert. Diese Stabilisierung trägt dazu bei, dass Carbonsäuren saurer sind als vergleichbare Alkohole.\n\n### 3. Säurestärke und pKa\n\nJe stabiler die konjugierte Base A⁻ im Vergleich zur Säure HA ist, desto leichter gibt HA ein Proton ab. Der pKa-Wert beschreibt das Gleichgewicht: Ein kleinerer pKa bedeutet eine stärkere Säure. Vergleiche Werte nur unter vergleichbaren Bedingungen und nutze die Daten der Aufgabe.\n\n### 4. Substituenteneffekte\n\nElektronenanziehende Gruppen können über σ-Bindungen Elektronendichte abziehen (−I-Effekt). Sie stabilisieren häufig die negative Ladung des Carboxylat-Ions und erhöhen so die Säurestärke. Elektronenschiebende Gruppen können diese Stabilisierung abschwächen. Stärke und Reichweite des Effekts hängen von Art und Abstand der Gruppe ab.\n\n### 5. Mehrfunktionelle Säuren und Stereochemie\n\nHydroxy-, Amino-, Di- und Tricarbonsäuren enthalten neben der Carboxygruppe weitere Gruppen. Diese können Säure-Base-Verhalten, Löslichkeit oder Reaktivität beeinflussen. Mehrprotonige Säuren geben ihre Protonen stufenweise ab; für jede Stufe gibt es ein eigenes Gleichgewicht und einen eigenen pKa-Wert.\n\nBei Strukturaufgaben prüfst du auch Isomerie. Ein C-Atom ist chiral, wenn es vier verschiedene Substituenten trägt. Die bloße Anwesenheit einer Carboxygruppe oder die Position als α-C-Atom reicht dafür nicht aus.",
+  "explanation": "### 1. Carboxygruppe und Nomenklatur\n\nDie Carboxygruppe –COOH besteht aus einer Carbonylgruppe C=O und einer Hydroxygruppe O–H am selben C-Atom. Carbonsäuren heißen nach ihrer Hauptkette mit der Endung „-säure“, zum Beispiel Ethansäure CH₃COOH. Bei mehreren Carboxygruppen verwendest du passende Endungen wie „-disäure“. Das C-Atom der Carboxygruppe zählt in der Hauptkette mit und erhält die Nummer 1.\n\nDie ersten Glieder der homologen Reihe tragen gebräuchliche Trivialnamen: Methansäure (Ameisensäure), Ethansäure (Essigsäure), Propansäure (Propionsäure) und Butansäure (Buttersäure). Carbonsäuren entstehen unter anderem durch Oxidation primärer Alkanole über die Aldehyde.\n\n### 2. Eigenschaften\n\nCarbonsäuremoleküle bilden über ihre C=O- und O–H-Gruppen besonders starke Wasserstoffbrücken; im reinen Stoff lagern sich oft zwei Moleküle zu einem Dimer zusammen. Deshalb sieden Carbonsäuren höher als Alkanole mit ähnlicher Molekülmasse: Ethansäure siedet bei 118 °C, Propan-1-ol bei 97 °C. Kurzkettige Carbonsäuren mischen sich gut mit Wasser. Mit wachsendem Alkylrest überwiegt der unpolare Teil, und die Löslichkeit sinkt; langkettige Fettsäuren sind in Wasser kaum löslich.\n\n### 3. Protolyse in Wasser\n\nEine Carbonsäure HA kann ein Proton an Wasser übertragen: HA + H₂O ⇌ A⁻ + H₃O⁺. Es entsteht ein Carboxylat-Ion. Seine negative Ladung ist durch Mesomerie über beide O-Atome delokalisiert. Diese Stabilisierung trägt dazu bei, dass Carbonsäuren saurer sind als vergleichbare Alkohole.\n\nAls Säuren reagieren Carbonsäuren mit Basen zu Salzen, den Carboxylaten (zum Beispiel Natriumacetat), und mit unedlen Metallen wie Magnesium unter Bildung von Wasserstoff. Mit Alkanolen bilden sie Ester; diese Reaktion wird auf der Seite zu Estern behandelt.\n\n### 4. Säurestärke und pKa\n\nJe stabiler die konjugierte Base A⁻ im Vergleich zur Säure HA ist, desto leichter gibt HA ein Proton ab. Der pKa-Wert beschreibt das Gleichgewicht: Ein kleinerer pKa bedeutet eine stärkere Säure. Vergleiche Werte nur unter vergleichbaren Bedingungen und nutze die Daten der Aufgabe. Carbonsäuren sind schwache Säuren; die meisten einfachen Carbonsäuren haben pKa-Werte um 4 bis 5.\n\n### 5. Substituenteneffekte\n\nElektronenanziehende Gruppen können über σ-Bindungen Elektronendichte abziehen (−I-Effekt). Sie stabilisieren häufig die negative Ladung des Carboxylat-Ions und erhöhen so die Säurestärke. Elektronenschiebende Gruppen können diese Stabilisierung abschwächen. Stärke und Reichweite des Effekts hängen von Art und Abstand der Gruppe ab.\n\nDas zeigen die chlorierten Ethansäuren: Je mehr Chloratome am α-C-Atom sitzen, desto stärker die Säure (Ethansäure pKa 4,76, Chlorethansäure 2,86, Dichlorethansäure etwa 1,3, Trichlorethansäure etwa 0,7). Der Effekt nimmt mit dem Abstand schnell ab, weil er über die σ-Bindungen weitergegeben wird. Alkylgruppen wirken schwach elektronenschiebend (+I); Propansäure (pKa 4,87) ist deshalb etwas schwächer als Ethansäure, Methansäure (pKa 3,75) dagegen stärker.\n\n### 6. Mehrfunktionelle Säuren und Stereochemie\n\nHydroxy-, Amino-, Di- und Tricarbonsäuren enthalten neben der Carboxygruppe weitere Gruppen. Beispiele sind Milchsäure (2-Hydroxypropansäure), Oxalsäure (Ethandisäure), Bernsteinsäure (Butandisäure) und die Tricarbonsäure Citronensäure. Diese Gruppen können Säure-Base-Verhalten, Löslichkeit oder Reaktivität beeinflussen. Mehrprotonige Säuren geben ihre Protonen stufenweise ab; für jede Stufe gibt es ein eigenes Gleichgewicht und einen eigenen pKa-Wert. Aminosäuren tragen zusätzlich eine basische Aminogruppe und werden auf einer eigenen Seite behandelt.\n\nBei Strukturaufgaben prüfst du auch Isomerie. Ein C-Atom ist chiral, wenn es vier verschiedene Substituenten trägt. Die bloße Anwesenheit einer Carboxygruppe oder die Position als α-C-Atom reicht dafür nicht aus. In Milchsäure trägt das C2-Atom H, OH, CH₃ und COOH und ist daher chiral.",
   "fundamentals": [
     {
       "term": "Carboxygruppe",
@@ -96,6 +96,14 @@
     {
       "term": "Mehrprotonige Säure",
       "explanation": "Säure, die mehrere Protonen stufenweise abgeben kann; jeder Schritt besitzt ein eigenes Gleichgewicht."
+    },
+    {
+      "term": "Homologe Reihe der Alkansäuren",
+      "explanation": "Methansäure, Ethansäure, Propansäure, Butansäure …; jedes Glied unterscheidet sich vom vorigen um eine CH₂-Gruppe."
+    },
+    {
+      "term": "Hydroxycarbonsäure",
+      "explanation": "Carbonsäure mit zusätzlicher Hydroxygruppe, zum Beispiel Milchsäure oder Citronensäure."
     }
   ],
   "equations": [
@@ -113,6 +121,16 @@
       "id": "chem.q1.3.carboxylic-acids.eq.oxalic-first",
       "notation": "HOOC–COOH + H₂O ⇌ HOOC–COO⁻ + H₃O⁺",
       "explanation": "Erste Protolyse von Oxalsäure; die zweite Protonenabgabe wird separat beschrieben."
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.eq.neutralisation",
+      "notation": "CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O",
+      "explanation": "Reaktion einer Carbonsäure mit einer Base zum Carboxylat-Ion."
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.eq.magnesium",
+      "notation": "Mg + 2 CH₃COOH → Mg²⁺ + 2 CH₃COO⁻ + H₂",
+      "explanation": "Unedle Metalle reagieren mit Carbonsäuren unter Wasserstoffentwicklung."
     }
   ],
   "equationNote": "Säurestärke und pH-Wert sind nicht dasselbe: pKa ist eine Stoffeigenschaft im Gleichgewichtsmodell, während der pH von Konzentration und Zusammensetzung der Lösung abhängt.",
@@ -139,6 +157,17 @@
         "Erkläre den Unterschied über den −I-Effekt von Chlor."
       ],
       "result": "Chlorethansäure ist stärker. Chlor zieht Elektronendichte ab und stabilisiert das Chlorethanoat-Ion."
+    },
+    {
+      "id": "chem.q1.3.carboxylic-acids.example.distance",
+      "title": "Reichweite des −I-Effekts",
+      "prompt": "Die pKa-Werte von Butansäure und ihren Chlorderivaten betragen etwa: Butansäure 4,82; 4-Chlorbutansäure 4,52; 3-Chlorbutansäure 4,05; 2-Chlorbutansäure 2,86. Deute die Reihe.",
+      "steps": [
+        "Alle chlorierten Säuren sind stärker als Butansäure: Chlor zieht über den −I-Effekt Elektronendichte ab und stabilisiert das Carboxylat-Ion.",
+        "Je näher das Chloratom an der Carboxygruppe sitzt, desto kleiner ist der pKa-Wert.",
+        "Der induktive Effekt wird über σ-Bindungen weitergegeben und schwächt sich mit jeder Bindung deutlich ab."
+      ],
+      "result": "Die Säurestärke nimmt von 2- über 3- zu 4-Chlorbutansäure ab. Der −I-Effekt ist ein Nahbereichseffekt; schon zwei bis drei Bindungen weiter ist er nur noch schwach."
     }
   ],
   "examReferences": [
@@ -178,6 +207,10 @@
     {
       "tip": "Prüfe Chiralität anhand von vier unterschiedlichen Substituenten am selben tetraedrischen C-Atom.",
       "commonError": "Jedes α-C-Atom wird automatisch als chiral bezeichnet."
+    },
+    {
+      "tip": "Erkläre hohe Siedetemperaturen von Carbonsäuren mit Wasserstoffbrücken und Dimerbildung.",
+      "commonError": "Die hohe Siedetemperatur wird mit der Säurestärke oder mit Ionenbindungen begründet."
     }
   ],
   "review": {

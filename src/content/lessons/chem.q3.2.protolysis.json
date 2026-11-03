@@ -73,7 +73,7 @@
     }
   ],
   "introduction": "Viele Säure-Base-Reaktionen lassen sich als Übertragung eines Protons verstehen. Entscheidend ist nicht nur, welcher Stoff als Säure oder Base bezeichnet wird. Du verfolgst, wer das Proton abgibt, wer es aufnimmt und welche korrespondierenden Teilchen daraus entstehen.",
-  "explanation": "### 1. Brønsted-Modell\n\nEine Brønsted-Säure gibt ein Proton H⁺ ab. Eine Brønsted-Base nimmt ein Proton auf. Bei einer Protolyse wird das Proton von der Säure auf die Base übertragen. In Wasser liegt ein Proton nicht frei vor; H₃O⁺ steht für ein hydratisiertes Proton.\n\nBeispiel: HCl + H₂O → H₃O⁺ + Cl⁻. HCl gibt ein Proton ab und ist die Säure. Wasser nimmt es auf und ist die Base.\n\n### 2. Korrespondierende Säure-Base-Paare\n\nSäure und Base eines korrespondierenden Paares unterscheiden sich um genau ein Proton. Gibt eine Säure H⁺ ab, entsteht ihre korrespondierende Base. Nimmt eine Base H⁺ auf, entsteht ihre korrespondierende Säure. Im Beispiel bilden HCl/Cl⁻ und H₂O/H₃O⁺ die beiden Paare.\n\n### 3. Ampholyte\n\nManche Teilchen können Protonen abgeben oder aufnehmen. Solche Teilchen heißen Ampholyte. Hydrogencarbonat HCO₃⁻ kann zum Beispiel ein Proton abgeben und zu CO₃²⁻ werden. Es kann auch ein Proton aufnehmen und zu H₂CO₃ werden. Welche Reaktion überwiegt, hängt von den Reaktionspartnern und Bedingungen ab.\n\n### 4. Starke und schwache Protolyte\n\nEine starke Säure überträgt ihre Protonen an Wasser weitgehend. Bei einer schwachen Säure stellt sich ein Gleichgewicht ein, in dem ein Teil der Säuremoleküle und ein Teil der Ionen vorliegen. „Stark“ oder „schwach“ beschreibt die Säurestärke, nicht die Konzentration. Eine verdünnte starke Säure bleibt stark; eine konzentrierte schwache Säure bleibt schwach.\n\n### 5. Mehrprotonige Säuren\n\nMehrprotonige Säuren können mehrere Protonen stufenweise abgeben. Nach jedem Schritt entsteht ein neues Säurerest-Ion und ein eigenes Gleichgewicht. Die weiteren Protonen werden nicht automatisch gleich leicht abgegeben. Schreibe deshalb für jede Stufe eine eigene Gleichung und prüfe Atome sowie Ladungen.",
+  "explanation": "### 1. Brønsted-Modell\n\nEine Brønsted-Säure gibt ein Proton H⁺ ab. Eine Brønsted-Base nimmt ein Proton auf. Bei einer Protolyse wird das Proton von der Säure auf die Base übertragen. In Wasser liegt ein Proton nicht frei vor; H₃O⁺ steht für ein hydratisiertes Proton.\n\nBeispiel: HCl + H₂O → H₃O⁺ + Cl⁻. HCl gibt ein Proton ab und ist die Säure. Wasser nimmt es auf und ist die Base.\n\nDas Brønsted-Modell ist allgemeiner als die ältere Vorstellung, Säuren bildeten in Wasser H⁺-Ionen und Basen OH⁻-Ionen. Ammoniak enthält zum Beispiel keine OH-Gruppe und ist trotzdem eine Base, weil es ein Proton aufnehmen kann. Ob ein Teilchen als Säure oder Base reagiert, ist keine feste Stoffeigenschaft, sondern eine Rolle in einer bestimmten Reaktion.\n\n### 2. Korrespondierende Säure-Base-Paare\n\nSäure und Base eines korrespondierenden Paares unterscheiden sich um genau ein Proton. Gibt eine Säure H⁺ ab, entsteht ihre korrespondierende Base. Nimmt eine Base H⁺ auf, entsteht ihre korrespondierende Säure. Im Beispiel bilden HCl/Cl⁻ und H₂O/H₃O⁺ die beiden Paare. An jeder Protolyse sind also zwei Säure-Base-Paare beteiligt.\n\n### 3. Ampholyte und Autoprotolyse des Wassers\n\nManche Teilchen können Protonen abgeben oder aufnehmen. Solche Teilchen heißen Ampholyte. Hydrogencarbonat HCO₃⁻ kann zum Beispiel ein Proton abgeben und zu CO₃²⁻ werden. Es kann auch ein Proton aufnehmen und zu H₂CO₃ werden. Welche Reaktion überwiegt, hängt von den Reaktionspartnern und Bedingungen ab.\n\nAuch Wasser ist ein Ampholyt: Gegenüber HCl reagiert es als Base, gegenüber NH₃ als Säure. Selbst in reinem Wasser übertragen einzelne Wassermoleküle Protonen aufeinander: 2 H₂O ⇌ H₃O⁺ + OH⁻. Diese Autoprotolyse findet nur in sehr geringem Umfang statt; bei 25 °C ist das Produkt c(H₃O⁺) · c(OH⁻) = 10⁻¹⁴ mol²·L⁻². Daraus leitet sich der pH-Wert ab, der auf der folgenden Seite behandelt wird.\n\n### 4. Starke und schwache Protolyte\n\nEine starke Säure überträgt ihre Protonen an Wasser weitgehend. Bei einer schwachen Säure stellt sich ein Gleichgewicht ein, in dem ein Teil der Säuremoleküle und ein Teil der Ionen vorliegen. „Stark“ oder „schwach“ beschreibt die Säurestärke, nicht die Konzentration. Eine verdünnte starke Säure bleibt stark; eine konzentrierte schwache Säure bleibt schwach.\n\nSäure und korrespondierende Base hängen in ihrer Stärke zusammen: Je stärker eine Säure ihr Proton abgibt, desto schwächer nimmt ihre korrespondierende Base ein Proton wieder auf. Cl⁻ ist deshalb eine äußerst schwache Base, das Acetat-Ion CH₃COO⁻ dagegen eine merkliche. Bei einer Protolyse konkurrieren zwei Basen um das Proton. Das Gleichgewicht liegt auf der Seite der schwächeren Säure und der schwächeren Base.\n\n### 5. Neutralisation und Salzlösungen\n\nReagieren Oxonium- und Hydroxid-Ionen miteinander, entsteht Wasser: H₃O⁺ + OH⁻ → 2 H₂O. Diese Neutralisation ist exotherm und läuft praktisch vollständig ab. Gibt man gleiche Stoffmengen einer starken Säure und einer starken Base zusammen, entsteht eine neutrale Salzlösung.\n\nSalzlösungen sind aber nicht immer neutral, denn auch Ionen können als Säure oder Base reagieren. Acetat-Ionen nehmen Protonen von Wasser auf, eine Natriumacetat-Lösung reagiert deshalb basisch. Ammonium-Ionen geben Protonen an Wasser ab, eine Ammoniumchlorid-Lösung reagiert sauer. Entscheidend ist, ob die Ionen korrespondierende Teilchen schwacher Säuren oder Basen sind.\n\n### 6. Mehrprotonige Säuren\n\nMehrprotonige Säuren können mehrere Protonen stufenweise abgeben. Nach jedem Schritt entsteht ein neues Säurerest-Ion und ein eigenes Gleichgewicht. Die weiteren Protonen werden nicht automatisch gleich leicht abgegeben: Es ist schwieriger, ein Proton von einem bereits negativ geladenen Ion abzuspalten. Schreibe deshalb für jede Stufe eine eigene Gleichung und prüfe Atome sowie Ladungen.",
   "fundamentals": [
     {
       "term": "Brønsted-Säure",
@@ -98,6 +98,14 @@
     {
       "term": "Säurestärke",
       "explanation": "Maß dafür, wie stark eine Säure zur Protonenabgabe neigt. Sie ist von der Konzentration der Lösung zu unterscheiden."
+    },
+    {
+      "term": "Autoprotolyse",
+      "explanation": "Protonenübertragung zwischen gleichartigen Teilchen, beim Wasser 2 H₂O ⇌ H₃O⁺ + OH⁻."
+    },
+    {
+      "term": "Neutralisation",
+      "explanation": "Reaktion von Oxonium- und Hydroxid-Ionen zu Wasser; exotherm und praktisch vollständig."
     }
   ],
   "equations": [
@@ -120,6 +128,21 @@
       "id": "chem.q3.2.protolysis.eq.bicarbonate-base",
       "notation": "HCO₃⁻ + H₂O ⇌ H₂CO₃ + OH⁻",
       "explanation": "Hydrogencarbonat nimmt ein Proton auf."
+    },
+    {
+      "id": "chem.q3.2.protolysis.eq.autoprotolysis",
+      "notation": "2 H₂O ⇌ H₃O⁺ + OH⁻;  c(H₃O⁺) · c(OH⁻) = 10⁻¹⁴ mol²·L⁻² (25 °C)",
+      "explanation": "Autoprotolyse des Wassers und Ionenprodukt."
+    },
+    {
+      "id": "chem.q3.2.protolysis.eq.neutralisation",
+      "notation": "H₃O⁺ + OH⁻ → 2 H₂O",
+      "explanation": "Neutralisation."
+    },
+    {
+      "id": "chem.q3.2.protolysis.eq.acetate",
+      "notation": "CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻",
+      "explanation": "Acetat-Ionen reagieren als Base; Natriumacetat-Lösung ist basisch."
     }
   ],
   "equationNote": "Prüfe bei jeder Protolyse die Atom- und Ladungsbilanz. Das Proton wird zwischen Teilchen übertragen; in Wasser wird es als H₃O⁺ notiert.",
@@ -146,6 +169,17 @@
         "Prüfe Ladung und Atome beider Gleichungen."
       ],
       "result": "HCO₃⁻ kann zu CO₃²⁻ deprotoniert oder zu H₂CO₃ protoniert werden. Es ist ein Ampholyt."
+    },
+    {
+      "id": "chem.q3.2.protolysis.example.salts",
+      "title": "Saure und basische Salzlösungen",
+      "prompt": "Begründe mit Reaktionsgleichungen, warum eine Natriumacetat-Lösung basisch und eine Ammoniumchlorid-Lösung sauer reagiert.",
+      "steps": [
+        "Na⁺ und Cl⁻ sind korrespondierende Teilchen starker Basen bzw. Säuren und reagieren praktisch nicht mit Wasser.",
+        "Acetat ist die korrespondierende Base der schwachen Ethansäure: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. Es entstehen OH⁻-Ionen.",
+        "Ammonium ist die korrespondierende Säure der schwachen Base Ammoniak: NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺. Es entstehen H₃O⁺-Ionen."
+      ],
+      "result": "Natriumacetat-Lösung ist basisch, weil Acetat als Base reagiert; Ammoniumchlorid-Lösung ist sauer, weil Ammonium als Säure reagiert. Wasser ist in beiden Fällen Reaktionspartner."
     }
   ],
   "examReferences": [
@@ -185,6 +219,10 @@
     {
       "tip": "Formuliere jede Stufe einer mehrprotonigen Säure als eigenes Gleichgewicht.",
       "commonError": "Mehrere Protonen werden in einem einzigen unbilanzierten Schritt abgegeben."
+    },
+    {
+      "tip": "Prüfe in jeder Gleichung, ob Wasser ein Proton aufnimmt oder abgibt.",
+      "commonError": "Wasser wird immer als Base eingeordnet, auch wenn es wie bei NH₃ + H₂O ein Proton abgibt."
     }
   ],
   "review": {

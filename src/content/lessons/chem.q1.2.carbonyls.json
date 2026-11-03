@@ -75,7 +75,7 @@
     }
   ],
   "introduction": "Aldehyde und Ketone enthalten beide eine Carbonylgruppe C=O. Sie unterscheidet sich in ihrer Position im Molekül. Die polare C=O-Bindung erklärt außerdem, warum Carbonylverbindungen für nucleophile Teilchen angreifbar sind und welche Nachweise sich nutzen lassen.",
-  "explanation": "### 1. Carbonylgruppe und Stoffklassen\n\nDie Carbonylgruppe besteht aus einer C=O-Doppelbindung. Bei einem Aldehyd sitzt das Carbonyl-C am Ende einer Kette und ist an mindestens ein H-Atom gebunden. Bei einem Keton liegt es zwischen zwei C-Atomen. Diese Struktur unterscheidet die Stoffklassen.\n\n### 2. Polarität und Reaktivität\n\nSauerstoff ist elektronegativer als Kohlenstoff. Deshalb ist die C=O-Bindung polar: O trägt δ⁻, das Carbonyl-C δ⁺. Das Carbonyl-C ist damit elektrophil und kann von einem Nucleophil angegriffen werden. Bei einer nucleophilen Addition wird die π-Bindung der C=O-Gruppe auf das O-Atom verschoben. Das O kann anschließend protoniert werden.\n\n### 3. Oxidation und Reduktion\n\nAldehyde lassen sich im üblichen Schulmodell zu Carbonsäuren oxidieren. Ketone sind unter milden Bedingungen deutlich schwerer weiter zu oxidieren. Bei der Reduktion entsteht aus der Carbonylgruppe eine Hydroxygruppe: Aldehyde ergeben primäre, Ketone sekundäre Alkanole.\n\n### 4. Nachweise\n\nFehling- oder Tollens-Reagenz können zum Nachweis reduzierender Aldehyde dienen. Ein positiver Fehling-Test zeigt bei vielen Aldehyden eine Reduktion von Cu²⁺ zu rotem Cu₂O. Ein positiver Tollens-Test kann metallisches Silber erzeugen. Solche Nachweise sind Hinweise. Sie ersetzen keine vollständige Strukturaufklärung und müssen mit den Versuchsbedingungen interpretiert werden.\n\n### 5. Struktur, Reaktion und Beleg zusammenführen\n\nWenn du ein Material auswertest, ordne zuerst die Carbonylgruppe ein. Prüfe danach, welcher Reaktionstyp möglich ist und welche Beobachtung dazu passt. Trenne die Beobachtung – etwa einen Niederschlag – von ihrer Deutung als Hinweis auf eine Aldehydgruppe.",
+  "explanation": "### 1. Carbonylgruppe und Stoffklassen\n\nDie Carbonylgruppe besteht aus einer C=O-Doppelbindung. Bei einem Aldehyd sitzt das Carbonyl-C am Ende einer Kette und ist an mindestens ein H-Atom gebunden. Bei einem Keton liegt es zwischen zwei C-Atomen. Diese Struktur unterscheidet die Stoffklassen.\n\nAldehyde erhalten die Endung „-al“, Ketone die Endung „-on“ mit der Position der Carbonylgruppe, etwa Butan-2-on. Wichtige Vertreter sind Methanal (Formaldehyd), Ethanal (Acetaldehyd) und Propanon (Aceton), ein verbreitetes Lösungsmittel. Aldehyde und Ketone mit gleicher Summenformel, etwa Propanal und Propanon (C₃H₆O), sind Konstitutionsisomere.\n\n### 2. Eigenschaften\n\nWegen der polaren C=O-Bindung wirken zwischen Carbonylmolekülen Dipol-Dipol-Kräfte. Untereinander bilden sie aber keine Wasserstoffbrücken, weil kein H-Atom an Sauerstoff gebunden ist. Ihre Siedetemperaturen liegen deshalb zwischen denen von Alkanen und Alkanolen ähnlicher Molekülmasse. Mit Wassermolekülen können sie dagegen Wasserstoffbrücken bilden, weil das O-Atom der Carbonylgruppe als Akzeptor wirkt. Kurzkettige Aldehyde und Ketone wie Propanon mischen sich deshalb gut mit Wasser.\n\n### 3. Polarität und Reaktivität\n\nSauerstoff ist elektronegativer als Kohlenstoff. Deshalb ist die C=O-Bindung polar: O trägt δ⁻, das Carbonyl-C δ⁺. Das Carbonyl-C ist damit elektrophil und kann von einem Nucleophil angegriffen werden. Bei einer nucleophilen Addition wird die π-Bindung der C=O-Gruppe auf das O-Atom verschoben. Das O kann anschließend protoniert werden.\n\nEin wichtiges Beispiel ist die Addition eines Alkohols an einen Aldehyd. Dabei entsteht ein Halbacetal: R–CHO + R′–OH ⇌ R–CH(OH)–OR′. Genau diese Reaktion läuft innerhalb eines Glucosemoleküls ab, wenn sich die offene Kette zum Ring schließt.\n\n### 4. Bildung, Oxidation und Reduktion\n\nAldehyde entstehen durch Oxidation primärer Alkanole, Ketone durch Oxidation sekundärer Alkanole. Aldehyde lassen sich im üblichen Schulmodell zu Carbonsäuren oxidieren. Ketone sind unter milden Bedingungen deutlich schwerer weiter zu oxidieren, weil am Carbonyl-C kein H-Atom mehr sitzt. Bei der Reduktion entsteht aus der Carbonylgruppe eine Hydroxygruppe: Aldehyde ergeben primäre, Ketone sekundäre Alkanole.\n\n### 5. Nachweise\n\nFehling- oder Tollens-Reagenz können zum Nachweis reduzierender Aldehyde dienen. Ein positiver Fehling-Test zeigt bei vielen Aldehyden eine Reduktion von Cu²⁺ zu rotem Cu₂O. Ein positiver Tollens-Test kann metallisches Silber erzeugen, das sich als Silberspiegel an der Glaswand abscheidet. In beiden Fällen wird der Aldehyd oxidiert, das Reagenz reduziert. Ketone reagieren unter diesen Bedingungen in der Regel nicht; eine wichtige Ausnahme sind Ketozucker wie Fructose, die sich im alkalischen Milieu teilweise in Aldehyde umwandeln.\n\nSolche Nachweise sind Hinweise. Sie ersetzen keine vollständige Strukturaufklärung und müssen mit den Versuchsbedingungen interpretiert werden.\n\n### 6. Struktur, Reaktion und Beleg zusammenführen\n\nWenn du ein Material auswertest, ordne zuerst die Carbonylgruppe ein. Prüfe danach, welcher Reaktionstyp möglich ist und welche Beobachtung dazu passt. Trenne die Beobachtung – etwa einen Niederschlag – von ihrer Deutung als Hinweis auf eine Aldehydgruppe.",
   "fundamentals": [
     {
       "term": "Carbonylgruppe",
@@ -96,6 +96,14 @@
     {
       "term": "Fehling-Probe",
       "explanation": "Nachweisreaktion, bei der reduzierende Stoffe Cu²⁺-Ionen unter geeigneten Bedingungen zu rotem Cu₂O umsetzen können."
+    },
+    {
+      "term": "Tollens-Probe",
+      "explanation": "Nachweis reduzierender Aldehyde mit ammoniakalischer Silbernitrat-Lösung; positiv zeigt sich ein Silberspiegel."
+    },
+    {
+      "term": "Halbacetal",
+      "explanation": "Produkt der nucleophilen Addition eines Alkohols an eine Carbonylgruppe; trägt eine OH- und eine OR-Gruppe am selben C-Atom."
     }
   ],
   "equations": [
@@ -118,6 +126,16 @@
       "id": "chem.q1.2.carbonyls.eq.fehlings",
       "notation": "R–CHO + 2 Cu²⁺ + 5 OH⁻ → R–COO⁻ + Cu₂O↓ + 3 H₂O",
       "explanation": "Schematische alkalische Ionengleichung der Fehling-Reaktion; Details hängen von Reagenz und Bedingungen ab."
+    },
+    {
+      "id": "chem.q1.2.carbonyls.eq.tollens",
+      "notation": "R–CHO + 2 [Ag(NH₃)₂]⁺ + 3 OH⁻ → R–COO⁻ + 2 Ag↓ + 4 NH₃ + 2 H₂O",
+      "explanation": "Tollens-Probe; der Aldehyd wird oxidiert, Silber-Ionen werden zu Silber reduziert."
+    },
+    {
+      "id": "chem.q1.2.carbonyls.eq.hemiacetal",
+      "notation": "R–CHO + R′–OH ⇌ R–CH(OH)–OR′",
+      "explanation": "Halbacetalbildung durch nucleophile Addition eines Alkohols."
     }
   ],
   "equationNote": "[O] und [H] sind vereinfachte Schreibweisen für Oxidations- bzw. Reduktionsmittel. Für quantitative Bilanzen nutze die in der Aufgabe angegebenen Reagenzien und Bedingungen.",
@@ -153,6 +171,17 @@
         "Prüfe, ob das C mit OH primär, sekundär oder tertiär ist."
       ],
       "result": "Butanon wird zu Butan-2-ol reduziert, einem sekundären Alkanol."
+    },
+    {
+      "id": "chem.q1.2.carbonyls.example.boiling",
+      "title": "Siedetemperaturen vergleichen",
+      "prompt": "Butan (−0,5 °C), Propanal (48 °C), Propanon (56 °C) und Propan-1-ol (97 °C) haben ähnliche molare Massen. Erkläre die Reihenfolge der Siedetemperaturen.",
+      "steps": [
+        "Zwischen Butanmolekülen wirken nur schwache Van-der-Waals-Kräfte.",
+        "Propanal und Propanon besitzen eine polare C=O-Gruppe; zusätzlich wirken Dipol-Dipol-Kräfte.",
+        "Propan-1-ol trägt eine O–H-Gruppe und bildet Wasserstoffbrücken zwischen den Molekülen, die stärkste der genannten Wechselwirkungen."
+      ],
+      "result": "Die Siedetemperatur steigt mit der Stärke der zwischenmolekularen Kräfte: Alkan < Aldehyd/Keton < Alkanol. Carbonylverbindungen bilden untereinander keine Wasserstoffbrücken."
     }
   ],
   "examReferences": [
@@ -192,6 +221,10 @@
     {
       "tip": "Behandle Nachweisreaktionen als Indiz und beachte Versuchsbedingungen.",
       "commonError": "Ein positiver Farbumschlag wird als eindeutiger Beweis für eine einzelne Verbindung ausgegeben."
+    },
+    {
+      "tip": "Bei Fehling- und Tollens-Probe wird der Aldehyd oxidiert und das Metall-Ion reduziert.",
+      "commonError": "Es wird behauptet, der Aldehyd werde in der Nachweisreaktion reduziert."
     }
   ],
   "review": {

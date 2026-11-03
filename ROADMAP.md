@@ -19,12 +19,12 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 - **Bearbeitungsmodi und Handschrift:** Alle 425 Aufgaben sind nach Bildschirm/Handschrift eingestuft, der Filter ist aktiv. Eine Schreibfläche für Stift, Maus und optional Finger steht bei freien Aufgaben und als Rechenweg-Fläche bei Zahlenaufgaben zur Verfügung; Handschrift wird derzeit nicht gespeichert.
 - **Bearbeitung auf den Lernseiten:** Übungen und Selbsttests der Lernseiten sind direkt bearbeitbar, mit derselben Komponente und demselben lokalen Ergebnisspeicher wie der Übungsbereich.
 - **Überarbeitung der 16 Schablonen-Lernseiten:** Lernziele, Erklärtexte, Fachbegriffe, Gleichungen, Beispiele, Aufgabenformate und typische Fehler der 16 Seiten (Q2.1, Q2.2, Q2.4, Q4.1, Q4.2, Kinetik, Tenside, Anwendungen bewerten) wurden in vier Paketen am 03. und 04.11.2026 themenspezifisch neu geschrieben; siehe `PROJECT_CONTEXT.md`.
+- **Ausbau knapper Lernseiten:** Acht Seiten mit Erklärtexten unter 2.000 Zeichen (vier Q3.3-Seiten zur Elektrochemie sowie Protolyse, Carbonsäuren, Aldehyde und Ketone, technische Gleichgewichte) wurden am 04.11.2026 in zwei Paketen ergänzt, einschließlich der zuvor fehlenden KCGO-Inhalte Konzentrationszelle und Wasserelektrolyse.
 - **Qualitätskontrolle durch den Nutzer:** Am 02.11.2026 ohne Beanstandungen abgeschlossen.
 - **Dokumentierte Zusammenarbeit/Notizen:** Anforderungen an Aufgabenkommentare sowie private und geteilte Handschriftnotizen sind konzeptionell in `research/zusammenarbeit-und-notizen.md` beschrieben, nicht implementiert.
 
 ## Begonnen, aber noch nicht abgeschlossen
 
-- **Ausbau knapper Lernseiten:** Acht Seiten mit Erklärtexten unter 2.000 Zeichen werden in zwei Paketen ergänzt. Paket A (Elektrochemie, vier Q3.3-Seiten, einschließlich Konzentrationszelle und Wasserelektrolyse) am 04.11.2026 abgeschlossen; offen ist Paket B (Protolyse, Carbonsäuren, Aldehyde und Ketone, technische Gleichgewichte).
 - **Feingranulare Prüfungsanalyse:** Die vorhandenen 131 PDFs sind laut Research inventarisiert und breit nach Jahr, Termin, Vorschlag und KCGO-Feld zugeordnet. Teilfragen-/Punkte-Codierung und belastbare Häufigkeitsklassen sind offen. Es gibt keinen Grund, hierfür Häufigkeiten zu schätzen.
 - **Freigabestatus der Lernseiten:** Alle 47 Lesson-Dateien stehen auf `publicationStatus: "review"`. Kriterien für den Wechsel zu `published` sind noch nicht festgelegt.
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.

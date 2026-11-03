@@ -76,7 +76,7 @@
     }
   ],
   "introduction": "Gleichgewichte sind nicht nur ein Modell im Unterricht. Sie helfen, technische Synthesen und organische Reaktionen zu verstehen. In der Industrie zählt dabei nicht nur die theoretisch mögliche Ausbeute. Auch Reaktionsgeschwindigkeit, Energiebedarf, Druck, Sicherheit und Produkttrennung spielen eine Rolle.",
-  "explanation": "### 1. Ammoniaksynthese\n\nDie Ammoniaksynthese lautet N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g). Die Hinreaktion ist exotherm. Eine Druckerhöhung begünstigt die Produktseite, weil dort weniger Gasteilchen vorliegen. Eine niedrige Temperatur begünstigt das Gleichgewicht ebenfalls, verlangsamt aber die Reaktion.\n\nTechnische Bedingungen sind deshalb ein Kompromiss. Katalysatoren beschleunigen die Einstellung des Gleichgewichts, verändern aber seine Lage nicht. Wird Ammoniak abgetrennt, verschiebt sich das System zur Produktseite. Nicht umgesetzte Edukte können in einem technischen Prozess zurückgeführt werden.\n\n### 2. Estergleichgewicht\n\nDie Veresterung einer Carbonsäure mit einem Alkanol ist umkehrbar: Säure + Alkanol ⇌ Ester + Wasser. Ein Überschuss eines Edukts oder die Entfernung eines Produkts kann die Estermenge erhöhen. Welche Maßnahme geeignet ist, hängt unter anderem von Siedepunkten, Löslichkeit und Sicherheit ab.\n\n### 3. Ausbeute, Geschwindigkeit und Betrieb\n\nDas Gleichgewicht beschreibt die Zusammensetzung im Gleichgewicht, nicht wie schnell es erreicht wird. Höhere Temperatur kann eine Reaktion schneller machen; ob sie zugleich den Gleichgewichtsumsatz erhöht, hängt von der Reaktionsenthalpie ab. Druck beeinflusst vor allem Gasgleichgewichte. Ein Katalysator verändert die Reaktionsgeschwindigkeit, nicht die Gleichgewichtslage.\n\n### 4. Technische Bewertung\n\nVergleiche Prozessbedingungen mit mehreren Kriterien: Gleichgewichtsausbeute, Reaktionszeit, Durchsatz, Energiebedarf, Druck, Trennaufwand, Sicherheit und Rohstoffnutzung. Daten aus Aufgabenmaterial können zeigen, dass die Bedingung mit der höchsten Gleichgewichtsausbeute nicht automatisch das wirtschaftlich oder ökologisch beste Verfahren ergibt. Begründe dein Urteil mit den vorgegebenen Kriterien und nenne Unsicherheiten.",
+  "explanation": "### 1. Ammoniaksynthese\n\nDie Ammoniaksynthese lautet N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) mit ΔH = −92 kJ·mol⁻¹. Die Hinreaktion ist exotherm. Eine Druckerhöhung begünstigt die Produktseite, weil dort weniger Gasteilchen vorliegen. Eine niedrige Temperatur begünstigt das Gleichgewicht ebenfalls, verlangsamt aber die Reaktion.\n\nTechnische Bedingungen sind deshalb ein Kompromiss. Katalysatoren beschleunigen die Einstellung des Gleichgewichts, verändern aber seine Lage nicht. Wird Ammoniak abgetrennt, verschiebt sich das System zur Produktseite. Nicht umgesetzte Edukte können in einem technischen Prozess zurückgeführt werden.\n\n### 2. Das Haber-Bosch-Verfahren als Kreisprozess\n\nIm Haber-Bosch-Verfahren strömt das Gasgemisch bei erhöhter Temperatur und hohem Druck über einen Eisenkatalysator. Bei jedem Durchgang wird nur ein kleiner Teil der Edukte zu Ammoniak umgesetzt; das Gleichgewicht wird im Reaktor nicht vollständig erreicht. Das Gemisch wird anschließend gekühlt, bis Ammoniak flüssig wird und sich abtrennen lässt. Stickstoff und Wasserstoff werden mit frischem Gas gemischt und erneut in den Reaktor geleitet. So wird das Edukt über viele Durchgänge fast vollständig genutzt, obwohl der Umsatz pro Durchgang gering ist.\n\nDer Wasserstoff stammt heute überwiegend aus Erdgas (Dampfreformierung). Dabei entsteht Kohlenstoffdioxid, weshalb die Ammoniaksynthese einen erheblichen Teil der CO₂-Emissionen der chemischen Industrie verursacht. Ammoniak ist Grundstoff für Düngemittel; ohne das Verfahren könnte ein großer Teil der Weltbevölkerung nicht ernährt werden. Wasserstoff aus Elektrolyse mit erneuerbarem Strom ist eine mögliche Alternative.\n\n### 3. Estergleichgewicht\n\nDie Veresterung einer Carbonsäure mit einem Alkanol ist umkehrbar: Säure + Alkanol ⇌ Ester + Wasser. Ein Überschuss eines Edukts oder die Entfernung eines Produkts kann die Estermenge erhöhen. Welche Maßnahme geeignet ist, hängt unter anderem von Siedepunkten, Löslichkeit und Sicherheit ab. Eine Säure wie Schwefelsäure katalysiert die Reaktion und beschleunigt die Einstellung des Gleichgewichts.\n\nFür die Bildung von Ethansäureethylester aus Ethansäure und Ethanol beträgt Kc etwa 4. Setzt man je 1 mol der Edukte ein, liegen im Gleichgewicht etwa 2/3 mol Ester vor. Mit dem Massenwirkungsgesetz lässt sich berechnen, wie stark ein Überschuss die Ausbeute erhöht. Weil auf beiden Seiten gleich viele Teilchen stehen, kürzt sich das Volumen heraus, und du kannst direkt mit Stoffmengen rechnen.\n\n### 4. Ausbeute, Geschwindigkeit und Betrieb\n\nDas Gleichgewicht beschreibt die Zusammensetzung im Gleichgewicht, nicht wie schnell es erreicht wird. Höhere Temperatur kann eine Reaktion schneller machen; ob sie zugleich den Gleichgewichtsumsatz erhöht, hängt von der Reaktionsenthalpie ab. Druck beeinflusst vor allem Gasgleichgewichte. Ein Katalysator verändert die Reaktionsgeschwindigkeit, nicht die Gleichgewichtslage.\n\n### 5. Technische Bewertung\n\nVergleiche Prozessbedingungen mit mehreren Kriterien: Gleichgewichtsausbeute, Reaktionszeit, Durchsatz, Energiebedarf, Druck, Trennaufwand, Sicherheit und Rohstoffnutzung. Daten aus Aufgabenmaterial können zeigen, dass die Bedingung mit der höchsten Gleichgewichtsausbeute nicht automatisch das wirtschaftlich oder ökologisch beste Verfahren ergibt. Hoher Druck erhöht zum Beispiel die Ausbeute, erfordert aber stabile Anlagen und viel Energie für die Verdichtung. Begründe dein Urteil mit den vorgegebenen Kriterien und nenne Unsicherheiten.",
   "fundamentals": [
     {
       "term": "Gleichgewichtsausbeute",
@@ -93,6 +93,14 @@
     {
       "term": "Rückführung",
       "explanation": "Nicht umgesetzte Edukte werden in einen Prozess zurückgeleitet, um ihre Nutzung zu erhöhen."
+    },
+    {
+      "term": "Haber-Bosch-Verfahren",
+      "explanation": "Technische Ammoniaksynthese aus Stickstoff und Wasserstoff an einem Eisenkatalysator mit Abtrennung des Ammoniaks und Rückführung der Edukte."
+    },
+    {
+      "term": "Umsatz pro Durchgang",
+      "explanation": "Anteil der Edukte, der bei einem einzelnen Durchlauf durch den Reaktor umgesetzt wird; kann durch Rückführung ausgeglichen werden."
     }
   ],
   "equations": [
@@ -110,6 +118,16 @@
       "id": "chem.q3.1.applications.eq.ammonia-kc",
       "notation": "Kc = c(NH₃)² / (c(N₂)·c(H₂)³)",
       "explanation": "Konzentrationsausdruck der Ammoniaksynthese im üblichen Schulmodell."
+    },
+    {
+      "id": "chem.q3.1.applications.eq.ester-kc",
+      "notation": "Kc = c(Ester) · c(Wasser) / (c(Säure) · c(Alkohol)) ≈ 4 (Ethansäureethylester)",
+      "explanation": "Massenwirkungsgesetz der Veresterung; das Volumen kürzt sich heraus."
+    },
+    {
+      "id": "chem.q3.1.applications.eq.reforming",
+      "notation": "CH₄ + H₂O → CO + 3 H₂;  CO + H₂O → CO₂ + H₂",
+      "explanation": "Dampfreformierung von Methan und Konvertierung; liefert Wasserstoff für die Ammoniaksynthese und setzt CO₂ frei."
     }
   ],
   "equationNote": "Technische Prozessbewertung benötigt Materialdaten. Nutze keine pauschalen Optimalwerte, wenn Temperatur, Druck oder Zielgrößen nicht angegeben sind.",
@@ -137,6 +155,17 @@
         "Prüfe, ob die technische Trennung praktisch möglich ist."
       ],
       "result": "Ein Eduktüberschuss oder das Entfernen von Wasser beziehungsweise Ester verschiebt das Gleichgewicht zur Produktseite."
+    },
+    {
+      "id": "chem.q3.1.applications.example.ester-excess",
+      "title": "Esterausbeute mit Überschuss berechnen",
+      "prompt": "Ethansäure und Ethanol reagieren zu Ethansäureethylester und Wasser (Kc = 4). Berechne die Esterstoffmenge im Gleichgewicht für (a) je 1 mol Säure und Alkohol, (b) 1 mol Säure und 3 mol Alkohol.",
+      "steps": [
+        "(a) Ansatz: x mol Ester und x mol Wasser; Säure und Alkohol je (1 − x) mol. x² / (1 − x)² = 4, also x / (1 − x) = 2 und x = 2/3 ≈ 0,67 mol.",
+        "(b) Ansatz: x² / ((1 − x)(3 − x)) = 4. Umformen: x² = 4(3 − 4x + x²), also 3x² − 16x + 12 = 0.",
+        "Lösungsformel: x = (16 − √(256 − 144)) / 6 = (16 − 10,58) / 6 ≈ 0,90 mol. Die zweite Lösung (≈ 4,4 mol) ist größer als die eingesetzte Säuremenge und scheidet aus."
+      ],
+      "result": "Ohne Überschuss entstehen etwa 0,67 mol Ester (67 % Ausbeute bezogen auf die Säure), mit dreifachem Alkoholüberschuss etwa 0,90 mol (90 %). Der Überschuss verschiebt das Gleichgewicht deutlich zur Produktseite."
     }
   ],
   "examReferences": [
@@ -185,6 +214,10 @@
     {
       "tip": "Bewerte einen Prozess mit mehreren Kriterien und den konkreten Daten des Materials.",
       "commonError": "Ein einzelner Parameter wie Ausbeute wird als vollständiges Prozessurteil behandelt."
+    },
+    {
+      "tip": "Prüfe bei quadratischen Gleichungen im MWG, welche Lösung chemisch möglich ist.",
+      "commonError": "Eine Lösung wird übernommen, bei der mehr Produkt entsteht, als Edukt eingesetzt wurde."
     }
   ],
   "review": {
