@@ -1,0 +1,9 @@
+.privacy-page{max-width:760px;padding-top:7px}
+.privacy-page h1{font:600 36px var(--display);letter-spacing:-1.6px;margin:16px 0 10px}
+.privacy-lead{color:#a0abb2;font-size:14px;line-height:1.7;margin:0 0 26px}
+.privacy-page section{padding:18px 0;border-top:1px solid #1c242d}
+.privacy-page h2{font:600 17px var(--display);letter-spacing:-.3px;margin:0 0 10px}
+.privacy-page p,.privacy-page li{color:#b6c0c5;font-size:13px;line-height:1.75}
+.privacy-page p{margin:0 0 10px}
+.privacy-page ul{margin:0 0 10px;padding-left:20px}
+@media(max-width:600px){.privacy-page h1{font-size:30px}}

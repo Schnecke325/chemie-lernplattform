@@ -1,4 +1,4 @@
-export type PageId = 'dashboard' | 'lernen' | 'uebungen' | 'abiturarchiv' | 'fortschritt'
+export type PageId = 'dashboard' | 'lernen' | 'uebungen' | 'abiturarchiv' | 'fortschritt' | 'admin' | 'datenschutz'
 
 export interface NavigationItem {
   id: PageId

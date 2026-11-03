@@ -37,6 +37,10 @@ jobs:
         run: npm run validate:content
       - name: Build
         run: npm run build
+        env:
+          # Öffentliche Werte als Repository-Variablen (nicht Secrets); fehlen sie, bleiben Konten ausgeschaltet.
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
       - name: Check build output
         run: |
           set -euo pipefail
@@ -48,6 +52,7 @@ jobs:
           if grep -rIl 'local-material' dist; then
             echo "::error::Build verweist auf local-material/."; exit 1
           fi
+          node scripts/check-build-secrets.mjs dist
           echo "Build enthält $(find dist -type f | wc -l) Dateien."
       - name: Publish to Pages repository
         env:

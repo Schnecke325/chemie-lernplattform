@@ -221,7 +221,7 @@ Historische Originalaufgaben sollen als solche erkennbar bleiben. Neu zusammenge
 
 ## 9. Konten und Backend
 
-Aktuell ist die Plattform statisch aufgebaut und besitzt noch keine Benutzerkonten oder Datenbankanbindung.
+Die Plattform ist statisch aufgebaut. Seit 04.11.2026 gibt es optionale Benutzerkonten über Supabase (Paket K1). Nach Entscheidung des Nutzers vergeben ausschließlich Admins die Zugänge: Sie legen Name, Ablaufdatum und Rechte (Abiturarchiv, Admin) fest, und der Zugangscode wird automatisch erzeugt. Abgelaufene Konten werden gelöscht. Geplant sind die Speicherung der Ergebnisse im Konto (K2) sowie der Lernfortschritt mit einer Übersicht für Admins (K3).
 
 Für eine spätere persönliche Lernumgebung wurde Supabase als mögliche technische Grundlage vorgesehen.
 

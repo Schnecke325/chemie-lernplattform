@@ -1,0 +1,20 @@
+.account-backdrop{position:fixed;inset:0;z-index:50;display:grid;grid-template-columns:minmax(0,1fr);place-items:center;padding:24px;background:#05080bd9}
+.account-dialog{position:relative;width:min(420px,100%);min-width:0;padding:24px 24px 18px;border:1px solid #232d37;border-radius:14px;background:#0c1116;box-shadow:0 24px 60px #0008}
+.account-close{position:absolute;top:14px;right:14px}
+.account-dialog h2{font:600 22px var(--display);letter-spacing:-.6px;margin:6px 40px 12px 0}
+.account-intro{color:#9ca9ae;font-size:12px;line-height:1.6;margin:0 0 14px}
+.account-field{display:grid;gap:6px;margin-bottom:12px;font-size:11px;color:#a6b0b5}
+.account-field input{width:100%;padding:10px 11px;border:1px solid #2a3540;border-radius:7px;background:#11171e;color:var(--text);font:13px var(--mono);letter-spacing:.5px}
+.account-field input:focus{outline:2px solid #397e6e;outline-offset:1px;border-color:#397e6e}
+.account-message{margin:0 0 12px;padding:9px 11px;border:1px solid #3a3a2a;border-radius:7px;background:#1b1a12;color:#e0c48d;font-size:12px;line-height:1.5}
+.account-message.is-error{border-color:#4a2a28;background:#1e1413;color:#f2a08f}
+.account-facts{display:grid;gap:8px;margin:0 0 16px}
+.account-facts div{display:flex;justify-content:space-between;gap:16px;padding-bottom:8px;border-bottom:1px solid #1c242d;font-size:12px}
+.account-facts dt{color:#8995a0}
+.account-facts dd{margin:0;color:#d2dbdf;text-align:right;font-family:var(--mono)}
+.account-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.account-actions .primary-button:disabled{opacity:.6;cursor:wait}
+.account-secondary{padding:10px 14px;border:1px solid #31413d;border-radius:6px;background:#182522;color:#a9decb;font-size:12px;cursor:pointer}
+.account-secondary:hover{background:#20362e}
+.account-privacy{margin-top:16px}
+@media(max-width:600px){.account-backdrop{padding:12px}.account-dialog{padding:20px 16px 14px}}

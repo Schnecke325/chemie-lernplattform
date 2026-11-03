@@ -29,6 +29,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 ## Begonnen, aber noch nicht abgeschlossen
 
 - **Feingranulare Prüfungsanalyse:** Die vorhandenen 131 PDFs sind laut Research inventarisiert und breit nach Jahr, Termin, Vorschlag und KCGO-Feld zugeordnet. Teilfragen-/Punkte-Codierung und belastbare Häufigkeitsklassen sind offen. Es gibt keinen Grund, hierfür Häufigkeiten zu schätzen.
+- **Benutzerkonten, Paket K1 (04.11.2026):** Code für Konten mit Benutzername und Zugangscode, Benutzerverwaltung für Admins (anlegen, Rechte „Abiturarchiv“/„Admin“, Ablaufdatum, neuer Code, entfernen), automatische Löschung abgelaufener Konten und Datenschutzseite liegt vor. Supabase-Schema, Edge Function und Einrichtungsanleitung stehen unter `supabase/`. Offen: Einrichtung des Supabase-Projekts durch den Nutzer, Test gegen das echte Projekt. Danach folgen K2 (Ergebnisse im Konto) und K3 (Lernfortschritt und Übersicht für Admins).
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.
 
 ## Geplant
@@ -39,17 +40,16 @@ Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschri
 - Lernfortschritt und Wiederholungsbedarf. Nach Entscheidung des Nutzers vom 02.11.2026 erst nach Einführung der Benutzerkonten, weil der Fortschritt an die Zugangsdaten gebunden werden soll.
 - Zusammenhängende Prüfungssimulationen und Abiturtraining.
 - Abbildungen und weitere quellenbasierte Versuchsdarstellungen für die experimentellen Lernseiten.
-- Nutzerkonten und geschützter Zugang zum Abiturarchiv. Vor einer Implementierung sind Berechtigungsmodell, Datenschutz, Sessions, Geräteverwaltung, IP-Aufbewahrung und Schutz von Originalprüfungen zu konkretisieren.
-- Supabase Auth, PostgreSQL mit Row Level Security, Edge Functions und privater Storage sind als technische Grundlage in Nutzeranforderungen genannt; im Repository existiert dafür noch kein Backend-Code oder Schema.
+- Geschützter Zugang zum Abiturarchiv. Das Recht dafür wird mit K1 je Konto gespeichert; welche Inhalte ins Archiv dürfen und der Schutz von Originalprüfungen sind gesondert zu entscheiden.
+- Privater Storage bei Supabase für Handschrift und Dateien (Auth, PostgreSQL mit RLS und eine Edge Function sind seit K1 im Repository).
 - Aufgabenkommentare, Moderation, persönliche Notizen und gezieltes Teilen gemäß Konzept in `research/zusammenarbeit-und-notizen.md`.
-- Administration für Benutzer und individuelle Berechtigungen.
 
 ## Bewusst zurückgestellt oder noch nicht freigegeben
 
 - Dashboard-Fortschrittswerte und Lernpfad bleiben statische Platzhalter, bis echte Fortschrittsdaten implementiert und freigegeben sind.
 - Abiturarchiv bleibt Platzhalter; Original-PDFs werden nicht in das öffentliche Repository oder den Site-Build übernommen.
 - Kommentare, Notizen, Prüfungssimulationen, kontogebundene Speicherung und die Speicherung von Antworttexten sind nicht Bestandteil des aktuellen Stands.
-- Supabase/Auth/Backend und Datenbank werden nicht begonnen, bis der Nutzer den konkreten Umfang freigibt.
+- Weitere Supabase-Funktionen über K1–K3 hinaus werden nicht begonnen, bis der Nutzer den konkreten Umfang freigibt.
 - Es gibt keine festgelegten Termine, Prioritäten zwischen diesen Punkten oder endgültige Entscheidung zur konkreten Ausgestaltung von Teilen/Moderation/Offline-Speicherung.
 
 ## Offene Entscheidungen

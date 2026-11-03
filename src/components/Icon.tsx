@@ -16,6 +16,8 @@ const paths: Record<string, ReactNode> = {
   spark: <><path d="m12 3 1.7 5.3L19 10l-5.3 1.7L12 17l-1.7-5.3L5 10l5.3-1.7L12 3Z"/><path d="m19 15 .8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"/></>,
   menu: <><path d="M4 6h16M4 12h16M4 18h16"/></>,
   close: <><path d="m18 6-12 12M6 6l12 12"/></>,
+  user: <><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></>,
+  shield: <><path d="M12 3 5 6v5c0 4.5 3 8.3 7 10 4-1.7 7-5.5 7-10V6z"/><path d="m9 12 2 2 4-4"/></>,
 }
 
 export function Icon({ name, size = 20, className }: IconProps) {

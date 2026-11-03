@@ -5,7 +5,7 @@
 
 ## Projekt und Technologien
 
-Statische Lernplattform für die Vorbereitung auf das hessische Chemie-Landesabitur im Leistungskurs. Kein Backend und keine Authentifizierung.
+Statische Lernplattform für die Vorbereitung auf das hessische Chemie-Landesabitur im Leistungskurs. Seit 04.11.2026 gibt es optionale Benutzerkonten über Supabase (siehe „Benutzerkonten“); ohne Supabase-Konfiguration läuft die Seite wie bisher rein statisch.
 
 | Bereich | Ist-Stand |
 |---|---|
@@ -16,7 +16,7 @@ Statische Lernplattform für die Vorbereitung auf das hessische Chemie-Landesabi
 | Basis-URL | `/` in `vite.config.ts` (Veröffentlichung unter `https://schnecke325.github.io/`) |
 | CI-Node | Node 22 in `.github/workflows/deploy.yml` |
 | Lokal ermittelte Laufzeit | Node 24.22.1, npm 11.20.0 (nur Bestandsaufnahme; nicht als Projektvorgabe festgeschrieben) |
-| Externe Laufzeitdienste | Keine |
+| Externe Laufzeitdienste | Supabase (Auth, PostgreSQL mit RLS, Edge Function `admin-users`), nur wenn beim Build konfiguriert; Bibliothek `@supabase/supabase-js` 2.118 |
 
 Die Paketbereiche sind in `package.json` festgelegt; genaue installierte Versionen stehen in `package-lock.json`. Es gibt kein `.nvmrc` und keine dokumentierte Mindestversion lokaler Node-Laufzeiten.
 
@@ -50,7 +50,7 @@ Die Paketbereiche sind in `package.json` festgelegt; genaue installierte Version
 
 ## Navigation und Seiten
 
-`src/App.tsx` hält eine `PageId` in React-State. Das ist keine URL-Router-Lösung: Ein Wechsel wird nicht als eigenständige Browserroute gespeichert und ein Neuladen beginnt wieder beim Dashboard. Die Seiten-IDs sind `dashboard`, `lernen`, `uebungen`, `abiturarchiv` und `fortschritt`.
+`src/App.tsx` hält eine `PageId` in React-State. Das ist keine URL-Router-Lösung: Ein Wechsel wird nicht als eigenständige Browserroute gespeichert und ein Neuladen beginnt wieder beim Dashboard. Die Seiten-IDs sind `dashboard`, `lernen`, `uebungen`, `abiturarchiv`, `fortschritt`, `admin` (Benutzerverwaltung, nur für Admins im Menü) und `datenschutz` (Link in der Fußzeile und im Anmeldefenster).
 
 - **Dashboard:** `src/pages/DashboardPage.tsx`; vorhandene Oberfläche, aber Kennzahlen und Lernpfad sind Platzhalter.
 - **Lernbereich:** `src/pages/LearningPage.tsx`; Katalogauswahl, vollständige JSON-Lernseiten, Inhaltsübersicht sowie direkt bearbeitbare Übungen und Selbsttests mit derselben Komponente wie im Übungsbereich (Eingabefelder sofort sichtbar, Ergebnis-Etiketten im Kartenkopf). Der Abschnitt „Lösungshinweise und typische Fehler“ bleibt erhalten und heißt in der Inhaltsnavigation „Typische Fehler“. Die mobile Katalogansicht verwendet aufklappbare Hauptkapitel; mehrere Kapitel können offen sein. Beim Wechsel der Lernseiten-ID wird der Dokument-Scrollbereich an den Seitenanfang positioniert, mit `prefers-reduced-motion` berücksichtigt.
@@ -58,8 +58,21 @@ Die Paketbereiche sind in `package.json` festgelegt; genaue installierte Version
 - **Abiturarchiv und Lernfortschritt:** `src/pages/PlaceholderPage.tsx`; Platzhalteransichten. Keine Originalprüfungen im App-Archiv, keine Nutzerfortschritte.
 - **Gemeinsames Layout:** `src/components/AppShell.tsx` und `Sidebar.tsx`; mobile Navigation als seitliches Menü. Die Kopfzeile (`.topbar`) bleibt seit 04.11.2026 beim Scrollen oben stehen; der automatische Sprung zum Seitenanfang einer Lernseite rechnet ihre Höhe heraus.
 - **Periodensystem (seit 04.11.2026):** Ein Knopf „PSE“ in der Kopfzeile öffnet `src/components/PeriodicTable.tsx` (eigenes Stylesheet, per `React.lazy` erst beim ersten Öffnen geladen) als Fenster mit allen 118 Elementen, Farbcodierung nach Elementkategorie, Hover-Vergrößerung und einer Detailkarte (Schalenmodell, Elektronen je Schale, Atommasse, Kategorie, Gruppe, Periode, Elektronegativität, Elektronenkonfiguration, häufige Oxidationszahlen). Schließen per Esc, Klick daneben oder Schließen-Knopf. Auf schmalen Bildschirmen zeigen die Kästchen nur Symbol und Ordnungszahl, die Tabelle ist seitlich scrollbar und die Detailkarte erscheint im Vollbild. Daten: `src/periodic/elements.json`. Atommassen nach IUPAC (gerundet; abgeglichen mit der Elementliste der deutschsprachigen Wikipedia, Abweichung nur bei Mangan, dort Tippfehler der Liste), Pauling-Elektronegativitäten abgeglichen mit der Wikipedia-Datenseite „Electronegativities of the elements“. Elektronenkonfigurationen wurden nach der Madelung-Regel mit den bekannten Ausnahmen berechnet, die Schalenbesetzung daraus abgeleitet; ab Z = 104 sind sie als vorhergesagt gekennzeichnet. Häufige Oxidationszahlen sind eine schulbezogene Auswahl. Bei Elementen ab Z = 104 schwanken die Massenzahlen der langlebigsten Isotope je nach Quelle.
+- **Benutzerkonten (seit 04.11.2026, Paket K1):** siehe eigener Abschnitt unten.
 
 Die mobile Sidebar greift bei `max-width: 800px`, zusätzliche enge Layoutregeln liegen u. a. bei `max-width: 600px`. Lern- und Übungsseiten haben separate CSS-Dateien; globale Design-Tokens und Dashboard-/Shell-Stile stehen in `src/styles/global.css`.
+
+## Benutzerkonten
+
+Paket K1 nach Nutzerentscheidung vom 04.11.2026. Es gibt keine Selbstregistrierung: Admins legen Konten in der Benutzerverwaltung an, legen dabei den Namen, ein optionales Ablaufdatum („gültig bis“, einschließlich, deutsche Zeit) und die Rechte „Abiturarchiv“ und „Admin“ fest. Benutzername (aus dem Namen gebildet, z. B. `lena.k`) und ein zufälliger Zugangscode (16 Zeichen, Viererblöcke) werden erzeugt; der Code erscheint nur einmal. Abgelaufene Konten sperrt die Datenbank sofort und löscht sie am Folgetag automatisch mit allen Daten (Nutzerentscheidung).
+
+- **Client:** `src/account/AccountContext.tsx` (Anmeldestatus, Profil, An-/Abmelden; lädt `src/account/client.ts` mit der Supabase-Bibliothek erst nach dem ersten Rendern), `src/account/profile.ts`, Anmeldefenster `src/components/AccountDialog.tsx`, Benutzerverwaltung `src/pages/AdminPage.tsx` (per `React.lazy`), Datenschutzseite `src/pages/PrivacyPage.tsx`. Anmeldung intern als E-Mail `<benutzername>@chemie-lernraum.invalid` mit dem Code als Passwort; es werden keine E-Mails verschickt. Eingaben des Codes werden in Großbuchstaben ohne Trennzeichen umgewandelt.
+- **Datenbank:** `supabase/migrations/20261104120000_accounts.sql` – Tabelle `profiles` mit RLS (eigenes Profil oder Admin liest; nur Admins ändern Anzeigename, Rechte und Ablaufdatum), Trigger gegen das Entfernen des letzten gültigen Admins, täglicher `pg_cron`-Job `delete_expired_accounts()`.
+- **Edge Function:** `supabase/functions/admin-users/index.ts` – Anlegen, neuer Code, Entfernen; prüft, dass der Aufrufer ein gültiger Admin ist. Der geheime Schlüssel bleibt in Supabase.
+- **Konfiguration:** `VITE_SUPABASE_URL` und `VITE_SUPABASE_PUBLISHABLE_KEY` beim Build aus den GitHub-Repository-Variablen `SUPABASE_URL`/`SUPABASE_PUBLISHABLE_KEY`. Fehlen sie, sind Konten ausgeschaltet (kein Anmelden-Knopf). Der Publishable Key ist öffentlich; dass er im Build steht, hat der Nutzer am 04.11.2026 entschieden. Geheime Schlüssel prüft `scripts/check-build-secrets.mjs` im Deployment.
+- **Einrichtung:** Schritt-für-Schritt in `supabase/EINRICHTUNG.md`.
+- **Noch nicht enthalten:** Speicherung der Aufgabenergebnisse im Konto (Paket K2), Lernfortschritt und Fortschrittsübersicht für Admins (Paket K3), Inhalte des Abiturarchivs. Das Recht „Abiturarchiv“ wird gespeichert, schaltet aber noch nichts frei. Die Datenschutzseite nennt nach Nutzerentscheidung vom 04.11.2026 (Nutzung nur im eigenen Kurs) keinen Namen und keine Kontaktadresse der verantwortlichen Person; das ist nachzutragen, falls die Nutzung über den Kurs hinausgeht.
+- **Getestet:** Build und Browser-Test gegen einen lokalen Supabase-Ersatz (Anmelden, falscher Code, abgelaufener Zugang, Abmelden, Benutzer anlegen/bearbeiten, neuer Code, entfernen, Handyansicht). Gegen ein echtes Supabase-Projekt noch nicht geprüft.
 
 ## Katalog, Lerninhalte und Aufgaben
 
@@ -141,7 +154,7 @@ Ablauf (`.github/workflows/deploy.yml`, bei Push auf `main` oder manuell):
 
 1. Checkout, Node 22, `npm ci`.
 2. `npm run validate:content` und `npm run build`. Schlägt ein Schritt fehl, endet der Job, bevor das Zielrepository berührt wird.
-3. Build-Prüfung: `dist/` darf nur `index.html` sowie `.js`/`.css`/`.svg` unter `assets/` enthalten und nicht auf `local-material` verweisen. `.svg` ist seit 04.11.2026 für die selbst erstellten Aufgabenabbildungen erlaubt (Zustimmung des Nutzers); andere Bild- oder Dokumentformate bleiben gesperrt.
+3. Build-Prüfung: `dist/` darf nur `index.html` sowie `.js`/`.css`/`.svg` unter `assets/` enthalten, nicht auf `local-material` verweisen und keine geheimen Supabase-Schlüssel enthalten (`scripts/check-build-secrets.mjs`: `sb_secret_…` oder JWT mit Rolle `service_role`). `.svg` ist seit 04.11.2026 für die selbst erstellten Aufgabenabbildungen erlaubt (Zustimmung des Nutzers); andere Bild- oder Dokumentformate bleiben gesperrt.
 4. Klon des Zielrepositorys per SSH-Deploy-Key. Ersetzt werden ausschließlich die verwalteten Pfade `index.html`, `assets/`, `.nojekyll` und die Markierungsdatei `.chemie-lernplattform-deploy` (enthält Quell-Repository und Commit-SHA). Ein Commit „Build aus Schnecke325/chemie-lernplattform@<sha>“ wird nach `main` gepusht.
 5. Der Push löst im Zielrepository den GitHub-Workflow `pages-build-deployment` aus, der die Site veröffentlicht.
 
@@ -167,5 +180,5 @@ Navigation an der Domainwurzel: Seiten werden über React-State gewechselt, es g
 
 ## Noch nicht implementiert
 
-Speicherung von Handschrift und Antworttexten, geräteübergreifender bzw. kontogebundener Fortschritt, Fortschrittsanzeige und Wiederholungsempfehlungen, Prüfungssimulation, Kommentarfunktion, private/geteilte Notizen, Benutzerkonten, Admin-Oberfläche, Supabase Auth/PostgreSQL/RLS/Edge Functions sowie privater Dateispeicher. Diese Themen sind teils konzeptionell in `research/zusammenarbeit-und-notizen.md` oder vorherigen Übergabeanforderungen erwähnt, aber nicht im Anwendungscode implementiert.
+Speicherung von Handschrift und Antworttexten, geräteübergreifender bzw. kontogebundener Fortschritt (Paket K2), Fortschrittsanzeige, Fortschrittsübersicht für Admins und Wiederholungsempfehlungen (Paket K3), Prüfungssimulation, Kommentarfunktion, private/geteilte Notizen, Inhalte des Abiturarchivs sowie privater Dateispeicher. Diese Themen sind teils konzeptionell in `research/zusammenarbeit-und-notizen.md` oder vorherigen Übergabeanforderungen erwähnt, aber nicht im Anwendungscode implementiert.
 

@@ -8,3 +8,6 @@
 .pse-button{width:auto;padding:0 10px;margin-right:16px;font:600 10px var(--mono);letter-spacing:1.2px}.breadcrumb{margin-right:auto}
 @media(max-width:800px){.pse-button{margin-right:11px}}
 .topbar{position:sticky;top:0;z-index:15;background:#0b0f14eb;backdrop-filter:blur(8px)}
+.login-button{width:auto;display:flex;gap:7px;padding:0 10px;font:600 10px var(--mono);letter-spacing:1.2px}.account-button{padding:0;cursor:pointer}.account-button:hover{background:#20362e}.nav-label-admin{margin-top:22px}.footer-link{padding:0;border:0;background:none;color:#81918c;font:inherit;letter-spacing:inherit;cursor:pointer}.footer-link:hover{color:var(--mint)}
+@media(max-width:600px){.login-button span{display:none}.login-button{width:31px;padding:0;justify-content:center}}
+@media(max-width:370px){.topbar-right{display:flex}}
