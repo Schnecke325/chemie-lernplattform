@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.2.sustainability",
   "title": "Recycling und ökologische Werkstoffbewertung",
-  "summary": "Struktur, Reaktionen und Eigenschaften von Recycling und ökologische Werkstoffbewertung erschließen.",
+  "summary": "Werkstoffliches, rohstoffliches und energetisches Recycling im Vergleich und die Frage, wie man Kunststoffe und Verpackungen mit Systemgrenze, funktionaler Einheit und mehreren Kriterien fair bewertet.",
   "order": 40,
   "publicationStatus": "review",
   "relevance": {
@@ -20,53 +20,51 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
-    "chem.q1.1.mechanisms"
+    "chem.q2.2.properties",
+    "chem.basics.quantities",
+    "chem.applications.evaluation"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.2.sustainability.goal.structure",
-      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "statement": "Ich kann Wiederverwendung, werkstoffliches, rohstoffliches und energetisches Recycling unterscheiden und Verfahren zuordnen.",
       "competencies": [
-        "S",
-        "K"
+        "S"
       ],
       "operators": [
         "beschreiben",
-        "darstellen"
+        "zuordnen"
       ]
     },
     {
       "id": "chem.q2.2.sustainability.goal.reactions",
-      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
+      "statement": "Ich kann chemische Vorgänge beim rohstofflichen Recycling und bei der Verbrennung von Kunststoffen formulieren.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
         "formulieren",
-        "unterscheiden"
+        "erläutern"
       ]
     },
     {
       "id": "chem.q2.2.sustainability.goal.properties",
-      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
+      "statement": "Ich kann erklären, warum Rezyklate oft schlechtere Eigenschaften haben, und Massenanteile sowie CO₂-Mengen berechnen.",
       "competencies": [
         "S",
         "E"
       ],
       "operators": [
-        "erläutern",
-        "begründen"
+        "erklären",
+        "berechnen"
       ]
     },
     {
       "id": "chem.q2.2.sustainability.goal.evaluate",
-      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "statement": "Ich kann Kunststoffprodukte und Verwertungswege mit gleicher Systemgrenze und funktionaler Einheit nach mehreren Kriterien bewerten.",
       "competencies": [
-        "K",
-        "B"
+        "B",
+        "K"
       ],
       "operators": [
         "bewerten",
@@ -74,52 +72,90 @@
       ]
     }
   ],
-  "introduction": "Eine faire Werkstoffbewertung vergleicht gleiche Funktionen und macht die Systemgrenze sichtbar.",
-  "explanation": "Werkstoffliches Recycling bereitet Polymermaterial erneut auf; Sortenreinheit, Additive, Verschmutzung und Alterung begrenzen die Qualität. Rohstoffliches Recycling zerlegt Polymere in Ausgangsstoffe und benötigt Prozessenergie. Wiederverwendung verlängert die Produktnutzung; energetische Verwertung erhält den Werkstoff nicht. Vergleiche Herstellung, Nutzung, Transport und End-of-Life anhand von Daten. Biobasierte Rohstoffherkunft bedeutet nicht automatisch biologischen Abbau. Dafür müssen Bedingungen und Prüfverfahren betrachtet werden.",
+  "introduction": "Kunststoffe sind leicht, haltbar und billig. Genau diese Haltbarkeit wird nach der Nutzung zum Problem: Sie bauen sich in der Umwelt kaum ab und zerfallen zu Mikroplastik. Welche Verwertung sinnvoll ist und ob eine Alternative wirklich besser ist, lässt sich nur mit chemischem Wissen und klaren Bewertungsregeln entscheiden.",
+  "explanation": "### 1. Verwertungswege\n\nAm wirkungsvollsten ist es, Abfall zu vermeiden oder Produkte wiederzuverwenden, etwa Mehrwegflaschen. Danach folgen drei Arten der Verwertung. Beim werkstofflichen Recycling bleibt das Polymer erhalten: Kunststoff wird gesammelt, sortiert, gewaschen, zerkleinert, eingeschmolzen und zu Granulat (Rezyklat) verarbeitet. Das gelingt nur bei Thermoplasten. Beim rohstofflichen Recycling werden die Polymerketten chemisch in kleinere Moleküle zerlegt, die wieder als Ausgangsstoffe dienen. Bei der energetischen Verwertung wird der Kunststoff verbrannt und die frei werdende Wärme genutzt; der Werkstoff ist danach verloren.\n\n### 2. Grenzen des werkstofflichen Recyclings\n\nVerschiedene Kunststoffe sind im geschmolzenen Zustand meist nicht mischbar. Mischungen ergeben daher Material mit schlechten mechanischen Eigenschaften, weshalb die Sortierung entscheidend ist; in Anlagen erkennt man die Sorten zum Beispiel mit Infrarotspektroskopie. Zusätze wie Farbstoffe, Weichmacher und Flammschutzmittel bleiben im Rezyklat. Verschmutzungen lassen sich nicht immer vollständig entfernen, was für Lebensmittelverpackungen besonders kritisch ist. Bei jedem Aufschmelzen können außerdem Ketten durch Wärme und Sauerstoff gespalten werden; kürzere Ketten verringern die Festigkeit. Rezyklat wird daher oft für weniger anspruchsvolle Produkte eingesetzt.\n\n### 3. Rohstoffliches Recycling\n\nPolykondensate wie PET und Polyamide lassen sich gezielt an ihren Ester- oder Amidbindungen spalten, etwa durch Hydrolyse oder durch Umesterung mit einem Alkohol. Aus PET entstehen so wieder Terephthalsäure und Ethan-1,2-diol, die zu neuwertigem PET verarbeitet werden können. Polymerisate wie PE und PP haben keine solchen Sollbruchstellen; sie werden bei hohen Temperaturen unter Luftausschluss gespalten (Pyrolyse). Dabei entsteht ein Gemisch aus Kohlenwasserstoffen, das wie Erdöl weiterverarbeitet wird. Rohstoffliches Recycling verträgt verschmutzte und gemischte Abfälle besser, benötigt aber viel Prozessenergie.\n\n### 4. Energetische Verwertung\n\nKunststoffe aus Erdöl haben einen ähnlichen Heizwert wie Heizöl. Bei der Verbrennung entsteht aus ihrem gesamten Kohlenstoff CO₂, das zuvor im Erdöl gebunden war. Bei chlorhaltigen Kunststoffen wie PVC entsteht zusätzlich Chlorwasserstoff, der aus dem Rauchgas entfernt werden muss. Die energetische Verwertung ist sinnvoll für stark verschmutzte oder nicht trennbare Abfälle, gibt aber den Werkstoff und die bei seiner Herstellung eingesetzte Energie auf.\n\n### 5. Biobasiert und biologisch abbaubar\n\nBiobasiert beschreibt die Herkunft des Rohstoffs, biologisch abbaubar das Verhalten nach der Nutzung. Ob Mikroorganismen ein Polymer abbauen können, hängt von seiner Struktur ab, etwa davon, ob es hydrolysierbare Ester- oder Amidbindungen besitzt, nicht davon, woher der Kohlenstoff stammt. Auch abbaubare Kunststoffe brauchen oft bestimmte Bedingungen wie Wärme und Feuchtigkeit in einer industriellen Kompostieranlage.\n\n### 6. Ökobilanzen und faire Vergleiche\n\nEine Ökobilanz erfasst die Umweltwirkungen eines Produkts über seinen Lebensweg: Rohstoffgewinnung, Herstellung, Transport, Nutzung und Entsorgung. Damit zwei Produkte vergleichbar sind, brauchen sie dieselbe Systemgrenze und dieselbe funktionale Einheit, zum Beispiel „Abfüllung von 1000 L Getränk“. Das Treibhauspotenzial gibt man in CO₂-Äquivalenten an; weitere Kriterien sind Ressourcenverbrauch, Wasserbedarf und Schadstoffe. Annahmen wie Umlaufzahl oder Transportweg können das Ergebnis umkehren. Eine Bewertung nennt diese Annahmen und wägt ökologische, ökonomische und soziale Kriterien ab.",
   "fundamentals": [
     {
-      "term": "Monomer",
-      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+      "term": "Werkstoffliches Recycling",
+      "explanation": "Wiederaufbereitung des Kunststoffs unter Erhalt der Polymerketten; nur bei Thermoplasten möglich."
     },
     {
-      "term": "Vernetzung",
-      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+      "term": "Rohstoffliches Recycling",
+      "explanation": "Chemische Zerlegung der Polymere in Monomere oder andere kleine Moleküle, etwa durch Hydrolyse oder Pyrolyse."
+    },
+    {
+      "term": "Energetische Verwertung",
+      "explanation": "Verbrennung von Kunststoffabfällen unter Nutzung der frei werdenden Wärme; der Werkstoff geht verloren."
+    },
+    {
+      "term": "Rezyklat",
+      "explanation": "Aus Kunststoffabfällen zurückgewonnenes Material, meist als Granulat."
     },
     {
       "term": "Systemgrenze",
-      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+      "explanation": "Festlegung, welche Lebensabschnitte und Prozesse eine Bewertung einschließt."
+    },
+    {
+      "term": "Funktionale Einheit",
+      "explanation": "Gemeinsame Bezugsgröße für einen Vergleich, etwa eine bestimmte Getränkemenge oder Nutzungsdauer."
+    },
+    {
+      "term": "CO₂-Äquivalent",
+      "explanation": "Maß für das Treibhauspotenzial, bei dem verschiedene Treibhausgase auf die Wirkung von CO₂ umgerechnet werden."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.2.sustainability.eq.1",
-      "notation": "Massenanteil w = m(Anteil)/m(Gesamt) · 100 %",
-      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+      "notation": "w(Rezyklat) = m(Rezyklat) / m(gesamt) · 100 %",
+      "explanation": "Massenanteil des Rezyklats an der verarbeiteten Kunststoffmenge."
+    },
+    {
+      "id": "chem.q2.2.sustainability.eq.2",
+      "notation": "[–CH₂–CH₂–]ₙ + 3n O₂ → 2n CO₂ + 2n H₂O",
+      "explanation": "Vollständige Verbrennung von Polyethen bei der energetischen Verwertung."
+    },
+    {
+      "id": "chem.q2.2.sustainability.eq.3",
+      "notation": "PET + H₂O → Terephthalsäure + Ethan-1,2-diol",
+      "explanation": "Schema der Hydrolyse von PET beim rohstofflichen Recycling; gespalten werden die Esterbindungen."
     }
   ],
-  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
+  "equationNote": "Bei Vergleichsrechnungen müssen alle Werte auf dieselbe funktionale Einheit bezogen sein. Rechne zum Beispiel Emissionen je Flasche auf Emissionen je Liter oder je Befüllung um, bevor du vergleichst.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q2.2.sustainability.example.1",
-      "title": "Recyclingweg",
-      "prompt": "Ein sortenreines Thermoplast wird sortiert, zerkleinert und erneut verarbeitet. Benenne das Verfahren und eine Grenze.",
+      "title": "Verwertungsweg einordnen",
+      "prompt": "Sortenreine PP-Verschlusskappen werden gesammelt, gewaschen, zerkleinert, eingeschmolzen und zu Granulat verarbeitet. Benenne den Verwertungsweg und eine Grenze des Verfahrens.",
       "steps": [
-        "Das Verfahren erhält das Polymermaterial; es ist werkstoffliches Recycling.",
-        "Sortierung und erneute Verarbeitung sind zentrale Prozessschritte.",
-        "Alterung, Verschmutzung und Vermischung können die Qualität senken."
+        "Das Polymer bleibt erhalten und wird nur umgeschmolzen: werkstoffliches Recycling.",
+        "Voraussetzung ist ein Thermoplast; PP erfüllt das.",
+        "Grenze: Beim erneuten Aufschmelzen können Ketten gespalten werden; Farbstoffe und Zusätze bleiben im Material."
       ],
-      "result": "Werkstoffliches Recycling. Alterung, Verschmutzung und Vermischung können die Werkstoffeigenschaften verschlechtern."
+      "result": "Es handelt sich um werkstoffliches Recycling. Das Rezyklat hat wegen kürzerer Ketten und enthaltener Zusätze oft geringere Qualität als Neuware."
     },
     {
       "id": "chem.q2.2.sustainability.example.2",
-      "title": "Vergleichskriterien",
-      "prompt": "Was braucht ein fairer Vergleich zweier Verpackungen?",
+      "title": "CO₂ aus der Verbrennung von Polyethen",
+      "prompt": "Berechne, wie viel CO₂ bei der vollständigen Verbrennung von 1,00 kg Polyethen entsteht (M(C₂H₄) = 28,05 g·mol⁻¹, M(CO₂) = 44,01 g·mol⁻¹).",
       "steps": [
-        "Gleiche Funktion und Systemgrenze sowie vergleichbare Daten zu Herstellung, Nutzung und Entsorgung",
-        "Nutzungsszenario und Transport sind einzubeziehen."
+        "Stoffmenge der Wiederholungseinheiten: n(C₂H₄) = 1000 g / 28,05 g·mol⁻¹ ≈ 35,7 mol.",
+        "Jede Einheit enthält zwei C-Atome: n(CO₂) = 2 · 35,7 mol ≈ 71,3 mol.",
+        "m(CO₂) = 71,3 mol · 44,01 g·mol⁻¹ ≈ 3,14 kg."
       ],
-      "result": "Gleiche Funktion und Systemgrenze sowie vergleichbare Daten zu Herstellung, Nutzung und Entsorgung; Nutzungsszenario und Transport sind einzubeziehen."
+      "result": "Aus 1 kg Polyethen entstehen etwa 3,1 kg CO₂. Der Kohlenstoff stammt aus Erdöl; dieses CO₂ kommt also zusätzlich in die Atmosphäre."
+    },
+    {
+      "id": "chem.q2.2.sustainability.example.3",
+      "title": "Zwei Verpackungen vergleichen",
+      "prompt": "Eine Studie vergleicht eine Einweg-PET-Flasche mit einer Mehrweg-Glasflasche nur anhand der Emissionen bei der Herstellung einer Flasche. Erläutere, warum der Vergleich so nicht aussagekräftig ist.",
+      "steps": [
+        "Die funktionale Einheit fehlt: Eine Mehrwegflasche wird mehrfach befüllt, die Herstellungsemissionen verteilen sich auf alle Umläufe.",
+        "Die Systemgrenze ist zu eng: Transport (Glas ist schwerer), Spülen, Sammlung und Recycling fehlen.",
+        "Ein fairer Vergleich bezieht alle Lebensabschnitte auf dieselbe Getränkemenge und nennt Annahmen wie Umlaufzahl und Transportweg."
+      ],
+      "result": "Der Vergleich ist unvollständig, weil er weder eine gemeinsame funktionale Einheit noch den ganzen Lebensweg betrachtet. Je nach Annahmen kann jede der beiden Flaschen besser abschneiden."
     }
   ],
   "examReferences": [
@@ -134,22 +170,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
-    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
-    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+    "AFB I: Verwertungswege benennen und Verfahren zuordnen; Begriffe wie Rezyklat, Systemgrenze und funktionale Einheit erklären.",
+    "AFB II: Grenzen des werkstofflichen Recyclings erklären; Hydrolyse und Verbrennung formulieren; Massenanteile und CO₂-Mengen berechnen.",
+    "AFB III: Produkte und Verwertungswege mit Daten und mehreren Kriterien bewerten; Annahmen und Zielkonflikte offenlegen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
-      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+      "tip": "Werkstoffliches Recycling erhält das Polymer, rohstoffliches zerlegt es chemisch.",
+      "commonError": "Das Einschmelzen und Neuformen von Kunststoff wird als rohstoffliches Recycling bezeichnet."
     },
     {
-      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
-      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+      "tip": "Energetische Verwertung ist kein Recycling im engeren Sinn, weil der Werkstoff verloren geht.",
+      "commonError": "Die Verbrennung wird als gleichwertige Form des Recyclings dargestellt."
     },
     {
-      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
-      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+      "tip": "Prüfe biologische Abbaubarkeit anhand der Struktur und der Abbaubedingungen.",
+      "commonError": "Aus der Herstellung aus Pflanzen wird geschlossen, dass ein Kunststoff in der Natur verrottet."
+    },
+    {
+      "tip": "Beziehe Vergleichsdaten immer auf dieselbe funktionale Einheit.",
+      "commonError": "Emissionen je Flasche werden verglichen, obwohl eine Flasche mehrfach und die andere einmal genutzt wird."
     }
   ],
   "review": {

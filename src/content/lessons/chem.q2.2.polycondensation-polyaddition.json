@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.2.polycondensation-polyaddition",
   "title": "Polykondensation und Polyaddition",
-  "summary": "Struktur, Reaktionen und Eigenschaften von Polykondensation und Polyaddition erschließen.",
+  "summary": "Polyester, Polyamide und Polyurethane entstehen aus Monomeren mit zwei oder mehr funktionellen Gruppen: bei der Polykondensation unter Abspaltung eines kleinen Moleküls, bei der Polyaddition ohne.",
   "order": 20,
   "publicationStatus": "review",
   "relevance": {
@@ -20,105 +20,153 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
-    "chem.q1.1.mechanisms"
+    "chem.q1.3.esters",
+    "chem.q2.1.amino-acids-peptides",
+    "chem.q2.2.polymerization"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.2.polycondensation-polyaddition.goal.structure",
-      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "statement": "Ich kann aus den funktionellen Gruppen der Monomere ableiten, welcher Polymertyp und welche Verknüpfung entsteht.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "ableiten",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.goal.reactions",
+      "statement": "Ich kann Wiederholungseinheiten von Polyestern, Polyamiden und Polyurethanen formulieren und das abgespaltene Molekül angeben.",
       "competencies": [
         "S",
         "K"
       ],
       "operators": [
-        "beschreiben",
-        "darstellen"
-      ]
-    },
-    {
-      "id": "chem.q2.2.polycondensation-polyaddition.goal.reactions",
-      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
-      "competencies": [
-        "S",
-        "E"
-      ],
-      "operators": [
         "formulieren",
-        "unterscheiden"
+        "angeben"
       ]
     },
     {
       "id": "chem.q2.2.polycondensation-polyaddition.goal.properties",
-      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
+      "statement": "Ich kann erklären, wie die Zahl der funktionellen Gruppen je Monomer über lineare oder vernetzte Strukturen entscheidet.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
-        "erläutern",
+        "erklären",
         "begründen"
       ]
     },
     {
       "id": "chem.q2.2.polycondensation-polyaddition.goal.evaluate",
-      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "statement": "Ich kann Polymerisation, Polykondensation und Polyaddition anhand von Monomeren und Stoffbilanz vergleichen und Material entsprechend einordnen.",
       "competencies": [
-        "K",
-        "B"
+        "S",
+        "E"
       ],
       "operators": [
-        "bewerten",
+        "vergleichen",
         "beurteilen"
       ]
     }
   ],
-  "introduction": "Beide Reaktionstypen bauen Polymere aus mehrfunktionellen Monomeren auf. Die Stoffbilanz unterscheidet sie.",
-  "explanation": "Bei der Polykondensation reagieren funktionelle Gruppen unter Abspaltung eines kleinen Moleküls, häufig Wasser. Polyester entstehen etwa aus Diolen und Dicarbonsäuren. Bei der Polyaddition werden Gruppen ohne Abspaltung verknüpft; Polyurethane können aus Diolen und Diisocyanaten entstehen. Zwei funktionelle Gruppen ermöglichen meist lineare Ketten; höhere Funktionalität kann Netzwerke erzeugen. Prüfe beim Zeichnen die Atombilanz und trage ein Kondensationsprodukt ausdrücklich ein.",
+  "introduction": "PET-Flaschen, Nylonstrümpfe und Schaumstoffmatratzen haben eines gemeinsam: Ihre Monomere besitzen keine C=C-Doppelbindung, sondern funktionelle Gruppen an beiden Enden. Wenn diese Gruppen miteinander reagieren, wächst Schritt für Schritt eine Kette. Ob dabei ein kleines Molekül frei wird, unterscheidet Polykondensation und Polyaddition.",
+  "explanation": "### 1. Funktionelle Gruppen als Voraussetzung\n\nDamit eine Kette wachsen kann, muss jedes Monomer mindestens zwei reaktionsfähige funktionelle Gruppen tragen: eine, um an die Kette anzuknüpfen, und eine, an der das nächste Monomer anknüpft. Monomere mit genau zwei Gruppen ergeben lineare Ketten. Hat ein Teil der Monomere drei oder mehr Gruppen, verzweigen sich die Ketten und es kann ein räumliches Netzwerk entstehen. Anders als bei der Polymerisation wachsen die Ketten hier stufenweise: Zuerst bilden sich kurze Bruchstücke, die sich dann zu immer längeren Ketten verbinden.\n\n### 2. Polykondensation: Polyester\n\nBei der Polykondensation reagieren funktionelle Gruppen unter Abspaltung eines kleinen Moleküls, meist Wasser. Polyester entstehen aus einem Diol und einer Dicarbonsäure. Bei jeder Esterbildung reagiert eine Hydroxygruppe mit einer Carboxygruppe; die neue Esterbindung –CO–O– verbindet die Bausteine, und ein Wassermolekül wird frei. Polyethylenterephthalat (PET) entsteht zum Beispiel aus Ethan-1,2-diol und Terephthalsäure (Benzol-1,4-dicarbonsäure). Ein einzelnes Monomer genügt, wenn es beide Gruppen trägt, etwa eine Hydroxycarbonsäure wie Milchsäure.\n\n### 3. Polykondensation: Polyamide\n\nPolyamide entstehen aus einem Diamin und einer Dicarbonsäure oder aus einer Aminocarbonsäure. Die Amino- und Carboxygruppen bilden Amidbindungen –CO–NH–, wie die Peptidbindung in Proteinen. Die Zahlen im Namen geben die C-Atome der Bausteine an: Polyamid 6,6 (Nylon) entsteht aus einem Diamin und einer Dicarbonsäure mit je sechs C-Atomen. Polyamid 6 (Perlon, in der DDR Dederon) wird technisch aus dem ringförmigen Caprolactam durch Ringöffnung hergestellt; die Kette entspricht formal der Polykondensation von 6-Aminohexansäure. Zwischen den N–H- und C=O-Gruppen benachbarter Ketten bilden sich Wasserstoffbrücken.\n\nStatt einer Carbonsäure kann man auch ein Säurechlorid einsetzen. Dann wird Chlorwasserstoff statt Wasser abgespalten. Das nutzt der bekannte Nylonseil-Versuch, bei dem sich an der Grenzfläche zweier Lösungen sofort ein Polyamidfaden bildet.\n\n### 4. Polyaddition: Polyurethane\n\nBei der Polyaddition werden funktionelle Gruppen ohne Abspaltung eines Moleküls verknüpft. Das wichtigste Beispiel sind Polyurethane aus Diisocyanaten (O=C=N–R–N=C=O) und Diolen. Das O-Atom einer Hydroxygruppe greift das positiv polarisierte C-Atom der Isocyanatgruppe an, das H-Atom der Hydroxygruppe wandert zum N-Atom. Es entsteht die Urethangruppe –NH–CO–O–. Alle Atome der Monomere finden sich im Polymer wieder. Isocyanatgruppen reagieren auch mit Wasser; dabei entsteht über eine instabile Zwischenstufe ein Amin und Kohlenstoffdioxid. Dieses Gas schäumt Polyurethan auf und wird gezielt zur Herstellung von Schaumstoffen genutzt.\n\n### 5. Die drei Reaktionstypen im Vergleich\n\nPolymerisation: Monomere mit C=C-Doppelbindung, kein Nebenprodukt, Kettenwachstum über reaktive Zwischenstufen. Polykondensation: Monomere mit mindestens zwei funktionellen Gruppen, Abspaltung eines kleinen Moleküls. Polyaddition: Monomere mit mindestens zwei funktionellen Gruppen, kein Nebenprodukt. Für die Einordnung prüfst du also zuerst die Monomere und dann die Stoffbilanz.",
   "fundamentals": [
     {
-      "term": "Monomer",
-      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+      "term": "Polykondensation",
+      "explanation": "Verknüpfung von Monomeren mit mindestens zwei funktionellen Gruppen unter Abspaltung eines kleinen Moleküls wie Wasser oder HCl."
     },
     {
-      "term": "Vernetzung",
-      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+      "term": "Polyaddition",
+      "explanation": "Verknüpfung von Monomeren mit mindestens zwei funktionellen Gruppen ohne Abspaltung eines Moleküls, etwa zu Polyurethanen."
     },
     {
-      "term": "Systemgrenze",
-      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+      "term": "Polyester",
+      "explanation": "Polymer mit Esterbindungen –CO–O– in der Hauptkette, zum Beispiel PET aus Ethan-1,2-diol und Terephthalsäure."
+    },
+    {
+      "term": "Polyamid",
+      "explanation": "Polymer mit Amidbindungen –CO–NH– in der Hauptkette, zum Beispiel Polyamid 6,6 aus Hexan-1,6-diamin und Hexandisäure."
+    },
+    {
+      "term": "Urethangruppe",
+      "explanation": "Verknüpfung –NH–CO–O–, die bei der Addition einer Hydroxygruppe an eine Isocyanatgruppe entsteht."
+    },
+    {
+      "term": "Funktionalität",
+      "explanation": "Zahl der reaktionsfähigen Gruppen je Monomer; zwei ergeben lineare Ketten, drei oder mehr können Netzwerke bilden."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.2.polycondensation-polyaddition.eq.1",
-      "notation": "Diol + Dicarbonsäure → Polyester + H₂O; Diisocyanat + Diol → Polyurethan",
-      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+      "notation": "n HO–R–OH + n HOOC–R′–COOH → H–[–O–R–O–CO–R′–CO–]ₙ–OH + (2n − 1) H₂O",
+      "explanation": "Polykondensation zu einem Polyester; je neu gebildeter Esterbindung wird ein Wassermolekül frei."
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.eq.2",
+      "notation": "n H₂N–R–NH₂ + n HOOC–R′–COOH → H–[–NH–R–NH–CO–R′–CO–]ₙ–OH + (2n − 1) H₂O",
+      "explanation": "Polykondensation zu einem Polyamid."
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.eq.3",
+      "notation": "n O=C=N–R–N=C=O + n HO–R′–OH → [–CO–NH–R–NH–CO–O–R′–O–]ₙ",
+      "explanation": "Polyaddition zu einem Polyurethan; kein Nebenprodukt."
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.eq.4",
+      "notation": "R–N=C=O + H₂O → R–NH₂ + CO₂",
+      "explanation": "Reaktion von Isocyanatgruppen mit Wasser; das entstehende CO₂ treibt Polyurethanschaum auf."
     }
   ],
-  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
-  "mechanisms": [],
+  "equationNote": "R und R′ stehen für die Kohlenstoffgerüste der Monomere. Bei langen Ketten genügt die Wiederholungseinheit in eckigen Klammern; die Endgruppen H– und –OH sowie die genaue Zahl der Wassermoleküle brauchst du nur, wenn die Aufgabe eine vollständige Stoffbilanz verlangt.",
+  "mechanisms": [
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.mechanism.urethane",
+      "title": "Bildung einer Urethangruppe",
+      "steps": [
+        "Das C-Atom der Isocyanatgruppe R–N=C=O ist positiv polarisiert, weil es an das N- und an das O-Atom gebunden ist.",
+        "Ein freies Elektronenpaar am O-Atom der Hydroxygruppe R′–OH greift dieses C-Atom an; die C=N-Doppelbindung klappt zum N-Atom.",
+        "Das H-Atom der ehemaligen Hydroxygruppe wird auf das N-Atom übertragen.",
+        "Ergebnis: R–NH–CO–O–R′. Alle Atome beider Edukte sind im Produkt enthalten."
+      ]
+    }
+  ],
   "workedExamples": [
     {
       "id": "chem.q2.2.polycondensation-polyaddition.example.1",
-      "title": "Polyesterbildung",
-      "prompt": "HO–R–OH reagiert mit HOOC–R′–COOH. Welcher Reaktionstyp liegt vor?",
+      "title": "Wiederholungseinheit von PET",
+      "prompt": "PET entsteht aus Ethan-1,2-diol (HO–CH₂–CH₂–OH) und Terephthalsäure (HOOC–C₆H₄–COOH). Formuliere die Wiederholungseinheit und ordne den Reaktionstyp ein.",
       "steps": [
-        "Esterbindungen entstehen unter Abspaltung von Wasser",
-        "das ist Polykondensation."
+        "Beide Monomere tragen zwei funktionelle Gruppen: zwei OH-Gruppen bzw. zwei COOH-Gruppen.",
+        "Eine OH- und eine COOH-Gruppe bilden eine Esterbindung; dabei wird Wasser abgespalten.",
+        "Die Wiederholungseinheit enthält einen Diol- und einen Dicarbonsäurerest, verbunden über Esterbindungen."
       ],
-      "result": "Esterbindungen entstehen unter Abspaltung von Wasser; das ist Polykondensation."
+      "result": "Wiederholungseinheit: [–O–CH₂–CH₂–O–CO–C₆H₄–CO–]ₙ. Es ist eine Polykondensation zu einem Polyester."
     },
     {
       "id": "chem.q2.2.polycondensation-polyaddition.example.2",
-      "title": "Polyurethanbildung",
-      "prompt": "Diol und Diisocyanat reagieren ohne Nebenprodukt. Ordne ein.",
+      "title": "Polyurethan aus Butan-1,4-diol",
+      "prompt": "Butan-1,4-diol (HO–(CH₂)₄–OH) reagiert mit Hexamethylendiisocyanat (O=C=N–(CH₂)₆–N=C=O). Formuliere die Wiederholungseinheit und begründe den Reaktionstyp.",
       "steps": [
-        "Die Urethanbindung entsteht durch Addition der Gruppen",
-        "es ist Polyaddition."
+        "Jede OH-Gruppe addiert an eine Isocyanatgruppe; das H-Atom wandert zum N-Atom.",
+        "So entsteht an jeder Verknüpfungsstelle eine Urethangruppe –NH–CO–O–.",
+        "Es wird kein Molekül abgespalten: Alle Atome der Monomere stecken im Polymer."
       ],
-      "result": "Die Urethanbindung entsteht durch Addition der Gruppen; es ist Polyaddition."
+      "result": "Wiederholungseinheit: [–O–(CH₂)₄–O–CO–NH–(CH₂)₆–NH–CO–]ₙ. Weil bifunktionelle Monomere ohne Nebenprodukt verknüpft werden, ist es eine Polyaddition."
+    },
+    {
+      "id": "chem.q2.2.polycondensation-polyaddition.example.3",
+      "title": "Nylonseil-Versuch",
+      "prompt": "Hexandisäuredichlorid (ClOC–(CH₂)₄–COCl) reagiert an einer Grenzfläche mit Hexan-1,6-diamin. Welcher Reaktionstyp liegt vor, und welches Nebenprodukt entsteht?",
+      "steps": [
+        "Beide Monomere sind bifunktionell; es bilden sich Amidbindungen zwischen den NH₂- und den COCl-Gruppen.",
+        "Bei jeder Amidbildung verbinden sich das Cl-Atom des Säurechlorids und ein H-Atom der Aminogruppe zu HCl."
+      ],
+      "result": "Es ist eine Polykondensation zu Polyamid 6,6, das Nebenprodukt ist Chlorwasserstoff. Entscheidend für den Reaktionstyp ist die Abspaltung, nicht welches Molekül abgespalten wird."
     }
   ],
   "examReferences": [
@@ -133,22 +181,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
-    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
-    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+    "AFB I: Funktionelle Gruppen der Monomere und abgespaltene Moleküle angeben; Ester-, Amid- und Urethangruppen erkennen.",
+    "AFB II: Wiederholungseinheiten formulieren; Reaktionstyp aus Monomeren und Stoffbilanz ableiten; Wirkung trifunktioneller Monomere erklären.",
+    "AFB III: Unbekannte Monomere oder Polymerausschnitte aus Material einordnen; Herstellungsbedingungen und Nebenreaktionen beurteilen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
-      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+      "tip": "Entscheide über den Reaktionstyp anhand der Stoffbilanz: Wird ein Molekül abgespalten oder nicht?",
+      "commonError": "Die Polyurethanbildung wird als Polykondensation eingeordnet, weil zwei verschiedene Monomere reagieren."
     },
     {
-      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
-      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+      "tip": "Zeichne bei Polyestern und Polyamiden in der Wiederholungseinheit beide Monomerreste.",
+      "commonError": "Die Wiederholungseinheit enthält nur einen Monomerrest oder noch die vollständigen OH- und COOH-Gruppen."
     },
     {
-      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
-      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+      "tip": "Zähle die funktionellen Gruppen je Monomer, bevor du über lineare oder vernetzte Struktur entscheidest.",
+      "commonError": "Ein Triol wird wie ein Diol behandelt, sodass die Vernetzung übersehen wird."
+    },
+    {
+      "tip": "Achte bei Amiden und Estern auf die richtige Reihenfolge der Atome: –CO–NH– und –CO–O–.",
+      "commonError": "Die Verknüpfung wird als –O–O– oder –NH–O– gezeichnet."
     }
   ],
   "review": {

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.2.properties",
   "title": "Struktur, Eigenschaften und Anwendung",
-  "summary": "Struktur, Reaktionen und Eigenschaften von Struktur, Eigenschaften und Anwendung erschließen.",
+  "summary": "Ob ein Kunststoff weich, elastisch oder hart ist, hängt von Kettenbau, Vernetzung und Wechselwirkungen ab. Damit lassen sich Thermoplaste, Elastomere und Duroplaste unterscheiden und passende Werkstoffe auswählen.",
   "order": 30,
   "publicationStatus": "review",
   "relevance": {
@@ -20,105 +20,136 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
-    "chem.q1.1.mechanisms"
+    "chem.q2.2.polymerization",
+    "chem.q2.2.polycondensation-polyaddition",
+    "chem.q1.1.interactions"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.2.properties.goal.structure",
-      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "statement": "Ich kann Thermoplaste, Elastomere und Duroplaste anhand ihres Vernetzungsgrades beschreiben und Gegenstände begründet zuordnen.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "beschreiben",
+        "zuordnen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.properties.goal.reactions",
+      "statement": "Ich kann das Verhalten der drei Kunststoffklassen beim Erwärmen und bei mechanischer Belastung auf Teilchenebene erklären.",
+      "competencies": [
+        "S"
+      ],
+      "operators": [
+        "erklären",
+        "begründen"
+      ]
+    },
+    {
+      "id": "chem.q2.2.properties.goal.properties",
+      "statement": "Ich kann den Einfluss von Kettenlänge, Verzweigung, Seitengruppen, Wechselwirkungen, Kristallinität und Weichmachern auf Eigenschaften erklären und Copolymere von Blends unterscheiden.",
       "competencies": [
         "S",
         "K"
       ],
       "operators": [
-        "beschreiben",
-        "darstellen"
-      ]
-    },
-    {
-      "id": "chem.q2.2.properties.goal.reactions",
-      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
-      "competencies": [
-        "S",
-        "E"
-      ],
-      "operators": [
-        "formulieren",
-        "unterscheiden"
-      ]
-    },
-    {
-      "id": "chem.q2.2.properties.goal.properties",
-      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
-      "competencies": [
-        "S",
-        "E"
-      ],
-      "operators": [
-        "erläutern",
-        "begründen"
+        "erklären",
+        "vergleichen"
       ]
     },
     {
       "id": "chem.q2.2.properties.goal.evaluate",
-      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "statement": "Ich kann Kunststoffe anhand eines Anforderungsprofils für eine Anwendung beurteilen und Zielkonflikte benennen.",
       "competencies": [
-        "K",
-        "B"
+        "B",
+        "K"
       ],
       "operators": [
-        "bewerten",
-        "beurteilen"
+        "beurteilen",
+        "bewerten"
       ]
     }
   ],
-  "introduction": "Die Polymerklasse allein erklärt noch nicht, ob ein Material weich, elastisch oder hart ist.",
-  "explanation": "Thermoplaste besitzen überwiegend unvernetzte Ketten. Sie erweichen beim Erwärmen und können wiederholt umgeformt werden. Elastomere sind weitmaschig vernetzt und federn nach Dehnung zurück. Duroplaste bilden ein engmaschiges Netzwerk; sie schmelzen nicht, sondern zersetzen sich bei starker Erwärmung. Kettenbeweglichkeit, Vernetzungsgrad, Seitenreste und Wechselwirkungen beeinflussen Eigenschaften. Copolymere enthalten verschiedene Monomerarten; Blends sind physikalische Mischungen von Polymeren.",
+  "introduction": "Ein Gummiband lässt sich dehnen und springt zurück, eine PET-Flasche wird beim Erhitzen weich, ein Steckdosengehäuse bleibt auch heiß formstabil. Alle drei sind Kunststoffe. Die Unterschiede liegen nicht an der chemischen Formel allein, sondern daran, wie die Ketten gebaut, angeordnet und miteinander verbunden sind.",
+  "explanation": "### 1. Drei Kunststoffklassen\n\nThermoplaste bestehen aus unvernetzten, linearen oder verzweigten Ketten, die nur durch zwischenmolekulare Kräfte zusammengehalten werden. Beim Erwärmen werden die Ketten beweglicher und können aneinander vorbeigleiten; der Kunststoff erweicht, schmilzt und lässt sich umformen. Beim Abkühlen wird er wieder fest. Das lässt sich wiederholen, deshalb kann man Thermoplaste spritzgießen, verschweißen und werkstofflich recyceln. Beispiele sind PE, PP, PS, PVC und PET.\n\nElastomere sind weitmaschig vernetzt: Die Ketten sind an wenigen Stellen durch kovalente Bindungen miteinander verbunden. Dazwischen sind sie verknäuelt und beweglich. Beim Dehnen strecken sich die Knäuel, die Vernetzungsstellen verhindern aber, dass die Ketten dauerhaft aneinander vorbeigleiten. Nach dem Loslassen kehren die Ketten in den wahrscheinlicheren, verknäuelten Zustand zurück. Elastomere schmelzen nicht, sondern zersetzen sich bei starkem Erhitzen. Beispiele sind vulkanisierter Kautschuk und Silikonkautschuk.\n\nDuroplaste sind engmaschig vernetzt: Fast alle Kettenabschnitte sind kovalent in ein räumliches Netzwerk eingebunden. Sie sind hart, formstabil und auch bei Erwärmung kaum verformbar. Weil sich die Ketten nicht gegeneinander verschieben lassen, ohne kovalente Bindungen zu brechen, schmelzen Duroplaste nicht, sondern zersetzen sich. Man bringt sie deshalb vor dem Aushärten in Form. Beispiele sind Phenolharze und Epoxidharze.\n\n### 2. Kettenbau und Wechselwirkungen\n\nBei Thermoplasten bestimmen die zwischenmolekularen Kräfte, wie fest und wärmebeständig ein Material ist. Längere Ketten haben mehr Kontaktfläche und verschlingen sich stärker, das erhöht die Festigkeit. Zwischen unpolaren Ketten wie im Polyethen wirken nur Van-der-Waals-Kräfte. Polare Gruppen wie das C–Cl im PVC führen zu Dipol-Dipol-Kräften, Amid- und Urethangruppen zu Wasserstoffbrücken. Deshalb schmilzt Polyamid 6,6 erst bei rund 260 °C, Polyethen hoher Dichte schon bei rund 130 °C.\n\nGroße Seitengruppen wie der Phenylring im Polystyrol behindern die Drehung um die Bindungen der Hauptkette. Solche Kunststoffe sind bei Raumtemperatur hart und spröde. Kennzeichnend ist die Glasübergangstemperatur: Unterhalb davon sind die Kettenabschnitte eingefroren und das Material ist glasartig hart, oberhalb werden sie beweglich und es wird weich. Bei Polystyrol liegt sie bei etwa 100 °C.\n\n### 3. Packung, Kristallinität und Weichmacher\n\nGleichmäßig gebaute, unverzweigte Ketten können sich bereichsweise parallel und dicht anordnen. Solche teilkristallinen Bereiche erhöhen Dichte, Festigkeit und Schmelzbereich und machen das Material trüb. Seitenverzweigungen stören diese Ordnung; das Material ist dann weniger dicht, weicher und oft durchsichtiger. Weichmacher sind kleine Moleküle, die sich zwischen die Ketten schieben, ihren Abstand vergrößern und die Wechselwirkungen schwächen. Hart-PVC wird so zu Weich-PVC. Weichmacher sind nicht kovalent gebunden und können mit der Zeit austreten.\n\n### 4. Copolymere und Blends\n\nCopolymere entstehen, wenn zwei oder mehr verschiedene Monomere in derselben Kette kovalent verknüpft werden. Je nach Anordnung unterscheidet man statistische, alternierende und Blockcopolymere. So lassen sich Eigenschaften gezielt kombinieren, etwa die Härte von Polystyrol mit der Zähigkeit von Butadien-Einheiten. Ein Blend ist dagegen eine physikalische Mischung verschiedener Polymere, deren Ketten nicht kovalent miteinander verbunden sind.\n\n### 5. Werkstoffe auswählen\n\nFür eine Anwendung legst du zuerst ein Anforderungsprofil fest: Temperaturbereich, mechanische Belastung, Kontakt mit Wasser, Lebensmitteln oder Lösungsmitteln, Verarbeitung, Kosten und Entsorgung. Dann prüfst du, welche Klasse und welcher Kettenbau diese Anforderungen erfüllt. Selten erfüllt ein Material alle Anforderungen gleich gut; eine begründete Auswahl benennt die Zielkonflikte, zum Beispiel zwischen Wärmebeständigkeit und Recycelbarkeit.",
   "fundamentals": [
     {
-      "term": "Monomer",
-      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+      "term": "Thermoplast",
+      "explanation": "Kunststoff aus unvernetzten Ketten; erweicht beim Erwärmen und lässt sich wiederholt schmelzen und umformen."
     },
     {
-      "term": "Vernetzung",
-      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+      "term": "Elastomer",
+      "explanation": "Weitmaschig vernetzter Kunststoff; lässt sich dehnen und kehrt in die Ausgangsform zurück, schmilzt nicht."
     },
     {
-      "term": "Systemgrenze",
-      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+      "term": "Duroplast",
+      "explanation": "Engmaschig vernetzter Kunststoff; hart und formstabil, zersetzt sich beim starken Erhitzen statt zu schmelzen."
+    },
+    {
+      "term": "Glasübergangstemperatur",
+      "explanation": "Temperatur, oberhalb der Kettenabschnitte beweglich werden und ein amorpher Kunststoff von glasartig hart zu weich übergeht."
+    },
+    {
+      "term": "Teilkristallinität",
+      "explanation": "Nebeneinander von geordneten, dicht gepackten und ungeordneten Bereichen in einem Thermoplast."
+    },
+    {
+      "term": "Weichmacher",
+      "explanation": "Kleine Moleküle zwischen den Polymerketten, die Wechselwirkungen schwächen und den Kunststoff weich machen."
+    },
+    {
+      "term": "Copolymer und Blend",
+      "explanation": "Copolymer: verschiedene Monomere kovalent in einer Kette. Blend: physikalische Mischung verschiedener Polymere."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.2.properties.eq.1",
-      "notation": "Kettenstruktur → Beweglichkeit/Vernetzung → makroskopische Eigenschaft",
-      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+      "notation": "Struktur (Kettenbau, Vernetzung) → Wechselwirkungen und Kettenbeweglichkeit → makroskopische Eigenschaft",
+      "explanation": "Erklärungsschema für Struktur-Eigenschafts-Beziehungen bei Kunststoffen."
+    },
+    {
+      "id": "chem.q2.2.properties.eq.2",
+      "notation": "n CH₂=CH₂ + m CH₂=CH–O–CO–CH₃ → Ethen-Vinylacetat-Copolymer (EVA)",
+      "explanation": "Beispiel für ein statistisches Copolymer; die Acetatgruppen stören die Packung und machen das Material weich und zäh."
     }
   ],
-  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
+  "equationNote": "Auf dieser Seite stehen Struktur-Eigenschafts-Beziehungen im Mittelpunkt. Nenne in Erklärungen immer alle drei Glieder: das Strukturmerkmal, die betroffene Wechselwirkung oder Beweglichkeit und die beobachtete Eigenschaft.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q2.2.properties.example.1",
-      "title": "Werkstoff zuordnen",
-      "prompt": "Ein Kunststoff erweicht und lässt sich mehrfach umformen. Ordne ihn ein.",
+      "title": "Kunststoff einordnen",
+      "prompt": "Ein Kunststoff wird bei 120 °C weich, lässt sich zu einer neuen Form pressen und ist nach dem Abkühlen wieder fest. Der Vorgang lässt sich mehrfach wiederholen. Ordne den Kunststoff ein und begründe.",
       "steps": [
-        "Das ist typisch für einen Thermoplast",
-        "die Ketten können bei Wärme gegeneinander beweglich werden."
+        "Das wiederholbare Erweichen zeigt, dass die Ketten beim Erwärmen aneinander vorbeigleiten können.",
+        "Das ist nur möglich, wenn die Ketten nicht kovalent miteinander verbunden sind."
       ],
-      "result": "Das ist typisch für einen Thermoplast; die Ketten können bei Wärme gegeneinander beweglich werden."
+      "result": "Es ist ein Thermoplast. Ein Elastomer oder Duroplast würde nicht schmelzen, weil kovalente Vernetzungen das Abgleiten der Ketten verhindern."
     },
     {
       "id": "chem.q2.2.properties.example.2",
-      "title": "Vernetzung deuten",
-      "prompt": "Warum lässt sich ein engmaschig vernetzter Duroplast nicht wie ein Thermoplast schmelzen?",
+      "title": "Warum ein Duroplast nicht schmilzt",
+      "prompt": "Erkläre, warum sich ein engmaschig vernetzter Duroplast beim Erhitzen zersetzt, statt zu schmelzen.",
       "steps": [
-        "Kovalente Querverbindungen halten ein Netzwerk zusammen. Die Ketten können nicht gegeneinander fließen",
-        "bei starker Erwärmung zersetzt sich das Material."
+        "Beim Schmelzen müssten sich die Ketten gegeneinander verschieben.",
+        "Im Duroplast sind die Ketten über viele kovalente Bindungen zu einem Netzwerk verbunden.",
+        "Bevor die Ketten verschiebbar werden, reicht die Energie bereits, um kovalente Bindungen im Netzwerk zu brechen."
       ],
-      "result": "Kovalente Querverbindungen halten ein Netzwerk zusammen. Die Ketten können nicht gegeneinander fließen; bei starker Erwärmung zersetzt sich das Material."
+      "result": "Der Duroplast zersetzt sich, weil sein Netzwerk nur durch Bindungsbruch beweglich würde. Deshalb muss er vor dem Aushärten in Form gebracht werden."
+    },
+    {
+      "id": "chem.q2.2.properties.example.3",
+      "title": "Polyamid und Polyethen",
+      "prompt": "Polyamid 6,6 schmilzt bei rund 260 °C, Polyethen hoher Dichte bei rund 130 °C. Erkläre den Unterschied.",
+      "steps": [
+        "Beide sind Thermoplaste; ihr Schmelzverhalten hängt von den Kräften zwischen den Ketten ab.",
+        "Zwischen Polyethen-Ketten wirken nur Van-der-Waals-Kräfte.",
+        "Polyamid-Ketten tragen Amidgruppen; zwischen N–H und C=O benachbarter Ketten bilden sich Wasserstoffbrücken."
+      ],
+      "result": "Die zusätzlichen Wasserstoffbrücken halten die Polyamid-Ketten stärker zusammen. Zum Schmelzen ist mehr Energie nötig, die Schmelztemperatur liegt höher."
     }
   ],
   "examReferences": [
@@ -133,22 +164,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
-    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
-    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+    "AFB I: Kunststoffklassen benennen und Gegenstände zuordnen; Verhalten beim Erwärmen beschreiben.",
+    "AFB II: Eigenschaften mit Vernetzung, Kettenbau, Wechselwirkungen und Kristallinität erklären; Copolymere und Blends unterscheiden.",
+    "AFB III: Werkstoffe für eine Anwendung anhand eines Anforderungsprofils beurteilen und Zielkonflikte abwägen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
-      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+      "tip": "Unterscheide kovalente Vernetzung von zwischenmolekularen Kräften.",
+      "commonError": "Wasserstoffbrücken zwischen Polyamid-Ketten werden als Vernetzung gedeutet und das Material als Duroplast eingeordnet."
     },
     {
-      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
-      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+      "tip": "Elastizität beruht auf beweglichen Ketten zwischen wenigen Vernetzungsstellen.",
+      "commonError": "Elastomere werden als besonders stark vernetzt beschrieben."
     },
     {
-      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
-      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+      "tip": "Erkläre die Eigenschaft immer über die Teilchenebene und nicht nur über den Klassennamen.",
+      "commonError": "Die Antwort lautet nur „weil es ein Thermoplast ist“, ohne Kettenbeweglichkeit oder Wechselwirkung zu nennen."
+    },
+    {
+      "tip": "Copolymer heißt kovalent in einer Kette, Blend heißt gemischt.",
+      "commonError": "Jede Kombination zweier Kunststoffe wird als Copolymer bezeichnet."
     }
   ],
   "review": {

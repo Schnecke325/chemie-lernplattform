@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.2.polymerization",
   "title": "Polymerisationsreaktionen",
-  "summary": "Struktur, Reaktionen und Eigenschaften von Polymerisationsreaktionen erschließen.",
+  "summary": "Monomere mit C=C-Doppelbindung verbinden sich zu langen Ketten. Du lernst Wiederholungseinheiten abzuleiten und den Mechanismus der radikalischen Polymerisation zu formulieren.",
   "order": 10,
   "publicationStatus": "review",
   "relevance": {
@@ -20,106 +20,150 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
-    "chem.q1.1.mechanisms"
+    "chem.q1.1.hydrocarbons",
+    "chem.q1.1.mechanisms",
+    "chem.basics.quantities"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.2.polymerization.goal.structure",
-      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "statement": "Ich kann aus einem Monomer die Wiederholungseinheit eines Polymers ableiten und umgekehrt aus einem Polymerausschnitt das Monomer bestimmen.",
       "competencies": [
         "S",
         "K"
       ],
       "operators": [
-        "beschreiben",
-        "darstellen"
+        "ableiten",
+        "bestimmen"
       ]
     },
     {
       "id": "chem.q2.2.polymerization.goal.reactions",
-      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
+      "statement": "Ich kann den Mechanismus der radikalischen Polymerisation mit Start, Kettenwachstum und Kettenabbruch formulieren.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
         "formulieren",
-        "unterscheiden"
+        "erläutern"
       ]
     },
     {
       "id": "chem.q2.2.polymerization.goal.properties",
-      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
+      "statement": "Ich kann Polymerisationsgrad und molare Masse einer Polymerkette berechnen und erklären, warum Polymere Gemische unterschiedlich langer Ketten sind.",
       "competencies": [
         "S",
         "E"
       ],
       "operators": [
-        "erläutern",
-        "begründen"
+        "berechnen",
+        "erklären"
       ]
     },
     {
       "id": "chem.q2.2.polymerization.goal.evaluate",
-      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "statement": "Ich kann Polymerisationen von Polykondensation und Polyaddition abgrenzen und Angaben zu Reaktionsbedingungen beurteilen.",
       "competencies": [
-        "K",
-        "B"
+        "S",
+        "E"
       ],
       "operators": [
-        "bewerten",
+        "vergleichen",
         "beurteilen"
       ]
     }
   ],
-  "introduction": "Ungesättigte Monomere verbinden sich zu langen Ketten, wenn ihre Mehrfachbindungen geöffnet werden.",
-  "explanation": "Bei der radikalischen Polymerisation bildet ein Initiator Radikale. Diese greifen die C=C-Bindung eines Monomers an. Das neue Kettenradikal addiert weitere Monomere; beim Abbruch endet das Kettenwachstum. Für die Wiederholungseinheit öffnest du die Doppelbindung, zeichnest die neue Hauptkette und übernimmst Seitenreste. Styrol ergibt beispielsweise –CH₂–CH(C₆H₅)–. Es wird kein kleines Molekül abgespalten.",
+  "introduction": "Plastiktüten, Joghurtbecher, Rohre und Antihaftbeschichtungen bestehen aus Polymeren, die durch Polymerisation entstehen. Dabei lagern sich tausende kleine Moleküle mit einer C=C-Doppelbindung zu einer langen Kette zusammen, ohne dass ein Nebenprodukt entsteht.",
+  "explanation": "### 1. Monomer, Polymer und Wiederholungseinheit\n\nMonomere sind kleine Moleküle, die sich zu Makromolekülen verbinden. Das entstehende Polymer besteht aus vielen gleichen Wiederholungseinheiten. Die Zahl der verknüpften Monomere heißt Polymerisationsgrad n. Für eine Polymerisation braucht das Monomer eine C=C-Doppelbindung. Typische Beispiele sind Ethen (→ Polyethen, PE), Propen (→ Polypropen, PP), Chlorethen (→ Polyvinylchlorid, PVC), Styrol (→ Polystyrol, PS) und Tetrafluorethen (→ Polytetrafluorethen, PTFE).\n\nUm die Wiederholungseinheit zu zeichnen, öffnest du die Doppelbindung: Die beiden C-Atome der Doppelbindung bilden die Hauptkette, alle anderen Gruppen werden zu Seitengruppen. Aus CH₂=CHR wird –CH₂–CHR–. Die Monomere verknüpfen sich bevorzugt Kopf an Schwanz, sodass der Substituent R an jedem zweiten C-Atom der Hauptkette sitzt. Umgekehrt findest du das Monomer, indem du in der Hauptkette eine Einheit aus zwei C-Atomen abgrenzt und zwischen ihnen wieder eine Doppelbindung einzeichnest.\n\n### 2. Radikalische Polymerisation\n\nDie meisten Polymerisationen in der Schule verlaufen radikalisch. Ein Initiator, zum Beispiel ein organisches Peroxid R–O–O–R, zerfällt beim Erwärmen homolytisch in zwei Radikale. Beim Kettenstart greift ein Radikal die C=C-Doppelbindung eines Monomers an: Ein Elektron der π-Bindung bildet mit dem ungepaarten Elektron des Radikals eine neue Bindung, das andere bleibt am zweiten C-Atom zurück. So entsteht ein neues, größeres Radikal.\n\nBeim Kettenwachstum addiert dieses Radikal nacheinander weitere Monomere; bei jedem Schritt wandert das Radikalzentrum an das Kettenende. Der Kettenabbruch tritt ein, wenn zwei Radikale aufeinandertreffen. Sie können sich zu einem Molekül verbinden (Rekombination) oder ein H-Atom übertragen, sodass zwei Moleküle entstehen, eines davon mit einer Doppelbindung am Ende (Disproportionierung). Wie lang die Ketten werden, hängt davon ab, wie oft Wachstumsschritte im Verhältnis zu Abbruchreaktionen stattfinden. Neben der radikalischen gibt es auch ionische Polymerisationen, die über Carbokationen oder Carbanionen verlaufen.\n\n### 3. Kettenlänge und molare Masse\n\nBei einer Polymerisation entstehen Ketten unterschiedlicher Länge. Ein Kunststoff ist daher ein Gemisch, und man gibt einen mittleren Polymerisationsgrad und eine mittlere molare Masse an. Weil die Kette sehr lang ist, kannst du die Endgruppen aus Initiatorresten meist vernachlässigen: M(Polymer) ≈ n · M(Monomer). Die Kettenlängenverteilung erklärt auch, warum Kunststoffe keinen scharfen Schmelzpunkt haben, sondern in einem Temperaturbereich erweichen.\n\n### 4. Abgrenzung\n\nKennzeichen der Polymerisation sind Monomere mit C=C-Doppelbindung und eine Stoffbilanz ohne Nebenprodukt: Die Masse des Polymers entspricht der Masse der umgesetzten Monomere. Bei der Polykondensation reagieren dagegen funktionelle Gruppen wie OH, COOH oder NH₂ unter Abspaltung eines kleinen Moleküls; bei der Polyaddition werden funktionelle Gruppen ohne Abspaltung verknüpft, aber nicht über eine C=C-Doppelbindung.",
   "fundamentals": [
     {
       "term": "Monomer",
-      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+      "explanation": "Kleines Molekül, aus dem durch Verknüpfung ein Makromolekül entsteht; für Polymerisationen mit C=C-Doppelbindung."
     },
     {
-      "term": "Vernetzung",
-      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+      "term": "Wiederholungseinheit",
+      "explanation": "Kleinster Kettenabschnitt, aus dem sich das Polymer durch Aneinanderreihung zusammensetzt; bei PE –CH₂–CH₂–."
     },
     {
-      "term": "Systemgrenze",
-      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+      "term": "Polymerisationsgrad n",
+      "explanation": "Zahl der Monomereinheiten in einer Kette; bei Kunststoffen ein Mittelwert."
+    },
+    {
+      "term": "Initiator",
+      "explanation": "Stoff, der beim Zerfall Radikale bildet und so die Kettenreaktion startet, zum Beispiel ein Peroxid."
+    },
+    {
+      "term": "Kettenwachstum",
+      "explanation": "Schrittweise Addition von Monomeren an das Radikal am Kettenende; das Radikalzentrum wandert mit."
+    },
+    {
+      "term": "Kettenabbruch",
+      "explanation": "Reaktion zweier Radikale durch Rekombination oder Disproportionierung; das Wachstum dieser Ketten endet."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.2.polymerization.eq.1",
       "notation": "n CH₂=CH₂ → [–CH₂–CH₂–]ₙ",
-      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+      "explanation": "Polymerisation von Ethen zu Polyethen; kein Nebenprodukt."
+    },
+    {
+      "id": "chem.q2.2.polymerization.eq.2",
+      "notation": "n CH₂=CHR → [–CH₂–CHR–]ₙ",
+      "explanation": "Allgemeine Form für substituierte Ethene, etwa R = CH₃ (PP), Cl (PVC) oder C₆H₅ (PS)."
+    },
+    {
+      "id": "chem.q2.2.polymerization.eq.3",
+      "notation": "M(Polymer) ≈ n · M(Monomer)",
+      "explanation": "Näherung für lange Ketten, bei der die Endgruppen vernachlässigt werden."
     }
   ],
-  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
-  "mechanisms": [],
+  "equationNote": "Die eckigen Klammern mit dem Index n kennzeichnen die Wiederholungseinheit; die Bindungsstriche an den Klammern zeigen, dass die Kette dort weitergeht. In Mechanismen markierst du Radikale mit einem Punkt und zeigst Elektronenbewegungen mit Halbpfeilen.",
+  "mechanisms": [
+    {
+      "id": "chem.q2.2.polymerization.mechanism.radical",
+      "title": "Radikalische Polymerisation von Ethen",
+      "steps": [
+        "Initiatorzerfall: R–O–O–R → 2 R–O·. Die O–O-Bindung wird beim Erwärmen homolytisch gespalten.",
+        "Kettenstart: R–O· + CH₂=CH₂ → R–O–CH₂–CH₂·. Das Radikal addiert an die Doppelbindung; am anderen C-Atom entsteht ein neues Radikalzentrum.",
+        "Kettenwachstum: R–O–CH₂–CH₂· + CH₂=CH₂ → R–O–CH₂–CH₂–CH₂–CH₂·. Dieser Schritt wiederholt sich viele tausend Mal.",
+        "Kettenabbruch durch Rekombination: zwei Kettenradikale verbinden sich, R′· + R″· → R′–R″.",
+        "Kettenabbruch durch Disproportionierung: Ein Radikal überträgt ein H-Atom auf das andere; es entstehen ein gesättigtes Kettenende und ein Kettenende mit C=C-Doppelbindung."
+      ]
+    }
+  ],
   "workedExamples": [
     {
       "id": "chem.q2.2.polymerization.example.1",
-      "title": "Styrol wiederholen",
-      "prompt": "Leite aus CH₂=CH–C₆H₅ die Wiederholungseinheit ab.",
+      "title": "Wiederholungseinheit von Polystyrol",
+      "prompt": "Leite aus Styrol (CH₂=CH–C₆H₅) die Wiederholungseinheit von Polystyrol ab.",
       "steps": [
-        "Die C=C-Doppelbindung des Styrols wird geöffnet.",
-        "Die beiden C-Atome bilden Bindungen zu den Nachbarmonomeren.",
-        "Der Phenylrest bleibt am zweiten C-Atom erhalten: [–CH₂–CH(C₆H₅)–]ₙ."
+        "Die Doppelbindung liegt zwischen CH₂ und CH; diese beiden C-Atome bilden die Hauptkette.",
+        "Die Phenylgruppe wird zur Seitengruppe am zweiten C-Atom.",
+        "Die Doppelbindung wird zur Einfachbindung, an beiden Enden geht die Kette weiter."
       ],
-      "result": "Öffne die C=C-Bindung. Das Phenyl bleibt Seitenrest: [–CH₂–CH(C₆H₅)–]ₙ."
+      "result": "Wiederholungseinheit: [–CH₂–CH(C₆H₅)–]ₙ. Die Phenylgruppe sitzt an jedem zweiten C-Atom der Hauptkette."
     },
     {
       "id": "chem.q2.2.polymerization.example.2",
-      "title": "Polymerisation erkennen",
-      "prompt": "Ein Alken bildet ohne Nebenprodukt ein langkettiges Produkt. Ordne die Reaktion ein.",
+      "title": "Polymerisationsgrad berechnen",
+      "prompt": "Eine Polystyrolprobe hat eine mittlere molare Masse von 104 000 g·mol⁻¹. Berechne den mittleren Polymerisationsgrad (M(C₈H₈) = 104,15 g·mol⁻¹).",
       "steps": [
-        "Die C=C-Bindung wird geöffnet und Monomere werden addiert",
-        "es ist eine Additionspolymerisation."
+        "Endgruppen vernachlässigen: M(Polymer) ≈ n · M(Monomer).",
+        "n ≈ 104 000 g·mol⁻¹ / 104,15 g·mol⁻¹ ≈ 999."
       ],
-      "result": "Die C=C-Bindung wird geöffnet und Monomere werden addiert; es ist eine Additionspolymerisation."
+      "result": "Eine mittlere Kette enthält rund 1000 Styrol-Einheiten. Weil es ein Mittelwert ist, gibt es in der Probe auch deutlich kürzere und längere Ketten."
+    },
+    {
+      "id": "chem.q2.2.polymerization.example.3",
+      "title": "Monomer aus dem Polymerausschnitt",
+      "prompt": "Ein Polymerausschnitt lautet –CH₂–C(CH₃)(COOCH₃)–CH₂–C(CH₃)(COOCH₃)–. Bestimme das Monomer.",
+      "steps": [
+        "Die Hauptkette wechselt regelmäßig zwischen CH₂ und einem C-Atom mit zwei Substituenten; eine Wiederholungseinheit umfasst also zwei C-Atome.",
+        "Zwischen diesen beiden C-Atomen wird die Doppelbindung wieder eingezeichnet.",
+        "Die Substituenten CH₃ und COOCH₃ bleiben am zweiten C-Atom."
+      ],
+      "result": "Monomer: CH₂=C(CH₃)–COOCH₃ (Methacrylsäuremethylester). Das Polymer ist Polymethylmethacrylat (PMMA, „Acrylglas“)."
     }
   ],
   "examReferences": [
@@ -134,22 +178,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
-    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
-    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+    "AFB I: Monomer und Wiederholungseinheit benennen; Voraussetzungen einer Polymerisation angeben.",
+    "AFB II: Wiederholungseinheiten ableiten oder Monomere erschließen; den Mechanismus der radikalischen Polymerisation formulieren; Polymerisationsgrade berechnen.",
+    "AFB III: Einfluss von Reaktionsbedingungen auf Kettenlänge und Eigenschaften ableiten; Reaktionstypen anhand von Material begründet zuordnen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
-      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+      "tip": "Nur die beiden C-Atome der Doppelbindung bilden die Hauptkette; alles andere wird zur Seitengruppe.",
+      "commonError": "Die Seitengruppe, etwa der Phenylring, wird in die Hauptkette eingebaut."
     },
     {
-      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
-      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+      "tip": "Zeichne die Wiederholungseinheit mit offenen Bindungen an beiden Enden.",
+      "commonError": "In der Wiederholungseinheit bleibt eine C=C-Doppelbindung stehen, oder die Kettenenden werden mit H-Atomen abgeschlossen."
     },
     {
-      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
-      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+      "tip": "Beim Kettenwachstum entsteht aus einem Radikal und einem Molekül immer wieder ein Radikal.",
+      "commonError": "Im Wachstumsschritt reagieren zwei Radikale miteinander; das ist bereits ein Abbruch."
+    },
+    {
+      "tip": "Bei der Polymerisation wird kein Molekül abgespalten.",
+      "commonError": "Wie bei der Polykondensation wird Wasser als Nebenprodukt angegeben."
     }
   ],
   "review": {

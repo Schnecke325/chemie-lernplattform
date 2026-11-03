@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "id": "chem.q2.4.organic-materials",
   "title": "Organische Werkstoffe",
-  "summary": "Struktur, Reaktionen und Eigenschaften von Organische Werkstoffe erschließen.",
+  "summary": "Polymilchsäure (PLA), Copolymere, synthetischer Kautschuk mit Vulkanisation sowie Viskose und Celluloseacetat: Aufbau, Herstellung, Eigenschaften und Entsorgung organischer Werkstoffe.",
   "order": 50,
   "publicationStatus": "review",
   "relevance": {
@@ -19,106 +19,148 @@
     }
   ],
   "prerequisites": [
-    "chem.basics.representation",
-    "chem.q1.1.bonding",
-    "chem.q1.1.mechanisms"
+    "chem.q2.2.polycondensation-polyaddition",
+    "chem.q2.2.properties",
+    "chem.q2.1.biopolymers"
   ],
   "learningGoals": [
     {
       "id": "chem.q2.4.organic-materials.goal.structure",
-      "statement": "Ich kann Monomere, funktionelle Gruppen und Polymerstrukturen erkennen und darstellen.",
+      "statement": "Ich kann Monomere, Bindungstyp und Wiederholungseinheit von PLA, Polybutadien und Naturkautschuk angeben und Copolymere beschreiben.",
       "competencies": [
         "S",
         "K"
       ],
       "operators": [
-        "beschreiben",
-        "darstellen"
+        "angeben",
+        "beschreiben"
       ]
     },
     {
       "id": "chem.q2.4.organic-materials.goal.reactions",
-      "statement": "Ich kann Polymerbildungsreaktionen anhand ihrer Stoffbilanz unterscheiden.",
+      "statement": "Ich kann die Bildung von PLA, die Vulkanisation von Kautschuk und die Herstellung von Viskose und Celluloseacetat formulieren und erläutern.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
         "formulieren",
-        "unterscheiden"
+        "erläutern"
       ]
     },
     {
       "id": "chem.q2.4.organic-materials.goal.properties",
-      "statement": "Ich kann Eigenschaften aus Kettenbeweglichkeit, Vernetzung und Wechselwirkungen erklären.",
+      "statement": "Ich kann Eigenschaften wie Elastizität, Härte, Nassfestigkeit und Wärmebeständigkeit aus Struktur und Vernetzung erklären.",
       "competencies": [
-        "S",
-        "E"
+        "S"
       ],
       "operators": [
-        "erläutern",
+        "erklären",
         "begründen"
       ]
     },
     {
       "id": "chem.q2.4.organic-materials.goal.evaluate",
-      "statement": "Ich kann Materialaussagen anhand von Kriterien und Daten bewerten.",
+      "statement": "Ich kann Aussagen wie „biobasiert“, „kompostierbar“ und „recycelbar“ für organische Werkstoffe beurteilen.",
       "competencies": [
-        "K",
-        "B"
+        "B",
+        "K"
       ],
       "operators": [
-        "bewerten",
-        "beurteilen"
+        "beurteilen",
+        "bewerten"
       ]
     }
   ],
-  "introduction": "Organische Werkstoffe verbinden molekulare Struktur mit einer praktischen Materialfunktion.",
-  "explanation": "PLA ist ein Polyester, der aus Milchsäure oder über Lactid hergestellt werden kann. Bei der Vulkanisation entstehen Schwefelbrücken zwischen Kautschukketten; dadurch verbessern sich Formrückstellung und Stabilität. Viskose entsteht durch chemische Verarbeitung und anschließendes Regenerieren von Cellulose. Vergleiche Bausteine, Bindungstyp, Vernetzung, Funktion und Entsorgungsweg. Biobasiert, biologisch abbaubar und recycelbar sind unterschiedliche Eigenschaften. Q2.4 besitzt in der vorhandenen Häufigkeitsauswertung keinen eigenen Vorschlagscount; Verbindlichkeit richtet sich nach dem Jahrgangserlass.",
+  "introduction": "Ein kompostierbarer Becher, ein Autoreifen und ein Shirt aus Viskose sind organische Werkstoffe mit sehr unterschiedlicher Herkunft: aus Zucker, aus Erdöl oder aus Holz. An ihnen siehst du, wie gezielte chemische Reaktionen aus Monomeren oder Naturstoffen Materialien mit genau passenden Eigenschaften machen.",
+  "explanation": "### 1. Polymilchsäure (PLA)\n\nMilchsäure (2-Hydroxypropansäure) trägt eine Hydroxy- und eine Carboxygruppe. Sie kann deshalb allein, ohne zweiten Partner, zu einem Polyester reagieren: Polymilchsäure (PLA). Die Milchsäure wird durch Fermentation von Zucker oder Stärke gewonnen, PLA ist also biobasiert. Direkte Polykondensation liefert nur mäßig lange Ketten, weil sich ein Gleichgewicht mit dem abgespaltenen Wasser einstellt. Technisch stellt man deshalb zuerst Lactid her, einen ringförmigen Diester aus zwei Milchsäuremolekülen, und öffnet diesen Ring katalytisch zu langen Ketten.\n\nPLA ist ein transparenter Thermoplast und wird für Verpackungen, Becher und im 3D-Druck verwendet. Es erweicht bereits bei etwa 60 °C und eignet sich daher nicht für heiße Getränke. Seine Esterbindungen lassen sich hydrolysieren; deshalb ist PLA biologisch abbaubar, allerdings vor allem bei der erhöhten Temperatur und Feuchtigkeit einer industriellen Kompostieranlage. Im Gartenkompost oder in der Natur verläuft der Abbau sehr viel langsamer.\n\n### 2. Copolymere\n\nWerden verschiedene Monomere gemeinsam polymerisiert, entstehen Copolymere, die Eigenschaften beider Bausteine verbinden. Styrol-Butadien-Kautschuk (SBR) enthält zum Beispiel harte Styrol- und elastische Butadien-Einheiten und ist ein wichtiger Reifenkautschuk. Auch die Eigenschaften von PLA lassen sich durch Copolymerisation mit anderen Hydroxycarbonsäuren anpassen. Anordnung und Anteil der Monomere bestimmen, ob das Material eher hart, zäh oder elastisch ist.\n\n### 3. Kautschuk und Vulkanisation\n\nNaturkautschuk wird aus dem Milchsaft (Latex) des Kautschukbaums gewonnen und besteht aus cis-1,4-Polyisopren. Synthetischen Kautschuk stellt man durch Polymerisation von Dienen wie Buta-1,3-dien her. Bei der 1,4-Polymerisation entsteht in jeder Wiederholungseinheit eine neue C=C-Doppelbindung in der Hauptkette. Roher Kautschuk ist klebrig und wird bei Wärme weich, weil seine Ketten unvernetzt sind.\n\nBei der Vulkanisation wird Kautschuk mit Schwefel erhitzt. Dabei entstehen Schwefelbrücken (–Sₓ–) zwischen benachbarten Ketten, bevorzugt an den C-Atomen neben den Doppelbindungen. Mit wenig Schwefel entsteht ein weitmaschiges Netzwerk: Die Ketten bleiben zwischen den Brücken beweglich, das Material ist ein Elastomer und federt nach Dehnung zurück. Mit viel Schwefel wird das Netzwerk engmaschig; es entsteht harter, kaum dehnbarer Hartgummi.\n\n### 4. Viskose und modifizierte Cellulose\n\nCellulose aus Holz ist unlöslich und schmilzt nicht; zu glatten Fasern spinnen lässt sie sich nur auf Umwegen. Beim Viskoseverfahren wird Zellstoff mit Natronlauge zu Alkalicellulose umgesetzt und mit Kohlenstoffdisulfid zu Cellulosexanthogenat. Dieses ist in Natronlauge löslich; die zähe Lösung heißt Viskose. Sie wird durch feine Düsen in ein Schwefelsäurebad gepresst, wo sich die Cellulose als Faser zurückbildet (Regeneratfaser). Chemisch ist das wieder Cellulose, die Ketten sind aber kürzer und weniger geordnet als in Baumwolle. Wasser dringt leichter zwischen die Ketten und schwächt die Wasserstoffbrücken, deshalb sind Viskosefasern im nassen Zustand deutlich weniger fest.\n\nBei modifizierter Cellulose werden die Hydroxygruppen dauerhaft chemisch verändert. Celluloseacetat entsteht durch Veresterung der OH-Gruppen mit Essigsäureanhydrid. Weil weniger Wasserstoffbrücken möglich sind, lässt sich Celluloseacetat verarbeiten wie ein Kunststoff; es wird etwa für Brillengestelle und Zigarettenfilter genutzt.\n\n### 5. Einordnung\n\nQ2.4 ist im KCGO ein ergänzendes Themenfeld; Kautschuk/Vulkanisation und Viskose sind als LK-Inhalte ausgewiesen. Welche Inhalte für einen Abiturjahrgang verbindlich sind, legt der jeweilige Abiturerlass fest.",
   "fundamentals": [
     {
-      "term": "Monomer",
-      "explanation": "Kleines Molekül, das zu einem Polymer verknüpft wird."
+      "term": "Polymilchsäure (PLA)",
+      "explanation": "Biobasierter, hydrolytisch abbaubarer Polyester aus Milchsäure, technisch über das Ringmolekül Lactid hergestellt."
     },
     {
-      "term": "Vernetzung",
-      "explanation": "Verknüpfung von Polymerketten zu einem räumlichen Netzwerk."
+      "term": "Lactid",
+      "explanation": "Ringförmiger Diester aus zwei Milchsäuremolekülen; wird durch Ringöffnung zu langkettigem PLA polymerisiert."
     },
     {
-      "term": "Systemgrenze",
-      "explanation": "Festlegung, welche Lebenszyklusabschnitte in einer Bewertung enthalten sind."
+      "term": "Kautschuk",
+      "explanation": "Unvernetztes Polymer aus Dienen, etwa cis-1,4-Polyisopren (Naturkautschuk) oder Polybutadien; Ausgangsstoff für Gummi."
+    },
+    {
+      "term": "Vulkanisation",
+      "explanation": "Vernetzung von Kautschukketten durch Schwefelbrücken beim Erhitzen mit Schwefel; erzeugt Gummi."
+    },
+    {
+      "term": "Viskose",
+      "explanation": "Lösung von Cellulosexanthogenat in Natronlauge, aus der regenerierte Cellulosefasern gesponnen werden; auch Name der Faser."
+    },
+    {
+      "term": "Celluloseacetat",
+      "explanation": "Modifizierte Cellulose, deren Hydroxygruppen mit Essigsäure verestert sind; lässt sich wie ein Kunststoff verarbeiten."
     }
   ],
   "equations": [
     {
       "id": "chem.q2.4.organic-materials.eq.1",
-      "notation": "Milchsäure → PLA + H₂O; Kautschukketten + S₈ → vernetzter Kautschuk",
-      "explanation": "Schematische Darstellung; ergänze Strukturen und Bedingungen, wenn sie vorgegeben sind."
+      "notation": "n HO–CH(CH₃)–COOH → H–[–O–CH(CH₃)–CO–]ₙ–OH + (n − 1) H₂O",
+      "explanation": "Polykondensation von Milchsäure zu PLA; ein einziges Monomer genügt, weil es beide funktionellen Gruppen trägt."
+    },
+    {
+      "id": "chem.q2.4.organic-materials.eq.2",
+      "notation": "n CH₂=CH–CH=CH₂ → [–CH₂–CH=CH–CH₂–]ₙ",
+      "explanation": "1,4-Polymerisation von Buta-1,3-dien; in jeder Einheit bleibt eine C=C-Doppelbindung."
+    },
+    {
+      "id": "chem.q2.4.organic-materials.eq.3",
+      "notation": "Kautschukketten + Schwefel (Erhitzen) → durch –Sₓ–-Brücken vernetzter Gummi",
+      "explanation": "Schema der Vulkanisation; die Zahl der Brücken bestimmt, ob weiches Gummi oder Hartgummi entsteht."
+    },
+    {
+      "id": "chem.q2.4.organic-materials.eq.4",
+      "notation": "Cell–OH + NaOH → Cell–O⁻ Na⁺ + H₂O;  Cell–O⁻ + CS₂ → Cell–O–CS–S⁻",
+      "explanation": "Bildung von Alkalicellulose und Cellulosexanthogenat im Viskoseverfahren; im Säurebad wird Cellulose zurückgebildet."
+    },
+    {
+      "id": "chem.q2.4.organic-materials.eq.5",
+      "notation": "Cell–OH + (CH₃CO)₂O → Cell–O–CO–CH₃ + CH₃COOH",
+      "explanation": "Veresterung von Cellulose-Hydroxygruppen zu Celluloseacetat."
     }
   ],
-  "equationNote": "Bei Polymerstrukturen Wiederholungseinheit und Atombilanz sorgfältig prüfen.",
+  "equationNote": "Cell–OH steht für eine Hydroxygruppe einer Cellulosekette. Die Vulkanisation wird in der Schule nur schematisch formuliert; wichtig ist, dass kovalente Schwefelbrücken zwischen verschiedenen Ketten entstehen.",
   "mechanisms": [],
   "workedExamples": [
     {
       "id": "chem.q2.4.organic-materials.example.1",
-      "title": "Vulkanisation",
-      "prompt": "Wie verändern Schwefelbrücken die mechanischen Eigenschaften von Kautschuk?",
+      "title": "Vom Kautschuk zum Gummi",
+      "prompt": "Roher Kautschuk ist klebrig und verformt sich bei Wärme dauerhaft. Nach der Vulkanisation mit wenig Schwefel ist das Material elastisch. Erkläre die Änderung.",
       "steps": [
-        "Schwefel bildet Querverbindungen zwischen Kautschukketten.",
-        "Die Ketten können sich dadurch weniger dauerhaft gegeneinander verschieben.",
-        "Weitmaschige Vernetzung lässt elastische Rückstellung zu."
+        "Im rohen Kautschuk sind die Ketten unvernetzt; unter Belastung oder Wärme gleiten sie dauerhaft aneinander vorbei.",
+        "Bei der Vulkanisation verbinden Schwefelbrücken die Ketten an einzelnen Stellen kovalent.",
+        "Zwischen den Brücken bleiben die Ketten verknäuelt und beweglich; beim Dehnen strecken sie sich, die Brücken verhindern das Abgleiten."
       ],
-      "result": "Sie verbinden Ketten. Weitmaschige Vernetzung begrenzt dauerhaftes Gleiten und ermöglicht elastische Rückstellung."
+      "result": "Das weitmaschige Netzwerk macht aus dem Kautschuk ein Elastomer: Es lässt sich dehnen und kehrt in seine Form zurück."
     },
     {
       "id": "chem.q2.4.organic-materials.example.2",
-      "title": "Biobasiert bewerten",
-      "prompt": "Ein Material ist biobasiert. Welche Angaben brauchst du für eine Abbauaussage?",
+      "title": "Was eine Abbauaussage braucht",
+      "prompt": "Ein Werbetext nennt einen Werkstoff „bio“. Welche Angaben brauchst du, um zu beurteilen, ob er biologisch abbaubar ist?",
       "steps": [
-        "Angaben zu Bedingungen und Prüfverfahren, etwa Temperatur, Feuchte und Mikroorganismen",
-        "Herkunft allein belegt keinen Abbau."
+        "Zuerst klären, was „bio“ meint: Herkunft des Rohstoffs (biobasiert) oder Verhalten nach der Nutzung (abbaubar).",
+        "Für eine Abbauaussage braucht man die chemische Struktur, etwa hydrolysierbare Ester- oder Amidbindungen.",
+        "Außerdem müssen Bedingungen und Zeitraum genannt sein: industrielle Kompostierung, Gartenkompost, Boden oder Meer."
       ],
-      "result": "Angaben zu Bedingungen und Prüfverfahren, etwa Temperatur, Feuchte und Mikroorganismen; Herkunft allein belegt keinen Abbau."
+      "result": "Ohne Struktur, Bedingungen und Prüfnorm ist keine belastbare Aussage möglich. „Biobasiert“ allein sagt über die Abbaubarkeit nichts aus."
+    },
+    {
+      "id": "chem.q2.4.organic-materials.example.3",
+      "title": "Polybutadien formulieren",
+      "prompt": "Formuliere die Wiederholungseinheit von 1,4-Polybutadien und erkläre, warum es vulkanisiert werden kann.",
+      "steps": [
+        "Buta-1,3-dien (CH₂=CH–CH=CH₂) hat zwei Doppelbindungen.",
+        "Bei der 1,4-Polymerisation bilden C1 und C4 die neuen Bindungen zu den Nachbareinheiten; zwischen C2 und C3 entsteht eine neue Doppelbindung.",
+        "Wiederholungseinheit: [–CH₂–CH=CH–CH₂–]ₙ."
+      ],
+      "result": "Die verbleibenden Doppelbindungen und die benachbarten CH₂-Gruppen sind reaktionsfähige Stellen, an denen bei der Vulkanisation Schwefelbrücken entstehen."
     }
   ],
   "examReferences": [
@@ -133,22 +175,26 @@
     }
   ],
   "typicalTaskTypes": [
-    "AFB I: Monomer, funktionelle Gruppe und Werkstoffklasse bestimmen.",
-    "AFB II: Bildungsreaktion oder Struktur-Eigenschaft-Beziehung erklären.",
-    "AFB III: Materialdaten und Nachhaltigkeitskriterien vergleichend bewerten."
+    "AFB I: Monomere und Bindungstypen von PLA, Kautschuk und Viskose angeben; Verknüpfungen nach der Vulkanisation nennen.",
+    "AFB II: Bildung von PLA und Polybutadien formulieren; Eigenschaften mit Vernetzung und Kettenordnung erklären; Viskose und Baumwolle vergleichen.",
+    "AFB III: Aussagen zu Abbaubarkeit, Kompostierbarkeit und Nachhaltigkeit organischer Werkstoffe beurteilen."
   ],
   "tipsAndErrors": [
     {
-      "tip": "Unterscheide die Polymerreaktionen anhand der Stoffbilanz.",
-      "commonError": "Bei Polykondensation wird das abgespaltene Molekül vergessen."
+      "tip": "PLA ist ein Polyester aus einem einzigen Monomer mit OH- und COOH-Gruppe.",
+      "commonError": "PLA wird als Polymerisat eingeordnet oder es wird ein zweites Monomer gesucht."
     },
     {
-      "tip": "Leite Eigenschaften aus Kettenbeweglichkeit und Vernetzung ab.",
-      "commonError": "Werkstoffklassen werden ohne Strukturargument zugeordnet."
+      "tip": "Bei der 1,4-Polymerisation eines Diens bleibt in jeder Einheit eine Doppelbindung erhalten.",
+      "commonError": "Die Wiederholungseinheit von Polybutadien wird ohne Doppelbindung oder mit zwei Doppelbindungen gezeichnet."
     },
     {
-      "tip": "Vergleiche ökologische Aussagen bei gleicher Funktion und Systemgrenze.",
-      "commonError": "Biobasiert wird mit biologisch abbaubar gleichgesetzt."
+      "tip": "Der Vernetzungsgrad entscheidet zwischen Gummi und Hartgummi.",
+      "commonError": "Mehr Schwefel wird mit mehr Elastizität gleichgesetzt."
+    },
+    {
+      "tip": "Viskose ist chemisch Cellulose; die Unterschiede zur Baumwolle liegen in Kettenlänge und Ordnung.",
+      "commonError": "Viskose wird als vollsynthetischer Kunststoff aus Erdöl bezeichnet."
     }
   ],
   "review": {
