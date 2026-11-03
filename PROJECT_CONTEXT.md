@@ -98,7 +98,7 @@ Seit 04.11.2026 nach Nutzerentscheidung. Jede Aufgabe hat am Ende einen Bereich 
 - **Konto gelöscht:** Beiträge ohne Antworten werden entfernt, die übrigen werden zu „Beitrag eines gelöschten Kontos“ (Trigger auf `profiles`).
 - **Code:** `src/comments/` (`remote.ts`, `CommentsContext.tsx` mit Zählern), `src/components/Discussion.tsx`.
 - **Datenbank:** `supabase/migrations/20261104170000_comments.sql`. Die Tabelle `comments` ist für Clients gesperrt; aller Zugriff läuft über die Funktionen `exercise_comments`, `comment_counts`, `add_comment`, `edit_comment` und `delete_comment`.
-- **Getestet** gegen den lokalen Supabase-Ersatz: Beitrag, Antwort, Bearbeiten, Löschen, Admin-Entfernen mit Platzhalter, Aufräumen leerer Platzhalter. Im echten Projekt eingerichtet (Tabelle und Funktionen vorhanden, ohne Anmeldung gesperrt).
+- **Getestet** gegen den lokalen Supabase-Ersatz: Beitrag, Antwort, Bearbeiten, Löschen, Admin-Entfernen mit Platzhalter, Aufräumen leerer Platzhalter. Im echten Projekt eingerichtet und vom Nutzer am 04.11.2026 bestätigt.
 
 ## Abiturarchiv
 
