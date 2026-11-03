@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState, type FormEvent } from 'react'
 import { useAccount, useAdminProfile } from '../account/AccountContext'
 import { callAdminFunction, supabase } from '../account/client'
 import { formatDate, isProfileActive, todayBerlin, type Profile } from '../account/profile'
-import { Icon } from '../components/Icon'
+import { AdminProgress } from './AdminProgress'
 import './AdminPage.css'
 
 /** Benutzerverwaltung: Konten anlegen, Rechte und Ablaufdatum setzen, Codes erneuern, Konten entfernen. */
@@ -26,6 +26,7 @@ function UserAdmin({ self, onSelfChanged }: { self: Profile; onSelfChanged: () =
   const [editingId, setEditingId] = useState<string | null>(null)
   const [busyId, setBusyId] = useState<string | null>(null)
   const [issued, setIssued] = useState<IssuedCode | null>(null)
+  const [tab, setTab] = useState<'users' | 'progress'>('users')
 
   const load = useCallback(async () => {
     const { data, error: loadError } = await supabase.from('profiles').select('*').order('display_name')
@@ -88,9 +89,15 @@ function UserAdmin({ self, onSelfChanged }: { self: Profile; onSelfChanged: () =
     <div className="eyebrow"><span className="eyebrow-line"/> VERWALTUNG</div>
     <div className="admin-heading">
       <div><h1>Benutzerverwaltung</h1><p className="admin-muted">Zugänge vergeben, Rechte festlegen und Konten entfernen. Abgelaufene Konten werden am Folgetag automatisch mit allen Daten gelöscht.</p></div>
-      {!creating && <button className="primary-button" onClick={() => { setCreating(true); setIssued(null) }}>Benutzer anlegen</button>}
+      {!creating && tab === 'users' && <button className="primary-button" onClick={() => { setCreating(true); setIssued(null) }}>Benutzer anlegen</button>}
     </div>
 
+    <div className="admin-tabs" role="tablist" aria-label="Bereiche der Benutzerverwaltung">
+      <button role="tab" aria-selected={tab === 'users'} className={tab === 'users' ? 'is-active' : ''} onClick={() => setTab('users')}>Benutzer</button>
+      <button role="tab" aria-selected={tab === 'progress'} className={tab === 'progress' ? 'is-active' : ''} onClick={() => { setTab('progress'); setCreating(false); setIssued(null) }}>Lernstand</button>
+    </div>
+
+    {tab === 'progress' ? <AdminProgress users={users ?? []}/> : <>
     {issued && <section className="admin-code" aria-live="polite">
       <div className="section-kicker">ZUGANGSDATEN · NUR JETZT SICHTBAR</div>
       <h2>{issued.name}</h2>
@@ -137,7 +144,7 @@ function UserAdmin({ self, onSelfChanged }: { self: Profile; onSelfChanged: () =
       </article>)}
     </section>
 
-    <p className="admin-note"><Icon name="chart" size={15}/> Die Übersicht zum Lernfortschritt folgt, sobald Aufgabenergebnisse im Konto gespeichert werden.</p>
+    </>}
   </div>
 }
 

@@ -8,6 +8,7 @@ import { PlaceholderPage } from './pages/PlaceholderPage'
 import { LearningPage } from './pages/LearningPage'
 import { ExercisesPage } from './pages/ExercisesPage'
 import { PrivacyPage } from './pages/PrivacyPage'
+import { ProgressPage } from './pages/ProgressPage'
 import type { PageId } from './types/navigation'
 
 // Die Benutzerverwaltung wird nur für Admins gebraucht und deshalb erst beim Öffnen geladen.
@@ -28,18 +29,26 @@ function Workspace() {
 
 function Pages({ userId }: { userId: string | null }) {
   const [activePage, setActivePage] = useState<PageId>('dashboard')
+  // Aufgabe, die der Übungsbereich beim nächsten Öffnen aufklappen soll (aus Wiederholungsliste oder Dashboard)
+  const [focusExerciseId, setFocusExerciseId] = useState<string | null>(null)
+  const openExercise = (exerciseId: string) => {
+    setFocusExerciseId(exerciseId)
+    setActivePage('uebungen')
+  }
 
   return <PracticeRecordsProvider userId={userId}><AppShell activePage={activePage} onNavigate={setActivePage}>
     {activePage === 'dashboard'
-      ? <DashboardPage onNavigate={setActivePage}/>
+      ? <DashboardPage onNavigate={setActivePage} onPractice={openExercise}/>
       : activePage === 'lernen'
         ? <LearningPage/>
         : activePage === 'uebungen'
-          ? <ExercisesPage/>
+          ? <ExercisesPage focusExerciseId={focusExerciseId} onFocusHandled={() => setFocusExerciseId(null)}/>
           : activePage === 'admin'
             ? <Suspense fallback={null}><AdminPage/></Suspense>
             : activePage === 'datenschutz'
               ? <PrivacyPage/>
-              : <PlaceholderPage page={activePage}/>}
+              : activePage === 'fortschritt'
+                ? <ProgressPage onPractice={openExercise}/>
+                : <PlaceholderPage page={activePage}/>}
   </AppShell></PracticeRecordsProvider>
 }

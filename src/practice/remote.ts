@@ -4,8 +4,11 @@ import { isPracticeRecord, type PracticeRecords } from './storage'
 /** Zugriff auf public.practice_records (siehe supabase/migrations); RLS beschränkt auf das eigene Konto. */
 interface PracticeRow { exercise_id: string; result: string; checked_by: string; updated_at: string }
 
-export async function fetchRemoteRecords(): Promise<PracticeRecords> {
-  const { data, error } = await supabase.from('practice_records').select('exercise_id, result, checked_by, updated_at')
+/** Eigene Ergebnisse; mit `userId` die eines anderen Kontos (nur für Admins durch RLS erlaubt). */
+export async function fetchRemoteRecords(userId?: string): Promise<PracticeRecords> {
+  let query = supabase.from('practice_records').select('exercise_id, result, checked_by, updated_at')
+  if (userId) query = query.eq('user_id', userId)
+  const { data, error } = await query
   if (error) throw error
   const records: PracticeRecords = {}
   for (const row of data as PracticeRow[]) {
@@ -13,6 +16,16 @@ export async function fetchRemoteRecords(): Promise<PracticeRecords> {
     if (isPracticeRecord(record)) records[row.exercise_id] = record
   }
   return records
+}
+
+export interface PracticeSummary { userId: string; secure: number; partial: number; missing: number; lastActivity: string | null }
+
+/** Zusammenfassung je Konto für die Admin-Übersicht (Datenbankfunktion admin_practice_summary). */
+export async function fetchPracticeSummary(): Promise<PracticeSummary[]> {
+  const { data, error } = await supabase.rpc('admin_practice_summary')
+  if (error) throw error
+  return (data as Array<{ user_id: string; secure: number; partial: number; missing: number; last_activity: string | null }>)
+    .map((row) => ({ userId: row.user_id, secure: row.secure, partial: row.partial, missing: row.missing, lastActivity: row.last_activity }))
 }
 
 export async function upsertRemoteRecords(userId: string, records: PracticeRecords) {

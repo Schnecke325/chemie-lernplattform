@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { ExercisePractice, resultLabels } from '../components/ExercisePractice'
 import { getAllExercises, learningCatalog } from '../content'
 import type { Competency, Difficulty, Exercise, ExerciseMode } from '../content/types'
@@ -79,7 +79,8 @@ function SelectField({
   </label>
 }
 
-export function ExercisesPage() {
+/** focusExerciseId: Aufgabe, die nach dem Laden aufgeklappt und angezeigt wird (z. B. aus der Wiederholungsliste). */
+export function ExercisesPage({ focusExerciseId = null, onFocusHandled }: { focusExerciseId?: string | null; onFocusHandled?: () => void }) {
   const [exercises, setExercises] = useState<Exercise[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const [loadError, setLoadError] = useState(false)
@@ -105,6 +106,26 @@ export function ExercisesPage() {
     })
     return () => { active = false }
   }, [])
+
+  const scrollTargetRef = useRef<string | null>(null)
+  // Gewünschte Aufgabe in ihrer Lernseite zeigen, aufklappen und hinscrollen
+  useEffect(() => {
+    if (!focusExerciseId || exercises.length === 0) return
+    const exercise = exercises.find((item) => item.id === focusExerciseId)
+    onFocusHandled?.()
+    if (!exercise) return
+    const topic = topicByLessonId.get(exercise.sourceLessonId)
+    setFilters({ ...initialFilters, chapterId: topic?.chapterId ?? '', lessonId: topic?.lessonId ?? '' })
+    setExpandedId(exercise.id)
+    scrollTargetRef.current = exercise.id
+  }, [focusExerciseId, exercises, onFocusHandled])
+
+  // Erst nach dem Rendern der gefilterten Liste hinscrollen
+  useEffect(() => {
+    if (!scrollTargetRef.current || expandedId !== scrollTargetRef.current) return
+    document.getElementById(`exercise-${scrollTargetRef.current}`)?.scrollIntoView({ block: 'start' })
+    scrollTargetRef.current = null
+  }, [expandedId, filters])
 
   const chapters = learningCatalog.chapters.filter((chapter) => chapter.children
     .some((child) => child.lessonId && exercises.some((exercise) => exercise.sourceLessonId === child.lessonId)))
@@ -211,7 +232,7 @@ export function ExercisesPage() {
               const topic = topicByLessonId.get(exercise.sourceLessonId)
               const isExpanded = expandedId === exercise.id
               const record = records[exercise.id]
-              return <article className={`exercise-list-item${isExpanded ? ' is-expanded' : ''}`} key={exercise.id}>
+              return <article className={`exercise-list-item${isExpanded ? ' is-expanded' : ''}`} key={exercise.id} id={`exercise-${exercise.id}`}>
                 <div className="exercise-list-toggle" onClick={() => setExpandedId(isExpanded ? null : exercise.id)}>
                 <div className="exercise-list-main">
                   <div className="exercise-list-meta">

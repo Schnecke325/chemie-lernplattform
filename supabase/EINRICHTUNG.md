@@ -118,11 +118,18 @@ Neue Funktionen bringen eigene SQL-Dateien mit. Sie werden im SQL Editor (neue, 
 |---|---|
 | `20261104120000_accounts.sql` | Konten und Rechte (Paket K1, Schritt 3 oben) |
 | `20261104130000_practice_records.sql` | Aufgabenergebnisse im Konto (Paket K2) |
+| `20261104140000_admin_progress.sql` | Lernstand-Übersicht für Admins (Paket K3) |
 
 Ob K2 eingerichtet ist, zeigt diese Abfrage; sie muss ohne Fehler laufen:
 
 ```sql
 select count(*) from public.practice_records;
+```
+
+Ob K3 eingerichtet ist, zeigt diese Abfrage; im SQL Editor liefert sie keine Zeilen (dort ist kein Admin angemeldet), darf aber keinen Fehler melden:
+
+```sql
+select * from public.admin_practice_summary();
 ```
 
 ## Lokale Entwicklung (optional)

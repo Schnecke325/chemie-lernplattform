@@ -1,0 +1,43 @@
+.progress-overview{display:grid;gap:14px}
+.progress-panel{padding:20px 22px;border:1px solid #242d36;border-radius:11px;background:#11171e}
+.progress-panel h2{font:600 18px var(--display);letter-spacing:-.4px;margin:5px 0 14px}
+.progress-summary .section-kicker{margin-bottom:12px}
+.progress-muted{color:#8995a0;font-size:12px;line-height:1.6;margin:0}
+.state-bar{display:flex;flex:1;min-width:60px;height:10px;overflow:hidden;border-radius:5px;background:#1c242d;gap:2px}
+.state-bar span{min-width:3px}
+.state-secure{background:#80d8bc}
+.state-partial{background:#e0c48d}
+.state-missing{background:#f2876f}
+.state-open{background:#2c3742}
+.progress-summary>.state-bar{height:14px;border-radius:7px}
+.state-legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin:12px 0 0;padding:0;list-style:none;font-size:12px;color:#c4cdd2}
+.state-legend li{display:flex;align-items:center;gap:7px}
+.state-dot{flex:none;width:9px;height:9px;border-radius:50%;display:inline-block}
+.progress-afb{display:grid;gap:9px;margin-top:18px;padding-top:16px;border-top:1px solid #1c242d}
+.progress-afb-row,.progress-chapter summary,.progress-lessons li{display:grid;grid-template-columns:minmax(0,1fr) minmax(90px,1.2fr) 108px;align-items:center;gap:14px}
+.progress-afb-row{grid-template-columns:62px minmax(0,1fr) 108px}
+.progress-afb-label{font:11px var(--mono);color:#a6b0b5}
+.progress-count{font:11px var(--mono);color:#a6b0b5;text-align:right;white-space:nowrap}
+.progress-activity{margin:16px 0 0;color:#8995a0;font-size:12px}
+.progress-chapters{display:grid;gap:6px}
+.progress-chapter{border:1px solid #1f2830;border-radius:8px;background:#0f151b}
+.progress-chapter summary{padding:11px 14px;cursor:pointer;list-style:none}
+.progress-chapter summary::-webkit-details-marker{display:none}
+.progress-chapter[open] summary{border-bottom:1px solid #1f2830}
+.progress-chapter-title{font-size:13px;font-weight:600}
+.progress-chapter-title::before{content:'›';display:inline-block;width:14px;color:#6c7a84;transition:transform .15s}
+.progress-chapter[open] .progress-chapter-title::before{transform:rotate(90deg)}
+.progress-lessons{margin:0;padding:6px 14px 10px 28px;list-style:none;display:grid;gap:8px}
+.progress-lesson-title{font-size:12px;color:#c4cdd2}
+.repetition-list{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.repetition-item{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid #1f2830;border-radius:8px;background:#0f151b}
+.repetition-main{flex:1;min-width:0;display:grid;gap:3px}
+.repetition-main strong{font-size:13px;font-weight:600}
+.repetition-main span{font-size:11px;color:#8995a0}
+.repetition-action{flex:none;padding:6px 12px;border:1px solid #31413d;border-radius:6px;background:#182522;color:#a9decb;font-size:11px;cursor:pointer}
+.repetition-action:hover{background:#20362e}
+.progress-panel .text-link{margin-top:10px}
+@media(max-width:600px){.progress-panel{padding:16px 14px}.progress-afb-row,.progress-chapter summary,.progress-lessons li{grid-template-columns:minmax(0,1fr) 92px;row-gap:6px}.progress-afb-row{grid-template-columns:44px minmax(0,1fr) 92px}.progress-chapter summary .state-bar,.progress-lessons li .state-bar{grid-column:1/-1;grid-row:2}.progress-lessons{padding-left:16px}}
+.progress-page{max-width:980px;padding-top:7px}
+.progress-heading{font:600 32px var(--display);letter-spacing:-1.4px;margin:14px 0 6px}
+.progress-intro{max-width:640px;color:#9ca9ae;font-size:13px;line-height:1.7;margin:0 0 20px}

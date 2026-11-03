@@ -2,13 +2,12 @@ import { Icon } from '../components/Icon'
 import { PlaceholderBadge } from '../components/PlaceholderBadge'
 import type { PageId } from '../types/navigation'
 
-type PlaceholderPageId = Extract<PageId, 'lernen' | 'uebungen' | 'abiturarchiv' | 'fortschritt'>
+type PlaceholderPageId = Extract<PageId, 'lernen' | 'uebungen' | 'abiturarchiv'>
 
 const pageInfo: Record<PlaceholderPageId, { eyebrow: string; title: string; description: string; icon: string }> = {
   lernen: { eyebrow: 'WISSEN AUFBAUEN', title: 'Lernbereich', description: 'Kapitel, verständliche Erklärungen und Beispiele werden hier strukturiert ergänzt.', icon: 'flask' },
   uebungen: { eyebrow: 'WISSEN ANWENDEN', title: 'Übungsbereich', description: 'Aufgaben, Hinweise und Musterlösungen werden hier ergänzt, sobald die Inhalte fachlich ausgearbeitet sind.', icon: 'book' },
   abiturarchiv: { eyebrow: 'MIT ORIGINALPRÜFUNGEN LERNEN', title: 'Abiturarchiv', description: 'Das Archiv wird nach Jahrgang, HT/NT und Vorschlag organisiert. Themenangaben folgen der Auswertung verfügbarer Prüfungen.', icon: 'archive' },
-  fortschritt: { eyebrow: 'DEIN WEG IM BLICK', title: 'Lernfortschritt', description: 'Dein persönlicher Lernstand wird in einer späteren Phase ergänzt. In diesem Grundgerüst werden keine Daten gespeichert.', icon: 'chart' },
 }
 
 interface PlaceholderPageProps { page: PlaceholderPageId }

@@ -30,7 +30,8 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 
 - **Feingranulare Prüfungsanalyse:** Die vorhandenen 131 PDFs sind laut Research inventarisiert und breit nach Jahr, Termin, Vorschlag und KCGO-Feld zugeordnet. Teilfragen-/Punkte-Codierung und belastbare Häufigkeitsklassen sind offen. Es gibt keinen Grund, hierfür Häufigkeiten zu schätzen.
 - **Benutzerkonten, Paket K1 (04.11.2026):** Code für Konten mit Benutzername und Zugangscode, Benutzerverwaltung für Admins (anlegen, Rechte „Abiturarchiv“/„Admin“, Ablaufdatum, neuer Code, entfernen), automatische Löschung abgelaufener Konten und Datenschutzseite liegt vor. Supabase-Schema, Edge Function und Einrichtungsanleitung stehen unter `supabase/`. Am 04.11.2026 mit dem echten Supabase-Projekt eingerichtet und vom Nutzer bestätigt (Anmeldung, Benutzer anlegen und entfernen). Seitdem sehen nicht Angemeldete nur eine Zugangsseite; das grenzt den Nutzerkreis ein, schützt die Inhalte aber nicht. 
-- **Ergebnisse im Konto, Paket K2 (04.11.2026):** Code liegt vor und ist gegen einen lokalen Supabase-Ersatz getestet: Ergebnisse werden je Konto gespeichert und zwischen Geräten abgeglichen, ohne Konto gespeicherte Ergebnisse lassen sich übernehmen. Im echten Projekt eingerichtet; Speichern vom Nutzer bestätigt. Der Abgleich läuft auch beim Seitenwechsel und bei der Rückkehr zum Tab. Danach folgt K3 (Lernfortschritt und Übersicht für Admins).
+- **Ergebnisse im Konto, Paket K2 (04.11.2026):** Code liegt vor und ist gegen einen lokalen Supabase-Ersatz getestet: Ergebnisse werden je Konto gespeichert und zwischen Geräten abgeglichen, ohne Konto gespeicherte Ergebnisse lassen sich übernehmen. Im echten Projekt eingerichtet; Speichern vom Nutzer bestätigt. Der Abgleich läuft auch beim Seitenwechsel und bei der Rückkehr zum Tab. 
+- **Lernfortschritt, Paket K3 (04.11.2026):** Seite „Lernfortschritt“ (Stand je Kapitel und Lernseite, AFB-Aufteilung, Wiederholungsliste mit Sprung zur Aufgabe), echte Kennzahlen auf dem Dashboard und Reiter „Lernstand“ für Admins. Gegen einen lokalen Supabase-Ersatz getestet. Offen: SQL-Datei `20261104140000_admin_progress.sql` im echten Projekt ausführen und Test durch den Nutzer.
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.
 
 ## Geplant
@@ -38,7 +39,6 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschritte. Umfang und Reihenfolge sind offen.
 
 - Speicherung der Handschrift im Benutzerkonto.
-- Lernfortschritt und Wiederholungsbedarf. Nach Entscheidung des Nutzers vom 02.11.2026 erst nach Einführung der Benutzerkonten, weil der Fortschritt an die Zugangsdaten gebunden werden soll.
 - Zusammenhängende Prüfungssimulationen und Abiturtraining.
 - Abbildungen und weitere quellenbasierte Versuchsdarstellungen für die experimentellen Lernseiten.
 - Geschützter Zugang zum Abiturarchiv. Das Recht dafür wird mit K1 je Konto gespeichert; welche Inhalte ins Archiv dürfen und der Schutz von Originalprüfungen sind gesondert zu entscheiden.
@@ -47,7 +47,6 @@ Diese Punkte sind Zielrichtungen, nicht automatisch freigegebene Umsetzungsschri
 
 ## Bewusst zurückgestellt oder noch nicht freigegeben
 
-- Dashboard-Fortschrittswerte und Lernpfad bleiben statische Platzhalter, bis echte Fortschrittsdaten implementiert und freigegeben sind.
 - Abiturarchiv bleibt Platzhalter; Original-PDFs werden nicht in das öffentliche Repository oder den Site-Build übernommen.
 - Kommentare, Notizen, Prüfungssimulationen, kontogebundene Speicherung und die Speicherung von Antworttexten sind nicht Bestandteil des aktuellen Stands.
 - Weitere Supabase-Funktionen über K1–K3 hinaus werden nicht begonnen, bis der Nutzer den konkreten Umfang freigibt.
