@@ -187,7 +187,9 @@ function LessonView({ lesson }: { lesson: LessonContent }) {
     if (!lessonStart) return
 
     // The document is the active scroll container; the lesson has rendered at this point.
-    const top = window.scrollY + lessonStart.getBoundingClientRect().top
+    // The sticky top bar covers the upper edge, so the lesson starts below it.
+    const headerHeight = document.querySelector<HTMLElement>('.topbar')?.offsetHeight ?? 0
+    const top = window.scrollY + lessonStart.getBoundingClientRect().top - headerHeight
     const targetTop = Math.max(0, top)
 
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {

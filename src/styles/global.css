@@ -7,3 +7,4 @@
 @media(max-width:370px){.hero{padding-left:17px;padding-right:17px}.hero h1{font-size:35px}.hero-visual{width:190px}.topbar-right{display:none}.stats-grid{gap:6px}.stat-card{padding:10px 8px}.stat-label{font-size:7px}}
 .pse-button{width:auto;padding:0 10px;margin-right:16px;font:600 10px var(--mono);letter-spacing:1.2px}.breadcrumb{margin-right:auto}
 @media(max-width:800px){.pse-button{margin-right:11px}}
+.topbar{position:sticky;top:0;z-index:15;background:#0b0f14eb;backdrop-filter:blur(8px)}
