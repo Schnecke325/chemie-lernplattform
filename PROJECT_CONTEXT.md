@@ -102,7 +102,7 @@ Seit 04.11.2026 nach Nutzerentscheidung, statt einer Netzwerkprüfung: Wechselnd
   - Geräte x/3 und die Zahl neuer Anmeldungen in 7 Tagen.
   - Aufklappbare Geräteliste mit grober Beschreibung aus der Browser-Kennung (ohne IP-Adresse) und „Alle Geräte abmelden“.
 - **Datenbank:** `supabase/migrations/20261104180000_devices_activity.sql` (`heartbeat`, `admin_activity`, `admin_user_devices`, `admin_sign_out_all`).
-- **Getestet** gegen den lokalen Supabase-Ersatz: Verdrängen mit Hinweis, Statusanzeige, Geräteliste, „Alle Geräte abmelden“, Anmeldezahl bleibt erhalten. Im echten Projekt eingerichtet; der Zugriff auf `auth.sessions` wurde vorher geprüft.
+- **Getestet** gegen den lokalen Supabase-Ersatz: Verdrängen mit Hinweis, Statusanzeige, Geräteliste, „Alle Geräte abmelden“, Anmeldezahl bleibt erhalten. Im echten Projekt eingerichtet; der Zugriff auf `auth.sessions` wurde vorher geprüft. Vom Nutzer bestätigt (04.11.2026).
 
 ## Diskussion zu Aufgaben
 
