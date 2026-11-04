@@ -123,6 +123,7 @@ Neue Funktionen bringen eigene SQL-Dateien mit. Sie werden im SQL Editor (neue, 
 | `20261104160000_notes.sql` | Notizen zu Aufgaben (privat oder geteilt) |
 | `20261104170000_comments.sql` | Diskussion zu Aufgaben |
 | `20261104180000_devices_activity.sql` | Geräte-Limit (3 je Konto, Admins ausgenommen) und Aktivitätsstatus |
+| `20261104190000_activity_last_sign_in.sql` | Letzte Anmeldung als Ersatz, solange noch keine Aktivität erfasst ist |
 
 Ob K2 eingerichtet ist, zeigt diese Abfrage; sie muss ohne Fehler laufen:
 

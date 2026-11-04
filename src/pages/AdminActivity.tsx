@@ -3,7 +3,7 @@ import { supabase } from '../account/client'
 import { formatDate } from '../account/profile'
 
 /** Aktivität und Geräte je Konto für die Benutzerverwaltung (Datenbankfunktionen aus 20261104180000_devices_activity.sql). */
-export interface Activity { lastSeenAt: string | null; everSignedIn: boolean; devices: number; logins7d: number }
+export interface Activity { lastSeenAt: string | null; lastSignInAt: string | null; everSignedIn: boolean; devices: number; logins7d: number }
 interface Device { sessionId: string; userAgent: string | null; signedInAt: string; lastUsedAt: string; allowed: boolean }
 
 const onlineWindow = 3 * 60_000
@@ -14,8 +14,8 @@ export function useAdminActivity() {
   const load = useCallback(async () => {
     const { data, error } = await supabase.rpc('admin_activity')
     if (error) return
-    setActivity(new Map((data as Array<{ user_id: string; last_seen_at: string | null; ever_signed_in: boolean; devices: number; logins_7d: number }>)
-      .map((row) => [row.user_id, { lastSeenAt: row.last_seen_at, everSignedIn: row.ever_signed_in, devices: row.devices, logins7d: row.logins_7d }])))
+    setActivity(new Map((data as Array<{ user_id: string; last_seen_at: string | null; last_sign_in_at?: string | null; ever_signed_in: boolean; devices: number; logins_7d: number }>)
+      .map((row) => [row.user_id, { lastSeenAt: row.last_seen_at, lastSignInAt: row.last_sign_in_at ?? null, everSignedIn: row.ever_signed_in, devices: row.devices, logins7d: row.logins_7d }])))
   }, [])
   useEffect(() => {
     void load()
@@ -39,7 +39,10 @@ export function ActivityStatus({ activity }: { activity?: Activity }) {
   if (!activity.everSignedIn && !activity.lastSeenAt) return <span className="activity-status is-never"><span className="activity-dot"/>noch nie angemeldet</span>
   const online = activity.lastSeenAt !== null && Date.now() - Date.parse(activity.lastSeenAt) < onlineWindow
   if (online) return <span className="activity-status is-online"><span className="activity-dot"/>online</span>
-  return <span className="activity-status is-offline"><span className="activity-dot"/>offline{activity.lastSeenAt && ` · zuletzt ${relative(activity.lastSeenAt)}`}</span>
+  // Vor dem ersten Herzschlag gibt es noch keine Aktivität; dann ersatzweise die letzte Anmeldung
+  const since = activity.lastSeenAt ? `zuletzt online ${relative(activity.lastSeenAt)}`
+    : activity.lastSignInAt ? `zuletzt angemeldet ${relative(activity.lastSignInAt)}` : null
+  return <span className="activity-status is-offline"><span className="activity-dot"/>offline{since && ` · ${since}`}</span>
 }
 
 /** Grobe Gerätebeschreibung aus der Browser-Kennung, z. B. „Chrome auf Windows“. */

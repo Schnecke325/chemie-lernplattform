@@ -98,7 +98,7 @@ Seit 04.11.2026 nach Nutzerentscheidung, statt einer Netzwerkprüfung: Wechselnd
   - Das verdrängte Gerät wird beim nächsten Herzschlag mit einem Hinweis abgemeldet.
 - **Herzschlag:** `AccountContext` ruft `heartbeat()` etwa einmal pro Minute und bei Rückkehr zum Tab auf, solange die Seite sichtbar ist. Dabei werden `profiles.last_seen_at` gesetzt und neue Sitzungen in `session_log` vermerkt (Kennung und Zeitpunkt, 30 Tage).
 - **Benutzerverwaltung** (`src/pages/AdminActivity.tsx`):
-  - Status je Konto: online (Aktivität in den letzten 3 Minuten), offline mit „zuletzt …“ oder orange „noch nie angemeldet“.
+  - Status je Konto: online (Aktivität in den letzten 3 Minuten), offline mit „zuletzt online …“ oder orange „noch nie angemeldet“. Solange ein Konto die Seite seit Einführung des Herzschlags nicht geöffnet hat, steht ersatzweise „zuletzt angemeldet …“ (`20261104190000_activity_last_sign_in.sql`).
   - Geräte x/3 und die Zahl neuer Anmeldungen in 7 Tagen.
   - Aufklappbare Geräteliste mit grober Beschreibung aus der Browser-Kennung (ohne IP-Adresse) und „Alle Geräte abmelden“.
 - **Datenbank:** `supabase/migrations/20261104180000_devices_activity.sql` (`heartbeat`, `admin_activity`, `admin_user_devices`, `admin_sign_out_all`).
