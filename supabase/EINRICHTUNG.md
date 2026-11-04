@@ -122,6 +122,7 @@ Neue Funktionen bringen eigene SQL-Dateien mit. Sie werden im SQL Editor (neue, 
 | `20261104150000_exam_archive.sql` | Privater Speicher für das Abiturarchiv |
 | `20261104160000_notes.sql` | Notizen zu Aufgaben (privat oder geteilt) |
 | `20261104170000_comments.sql` | Diskussion zu Aufgaben |
+| `20261104180000_devices_activity.sql` | Geräte-Limit (3 je Konto, Admins ausgenommen) und Aktivitätsstatus |
 
 Ob K2 eingerichtet ist, zeigt diese Abfrage; sie muss ohne Fehler laufen:
 
@@ -143,6 +144,16 @@ select * from public.admin_practice_summary();
 4. Auf der Website im Abiturarchiv kontrollieren: Admins mit dem Recht „Abiturarchiv“ sehen oben, ob alle 131 PDFs vorhanden sind.
 
 Das Recht „Abiturarchiv“ nur an Konten vergeben, die die Originale sehen dürfen.
+
+### Geräte-Limit prüfen
+
+Das Geräte-Limit liest und löscht Anmeldesitzungen in `auth.sessions`. Diese Abfrage muss im SQL Editor ohne Fehler eine Zahl liefern:
+
+```sql
+select count(*) from auth.sessions;
+```
+
+Meldet sie fehlende Rechte, bitte die Fehlermeldung weitergeben; dann muss das Limit anders umgesetzt werden.
 
 ## Lokale Entwicklung (optional)
 

@@ -48,3 +48,18 @@
 .admin-progress-detail h2{margin:12px 0 16px}
 .admin-progress-detail h2 .admin-muted{font-size:13px;font-weight:400}
 @media(max-width:800px){.admin-progress-row{grid-template-columns:minmax(0,1fr) auto}.admin-progress-row .admin-validity{grid-row:1;grid-column:2}.admin-progress-row .state-bar{grid-column:1/-1;grid-row:2}.admin-progress-counts{grid-column:1/-1}}
+.activity-status{display:flex;align-items:center;gap:6px;font:11px var(--mono);color:#8995a0}
+.activity-dot{width:8px;height:8px;border-radius:50%;background:#6c7a84}
+.activity-status.is-online{color:var(--mint)}
+.activity-status.is-online .activity-dot{background:var(--mint);box-shadow:0 0 8px #80d8bc80}
+.activity-status.is-never{color:#e0a85a}
+.activity-status.is-never .activity-dot{background:#e0a85a}
+.device-info{grid-column:1/-1;padding-top:8px;border-top:1px solid #1c242d}
+.device-toggle{padding:0;border:0;background:none;color:#8995a0;font:11px var(--mono);cursor:pointer}
+.device-toggle:hover{color:var(--mint)}
+.device-panel{display:grid;gap:8px;margin-top:8px}
+.device-panel ul{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.device-panel li{display:grid;gap:2px;padding:8px 10px;border:1px solid #1f2830;border-radius:7px;background:#0f151b;font-size:12px}
+.device-panel li span{color:#8995a0;font-size:11px}
+.device-panel li.is-blocked{opacity:.6}
+.device-panel .admin-action{justify-self:start}

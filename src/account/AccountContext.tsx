@@ -20,6 +20,9 @@ interface AccountValue {
 
 const AccountContext = createContext<AccountValue | null>(null)
 
+/** Abstand der Aktivitätsmeldungen; „online“ heißt in der Benutzerverwaltung: Meldung in den letzten 3 Minuten. */
+const heartbeatInterval = 60_000
+
 // Die Supabase-Bibliothek wird erst nach dem ersten Rendern nachgeladen.
 const loadClient = () => import('./client')
 
@@ -93,6 +96,32 @@ export function AccountProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const refreshProfile = useCallback(() => loadProfile(userIdRef.current), [loadProfile])
+
+  // Herzschlag, solange die Seite sichtbar ist: Online-Status für Admins und Prüfung des Geräte-Limits.
+  // Wurde dieses Gerät durch neuere Anmeldungen verdrängt, wird es mit Hinweis abgemeldet.
+  useEffect(() => {
+    if (state.status !== 'signed-in') return
+    let stopped = false
+    const beat = async () => {
+      if (document.visibilityState !== 'visible') return
+      const { supabase } = await loadClient()
+      const { data, error } = await supabase.rpc('heartbeat')
+      if (stopped || error || data === 'ok') return
+      setNotice(data === 'replaced'
+        ? 'Du wurdest abgemeldet, weil dein Zugang auf einem anderen Gerät angemeldet wurde. Pro Konto sind höchstens 3 Geräte gleichzeitig angemeldet.'
+        : 'Dein Zugang ist abgelaufen. Wende dich an einen Admin.')
+      await supabase.auth.signOut({ scope: 'local' })
+    }
+    void beat()
+    const timer = window.setInterval(() => { void beat() }, heartbeatInterval)
+    const onVisible = () => { if (document.visibilityState === 'visible') void beat() }
+    document.addEventListener('visibilitychange', onVisible)
+    return () => {
+      stopped = true
+      window.clearInterval(timer)
+      document.removeEventListener('visibilitychange', onVisible)
+    }
+  }, [state.status])
 
   const value = useMemo(() => ({ state, notice, signIn, signOut, refreshProfile }), [state, notice, signIn, signOut, refreshProfile])
   return <AccountContext.Provider value={value}>{children}</AccountContext.Provider>

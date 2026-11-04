@@ -88,6 +88,22 @@ Seit 04.11.2026 nach Nutzerentscheidung. Je Konto und Aufgabe gibt es eine Notiz
 - **Datenbank:** `supabase/migrations/20261104160000_notes.sql`. Tabelle `notes` mit höchstens etwa 2 MB Handschrift je Notiz. Die Funktionen `shared_note_counts()`, `shared_notes(exercise)` (ohne getippte Antwort) und `delete_shared_note()` (nur Admins, nur geteilte) stellen sicher, dass die Profiltabelle nicht für alle lesbar wird.
 - **Getestet** gegen den lokalen Supabase-Ersatz: speichern, teilen, wieder öffnen, fremde geteilte Notiz ansehen, Admin entfernt geteilte Notiz, getippte Antwort nie sichtbar. Im echten Projekt eingerichtet und vom Nutzer am 04.11.2026 bestätigt.
 
+## Geräte-Limit und Aktivitätsstatus
+
+Seit 04.11.2026 nach Nutzerentscheidung, statt einer Netzwerkprüfung: Wechselnde IP-Adressen im Mobilfunk und zwischen Schule und Zuhause würden ehrliche Nutzer sperren, und IP-Adressen werden so nicht ausgewertet.
+
+- **Geräte-Limit:** Jedes Konto darf höchstens 3 Geräte gleichzeitig angemeldet haben; Admins sind ausgenommen. Maßgeblich sind die drei neuesten Sitzungen in `auth.sessions`.
+  - `is_active()` prüft zusätzlich `session_allowed()` (Sitzungskennung aus dem JWT). Verdrängte Geräte erhalten deshalb über alle Zugriffsregeln keine Daten mehr.
+  - Der Herzschlag `heartbeat()` entfernt überzählige alte Sitzungen, damit sie sich nicht verlängern.
+  - Das verdrängte Gerät wird beim nächsten Herzschlag mit einem Hinweis abgemeldet.
+- **Herzschlag:** `AccountContext` ruft `heartbeat()` etwa einmal pro Minute und bei Rückkehr zum Tab auf, solange die Seite sichtbar ist. Dabei werden `profiles.last_seen_at` gesetzt und neue Sitzungen in `session_log` vermerkt (Kennung und Zeitpunkt, 30 Tage).
+- **Benutzerverwaltung** (`src/pages/AdminActivity.tsx`):
+  - Status je Konto: online (Aktivität in den letzten 3 Minuten), offline mit „zuletzt …“ oder orange „noch nie angemeldet“.
+  - Geräte x/3 und die Zahl neuer Anmeldungen in 7 Tagen.
+  - Aufklappbare Geräteliste mit grober Beschreibung aus der Browser-Kennung (ohne IP-Adresse) und „Alle Geräte abmelden“.
+- **Datenbank:** `supabase/migrations/20261104180000_devices_activity.sql` (`heartbeat`, `admin_activity`, `admin_user_devices`, `admin_sign_out_all`).
+- **Getestet** gegen den lokalen Supabase-Ersatz: Verdrängen mit Hinweis, Statusanzeige, Geräteliste, „Alle Geräte abmelden“, Anmeldezahl bleibt erhalten. Im echten Projekt eingerichtet; der Zugriff auf `auth.sessions` wurde vorher geprüft.
+
 ## Diskussion zu Aufgaben
 
 Seit 04.11.2026 nach Nutzerentscheidung. Jede Aufgabe hat am Ende einen Bereich „Diskussion (n)“ bzw. „Diskussion starten“, der erst beim Aufklappen geladen wird. Beiträge haben höchstens 2000 Zeichen und eine Antwortebene. Alle gültigen Konten sehen sie mit Namen.

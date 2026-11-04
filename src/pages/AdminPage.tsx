@@ -3,6 +3,7 @@ import { useAccount, useAdminProfile } from '../account/AccountContext'
 import { callAdminFunction, supabase } from '../account/client'
 import { formatDate, isProfileActive, todayBerlin, type Profile } from '../account/profile'
 import { AdminProgress } from './AdminProgress'
+import { ActivityStatus, DeviceInfo, useAdminActivity } from './AdminActivity'
 import './AdminPage.css'
 
 /** Benutzerverwaltung: Konten anlegen, Rechte und Ablaufdatum setzen, Codes erneuern, Konten entfernen. */
@@ -27,6 +28,7 @@ function UserAdmin({ self, onSelfChanged }: { self: Profile; onSelfChanged: () =
   const [busyId, setBusyId] = useState<string | null>(null)
   const [issued, setIssued] = useState<IssuedCode | null>(null)
   const [tab, setTab] = useState<'users' | 'progress'>('users')
+  const { activity, reloadActivity } = useAdminActivity()
 
   const load = useCallback(async () => {
     const { data, error: loadError } = await supabase.from('profiles').select('*').order('display_name')
@@ -128,6 +130,7 @@ function UserAdmin({ self, onSelfChanged }: { self: Profile; onSelfChanged: () =
             <div className="admin-user-name">
               <strong>{user.display_name}{user.id === self.id && <span className="admin-self"> (du)</span>}</strong>
               <span>{user.username}</span>
+              <ActivityStatus activity={activity?.get(user.id)}/>
             </div>
             <Validity user={user}/>
             <div className="admin-rights">
@@ -140,6 +143,7 @@ function UserAdmin({ self, onSelfChanged }: { self: Profile; onSelfChanged: () =
               <button className="admin-action" disabled={busyId !== null} onClick={() => { void resetCode(user) }}>Neuer Code</button>
               <button className="admin-action is-danger" disabled={busyId !== null || user.id === self.id} title={user.id === self.id ? 'Das eigene Konto kann nicht entfernt werden.' : undefined} onClick={() => { void remove(user) }}>Entfernen</button>
             </div>
+            <DeviceInfo userId={user.id} isAdmin={user.is_admin} activity={activity?.get(user.id)} onChanged={() => { void reloadActivity() }}/>
           </>}
       </article>)}
     </section>

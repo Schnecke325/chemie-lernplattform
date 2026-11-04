@@ -35,6 +35,7 @@ Diese Übersicht dokumentiert den aktuellen Repository-Stand und bereits geäuß
 ## Begonnen, aber noch nicht abgeschlossen
 
 - **Feingranulare Prüfungsanalyse:** Die vorhandenen 131 PDFs sind laut Research inventarisiert und breit nach Jahr, Termin, Vorschlag und KCGO-Feld zugeordnet. Teilfragen-/Punkte-Codierung und belastbare Häufigkeitsklassen sind offen. Es gibt keinen Grund, hierfür Häufigkeiten zu schätzen.
+- **Geräte-Limit und Aktivitätsstatus (04.11.2026):** Höchstens 3 gleichzeitig angemeldete Geräte je Konto (Admins ausgenommen), Hinweis beim Verdrängen. Die Benutzerverwaltung zeigt online, offline oder „noch nie angemeldet“, die Geräte mit Gerätetyp, neue Anmeldungen der letzten 7 Tage und „Alle Geräte abmelden“. Gegen einen lokalen Supabase-Ersatz getestet und im echten Projekt eingerichtet. Offen: Test durch den Nutzer.
 - **Aufgabenbezogene Prüfungsreferenzen:** `sourceExamRefs` ist bei 0 von 425 Aufgaben gesetzt; nach Entscheidung vom 02.11.2026 bewusst leer, weil alle Aufgaben eigene Formulierungen sind.
 
 ## Geplant
